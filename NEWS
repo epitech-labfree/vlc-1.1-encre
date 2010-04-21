@@ -9,6 +9,13 @@ Important changes for packagers:
    by invoking 'vlc-cache-gen'. If the module cache is not present and vlc
    can't write in ${libdir}/vlc/, it will result it vlc taking a long time to
    launch each time.
+ * Most X11-related plugins now use XCB instead of Xlib. VLC now uses
+   - xproto,
+   - xcb, xcb-shm, xcb-xv, xcb-randr (from libxcb),
+   - xcb-keysyms (from xcb-utils),
+   - x11-xcb (from libx11) - only for GLX support.
+ * On X11 platforms, a _working_ version of xdg-screensaver is typically
+   required to inhibit the screensaver during video playback.
 
 Access:
  * Support for the sftp protocol
