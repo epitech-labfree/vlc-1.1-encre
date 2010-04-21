@@ -162,8 +162,9 @@ int libvlc_video_get_size( libvlc_media_player_t *p_mi, unsigned num,
     if (p_vout == NULL)
         return -1;
 
-    *px = p_vout->i_window_height;
-    *py = p_vout->i_window_width;
+#warning Not thread-safe!
+    *px = p_vout->i_window_width;
+    *py = p_vout->i_window_height;
     vlc_object_release (p_vout);
     return 0;
 }
