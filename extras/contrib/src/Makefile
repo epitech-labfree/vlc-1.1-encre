@@ -125,7 +125,7 @@ endif
 
 ifdef HAVE_WINCE
 HOSTCONF+= --without-pic --disable-shared
-FFMPEGCONF+= --arch=armv4l --cpu=armv4t --disable-encoders --disable-muxers --disable-mpegaudio-hp --disable-decoder=snow --disable-decoder=vc9 --disable-decoder=wmv3 --disable-decoder=vorbis --disable-decoder=dvdsub --disable-decoder=dvbsub --disable-protocols
+FFMPEGCONF+= --target-os=mingw32ce --arch=armv4l --cpu=armv4t --disable-encoders --disable-muxers --disable-mpegaudio-hp --disable-decoder=snow --disable-decoder=vc9 --disable-decoder=wmv3 --disable-decoder=vorbis --disable-decoder=dvdsub --disable-decoder=dvbsub --disable-protocols
 endif
 
 ifdef HAVE_UCLIBC
@@ -1036,6 +1036,9 @@ endif
 ifdef HAVE_ISA_THUMB
 	patch -p0 < Patches/ffmpeg-avcodec-no-thumb.patch
 endif
+ifdef HAVE_WIN64
+	(cd ffmpeg/libswscale; patch -p0 < ../../Patches/ffmpeg-win64.patch;)
+endif
 ifdef HAVE_UCLIBC
 	patch -p0 < Patches/ffmpeg-svn-uclibc.patch
 	patch -p0 < Patches/ffmpeg-svn-internal-define.patch
@@ -1062,10 +1065,14 @@ FFMPEGCONF += \
 	--disable-protocols \
 	--disable-filters \
 	--disable-network
+ifdef HAVE_WIN64
+FFMPEGCONF += --disable-bzlib --disable-decoder=dca --disable-encoder=vorbis --enable-libmp3lame --enable-w32threads --disable-dxva2 --disable-bsfs 
+else
 ifdef HAVE_WIN32
 FFMPEGCONF += --disable-bzlib --disable-decoder=dca --disable-encoder=vorbis --enable-libmp3lame --enable-w32threads --enable-dxva2 --disable-bsfs
 else
 FFMPEGCONFG += --enable-pthreads
+endif
 endif
 
 ifdef HAVE_WINCE
@@ -1216,8 +1223,14 @@ live555-$(LIVEDOTCOM_VERSION).tar.gz:
 live: live555-$(LIVEDOTCOM_VERSION).tar.gz
 	$(EXTRACT_GZ)
 	patch -p0 < Patches/live-uselocale.patch
+	patch -p0 < Patches/live-inet_ntop.patch
 ifdef HAVE_WIN64
 	patch -p0 < Patches/live-win64.patch
+endif
+ifndef HAVE_WIN32
+ifndef HAVE_WINCE
+	patch -p0 < Patches/live-getaddrinfo.patch
+endif
 endif
 
 .live: live
@@ -1933,11 +1946,8 @@ DISTCLEAN_PKG += libIDL-$(LIBIDL_VERSION).tar.gz
 # Gecko SDK
 # ***************************************************************************
 
-gecko-sdk-ppc-macosx10.2-1.7.5.tar.gz:
-	$(WGET) $(GECKO_SDK_MAC_URL)
-
-gecko-sdk: gecko-sdk-ppc-macosx10.2-1.7.5.tar.gz
-	$(EXTRACT_GZ)
+gecko-sdk: 
+	$(SVN) co $(NPAPI_HEADERS_SVN_URL) -r $(NPAPI_HEADERS_SVN_REVISION) gecko-sdk/include
 
 .gecko: gecko-sdk
 	rm -rf $(PREFIX)/gecko-sdk
@@ -1948,7 +1958,7 @@ gecko-sdk: gecko-sdk-ppc-macosx10.2-1.7.5.tar.gz
 
 CLEAN_FILE += .gecko
 CLEAN_PKG += gecko-sdk
-DISTCLEAN_PKG += gecko-sdk-ppc-macosx10.2-1.7.5.tar.gz
+DISTCLEAN_PKG += xulrunner-1.9.2.en-US.mac-i386.sdk.tar.bz2
 
 # ***************************************************************************
 # Gecko SDK win32
@@ -2333,6 +2343,9 @@ pthreads-w32-$(PTHREADS_VERSION)-release.tar.gz:
 pthreads: pthreads-w32-$(PTHREADS_VERSION)-release.tar.gz
 	$(EXTRACT_GZ)
 	(cd $@; patch -p0 < ../Patches/pthreads-detach.patch)
+ifdef HAVE_WIN64
+	(patch -p0 < Patches/pthreads-win64.patch)
+endif
 
 .pthreads: pthreads
 	(cd $<; $(HOSTCC) make $(PTHREADSCONF) GC GC-static && mkdir -p $(PREFIX)/include && cp -v pthread.h sched.h semaphore.h $(PREFIX)/include/ && mkdir -p $(PREFIX)/lib && cp -v *.a *.dll $(PREFIX)/lib/)
@@ -2386,6 +2399,7 @@ endif
 		--disable-coreaudio \
 		--disable-lash \
 		--disable-ladcca \
+		--disable-portaudio-support \
 		--without-readline
 	cd $< && make
 	cd $< && make install
