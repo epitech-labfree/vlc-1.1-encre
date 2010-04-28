@@ -1032,7 +1032,7 @@ ffmpeg: .dshow_headers
 else
 ffmpeg: 
 endif
-	$(SVN) co $(FFMPEG_SVN) ffmpeg
+	$(SVN) co $(FFMPEG_SVN) ffmpeg -r22960
 ifdef HAVE_ISA_THUMB
 	patch -p0 < Patches/ffmpeg-avcodec-no-thumb.patch
 endif
