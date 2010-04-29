@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.3-rc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-20 23:45+0200\n"
-"PO-Revision-Date: 2010-03-31 18:57+0100\n"
+"POT-Creation-Date: 2010-04-30 00:36+0100\n"
+"PO-Revision-Date: 2010-04-22 20:10+0100\n"
 "Last-Translator: Rousseaux Gaetan <gaetan_rousseaux@voo.be>\n"
 "Language-Team: Walloon <gaetan_rousseaux@voo.be>\n"
 "MIME-Version: 1.0\n"
@@ -82,6 +82,7 @@ msgstr "Apontiaedjes des rascourtis"
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:192
+#: linux/modules/gui/qt4/ui/profiles.h:487
 msgid "Audio"
 msgstr "Odio"
 
@@ -136,6 +137,8 @@ msgstr "Apontiaedjes eyet modules odio di totes sôres."
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
+#: linux/modules/gui/qt4/ui/profiles.h:469
+#: linux/modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "Videyo"
 
@@ -148,9 +151,9 @@ msgid "General video settings"
 msgstr "Apontiaedjes djenerås del videyo"
 
 #: include/vlc_config_cat.h:77
-#, fuzzy
 msgid "Choose your preferred video output and configure it here."
-msgstr "Tchoezixhoz voss pus voltî eployêye rexhowe videyo eyet apontyîz-'lzi."
+msgstr ""
+"Tchoezixhoz vosse pus voltî eployêye rexhowe videyo eyet apontyîz-'lzi."
 
 #: include/vlc_config_cat.h:81
 msgid "Video filters are used to process the video stream."
@@ -206,9 +209,10 @@ msgid "Video codecs"
 msgstr "Codecs Videyo"
 
 #: include/vlc_config_cat.h:112
-#, fuzzy
 msgid "Settings for the video, images or video+audio decoders and encoders."
-msgstr "Apontiaedjes po les decôdeus eyet ecôdeus del videyo-seulmint."
+msgstr ""
+"Apontiaedjes pol videyo, les imådjes ou les decôdeus et ecôdeus videyo + "
+"odio."
 
 #: include/vlc_config_cat.h:114
 msgid "Audio codecs"
@@ -219,14 +223,13 @@ msgid "Settings for the audio-only decoders and encoders."
 msgstr "Apontiaedjes po les decôdeus eyet ecôdeus del odio-seulmint."
 
 #: include/vlc_config_cat.h:117
-#, fuzzy
 msgid "Subtitles codecs"
-msgstr "Ecôdeu des sortites"
+msgstr "Codecs des sortites"
 
 #: include/vlc_config_cat.h:118
-#, fuzzy
 msgid "Settings for subtitles, teletext and CC decoders and encoders."
-msgstr "Apontiaedjes po les decôdeus eyet ecôdeus del videyo-seulmint."
+msgstr ""
+"Apontiaedjes po les sortites, li teletecse et les decôdeus et ecôdeus CC."
 
 #: include/vlc_config_cat.h:120
 msgid "General Input"
@@ -325,7 +328,6 @@ msgstr "Implemintåcion di VLC del Videyo Al Dimande"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:608 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
-#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "Djivêye a djouwer"
@@ -376,6 +378,7 @@ msgstr "Tchûzes po les spepieus"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:180
 #: modules/gui/macosx/open.m:459 modules/gui/macosx/simple_prefs.m:259
+#: linux/modules/gui/qt4/ui/sprefs_input.h:318
 msgid "Network"
 msgstr "Rantoele"
 
@@ -416,7 +419,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:218
 msgid "Subtitle demuxer settings"
-msgstr ""
+msgstr "Apontiaedjes do dismultiplecseu sortite"
 
 #: include/vlc_config_cat.h:220
 msgid ""
@@ -464,9 +467,8 @@ msgid "Select Directory"
 msgstr "Tchoezi Ridant"
 
 #: include/vlc_intf_strings.h:51
-#, fuzzy
 msgid "Select Folder"
-msgstr "Tchoezi Fitchî"
+msgstr "Tchoezi Ridant"
 
 #: include/vlc_intf_strings.h:55
 msgid "Media &Information"
@@ -504,6 +506,7 @@ msgstr "&Åd fwait"
 #: modules/gui/macosx/intf.m:2013 modules/gui/macosx/intf.m:2014
 #: modules/gui/macosx/intf.m:2015 modules/gui/macosx/playlist.m:464
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:790
+#: linux/modules/gui/qt4/ui/open.h:256
 msgid "Play"
 msgstr "Djouwer"
 
@@ -512,9 +515,8 @@ msgid "Fetch Information"
 msgstr "Cweri l' Informåcion"
 
 #: include/vlc_intf_strings.h:67
-#, fuzzy
 msgid "Remove Selected"
-msgstr "Nou fitchî di tchoezi"
+msgstr "Oister les tchoezis"
 
 #: include/vlc_intf_strings.h:68
 msgid "Information..."
@@ -525,19 +527,16 @@ msgid "Sort"
 msgstr "Relîre"
 
 #: include/vlc_intf_strings.h:70
-#, fuzzy
 msgid "Create Directory..."
-msgstr "Drovi &Ridant..."
+msgstr "Ahiver Ridant..."
 
 #: include/vlc_intf_strings.h:71
-#, fuzzy
 msgid "Create Folder..."
-msgstr "Drovi Ridant..."
+msgstr "Ahiver Ridant..."
 
 #: include/vlc_intf_strings.h:72
-#, fuzzy
 msgid "Show Containing Directory..."
-msgstr "Tchoezi on ridant..."
+msgstr ""
 
 #: include/vlc_intf_strings.h:73
 msgid "Show Containing Folder..."
@@ -561,10 +560,9 @@ msgstr "Repeter totafwait"
 #: modules/gui/macosx/controls.m:339 modules/gui/macosx/controls.m:1045
 #: modules/gui/macosx/intf.m:654
 msgid "Repeat One"
-msgstr ""
+msgstr "Repeter ene feye"
 
 #: include/vlc_intf_strings.h:82
-#, fuzzy
 msgid "No Repeat"
 msgstr "Nou repetaedje"
 
@@ -584,29 +582,24 @@ msgid "Add to Playlist"
 msgstr "Radjouter al Djivêye a djouwer"
 
 #: include/vlc_intf_strings.h:88
-#, fuzzy
 msgid "Add to Media Library"
 msgstr "Radjouter al livreye di media"
 
 #: include/vlc_intf_strings.h:90
-#, fuzzy
 msgid "Add File..."
 msgstr "Radjouter fitchî..."
 
 #: include/vlc_intf_strings.h:91
-#, fuzzy
 msgid "Advanced Open..."
-msgstr "Sipepieusès tchuzes..."
+msgstr ""
 
 #: include/vlc_intf_strings.h:92
-#, fuzzy
 msgid "Add Directory..."
 msgstr "Radjouter ridant..."
 
 #: include/vlc_intf_strings.h:93
-#, fuzzy
 msgid "Add Folder..."
-msgstr "Radjouter fitchî..."
+msgstr "Radjouter ridant..."
 
 #: include/vlc_intf_strings.h:95
 msgid "Save Playlist to &File..."
@@ -658,6 +651,7 @@ msgstr ""
 "divwêyreut esse groxheye."
 
 #: include/vlc_intf_strings.h:117
+#: linux/modules/gui/qt4/ui/video_effects.h:1141
 msgid "Waves"
 msgstr "Waches"
 
@@ -760,7 +754,7 @@ msgstr "Speke"
 
 #: src/audio_output/input.c:118
 msgid "Vu meter"
-msgstr "Vu mete"
+msgstr "Vu-mete"
 
 #: src/audio_output/input.c:153 modules/audio_filter/equalizer.c:76
 #: modules/gui/macosx/equalizer.m:144 modules/gui/macosx/equalizer.m:145
@@ -800,6 +794,9 @@ msgstr "Stereyo"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1114
+#: linux/modules/gui/qt4/ui/video_effects.h:1177
+#: linux/modules/gui/qt4/ui/video_effects.h:1182
 msgid "Left"
 msgstr "Hintche"
 
@@ -811,6 +808,7 @@ msgstr "Hintche"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1116
 msgid "Right"
 msgstr "Droete"
 
@@ -844,7 +842,6 @@ msgstr "tchinne"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
-#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "Livreye di Media"
 
@@ -854,14 +851,12 @@ msgid "Bookmark %i"
 msgstr "Rimårke %i"
 
 #: src/input/decoder.c:270
-#, fuzzy
 msgid "packetizer"
-msgstr "Ewalpeus"
+msgstr "Ewalpeu"
 
 #: src/input/decoder.c:270
-#, fuzzy
 msgid "decoder"
-msgstr "Decôdeus"
+msgstr "decôdeu"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
@@ -872,9 +867,9 @@ msgid "Streaming / Transcoding failed"
 msgstr ""
 
 #: src/input/decoder.c:279
-#, fuzzy, c-format
+#, c-format
 msgid "VLC could not open the %s module."
-msgstr "VLC n' saveut nén drovi l' module do decôdeu."
+msgstr "VLC n' saveut nén drovi l' module %s."
 
 #: src/input/decoder.c:431
 msgid "VLC could not open the decoder module."
@@ -942,12 +937,14 @@ msgid "Original ID"
 msgstr "Oridjinnå ID"
 
 #: src/input/es_out.c:2864 src/input/es_out.c:2867
-#: modules/gui/macosx/wizard.m:385
+#: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
+#: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "Codec"
 
 #: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Lingaedje"
 
@@ -957,7 +954,7 @@ msgid "Description"
 msgstr "Discrijhaedje"
 
 #: src/input/es_out.c:2883 src/input/es_out.c:2886
-#: modules/gui/macosx/output.m:176
+#: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "Canås"
 
@@ -977,6 +974,8 @@ msgstr "Bits pa frecwince di sampling"
 #: src/input/es_out.c:2906 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
+#: linux/modules/gui/qt4/ui/profiles.h:471
+#: linux/modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "Roedeur des bites"
 
@@ -998,7 +997,7 @@ msgstr "Ridjouwer l' albom"
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2930
+#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "Finté"
 
@@ -1035,6 +1034,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:663 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:348
 #: modules/gui/qt4/components/open_panels.cpp:372 modules/mux/asf.c:56
+#: linux/modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
 msgstr "Tite"
 
@@ -1072,6 +1072,7 @@ msgid "Setting"
 msgstr "Apontiaedje"
 
 #: src/input/meta.c:61 modules/gui/macosx/open.m:203
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:103
 msgid "URL"
 msgstr "URL"
 
@@ -1105,6 +1106,7 @@ msgstr "Programes"
 
 #: src/input/var.c:192 modules/gui/macosx/intf.m:664
 #: modules/gui/macosx/intf.m:665 modules/gui/macosx/open.m:191
+#: linux/modules/gui/qt4/ui/open_disk.h:303
 msgid "Chapter"
 msgstr "Tchaptrê"
 
@@ -1267,14 +1269,14 @@ msgid ""
 msgstr ""
 
 #: src/libvlc.c:1909
-#, fuzzy, c-format
+#, c-format
 msgid "VLC version %s (%s)\n"
-msgstr "Modêye di VLC %s\n"
+msgstr "Modêye di VLC %s (%s)\n"
 
 #: src/libvlc.c:1911
-#, fuzzy, c-format
+#, c-format
 msgid "Compiled by %s on %s (%s)\n"
-msgstr "Copilé pa %s@%s.%s\n"
+msgstr "Copilé pa %s so %s (%s)\n"
 
 #: src/libvlc.c:1913
 #, c-format
@@ -1328,6 +1330,9 @@ msgid ""
 "select the main interface, additional interface modules, and define various "
 "related options."
 msgstr ""
+"Cenes tchuzes vos permetèt d' apontyî les eterfaces eployeyes pa VLC. Vos "
+"ploz tchoezi li mwaisse terface, des modules d' interface di rawete, et "
+"defini totès sôres di tchuzes raloyeyes."
 
 #: src/libvlc-module.c:172
 msgid "Interface module"
@@ -1338,6 +1343,8 @@ msgid ""
 "This is the main interface used by VLC. The default behavior is to "
 "automatically select the best module available."
 msgstr ""
+"Çouci est l' mwaisse eterface eployeye pa VLC. L' prémetou naxhe est d' "
+"tchoezi otomaticmint li meyeu module disponibe."
 
 #: src/libvlc-module.c:178 modules/control/ntservice.c:57
 msgid "Extra interface modules"
@@ -1396,7 +1403,6 @@ msgid "This stream will always be opened at VLC startup."
 msgstr "Ci floû serè todi drovowe a l' enondaedje di VLC."
 
 #: src/libvlc-module.c:213
-#, fuzzy
 msgid ""
 "You can manually select a language for the interface. The system language is "
 "auto-detected if \"auto\" is specified here."
@@ -1423,6 +1429,9 @@ msgid ""
 "When this is enabled, the preferences and/or interfaces will show all "
 "available options, including those that most users should never touch."
 msgstr ""
+"Cwand çouci est en alaedje, les preferinces et/ou les eterfaces mosterront "
+"totes les tchuzes disponibes, avou ki les cisses ki li pupårt des uzeus ni "
+"duvrént måy djonde."
 
 #: src/libvlc-module.c:228
 msgid "Interface interaction"
@@ -1451,8 +1460,11 @@ msgid ""
 "This is the audio output method used by VLC. The default behavior is to "
 "automatically select the best method available."
 msgstr ""
+"Çouci est l' metôde di rexhowe odio eployeye pa VLC. L' prémetou naxhe est "
+"d' tchoezi otomaticmint li meyeuse metôde disponibe."
 
 #: src/libvlc-module.c:252 modules/stream_out/display.c:41
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:404
 msgid "Enable audio"
 msgstr "Met en alaedje l' odio"
 
@@ -1495,7 +1507,7 @@ msgstr ""
 
 #: src/libvlc-module.c:272
 msgid "Audio output volume step"
-msgstr ""
+msgstr "Digré do volume del rexhowe odio"
 
 #: src/libvlc-module.c:274
 msgid ""
@@ -1548,6 +1560,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:301 modules/gui/macosx/simple_prefs.m:237
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
 msgstr "Eployî S/PDIF cwand c' est disponibe"
 
@@ -1636,7 +1649,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:383
+#: modules/gui/qt4/components/interface_widgets.cpp:359
 msgid "None"
 msgstr "Nole"
 
@@ -1665,6 +1678,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:375 modules/stream_out/display.c:43
+#: linux/modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
 msgstr "Mete en alaedje videyo"
 
@@ -1757,6 +1771,9 @@ msgstr "Mitan"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1112
+#: linux/modules/gui/qt4/ui/video_effects.h:1178
+#: linux/modules/gui/qt4/ui/video_effects.h:1181
 msgid "Top"
 msgstr "Dizeu"
 
@@ -1765,6 +1782,7 @@ msgstr "Dizeu"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1118
 msgid "Bottom"
 msgstr "Al valêye"
 
@@ -1858,6 +1876,7 @@ msgstr ""
 
 #: src/libvlc-module.c:442 src/video_output/vout_intf.c:344
 #: modules/gui/macosx/simple_prefs.m:295
+#: linux/modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "Tofer al copete"
 
@@ -1927,9 +1946,8 @@ msgid "Deinterlace mode"
 msgstr ""
 
 #: src/libvlc-module.c:481
-#, fuzzy
 msgid "Deinterlace method to use for video processing."
-msgstr "Disinterlacî l' videyo divant l' ecôdaedje."
+msgstr "Metôde di disinterlaçaedje la eployî pol aspougnaedje del videyo."
 
 #: src/libvlc-module.c:487 modules/video_filter/deinterlace.c:129
 msgid "Discard"
@@ -1969,7 +1987,7 @@ msgid ""
 "computer being suspended because of inactivity."
 msgstr ""
 
-#: src/libvlc-module.c:503
+#: src/libvlc-module.c:503 linux/modules/gui/qt4/ui/sprefs_video.h:316
 msgid "Window decorations"
 msgstr "Gåliotaedjes des purneas"
 
@@ -2089,7 +2107,7 @@ msgstr ""
 
 #: src/libvlc-module.c:569
 msgid "Video scaling factor"
-msgstr ""
+msgstr "Facteur di metaedje al schåle del videyo"
 
 #: src/libvlc-module.c:571
 msgid ""
@@ -2140,6 +2158,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:597 modules/gui/macosx/simple_prefs.m:297
+#: linux/modules/gui/qt4/ui/sprefs_video.h:315
 msgid "Skip frames"
 msgstr "Passer houte les cådes"
 
@@ -2214,7 +2233,7 @@ msgstr ""
 
 #: src/libvlc-module.c:641
 msgid "Clock jitter"
-msgstr ""
+msgstr "Skeye di l' ôrlodje"
 
 #: src/libvlc-module.c:643
 msgid ""
@@ -2242,12 +2261,13 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:770 modules/gui/macosx/vout.m:212
 #: modules/gui/qt4/components/preferences_widgets.cpp:614
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:72
-#: modules/video_filter/rss.c:185 modules/video_output/msw/directx.c:91
+#: modules/video_filter/rss.c:185 modules/video_output/msw/directx.c:95
 msgid "Default"
 msgstr "Prémetou"
 
 #: src/libvlc-module.c:653 modules/gui/macosx/equalizer.m:149
 #: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:354
+#: linux/modules/gui/qt4/ui/equalizer.h:127 linux/modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Mete en alaedje"
 
@@ -2293,7 +2313,6 @@ msgid "IPv4 multicast output interface address"
 msgstr "Adresse di l' eterface del rexhowe multicast IPv4"
 
 #: src/libvlc-module.c:678
-#, fuzzy
 msgid ""
 "IPv4 address for the default multicast interface. This overrides the routing "
 "table."
@@ -2324,7 +2343,7 @@ msgid ""
 "(like DVB streams for example)."
 msgstr ""
 
-#: src/libvlc-module.c:700
+#: src/libvlc-module.c:700 linux/modules/gui/qt4/ui/open_disk.h:305
 msgid "Audio track"
 msgstr "Boket odio"
 
@@ -2332,7 +2351,7 @@ msgstr "Boket odio"
 msgid "Stream number of the audio track to use (from 0 to n)."
 msgstr "Limero do floû do boket odio a eployî (di 0 a n)."
 
-#: src/libvlc-module.c:705
+#: src/libvlc-module.c:705 linux/modules/gui/qt4/ui/open_disk.h:306
 msgid "Subtitles track"
 msgstr "Sortite do boket"
 
@@ -2418,9 +2437,8 @@ msgid "Favor speed over precision while seeking"
 msgstr ""
 
 #: src/libvlc-module.c:749
-#, fuzzy
 msgid "Playback speed"
-msgstr "Djouwaedje"
+msgstr "Raddisté del djouwaedje"
 
 #: src/libvlc-module.c:751
 msgid "This defines the playback speed (nominal speed is 1.0)."
@@ -2461,7 +2479,7 @@ msgid ""
 "{...}\""
 msgstr ""
 
-#: src/libvlc-module.c:770
+#: src/libvlc-module.c:770 linux/modules/gui/qt4/ui/sprefs_input.h:316
 msgid "Record directory or filename"
 msgstr "Eredjistrer l' ridant ou l' no d' fitchî"
 
@@ -2505,7 +2523,7 @@ msgid ""
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
 
-#: src/libvlc-module.c:796
+#: src/libvlc-module.c:796 linux/modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
 msgstr "Foirci l' pôzucion des sortites"
 
@@ -2528,6 +2546,7 @@ msgstr ""
 #: src/libvlc-module.c:805 src/libvlc-module.c:1758
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:201
 msgid "On Screen Display"
 msgstr "Håynaedje sol waitroûle"
 
@@ -2934,7 +2953,6 @@ msgid "Enable CPU MMX support"
 msgstr "Mete en alaedje li sopoirt CPU MMX"
 
 #: src/libvlc-module.c:1026
-#, fuzzy
 msgid ""
 "If your processor supports the MMX instructions set, VLC can take advantage "
 "of them."
@@ -2991,59 +3009,51 @@ msgstr ""
 "advintaedje di zèles."
 
 #: src/libvlc-module.c:1049
-#, fuzzy
 msgid "Enable CPU SSE3 support"
-msgstr "Mete en alaedje li sopoirt CPU SSE"
+msgstr "Mete en alaedje li sopoirt CPU SSE3"
 
 #: src/libvlc-module.c:1051
-#, fuzzy
 msgid ""
 "If your processor supports the SSE3 instructions set, VLC can take advantage "
 "of them."
 msgstr ""
-"Si vosse processeu sopite l' djeu d' instruccions SSE, VLC pour prinde "
+"Si vosse processeu sopoite l' djeu d' instruccions SSE, VLC pout prinde "
 "advintaedje di zèles."
 
 #: src/libvlc-module.c:1054
-#, fuzzy
 msgid "Enable CPU SSSE3 support"
-msgstr "Mete en alaedje li sopoirt CPU SSE"
+msgstr "Mete en alaedje li sopoirt CPU SSSE3"
 
 #: src/libvlc-module.c:1056
-#, fuzzy
 msgid ""
 "If your processor supports the SSSE3 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
-"Si vosse processeu sopite l' djeu d' instruccions SSE, VLC pour prinde "
+"Si vosse processeu sopoite l' djeu d' instruccions SSSE3, VLC pout prinde "
 "advintaedje di zèles."
 
 #: src/libvlc-module.c:1059
-#, fuzzy
 msgid "Enable CPU SSE4.1 support"
-msgstr "Mete en alaedje li sopoirt CPU SSE"
+msgstr "Mete en alaedje li sopoirt CPU SSE4.1"
 
 #: src/libvlc-module.c:1061
-#, fuzzy
 msgid ""
 "If your processor supports the SSE4.1 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
-"Si vosse processeu sopite l' djeu d' instruccions SSE, VLC pour prinde "
+"Si vosse processeu sopoite l' djeu d' instruccions SSE4.1, VLC pout prinde "
 "advintaedje di zèles."
 
 #: src/libvlc-module.c:1064
-#, fuzzy
 msgid "Enable CPU SSE4.2 support"
-msgstr "Mete en alaedje li sopoirt CPU SSE2"
+msgstr "Mete en alaedje li sopoirt CPU SSE4.2"
 
 #: src/libvlc-module.c:1066
-#, fuzzy
 msgid ""
 "If your processor supports the SSE4.2 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
-"Si vosse processeu sopite l' djeu d' instruccions SSE2, VLC pour prinde "
+"Si vosse processeu sopoite l' djeu d' instruccions SSE4.2, VLC pout prinde "
 "advintaedje di zèles."
 
 #: src/libvlc-module.c:1069
@@ -3137,10 +3147,12 @@ msgstr ""
 msgid ""
 "This option is useful if you want to lower the latency when reading a stream"
 msgstr ""
+"Cisse tchuze est ahessåve si vos vloz baxhî li latince cwand vos lihoz on "
+"floû"
 
 #: src/libvlc-module.c:1120
 msgid "Modules search path"
-msgstr ""
+msgstr "Tchmin di cweraedje des modules"
 
 #: src/libvlc-module.c:1122
 msgid ""
@@ -3150,7 +3162,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1125
 msgid "Data search path"
-msgstr ""
+msgstr "Tchmin di cweraedje des dnêyes"
 
 #: src/libvlc-module.c:1127
 msgid "Override the default data/share search path."
@@ -3162,7 +3174,7 @@ msgstr "Fitchî d' apontiaedje VLC"
 
 #: src/libvlc-module.c:1131
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr ""
+msgstr "Lére on fitchî d' apontiaedje VLM ossu rade kiVLM est enondé."
 
 #: src/libvlc-module.c:1133
 msgid "Use a plugins cache"
@@ -3173,22 +3185,20 @@ msgid "Use a plugins cache which will greatly improve the startup time of VLC."
 msgstr ""
 
 #: src/libvlc-module.c:1137
-#, fuzzy
 msgid "Locally collect statistics"
-msgstr "Ramexhner les sitatistikes"
+msgstr "Ramexhner les sitatistikes coinreçmint"
 
 #: src/libvlc-module.c:1139
-#, fuzzy
 msgid "Collect miscellaneous local statistics about the playing media."
-msgstr "Ramexhner sacwants sitatistikes."
+msgstr "Ramexhner sacwants coinreces sitatistikes åd fwait do djouwé media."
 
 #: src/libvlc-module.c:1141
 msgid "Run as daemon process"
-msgstr ""
+msgstr "Enonder come processus démon"
 
 #: src/libvlc-module.c:1143
 msgid "Runs VLC as a background daemon process."
-msgstr ""
+msgstr "Enonde VLC come on processus démon di fond."
 
 #: src/libvlc-module.c:1145
 msgid "Write process id to file"
@@ -3241,7 +3251,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1176
 msgid "VLC is started from file association"
-msgstr ""
+msgstr "VLC est enondé d' ene assoçnaedje di fitchîs"
 
 #: src/libvlc-module.c:1178
 msgid "Tell VLC that it is being launched due to a file association in the OS"
@@ -3327,11 +3337,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1231
 msgid "Play files randomly forever"
-msgstr ""
+msgstr "Djouwer des fitchîs tofer a l' astcheyance"
 
 #: src/libvlc-module.c:1233
 msgid "VLC will randomly play files in the playlist until interrupted."
-msgstr ""
+msgstr "VLC djouwerè des fitchîs dins l' djivêye a djouwer disk' al djokaedje."
 
 #: src/libvlc-module.c:1235
 msgid "Repeat all"
@@ -3366,13 +3376,12 @@ msgid "Exit if there are no more items in the playlist."
 msgstr "Moussî foû si gn a pont d' cayet dins l' djivêye a djouwer."
 
 #: src/libvlc-module.c:1251
-#, fuzzy
 msgid "Play and pause"
 msgstr "Djouwer eyet arester"
 
 #: src/libvlc-module.c:1253
 msgid "Pause each item in the playlist on the last frame."
-msgstr ""
+msgstr "Djoker tchaeke cayet dins l' djivêye a djouwer sol dierinne cåde."
 
 #: src/libvlc-module.c:1255
 msgid "Use media library"
@@ -3407,6 +3416,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:685 modules/gui/macosx/intf.m:750
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/gui/qt4/components/controller.hpp:105
+#: linux/modules/gui/qt4/ui/sprefs_video.h:311
 msgid "Fullscreen"
 msgstr "Forrimpli l' waitroûle"
 
@@ -3495,7 +3505,9 @@ msgstr "Pus londjin (fén)"
 #: modules/gui/macosx/intf.m:746 modules/gui/macosx/wizard.m:309
 #: modules/gui/macosx/wizard.m:321 modules/gui/macosx/wizard.m:1623
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:321
+#: modules/misc/notify/notify.c:321 linux/modules/gui/qt4/ui/sout.h:327
+#: linux/modules/gui/qt4/ui/sout.h:338
+#: linux/modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
 msgstr "Shuvant"
 
@@ -3510,7 +3522,8 @@ msgstr ""
 #: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:599
 #: modules/gui/macosx/intf.m:651 modules/gui/macosx/intf.m:739
 #: modules/gui/macosx/intf.m:745 modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:319
+#: modules/misc/notify/notify.c:319 linux/modules/gui/qt4/ui/sout.h:337
+#: linux/modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
 msgstr "Di dvant"
 
@@ -3524,7 +3537,7 @@ msgstr ""
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:602
 #: modules/gui/macosx/intf.m:647 modules/gui/macosx/intf.m:737
 #: modules/gui/macosx/intf.m:744 modules/gui/qt4/components/controller.hpp:104
-#: modules/misc/notify/xosd.c:231
+#: modules/misc/notify/xosd.c:231 linux/modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
 msgstr "Arester"
 
@@ -3536,6 +3549,7 @@ msgstr "Tchoezixhoz l' rascourti taprece po arester djouwaedje."
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:607
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
+#: linux/modules/gui/qt4/ui/video_effects.h:1167
 msgid "Position"
 msgstr "Pôzucion"
 
@@ -3545,35 +3559,35 @@ msgstr "Tchoezixhoz l' rascourti po håyner l' pôzucion."
 
 #: src/libvlc-module.c:1303
 msgid "Very short backwards jump"
-msgstr "Mo courts potchaedjes en éri"
+msgstr "Mo court potchaedje en éri"
 
 #: src/libvlc-module.c:1305
 msgid "Select the hotkey to make a very short backwards jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on mo court potchaedje en éri."
 
 #: src/libvlc-module.c:1306
 msgid "Short backwards jump"
-msgstr "Courts potchaedjes en éri"
+msgstr "Courts potchaedje en éri"
 
 #: src/libvlc-module.c:1308
 msgid "Select the hotkey to make a short backwards jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on court potchaedje en éri."
 
 #: src/libvlc-module.c:1309
 msgid "Medium backwards jump"
-msgstr "Moyéns potchaedjes en éri"
+msgstr "Moyén potchaedje en éri"
 
 #: src/libvlc-module.c:1311
 msgid "Select the hotkey to make a medium backwards jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on moyén potchaedje en éri."
 
 #: src/libvlc-module.c:1312
 msgid "Long backwards jump"
-msgstr "Longs potchaedjes en éri"
+msgstr "Long potchaedje en éri"
 
 #: src/libvlc-module.c:1314
 msgid "Select the hotkey to make a long backwards jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on long potchaedje en éri."
 
 #: src/libvlc-module.c:1316
 msgid "Very short forward jump"
@@ -3581,7 +3595,7 @@ msgstr "Mo court potchaedje en avant"
 
 #: src/libvlc-module.c:1318
 msgid "Select the hotkey to make a very short forward jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on mo court potchaedje en avant."
 
 #: src/libvlc-module.c:1319
 msgid "Short forward jump"
@@ -3589,7 +3603,7 @@ msgstr "Court potchaedje en avant"
 
 #: src/libvlc-module.c:1321
 msgid "Select the hotkey to make a short forward jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on court potchaedje en avant."
 
 #: src/libvlc-module.c:1322
 msgid "Medium forward jump"
@@ -3597,7 +3611,7 @@ msgstr "Moyén potchaedje en avant"
 
 #: src/libvlc-module.c:1324
 msgid "Select the hotkey to make a medium forward jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on moyén potchaedje en avant."
 
 #: src/libvlc-module.c:1325
 msgid "Long forward jump"
@@ -3605,7 +3619,7 @@ msgstr "Long potchaedje en avant"
 
 #: src/libvlc-module.c:1327
 msgid "Select the hotkey to make a long forward jump."
-msgstr ""
+msgstr "Tchoezi l' rascourti po fé on long potchaedje en avant."
 
 #: src/libvlc-module.c:1328 modules/control/hotkeys.c:713
 msgid "Next frame"
@@ -3617,35 +3631,35 @@ msgstr "Tchoezixhoz l' rascourti oa aler al l' shuvante cåde videyo."
 
 #: src/libvlc-module.c:1332
 msgid "Very short jump length"
-msgstr ""
+msgstr "Longueu do mo court potchaedje"
 
 #: src/libvlc-module.c:1333
 msgid "Very short jump length, in seconds."
-msgstr ""
+msgstr "Longueu do mo court potchaedje, e segondes."
 
 #: src/libvlc-module.c:1334
 msgid "Short jump length"
-msgstr ""
+msgstr "Longueu do court potchaedje"
 
 #: src/libvlc-module.c:1335
 msgid "Short jump length, in seconds."
-msgstr ""
+msgstr "Longueu do court potchaedje, e segondes."
 
 #: src/libvlc-module.c:1336
 msgid "Medium jump length"
-msgstr ""
+msgstr "Longueu do moyén potchaedje"
 
 #: src/libvlc-module.c:1337
 msgid "Medium jump length, in seconds."
-msgstr ""
+msgstr "Longueu do moyén potchaedje, e segondes."
 
 #: src/libvlc-module.c:1338
 msgid "Long jump length"
-msgstr ""
+msgstr "Longueu do long potchaedje"
 
 #: src/libvlc-module.c:1339
 msgid "Long jump length, in seconds."
-msgstr ""
+msgstr "Longueu do long potchaedje, e segondes."
 
 #: src/libvlc-module.c:1341 modules/control/hotkeys.c:179
 #: modules/gui/qt4/components/controller.hpp:108
@@ -3785,24 +3799,20 @@ msgid "Select the key to decrease the subtitle delay."
 msgstr "Tchoezixhoz l' tape po raptiti li tårdaedje do sortite."
 
 #: src/libvlc-module.c:1373
-#, fuzzy
 msgid "Subtitle position up"
-msgstr "Foirci l' pôzucion des sortites"
+msgstr "Eplaeçmint do dizeu des sortites"
 
 #: src/libvlc-module.c:1374
-#, fuzzy
 msgid "Select the key to move subtitles higher."
-msgstr "Tchoezixhoz l' tape po rinde moya."
+msgstr "Tchoezixhoz l' tape po bodjî les sortites pus hôt."
 
 #: src/libvlc-module.c:1375
-#, fuzzy
 msgid "Subtitle position down"
-msgstr "Foirci l' pôzucion des sortites"
+msgstr "Eplaeçmint do dzo des sortites"
 
 #: src/libvlc-module.c:1376
-#, fuzzy
 msgid "Select the key to move subtitles lower."
-msgstr "Tchoezixhoz l' tape po rinde moya."
+msgstr "Tchoezixhoz l' tape po bodjî les sortites pus bas."
 
 #: src/libvlc-module.c:1377
 msgid "Audio delay up"
@@ -3954,23 +3964,27 @@ msgstr "Çouci vos permete di defini les rimåkes del divêye a djouwer."
 
 #: src/libvlc-module.c:1423
 msgid "Go back in browsing history"
-msgstr ""
+msgstr "Aler en éri dins l' istwere do foytaedje"
 
 #: src/libvlc-module.c:1424
 msgid ""
 "Select the key to go back (to the previous media item) in the browsing "
 "history."
 msgstr ""
+"Tchoezi l' boton po-z aler en éri (å cayet media di dvant) dins l' istwere "
+"do foytaedje."
 
 #: src/libvlc-module.c:1425
 msgid "Go forward in browsing history"
-msgstr ""
+msgstr "Aler en avant dins l' istwere do foytaedje"
 
 #: src/libvlc-module.c:1426
 msgid ""
 "Select the key to go forward (to the next media item) in the browsing "
 "history."
 msgstr ""
+"Tchoezi l' boton po-z aler en avant (å cayet media shuvant) dins l' istwere "
+"do foytaedje."
 
 #: src/libvlc-module.c:1428
 msgid "Cycle audio track"
@@ -4068,7 +4082,7 @@ msgstr "Eredjistraedje"
 
 #: src/libvlc-module.c:1452
 msgid "Record access filter start/stop."
-msgstr ""
+msgstr "Ataker/arester l' passete d' accès del eredjistraedje."
 
 #: src/libvlc-module.c:1453
 msgid "Dump"
@@ -4131,9 +4145,8 @@ msgid "Toggle wallpaper mode in video output"
 msgstr ""
 
 #: src/libvlc-module.c:1490
-#, fuzzy
 msgid "Toggle wallpaper mode in video output."
-msgstr "Mete en alaedje li môde di tapisreye"
+msgstr "Discandjî l' môde di tapisreye dins l' rexhowe videyo."
 
 #: src/libvlc-module.c:1492 src/libvlc-module.c:1493
 msgid "Display OSD menu on top of video output"
@@ -4213,7 +4226,8 @@ msgstr ""
 
 #: src/libvlc-module.c:1767 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
-#: modules/demux/subtitle.c:73
+#: modules/demux/subtitle.c:73 linux/modules/gui/qt4/ui/profiles.h:495
+#: linux/modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "Sortites"
 
@@ -4340,19 +4354,19 @@ msgid "main program"
 msgstr "mwaisse programe"
 
 #: src/misc/update.c:487
-#, fuzzy, c-format
+#, c-format
 msgid "%.1f GiB"
-msgstr "%.1f GB"
+msgstr "%.1f GiB"
 
 #: src/misc/update.c:489
-#, fuzzy, c-format
+#, c-format
 msgid "%.1f MiB"
-msgstr "%.1f MB"
+msgstr "%.1f MiB"
 
 #: src/misc/update.c:491
-#, fuzzy, c-format
+#, c-format
 msgid "%.1f KiB"
-msgstr "%.1f GB"
+msgstr "%.1f GiB"
 
 #: src/misc/update.c:493
 #, c-format
@@ -4464,9 +4478,8 @@ msgid "Downloaded file \"%s\" was corrupted. Thus, it was deleted."
 msgstr "L' fitchî \"%s\" aberweté esteut crombe. Adon il esteut disfacé."
 
 #: src/misc/update.c:734
-#, fuzzy
 msgid "Update VLC media player"
-msgstr "VLC media player"
+msgstr "Mete a djoû l' djouweu d' media VLC"
 
 #: src/misc/update.c:735
 msgid ""
@@ -4475,9 +4488,8 @@ msgid ""
 msgstr ""
 
 #: src/misc/update.c:736
-#, fuzzy
 msgid "Install"
-msgstr "Industriyel"
+msgstr "Astaler"
 
 #: src/playlist/tree.c:67 modules/access/bda/bda.c:68
 #: modules/access/bda/bda.c:121 modules/access/bda/bda.c:138
@@ -4495,6 +4507,7 @@ msgstr "Après traitmint"
 #: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:692
 #: modules/gui/macosx/intf.m:693 modules/video_filter/crop.c:107
 #: modules/video_filter/croppadd.c:86
+#: linux/modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr "Côper dvins"
 
@@ -4879,7 +4892,7 @@ msgstr ""
 msgid "Hierarchy alpha value [Undefined,1,2,4]"
 msgstr ""
 
-#: modules/access/bda/bda.c:169
+#: modules/access/bda/bda.c:169 linux/modules/gui/qt4/ui/streampanel.h:170
 msgid "1"
 msgstr "1"
 
@@ -4981,6 +4994,7 @@ msgstr ""
 
 #: modules/access/cdda.c:67 modules/gui/macosx/open.m:198
 #: modules/gui/macosx/open.m:643 modules/gui/macosx/open.m:731
+#: linux/modules/gui/qt4/ui/open_disk.h:293
 msgid "Audio CD"
 msgstr "Plake lazer CD odio"
 
@@ -5060,6 +5074,8 @@ msgid ""
 "Name of the video device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used."
 msgstr ""
+"No di l' éndjin videyo ki serè eployî pa l' tchôke-divins DirectShow. Si vos "
+"n' specifiyîz rén, l' prémetou éndjin serè eployî."
 
 #: modules/access/dshow/dshow.cpp:108
 #: modules/gui/qt4/components/open_panels.cpp:743
@@ -5072,6 +5088,8 @@ msgid ""
 "Name of the audio device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used. "
 msgstr ""
+"No di l' éndjin odioo ki serè eployî pa l' tchôke-divins DirectShow. Si vos "
+"n' specifiyîz rén, l' prémetou éndjin serè eployî."
 
 #: modules/access/dshow/dshow.cpp:113
 #: modules/gui/qt4/components/open_panels.cpp:647
@@ -5233,7 +5251,7 @@ msgstr "Intrêye DirectShow"
 
 #: modules/access/dshow/dshow.cpp:196 modules/access/dshow/dshow.cpp:201
 #: modules/audio_output/alsa.c:117 modules/audio_output/directx.c:140
-#: modules/audio_output/waveout.c:109 modules/video_output/msw/directx.c:112
+#: modules/audio_output/waveout.c:109 modules/video_output/msw/directx.c:116
 msgid "Refresh list"
 msgstr "Rafrister l' djivêye"
 
@@ -5273,11 +5291,11 @@ msgstr ""
 
 #: modules/access/dv.c:65
 msgid "Digital Video (Firewire/ieee1394)  input"
-msgstr ""
+msgstr "Intrêye DV - Didjitåle Videyo (Firewire/ieee1394)"
 
 #: modules/access/dv.c:66
 msgid "DV"
-msgstr ""
+msgstr "DV (Didjitåle Videyo)"
 
 #: modules/access/dvb/access.c:137
 msgid "Modulation type for front-end device."
@@ -5393,9 +5411,8 @@ msgid "%.1f MHz (%d services)"
 msgstr "%.1f MHz (%d siervices)"
 
 #: modules/access/dvb/scan.c:327
-#, fuzzy
 msgid "Scanning DVB"
-msgstr "Sicanaedje DVB-T"
+msgstr "Sicanaedje DVB"
 
 #: modules/access/dvdnav.c:68 modules/access/dvdread.c:70
 msgid "DVD angle"
@@ -5528,9 +5545,8 @@ msgid "Fake"
 msgstr "Fås"
 
 #: modules/access/fake.c:64
-#, fuzzy
 msgid "Fake video input"
-msgstr "Fåsse intrêye"
+msgstr "Fåsse intrêye videyo"
 
 #: modules/access/file.c:169 modules/access/file.c:302
 #: modules/access/mmap.c:228 modules/access/mtp.c:216 modules/access/mtp.c:304
@@ -5686,9 +5702,8 @@ msgid "Forward Cookies across http redirections."
 msgstr ""
 
 #: modules/access/http.c:104
-#, fuzzy
 msgid "Max number of redirection"
-msgstr "Nombe macsimom di raloyaedjes"
+msgstr "Nombe macsimom di ridireccion"
 
 #: modules/access/http.c:105
 msgid "Limit the number of redirection to follow."
@@ -5879,6 +5894,7 @@ msgstr "Rîle do floû (Otomatike, SECAM, PAL, or NTSC)."
 #: modules/access/pvr.c:74 modules/access/v4l.c:102 modules/access/v4l2.c:89
 #: modules/codec/invmem.c:53 modules/demux/rawvid.c:48
 #: modules/video_filter/mosaic.c:95 modules/video_output/vmem.c:42
+#: linux/modules/gui/qt4/ui/profiles.h:479
 msgid "Width"
 msgstr "Lårdjeur"
 
@@ -5889,6 +5905,7 @@ msgstr "Lårdjeur do floû a egaloyer (-1 po otodeteccion)."
 #: modules/access/pvr.c:78 modules/access/v4l.c:105 modules/access/v4l2.c:92
 #: modules/codec/invmem.c:56 modules/demux/rawvid.c:52
 #: modules/video_filter/mosaic.c:93 modules/video_output/vmem.c:45
+#: linux/modules/gui/qt4/ui/profiles.h:482
 msgid "Height"
 msgstr "Hôteur"
 
@@ -5904,11 +5921,13 @@ msgstr "Frecwince"
 
 #: modules/access/pvr.c:83 modules/access/v4l.c:91
 msgid "Frequency to capture (in kHz), if applicable."
-msgstr ""
+msgstr "Frécwince po-z egaloyer (e kHz), si on pout l' fé."
 
 #: modules/access/pvr.c:86 modules/access/v4l.c:131
 msgid "Framerate to capture, if applicable (-1 for autodetect)."
 msgstr ""
+"Frécwince di cåde po-z egaloyer, si on pout l' fé (-1 pol deteccion "
+"otomatike)."
 
 #: modules/access/pvr.c:89
 msgid "Key interval"
@@ -5961,7 +5980,7 @@ msgstr ""
 #: modules/access/pvr.c:109 modules/access/v4l2.c:163
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
 #: modules/gui/macosx/intf.m:606 modules/gui/qt4/dialogs/toolbar.cpp:347
-#: modules/stream_out/raop.c:150
+#: modules/stream_out/raop.c:150 linux/modules/gui/qt4/ui/sprefs_audio.h:405
 msgid "Volume"
 msgstr "Volume"
 
@@ -6033,9 +6052,8 @@ msgstr ""
 "defineye e milisegondes."
 
 #: modules/access/rtmp/access.c:48
-#, fuzzy
 msgid "Default SWF Referrer URL"
-msgstr "Prémetou Pôrt di Sierveu"
+msgstr ""
 
 #: modules/access/rtmp/access.c:49
 msgid ""
@@ -6272,9 +6290,8 @@ msgid "Pixel width of the capture region, or 0 for full width"
 msgstr ""
 
 #: modules/access/screen/xcb.c:54
-#, fuzzy
 msgid "Capture region height"
-msgstr "Egaloyaedje &Éndjin"
+msgstr ""
 
 #: modules/access/screen/xcb.c:56
 msgid "Pixel height of the capture region, or 0 for full height"
@@ -6282,54 +6299,46 @@ msgstr ""
 
 #: modules/access/screen/xcb.c:70
 msgid "Screen capture (with X11/XCB)"
-msgstr ""
+msgstr "Egaloyaedje do waitroûle (avou X11/XCB)"
 
 #: modules/access/sftp.c:53
-#, fuzzy
 msgid ""
 "Caching value for SFTP streams. This value should be set in milliseconds."
 msgstr ""
-"Valixhance di muchete po les floûs FTP. Cisse valixhance duvreut esse "
+"Valixhance di muchete po les floûs SFTP. Cisse valixhance duvreut esse "
 "defineye e milisegondes."
 
 #: modules/access/sftp.c:54
-#, fuzzy
 msgid "SFTP user name"
-msgstr "No d' uzeu FTP"
+msgstr "No d' uzeu SFTP"
 
 #: modules/access/sftp.c:56
-#, fuzzy
 msgid "SFTP password"
-msgstr "Sicret FTP"
+msgstr "Sicret SFTP"
 
 #: modules/access/sftp.c:58
-#, fuzzy
 msgid "SFTP port"
-msgstr "Pôrt UDP"
+msgstr "Pôrt SFTP"
 
 #: modules/access/sftp.c:59
-#, fuzzy
 msgid "SFTP port number to use on the server"
-msgstr "Metôde di rexhowe a eployî pol floû."
+msgstr "Limero do pôrt SFTP a eployî sol sierveu"
 
 #: modules/access/sftp.c:60
-#, fuzzy
 msgid "Read size"
-msgstr "Rexhowe odio ALSA"
+msgstr ""
 
 #: modules/access/sftp.c:61
 msgid "Size of the request for reading access"
 msgstr ""
 
 #: modules/access/sftp.c:65
-#, fuzzy
 msgid "SFTP input"
-msgstr "Intrêye FTP"
+msgstr "Intrêye SFTP"
 
 #: modules/access/sftp.c:137
-#, fuzzy
 msgid "SFTP authentification"
-msgstr "Otintifiaedje HTTP"
+msgstr "Otintifiaedje SFTP"
 
 #: modules/access/sftp.c:138
 #, c-format
@@ -6434,14 +6443,15 @@ msgstr "Canå Odio a eployî, si gn a sacwantès intrêyes odio."
 
 #: modules/access/v4l.c:103
 msgid "Width of the stream to capture (-1 for autodetect)."
-msgstr ""
+msgstr "Lårdjeu do floû a egaloyer (-1 po deteccion otomatike)."
 
 #: modules/access/v4l.c:106
 msgid "Height of the stream to capture (-1 for autodetect)."
-msgstr ""
+msgstr "Hôteu do floû a egaloyer (-1 po deteccion otomatike)."
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
 #: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:257
+#: linux/modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "Rilujhance"
 
@@ -6451,6 +6461,7 @@ msgstr "Rilujhance del intrêye videyo."
 
 #: modules/access/v4l.c:111 modules/access/v4l2.c:117
 #: modules/gui/macosx/extended.m:101
+#: linux/modules/gui/qt4/ui/video_effects.h:1109
 msgid "Hue"
 msgstr "Tinte"
 
@@ -6461,6 +6472,9 @@ msgstr "Tinte del intrêye videyo."
 #: modules/access/v4l.c:114 modules/gui/fbosd.c:141
 #: modules/misc/notify/xosd.c:82 modules/video_filter/colorthres.c:54
 #: modules/video_filter/marq.c:123 modules/video_filter/rss.c:155
+#: linux/modules/gui/qt4/ui/video_effects.h:1132
+#: linux/modules/gui/qt4/ui/video_effects.h:1138
+#: linux/modules/gui/qt4/ui/video_effects.h:1150
 msgid "Color"
 msgstr "Coleur"
 
@@ -6470,6 +6484,7 @@ msgstr "Coleur del intrêye videyo."
 
 #: modules/access/v4l.c:117 modules/access/v4l2.c:111
 #: modules/gui/macosx/extended.m:99
+#: linux/modules/gui/qt4/ui/video_effects.h:1106
 msgid "Contrast"
 msgstr "Contrasse"
 
@@ -6485,7 +6500,7 @@ msgstr "Tuner"
 msgid "Tuner to use, if there are several ones."
 msgstr ""
 
-#: modules/access/v4l.c:122
+#: modules/access/v4l.c:122 linux/modules/gui/qt4/ui/profiles.h:466
 msgid "MJPEG"
 msgstr "MJPEG"
 
@@ -6563,14 +6578,20 @@ msgstr "Metôde IO (READ, MMAP, USERPTR)."
 #: modules/access/v4l2.c:91
 msgid "Force width (-1 for autodetect, 0 for driver default)."
 msgstr ""
+"Foirci li hôteur (-1 pol deteccion otomatike, 0 pol prémetowe valixhance do "
+"mineu)."
 
 #: modules/access/v4l2.c:94
 msgid "Force height (-1 for autodetect, 0 for driver default)."
 msgstr ""
+"Foirci li lårdjeur (-1 pol deteccion otomatike, 0 pol prémetowe valixhance "
+"do mineu)."
 
 #: modules/access/v4l2.c:96
 msgid "Framerate to capture, if applicable (0 for autodetect)."
 msgstr ""
+"Frécwince di cåde po-z egaloyer, si on pout l' fé (0 pol deteccion "
+"otomatike)."
 
 #: modules/access/v4l2.c:100
 msgid "Use libv4l2"
@@ -6597,6 +6618,8 @@ msgid "Contrast of the video input (if supported by the v4l2 driver)."
 msgstr "Contrasse del intrêye videyo (si c'est sopoirté pa l' mineu v4l2)."
 
 #: modules/access/v4l2.c:114 modules/gui/macosx/extended.m:102
+#: linux/modules/gui/qt4/ui/video_effects.h:1108
+#: linux/modules/gui/qt4/ui/video_effects.h:1137
 msgid "Saturation"
 msgstr "Saturaedje"
 
@@ -6657,6 +6680,7 @@ msgstr ""
 "Balance des bleus del intrêye videyo (si c'est sopoirté pa l' mineu v4l2)."
 
 #: modules/access/v4l2.c:137 modules/gui/macosx/extended.m:100
+#: linux/modules/gui/qt4/ui/video_effects.h:1105
 msgid "Gamma"
 msgstr "Gama"
 
@@ -6812,7 +6836,7 @@ msgstr ""
 
 #: modules/access/v4l2.c:209
 msgid "Picture aspect-ratio n:m"
-msgstr ""
+msgstr "Rapoirt lårdjeur/hôteur del imådje n:m"
 
 #: modules/access/v4l2.c:210
 msgid "Define input picture aspect-ratio to use. Default is 4:3"
@@ -6960,7 +6984,7 @@ msgstr "Id do sistinme"
 msgid "Entries"
 msgstr "Intreyes"
 
-#: modules/access/vcdx/info.c:75
+#: modules/access/vcdx/info.c:75 linux/modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Tracks"
 msgstr "Bokets"
 
@@ -7057,11 +7081,11 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:127
 msgid "Format to use in the playlist's \"author\" field."
-msgstr ""
+msgstr "Cogne a eployî dins l' tchamp \"oteur\" del djivêye a djouwer."
 
 #: modules/access/vcdx/vcd.c:133
 msgid "Format to use in the playlist's \"title\" field."
-msgstr ""
+msgstr "Cogne a eployî dins l' tchamp \"tite\" del djivêye a djouwer."
 
 #: modules/access/zip/zipstream.c:38
 msgid "Media in Zip"
@@ -7102,7 +7126,7 @@ msgstr "Rexhowe del fitchî do floû"
 #: modules/access_output/file.c:69 modules/audio_output/file.c:112
 #: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:451
 #: modules/gui/macosx/output.m:142 modules/gui/macosx/output.m:230
-#: modules/gui/macosx/output.m:369 modules/gui/qt4/dialogs/plugins.cpp:521
+#: modules/gui/macosx/output.m:369 modules/gui/qt4/dialogs/plugins.cpp:525
 #: modules/gui/qt4/dialogs/sout.cpp:74 modules/gui/qt4/dialogs/sout.cpp:152
 msgid "File"
 msgstr "Fitchî"
@@ -7300,7 +7324,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/dolby.c:49
 msgid "Simple decoder for Dolby Surround encoded streams"
-msgstr ""
+msgstr "Simpe decôdeu po les ecôdés floûs Dolby Surround"
 
 #: modules/audio_filter/channel_mixer/dolby.c:50
 msgid "Dolby Surround decoder"
@@ -7375,15 +7399,15 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 msgid "Left rear"
-msgstr ""
+msgstr "Dirî a hintche"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 msgid "Right rear"
-msgstr ""
+msgstr "Dirî a droet"
 
 #: modules/audio_filter/channel_mixer/mono.c:96
 msgid "Left front"
-msgstr ""
+msgstr "Divant a hintche"
 
 #: modules/audio_filter/channel_mixer/mono.c:108
 msgid "Audio filter for stereo to mono conversion"
@@ -7398,9 +7422,8 @@ msgid "Audio filter for trivial channel mixing"
 msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:77
-#, fuzzy
 msgid "Sound Delay"
-msgstr "Tårdaedje do surround (ms)"
+msgstr "Tårdaedje do son"
 
 #: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:310
 #: modules/stream_out/bridge.c:51 modules/stream_out/display.c:45
@@ -7410,12 +7433,11 @@ msgstr "Tins"
 
 #: modules/audio_filter/chorus_flanger.c:79
 msgid "Add a delay effect to the sound"
-msgstr ""
+msgstr "Radjouter on defet di tårdaedje å son"
 
 #: modules/audio_filter/chorus_flanger.c:83
-#, fuzzy
 msgid "Delay time"
-msgstr "Tins"
+msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:84
 msgid "Time in milliseconds of the average delay. Note average"
@@ -7432,9 +7454,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:88
-#, fuzzy
 msgid "Sweep Rate"
-msgstr "Frecwince di sampling"
+msgstr "Frecwince di ramon"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Rate of change of sweep depth in milliseconds shift per second of play"
@@ -7442,7 +7463,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:92
 msgid "Feedback Gain"
-msgstr ""
+msgstr "Wangnaedje do ritoû"
 
 #: modules/audio_filter/chorus_flanger.c:92
 msgid "Gain on Feedback loop"
@@ -7457,14 +7478,12 @@ msgid "Level of delayed signal"
 msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:96
-#, fuzzy
 msgid "Dry Mix"
-msgstr "Setch"
+msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:96
-#, fuzzy
 msgid "Level of input signal"
-msgstr "PIN del intrêye videyo"
+msgstr "Livea do signå d' intrêye"
 
 #: modules/audio_filter/converter/a52tofloat32.c:82
 msgid "A/52 dynamic range compression"
@@ -7513,7 +7532,7 @@ msgstr ""
 
 #: modules/audio_filter/converter/format.c:49
 msgid "Audio filter for PCM format conversion"
-msgstr ""
+msgstr "Passete odio pol coviertixhaedje al cogne PCM"
 
 #: modules/audio_filter/converter/mpgatofixed32.c:69
 msgid "MPEG audio decoder"
@@ -7548,11 +7567,11 @@ msgstr ""
 
 #: modules/audio_filter/equalizer.c:71
 msgid "Global gain"
-msgstr ""
+msgstr "Globå wangnaedje"
 
 #: modules/audio_filter/equalizer.c:72
 msgid "Set the global gain in dB (-20 ... 20)."
-msgstr ""
+msgstr "Defini l' globå wangnaedje e dB (-20 ... 20)."
 
 #: modules/audio_filter/equalizer.c:75
 msgid "Equalizer with 10 bands"
@@ -7649,9 +7668,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/normvol.c:71
-#, fuzzy
 msgid "Maximal volume level"
-msgstr "Livea macsimom"
+msgstr "Livea macsimom do volume"
 
 #: modules/audio_filter/normvol.c:72
 msgid ""
@@ -7842,30 +7860,30 @@ msgstr ""
 msgid "A/52 over S/PDIF"
 msgstr "A/52 so S/PDIF"
 
-#: modules/audio_output/alsa.c:339
+#: modules/audio_output/alsa.c:351
 msgid "No Audio Device"
 msgstr "Nol éndjin odio"
 
-#: modules/audio_output/alsa.c:340
+#: modules/audio_output/alsa.c:352
 msgid "No audio device name was given. You might want to enter \"default\"."
 msgstr ""
 
-#: modules/audio_output/alsa.c:447 modules/audio_output/alsa.c:486
-#: modules/audio_output/alsa.c:498 modules/audio_output/auhal.c:269
+#: modules/audio_output/alsa.c:459 modules/audio_output/alsa.c:498
+#: modules/audio_output/alsa.c:510 modules/audio_output/auhal.c:269
 msgid "Audio output failed"
 msgstr "L' rexhowe odio a fwait berwete"
 
-#: modules/audio_output/alsa.c:448 modules/audio_output/alsa.c:499
+#: modules/audio_output/alsa.c:460 modules/audio_output/alsa.c:511
 #, c-format
 msgid "VLC could not open the ALSA device \"%s\" (%s)."
 msgstr "VLC n' saveut nén drovi l' éndjin ALSA \"%s\" (%s)."
 
-#: modules/audio_output/alsa.c:487
+#: modules/audio_output/alsa.c:499
 #, c-format
 msgid "The audio device \"%s\" is already in use."
 msgstr "L' éndjin odio \"%s\" est ddja en alaedje."
 
-#: modules/audio_output/alsa.c:970
+#: modules/audio_output/alsa.c:982
 msgid "Unknown soundcard"
 msgstr "Cåte son nén cnoxhou"
 
@@ -7905,14 +7923,12 @@ msgid "Output device"
 msgstr "Éndjin pol rexhowe"
 
 #: modules/audio_output/directx.c:121
-#, fuzzy
 msgid "Select your audio output device"
-msgstr "Tchoezixhoz Éndjin Odio"
+msgstr "Tchoezixhoz vosse éndjin di rexhowe odio"
 
 #: modules/audio_output/directx.c:123
-#, fuzzy
 msgid "Speaker configuration"
-msgstr "Tchoezi l' apontiaedje des hôt-pårloes"
+msgstr "Apontiaedje des hôt-pårloes"
 
 #: modules/audio_output/directx.c:124
 msgid ""
@@ -8042,7 +8058,7 @@ msgstr "5.1"
 #: modules/gui/qt4/main_interface.cpp:960
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
-msgstr "VLC media player"
+msgstr "Djouweu d' media VLC"
 
 #: modules/audio_output/pulse.c:103
 msgid "Pulseaudio audio output"
@@ -8106,7 +8122,7 @@ msgstr "Ewalpeu odio AES3/SMPTE 302M"
 
 #: modules/codec/araw.c:49
 msgid "Raw/Log Audio decoder"
-msgstr ""
+msgstr "Decôdeu odio Raw/djournå"
 
 #: modules/codec/araw.c:58
 msgid "Raw audio encoder"
@@ -8175,7 +8191,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
 msgid "Direct rendering"
-msgstr ""
+msgstr "Rindou direk"
 
 #: modules/codec/avcodec/avcodec.h:75
 msgid "Error resilience"
@@ -8252,9 +8268,8 @@ msgid "Debug mask"
 msgstr "Disbuguer l' masse"
 
 #: modules/codec/avcodec/avcodec.h:116
-#, fuzzy
 msgid "Set FFmpeg debug mask"
-msgstr "Defini l' disbugaedje do masse ffmpeg"
+msgstr "Defini l' disbugaedje do masse FFmpeg"
 
 #: modules/codec/avcodec/avcodec.h:119
 msgid "Visualize motion vectors"
@@ -8292,11 +8307,11 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:137
 msgid "Hardware decoding"
-msgstr ""
+msgstr "Discôdaedje di l' éndjolreye"
 
 #: modules/codec/avcodec/avcodec.h:138
 msgid "This allows hardware decoding when available."
-msgstr ""
+msgstr "Çouci permete li discôdaedje di l' éndjolreye cwand c 'est disponibe."
 
 #: modules/codec/avcodec/avcodec.h:145
 msgid "Ratio of key frames"
@@ -8750,7 +8765,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:165
 msgid "Also known as DWT levels"
-msgstr ""
+msgstr "Kinoxhous eto come liveas DTW"
 
 #: modules/codec/dirac.c:169
 msgid "Enable multiple quantizers"
@@ -8774,7 +8789,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:184
 msgid "cycles per degree"
-msgstr ""
+msgstr "bloukes pa digré"
 
 #: modules/codec/dirac.c:206
 msgid "Dirac video encoder using dirac-research library"
@@ -8829,7 +8844,7 @@ msgstr "Ecôdaedje del cowordonêye X"
 
 #: modules/codec/dvbsub.c:96
 msgid "X coordinate of the encoded subtitle"
-msgstr ""
+msgstr "Cowordonêyes X do sortite ecôdé"
 
 #: modules/codec/dvbsub.c:97
 msgid "Encoding Y coordinate"
@@ -8837,7 +8852,7 @@ msgstr "Ecôdaedje del cowordonêye Y"
 
 #: modules/codec/dvbsub.c:98
 msgid "Y coordinate of the encoded subtitle"
-msgstr ""
+msgstr "Cowordonêyes Y do sortite ecôdé"
 
 #: modules/codec/dvbsub.c:118
 msgid "DVB subtitles decoder"
@@ -8975,15 +8990,15 @@ msgstr ""
 
 #: modules/codec/invmem.c:54 modules/video_output/vmem.c:43
 msgid "Video memory buffer width."
-msgstr ""
+msgstr "Hôteur do tampon memwere videyo."
 
 #: modules/codec/invmem.c:57 modules/video_output/vmem.c:46
 msgid "Video memory buffer height."
-msgstr ""
+msgstr "Lårdjeur do tampon memwere videyo."
 
 #: modules/codec/invmem.c:59 modules/video_output/vmem.c:55
 msgid "Lock function"
-msgstr ""
+msgstr "Aclawer l' fonccion"
 
 #: modules/codec/invmem.c:60
 msgid ""
@@ -8993,7 +9008,7 @@ msgstr ""
 
 #: modules/codec/invmem.c:64 modules/video_output/vmem.c:60
 msgid "Unlock function"
-msgstr ""
+msgstr "Disaclawer l' fonccion"
 
 #: modules/codec/invmem.c:65 modules/video_output/vmem.c:61
 msgid "Address of the unlocking callback function"
@@ -9001,11 +9016,11 @@ msgstr ""
 
 #: modules/codec/invmem.c:67 modules/video_output/vmem.c:63
 msgid "Callback data"
-msgstr ""
+msgstr "Dinêyes do rhoucaedje"
 
 #: modules/codec/invmem.c:68 modules/video_output/vmem.c:64
 msgid "Data for the locking and unlocking functions"
-msgstr ""
+msgstr "Dinêyes po les fonccions d' aclawaedje et di disaclawaedje"
 
 #: modules/codec/invmem.c:70 modules/video_output/snapshot.c:61
 #: modules/video_output/vmem.c:51
@@ -9019,7 +9034,7 @@ msgstr ""
 
 #: modules/codec/invmem.c:77 modules/codec/invmem.c:78
 msgid "Memory video decoder"
-msgstr ""
+msgstr "Decôdeu del memwere videyo"
 
 #: modules/codec/kate.c:195 modules/codec/subtitles/subsdec.c:196
 msgid "Formatted Subtitles"
@@ -9279,11 +9294,11 @@ msgstr "Sortites (sipepieus)"
 msgid "Subtitle renderers using libass"
 msgstr ""
 
-#: modules/codec/libass.c:706 modules/misc/freetype.c:360
+#: modules/codec/libass.c:722 modules/misc/freetype.c:358
 msgid "Building font cache"
 msgstr "Costrure li muchete des fontes"
 
-#: modules/codec/libass.c:707
+#: modules/codec/libass.c:723
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a minute."
@@ -9314,14 +9329,12 @@ msgid "MPEG audio layer I/II/III packetizer"
 msgstr ""
 
 #: modules/codec/omxil/omxil.c:90
-#, fuzzy
 msgid "Audio/Video decoder (using OpenMAX IL)"
-msgstr "Decôdeu videyo MPEG I/II (eployant libmpeg2)"
+msgstr "Decôdeu odio/videyo (eployant OpenMAX IL)"
 
 #: modules/codec/omxil/omxil.c:103
-#, fuzzy
 msgid "Video encoder (using OpenMAX IL)"
-msgstr "Decôdeu videyo MPEG I/II (eployant libmpeg2)"
+msgstr "Decôdeu videyo (eployant OpenMAX IL)"
 
 #: modules/codec/png.c:58
 msgid "PNG video decoder"
@@ -9360,7 +9373,8 @@ msgid "MP3 fixed point audio encoder"
 msgstr ""
 
 #: modules/codec/speex.c:57 modules/codec/speex.c:800
-#: modules/gui/macosx/open.m:209
+#: modules/gui/macosx/open.m:209 linux/modules/gui/qt4/ui/sprefs_video.h:324
+#: linux/modules/gui/qt4/ui/video_effects.h:1149
 msgid "Mode"
 msgstr "Môde"
 
@@ -9379,7 +9393,7 @@ msgstr ""
 
 #: modules/codec/speex.c:65
 msgid "Encoding complexity"
-msgstr ""
+msgstr "Complessité d' ecodaedje"
 
 #: modules/codec/speex.c:67
 msgid "Enforce the complexity of the encoder."
@@ -9462,9 +9476,8 @@ msgid "DVD subtitles decoder"
 msgstr "Decôdeu des sortites DVD"
 
 #: modules/codec/spudec/spudec.c:51
-#, fuzzy
 msgid "DVD subtitles"
-msgstr "Sortites DVB"
+msgstr "Sortites DVD"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
@@ -9648,7 +9661,7 @@ msgstr ""
 
 #: modules/codec/subtitles/subsdec.c:193
 msgid "UTF-8 subtitles autodetection"
-msgstr ""
+msgstr "Deteccion otomatike des sortites UTF-8"
 
 #: modules/codec/subtitles/subsdec.c:194
 msgid ""
@@ -9678,7 +9691,7 @@ msgstr ""
 #: modules/codec/subtitles/subsdec.c:296
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr ""
+msgstr "CP1252"
 
 #: modules/codec/subtitles/subsusf.c:52
 msgid "USFSubs"
@@ -9690,11 +9703,11 @@ msgstr "Decôdeu des sortites USF"
 
 #: modules/codec/subtitles/t140.c:35
 msgid "T.140 text encoder"
-msgstr ""
+msgstr "Ecôdeu tecse T.140"
 
 #: modules/codec/svcdsub.c:47
 msgid "Enable debug"
-msgstr ""
+msgstr "Mete en alaedje li disbugaedje"
 
 #: modules/codec/svcdsub.c:50
 msgid ""
@@ -10020,9 +10033,8 @@ msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
 
 #: modules/codec/x264.c:151
-#, fuzzy
 msgid "Force number of slices per frame"
-msgstr "Nombe di bloc pa CD léjhou"
+msgstr ""
 
 #: modules/codec/x264.c:152
 msgid "Force rectangular slices and is overridden by other slicing optinos"
@@ -10397,9 +10409,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/x264.c:330
-#, fuzzy
 msgid "Use Psy-optimizations"
-msgstr "Amidraedjes del CPU"
+msgstr ""
 
 #: modules/codec/x264.c:331
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
@@ -10480,6 +10491,7 @@ msgid "Quiet mode."
 msgstr "Môde taijheu."
 
 #: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Sitatistikes"
 
@@ -10489,7 +10501,7 @@ msgstr ""
 
 #: modules/codec/x264.c:372
 msgid "SPS and PPS id numbers"
-msgstr ""
+msgstr "Limeros d' id SPS et PPS"
 
 #: modules/codec/x264.c:373
 msgid ""
@@ -10570,7 +10582,7 @@ msgstr "H.264/MPEG4 AVC ecôdeu (x264)"
 
 #: modules/codec/zvbi.c:58
 msgid "Teletext page"
-msgstr ""
+msgstr "Pådje Teletecse"
 
 #: modules/codec/zvbi.c:59
 msgid "Open the indicated Teletext page.Default page is index 100"
@@ -10586,7 +10598,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:66
 msgid "Teletext alignment"
-msgstr ""
+msgstr "Aroymint do Telectecse"
 
 #: modules/codec/zvbi.c:68
 msgid ""
@@ -10605,11 +10617,11 @@ msgstr ""
 
 #: modules/codec/zvbi.c:82
 msgid "VBI and Teletext decoder"
-msgstr ""
+msgstr "Decôdeu VBI et Teletecse"
 
 #: modules/codec/zvbi.c:83
 msgid "VBI & Teletext"
-msgstr ""
+msgstr "VBI & Teletecse"
 
 #: modules/codec/zvbi.c:686
 msgid "Subpage"
@@ -10709,7 +10721,7 @@ msgstr "Boket odio: %s"
 #: modules/control/hotkeys.c:488 modules/control/hotkeys.c:512
 #, c-format
 msgid "Subtitle track: %s"
-msgstr ""
+msgstr "Boket do sortite: %s"
 
 #: modules/control/hotkeys.c:488
 msgid "N/A"
@@ -10738,14 +10750,12 @@ msgid "Original Size"
 msgstr ""
 
 #: modules/control/hotkeys.c:618
-#, fuzzy
 msgid "Deinterlace off"
-msgstr "Disinterlacî"
+msgstr "Disinterlacî dismetou"
 
 #: modules/control/hotkeys.c:638
-#, fuzzy
 msgid "Deinterlace on"
-msgstr "Disinterlacî"
+msgstr "Disinterlacî metou"
 
 #: modules/control/hotkeys.c:671
 #, c-format
@@ -10762,9 +10772,9 @@ msgid "Subtitle delay %i ms"
 msgstr "Tårdaedje do sortite %i ms"
 
 #: modules/control/hotkeys.c:794 modules/control/hotkeys.c:804
-#, fuzzy, c-format
+#, c-format
 msgid "Subtitle position %i px"
-msgstr "Foirci l' pôzucion des sortites"
+msgstr "Pôzucion des sortites %i px"
 
 #: modules/control/hotkeys.c:814 modules/control/hotkeys.c:824
 #, c-format
@@ -10787,7 +10797,7 @@ msgstr "Volume %d%%"
 #: modules/control/hotkeys.c:1051
 #, c-format
 msgid "Speed: %.2fx"
-msgstr ""
+msgstr "Raddisté: %.2fx"
 
 #: modules/control/http/http.c:41
 msgid "Host address"
@@ -10853,9 +10863,8 @@ msgid "HTTP SSL"
 msgstr "HTTP SSL"
 
 #: modules/control/lirc.c:46
-#, fuzzy
 msgid "Change the lirc configuration file"
-msgstr "Candjî l' fitchî d' apontiaedje lirc."
+msgstr "Candjî l' fitchî d' apontiaedje lirc"
 
 #: modules/control/lirc.c:48
 msgid ""
@@ -10889,9 +10898,8 @@ msgid ""
 msgstr ""
 
 #: modules/control/netsync.c:57
-#, fuzzy
 msgid "Network master clock"
-msgstr "No del Rantoele"
+msgstr "Mwaisse ôrlodje del rantoele"
 
 #: modules/control/netsync.c:58
 msgid ""
@@ -10901,7 +10909,7 @@ msgstr ""
 
 #: modules/control/netsync.c:62
 msgid "Master server ip address"
-msgstr ""
+msgstr "Adresse ip do mwaisse sierveu"
 
 #: modules/control/netsync.c:63
 msgid ""
@@ -10909,9 +10917,8 @@ msgid ""
 msgstr ""
 
 #: modules/control/netsync.c:66
-#, fuzzy
 msgid "UDP timeout (in ms)"
-msgstr "TCP/UDP tårdjaedje (ms)"
+msgstr "Tårdjaedje  UDP (e ms)"
 
 #: modules/control/netsync.c:67
 msgid ""
@@ -10928,23 +10935,23 @@ msgstr "Astaler Windows Service"
 
 #: modules/control/ntservice.c:45
 msgid "Install the Service and exit."
-msgstr ""
+msgstr "Astaler l' Siervice et moussî foû."
 
 #: modules/control/ntservice.c:46
 msgid "Uninstall Windows Service"
-msgstr ""
+msgstr "Disastaler Windows Siervice"
 
 #: modules/control/ntservice.c:48
 msgid "Uninstall the Service and exit."
-msgstr ""
+msgstr "Disastaler l' Siervice et moussî foû."
 
 #: modules/control/ntservice.c:49
 msgid "Display name of the Service"
-msgstr ""
+msgstr "No di håyné do Siervice"
 
 #: modules/control/ntservice.c:51
 msgid "Change the display name of the Service."
-msgstr ""
+msgstr "Candjî l' no di håyné do Siervice."
 
 #: modules/control/ntservice.c:52
 msgid "Configuration options"
@@ -10970,7 +10977,7 @@ msgstr "Siervice NT"
 
 #: modules/control/ntservice.c:66
 msgid "Windows Service interface"
-msgstr ""
+msgstr "Eterface di Windows Siervice"
 
 #: modules/control/rc.c:70
 msgid "Initializing"
@@ -11175,9 +11182,8 @@ msgid "| normal . . . . . . . . . .  normal playing of stream"
 msgstr ""
 
 #: modules/control/rc.c:827
-#, fuzzy
 msgid "| frame. . . . . . . . . .  play frame by frame"
-msgstr "| djouwer . . . . . . . . . . . . . . . . . . djouwer floû"
+msgstr "| cådes. . . . . . . . . .  djouwer cåde pa cåde"
 
 #: modules/control/rc.c:828
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
@@ -11419,9 +11425,9 @@ msgid "+-[Incoming]"
 msgstr "+-[En intrêye]"
 
 #: modules/control/rc.c:1871 modules/gui/ncurses.c:1975
-#, fuzzy, c-format
+#, c-format
 msgid "| input bytes read : %8.0f KiB"
-msgstr "| bites evoyîs       : %8.0f kB"
+msgstr "| bites d' intrêye léjhous : %8.0f KiB"
 
 #: modules/control/rc.c:1873 modules/gui/ncurses.c:1978
 #, c-format
@@ -11429,9 +11435,9 @@ msgid "| input bitrate    :   %6.0f kb/s"
 msgstr ""
 
 #: modules/control/rc.c:1875 modules/gui/ncurses.c:1980
-#, fuzzy, c-format
+#, c-format
 msgid "| demux bytes read : %8.0f KiB"
-msgstr "| bites evoyîs       : %8.0f kB"
+msgstr "| bites do dismultiplecseu léjhous : %8.0f KiB"
 
 #: modules/control/rc.c:1877 modules/gui/ncurses.c:1983
 #, c-format
@@ -11439,14 +11445,14 @@ msgid "| demux bitrate    :   %6.0f kb/s"
 msgstr ""
 
 #: modules/control/rc.c:1879
-#, fuzzy, c-format
+#, c-format
 msgid "| demux corrupted  :    %5i"
-msgstr "| videyo decôdêye    :    %5i"
+msgstr "| crombè dismultiplecseu  :    %5i"
 
 #: modules/control/rc.c:1881
-#, fuzzy, c-format
+#, c-format
 msgid "| discontinuities  :    %5i"
-msgstr "| odio decôdé    :    %5i"
+msgstr "| continouwaedjes  :    %5i"
 
 #: modules/control/rc.c:1885 modules/gui/ncurses.c:1993
 msgid "+-[Video Decoding]"
@@ -11496,7 +11502,7 @@ msgid "| packets sent     :    %5i"
 msgstr "| pakets evoyîs     :    %5i"
 
 #: modules/control/rc.c:1905 modules/gui/ncurses.c:2034
-#, fuzzy, c-format
+#, c-format
 msgid "| bytes sent       : %8.0f KiB"
 msgstr "| bites evoyîs       : %8.0f kB"
 
@@ -11610,9 +11616,8 @@ msgid ""
 msgstr ""
 
 #: modules/demux/avi/avi.c:62
-#, fuzzy
 msgid "Ask for action"
-msgstr " Informåcion "
+msgstr "Dimander pol accion"
 
 #: modules/demux/avi/avi.c:63
 msgid "Always fix"
@@ -11652,7 +11657,7 @@ msgstr ""
 
 #: modules/demux/cdg.c:45
 msgid "CDG demuxer"
-msgstr ""
+msgstr "Dismultiplecseu CDG"
 
 #: modules/demux/demuxdump.c:40
 msgid "Dump filename"
@@ -11679,17 +11684,16 @@ msgid "Value to adjust dts by"
 msgstr ""
 
 #: modules/demux/dirac.c:54
-#, fuzzy
 msgid "Dirac video demuxer"
-msgstr "Dismultiplecseu videyo VC1"
+msgstr "Dismultiplecseu videyo Dirac"
 
 #: modules/demux/flac.c:49
 msgid "FLAC demuxer"
-msgstr ""
+msgstr "Dismultiplecseu FLAC"
 
 #: modules/demux/gme.cpp:55
 msgid "GME demuxer (Game_Music_Emu)"
-msgstr ""
+msgstr "Dismultiplecseu GME (Game_Music_Emu)"
 
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
@@ -11755,7 +11759,7 @@ msgstr ""
 
 #: modules/demux/live555.cpp:80
 msgid "Kasenna RTSP dialect"
-msgstr ""
+msgstr "Diyaleke Kasenna RTSP"
 
 #: modules/demux/live555.cpp:81
 msgid ""
@@ -11766,7 +11770,7 @@ msgstr ""
 
 #: modules/demux/live555.cpp:85
 msgid "WMServer RTSP dialect"
-msgstr ""
+msgstr "Diyaleke WMServer RTSP"
 
 #: modules/demux/live555.cpp:86
 msgid ""
@@ -11796,7 +11800,7 @@ msgstr ""
 
 #: modules/demux/live555.cpp:98
 msgid "RTP/RTSP/SDP demuxer (using Live555)"
-msgstr ""
+msgstr "Dismultiplecseu RTP/RTSP/SDP (eployant Live555)"
 
 #: modules/demux/live555.cpp:108
 msgid "RTSP/RTP access and demux"
@@ -11805,7 +11809,7 @@ msgstr ""
 #: modules/demux/live555.cpp:117 modules/demux/live555.cpp:118
 #: modules/gui/macosx/simple_prefs.m:261
 msgid "Use RTP over RTSP (TCP)"
-msgstr ""
+msgstr "Eployî RTP so RTSP (TCP)"
 
 #: modules/demux/live555.cpp:121
 msgid "Client port"
@@ -11831,11 +11835,11 @@ msgstr ""
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr ""
 
-#: modules/demux/live555.cpp:606
+#: modules/demux/live555.cpp:604
 msgid "RTSP authentication"
 msgstr "Otintifiaedje RTSP"
 
-#: modules/demux/live555.cpp:607
+#: modules/demux/live555.cpp:605
 msgid "Please enter a valid login name and a password."
 msgstr ""
 
@@ -11873,7 +11877,7 @@ msgstr "----- Tite"
 
 #: modules/demux/mkv/mkv.cpp:46
 msgid "Matroska stream demuxer"
-msgstr ""
+msgstr "Dismultiplecseu do floû Matroska"
 
 #: modules/demux/mkv/mkv.cpp:53
 msgid "Ordered chapters"
@@ -11957,7 +11961,7 @@ msgstr ""
 
 #: modules/demux/mod.c:73
 msgid "MOD demuxer (libmodplug)"
-msgstr ""
+msgstr "Dismultiplecseu MOD (libmodplug)"
 
 #: modules/demux/mod.c:81
 msgid "Reverb"
@@ -11997,7 +12001,7 @@ msgstr "Tårdaedje do surround (ms)"
 
 #: modules/demux/mp4/mp4.c:54
 msgid "MP4 stream demuxer"
-msgstr ""
+msgstr "Dismultiplecseu do floû MP4"
 
 #: modules/demux/mp4/mp4.c:55
 msgid "MP4"
@@ -12005,7 +12009,7 @@ msgstr "MP4"
 
 #: modules/demux/mpc.c:62
 msgid "MusePack demuxer"
-msgstr ""
+msgstr "Dismultiplecseu MusePack"
 
 #: modules/demux/mpeg/es.c:50
 msgid ""
@@ -12018,9 +12022,8 @@ msgid "MPEG-I/II/4 / A52 / DTS / MLP audio"
 msgstr "MPEG-I/II/4 / A52 / DTS / MLP odio"
 
 #: modules/demux/mpeg/es.c:78
-#, fuzzy
 msgid "MPEG-4 video"
-msgstr "Videyo MPEG"
+msgstr "Videyo MPEG-4"
 
 #: modules/demux/mpeg/h264.c:44
 msgid "Desired frame rate for the H264 stream."
@@ -12040,7 +12043,7 @@ msgstr ""
 
 #: modules/demux/nsv.c:49
 msgid "NullSoft demuxer"
-msgstr ""
+msgstr "Dismultiplecseu NullSoft"
 
 #: modules/demux/nuv.c:49
 msgid "Nuv demuxer"
@@ -12137,14 +12140,12 @@ msgid "iTunes Music Library importer"
 msgstr ""
 
 #: modules/demux/playlist/playlist.c:160
-#, fuzzy
 msgid "WPL playlist import"
-msgstr "Abaguer l' djivêye a djouver PLS"
+msgstr "Abagaedle del djivêye a djouver WPL"
 
 #: modules/demux/playlist/playlist.c:166
-#, fuzzy
 msgid "ZPL playlist import"
-msgstr "Abaguer l' djivêye a djouver PLS"
+msgstr "Abagaedle del djivêye a djouver ZPL"
 
 #: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
 #: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
@@ -12165,7 +12166,7 @@ msgstr "Shoutcast"
 
 #: modules/demux/playlist/shoutcast.c:414
 msgid "Listeners"
-msgstr ""
+msgstr "Schoûteus"
 
 #: modules/demux/playlist/shoutcast.c:415
 msgid "Load"
@@ -12195,9 +12196,8 @@ msgid "PVA demuxer"
 msgstr "Dismultiplecseu PVA"
 
 #: modules/demux/rawaud.c:43
-#, fuzzy
 msgid "Audio samplerate (Hz)"
-msgstr "Roedeur des bits del Odio :"
+msgstr "Roedeur des bits del Odio (Hz)"
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
@@ -12220,9 +12220,8 @@ msgid "FOURCC code of the raw input format. This is a four character string."
 msgstr ""
 
 #: modules/demux/rawaud.c:53
-#, fuzzy
 msgid "Forces the audio language"
-msgstr "Lingaedje odio"
+msgstr "Foice li lingaedje odio"
 
 #: modules/demux/rawaud.c:54
 msgid ""
@@ -12231,9 +12230,8 @@ msgid ""
 msgstr ""
 
 #: modules/demux/rawaud.c:64
-#, fuzzy
 msgid "Raw audio demuxer"
-msgstr "Ecôdeu RAW odio"
+msgstr "Dismultiplecseu RAW odio"
 
 #: modules/demux/rawdv.c:41
 msgid ""
@@ -12276,11 +12274,11 @@ msgstr ""
 
 #: modules/demux/rawvid.c:65
 msgid "Raw video demuxer"
-msgstr ""
+msgstr "Dismultiplecseu Raw videyo"
 
 #: modules/demux/real.c:70
 msgid "Real demuxer"
-msgstr ""
+msgstr "Dismultiplecseu Real"
 
 #: modules/demux/smf.c:43
 msgid "SMF demuxer"
@@ -12306,9 +12304,8 @@ msgid ""
 msgstr ""
 
 #: modules/demux/subtitle.c:62
-#, fuzzy
 msgid "Override the default track description."
-msgstr "Prémetowe discriijhaedje del fonte"
+msgstr "Sipotchî l' prémetowè discrijhaedje do boket."
 
 #: modules/demux/subtitle.c:74 modules/demux/subtitle_asa.c:58
 msgid "Text subtitles parser"
@@ -12327,9 +12324,8 @@ msgid "Subtitles format"
 msgstr "Cogne des sortites"
 
 #: modules/demux/subtitle.c:87
-#, fuzzy
 msgid "Subtitles description"
-msgstr "Discrijhaedje do floû"
+msgstr "Discrijhaedje des sortites"
 
 #: modules/demux/subtitle_asa.c:51
 msgid ""
@@ -12344,7 +12340,7 @@ msgstr ""
 
 #: modules/demux/subtitle_asa.c:57
 msgid "Subtitles (asa demuxer)"
-msgstr ""
+msgstr "Sortites (dismultiplecseu asa)"
 
 #: modules/demux/ts.c:110
 msgid "Extra PMT"
@@ -12470,11 +12466,11 @@ msgstr ""
 #: modules/demux/ts.c:195 modules/gui/macosx/controls.m:1132
 #: modules/gui/macosx/intf.m:703 modules/gui/qt4/dialogs/toolbar.cpp:407
 msgid "Teletext"
-msgstr ""
+msgstr "Teletecse"
 
 #: modules/demux/ts.c:196
 msgid "Teletext subtitles"
-msgstr ""
+msgstr "Sortites do teletecse"
 
 #: modules/demux/ts.c:197
 msgid "Teletext: additional information"
@@ -12588,6 +12584,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:112
 #: modules/video_filter/marq.c:87
+#: linux/modules/gui/qt4/ui/video_effects.h:1168
 msgid "Text"
 msgstr "Tecse"
 
@@ -12685,6 +12682,7 @@ msgstr ""
 #: modules/misc/freetype.c:92 modules/misc/notify/xosd.c:80
 #: modules/misc/quartztext.c:80 modules/misc/win32text.c:58
 #: modules/video_filter/marq.c:164 modules/video_filter/rss.c:207
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:211
 msgid "Font"
 msgstr "Fonte"
 
@@ -12698,7 +12696,7 @@ msgstr ""
 
 #: modules/gui/macosx/about.m:86 modules/gui/macosx/intf.m:616
 msgid "About VLC media player"
-msgstr "Å dfwait di VLC media player"
+msgstr "Å dfwait do djouweu d' media VLC"
 
 #: modules/gui/macosx/about.m:90
 #, c-format
@@ -12716,7 +12714,7 @@ msgstr "Licince"
 
 #: modules/gui/macosx/about.m:186
 msgid "VLC media player Help"
-msgstr "Aidance di VLC media player"
+msgstr "Aidance do djouweu d' media VLC"
 
 #: modules/gui/macosx/about.m:189 modules/gui/macosx/controls.m:540
 #: modules/gui/macosx/intf.m:705
@@ -12728,13 +12726,15 @@ msgid "Bookmarks"
 msgstr "Rimåkes"
 
 #: modules/gui/macosx/bookmarks.m:88
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:104
+#: linux/modules/gui/qt4/ui/sout.h:331 linux/modules/gui/qt4/ui/vlm.h:300
 msgid "Add"
 msgstr "Radjouter"
 
 #: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:642
 #: modules/gui/macosx/simple_prefs.m:246
 #: modules/gui/qt4/components/preferences_widgets.cpp:1201
-#: modules/gui/qt4/dialogs/bookmarks.cpp:47
+#: modules/gui/qt4/dialogs/bookmarks.cpp:47 linux/modules/gui/qt4/ui/vlm.h:301
 msgid "Clear"
 msgstr "Vûdî"
 
@@ -12747,7 +12747,7 @@ msgstr "Aspougnî"
 msgid "Extract"
 msgstr "Saetchî"
 
-#: modules/gui/macosx/bookmarks.m:92
+#: modules/gui/macosx/bookmarks.m:92 linux/modules/gui/qt4/ui/open_file.h:224
 msgid "Remove"
 msgstr "Waester"
 
@@ -12911,7 +12911,7 @@ msgstr "Rescouler"
 msgid "Fast Forward"
 msgstr "Aler en avant raddimint"
 
-#: modules/gui/macosx/equalizer.m:146
+#: modules/gui/macosx/equalizer.m:146 linux/modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
 msgstr "2 Passaedjes"
 
@@ -12923,7 +12923,7 @@ msgstr ""
 msgid "Enable the equalizer. Bands can be set manually or using a preset."
 msgstr ""
 
-#: modules/gui/macosx/equalizer.m:152
+#: modules/gui/macosx/equalizer.m:152 linux/modules/gui/qt4/ui/equalizer.h:130
 msgid "Preamp"
 msgstr ""
 
@@ -12945,11 +12945,13 @@ msgstr ""
 
 #: modules/gui/macosx/extended.m:72 modules/meta_engine/id3genres.h:95
 #: modules/video_filter/psychedelic.c:55
+#: linux/modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
 msgstr "Psikedelike"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
 #: modules/video_filter/gradient.c:82
+#: linux/modules/gui/qt4/ui/video_effects.h:1148
 msgid "Gradient"
 msgstr "Gradyint"
 
@@ -12982,6 +12984,7 @@ msgid "Crops a defined part of the image"
 msgstr ""
 
 #: modules/gui/macosx/extended.m:83
+#: linux/modules/gui/qt4/ui/video_effects.h:1134
 msgid "Invert colors"
 msgstr "Coleurs a l' evier"
 
@@ -13133,7 +13136,7 @@ msgstr "Netyî li Menu"
 
 #: modules/gui/macosx/intf.m:636
 msgid "Streaming/Exporting Wizard..."
-msgstr ""
+msgstr "Transmission/Ebagaedje do macrea..."
 
 #: modules/gui/macosx/intf.m:639
 msgid "Cut"
@@ -13185,9 +13188,8 @@ msgid "Close Window"
 msgstr "Clôre li purnea"
 
 #: modules/gui/macosx/intf.m:714
-#, fuzzy
 msgid "Player..."
-msgstr "Djivêye a djouwer..."
+msgstr "Djouweu..."
 
 #: modules/gui/macosx/intf.m:715
 msgid "Controller..."
@@ -13232,11 +13234,11 @@ msgstr "Aidance"
 
 #: modules/gui/macosx/intf.m:727
 msgid "VLC media player Help..."
-msgstr "Aidance di VLC media player..."
+msgstr "Aidance do djouweu d' media VLC"
 
 #: modules/gui/macosx/intf.m:728
 msgid "ReadMe / FAQ..."
-msgstr "LijhozMu / KRS..."
+msgstr "Lijhoz Mu / FAQ (kesses rivnant sovint)..."
 
 #: modules/gui/macosx/intf.m:730
 msgid "Online Documentation..."
@@ -13248,7 +13250,7 @@ msgstr "Waibe di VideoLAN..."
 
 #: modules/gui/macosx/intf.m:732
 msgid "Make a donation..."
-msgstr "Fijhoz on donåcion..."
+msgstr "Fijhoz ene donåcion..."
 
 #: modules/gui/macosx/intf.m:733
 msgid "Online Forum..."
@@ -13483,6 +13485,13 @@ msgstr "Egaloyaedje"
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:102
+#: linux/modules/gui/qt4/ui/open.h:246
+#: linux/modules/gui/qt4/ui/open_disk.h:300
+#: linux/modules/gui/qt4/ui/open_file.h:232
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:412
+#: linux/modules/gui/qt4/ui/sprefs_input.h:308
+#: linux/modules/gui/qt4/ui/sprefs_input.h:317
+#: linux/modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
 msgstr "Betchter..."
 
@@ -13496,6 +13505,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:186 modules/gui/macosx/simple_prefs.m:280
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:414
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:394
 msgid "Choose..."
 msgstr "Tchoezi..."
 
@@ -13504,7 +13514,7 @@ msgstr "Tchoezi..."
 msgid "Device name"
 msgstr "No d' l' éndjin"
 
-#: modules/gui/macosx/open.m:193
+#: modules/gui/macosx/open.m:193 linux/modules/gui/qt4/ui/open_disk.h:298
 msgid "No DVD menus"
 msgstr "Nole Menus DVD"
 
@@ -13514,6 +13524,7 @@ msgstr "VIDEO_TS ridant"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:739
 #: modules/services_discovery/udev.c:587
+#: linux/modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
 
@@ -13647,6 +13658,7 @@ msgid "Subtitles encoding"
 msgstr "Ecôdaedje des sortites"
 
 #: modules/gui/macosx/open.m:316
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "Grandeu del fonte"
 
@@ -13663,7 +13675,7 @@ msgid "Subtitle File"
 msgstr "Fitchî Sortite"
 
 #: modules/gui/macosx/open.m:587 modules/gui/macosx/open.m:953
-#: modules/gui/macosx/open.m:1189
+#: modules/gui/macosx/open.m:1189 linux/modules/gui/qt4/ui/open_file.h:217
 msgid "Open File"
 msgstr "Drovi fitchî"
 
@@ -13678,7 +13690,7 @@ msgstr "Drovi l' Ridant VIDEO_TS"
 
 #: modules/gui/macosx/open.m:1027
 msgid "iSight Capture Input"
-msgstr ""
+msgstr "Intrêye d' egaloyaedje iSight"
 
 #: modules/gui/macosx/open.m:1028
 msgid ""
@@ -13723,7 +13735,7 @@ msgstr ""
 msgid "Encapsulation Method"
 msgstr "Metode d' ecapsulaedje"
 
-#: modules/gui/macosx/output.m:159
+#: modules/gui/macosx/output.m:159 linux/modules/gui/qt4/ui/sout.h:335
 msgid "Transcoding options"
 msgstr ""
 
@@ -13732,7 +13744,7 @@ msgstr ""
 msgid "Bitrate (kb/s)"
 msgstr "Roedeur des bites (kb/s)"
 
-#: modules/gui/macosx/output.m:166
+#: modules/gui/macosx/output.m:166 linux/modules/gui/qt4/ui/profiles.h:478
 msgid "Scale"
 msgstr "Schåle"
 
@@ -13740,7 +13752,7 @@ msgstr "Schåle"
 msgid "Stream Announcing"
 msgstr ""
 
-#: modules/gui/macosx/output.m:181
+#: modules/gui/macosx/output.m:181 linux/modules/gui/qt4/ui/sout.h:342
 msgid "SAP announce"
 msgstr "Anonçaedje SAP"
 
@@ -13771,11 +13783,12 @@ msgstr "Schaper fitchî"
 #: modules/gui/macosx/output.m:526 modules/gui/macosx/playlist.m:745
 #: modules/gui/macosx/prefs.m:203 modules/gui/macosx/simple_prefs.m:310
 #: modules/gui/qt4/components/sout/profile_selector.cpp:250
+#: linux/modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
 msgstr "Schaper"
 
 #: modules/gui/macosx/playlist.m:136 modules/gui/macosx/playlist.m:140
-#: modules/gui/macosx/wizard.m:350 modules/gui/qt4/dialogs/plugins.cpp:494
+#: modules/gui/macosx/wizard.m:350 modules/gui/qt4/dialogs/plugins.cpp:498
 #: modules/mux/asf.c:58
 msgid "Author"
 msgstr "Oteur"
@@ -13791,6 +13804,8 @@ msgid "Save Playlist..."
 msgstr "Schaper l' djivêye a djouwer..."
 
 #: modules/gui/macosx/playlist.m:465 modules/gui/qt4/dialogs/bookmarks.cpp:45
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:105
+#: linux/modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
 msgstr "Disfacer"
 
@@ -13808,7 +13823,7 @@ msgstr ""
 
 #: modules/gui/macosx/playlist.m:471 modules/gui/macosx/playlist.m:472
 msgid "Reveal in Finder"
-msgstr ""
+msgstr "Divweler dins l' Finder"
 
 #: modules/gui/macosx/playlist.m:474
 msgid "Sort Node by Name"
@@ -13905,7 +13920,7 @@ msgstr "Intrêye do roedeur des bits"
 
 #: modules/gui/macosx/playlistinfo.m:100
 msgid "Demuxed"
-msgstr ""
+msgstr "Dismultiplecsé"
 
 #: modules/gui/macosx/playlistinfo.m:101
 msgid "Stream bitrate"
@@ -13973,6 +13988,7 @@ msgid "Reset All"
 msgstr "Rimete totafwait a zero"
 
 #: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:306
+#: linux/modules/gui/qt4/ui/video_effects.h:1111
 msgid "Basic"
 msgstr "Di båze"
 
@@ -14034,6 +14050,7 @@ msgid "Input & Codec settings"
 msgstr "Intrêye & Apontiaedjes do codec"
 
 #: modules/gui/macosx/simple_prefs.m:228
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:414
 msgid "Effects"
 msgstr "Efets"
 
@@ -14046,6 +14063,7 @@ msgid "General Audio"
 msgstr "Djenerå Odio"
 
 #: modules/gui/macosx/simple_prefs.m:231
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
 msgstr ""
 
@@ -14094,7 +14112,7 @@ msgstr "Remantchî les Fitchîs AVI"
 msgid "Default Caching Level"
 msgstr ""
 
-#: modules/gui/macosx/simple_prefs.m:254
+#: modules/gui/macosx/simple_prefs.m:254 linux/modules/gui/qt4/ui/open.h:235
 msgid "Caching"
 msgstr ""
 
@@ -14114,7 +14132,7 @@ msgstr "Sicret po Procsi HTTP"
 
 #: modules/gui/macosx/simple_prefs.m:258
 msgid "Codecs / Muxers"
-msgstr ""
+msgstr "Codecs / Multiplecseus"
 
 #: modules/gui/macosx/simple_prefs.m:260
 msgid "Post-Processing Quality"
@@ -14137,6 +14155,7 @@ msgid "Show Fullscreen Controller"
 msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:270
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:376
 msgid "Privacy / Network Interaction"
 msgstr ""
 
@@ -14153,6 +14172,7 @@ msgid "Default Encoding"
 msgstr "Prémetou Ecôdaedje"
 
 #: modules/gui/macosx/simple_prefs.m:279
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:207
 msgid "Display Settings"
 msgstr "Apontiaedjes do Håynaedje"
 
@@ -14182,6 +14202,7 @@ msgstr ""
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
+#: linux/modules/gui/qt4/ui/sprefs_video.h:310
 msgid "Display"
 msgstr "Håyner"
 
@@ -14194,6 +14215,7 @@ msgid "Output module"
 msgstr "Module di rexhowe"
 
 #: modules/gui/macosx/simple_prefs.m:298
+#: linux/modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Video snapshots"
 msgstr ""
 
@@ -14202,14 +14224,17 @@ msgid "Folder"
 msgstr "Ridant"
 
 #: modules/gui/macosx/simple_prefs.m:301
+#: linux/modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Format"
 msgstr "Cogne"
 
 #: modules/gui/macosx/simple_prefs.m:302
+#: linux/modules/gui/qt4/ui/sprefs_video.h:328
 msgid "Prefix"
 msgstr "Betchete "
 
 #: modules/gui/macosx/simple_prefs.m:303
+#: linux/modules/gui/qt4/ui/sprefs_video.h:331
 msgid "Sequential numbering"
 msgstr "Secwinciel di limerotaedje"
 
@@ -14394,9 +14419,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/macosx/wizard.m:188
-#, fuzzy
 msgid "Audio format for MPEG4 (useable with MPEG TS and MPEG4)"
-msgstr "H264 est on novea codec videyo (elpoyåve avou MPEG TS eyet MP4)"
+msgstr "Cogne odio po MPEG4 (elpoyåve avou MPEG TS eyet MPEG4)"
 
 #: modules/gui/macosx/wizard.m:191
 msgid ""
@@ -14644,6 +14668,7 @@ msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
 
 #: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:1866
+#: linux/modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
 msgstr "Time-To-Live (TTL)"
 
@@ -15012,11 +15037,11 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1610
 msgid "     [, ]        Next/Previous title"
-msgstr ""
+msgstr "     [, ]        Tite Shuvant/Di dvant"
 
 #: modules/gui/ncurses.c:1611
 msgid "     <, >        Next/Previous chapter"
-msgstr ""
+msgstr "     <, >        Tchaptrê Shuvant/Di dvant"
 
 #: modules/gui/ncurses.c:1612
 #, c-format
@@ -15102,7 +15127,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1648
 msgid "[Boxes]"
-msgstr ""
+msgstr "[Boesses]"
 
 #: modules/gui/ncurses.c:1651
 msgid "     <up>,<down>     Navigate through the box line by line"
@@ -15114,7 +15139,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1657
 msgid "[Player]"
-msgstr ""
+msgstr "[Djouweu]"
 
 #: modules/gui/ncurses.c:1660
 #, c-format
@@ -15123,7 +15148,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:1665
 msgid "[Miscellaneous]"
-msgstr ""
+msgstr "[Totes sôres]"
 
 #: modules/gui/ncurses.c:1668
 msgid "     Ctrl-l          Refresh the screen"
@@ -15255,9 +15280,8 @@ msgid "Step forward"
 msgstr "Digré en avant"
 
 #: modules/gui/qt4/components/controller.hpp:109
-#, fuzzy
 msgid "Loop/Repeat mode"
-msgstr "Repeter onk"
+msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:111
 msgid "Stop playback"
@@ -15285,7 +15309,7 @@ msgstr "Discandjî l' videyo houte di forrimpli l' waitroûle"
 
 #: modules/gui/qt4/components/controller.hpp:115
 msgid "Show extended settings"
-msgstr ""
+msgstr "Mostrer les sitindowès tchuzes"
 
 #: modules/gui/qt4/components/controller.hpp:115
 msgid "Show playlist"
@@ -15312,13 +15336,11 @@ msgid "Change the loop and repeat modes"
 msgstr ""
 
 #: modules/gui/qt4/components/controller_widget.cpp:133
-#, fuzzy
 msgctxt "Tooltip|Unmute"
 msgid "Unmute"
 msgstr "Nén moya"
 
 #: modules/gui/qt4/components/controller_widget.cpp:142
-#, fuzzy
 msgctxt "Tooltip|Mute"
 msgid "Mute"
 msgstr "Moya"
@@ -15406,37 +15428,32 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:483
-#, fuzzy
 msgid "Current media / stream statistics"
-msgstr "Ramexhner sacwants sitatistikes."
+msgstr "Media do moumint / sitatistikes do floû"
 
 #: modules/gui/qt4/components/info_panels.cpp:509
-#, fuzzy
 msgid "Input/Read"
-msgstr "Intrêye"
+msgstr "Intrêye/Lére"
 
 #: modules/gui/qt4/components/info_panels.cpp:510
 msgid "Output/Written/Sent"
-msgstr ""
+msgstr "Rexhowe/Sicrît/Evoyî"
 
 #: modules/gui/qt4/components/info_panels.cpp:512
-#, fuzzy
 msgid "Media data size"
-msgstr "Meditatif"
+msgstr "Grandeu des dinêyes do media"
 
 #: modules/gui/qt4/components/info_panels.cpp:516
 msgid "Demuxed data size"
 msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:517
-#, fuzzy
 msgid "Content bitrate"
-msgstr "Evoyî li roedeur des bits"
+msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:519
-#, fuzzy
 msgid "Discarded (corrupted)"
-msgstr "Crombe fitchî"
+msgstr "Oisté (crombé)"
 
 #: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Dropped (discontinued)"
@@ -15444,98 +15461,85 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:524
 #: modules/gui/qt4/components/info_panels.cpp:537
-#, fuzzy
 msgid "Decoded"
-msgstr "Decôdeus"
+msgstr "Decôdé"
 
 #: modules/gui/qt4/components/info_panels.cpp:525
 #: modules/gui/qt4/components/info_panels.cpp:538
-#, fuzzy
 msgid "blocks"
-msgstr "Rock"
+msgstr "blokes"
 
 #: modules/gui/qt4/components/info_panels.cpp:526
-#, fuzzy
 msgid "Displayed"
-msgstr "Håyner"
+msgstr "Håyné"
 
 #: modules/gui/qt4/components/info_panels.cpp:527
 #: modules/gui/qt4/components/info_panels.cpp:529
-#, fuzzy
 msgid "frames"
-msgstr "B Cådes"
+msgstr "cådes"
 
 #: modules/gui/qt4/components/info_panels.cpp:528
 #: modules/gui/qt4/components/info_panels.cpp:541
-#, fuzzy
 msgid "Lost"
-msgstr "Li pus basse"
+msgstr "Pierdou"
 
 #: modules/gui/qt4/components/info_panels.cpp:531
 #: modules/gui/qt4/components/info_panels.cpp:532
-#, fuzzy
 msgid "Sent"
-msgstr "Defini"
+msgstr "Evoyî"
 
 #: modules/gui/qt4/components/info_panels.cpp:531
-#, fuzzy
 msgid "packets"
-msgstr "Packets evoyîs"
+msgstr "packets"
 
 #: modules/gui/qt4/components/info_panels.cpp:534
-#, fuzzy
 msgid "Upstream rate"
-msgstr "Frecwince do cåde "
+msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:539
-#, fuzzy
 msgid "Played"
-msgstr "Djouwer"
+msgstr "Djouwé"
 
 #: modules/gui/qt4/components/info_panels.cpp:540
 #: modules/gui/qt4/components/info_panels.cpp:541
-#, fuzzy
 msgid "buffers"
-msgstr "Pierdous tampons"
+msgstr "tampons"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:381
+#: modules/gui/qt4/components/interface_widgets.cpp:357
 msgid "Current visualization"
 msgstr "Voeyaedje do moumint"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:420
-#, fuzzy
+#: modules/gui/qt4/components/interface_widgets.cpp:396
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
 msgstr ""
-"Radisté del djouwaedje do moumint.\n"
+"Radisté del djouwaedje do moumint: %1\n"
 "Clitchî po adjuster"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:491
+#: modules/gui/qt4/components/interface_widgets.cpp:467
 msgid "Revert to normal play speed"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:565
+#: modules/gui/qt4/components/interface_widgets.cpp:541
 msgid "Download cover art"
 msgstr "Aberweter l' potchete"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:607
+#: modules/gui/qt4/components/interface_widgets.cpp:583
 msgid "Click to toggle between elapsed and remaining time"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:609
+#: modules/gui/qt4/components/interface_widgets.cpp:585
 msgid "Double click to jump to a chosen time position"
 msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:53
-#, fuzzy
 msgid "Select a device or a VIDEO_TS directory"
-msgstr "Tchoezixhoz l' éndjin ou l' ridant VIDEO_TS"
+msgstr "Tchoezixhoz on-éndjin ou on ridant VIDEO_TS"
 
 #: modules/gui/qt4/components/open_panels.cpp:54
-#, fuzzy
 msgid "Select a device or a VIDEO_TS folder"
-msgstr "Tchoezixhoz l' éndjin ou l' ridant VIDEO_TS"
+msgstr "Tchoezixhoz on-éndjin ou on ridant VIDEO_TS"
 
 #: modules/gui/qt4/components/open_panels.cpp:132
 #: modules/gui/qt4/components/open_panels.cpp:171
@@ -15547,6 +15551,7 @@ msgid "File names:"
 msgstr "Nos d' fitchî"
 
 #: modules/gui/qt4/components/open_panels.cpp:149
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:382
 msgid "Filter:"
 msgstr "Passete:"
 
@@ -15595,7 +15600,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/open_panels.cpp:854
 msgid "Auto connnection"
-msgstr ""
+msgstr "Raloyaedje otomatike"
 
 #: modules/gui/qt4/components/open_panels.cpp:878
 msgid "Radio device name"
@@ -15607,73 +15612,53 @@ msgstr ""
 
 #. xgettext: frames per second
 #: modules/gui/qt4/components/open_panels.cpp:1024
-#, fuzzy
 msgid " f/s"
-msgstr " cps"
+msgstr " c/s"
 
 #: modules/gui/qt4/components/open_panels.cpp:1237
 msgid "Advanced Options"
 msgstr "Sipepieusès Tchuzes"
+
+#: modules/gui/qt4/components/playlist/playlist.cpp:54
+#, fuzzy
+msgid "Media Browser"
+msgstr "Betcher"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
 msgstr ""
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:53
-#, fuzzy
 msgid "Create Directory"
-msgstr "Tchoezi Ridant"
+msgstr "Ahiver Ridant"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:53
-#, fuzzy
 msgid "Create Folder"
-msgstr "Ridant del cåde di disbugaedje"
+msgstr "Ahiver Ridant"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:55
 msgid "Enter name for new directory:"
-msgstr ""
+msgstr "Intrez on no pol novea ridant:"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:56
 msgid "Enter name for new folder:"
-msgstr ""
+msgstr "Intrez on no pol novea ridant:"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:973
-#, fuzzy
 msgid "Sort by"
-msgstr "Arindjî sol no"
+msgstr "Relére pa"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:980
-#, fuzzy
 msgid "Ascending"
-msgstr "Drovaedje"
+msgstr "Crexhant"
 
 #: modules/gui/qt4/components/playlist/playlist_model.cpp:981
-#, fuzzy
 msgid "Descending"
-msgstr "Discôdaedje"
+msgstr "Discrexhant"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:248
 msgid "Remove this podcast subscription"
 msgstr ""
-
-#: modules/gui/qt4/components/playlist/selector.cpp:267
-msgid "My Computer"
-msgstr ""
-
-#: modules/gui/qt4/components/playlist/selector.cpp:269
-#, fuzzy
-msgid "Devices"
-msgstr "Éndjin"
-
-#: modules/gui/qt4/components/playlist/selector.cpp:271
-#, fuzzy
-msgid "Local Network"
-msgstr "Rantoele"
-
-#: modules/gui/qt4/components/playlist/selector.cpp:273
-#, fuzzy
-msgid "Internet"
-msgstr "Eterface"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -15681,7 +15666,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/selector.cpp:451
 msgid "Subscribe"
-msgstr ""
+msgstr "S' abouner"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:452
 msgid "Enter URL of the podcast to subscribe to:"
@@ -15693,7 +15678,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/selector.cpp:473
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Si disabouner"
 
 #: modules/gui/qt4/components/playlist/sorting.h:57
 msgid "URI"
@@ -15701,17 +15686,15 @@ msgstr "URI"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
 msgid "Detailed View"
-msgstr ""
+msgstr "Sipepieuse vuwe"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
-#, fuzzy
 msgid "Icon View"
-msgstr "Vuwe"
+msgstr "Vuwe des imådjetes"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:58
-#, fuzzy
 msgid "List View"
-msgstr "ID di djivêye"
+msgstr "Vuwe e djivêye"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:99
 #, fuzzy
@@ -15742,7 +15725,7 @@ msgstr "Mete en ouve"
 #: modules/gui/qt4/components/preferences_widgets.cpp:1358
 #: modules/gui/qt4/util/customwidgets.cpp:439
 msgid "Unset"
-msgstr "Disfé"
+msgstr "Nén defini"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1409
 msgid "Hotkey for "
@@ -15798,9 +15781,8 @@ msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:548
-#, fuzzy
 msgid "System's default"
-msgstr "Id do sistinme"
+msgstr "Prémetowès valixhances do sistinme"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:646
 msgid "Configure Hotkeys"
@@ -15829,6 +15811,7 @@ msgstr "&Mete en ouve"
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
+#: modules/gui/qt4/dialogs/openurl.cpp:60
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:85
 #: modules/gui/qt4/dialogs/sout.cpp:97 modules/gui/qt4/dialogs/toolbar.cpp:189
@@ -15858,18 +15841,18 @@ msgstr " Li No do Profil Manke"
 
 #: modules/gui/qt4/components/sout/profile_selector.cpp:401
 msgid "You must set a name for the profile."
-msgstr ""
+msgstr "Vos divos defini on no pol profil."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:39
 msgid "File/Directory"
 msgstr "Fitchî/Ridant"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:39
-#, fuzzy
 msgid "File/Folder"
-msgstr "Ridant"
+msgstr "Fitchî/Ridant"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:46
+#: linux/modules/gui/qt4/ui/sout.h:328
 msgid "Source"
 msgstr "Sourdant"
 
@@ -15897,7 +15880,7 @@ msgstr "Schaper fitchî..."
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:129
 #: modules/gui/qt4/dialogs/convert.cpp:113
 msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-msgstr ""
+msgstr "Contneus (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:141
 msgid "This module outputs the transcoded stream to a network via HTTP."
@@ -15926,9 +15909,8 @@ msgid "This module outputs the transcoded stream to a network via RTP."
 msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:340
-#, fuzzy
 msgid "Base port"
-msgstr "Pôrt CDDB"
+msgstr "Pôrt del båze"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:381
 msgid "This module outputs the transcoded stream to an Icecast server."
@@ -15969,6 +15951,7 @@ msgstr "Disfacer totes les rimåkes"
 #: modules/gui/qt4/dialogs/mediainfo.cpp:72
 #: modules/gui/qt4/dialogs/messages.cpp:110
 #: modules/gui/qt4/dialogs/plugins.cpp:70
+#: modules/gui/qt4/dialogs/plugins.cpp:532
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:36
 #: modules/gui/qt4/dialogs/vlm.cpp:137
 msgid "&Close"
@@ -15983,6 +15966,7 @@ msgid "Convert"
 msgstr "Ratoûrner"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:411
 msgid "Destination file:"
 msgstr "Fitchî di destinåcion:"
 
@@ -16017,7 +16001,7 @@ msgstr "&Netyî"
 
 #: modules/gui/qt4/dialogs/errors.cpp:55
 msgid "Hide future errors"
-msgstr ""
+msgstr "Catchî les arokes avni"
 
 #: modules/gui/qt4/dialogs/extended.cpp:40
 msgid "Adjustments and Effects"
@@ -16056,7 +16040,7 @@ msgid "Go to time"
 msgstr "Potchî å tins"
 
 #: modules/gui/qt4/dialogs/help.cpp:85 modules/gui/qt4/dialogs/help.cpp:163
-#: modules/gui/qt4/dialogs/plugins.cpp:467
+#: modules/gui/qt4/dialogs/plugins.cpp:471
 msgid "About"
 msgstr "Åd fwait"
 
@@ -16074,6 +16058,8 @@ msgid ""
 "This version of VLC was compiled by:\n"
 " "
 msgstr ""
+"Cisse modêye di VLC esteut copilêye pa:\n"
+" "
 
 #: modules/gui/qt4/dialogs/help.cpp:122
 msgid "Compiler: "
@@ -16099,6 +16085,9 @@ msgid ""
 "the following people (and the missing ones...) for their collaboration to "
 "create the best free software."
 msgstr ""
+"Nos vôréns rimerciyî tote li cominålté VLC, les sayeus, nos uzeus et les "
+"djins shuvants (et les cis ki mankèt...) po leu coplaedje a ahiver li meyeu "
+"programe libe."
 
 #: modules/gui/qt4/dialogs/help.cpp:164
 msgid "Authors"
@@ -16110,7 +16099,7 @@ msgstr "Mèrci"
 
 #: modules/gui/qt4/dialogs/help.cpp:201
 msgid "VLC media player updates"
-msgstr "Metaedjes a djoû di VLC media player"
+msgstr "Metaedjes a djoû do djouweu d' media VLC"
 
 #: modules/gui/qt4/dialogs/help.cpp:207
 msgid "&Recheck version"
@@ -16197,9 +16186,8 @@ msgid "Verbosity Level"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/messages.cpp:128
-#, fuzzy
 msgid "Message filter"
-msgstr "Fitchî imådje"
+msgstr "Passete des messaedjes"
 
 #: modules/gui/qt4/dialogs/messages.cpp:173
 msgid "&Update"
@@ -16251,6 +16239,7 @@ msgid "&Enqueue"
 msgstr "&Mete al cawêye"
 
 #: modules/gui/qt4/dialogs/open.cpp:119 modules/gui/qt4/dialogs/open.cpp:221
+#: modules/gui/qt4/dialogs/openurl.cpp:54
 msgid "&Play"
 msgstr "&Djouwer"
 
@@ -16271,15 +16260,15 @@ msgstr "&Covierser / Schaper"
 msgid "Open URL"
 msgstr "Drovi URL"
 
-#: modules/gui/qt4/dialogs/openurl.cpp:63
+#: modules/gui/qt4/dialogs/openurl.cpp:64
 msgid "Enter URL here..."
 msgstr "Taper l' URL chal..."
 
-#: modules/gui/qt4/dialogs/openurl.cpp:65
+#: modules/gui/qt4/dialogs/openurl.cpp:66
 msgid "Please enter the URL or path to the media you want to play"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/openurl.cpp:69
+#: modules/gui/qt4/dialogs/openurl.cpp:70
 msgid ""
 "If your clipboard contains a valid URL\n"
 "or the path to a file on your computer,\n"
@@ -16291,9 +16280,8 @@ msgid "Plugins and extensions"
 msgstr "Tchôkes-divins eyet rawetes"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:64
-#, fuzzy
 msgid "Extensions"
-msgstr "Sitindaedje AAC"
+msgstr "Rawetes"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:101
 msgid "Capability"
@@ -16307,25 +16295,21 @@ msgstr "Ponts"
 msgid "&Search:"
 msgstr "&Cweri:"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:208
-#, fuzzy
+#: modules/gui/qt4/dialogs/plugins.cpp:209
 msgid "More information..."
-msgstr "Informåcion sol media..."
+msgstr "Co pus d' infôrmåcions..."
 
-#: modules/gui/qt4/dialogs/plugins.cpp:217
-#, fuzzy
+#: modules/gui/qt4/dialogs/plugins.cpp:218
 msgid "Reload extensions"
-msgstr "Cawetes passêyes houte"
+msgstr "Ritcherdjî les cawetes"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:488
-#, fuzzy
+#: modules/gui/qt4/dialogs/plugins.cpp:492
 msgid "Version"
-msgstr "Session"
+msgstr "Modêye"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:508
-#, fuzzy
+#: modules/gui/qt4/dialogs/plugins.cpp:512
 msgid "Website"
-msgstr "Blanc"
+msgstr "Site waibe"
 
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:35
 msgid "Deletes the selected item"
@@ -16363,7 +16347,7 @@ msgstr "&Rimete a zero les Preferinces"
 msgid "Are you sure you want to reset your VLC media player preferences?"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/sout.cpp:42
+#: modules/gui/qt4/dialogs/sout.cpp:42 linux/modules/gui/qt4/ui/sout.h:326
 msgid "Stream Output"
 msgstr "Rexhowe do Floû"
 
@@ -16416,21 +16400,19 @@ msgstr "Eplaeçmint del bår ås usteyes:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:83
 msgid "Under the Video"
-msgstr ""
+msgstr "A dzo del videyo"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:84
 msgid "Above the Video"
-msgstr ""
+msgstr "Å dzeu del videyo"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:89
-#, fuzzy
 msgid "Line 1:"
-msgstr "Lineyåre"
+msgstr "Roye 1:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:97
-#, fuzzy
 msgid "Line 2:"
-msgstr "Lineyåre"
+msgstr "Roye 2:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:106
 msgid "Advanced Widget toolbar:"
@@ -16457,6 +16439,7 @@ msgid "Cl&ose"
 msgstr "Cl&ôre"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:217
+#: linux/modules/gui/qt4/ui/profiles.h:455
 msgid "Profile Name"
 msgstr "No do Profil"
 
@@ -16474,11 +16457,11 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:332
 msgid "Splitter"
-msgstr ""
+msgstr "Dispårteu"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:339
 msgid "Time Slider"
-msgstr ""
+msgstr "Boton d' acinseu do tins"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:352
 msgid "Small Volume"
@@ -16502,7 +16485,7 @@ msgstr "Programaedje"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:76
 msgid "Video On Demand ( VOD )"
-msgstr ""
+msgstr "Videyo al diamande ( VOD )"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:81
 msgid "Hours / Minutes / Seconds:"
@@ -16521,6 +16504,7 @@ msgid "Repeat delay:"
 msgstr "Repeter l' tårdaedje:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:112
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:379
 msgid " days"
 msgstr " djoûs"
 
@@ -16561,9 +16545,8 @@ msgid "Open Directory"
 msgstr "Drovi Ridant"
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
-#, fuzzy
 msgid "Open Folder"
-msgstr "Drovi Ridant..."
+msgstr "Drovi Ridant"
 
 #: modules/gui/qt4/dialogs_provider.cpp:538
 msgid "Open playlist..."
@@ -16574,9 +16557,8 @@ msgid "XSPF playlist (*.xspf)"
 msgstr "Djivêye a djouwer XSPF (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:554
-#, fuzzy
 msgid "M3U8 playlist (*.m3u)"
-msgstr "Djivêye a djouwer M3U (*.m3u)"
+msgstr "Djivêye a djouwer M3U8 (*.m3u)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:555
 msgid "M3U playlist (*.m3u)"
@@ -16687,9 +16669,8 @@ msgid "&Track Synchronization"
 msgstr "&Sincronijhaedje do Boket"
 
 #: modules/gui/qt4/menus.cpp:382
-#, fuzzy
 msgid "Program Guide"
-msgstr "Programe"
+msgstr "Guide do programe"
 
 #: modules/gui/qt4/menus.cpp:389
 msgid "Plu&gins and extensions"
@@ -16700,9 +16681,8 @@ msgid "&Preferences"
 msgstr "&Preferinces"
 
 #: modules/gui/qt4/menus.cpp:431
-#, fuzzy
 msgid "&View"
-msgstr "Vuwe"
+msgstr "&Vuwe"
 
 #: modules/gui/qt4/menus.cpp:449
 msgid "Play&list"
@@ -16729,9 +16709,8 @@ msgid "&Advanced Controls"
 msgstr "&Sipepieus Contrôles"
 
 #: modules/gui/qt4/menus.cpp:482
-#, fuzzy
 msgid "Docked Playlist"
-msgstr "Schaper l' Djivêye a Djouwer"
+msgstr ""
 
 #: modules/gui/qt4/menus.cpp:496
 msgid "Visualizations selector"
@@ -16779,7 +16758,7 @@ msgstr "Tapisreye DirectX"
 
 #: modules/gui/qt4/menus.cpp:625
 msgid "Direct3D Desktop mode"
-msgstr ""
+msgstr "Môde do scribanne Direct3D"
 
 #: modules/gui/qt4/menus.cpp:627
 msgid "Sna&pshot"
@@ -16806,9 +16785,8 @@ msgid "&Deinterlace"
 msgstr "&Disinterlacî"
 
 #: modules/gui/qt4/menus.cpp:636
-#, fuzzy
 msgid "&Deinterlace mode"
-msgstr "Disinterlacî l' module"
+msgstr "Môde di disinterlaçaedje"
 
 #: modules/gui/qt4/menus.cpp:637
 msgid "&Post processing"
@@ -16892,11 +16870,11 @@ msgstr "&Djouwaedje"
 
 #: modules/gui/qt4/menus.cpp:1081
 msgid "Hide VLC media player in taskbar"
-msgstr "Catchî VLC media player dins l' bår des bouyes"
+msgstr "Catchî l' djouweu d' media VLC dins l' bår des bouyes"
 
 #: modules/gui/qt4/menus.cpp:1087
 msgid "Show VLC media player"
-msgstr "Mostrer VLC media player"
+msgstr "Mostrer l' djouwer d' media VLC"
 
 #: modules/gui/qt4/menus.cpp:1097
 msgid "&Open Media"
@@ -16973,9 +16951,8 @@ msgid "Show all the advanced options in the dialogs."
 msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:103
-#, fuzzy
 msgid "Windows opacity between 0.1 and 1"
-msgstr "Opacités des purneas inte 0.1 eyet 1."
+msgstr "Opacités des purneas inte 0.1 eyet 1"
 
 #: modules/gui/qt4/qt4.cpp:104
 msgid ""
@@ -16987,7 +16964,7 @@ msgstr ""
 #: modules/gui/qt4/qt4.cpp:109
 #, fuzzy
 msgid "Fullscreen controller opacity between 0.1 and 1"
-msgstr "Opacités des purneas inte 0.1 eyet 1."
+msgstr "Opacités des purneas inte 0.1 eyet 1"
 
 #: modules/gui/qt4/qt4.cpp:110
 msgid ""
@@ -17101,18 +17078,17 @@ msgid "Qt interface"
 msgstr "Eterface Qt"
 
 #: modules/gui/qt4/util/customwidgets.cpp:131
-#, fuzzy
 msgctxt "Tooltip|Clear"
 msgid "Clear"
-msgstr "Vûdî"
+msgstr "Netyî"
 
 #: modules/gui/skins2/src/dialogs.cpp:206
 msgid "Open a skin file"
-msgstr "Drovi on fitchî pea"
+msgstr "Drovi on fitchî tinme"
 
 #: modules/gui/skins2/src/dialogs.cpp:207
 msgid "Skin files |*.vlt;*.wsz;*.xml"
-msgstr "Fitchîs pea |*.vlt;*.wsz;*.xml"
+msgstr "Fitchîs tinmes |*.vlt;*.wsz;*.xml"
 
 #: modules/gui/skins2/src/dialogs.cpp:214
 msgid "Open playlist"
@@ -17133,15 +17109,15 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:535
 msgid "Skin to use"
-msgstr "Pea a eployî"
+msgstr "Tinme a eployî"
 
 #: modules/gui/skins2/src/skin_main.cpp:536
 msgid "Path to the skin to use."
-msgstr "Tchmin viè l' pea a eployi"
+msgstr "Tchmin viè l' tinme a eployi"
 
 #: modules/gui/skins2/src/skin_main.cpp:537
 msgid "Config of last used skin"
-msgstr "Apontiaedje del dierinne eployeye pea"
+msgstr "Apontiaedje do dierin eployî tinme"
 
 #: modules/gui/skins2/src/skin_main.cpp:538
 msgid ""
@@ -17185,7 +17161,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:578
 msgid "Skins"
-msgstr ""
+msgstr "Tinmes"
 
 #: modules/gui/skins2/src/skin_main.cpp:579
 msgid "Skinnable Interface"
@@ -17193,24 +17169,23 @@ msgstr ""
 
 #: modules/gui/skins2/src/skin_main.cpp:593
 msgid "Skins loader demux"
-msgstr ""
+msgstr "Dismultiplecseu do tcherdjeu des tinmes"
 
 #: modules/gui/skins2/src/theme_repository.cpp:65
 msgid "Select skin"
-msgstr "Tchoezi l' pea"
+msgstr "Tchoezi l' tinme"
 
 #: modules/gui/skins2/src/theme_repository.cpp:119
 msgid "Open skin ..."
-msgstr "Drovi pea ..."
+msgstr "Drovi tinme ..."
 
 #: modules/meta_engine/folder.c:67
 msgid "Folder meta data"
 msgstr "Ridant di meta-dnêyes"
 
 #: modules/meta_engine/folder.c:69
-#, fuzzy
 msgid "Album art filename"
-msgstr "No d' fitchî do djournå"
+msgstr ""
 
 #: modules/meta_engine/folder.c:69
 msgid "Filename to look for album art in current directory"
@@ -17345,6 +17320,7 @@ msgid "Gospel"
 msgstr "Gospel"
 
 #: modules/meta_engine/id3genres.h:67 modules/video_filter/noise.c:52
+#: linux/modules/gui/qt4/ui/video_effects.h:1144
 msgid "Noise"
 msgstr "Brut"
 
@@ -17639,14 +17615,13 @@ msgid "libc memcpy"
 msgstr "libc memcpy"
 
 #: modules/misc/freetype.c:95
-#, fuzzy
 msgid "Font family for the font you want to use"
-msgstr "Li no d' fitchî pol fonte ki vos vloz eployî"
+msgstr "Famile di fonte pol fonte ki vos vloz eployî"
 
 #: modules/misc/freetype.c:97
 #, fuzzy
 msgid "Fontfile for the font you want to use"
-msgstr "Li no d' fitchî pol fonte ki vos vloz eployî"
+msgstr "Fitchî di fonte pol fonte ki vos vloz eployî"
 
 #: modules/misc/freetype.c:100 modules/misc/win32text.c:60
 msgid "Font size in pixels"
@@ -17748,13 +17723,13 @@ msgstr "Crås Cotoû"
 
 #: modules/misc/freetype.c:147 modules/misc/win32text.c:93
 msgid "Text renderer"
-msgstr ""
+msgstr "Moteur di rindou do tecse"
 
 #: modules/misc/freetype.c:148
 msgid "Freetype2 font renderer"
 msgstr ""
 
-#: modules/misc/freetype.c:361
+#: modules/misc/freetype.c:359
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
@@ -17796,23 +17771,20 @@ msgid "Playing some media."
 msgstr "Djouwer sacwants medias."
 
 #: modules/misc/inhibit/osso.c:40
-#, fuzzy
 msgid "OSSO"
-msgstr "OSS"
+msgstr "OSSO"
 
 #: modules/misc/inhibit/osso.c:41
 msgid "OSSO screen unblanking"
 msgstr ""
 
 #: modules/misc/inhibit/xdg.c:35
-#, fuzzy
 msgid "XDG-screensaver"
-msgstr "Dismete li sipårgneu di waitroûle"
+msgstr "Sipårgneu di waitroûle-XDG"
 
 #: modules/misc/inhibit/xdg.c:36
-#, fuzzy
 msgid "XDG screen saver inhibition"
-msgstr "Dismete li sipårgneu di waitroûle X"
+msgstr ""
 
 #: modules/misc/inhibit/xscreensaver.c:67
 msgid "X Screensaver disabler"
@@ -17844,18 +17816,17 @@ msgid "Syslog facility"
 msgstr ""
 
 #: modules/misc/logger.c:129
-#, fuzzy
 msgid ""
 "Select the syslog facility where logs will be forwarded. Available choices "
 "are \"user\" (default), \"daemon\", and \"local0\" through \"local7\"."
 msgstr ""
-"Sipecifyî l' cogne do djournå. Les tchuzes disponibes sont \"tecse"
-"\" (prémetou) eyet \"html\"."
+"Tchoezî l' fonccion do djournå sistinme wice ki les djournås seront "
+"ricassîs. Les tchuzes disponibes sont \"uzeu\" (prémetou), \"daemon\", eyet "
+"\"local0\" emey \"local7\"."
 
 #: modules/misc/logger.c:157
-#, fuzzy
 msgid "Verbosity"
-msgstr "Verbosité (0,1,2)"
+msgstr ""
 
 #: modules/misc/logger.c:158
 msgid ""
@@ -17932,9 +17903,8 @@ msgid "Lua Playlist Parser Interface"
 msgstr ""
 
 #: modules/misc/lua/vlc.c:103
-#, fuzzy
 msgid "Lua Interface Module (shortcuts)"
-msgstr "Module Eterface Lua"
+msgstr "Module del eterface Lua (rascourtis)"
 
 #: modules/misc/lua/vlc.c:110
 msgid "Lua Art"
@@ -17945,14 +17915,12 @@ msgid "Fetch artwork using lua scripts"
 msgstr ""
 
 #: modules/misc/lua/vlc.c:116
-#, fuzzy
 msgid "Lua Extension"
-msgstr "Sitindaedje AAC"
+msgstr "Cawete Lua"
 
 #: modules/misc/lua/vlc.c:122
-#, fuzzy
 msgid "Lua SD Module"
-msgstr "Module Eterface Lua"
+msgstr "Module Lua SD"
 
 #: modules/misc/lua/vlc.c:132
 msgid "Freebox TV"
@@ -18091,9 +18059,8 @@ msgid "M3U playlist export"
 msgstr "Ebagaedje del djivêye a djouwer M3U"
 
 #: modules/misc/playlist/export.c:56
-#, fuzzy
 msgid "M3U8 playlist export"
-msgstr "Ebagaedje del djivêye a djouwer M3U"
+msgstr "Ebagaedje del djivêye a djouwer M3U8"
 
 #: modules/misc/playlist/export.c:62
 msgid "XSPF playlist export"
@@ -18114,14 +18081,12 @@ msgid ""
 msgstr ""
 
 #: modules/misc/quartztext.c:107
-#, fuzzy
 msgid "Text renderer for Mac"
-msgstr "Module do rindou do tecse"
+msgstr "Moteur di rindou do tecse pol Mac"
 
 #: modules/misc/quartztext.c:108
-#, fuzzy
 msgid "CoreText font renderer"
-msgstr "Moteur di rindou del fonte Win32"
+msgstr "Moteur di rindou del fonte CoreText"
 
 #: modules/misc/rtsp.c:61
 msgid "RTSP host address"
@@ -18375,7 +18340,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:112
 msgid "PMT Program numbers"
-msgstr ""
+msgstr "Limeros do programe PMT"
 
 #: modules/mux/mpeg/ts.c:113
 msgid ""
@@ -18448,9 +18413,8 @@ msgid ""
 msgstr ""
 
 #: modules/mux/mpeg/ts.c:147
-#, fuzzy
 msgid "PCR interval (ms)"
-msgstr "Tårdaedje PCR (ms)"
+msgstr ""
 
 #: modules/mux/mpeg/ts.c:148
 msgid ""
@@ -18528,7 +18492,7 @@ msgstr "Multiplecseu TS (libdvbpsi)"
 
 #: modules/mux/mpjpeg.c:47
 msgid "Multipart JPEG muxer"
-msgstr ""
+msgstr "Multiplecseu Multipart JPEG"
 
 #: modules/mux/ogg.c:51
 msgid "Ogg/OGM muxer"
@@ -18543,9 +18507,8 @@ msgid "Copy packetizer"
 msgstr ""
 
 #: modules/packetizer/dirac.c:87
-#, fuzzy
 msgid "Dirac packetizer"
-msgstr "Ewalpeu odio DTS"
+msgstr "Ewalpeu Dirac"
 
 #: modules/packetizer/h264.c:56
 msgid "H.264 video packetizer"
@@ -18591,27 +18554,25 @@ msgstr "Siervices Bonjour"
 
 #: modules/services_discovery/mediadirs.c:71
 #: modules/services_discovery/mediadirs.c:372
-#, fuzzy
 msgid "My Videos"
-msgstr "Videyo MPEG"
+msgstr "Mes ideyos"
 
 #: modules/services_discovery/mediadirs.c:78
 #: modules/services_discovery/mediadirs.c:374
-#, fuzzy
 msgid "My Music"
-msgstr "Muzicå"
+msgstr "Mi muzike"
 
 #: modules/services_discovery/mediadirs.c:84
-#, fuzzy
 msgid "Picture"
-msgstr "Poûrpe"
+msgstr "Imådje"
 
 #: modules/services_discovery/mediadirs.c:85
 #: modules/services_discovery/mediadirs.c:376
 msgid "My Pictures"
-msgstr ""
+msgstr "Mes imådjes"
 
 #: modules/services_discovery/podcast.c:58
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:102
 msgid "Podcast URLs list"
 msgstr ""
 
@@ -18697,9 +18658,8 @@ msgid ""
 msgstr ""
 
 #: modules/services_discovery/sap.c:121
-#, fuzzy
 msgid "Network streams (SAP)"
-msgstr "No del Rantoele"
+msgstr "Floûs del rantoele (SAP)"
 
 #: modules/services_discovery/sap.c:149
 msgid "SDP Descriptions parser"
@@ -18718,49 +18678,41 @@ msgid "User"
 msgstr "Uzeu"
 
 #: modules/services_discovery/udev.c:45 modules/services_discovery/udev.c:87
-#, fuzzy
 msgid "Video capture"
-msgstr "Pôrt videyo"
+msgstr "Egaloyaedje videyo"
 
 #: modules/services_discovery/udev.c:46
-#, fuzzy
 msgid "Video capture (Video4Linux)"
-msgstr "Maxhaedje des imådjes videyo"
+msgstr "Egaloyaedje videyo (Video4Linux)"
 
 #: modules/services_discovery/udev.c:54 modules/services_discovery/udev.c:89
-#, fuzzy
 msgid "Audio capture"
-msgstr "Intrêye di l' egaloyaedje odio Alsa"
+msgstr "Egaloyaedje odio"
 
 #: modules/services_discovery/udev.c:55
-#, fuzzy
 msgid "Audio capture (ALSA)"
-msgstr "Intrêye di l' egaloyaedje odio Alsa"
+msgstr "Egaloyaedje odio (ALSA)"
 
 #: modules/services_discovery/udev.c:63 modules/services_discovery/udev.c:64
 #: modules/services_discovery/udev.c:90
-#, fuzzy
 msgid "Discs"
-msgstr "Plake"
+msgstr "Plakes"
 
 #: modules/services_discovery/udev.c:585
-#, fuzzy
 msgid "CD"
-msgstr "VCD"
+msgstr "CD"
 
 #: modules/services_discovery/udev.c:589
 msgid "Blu-Ray"
-msgstr ""
+msgstr "Blu-Ray"
 
 #: modules/services_discovery/udev.c:591
-#, fuzzy
 msgid "HD DVD"
-msgstr "DVD"
+msgstr "HD DVD"
 
 #: modules/services_discovery/udev.c:598
-#, fuzzy
 msgid "Unknown type"
-msgstr "sôre nén cnoxhowe"
+msgstr "Sôre nén knoxhowe"
 
 #: modules/services_discovery/upnp_cc.cpp:65
 #: modules/services_discovery/upnp_intel.cpp:64
@@ -18769,7 +18721,7 @@ msgstr ""
 
 #: modules/stream_filter/decomp.c:54
 msgid "Decompression"
-msgstr ""
+msgstr "Disrastrindaedje"
 
 #: modules/stream_filter/rar.c:47
 msgid "Uncompressed RAR"
@@ -18940,7 +18892,7 @@ msgstr "Multiplecseu d' rexhowe odio"
 
 #: modules/stream_out/es.c:57
 msgid "This is the muxer that will be used for audio."
-msgstr ""
+msgstr "Çouki est l' multiplecseu ki serè eployî pol odio."
 
 #: modules/stream_out/es.c:58
 msgid "Video output muxer"
@@ -18948,7 +18900,7 @@ msgstr "Multiplecseu d' rexhowe videyo"
 
 #: modules/stream_out/es.c:60
 msgid "This is the muxer that will be used for video."
-msgstr ""
+msgstr "Çouki est l' multiplecseu ki serè eployî pol videyo."
 
 #: modules/stream_out/es.c:62
 msgid "Output URL"
@@ -19023,6 +18975,7 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
+#: linux/modules/gui/qt4/ui/video_effects.h:1176
 msgid "Transparency"
 msgstr "Weyoûe"
 
@@ -19058,7 +19011,7 @@ msgstr ""
 
 #: modules/stream_out/raop.c:148
 msgid "Hostname or IP address of target device"
-msgstr ""
+msgstr "No d' lodjoe ou adresse IP del éndjin såme"
 
 #: modules/stream_out/raop.c:151
 msgid ""
@@ -19068,12 +19021,11 @@ msgstr ""
 
 #: modules/stream_out/raop.c:155
 msgid "Password for target device."
-msgstr ""
+msgstr "Sicret pol éndjin såme."
 
 #: modules/stream_out/raop.c:157
-#, fuzzy
 msgid "Password file"
-msgstr "Sicret"
+msgstr "Fitchî des screts"
 
 #: modules/stream_out/raop.c:158
 msgid "Read password for target device from file."
@@ -19217,13 +19169,12 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/rtp.c:135
-#, fuzzy
 msgid ""
 "Default caching value for outbound RTP streams. This value should be set in "
 "milliseconds."
 msgstr ""
-"Prémetowe valixhance di muchete po les floûs PVR. Cisse valixhance duvreut "
-"esse defineye e milisegondes."
+"Prémetowe valixhance di muchete po evoyî les floûs RTP. Cisse valixhance "
+"duvreut esse defineye e milisegondes."
 
 #: modules/stream_out/rtp.c:138
 msgid "Transport protocol"
@@ -19282,9 +19233,8 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/smem.c:72
-#, fuzzy
 msgid "Audio postrender callback"
-msgstr "Boket odio"
+msgstr ""
 
 #: modules/stream_out/smem.c:73
 msgid ""
@@ -19293,28 +19243,24 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/smem.c:76
-#, fuzzy
 msgid "Video Callback data"
-msgstr "Boket videyo"
+msgstr "Dinêyes di rhoucaedje del videyo"
 
 #: modules/stream_out/smem.c:77
 msgid "Data for the video callback function."
 msgstr ""
 
 #: modules/stream_out/smem.c:79
-#, fuzzy
 msgid "Audio callback data"
-msgstr "ID do boket odio"
+msgstr "Dinêyes di rhoucaedje del odio"
 
 #: modules/stream_out/smem.c:80
-#, fuzzy
 msgid "Data for the audio callback function."
-msgstr "ID do floû del boket odio a eployî."
+msgstr "Dinêyes pol fonccion di rhoucaedje del odio."
 
 #: modules/stream_out/smem.c:82
-#, fuzzy
 msgid "Time Synchronized output"
-msgstr "Sincronijhî al copete eyet al valeye"
+msgstr ""
 
 #: modules/stream_out/smem.c:83
 msgid ""
@@ -19323,14 +19269,12 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/smem.c:95
-#, fuzzy
 msgid "Smem"
-msgstr "Floû"
+msgstr ""
 
 #: modules/stream_out/smem.c:96
-#, fuzzy
 msgid "Stream output to memory buffer"
-msgstr "Rexhowe do floû"
+msgstr ""
 
 #: modules/stream_out/standard.c:47
 msgid "Output method to use for the stream."
@@ -19338,7 +19282,7 @@ msgstr "Metôde di rexhowe a eployî pol floû."
 
 #: modules/stream_out/standard.c:50
 msgid "Muxer to use for the stream."
-msgstr ""
+msgstr "Multiplecseu a eployî pol floû."
 
 #: modules/stream_out/standard.c:51
 msgid "Output destination"
@@ -19384,6 +19328,7 @@ msgid "Standard stream output"
 msgstr "Sitandård rexhowe do floû"
 
 #: modules/stream_out/switcher.c:90
+#: linux/modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "Fitchîs"
 
@@ -19551,14 +19496,12 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/transcode/transcode.c:96
-#, fuzzy
 msgid "Audio Language"
 msgstr "Lingaedje odio"
 
 #: modules/stream_out/transcode/transcode.c:98
-#, fuzzy
 msgid "This is the language of the audio stream."
-msgstr "Des passetes odio sont eployeyes po mete en ouve li floû odio."
+msgstr "Çouki est l' lingaedje do floû odio."
 
 #: modules/stream_out/transcode/transcode.c:101
 msgid "Number of audio channels in the transcoded streams."
@@ -19682,6 +19625,7 @@ msgid "AltiVec conversions from "
 msgstr ""
 
 #: modules/video_filter/adjust.c:64
+#: linux/modules/gui/qt4/ui/video_effects.h:1110
 msgid "Brightness threshold"
 msgstr ""
 
@@ -19736,6 +19680,7 @@ msgid "Image properties filter"
 msgstr "Passete des prôpietés del imådje"
 
 #: modules/video_filter/adjust.c:81
+#: linux/modules/gui/qt4/ui/video_effects.h:1104
 msgid "Image adjust"
 msgstr "Adjustaedje del imådje"
 
@@ -19778,7 +19723,7 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:135
 #, fuzzy
 msgid "Device type"
-msgstr "Éndjin"
+msgstr "Sôre d' éndjin"
 
 #: modules/video_filter/atmo/atmo.cpp:136
 msgid ""
@@ -19788,31 +19733,27 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:152
 msgid "AtmoWin Software"
-msgstr ""
+msgstr "Programe AtmoWin"
 
 #: modules/video_filter/atmo/atmo.cpp:154
-#, fuzzy
 msgid "Classic AtmoLight"
-msgstr "AtmoLight"
+msgstr "AtmoLight classike"
 
 #: modules/video_filter/atmo/atmo.cpp:155
-#, fuzzy
 msgid "Quattro AtmoLight"
-msgstr "AtmoLight"
+msgstr "Quattro AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:156
 msgid "DMX"
-msgstr ""
+msgstr "DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:157
-#, fuzzy
 msgid "MoMoLight"
-msgstr "AtmoLight"
+msgstr "MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:160
-#, fuzzy
 msgid "Count of AtmoLight channels"
-msgstr "Nombe di canås d' rexhowe"
+msgstr "Contaedje des canås AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:161
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
@@ -19820,7 +19761,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:163
 msgid "DMX address for each channel"
-msgstr ""
+msgstr "Adresse DMX po tchaeke canå"
 
 #: modules/video_filter/atmo/atmo.cpp:164
 msgid ""
@@ -19829,9 +19770,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:167
-#, fuzzy
 msgid "Count of channels"
-msgstr "Nombe di canås"
+msgstr "Contaedje des canås"
 
 #: modules/video_filter/atmo/atmo.cpp:168
 msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
@@ -19871,7 +19811,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:193
 msgid "Mark analyzed pixels"
-msgstr ""
+msgstr "Mårker les analijhîs picsels"
 
 #: modules/video_filter/atmo/atmo.cpp:194
 msgid "makes the sample grid visible on screen as white pixels"
@@ -19955,28 +19895,24 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:222
-#, fuzzy
 msgid "Number of zones on top"
-msgstr "Nombe di clônes"
+msgstr "Nombe di redjons al copete"
 
 #: modules/video_filter/atmo/atmo.cpp:223
-#, fuzzy
 msgid "Number of zones on the top of the screen"
-msgstr "Côper dvins on picsel dal copete del videyo"
+msgstr "Nombe di redjons al copete del videyo"
 
 #: modules/video_filter/atmo/atmo.cpp:224
-#, fuzzy
 msgid "Number of zones on bottom"
-msgstr "Nombe di clônes"
+msgstr "Nombe di redjons al valêye"
 
 #: modules/video_filter/atmo/atmo.cpp:225
-#, fuzzy
 msgid "Number of zones on the bottom of the screen"
-msgstr "Côper dvins on picsel dal valêye del videyo"
+msgstr "Nombe di redjons al valêye del videyo"
 
 #: modules/video_filter/atmo/atmo.cpp:226
 msgid "Zones on left / right side"
-msgstr ""
+msgstr "Redjons sol costé hintche / droet"
 
 #: modules/video_filter/atmo/atmo.cpp:227
 msgid "left and right side having allways the same number of zones"
@@ -20073,6 +20009,7 @@ msgid "Sat windowing"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:268
+#: linux/modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "Longueur del passete (ms)"
 
@@ -20098,9 +20035,8 @@ msgid "Filter Smoothness"
 msgstr "Douceur del Passete"
 
 #: modules/video_filter/atmo/atmo.cpp:277
-#, fuzzy
 msgid "Output Color filter mode"
-msgstr "Module del passete del rexhowe videyo"
+msgstr "Môde del passete coleur del rexhowe"
 
 #: modules/video_filter/atmo/atmo.cpp:278
 msgid ""
@@ -20120,9 +20056,8 @@ msgid "Percent"
 msgstr "Åcintaedje"
 
 #: modules/video_filter/atmo/atmo.cpp:292
-#, fuzzy
 msgid "Frame delay (ms)"
-msgstr "Tårdaedje del cåde"
+msgstr "Tårdaedje del cåde (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:293
 msgid ""
@@ -20131,29 +20066,24 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:298
-#, fuzzy
 msgid "Channel 0: summary"
-msgstr "Rascourti do canå"
+msgstr "Canå 0: rascourti"
 
 #: modules/video_filter/atmo/atmo.cpp:299
-#, fuzzy
 msgid "Channel 1: left"
-msgstr "Canå hintche"
+msgstr "Canå 1: hintche"
 
 #: modules/video_filter/atmo/atmo.cpp:300
-#, fuzzy
 msgid "Channel 2: right"
-msgstr "Canå droet"
+msgstr "Canå 2: droet"
 
 #: modules/video_filter/atmo/atmo.cpp:301
-#, fuzzy
 msgid "Channel 3: top"
-msgstr "Canå al copete"
+msgstr "Canå 3: al copete"
 
 #: modules/video_filter/atmo/atmo.cpp:302
-#, fuzzy
 msgid "Channel 4: bottom"
-msgstr "Canå al valêye"
+msgstr "Canå 4: al valêye"
 
 #: modules/video_filter/atmo/atmo.cpp:304
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
@@ -20164,32 +20094,28 @@ msgid "disabled"
 msgstr "dismete"
 
 #: modules/video_filter/atmo/atmo.cpp:316
-#, fuzzy
 msgid "Zone 4:summary"
-msgstr "Rascourti do canå"
+msgstr "Redjon 4:rascourti"
 
 #: modules/video_filter/atmo/atmo.cpp:317
-#, fuzzy
 msgid "Zone 3:left"
-msgstr "Canå hintche"
+msgstr "Redjon 3:hintche"
 
 #: modules/video_filter/atmo/atmo.cpp:318
-#, fuzzy
 msgid "Zone 1:right"
-msgstr "Canå droet"
+msgstr "Redjon 14:droet"
 
 #: modules/video_filter/atmo/atmo.cpp:319
 msgid "Zone 0:top"
-msgstr ""
+msgstr "Redjon 0:al copete"
 
 #: modules/video_filter/atmo/atmo.cpp:320
-#, fuzzy
 msgid "Zone 2:bottom"
-msgstr "Canå al valêye"
+msgstr "Redjon 2:al valêye"
 
 #: modules/video_filter/atmo/atmo.cpp:322
 msgid "Channel / Zone Assignment"
-msgstr ""
+msgstr "Aroyaedje do Canå / del Redjon"
 
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid ""
@@ -20202,29 +20128,24 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:333
-#, fuzzy
 msgid "Zone 0: Top gradient"
-msgstr "Gradyint al copete"
+msgstr "Redjon 0:Gradyint al copete"
 
 #: modules/video_filter/atmo/atmo.cpp:334
-#, fuzzy
 msgid "Zone 1: Right gradient"
-msgstr "Gradyint droet"
+msgstr "Redjon 1:Gradyint droet"
 
 #: modules/video_filter/atmo/atmo.cpp:335
-#, fuzzy
 msgid "Zone 2: Bottom gradient"
-msgstr "Gradyint al valêye"
+msgstr "Redjon 2:Gradyint al valêye"
 
 #: modules/video_filter/atmo/atmo.cpp:336
-#, fuzzy
 msgid "Zone 3: Left gradient"
-msgstr "Gradyint hintche"
+msgstr "Redjon 3:Gradyint hintche"
 
 #: modules/video_filter/atmo/atmo.cpp:337
-#, fuzzy
 msgid "Zone 4: Summary gradient"
-msgstr "Rascourti do gradyint"
+msgstr "Redjon 4:Rascourti do gradyint"
 
 #: modules/video_filter/atmo/atmo.cpp:338
 msgid ""
@@ -20242,9 +20163,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:347
-#, fuzzy
 msgid "Filename of AtmoWin*.exe"
-msgstr "No do fitchî di AtmoWinA.exe"
+msgstr "No do fitchî di AtmoWin*.exe"
 
 #: modules/video_filter/atmo/atmo.cpp:348
 msgid ""
@@ -20257,6 +20177,8 @@ msgid "AtmoLight Filter"
 msgstr "Passete AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:361
+#: linux/modules/gui/qt4/ui/video_effects.h:1153
+#: linux/modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
@@ -20273,14 +20195,12 @@ msgid "Illuminate the room with this color on shutdown"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:420
-#, fuzzy
 msgid "DMX options"
-msgstr "Tchuzes"
+msgstr "Tchuzes DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:426
-#, fuzzy
 msgid "MoMoLight options"
-msgstr "Tchuzes d' apontiaedje"
+msgstr "Tchuzes MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:468
 msgid "Zone Layout for the build-in Atmo"
@@ -20316,7 +20236,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:54
 msgid "Alpha of the blended image"
-msgstr ""
+msgstr "Alfa del maxheye imådje"
 
 #: modules/video_filter/blendbench.c:55
 msgid "Alpha with which the blend image is blended"
@@ -20340,7 +20260,7 @@ msgstr ""
 
 #: modules/video_filter/blendbench.c:63
 msgid "Image which will be blended"
-msgstr ""
+msgstr "Imådje ki serè maxheye"
 
 #: modules/video_filter/blendbench.c:64
 msgid "The image blended onto the base image"
@@ -20475,15 +20395,15 @@ msgid "Canvas"
 msgstr "Toele"
 
 #: modules/video_filter/canvas.c:106
-#, fuzzy
 msgid "Canvas video filter"
-msgstr "Clôner l' passete del videyo"
+msgstr "Toele del passete del videyo"
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
 msgstr ""
 
 #: modules/video_filter/clone.c:39
+#: linux/modules/gui/qt4/ui/video_effects.h:1173
 msgid "Number of clones"
 msgstr "Nombe di clônes"
 
@@ -20510,6 +20430,7 @@ msgid "Clone video filter"
 msgstr "Clôner l' passete del videyo"
 
 #: modules/video_filter/clone.c:57
+#: linux/modules/gui/qt4/ui/video_effects.h:1172
 msgid "Clone"
 msgstr "Clône"
 
@@ -20522,15 +20443,15 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/colorthres.c:59
-#, fuzzy
 msgid "Select one color in the video"
-msgstr "Tchoezixhoz onk ou pus fitchîs a drovi"
+msgstr "Tchoezixhoz ine coleur dvins l' videyo"
 
 #: modules/video_filter/colorthres.c:69
 msgid "Color threshold filter"
 msgstr ""
 
 #: modules/video_filter/colorthres.c:70
+#: linux/modules/gui/qt4/ui/video_effects.h:1135
 msgid "Color threshold"
 msgstr "Soû do coleur"
 
@@ -20586,7 +20507,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:88
 msgid "Number of images for change"
-msgstr ""
+msgstr "Nombe d' imådjes po candjmint"
 
 #: modules/video_filter/crop.c:89
 msgid ""
@@ -20597,7 +20518,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:91
 msgid "Number of lines for change"
-msgstr ""
+msgstr "Nombe di rowes po candjmint"
 
 #: modules/video_filter/crop.c:92
 msgid ""
@@ -20607,7 +20528,7 @@ msgstr ""
 
 #: modules/video_filter/crop.c:94
 msgid "Number of non black pixels "
-msgstr ""
+msgstr "Nombe di picsels nén noer"
 
 #: modules/video_filter/crop.c:95
 msgid ""
@@ -20827,7 +20748,7 @@ msgstr "Flou di Gauss"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
-msgstr ""
+msgstr "Môde distoide"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
@@ -20923,9 +20844,8 @@ msgid "Y coordinate of the logo. You can move the logo by left-clicking it."
 msgstr ""
 
 #: modules/video_filter/logo.c:64
-#, fuzzy
 msgid "Opacity of the logo"
-msgstr "Transparince del imådjete"
+msgstr ""
 
 #: modules/video_filter/logo.c:65
 msgid ""
@@ -21019,9 +20939,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/marq.c:142
-#, fuzzy
 msgid "Display text above the video"
-msgstr "Håyner l' intrêye videyo"
+msgstr "Håyner l' tecse å dzeu del videyo"
 
 #: modules/video_filter/marq.c:149
 msgid "Marquee"
@@ -21046,9 +20965,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/mirror.c:69
-#, fuzzy
 msgid "Direction"
-msgstr "Ridant"
+msgstr "Direccion"
 
 #: modules/video_filter/mirror.c:70
 msgid "Direction of the mirroring"
@@ -21056,21 +20974,19 @@ msgstr ""
 
 #: modules/video_filter/mirror.c:73
 msgid "Left to right/Top to bottom"
-msgstr ""
+msgstr "Di hintche a droete/Del copete al valêye"
 
 #: modules/video_filter/mirror.c:73
 msgid "Right to left/Bottom to top"
-msgstr ""
+msgstr "Di droete a hintche/Del valêye al copete"
 
 #: modules/video_filter/mirror.c:78
-#, fuzzy
 msgid "Mirror video filter"
-msgstr "Côper dvins l' passete videyo"
+msgstr "Muroe del passete videyo"
 
 #: modules/video_filter/mirror.c:79
-#, fuzzy
 msgid "Mirror video"
-msgstr "Zoum videyo"
+msgstr "Muroe del videyo"
 
 #: modules/video_filter/mirror.c:80
 msgid "Splits video in two same parts, like in a mirror"
@@ -21232,6 +21148,7 @@ msgid "The degree of blurring from 1 to 127."
 msgstr ""
 
 #: modules/video_filter/motionblur.c:59
+#: linux/modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr ""
 
@@ -21360,7 +21277,7 @@ msgstr "Fitchî d' apontiaedje"
 
 #: modules/video_filter/osdmenu.c:45
 msgid "Configuration file for the OSD Menu."
-msgstr ""
+msgstr "Fitchî d' apontiaedje pol menu OSD."
 
 #: modules/video_filter/osdmenu.c:46
 msgid "Path to OSD menu images"
@@ -21452,6 +21369,7 @@ msgid "Panoramix: wall with overlap video filter"
 msgstr ""
 
 #: modules/video_filter/panoramix.c:79
+#: linux/modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
 msgstr ""
 
@@ -21461,7 +21379,7 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:90
 msgid "Select in percent the length of the blended zone"
-msgstr ""
+msgstr "Tchoezi en åcint li longueu del maxheye redjon"
 
 #: modules/video_filter/panoramix.c:93
 msgid "height of the overlapping area (in %)"
@@ -21472,7 +21390,6 @@ msgid "Select in percent the height of the blended zone (case of 2x2 wall)"
 msgstr ""
 
 #: modules/video_filter/panoramix.c:97
-#, fuzzy
 msgid "Attenuation"
 msgstr "Amwindrixhmint"
 
@@ -21483,41 +21400,42 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/panoramix.c:101
-#, fuzzy
 msgid "Attenuation, begin (in %)"
 msgstr "Amwindrixhmint, cominçmint (e %)"
 
 #: modules/video_filter/panoramix.c:102
 msgid "Select in percent the Lagrange coeff of the beginning blended zone"
 msgstr ""
+"Tchoezi en åcint li coweficyint da Lagrange do cominçmint del maxheye redjon"
 
 #: modules/video_filter/panoramix.c:105
-#, fuzzy
 msgid "Attenuation, middle (in %)"
 msgstr "Amwindrixhmint, mitant (e %)"
 
 #: modules/video_filter/panoramix.c:106
 msgid "Select in percent the Lagrange coeff of the middle of blended zone"
 msgstr ""
+"Tchoezi en åcint li coweficyint da Lagrange do mitan del maxheye redjon"
 
 #: modules/video_filter/panoramix.c:109
-#, fuzzy
 msgid "Attenuation, end (in %)"
 msgstr "Amwindrixhmint, difén (e %)"
 
 #: modules/video_filter/panoramix.c:110
 msgid "Select in percent the Lagrange coeff of the end of blended zone"
-msgstr ""
+msgstr "Tchoezi en åcint li coweficyint da Lagrange del fin del maxheye redjon"
 
 #: modules/video_filter/panoramix.c:113
 msgid "middle position (in %)"
-msgstr ""
+msgstr "Eplaeçmint do mitan (en %)"
 
 #: modules/video_filter/panoramix.c:114
 msgid ""
 "Select in percent (50 is center) the position of the middle point (Lagrange) "
 "of blended zone"
 msgstr ""
+"Tchoezi en åcint (50 est l' mitan) l' eplaeçmint do pont do mitan (Lagrange) "
+"del maxheye redjon"
 
 #: modules/video_filter/panoramix.c:116
 msgid "Gamma (Red) correction"
@@ -21527,6 +21445,7 @@ msgstr "Coridjaedje gama (Rodje)"
 msgid ""
 "Select the gamma for the correction of blended zone (Red or Y component)"
 msgstr ""
+"Tchoezi l' gama pol coridjaedje del maxheye redjon (Rodje ou componint Y)"
 
 #: modules/video_filter/panoramix.c:120
 msgid "Gamma (Green) correction"
@@ -21536,6 +21455,7 @@ msgstr "Coridjaedje gama (Vert)"
 msgid ""
 "Select the gamma for the correction of blended zone (Green or U component)"
 msgstr ""
+"Tchoezi l' gama pol coridjaedje del maxheye redjon (Vert ou componint U)"
 
 #: modules/video_filter/panoramix.c:124
 msgid "Gamma (Blue) correction"
@@ -21545,6 +21465,7 @@ msgstr "Coridjaedje gama (Bleu)"
 msgid ""
 "Select the gamma for the correction of blended zone (Blue or V component)"
 msgstr ""
+"Tchoezi l' gama pol coridjaedje del maxheye redjon (Bleu ou componint V)"
 
 #: modules/video_filter/panoramix.c:128
 msgid "Black Crush for Red"
@@ -21596,51 +21517,51 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:142
 msgid "Black Level for Red"
-msgstr "Livea d' Noer pol Rodje"
+msgstr "Livea d' Noer pol componint Rodje"
 
 #: modules/video_filter/panoramix.c:143
 msgid "Select the Black Level of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Tchoezi l' livea d' noer del maxheye redjon (Rodje ou componint Y)"
 
 #: modules/video_filter/panoramix.c:144
 msgid "Black Level for Green"
-msgstr "Livea d' Noer pol Vert"
+msgstr "Livea d' Noer pol componint Vert"
 
 #: modules/video_filter/panoramix.c:145
 msgid "Select the Black Level of blended zone (Green or U component)"
-msgstr ""
+msgstr "Tchoezi l' livea d' noer del maxheye redjon (Vert ou componint U)"
 
 #: modules/video_filter/panoramix.c:146
 msgid "Black Level for Blue"
-msgstr "Livea d' Noer pol Bleu"
+msgstr "Livea d' Noer pol componint Bleu"
 
 #: modules/video_filter/panoramix.c:147
 msgid "Select the Black Level of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Tchoezi l' livea d' noer del maxheye redjon (Bleu ou componint V)"
 
 #: modules/video_filter/panoramix.c:149
 msgid "White Level for Red"
-msgstr "Livea d' Blanc pol Rodje"
+msgstr "Livea d' Blanc pol componint Rodje"
 
 #: modules/video_filter/panoramix.c:150
 msgid "Select the White Level of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Tchoezi l' livea d' blanc del maxheye redjon (Rodje ou componint Y)"
 
 #: modules/video_filter/panoramix.c:151
 msgid "White Level for Green"
-msgstr "Livea d' Blanc pol Vert"
+msgstr "Livea d' Blanc pol componint Vert"
 
 #: modules/video_filter/panoramix.c:152
 msgid "Select the White Level of blended zone (Green or U component)"
-msgstr ""
+msgstr "Tchoezi l' livea d' blanc del maxheye redjon (Vert ou componint U)"
 
 #: modules/video_filter/panoramix.c:153
 msgid "White Level for Blue"
-msgstr "Livea d' Blanc pol Bleu"
+msgstr "Livea d' Blanc pol componint Bleu"
 
 #: modules/video_filter/panoramix.c:154
 msgid "Select the White Level of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Tchoezi l' livea d' blanc del maxheye redjon (Bleu ou componint V)"
 
 #: modules/video_filter/postproc.c:60
 msgid "Post processing quality"
@@ -21715,8 +21636,9 @@ msgid "VNC Port"
 msgstr "Pôrt VNC"
 
 #: modules/video_filter/remoteosd.c:80
+#, fuzzy
 msgid "VNC portnumber."
-msgstr ""
+msgstr "Limero d' pôrt VNC."
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC Password"
@@ -21789,6 +21711,7 @@ msgid "Rotate video filter"
 msgstr ""
 
 #: modules/video_filter/rotate.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1128
 msgid "Rotate"
 msgstr "Fé tourner"
 
@@ -21814,7 +21737,7 @@ msgstr "Longueu macsimom"
 
 #: modules/video_filter/rss.c:135
 msgid "Maximum number of characters displayed on the screen."
-msgstr ""
+msgstr "Nombe macsimom di caracteres håynés sol wailtroûle."
 
 #: modules/video_filter/rss.c:137
 msgid "Refresh time"
@@ -21853,7 +21776,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:167
 msgid "Title display mode"
-msgstr ""
+msgstr "Môde di håynaedje do tite"
 
 #: modules/video_filter/rss.c:168
 msgid ""
@@ -21879,7 +21802,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:194
 msgid "RSS / Atom"
-msgstr ""
+msgstr "RSS / Atom"
 
 #: modules/video_filter/rss.c:226
 msgid "RSS and Atom feed display"
@@ -21948,7 +21871,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:84
 msgid "Always write to the same file"
-msgstr ""
+msgstr "Tofer scrire dins l' minme fitchî"
 
 #: modules/video_filter/scene.c:85
 msgid ""
@@ -21962,11 +21885,11 @@ msgstr ""
 
 #: modules/video_filter/scene.c:93
 msgid "Scene filter"
-msgstr ""
+msgstr "Passete sinne"
 
 #: modules/video_filter/scene.c:94
 msgid "Scene video filter"
-msgstr ""
+msgstr "Passete videyo sinne"
 
 #: modules/video_filter/sharpen.c:46
 msgid "Sharpen strength (0-2)"
@@ -21985,6 +21908,7 @@ msgid "Sharpen video filter"
 msgstr ""
 
 #: modules/video_filter/sharpen.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1102
 msgid "Sharpen"
 msgstr "Rawijhî"
 
@@ -22050,7 +21974,7 @@ msgstr ""
 
 #: modules/video_filter/transform.c:66
 msgid "One of '90', '180', '270', 'hflip' and 'vflip'"
-msgstr ""
+msgstr "Onk di '90', '180', '270', 'hflip' et 'vflip'"
 
 #: modules/video_filter/transform.c:69
 msgid "Rotate by 90 degrees"
@@ -22073,9 +21997,8 @@ msgid "Flip vertically"
 msgstr "Discandjî d' astampé"
 
 #: modules/video_filter/transform.c:73
-#, fuzzy
 msgid "Rotate or flip the video"
-msgstr "Contrasse del intrêye videyo."
+msgstr ""
 
 #: modules/video_filter/transform.c:77
 msgid "Video transformation filter"
@@ -22111,7 +22034,7 @@ msgstr ""
 
 #: modules/video_filter/wave.c:53
 msgid "Wave video filter"
-msgstr ""
+msgstr "Passete videyo wague"
 
 #: modules/video_filter/yuvp.c:47
 msgid "YUVP converter"
@@ -22119,11 +22042,11 @@ msgstr "Coviertixheu YUVP"
 
 #: modules/video_output/aa.c:49
 msgid "ASCII Art"
-msgstr ""
+msgstr "ASCII-art"
 
 #: modules/video_output/aa.c:52
 msgid "ASCII-art video output"
-msgstr ""
+msgstr "Rexhowe videyo ASCII-art"
 
 #: modules/video_output/caca.c:50
 msgid "Color ASCII art video output"
@@ -22135,12 +22058,11 @@ msgstr ""
 
 #: modules/video_output/drawable.c:41 modules/video_output/xcb/window.c:71
 msgid "Drawable"
-msgstr ""
+msgstr "Dessinåbe"
 
 #: modules/video_output/drawable.c:42 modules/video_output/xcb/window.c:72
-#, fuzzy
 msgid "Embedded window video"
-msgstr "Ravalêye videyo"
+msgstr "Ravalêye purnea videyo"
 
 #: modules/video_output/fb.c:60
 msgid "Run fb on current tty"
@@ -22174,9 +22096,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_output/fb.c:76
-#, fuzzy
 msgid "Image format (default RGB)"
-msgstr "Cogne del imådje"
+msgstr "Cogne del imådje (prémetou RGB)"
 
 #: modules/video_output/fb.c:77
 msgid ""
@@ -22186,7 +22107,7 @@ msgstr ""
 
 #: modules/video_output/fb.c:95
 msgid "GNU/Linux framebuffer video output"
-msgstr ""
+msgstr "Rexhowe videyo do tampon memwere GNU/Linux"
 
 #: modules/video_output/ggi.c:59
 msgid ""
@@ -22199,9 +22120,8 @@ msgid "HD1000 video output"
 msgstr "Rexhowe videyo HD1000"
 
 #: modules/video_output/msw/direct3d.c:57
-#, fuzzy
 msgid "Enable desktop mode "
-msgstr "Mete en alaedje li môde di tapisreye"
+msgstr "Mete en alaedje li môde do scribanne"
 
 #: modules/video_output/msw/direct3d.c:59
 msgid "The desktop mode allows you to display the video on the desktop."
@@ -22212,30 +22132,29 @@ msgid "Recommended video output for Windows Vista and later versions"
 msgstr ""
 
 #: modules/video_output/msw/direct3d.c:65
-#, fuzzy
 msgid "Direct3D video output"
-msgstr "Rexhowe videyo DirectX 3D"
+msgstr "Rexhowe videyo Direct3D"
 
 #: modules/video_output/msw/direct3d.c:175
-#, fuzzy
 msgid "Desktop"
-msgstr "copete"
+msgstr "Sicribanne"
 
-#: modules/video_output/msw/directx.c:64
+#: modules/video_output/msw/directx.c:68
+#: linux/modules/gui/qt4/ui/sprefs_video.h:317
 msgid "Use hardware YUV->RGB conversions"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:66
+#: modules/video_output/msw/directx.c:70
 msgid ""
 "Try to use hardware acceleration for YUV->RGB conversions. This option "
 "doesn't have any effect when using overlays."
 msgstr ""
 
-#: modules/video_output/msw/directx.c:69
+#: modules/video_output/msw/directx.c:73
 msgid "Use video buffers in system memory"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:71
+#: modules/video_output/msw/directx.c:75
 msgid ""
 "Create video buffers in system memory instead of video memory. This isn't "
 "recommended as usually using video memory allows to benefit from more "
@@ -22243,39 +22162,40 @@ msgid ""
 "doesn't have any effect when using overlays."
 msgstr ""
 
-#: modules/video_output/msw/directx.c:76
+#: modules/video_output/msw/directx.c:80
 msgid "Use triple buffering for overlays"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:78
+#: modules/video_output/msw/directx.c:82
 msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
 msgstr ""
 
-#: modules/video_output/msw/directx.c:81
+#: modules/video_output/msw/directx.c:85
 msgid "Name of desired display device"
 msgstr ""
 
-#: modules/video_output/msw/directx.c:82
+#: modules/video_output/msw/directx.c:86
 msgid ""
 "In a multiple monitor configuration, you can specify the Windows device name "
 "of the display that you want the video window to open on. For example, \"\\"
 "\\.\\DISPLAY1\" or \"\\\\.\\DISPLAY2\"."
 msgstr ""
 
-#: modules/video_output/msw/directx.c:87
+#: modules/video_output/msw/directx.c:91
 msgid ""
 "Recommended video output for Windows XP. Incompatible with Vista's Aero "
 "interface"
 msgstr ""
+"Ricmandêye rexhowe videyo po Windows XP. Nén copatibe avou l' eterface Aero "
+"di Vista"
 
-#: modules/video_output/msw/directx.c:100
-#, fuzzy
+#: modules/video_output/msw/directx.c:104
 msgid "DirectX (DirectDraw) video output"
-msgstr "Rexhowe videyo DirectX 3D"
+msgstr "Rexhowe videyo DirectX (DirectDraw)"
 
-#: modules/video_output/msw/directx.c:229
+#: modules/video_output/msw/directx.c:233
 msgid "Wallpaper"
 msgstr "Tapisreye"
 
@@ -22293,11 +22213,12 @@ msgstr "Rexhowe videyo Windows GDI"
 
 #: modules/video_output/omapfb.c:78
 msgid "OMAP Framebuffer device"
-msgstr ""
+msgstr "Éndjin do tampon memwere OMAP"
 
 #: modules/video_output/omapfb.c:80
 msgid "OMAP Framebuffer device to use for rendering (usually /dev/fb0)."
 msgstr ""
+"Éndjin do tampon memwere OMAP a eployî pol rindou (normålmint /dev/fb0)."
 
 #: modules/video_output/omapfb.c:84
 msgid ""
@@ -22314,13 +22235,12 @@ msgid "Embed the framebuffer overlay into a X11 window"
 msgstr ""
 
 #: modules/video_output/omapfb.c:91
-#, fuzzy
 msgid "OMAP framebuffer"
-msgstr "Tampons djouwés"
+msgstr "Tampon memwere OMAP"
 
 #: modules/video_output/omapfb.c:100
 msgid "OMAP framebuffer video output"
-msgstr ""
+msgstr "Rexhowe videyo do tampon memwere OMAP"
 
 #: modules/video_output/opengl.c:57
 msgid "OpenGL Provider"
@@ -22383,7 +22303,7 @@ msgstr "Rexhowe videyo SVGAlib"
 
 #: modules/video_output/vmem.c:48
 msgid "Pitch"
-msgstr ""
+msgstr "Ton"
 
 #: modules/video_output/vmem.c:49
 msgid "Video memory buffer pitch in bytes."
@@ -22405,12 +22325,11 @@ msgstr "Memwere videyo"
 
 #: modules/video_output/xcb/glx.c:50
 msgid "GLX"
-msgstr ""
+msgstr "GLX"
 
 #: modules/video_output/xcb/glx.c:51
-#, fuzzy
 msgid "GLX video output (XCB)"
-msgstr "Rexhowe videyo X11"
+msgstr "Rexhowe videyo GLX (XCB)"
 
 #: modules/video_output/xcb/window.c:43
 msgid "ID of the video output X window"
@@ -22423,18 +22342,17 @@ msgid ""
 msgstr ""
 
 #: modules/video_output/xcb/window.c:57
-#, fuzzy
 msgid "X window"
-msgstr "Purnea XCB"
+msgstr "Purnea X"
 
 #: modules/video_output/xcb/window.c:58
 msgid "X11 video window (XCB)"
-msgstr ""
+msgstr "Purnea videyo X11 (XCB)"
 
 #: modules/video_output/xcb/window.c:289
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr "VLC media player"
+msgstr "Djouweu d' media VLC"
 
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
@@ -22455,12 +22373,11 @@ msgstr ""
 
 #: modules/video_output/xcb/x11.c:51
 msgid "X11"
-msgstr ""
+msgstr "X11"
 
 #: modules/video_output/xcb/x11.c:52
-#, fuzzy
 msgid "X11 video output (XCB)"
-msgstr "Rexhowe videyo X11"
+msgstr "Rexhowe videyo X11 (XCB)"
 
 #: modules/video_output/xcb/xvideo.c:42
 msgid "XVideo adaptor number"
@@ -22473,19 +22390,16 @@ msgid ""
 msgstr ""
 
 #: modules/video_output/xcb/xvideo.c:58
-#, fuzzy
 msgid "XVideo"
-msgstr "Videyo"
+msgstr "XVideyo"
 
 #: modules/video_output/xcb/xvideo.c:59
-#, fuzzy
 msgid "XVideo output (XCB)"
-msgstr "PIN del rexhowe videyo"
+msgstr "Rexhowe XVideyo (XCB)"
 
 #: modules/video_output/xcb/xvideo.c:273
-#, fuzzy
 msgid "Video acceleration not available"
-msgstr "Apontiaedjes del Videyo nén schapés"
+msgstr "Acceleråcion del Videyo nén disponibe"
 
 #: modules/video_output/xcb/xvideo.c:274
 #, c-format
@@ -22556,14 +22470,12 @@ msgid "Goom effect"
 msgstr "Efet di Goom"
 
 #: modules/visualization/projectm.cpp:47
-#, fuzzy
 msgid "projectM configuration file"
-msgstr "Fitchî d' apontiaedje VLC"
+msgstr "Fitchî d' apontiaedje projectM"
 
 #: modules/visualization/projectm.cpp:48
-#, fuzzy
 msgid "File that will be used to configure the projectM module."
-msgstr "No di l' uzeu ki serè eployî pol raloyaedje."
+msgstr "Fitchî ki serè eployî poz-apontyî l' module projectM."
 
 #: modules/visualization/projectm.cpp:51
 msgid "projectM preset path"
@@ -22574,40 +22486,36 @@ msgid "Path to the projectM preset directory"
 msgstr ""
 
 #: modules/visualization/projectm.cpp:54
-#, fuzzy
 msgid "Title font"
-msgstr "Tite"
+msgstr "Fonte do tite"
 
 #: modules/visualization/projectm.cpp:55
-#, fuzzy
 msgid "Font used for the titles"
-msgstr "Radisté des sortites:"
+msgstr "Fonte eploeyes po les tites"
 
 #: modules/visualization/projectm.cpp:57
-#, fuzzy
 msgid "Font menu"
-msgstr "Grandeu del fonte"
+msgstr "Dressêye des fontes"
 
 #: modules/visualization/projectm.cpp:58
 msgid "Font used for the menus"
-msgstr ""
+msgstr "Fonte eployeye po les menus"
 
 #: modules/visualization/projectm.cpp:61
 msgid "The width of the video window, in pixels."
 msgstr ""
 
 #: modules/visualization/projectm.cpp:64
-#, fuzzy
 msgid "The height of the video window, in pixels."
-msgstr "Rilujhance del intrêye videyo."
+msgstr "Li hôteu del purnea videyo, e picsels."
 
 #: modules/visualization/projectm.cpp:67
 msgid "projectM"
-msgstr ""
+msgstr "projectM"
 
 #: modules/visualization/projectm.cpp:68
 msgid "libprojectM effect"
-msgstr ""
+msgstr "efet libprojectM"
 
 #: modules/visualization/visual/visual.c:42
 msgid "Effects list"
@@ -22629,7 +22537,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:56
 msgid "More bands : 80 / 20"
-msgstr "Pus des bindes : 80 / 20"
+msgstr "Pus d' bindes : 80 / 20"
 
 #: modules/visualization/visual/visual.c:58
 msgid "More bands for the spectrum analyzer : 80 if enabled else 20."
@@ -22649,7 +22557,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:66
 msgid "Amplification"
-msgstr ""
+msgstr "Rafoircixhaedje"
 
 #: modules/visualization/visual/visual.c:68
 msgid "This is a coefficient that modifies the height of the bands."
@@ -22739,21 +22647,903 @@ msgstr ""
 msgid "Spectrum analyser"
 msgstr "Analijheu do speke"
 
+#: linux/modules/gui/qt4/ui/equalizer.h:126
+#: linux/modules/gui/qt4/ui/open_disk.h:290
+#: linux/modules/gui/qt4/ui/open_net.h:91
+#: linux/modules/gui/qt4/ui/profiles.h:454
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:403
+#: linux/modules/gui/qt4/ui/sprefs_input.h:305
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:372
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:200
+#: linux/modules/gui/qt4/ui/sprefs_video.h:308
+#: linux/modules/gui/qt4/ui/streampanel.h:168
+#: linux/modules/gui/qt4/ui/v4l2.h:58
+msgid "Form"
+msgstr "Fôme"
+
+#: linux/modules/gui/qt4/ui/equalizer.h:129
+msgid "Preset"
+msgstr "Prézapontiaedje"
+
+#: linux/modules/gui/qt4/ui/open.h:230
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:101
+msgid "Dialog"
+msgstr "Divize"
+
+#: linux/modules/gui/qt4/ui/open.h:232
+msgid "Show extended options"
+msgstr "Mostrer les tchuzes avanceyes"
+
+#: linux/modules/gui/qt4/ui/open.h:234
+msgid "Show &more options"
+msgstr "Mostrer &pus di tchuzes"
+
+#: linux/modules/gui/qt4/ui/open.h:237
+msgid "Change the caching for the media"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:239
+msgid " ms"
+msgstr " ms"
+
+#: linux/modules/gui/qt4/ui/open.h:240
+msgid "Start Time"
+msgstr "Eure di Cominçmint"
+
+#: linux/modules/gui/qt4/ui/open.h:241
+msgid "Play another media synchronously (extra audio file, ...)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:242
+msgid "Extra media"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:244
+msgid "Select the file"
+msgstr "Tchoezi l' fitchî"
+
+#: linux/modules/gui/qt4/ui/open.h:247
+msgid "MRL"
+msgstr "MRL"
+
+#: linux/modules/gui/qt4/ui/open.h:249
+msgid "Complete MRL for VLC internal"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:251
+msgid "Edit Options"
+msgstr "Aspougnî les Tchuzes"
+
+#: linux/modules/gui/qt4/ui/open.h:253
+msgid "Change the start time for the media"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:255
+msgid "s"
+msgstr "s"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:98
+msgid "Capture mode"
+msgstr "Mode d' egaloyaedje"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:100
+msgid "Select the capture device type"
+msgstr "Tchoezixhoz l' sôre d' éndjin d' egaloyaedje"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:102
+msgid "Device Selection"
+msgstr "Tchuze del Éndjin"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "Tchuzes"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:105
+msgid "Access advanced options to tweak the device"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open_capture.h:107
+msgid "Advanced options..."
+msgstr "Sipepieusès tchuzes..."
+
+#: linux/modules/gui/qt4/ui/open_disk.h:291
+msgid "Disc Selection"
+msgstr "Tchuze del éndjin"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:294
+msgid "SVCD/VCD"
+msgstr "SVCD/VCD"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:296
+msgid "Disable DVD Menus (for compatibility)"
+msgstr "Disete les menus DVD (pol copatibilité)"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:299
+msgid "Disc device"
+msgstr "Éndjin plake"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:301
+msgid "Starting Position"
+msgstr "Eplaeçmint d' enondaedje"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:304
+msgid "Audio and Subtitles"
+msgstr "Odio eyet Sortites"
+
+#: linux/modules/gui/qt4/ui/open_file.h:219
+msgid "Choose one or more media file to open"
+msgstr "Tchoezixhoz onk ou pus d' fitchîs media a drovi"
+
+#: linux/modules/gui/qt4/ui/open_file.h:221
+msgid "File Selection"
+msgstr "Tchoezi l' fitchî"
+
+#: linux/modules/gui/qt4/ui/open_file.h:222
+msgid "You can select local files with the following list and buttons."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open_file.h:223
+msgid "Add..."
+msgstr "Radjouter..."
+
+#: linux/modules/gui/qt4/ui/open_file.h:226
+msgid "Add a subtitles file"
+msgstr "Radjouter on fitchî des sortites"
+
+#: linux/modules/gui/qt4/ui/open_file.h:228
+msgid "Use a sub&titles file"
+msgstr "Eployî  on fi&tchî des sortites"
+
+#: linux/modules/gui/qt4/ui/open_file.h:230
+msgid "Select the subtitles file"
+msgstr "Tchoezi l' fitchî des sortites"
+
+#: linux/modules/gui/qt4/ui/open_file.h:233
+msgid "Font size:"
+msgstr "Grandeu del fonte"
+
+#: linux/modules/gui/qt4/ui/open_file.h:234
+msgid "Text alignment:"
+msgstr "Aroymint do tecse:"
+
+#: linux/modules/gui/qt4/ui/open_net.h:92
+msgid "Network Protocol"
+msgstr "Protocole del Rantoele"
+
+#: linux/modules/gui/qt4/ui/open_net.h:93
 #, fuzzy
+msgid "Please enter a network URL:"
+msgstr "S' i vs plait intrez li novea no do profil."
+
+#: linux/modules/gui/qt4/ui/open_net.h:95
+msgid "Enter the URL of the network stream here."
+msgstr "Introz l' URL do floû del rantoele chial."
+
+#: linux/modules/gui/qt4/ui/open_net.h:97
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.example.com/stream.avi</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtp://@1234</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtsp://server.example.org:8080/test.sdp</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:456
+msgid "MPEG-TS"
+msgstr "MPEG-TS"
+
+#: linux/modules/gui/qt4/ui/profiles.h:457
+msgid "MPEG-PS"
+msgstr "MPEG-PS"
+
+#: linux/modules/gui/qt4/ui/profiles.h:458
+msgid "WAV"
+msgstr "WAV"
+
+#: linux/modules/gui/qt4/ui/profiles.h:459
+msgid "ASF/WMV"
+msgstr "ASF/WMV"
+
+#: linux/modules/gui/qt4/ui/profiles.h:460
+msgid "Ogg/Ogm"
+msgstr "Ogg/Ogm"
+
+#: linux/modules/gui/qt4/ui/profiles.h:461
+msgid "RAW"
+msgstr "RAW"
+
+#: linux/modules/gui/qt4/ui/profiles.h:462
+msgid "MPEG 1"
+msgstr "MPEG 1"
+
+#: linux/modules/gui/qt4/ui/profiles.h:463
+msgid "FLV"
+msgstr "FLV"
+
+#: linux/modules/gui/qt4/ui/profiles.h:464
+msgid "AVI"
+msgstr "AVI"
+
+#: linux/modules/gui/qt4/ui/profiles.h:465
+msgid "MP4/MOV"
+msgstr "MP4/MOV"
+
+#: linux/modules/gui/qt4/ui/profiles.h:467
+msgid "MKV"
+msgstr "MKV"
+
+#: linux/modules/gui/qt4/ui/profiles.h:468
+msgid "Encapsulation"
+msgstr "Ecapsulaedje"
+
+#: linux/modules/gui/qt4/ui/profiles.h:472
+#: linux/modules/gui/qt4/ui/profiles.h:491
+msgid " kb/s"
+msgstr " kb/s"
+
+#: linux/modules/gui/qt4/ui/profiles.h:473
+msgid "Frame Rate"
+msgstr "Frecwince do Cåde"
+
+#: linux/modules/gui/qt4/ui/profiles.h:475
+msgid " fps"
+msgstr " cps"
+
+#: linux/modules/gui/qt4/ui/profiles.h:477
+msgid ""
+"You just need to fill one of the three following parameters, VLC will "
+"autodetect the other using the original aspect ratio"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:480
+#: linux/modules/gui/qt4/ui/profiles.h:483
+msgid "00000; "
+msgstr "00000; "
+
+#: linux/modules/gui/qt4/ui/profiles.h:485
+msgid "Keep original video track"
+msgstr "Wårder l' boket videyo d' oridjinne"
+
+#: linux/modules/gui/qt4/ui/profiles.h:486
+msgid "Video codec"
+msgstr "Codec videyo"
+
+#: linux/modules/gui/qt4/ui/profiles.h:488
+msgid "Keep original audio track"
+msgstr "Wårder l' boket odio d' oridjinne"
+
+#: linux/modules/gui/qt4/ui/profiles.h:493
+msgid "Sample Rate"
+msgstr "Frecwince di sampling"
+
+#: linux/modules/gui/qt4/ui/profiles.h:494
+msgid "Audio codec"
+msgstr "Codec odio"
+
+#: linux/modules/gui/qt4/ui/profiles.h:496
+msgid "Overlay subtitles on the video"
+msgstr "Ricovri l' videyo avou les sortites"
+
+#: linux/modules/gui/qt4/ui/sout.h:329 linux/modules/gui/qt4/ui/sout.h:339
+msgid "Destinations"
+msgstr "Destinåcions"
+
+#: linux/modules/gui/qt4/ui/sout.h:330
+msgid "New destination"
+msgstr "Novele destinåcion"
+
+#: linux/modules/gui/qt4/ui/sout.h:332
+msgid ""
+"Add destinations following the streaming methods you need. Be sure to check "
+"with transcoding that the format is compatible with the method used."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sout.h:333
+msgid "Display locally"
+msgstr "Håyner locålmint"
+
+#: linux/modules/gui/qt4/ui/sout.h:336
+msgid "Activate Transcoding"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sout.h:340
+msgid "Miscellaneous Options"
+msgstr "Totès sôres di tchuzes"
+
+#: linux/modules/gui/qt4/ui/sout.h:341
+msgid "Stream all elementary streams"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sout.h:343
+msgid "Group name"
+msgstr "No do groupe"
+
+#: linux/modules/gui/qt4/ui/sout.h:345
+msgid "Generated stream output string"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:406
+msgid "Keep audio level between sessions"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:407
+msgid "Always reset audio start level to:"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:408
+msgid " %"
+msgstr " %"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:409
+#: linux/modules/gui/qt4/ui/sprefs_video.h:313
+msgid "Output"
+msgstr "Rexhowe"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:410
+msgid "Output module:"
+msgstr "Module di rexhowe:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:415
+msgid "Dolby Surround:"
+msgstr "Dolby Surround:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:416
+msgid "Normalize volume to:"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:417
+msgid "Replay gain mode:"
+msgstr "Ridjouwer môde di wangnaedje:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:418
+msgid "Visualization:"
+msgstr "Voeyaedje:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:420
+msgid "Enable Time-Stretching audio"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:422
+msgid "Preferred audio language:"
+msgstr "Lingaedje odio eployî li pus voltî:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:423
+msgid "Password:"
+msgstr "Sicret:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:424
+msgid "Username:"
+msgstr "No d' uzeu:"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:425
+msgid "Submit played tracks stats to Last.fm"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:306
+msgid "Optical drive"
+msgstr "Lijheu optike"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:307
+msgid "Default optical device"
+msgstr "Premetou éndjin optike"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:309
+msgid "Codecs"
+msgstr "Codecs"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:310
+msgid "Skip H.264 in-loop deblocking filter"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:311
+msgid "Video quality post-processing level"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:312
+msgid "Use GPU acceleration (experimental)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:313
+msgid "Use system codecs if available (better quality, but dangerous)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:315
+msgid "Damaged or incomplete AVI file"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:319
+msgid "Default port (server mode)"
+msgstr "Prémetou Pôrt (mode sierveu)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:320
+msgid "HTTP proxy URL"
+msgstr "URL do procsi HTTP"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:321
+msgid "Default caching policy"
+msgstr "Prémetowe politike di muchete"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:322
+msgid "HTTP (default)"
+msgstr "HTTP (prémetou)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:323
+msgid "RTP over RTSP (TCP)"
+msgstr "RTP so RTSP (TCP)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:324
+msgid "Live555 stream transport"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:373
+msgid "Instances"
+msgstr "Instances"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:374
+msgid "Allow only one instance"
+msgstr "Permete seulmint ene instance"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:375
+msgid "Enqueue files when in one instance mode"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:377
+msgid "Album art download policy:"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:378
+msgid "Activate update notifier"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:380
+msgid "Every "
+msgstr "Tchaeke"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:381
+msgid "Save recently played items"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:384
+msgid "Separate words by | (without space)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:387
+msgid "Menus language:"
+msgstr "Menus lingaedje:"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:388
+msgid "File associations"
+msgstr "Assoçnaedjes di fitchîs"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:389
+msgid "Set up associations..."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:390
+msgid "Look and feel"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:391
+msgid "Use custom skin"
+msgstr "Eployî l' tinme a vosse môde"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:393
+msgid "Skin resource file:"
+msgstr "Fitchî rissoûce des tinmes:"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:395
+msgid "Resize interface to video size"
+msgstr "Candjî l' grandeu del eterface a l' grandeu del videyo"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:396
+msgid "Force window style:"
+msgstr "Foirci l' stîle del purnea:"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:397
+msgid "Show systray icon"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:398
+msgid "Embed video in interface"
+msgstr "Ravalez l' videyo dins l' eterface"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:399
+msgid " Systray popup when minimized"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:400
+msgid "Show controls in full screen mode"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:401
+msgid "Minimal view mode (no toolbars)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:403
+msgid "This is VLC's default interface, with a native look and feel."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:405
+msgid "Use native style"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:202
+msgid "Enable On Screen Display (OSD)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:203
+msgid "Show media title on video start"
+msgstr "Mostrer l' tite do media a l' enondaedje del videyo"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:204
+msgid "Subtitles Language"
+msgstr "Lingaedje des Sortites"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:205
+msgid "Preferred subtitles language"
+msgstr "Lingaedje des sortites eployî li pus volti"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:206
+msgid "Default encoding"
+msgstr "Prémetou ecôdaedje"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:208
+msgid "Effect"
+msgstr "Efet"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:209
+msgid "Font color"
+msgstr "Coleur del fonte"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:212
+#: linux/modules/gui/qt4/ui/video_effects.h:1113
+#: linux/modules/gui/qt4/ui/video_effects.h:1115
+#: linux/modules/gui/qt4/ui/video_effects.h:1117
+#: linux/modules/gui/qt4/ui/video_effects.h:1119
+msgid " px"
+msgstr " px"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:314
+msgid "Accelerated video output (Overlay)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:318
+msgid "DirectX"
+msgstr "DirectX"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:319
+msgid "Display device"
+msgstr "Håyner l' éndjin"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:320
+msgid "Enable wallpaper mode"
+msgstr "Mete en alaedje li môde tapisreye"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:322
+msgid "Deinterlacing"
+msgstr "Disinterlaçmint"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:323
+msgid "Force Aspect Ratio"
+msgstr "Foirci l' Rapoirt lårdjeur/hôteur"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:327
+msgid "Directory"
+msgstr "Ridant"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:329
+msgid "vlc-snap"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/streampanel.h:172
+msgid "Stuff"
+msgstr "Stofe"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:174
+msgid "Edit settings"
+msgstr "Candjî les apontiaedjes"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:175
+msgid "Control"
+msgstr "Controle"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:176
+msgid "Run manually"
+msgstr "Enonder al mwin"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:177
+msgid "Setup schedule"
+msgstr "Apontyî l' programaedje"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:178
+msgid "Run on schedule"
+msgstr "Enonder l' programaedje"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:179
+msgid "Status"
+msgstr "Estat"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:180
+msgid "P/P"
+msgstr "P/P"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:183
+msgid "Prev"
+msgstr "Di dvant"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:184
+msgid "Add Input"
+msgstr "Radjouter Intrêye"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:185
+msgid "Edit Input"
+msgstr "Aspougnî Intrêye"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:186
+msgid "Clear List"
+msgstr "Netyî Djivêye"
+
+#: linux/modules/gui/qt4/ui/v4l2.h:59
+msgid "Refresh"
+msgstr "Rafrister"
+
+#: linux/modules/gui/qt4/ui/v4l2.h:60
+msgid "No v4l2 instance found. Press the refresh button to try again."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1101
+msgid "Transform"
+msgstr "Transformer"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1103
+msgid "Sigma"
+msgstr "Sigma"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1120
+msgid "Synchronize top and bottom"
+msgstr "Sincronijhî copete eyet valêye"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1121
+msgid "Synchronize left and right"
+msgstr "Sincronijhî hintche eyet droete"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1123
+#, fuzzy
+msgid "Magnification/Zoom"
+msgstr "Groxhixhaedje/Zoum"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1124
+msgid "Puzzle game"
+msgstr "Djeu d' puzel"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1125
+msgid "Black slot"
+msgstr "Noer royon"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1126
+#: linux/modules/gui/qt4/ui/video_effects.h:1165
+#: linux/modules/gui/qt4/ui/video_effects.h:1171
+msgid "Columns"
+msgstr "Colones"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1127
+#: linux/modules/gui/qt4/ui/video_effects.h:1164
+#: linux/modules/gui/qt4/ui/video_effects.h:1170
+msgid "Rows"
+msgstr "Royes"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1129
+msgid "Angle"
+msgstr "Inglêye"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1130
+msgid "Geometry"
+msgstr "Djeyometreye"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1131
+msgid "Color extraction"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1133
+#: linux/modules/gui/qt4/ui/video_effects.h:1139
+msgid ">HHHHHH;#"
+msgstr ">HHHHHH;#"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1136
+msgid "Similarity"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1140
+msgid "Color fun"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1142
+msgid "Water effect"
+msgstr "Efet d' ewe"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1145
+msgid "Motion detect"
+msgstr "Deteccion des movmints"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1147
+msgid "Factor"
+msgstr "Facteur"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1151
+msgid "Cartoon"
+msgstr "Fime d' imådjes"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1152
+msgid "Image modification"
+msgstr "Candjemint d' imådje"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1154
+msgid "Edge weightning"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1155
+msgid "Output Color Filtermode"
+msgstr "Môde del passete del coleur di rexhowe"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1156
+msgid "Brightness (%)"
+msgstr "Rilujhance (%)"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1157
+#, fuzzy
+msgid "Darknesslimit"
+msgstr "Limite del noerixheur"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1158
+msgid "Mark analyzed Pixels"
+msgstr "Mårker les analijhîs picsels"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1160
+msgid "Filter threshold (%)"
+msgstr "Soû do passete (%)"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1161
+msgid "Filter smoothness (%)"
+msgstr "Doûceur do passete (%)"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1163
+msgid "Wall"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1166
+msgid "Add text"
+msgstr "Radjouter tecse"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1174
+msgid "Vout/Overlay"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1175
+msgid "Add logo"
+msgstr "Radjouter imådjete"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1179
+#: linux/modules/gui/qt4/ui/video_effects.h:1184
+msgid "Logo"
+msgstr "Imådjete"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1180
+msgid "Logo erase"
+msgstr "Disfacer imådjete"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1183
+msgid "Mask"
+msgstr "Masse"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1185
+msgid "Subpicture filters"
+msgstr "Passetes des dzo-imådjes"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1186
+msgid "Video filters"
+msgstr "Passetes videyo"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1187
+msgid "Vout filters"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1188
+msgid "Reset"
+msgstr "Rimete a zero"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1189
+msgid "Update"
+msgstr "Mete a djoû"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1190
+msgid "Advanced video filter controls"
+msgstr "Sipepieus contrôles del passete videyo"
+
+#: linux/modules/gui/qt4/ui/vlm.h:287
+msgid "VLM configurator"
+msgstr "Apontiaedje VLM"
+
+#: linux/modules/gui/qt4/ui/vlm.h:288
+msgid "Media Manager Edition"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/vlm.h:289
+msgid "Name:"
+msgstr "No:"
+
+#: linux/modules/gui/qt4/ui/vlm.h:291
+msgid "Input:"
+msgstr "Intrêye:"
+
+#: linux/modules/gui/qt4/ui/vlm.h:292
+msgid "Select Input"
+msgstr "Tchoezi Intrêye"
+
+#: linux/modules/gui/qt4/ui/vlm.h:293
+msgid "Output:"
+msgstr "Rexhowe:"
+
+#: linux/modules/gui/qt4/ui/vlm.h:294
+msgid "Select Output"
+msgstr "Tchoezi Rexhowe"
+
+#: linux/modules/gui/qt4/ui/vlm.h:295
+msgid "Time Control"
+msgstr "Contrôle di Tins"
+
+#: linux/modules/gui/qt4/ui/vlm.h:296
+msgid "Mux Control"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/vlm.h:297
+msgid "Muxer:"
+msgstr "Multiplecseu:"
+
+#: linux/modules/gui/qt4/ui/vlm.h:298
+msgid "AAAA; "
+msgstr "AAAA; "
+
+#: linux/modules/gui/qt4/ui/vlm.h:299
+msgid "Loop"
+msgstr "Blouke"
+
+#: linux/modules/gui/qt4/ui/vlm.h:303
+msgid "Media Manager List"
+msgstr "Djivêye do manaedjeu des medias"
+
+#~ msgid "Attachment"
+#~ msgstr "Ataetchmint"
+
+#~ msgid "Attachment input"
+#~ msgstr "Ataetchmint d' intrêye"
+
 #~ msgid "Caching value for files, in milliseconds."
-#~ msgstr ""
-#~ "Valixhance di muchete po les fitchîs. Cisse valixhance duvreut esse "
-#~ "defineye e milisegondes."
+#~ msgstr "Valixhance di muchete po les fitchîs e milisegondes."
 
-#, fuzzy
 #~ msgid "Extra network caching value (ms)"
-#~ msgstr "Valixhance di muchete (ms)"
+#~ msgstr "Valixhance di muchete del rantoele di pus (ms)"
 
-#, fuzzy
 #~ msgid "Supplementary caching value for remote files, in milliseconds."
 #~ msgstr ""
-#~ "Prémetowe valixhance di muchete po les floûs PVR. Cisse valixhance "
-#~ "duvreut esse defineye e milisegondes."
+#~ "Valixhance di muchete po les fitchîs då lon di rawete, e milisegondes."
 
 #~ msgid "collapse"
 #~ msgstr "catchî"
@@ -22761,734 +23551,461 @@ msgstr "Analijheu do speke"
 #~ msgid "expand"
 #~ msgstr "ragrandi"
 
-#, fuzzy
 #~ msgid "Ignored extensions"
 #~ msgstr "Cawetes passêyes houte"
 
 #~ msgid "File input"
 #~ msgstr "Fitchî d'intrêye"
 
-#, fuzzy
-#~ msgid "Directory"
-#~ msgstr "Fitchî/Ridant"
-
-#, fuzzy
 #~ msgid "Directory input"
-#~ msgstr "Intrêye DirectShow"
+#~ msgstr "Intrêye do ridant"
 
-#, fuzzy
 #~ msgid ""
 #~ "Caching value for imem streams. This value should be set in milliseconds."
 #~ msgstr ""
-#~ "Valixhance di muchete po les fås floûs. Cisse valixhance duvreut esse "
+#~ "Valixhance di muchete po les floûs imem. Cisse valixhance duvreut esse "
 #~ "defineye e milisegondes."
 
 #~ msgid "Group"
 #~ msgstr "Groupe"
 
-#, fuzzy
 #~ msgid "Category"
-#~ msgstr "Tchaptrê"
+#~ msgstr "Categoreye"
 
 #~ msgid "Unknown"
 #~ msgstr "Nén cnoxhou"
 
-#, fuzzy
 #~ msgid "Data"
-#~ msgstr "Date"
+#~ msgstr "Dinêyes"
 
-#, fuzzy
 #~ msgid "Channels count"
-#~ msgstr "Canås"
+#~ msgstr "Contaedje des canås"
 
-#, fuzzy
 #~ msgid "Display aspect ratio"
 #~ msgstr "Wårder l' rapoirt lårdjeur/hôteur"
 
-#, fuzzy
+#~ msgid "Callback cookie string"
+#~ msgstr "Tchinne del coûke do rhoucaedje"
+
 #~ msgid "Text identifier for the callback functions"
-#~ msgstr "ID do floû del boket odio a eployî."
+#~ msgstr "Identifieu do tecse po les fonccions di rhoucaedje."
 
-#, fuzzy
-#~ msgid "Data for the get and release functions"
-#~ msgstr "ID do floû del boket odio a eployî."
-
-#, fuzzy
 #~ msgid "Get function"
-#~ msgstr "Drovi"
+#~ msgstr "Cweri fonccion"
 
-#, fuzzy
-#~ msgid "Address of the get callback function"
-#~ msgstr "ID do floû del boket odio a eployî."
-
-#, fuzzy
 #~ msgid "Release function"
-#~ msgstr "Fonccion do decôdeu des sitatistikes"
+#~ msgstr "Fonccion del modêye"
 
-#, fuzzy
-#~ msgid "Address of the release callback function"
-#~ msgstr "ID do floû del boket odio a eployî."
-
-#, fuzzy
 #~ msgid "Memory input"
-#~ msgstr "Nole intrêye"
+#~ msgstr "Intrêye di memwere"
 
-#, fuzzy
 #~ msgid "TCP port to use (default 12345)"
-#~ msgstr "Roedeur des bits a eployî (-1 po prémetou)."
+#~ msgstr "Pôrt TCP a eployî (prémetou 12345)"
 
-#~ msgid "Form"
-#~ msgstr "Fôme"
+#~ msgid "My Computer"
+#~ msgstr "Mi copiutrece"
 
-#~ msgid "Preset"
-#~ msgstr "Prézapontiaedje"
+#~ msgid "Devices"
+#~ msgstr "Éndjins"
 
-#~ msgid "Dialog"
-#~ msgstr "Divize"
+#~ msgid "Local Network"
+#~ msgstr "Locåle Rantoele"
 
-#, fuzzy
-#~ msgid "Show extended options"
-#~ msgstr "Mostrer les tchuzes avanceyes"
+#~ msgid "Internet"
+#~ msgstr "Daegntoele"
 
-#~ msgid "Show &more options"
-#~ msgstr "Mostrer &pus di tchuzes"
-
-#~ msgid " ms"
-#~ msgstr " ms"
-
-#~ msgid "Start Time"
-#~ msgstr "Eure di Cominçmint"
-
-#~ msgid "Select the file"
-#~ msgstr "Tchoezi l' fitchî"
-
-#~ msgid "MRL"
-#~ msgstr "MRL"
-
-#~ msgid "Edit Options"
-#~ msgstr "Aspougnî les Tchuzes"
-
-#~ msgid "s"
-#~ msgstr "s"
-
-#, fuzzy
-#~ msgid "Capture mode"
-#~ msgstr "Egaloyaedje"
-
-#, fuzzy
-#~ msgid "Select the capture device type"
-#~ msgstr "Tchoezixhoz l' pôrt eployî"
-
-#~ msgid "Device Selection"
-#~ msgstr "Tchuze del Éndjin"
-
-#~ msgid "Options"
-#~ msgstr "Tchuzes"
-
-#, fuzzy
-#~ msgid "Advanced options..."
-#~ msgstr "Sipepieusès tchuzes"
-
-#, fuzzy
-#~ msgid "Disc Selection"
-#~ msgstr "Tchuze del Éndjin"
-
-#~ msgid "SVCD/VCD"
-#~ msgstr "SVCD/VCD"
-
-#~ msgid "Disable DVD Menus (for compatibility)"
-#~ msgstr "Disete les menus DVD (pol copatibilité)"
-
-#, fuzzy
-#~ msgid "Disc device"
-#~ msgstr "Håyner l' éndjin"
-
-#, fuzzy
-#~ msgid "Starting Position"
-#~ msgstr "Pôzucion"
-
-#~ msgid "Audio and Subtitles"
-#~ msgstr "Odio eyet Sortites"
-
-#, fuzzy
-#~ msgid "Choose one or more media file to open"
-#~ msgstr "Tchoezixhoz onk ou pus fitchîs a drovi"
-
-#~ msgid "File Selection"
-#~ msgstr "Tchoezi l' fitchî"
-
-#~ msgid "Add..."
-#~ msgstr "Radjouter..."
-
-#~ msgid "Add a subtitles file"
-#~ msgstr "Radjouter on fitchî des sortites"
-
-#~ msgid "Use a sub&titles file"
-#~ msgstr "Eployî  on fi&tchî des sortites"
-
-#~ msgid "Select the subtitles file"
-#~ msgstr "Tchoezi l' fitchî des sortites"
-
-#, fuzzy
-#~ msgid "Font size:"
-#~ msgstr "Grandeu del fonte"
-
-#, fuzzy
-#~ msgid "Text alignment:"
-#~ msgstr "Aroymint des dinêyes"
-
-#~ msgid "Network Protocol"
-#~ msgstr "Protocole del Rantoele"
-
-#, fuzzy
-#~ msgid "Enter the URL of the network stream here."
-#~ msgstr "MTU del eterface rantoele"
-
-#~ msgid "MPEG-TS"
-#~ msgstr "MPEG-TS"
-
-#~ msgid "MPEG-PS"
-#~ msgstr "MPEG-PS"
-
-#~ msgid "WAV"
-#~ msgstr "WAV"
-
-#~ msgid "ASF/WMV"
-#~ msgstr "ASF/WMV"
-
-#~ msgid "Ogg/Ogm"
-#~ msgstr "Ogg/Ogm"
-
-#~ msgid "RAW"
-#~ msgstr "RAW"
-
-#~ msgid "MPEG 1"
-#~ msgstr "MPEG 1"
-
-#~ msgid "FLV"
-#~ msgstr "FLV"
-
-#~ msgid "AVI"
-#~ msgstr "AVI"
-
-#~ msgid "MP4/MOV"
-#~ msgstr "MP4/MOV"
-
-#~ msgid "MKV"
-#~ msgstr "MKV"
-
-#~ msgid "Encapsulation"
-#~ msgstr "Ecapsulaedje"
-
-#~ msgid " kb/s"
-#~ msgstr " kb/s"
-
-#~ msgid "Frame Rate"
-#~ msgstr "Frecwince do Cåde"
-
-#, fuzzy
-#~ msgid " fps"
-#~ msgstr " cps"
-
-#~ msgid "00000; "
-#~ msgstr "00000; "
-
-#~ msgid "Video codec"
-#~ msgstr "Codec videyo"
-
-#, fuzzy
-#~ msgid "Sample Rate"
-#~ msgstr "Frecwince di sampling"
-
-#~ msgid "Audio codec"
-#~ msgstr "Codec odio"
-
-#, fuzzy
-#~ msgid "Overlay subtitles on the video"
-#~ msgstr "Ricovris/Sortites"
-
-#~ msgid "Destinations"
-#~ msgstr "Destinåcions"
-
-#~ msgid "New destination"
-#~ msgstr "Novele destinåcion"
-
-#, fuzzy
-#~ msgid "Display locally"
-#~ msgstr "Håyner li floû locålmint"
-
-#, fuzzy
-#~ msgid "Activate Transcoding"
-#~ msgstr "Ecôdaedje des sortites"
-
-#, fuzzy
-#~ msgid "Miscellaneous Options"
-#~ msgstr "Totes sôrts"
-
-#~ msgid "Group name"
-#~ msgstr "No do groupe"
-
-#, fuzzy
-#~ msgid "Generated stream output string"
-#~ msgstr "Djenerås apontiaedjes del rexhowe do floû"
-
-#~ msgid " %"
-#~ msgstr " %"
-
-#~ msgid "Output"
-#~ msgstr "Rexhowe"
-
-#, fuzzy
-#~ msgid "Output module:"
-#~ msgstr "Module di rexhowe"
-
-#, fuzzy
-#~ msgid "Dolby Surround:"
-#~ msgstr "Dolby Surround"
-
-#, fuzzy
-#~ msgid "Replay gain mode:"
-#~ msgstr "Ridjouwer môde di wangnaedje"
-
-#, fuzzy
-#~ msgid "Visualization:"
-#~ msgstr "Voeyaedje"
-
-#, fuzzy
-#~ msgid "Enable Time-Stretching audio"
-#~ msgstr "Met en alaedje l' odio"
-
-#, fuzzy
-#~ msgid "Preferred audio language:"
-#~ msgstr "Lingaedje odio"
-
-#, fuzzy
-#~ msgid "Password:"
-#~ msgstr "Sicret"
-
-#, fuzzy
-#~ msgid "Username:"
-#~ msgstr "No d' uzeu"
-
-#, fuzzy
-#~ msgid "Default optical device"
-#~ msgstr "Premetous éndjins"
-
-#, fuzzy
-#~ msgid "Codecs"
-#~ msgstr "Codec"
-
-#, fuzzy
-#~ msgid "Video quality post-processing level"
-#~ msgstr "Passete di l' après traitmint del videyo"
-
-#, fuzzy
-#~ msgid "Damaged or incomplete AVI file"
-#~ msgstr "Passete des prôpietés del imådje"
-
-#, fuzzy
-#~ msgid "Default port (server mode)"
-#~ msgstr "Prémetou Pôrt di Sierveu"
-
-#, fuzzy
-#~ msgid "HTTP proxy URL"
-#~ msgstr "HTTP proxy"
-
-#, fuzzy
-#~ msgid "Default caching policy"
-#~ msgstr "Prémetou Ecôdaedje"
-
-#, fuzzy
-#~ msgid "HTTP (default)"
-#~ msgstr "prémetou"
-
-#, fuzzy
-#~ msgid "Live555 stream transport"
-#~ msgstr "Rexhowe del fitchî do floû"
-
-#~ msgid "Instances"
-#~ msgstr "Instances"
-
-#~ msgid "Allow only one instance"
-#~ msgstr "Permete seulmint ene instance"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "Aberwetaedje al mwin seulmint"
-
-#, fuzzy
-#~ msgid "Every "
-#~ msgstr "Ricovri"
-
-#, fuzzy
-#~ msgid "Menus language:"
-#~ msgstr "Lingaedje odio"
-
-#, fuzzy
-#~ msgid "File associations"
-#~ msgstr "Assoçnaedje di fitchîs:"
-
-#, fuzzy
-#~ msgid "Set up associations..."
-#~ msgstr "Assoçnaedje di fitchîs:"
-
-#, fuzzy
-#~ msgid "Use custom skin"
-#~ msgstr "Tchoezi l' pea"
-
-#~ msgid "Resize interface to video size"
-#~ msgstr "Candjî l' grandeu del eterface a l' grandeu del videyo"
-
-#, fuzzy
-#~ msgid "Force window style:"
-#~ msgstr "Stîle des ahesses shuvant:"
-
-#, fuzzy
-#~ msgid "Show systray icon"
-#~ msgstr "Mostrer ene imådjete scriftôr po VLC"
-
-#, fuzzy
-#~ msgid "Embed video in interface"
-#~ msgstr "Ravalez l' rexhowe videyo dins l' mwaisse eterface."
-
-#, fuzzy
-#~ msgid "Show controls in full screen mode"
-#~ msgstr "Enonder l' videyo e môde tote li waitroûle"
-
-#, fuzzy
-#~ msgid "Use native style"
-#~ msgstr "Eployî l' fitchî des sortites"
-
-#, fuzzy
-#~ msgid "Enable On Screen Display (OSD)"
-#~ msgstr "Håynaedje sol waitroûle"
-
-#, fuzzy
-#~ msgid "Show media title on video start"
-#~ msgstr "Mostrer l' tite do media sol videyo"
-
-#~ msgid "Subtitles Language"
-#~ msgstr "Lingaedje des Sortites"
-
-#, fuzzy
-#~ msgid "Preferred subtitles language"
-#~ msgstr "Sortite do lingaedje"
-
-#~ msgid "Default encoding"
-#~ msgstr "Prémetou ecôdaedje"
-
-#~ msgid "Effect"
-#~ msgstr "Efet"
-
-#~ msgid "Font color"
-#~ msgstr "Coleur del fonte"
-
-#~ msgid " px"
-#~ msgstr " px"
-
-#~ msgid "DirectX"
-#~ msgstr "DirectX"
-
-#~ msgid "Display device"
-#~ msgstr "Håyner l' éndjin"
-
-#~ msgid "Enable wallpaper mode"
-#~ msgstr "Mete en alaedje l' mode tapisreye"
-
-#, fuzzy
-#~ msgid "Deinterlacing"
-#~ msgstr "Môde di Disinterlaçmint"
-
-#~ msgid "Force Aspect Ratio"
-#~ msgstr "Foirci l' Rapoirt lårdjeur/hôteur"
-
-#, fuzzy
-#~ msgid "Edit settings"
-#~ msgstr "Apontiaedjes do son"
-
-#~ msgid "Control"
-#~ msgstr "Controle"
-
-#~ msgid "Run manually"
-#~ msgstr "Enonder al mwin"
-
-#, fuzzy
-#~ msgid "Setup schedule"
-#~ msgstr "Programaedje"
-
-#, fuzzy
-#~ msgid "Run on schedule"
-#~ msgstr "Programaedje"
-
-#~ msgid "Status"
-#~ msgstr "Estat"
-
-#~ msgid "P/P"
-#~ msgstr "P/P"
-
-#, fuzzy
-#~ msgid "Prev"
-#~ msgstr "Di dvant"
-
-#~ msgid "Add Input"
-#~ msgstr "Radjouter Intrêye"
-
-#~ msgid "Edit Input"
-#~ msgstr "Aspougnî Intrêye"
-
-#~ msgid "Clear List"
-#~ msgstr "Netyî Djivêye"
-
-#~ msgid "Refresh"
-#~ msgstr "Rafrister"
-
-#~ msgid "Transform"
-#~ msgstr "Transformer"
-
-#~ msgid "Sigma"
-#~ msgstr "Sigma"
-
-#, fuzzy
-#~ msgid "Synchronize top and bottom"
-#~ msgstr "Sincronijhî hintche eyet droete"
-
-#~ msgid "Synchronize left and right"
-#~ msgstr "Sincronijhî hintche eyet droete"
-
-#, fuzzy
-#~ msgid "Magnification/Zoom"
-#~ msgstr "Groxhixhaedje"
-
-#~ msgid "Puzzle game"
-#~ msgstr "Djeu d' puzel"
-
-#, fuzzy
-#~ msgid "Black slot"
-#~ msgstr "Livea d' noer"
-
-#~ msgid "Columns"
-#~ msgstr "Colones"
-
-#~ msgid "Rows"
-#~ msgstr "Royes"
-
-#~ msgid "Angle"
-#~ msgstr "Inglêye"
-
-#~ msgid "Geometry"
-#~ msgstr "Djeyometreye"
-
-#, fuzzy
-#~ msgid "Color extraction"
-#~ msgstr " Informåcion "
-
-#~ msgid ">HHHHHH;#"
-#~ msgstr ">HHHHHH;#"
-
-#, fuzzy
-#~ msgid "Color fun"
-#~ msgstr "Coleur"
-
-#, fuzzy
-#~ msgid "Water effect"
-#~ msgstr "efets netyîs"
-
-#~ msgid "Motion detect"
-#~ msgstr "Deteccion des movmints"
-
-#~ msgid "Factor"
-#~ msgstr "Facteur"
-
-#~ msgid "Cartoon"
-#~ msgstr "Fime d' imådjes"
-
-#~ msgid "Image modification"
-#~ msgstr "Candjemint d' imådje"
-
-#, fuzzy
-#~ msgid "Output Color Filtermode"
-#~ msgstr "Module del passete del rexhowe videyo"
-
-#, fuzzy
-#~ msgid "Brightness (%)"
-#~ msgstr "Rilujhance"
-
-#, fuzzy
-#~ msgid "Darknesslimit"
-#~ msgstr "Limite del Noerixheur"
-
-#, fuzzy
-#~ msgid "Filter threshold (%)"
-#~ msgstr "Soû do coleur"
-
-#, fuzzy
-#~ msgid "Filter smoothness (%)"
-#~ msgstr "Douceur del Passete (e %)"
-
-#, fuzzy
-#~ msgid "Wall"
-#~ msgstr "tot"
-
-#~ msgid "Add text"
-#~ msgstr "Radjouter tecse"
-
-#, fuzzy
-#~ msgid "Vout/Overlay"
-#~ msgstr "Ricovri"
-
-#~ msgid "Add logo"
-#~ msgstr "Radjouter imådjete"
-
-#~ msgid "Logo"
-#~ msgstr "Imådjete"
-
-#~ msgid "Logo erase"
-#~ msgstr "Disfacer imådjete"
-
-#~ msgid "Mask"
-#~ msgstr "Masse"
-
-#, fuzzy
-#~ msgid "Subpicture filters"
-#~ msgstr "Module do passete des dzo-imådjes"
-
-#~ msgid "Video filters"
-#~ msgstr "Passetes videyo"
-
-#, fuzzy
-#~ msgid "Vout filters"
-#~ msgstr "Passetes videyo"
-
-#~ msgid "Reset"
-#~ msgstr "Rimete a zero"
-
-#~ msgid "Update"
-#~ msgstr "Mete a djoû"
-
-#, fuzzy
-#~ msgid "Advanced video filter controls"
-#~ msgstr "&Sipepieus Contrôles"
-
-#~ msgid "VLM configurator"
-#~ msgstr "Apontiaedje VLM"
-
-#, fuzzy
-#~ msgid "Media Manager Edition"
-#~ msgstr "Informåcion sol Media"
-
-#~ msgid "Name:"
-#~ msgstr "No:"
-
-#~ msgid "Input:"
-#~ msgstr "Intrêye:"
-
-#~ msgid "Select Input"
-#~ msgstr "Tchoezi Intrêye"
-
-#~ msgid "Output:"
-#~ msgstr "Rexhowe:"
-
-#~ msgid "Select Output"
-#~ msgstr "Tchoezi Rexhowe"
-
-#~ msgid "Time Control"
-#~ msgstr "Contrôle di Tins"
-
-#, fuzzy
-#~ msgid "Mux Control"
-#~ msgstr "Controle"
-
-#~ msgid "Muxer:"
-#~ msgstr "Multiplecseu:"
-
-#~ msgid "AAAA; "
-#~ msgstr "AAAA; "
-
-#~ msgid "Loop"
-#~ msgstr "Blouke"
-
-#, fuzzy
-#~ msgid "Media Manager List"
-#~ msgstr "Meditatif"
-
-#, fuzzy
 #~ msgid "SessionManager"
-#~ msgstr "No del session"
+#~ msgstr "Manaedjeu di sessions"
 
-#, fuzzy
 #~ msgid "SQLite database module"
-#~ msgstr "Module del passete do floû"
+#~ msgstr "Module del båze di dnêyes SQLite"
 
 #~ msgid "Flac audio packetizer"
 #~ msgstr "Ewalpeu odio Flac"
 
-#, fuzzy
 #~ msgid "Screen capture"
-#~ msgstr "Intrêye del waitroûle"
+#~ msgstr "Egaloyaedje del waitroûle"
 
-#, fuzzy
 #~ msgid "Applications"
-#~ msgstr "Aplicåcion "
+#~ msgstr "Aplicåcions"
 
-#, fuzzy
 #~ msgid "Value of the audio channels levels"
-#~ msgstr "Nombe di canås odio"
+#~ msgstr "Valixhance des liveas des canås odio"
 
-#, fuzzy
 #~ msgid "X coordinate of the bargraph."
-#~ msgstr "Cowordonêyes X do masse imådje."
+#~ msgstr "Cowordonêyes X do grafike a bårs."
 
-#, fuzzy
 #~ msgid "Y coordinate of the bargraph."
-#~ msgstr "Cowordonêyes Y do masse imådje."
+#~ msgstr "Cowordonêyes Y do grafike a bårs."
 
-#, fuzzy
 #~ msgid "Transparency of the bargraph"
-#~ msgstr "Weyoûte del imådje"
+#~ msgstr "Weyoûte do grafike a bårs"
 
-#, fuzzy
 #~ msgid "Bargraph position"
-#~ msgstr "Eplaeçmint del imådjete"
+#~ msgstr "Eplaeçmint do grafike a bårs"
 
-#, fuzzy
 #~ msgid "Alarm"
-#~ msgstr "Alsa"
+#~ msgstr "Xhuflet"
 
-#, fuzzy
-#~ msgid "Audio Bar Graph Video sub filter"
-#~ msgstr "Passete do grin videyo"
+#~ msgid "Bar width in pixel (default : 10)"
+#~ msgstr "Lårdjeu del bår e picsel (prémetou : 10)"
 
-#, fuzzy
-#~ msgid "Audio Bar Graph Video"
-#~ msgstr "Odio/Videyo"
-
-#, fuzzy
-#~ msgid "Ball color"
-#~ msgstr "Coleur del fonte"
-
-#, fuzzy
 #~ msgid "Edge visible"
-#~ msgstr "Tofer veyåve"
+#~ msgstr "Boird veyåve"
 
-#, fuzzy
-#~ msgid "Ball speed"
-#~ msgstr "N&ormåle Raddisté"
+#~ msgid "Set edge visibility."
+#~ msgstr "Defini l' veyåvisté del boird."
 
-#, fuzzy
-#~ msgid "Ball size"
-#~ msgstr "Rexhowe odio ALSA"
-
-#, fuzzy
 #~ msgid "Gradient threshold"
-#~ msgstr "Soû do coleur"
+#~ msgstr "Soû do gradyint"
 
 #, fuzzy
-#~ msgid "Ball video filter"
-#~ msgstr "Clôner l' passete del videyo"
+#~ msgid "Afar"
+#~ msgstr "Xhuflet"
 
 #, fuzzy
-#~ msgid "Ball"
-#~ msgstr "tot"
+#~ msgid "Amharic"
+#~ msgstr "Otomatike"
+
+#, fuzzy
+#~ msgid "Assamese"
+#~ msgstr "Messaedjes"
+
+#, fuzzy
+#~ msgid "Bashkir"
+#~ msgstr "Di båze"
+
+#, fuzzy
+#~ msgid "Basque"
+#~ msgstr "Basse"
+
+#, fuzzy
+#~ msgid "Bengali"
+#~ msgstr "mete en alaedje"
+
+#, fuzzy
+#~ msgid "Breton"
+#~ msgstr "Direccion"
+
+#, fuzzy
+#~ msgid "Burmese"
+#~ msgstr "B Cådes"
+
+#, fuzzy
+#~ msgid "Chechen"
+#~ msgstr "Techno"
+
+#, fuzzy
+#~ msgid "Chinese"
+#~ msgstr "Canås"
+
+#, fuzzy
+#~ msgid "Chuvash"
+#~ msgstr "Toele"
+
+#, fuzzy
+#~ msgid "Cornish"
+#~ msgstr "Copyright"
+
+#, fuzzy
+#~ msgid "Czech"
+#~ msgstr "Codec"
+
+#, fuzzy
+#~ msgid "Danish"
+#~ msgstr "Fini"
+
+#, fuzzy
+#~ msgid "Dutch"
+#~ msgstr "Ton"
+
+#, fuzzy
+#~ msgid "English"
+#~ msgstr "Fini"
+
+#, fuzzy
+#~ msgid "Esperanto"
+#~ msgstr "Rapoirt lårdjeur/hôteur"
+
+#, fuzzy
+#~ msgid "Faroese"
+#~ msgstr "Pus roed"
+
+#, fuzzy
+#~ msgid "Finnish"
+#~ msgstr "Fini"
+
+#, fuzzy
+#~ msgid "French"
+#~ msgstr "TV frincesse"
+
+#, fuzzy
+#~ msgid "Frisian"
+#~ msgstr "Fusion"
+
+#, fuzzy
+#~ msgid "Georgian"
+#~ msgstr "Grin"
+
+#, fuzzy
+#~ msgid "German"
+#~ msgstr "Grin"
+
+#, fuzzy
+#~ msgid "Irish"
+#~ msgstr "droete"
+
+#, fuzzy
+#~ msgid "Gallegan"
+#~ msgstr "Globå wangnaedje"
+
+#, fuzzy
+#~ msgid "Manx"
+#~ msgstr "Moyén"
+
+#, fuzzy
+#~ msgid "Guarani"
+#~ msgstr "Grin"
+
+#, fuzzy
+#~ msgid "Gujarati"
+#~ msgstr "Durêye"
+
+#, fuzzy
+#~ msgid "Herero"
+#~ msgstr "Stereyo"
+
+#, fuzzy
+#~ msgid "Hindi"
+#~ msgstr "Bidir"
+
+#, fuzzy
+#~ msgid "Inuktitut"
+#~ msgstr "Intrêye do roedeur des bits"
+
+#, fuzzy
+#~ msgid "Interlingue"
+#~ msgstr "Daegntoele"
+
+#, fuzzy
+#~ msgid "Interlingua"
+#~ msgstr "Disinterlaçmint"
+
+#, fuzzy
+#~ msgid "Indonesian"
+#~ msgstr "Industriyel"
+
+#, fuzzy
+#~ msgid "Italian"
+#~ msgstr "Dj' enonde"
+
+#, fuzzy
+#~ msgid "Javanese"
+#~ msgstr "Waches"
+
+#, fuzzy
+#~ msgid "Kazakh"
+#~ msgstr "Karaoke"
+
+#, fuzzy
+#~ msgid "Khmer"
+#~ msgstr "Ôte"
+
+#, fuzzy
+#~ msgid "Korean"
+#~ msgstr "bouleyin"
+
+#, fuzzy
+#~ msgid "Lao"
+#~ msgstr "Lanczos"
+
+#, fuzzy
+#~ msgid "Latin"
+#~ msgstr "Eplaeçmint"
+
+#, fuzzy
+#~ msgid "Latvian"
+#~ msgstr "Eplaeçmint"
+
+#, fuzzy
+#~ msgid "Lingala"
+#~ msgstr "Lineyåre"
+
+#, fuzzy
+#~ msgid "Macedonian"
+#~ msgstr "&Media"
+
+#, fuzzy
+#~ msgid "Marathi"
+#~ msgstr "Rapoirt al mwin"
+
+#, fuzzy
+#~ msgid "Malay"
+#~ msgstr "Djouwer"
+
+#, fuzzy
+#~ msgid "Maltese"
+#~ msgstr "Livea macs"
+
+#, fuzzy
+#~ msgid "Mongolian"
+#~ msgstr "bouleyin"
+
+#, fuzzy
+#~ msgid "Navajo"
+#~ msgstr "Naiviaedje"
+
+#, fuzzy
+#~ msgid "Ndonga"
+#~ msgstr "Nole"
+
+#, fuzzy
+#~ msgid "Nepali"
+#~ msgstr "Remantchî"
+
+#, fuzzy
+#~ msgid "Oromo"
+#~ msgstr "Di"
+
+#, fuzzy
+#~ msgid "Persian"
+#~ msgstr "Modêye"
+
+#, fuzzy
+#~ msgid "Pali"
+#~ msgstr "Djivêye a djouwer"
+
+#, fuzzy
+#~ msgid "Polish"
+#~ msgstr "Eplaideu"
+
+#, fuzzy
+#~ msgid "Portuguese"
+#~ msgstr "Prézapontiaedje"
+
+#, fuzzy
+#~ msgid "Pushto"
+#~ msgstr "Da vosse"
+
+#, fuzzy
+#~ msgid "Original audio"
+#~ msgstr "Oridjinnå ID"
+
+#, fuzzy
+#~ msgid "Rundi"
+#~ msgstr "Enonder l' tins"
+
+#, fuzzy
+#~ msgid "Russian"
+#~ msgstr "Fusion"
+
+#, fuzzy
+#~ msgid "Croatian"
+#~ msgstr "Tcheryî pus lon"
+
+#, fuzzy
+#~ msgid "Sinhalese"
+#~ msgstr "Signås"
+
+#, fuzzy
+#~ msgid "Samoan"
+#~ msgstr "mono"
+
+#, fuzzy
+#~ msgid "Sindhi"
+#~ msgstr "Evoyî"
+
+#, fuzzy
+#~ msgid "Somali"
+#~ msgstr "Pitit"
+
+#, fuzzy
+#~ msgid "Spanish"
+#~ msgstr "Fini"
+
+#, fuzzy
+#~ msgid "Swati"
+#~ msgstr "Sitats"
+
+#, fuzzy
+#~ msgid "Tamil"
+#~ msgstr "Bleu sarcele"
+
+#, fuzzy
+#~ msgid "Tatar"
+#~ msgstr "Dinêyes"
+
+#, fuzzy
+#~ msgid "Telugu"
+#~ msgstr "Bleu sarcele"
+
+#, fuzzy
+#~ msgid "Tajik"
+#~ msgstr "Boket"
+
+#, fuzzy
+#~ msgid "Tagalog"
+#~ msgstr "Divize"
+
+#, fuzzy
+#~ msgid "Thai"
+#~ msgstr "Mèrci"
+
+#, fuzzy
+#~ msgid "Tibetan"
+#~ msgstr "Muzike tribåle"
+
+#, fuzzy
+#~ msgid "Turkish"
+#~ msgstr "Bokets"
+
+#, fuzzy
+#~ msgid "Ukrainian"
+#~ msgstr "Oucrinnwès (KOI8-U)"
+
+#, fuzzy
+#~ msgid "Vietnamese"
+#~ msgstr "Vietnamyin (VISCII)"
+
+#, fuzzy
+#~ msgid "Volapuk"
+#~ msgstr "Volume"
+
+#, fuzzy
+#~ msgid "Welsh"
+#~ msgstr "Waches"
+
+#, fuzzy
+#~ msgid "Wolof"
+#~ msgstr "Coleur"
+
+#, fuzzy
+#~ msgid "Yiddish"
+#~ msgstr "Fini"
+
+#, fuzzy
+#~ msgid "Yoruba"
+#~ msgstr "vorb"
+
+#, fuzzy
+#~ msgid "Zhuang"
+#~ msgstr "Candjî"
+
+#, fuzzy
+#~ msgid "HRD-timing information"
+#~ msgstr "rexhe l' informåcion sol modêye"
+
+#, fuzzy
+#~ msgid "Check for updates"
+#~ msgstr "Cachî après des Metaedjes a djoû"
+
+#, fuzzy
+#~ msgid "MTP devices"
+#~ msgstr "Éndjin DVD"
+
+#, fuzzy
+#~ msgid "MTP Device"
+#~ msgstr "Éndjin"
 
 #~ msgid "title"
 #~ msgstr "tite"
@@ -23648,9 +24165,6 @@ msgstr "Analijheu do speke"
 #~ msgid "audio filter for simple channel mixing"
 #~ msgstr "passete odio pol maxhaedje do simpe canå"
 
-#~ msgid "Max level"
-#~ msgstr "Livea macs"
-
 #~ msgid "CMML annotations decoder"
 #~ msgstr "Decôdeu des anotåcions CMML"
 
@@ -23771,9 +24285,6 @@ msgstr "Analijheu do speke"
 #~ msgid "Update check failed"
 #~ msgstr "Li verifiaedje del metaedje a djoû a fwait berwete"
 
-#~ msgid "Check for Updates"
-#~ msgstr "Cachî après des Metaedjes a djoû"
-
 #~ msgid "Download now"
 #~ msgstr "Aberweter asteure"
 
@@ -23849,9 +24360,6 @@ msgstr "Analijheu do speke"
 #~ msgid "Transcode:"
 #~ msgstr "Transcode:"
 
-#~ msgid "enable"
-#~ msgstr "mete en alaedje"
-
 #~ msgid "Video:"
 #~ msgstr "Videyo:"
 
@@ -23914,9 +24422,6 @@ msgstr "Analijheu do speke"
 
 #~ msgid "Hz/s"
 #~ msgstr "Hz/s"
-
-#~ msgid "mono"
-#~ msgstr "mono"
 
 #~ msgid "stereo"
 #~ msgstr "stereyo"
@@ -24007,9 +24512,6 @@ msgstr "Analijheu do speke"
 
 #~ msgid "a52"
 #~ msgstr "a52"
-
-#~ msgid "vorb"
-#~ msgstr "vorb"
 
 #~ msgid "bits/s"
 #~ msgstr "bites/s"
@@ -24171,9 +24673,6 @@ msgstr "Analijheu do speke"
 
 #~ msgid "left"
 #~ msgstr "hintche"
-
-#~ msgid "right"
-#~ msgstr "droete"
 
 #~ msgid "bottom"
 #~ msgstr "valêye"
