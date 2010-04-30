@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-20 23:45+0200\n"
+"POT-Creation-Date: 2010-04-30 00:36+0100\n"
 "PO-Revision-Date: 2010-04-04 17:46+0900\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: VideoLAN's Translators <translators@videolan.org>\n"
@@ -80,6 +80,7 @@ msgstr "ホットキー設定"
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:192
+#: linux/modules/gui/qt4/ui/profiles.h:487
 msgid "Audio"
 msgstr "オーディオ"
 
@@ -134,6 +135,8 @@ msgstr "その他のオーディオとモジュールの設定です。"
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
+#: linux/modules/gui/qt4/ui/profiles.h:469
+#: linux/modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "ビデオ"
 
@@ -350,7 +353,6 @@ msgstr "ビデオオンデマンドのVLCの実装"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:608 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
-#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "プレイリスト"
@@ -405,6 +407,7 @@ msgstr "高度な設定"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:180
 #: modules/gui/macosx/open.m:459 modules/gui/macosx/simple_prefs.m:259
+#: linux/modules/gui/qt4/ui/sprefs_input.h:318
 msgid "Network"
 msgstr "ネットワーク"
 
@@ -538,6 +541,7 @@ msgstr "VideoLANについて (&A)"
 #: modules/gui/macosx/intf.m:2013 modules/gui/macosx/intf.m:2014
 #: modules/gui/macosx/intf.m:2015 modules/gui/macosx/playlist.m:464
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:790
+#: linux/modules/gui/qt4/ui/open.h:256
 msgid "Play"
 msgstr "再生"
 
@@ -681,6 +685,7 @@ msgstr ""
 "ビデオの一部を拡大します。拡大したい部分の画像を選択することができます。"
 
 #: include/vlc_intf_strings.h:117
+#: linux/modules/gui/qt4/ui/video_effects.h:1141
 msgid "Waves"
 msgstr "波形"
 
@@ -852,6 +857,9 @@ msgstr "ステレオ"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1114
+#: linux/modules/gui/qt4/ui/video_effects.h:1177
+#: linux/modules/gui/qt4/ui/video_effects.h:1182
 msgid "Left"
 msgstr "左"
 
@@ -863,6 +871,7 @@ msgstr "左"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1116
 msgid "Right"
 msgstr "右"
 
@@ -896,7 +905,6 @@ msgstr "文字列"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
-#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "メディアライブラリー"
 
@@ -992,12 +1000,14 @@ msgid "Original ID"
 msgstr "オリジナルID"
 
 #: src/input/es_out.c:2864 src/input/es_out.c:2867
-#: modules/gui/macosx/wizard.m:385
+#: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
+#: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "コーデック"
 
 #: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "言語"
 
@@ -1007,7 +1017,7 @@ msgid "Description"
 msgstr "説明"
 
 #: src/input/es_out.c:2883 src/input/es_out.c:2886
-#: modules/gui/macosx/output.m:176
+#: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "チャンネル"
 
@@ -1027,6 +1037,8 @@ msgstr "ビット/サンプル"
 #: src/input/es_out.c:2906 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
+#: linux/modules/gui/qt4/ui/profiles.h:471
+#: linux/modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "ビットレート"
 
@@ -1048,7 +1060,7 @@ msgstr "アルバム再生ゲイン"
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2930
+#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "解像度"
 
@@ -1085,6 +1097,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:663 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:348
 #: modules/gui/qt4/components/open_panels.cpp:372 modules/mux/asf.c:56
+#: linux/modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
 msgstr "タイトル"
 
@@ -1122,6 +1135,7 @@ msgid "Setting"
 msgstr "設定"
 
 #: src/input/meta.c:61 modules/gui/macosx/open.m:203
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:103
 msgid "URL"
 msgstr "URL"
 
@@ -1155,6 +1169,7 @@ msgstr "プログラムリスト"
 
 #: src/input/var.c:192 modules/gui/macosx/intf.m:664
 #: modules/gui/macosx/intf.m:665 modules/gui/macosx/open.m:191
+#: linux/modules/gui/qt4/ui/open_disk.h:303
 msgid "Chapter"
 msgstr "チャプター"
 
@@ -1571,6 +1586,7 @@ msgstr ""
 "法を自動的に選択します。"
 
 #: src/libvlc-module.c:252 modules/stream_out/display.c:41
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:404
 msgid "Enable audio"
 msgstr "オーディオの有効化"
 
@@ -1674,6 +1690,7 @@ msgstr ""
 "合)"
 
 #: src/libvlc-module.c:301 modules/gui/macosx/simple_prefs.m:237
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
 msgstr "利用可能な場合、S/PDIFを使用"
 
@@ -1775,7 +1792,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:383
+#: modules/gui/qt4/components/interface_widgets.cpp:359
 msgid "None"
 msgstr "なし"
 
@@ -1806,6 +1823,7 @@ msgstr ""
 "自動的に選択します。"
 
 #: src/libvlc-module.c:375 modules/stream_out/display.c:43
+#: linux/modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
 msgstr "ビデオの有効化"
 
@@ -1908,6 +1926,9 @@ msgstr "中央"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1112
+#: linux/modules/gui/qt4/ui/video_effects.h:1178
+#: linux/modules/gui/qt4/ui/video_effects.h:1181
 msgid "Top"
 msgstr "上"
 
@@ -1916,6 +1937,7 @@ msgstr "上"
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
 #: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1118
 msgid "Bottom"
 msgstr "下"
 
@@ -2013,6 +2035,7 @@ msgstr ""
 
 #: src/libvlc-module.c:442 src/video_output/vout_intf.c:344
 #: modules/gui/macosx/simple_prefs.m:295
+#: linux/modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "常に最前面"
 
@@ -2123,7 +2146,7 @@ msgstr ""
 "再生中にパワーマネージメントデーモンにより、コンピューターがサスペンド状態に"
 "移行することを抑制します。"
 
-#: src/libvlc-module.c:503
+#: src/libvlc-module.c:503 linux/modules/gui/qt4/ui/sprefs_video.h:316
 msgid "Window decorations"
 msgstr "ウィンドウの装飾"
 
@@ -2321,6 +2344,7 @@ msgstr ""
 "この値を4:3にする必要があるかも知れません。"
 
 #: src/libvlc-module.c:597 modules/gui/macosx/simple_prefs.m:297
+#: linux/modules/gui/qt4/ui/sprefs_video.h:315
 msgid "Skip frames"
 msgstr "コマ落ちを許可"
 
@@ -2436,12 +2460,13 @@ msgstr ""
 #: modules/gui/macosx/simple_prefs.m:770 modules/gui/macosx/vout.m:212
 #: modules/gui/qt4/components/preferences_widgets.cpp:614
 #: modules/video_filter/marq.c:60 modules/video_filter/rss.c:72
-#: modules/video_filter/rss.c:185 modules/video_output/msw/directx.c:91
+#: modules/video_filter/rss.c:185 modules/video_output/msw/directx.c:95
 msgid "Default"
 msgstr "デフォルト"
 
 #: src/libvlc-module.c:653 modules/gui/macosx/equalizer.m:149
 #: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:354
+#: linux/modules/gui/qt4/ui/equalizer.h:127 linux/modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "有効化"
 
@@ -2533,7 +2558,7 @@ msgstr ""
 "ムのようなマルチプログラムストリームを読み込みたい時にこのオプションを指定し"
 "ます。"
 
-#: src/libvlc-module.c:700
+#: src/libvlc-module.c:700 linux/modules/gui/qt4/ui/open_disk.h:305
 msgid "Audio track"
 msgstr "オーディオトラック"
 
@@ -2542,7 +2567,7 @@ msgid "Stream number of the audio track to use (from 0 to n)."
 msgstr ""
 "使用するオーディオトラックのストリーム番号を指定します。(0から始まります)"
 
-#: src/libvlc-module.c:705
+#: src/libvlc-module.c:705 linux/modules/gui/qt4/ui/open_disk.h:306
 msgid "Subtitles track"
 msgstr "字幕トラック"
 
@@ -2679,7 +2704,7 @@ msgstr ""
 "イムオフセット,bytes=オプションのバイトオフセット},{...}\"のフォーマットで指"
 "定します。"
 
-#: src/libvlc-module.c:770
+#: src/libvlc-module.c:770 linux/modules/gui/qt4/ui/sprefs_input.h:316
 msgid "Record directory or filename"
 msgstr "レコードファイル名または、ディレクトリー"
 
@@ -2734,7 +2759,7 @@ msgstr ""
 "クションでそれらの設定を行います。また、その他の多くのサブピクチャーオプショ"
 "ンを設定することもできます。"
 
-#: src/libvlc-module.c:796
+#: src/libvlc-module.c:796 linux/modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
 msgstr "字幕の表示位置"
 
@@ -2757,6 +2782,7 @@ msgstr "サブピクチャーの処理を完全に無効にすることもでき
 #: src/libvlc-module.c:805 src/libvlc-module.c:1758
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:201
 msgid "On Screen Display"
 msgstr "オンスクリーンディスプレイ(OSD)"
 
@@ -3706,6 +3732,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:685 modules/gui/macosx/intf.m:750
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/gui/qt4/components/controller.hpp:105
+#: linux/modules/gui/qt4/ui/sprefs_video.h:311
 msgid "Fullscreen"
 msgstr "全画面表示"
 
@@ -3789,7 +3816,9 @@ msgstr "少しだけゆっくり"
 #: modules/gui/macosx/intf.m:746 modules/gui/macosx/wizard.m:309
 #: modules/gui/macosx/wizard.m:321 modules/gui/macosx/wizard.m:1623
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:321
+#: modules/misc/notify/notify.c:321 linux/modules/gui/qt4/ui/sout.h:327
+#: linux/modules/gui/qt4/ui/sout.h:338
+#: linux/modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
 msgstr "次へ"
 
@@ -3802,7 +3831,8 @@ msgstr "プレイリストの次の項目に移動するホットキーを選択
 #: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:599
 #: modules/gui/macosx/intf.m:651 modules/gui/macosx/intf.m:739
 #: modules/gui/macosx/intf.m:745 modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:319
+#: modules/misc/notify/notify.c:319 linux/modules/gui/qt4/ui/sout.h:337
+#: linux/modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
 msgstr "前へ"
 
@@ -3814,7 +3844,7 @@ msgstr "プレイリストの前の項目に移動するホットキーを選択
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:602
 #: modules/gui/macosx/intf.m:647 modules/gui/macosx/intf.m:737
 #: modules/gui/macosx/intf.m:744 modules/gui/qt4/components/controller.hpp:104
-#: modules/misc/notify/xosd.c:231
+#: modules/misc/notify/xosd.c:231 linux/modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
 msgstr "停止"
 
@@ -3826,6 +3856,7 @@ msgstr "再生を停止するホットキーを選択します。"
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:607
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
+#: linux/modules/gui/qt4/ui/video_effects.h:1167
 msgid "Position"
 msgstr "再生位置表示"
 
@@ -4495,7 +4526,8 @@ msgstr "サブピクチャー"
 
 #: src/libvlc-module.c:1767 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
-#: modules/demux/subtitle.c:73
+#: modules/demux/subtitle.c:73 linux/modules/gui/qt4/ui/profiles.h:495
+#: linux/modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "字幕"
 
@@ -4779,6 +4811,7 @@ msgstr "後処理"
 #: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:692
 #: modules/gui/macosx/intf.m:693 modules/video_filter/crop.c:107
 #: modules/video_filter/croppadd.c:86
+#: linux/modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr "クロッピング"
 
@@ -5169,7 +5202,7 @@ msgstr "地上波の階層モード"
 msgid "Hierarchy alpha value [Undefined,1,2,4]"
 msgstr "階層アルファ値[未設定,1,2,4]"
 
-#: modules/access/bda/bda.c:169
+#: modules/access/bda/bda.c:169 linux/modules/gui/qt4/ui/streampanel.h:170
 msgid "1"
 msgstr "1"
 
@@ -5271,6 +5304,7 @@ msgstr "オーディオCDのデフォルトのキャッシュ値をミリ秒で�
 
 #: modules/access/cdda.c:67 modules/gui/macosx/open.m:198
 #: modules/gui/macosx/open.m:643 modules/gui/macosx/open.m:731
+#: linux/modules/gui/qt4/ui/open_disk.h:293
 msgid "Audio CD"
 msgstr "オーディオCD"
 
@@ -5544,7 +5578,7 @@ msgstr "DirectShow入力"
 
 #: modules/access/dshow/dshow.cpp:196 modules/access/dshow/dshow.cpp:201
 #: modules/audio_output/alsa.c:117 modules/audio_output/directx.c:140
-#: modules/audio_output/waveout.c:109 modules/video_output/msw/directx.c:112
+#: modules/audio_output/waveout.c:109 modules/video_output/msw/directx.c:116
 msgid "Refresh list"
 msgstr "リストの再表示"
 
@@ -6200,6 +6234,7 @@ msgstr "ストリームの規格(自動, SECAM, PAL, またはNTSC)"
 #: modules/access/pvr.c:74 modules/access/v4l.c:102 modules/access/v4l2.c:89
 #: modules/codec/invmem.c:53 modules/demux/rawvid.c:48
 #: modules/video_filter/mosaic.c:95 modules/video_output/vmem.c:42
+#: linux/modules/gui/qt4/ui/profiles.h:479
 msgid "Width"
 msgstr "幅"
 
@@ -6210,6 +6245,7 @@ msgstr "キャプチャーするストリームの幅を指定します(-1で自
 #: modules/access/pvr.c:78 modules/access/v4l.c:105 modules/access/v4l2.c:92
 #: modules/codec/invmem.c:56 modules/demux/rawvid.c:52
 #: modules/video_filter/mosaic.c:93 modules/video_output/vmem.c:45
+#: linux/modules/gui/qt4/ui/profiles.h:482
 msgid "Height"
 msgstr "高さ"
 
@@ -6283,7 +6319,7 @@ msgstr "カードのオーディオパートで使用されるビットマスク
 #: modules/access/pvr.c:109 modules/access/v4l2.c:163
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
 #: modules/gui/macosx/intf.m:606 modules/gui/qt4/dialogs/toolbar.cpp:347
-#: modules/stream_out/raop.c:150
+#: modules/stream_out/raop.c:150 linux/modules/gui/qt4/ui/sprefs_audio.h:405
 msgid "Volume"
 msgstr "音量"
 
@@ -6765,6 +6801,7 @@ msgstr "キャプチャーするストリームの高さを指定します(-1で
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
 #: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:257
+#: linux/modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "明るさ"
 
@@ -6774,6 +6811,7 @@ msgstr "ビデオ入力の明るさを指定します。"
 
 #: modules/access/v4l.c:111 modules/access/v4l2.c:117
 #: modules/gui/macosx/extended.m:101
+#: linux/modules/gui/qt4/ui/video_effects.h:1109
 msgid "Hue"
 msgstr "色相"
 
@@ -6784,6 +6822,9 @@ msgstr "ビデオ入力の色相を指定します。"
 #: modules/access/v4l.c:114 modules/gui/fbosd.c:141
 #: modules/misc/notify/xosd.c:82 modules/video_filter/colorthres.c:54
 #: modules/video_filter/marq.c:123 modules/video_filter/rss.c:155
+#: linux/modules/gui/qt4/ui/video_effects.h:1132
+#: linux/modules/gui/qt4/ui/video_effects.h:1138
+#: linux/modules/gui/qt4/ui/video_effects.h:1150
 msgid "Color"
 msgstr "色"
 
@@ -6793,6 +6834,7 @@ msgstr "ビデオ入力の色を指定します。"
 
 #: modules/access/v4l.c:117 modules/access/v4l2.c:111
 #: modules/gui/macosx/extended.m:99
+#: linux/modules/gui/qt4/ui/video_effects.h:1106
 msgid "Contrast"
 msgstr "コントラスト"
 
@@ -6808,7 +6850,7 @@ msgstr "チューナー"
 msgid "Tuner to use, if there are several ones."
 msgstr "複数存在する場合、使用するチューナーを指定します。"
 
-#: modules/access/v4l.c:122
+#: modules/access/v4l.c:122 linux/modules/gui/qt4/ui/profiles.h:466
 msgid "MJPEG"
 msgstr "MJPEG"
 
@@ -6929,6 +6971,8 @@ msgid "Contrast of the video input (if supported by the v4l2 driver)."
 msgstr "ビデオ入力のコントラストです(v4l2でサポートしている場合)"
 
 #: modules/access/v4l2.c:114 modules/gui/macosx/extended.m:102
+#: linux/modules/gui/qt4/ui/video_effects.h:1108
+#: linux/modules/gui/qt4/ui/video_effects.h:1137
 msgid "Saturation"
 msgstr "彩度"
 
@@ -6987,6 +7031,7 @@ msgid "Blue balance of the video input (if supported by the v4l2 driver)."
 msgstr "ビデオ入力の青色のバランスです(v4l2でサポートしている場合)"
 
 #: modules/access/v4l2.c:137 modules/gui/macosx/extended.m:100
+#: linux/modules/gui/qt4/ui/video_effects.h:1105
 msgid "Gamma"
 msgstr "ガンマ"
 
@@ -7292,7 +7337,7 @@ msgstr "システムID"
 msgid "Entries"
 msgstr "エントリ"
 
-#: modules/access/vcdx/info.c:75
+#: modules/access/vcdx/info.c:75 linux/modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Tracks"
 msgstr "トラック"
 
@@ -7440,7 +7485,7 @@ msgstr "ファイルストリーム出力"
 #: modules/access_output/file.c:69 modules/audio_output/file.c:112
 #: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:451
 #: modules/gui/macosx/output.m:142 modules/gui/macosx/output.m:230
-#: modules/gui/macosx/output.m:369 modules/gui/qt4/dialogs/plugins.cpp:521
+#: modules/gui/macosx/output.m:369 modules/gui/qt4/dialogs/plugins.cpp:525
 #: modules/gui/qt4/dialogs/sout.cpp:74 modules/gui/qt4/dialogs/sout.cpp:152
 msgid "File"
 msgstr "ファイル"
@@ -8224,31 +8269,31 @@ msgstr "フロント 2, リア 2"
 msgid "A/52 over S/PDIF"
 msgstr "A/52 オーバー S/PDIF"
 
-#: modules/audio_output/alsa.c:339
+#: modules/audio_output/alsa.c:351
 msgid "No Audio Device"
 msgstr "オーディオデバイスがありません"
 
-#: modules/audio_output/alsa.c:340
+#: modules/audio_output/alsa.c:352
 msgid "No audio device name was given. You might want to enter \"default\"."
 msgstr ""
 "オーディオデバイス名が指定されませんでした。\"デフォルト\"が使用されます。"
 
-#: modules/audio_output/alsa.c:447 modules/audio_output/alsa.c:486
-#: modules/audio_output/alsa.c:498 modules/audio_output/auhal.c:269
+#: modules/audio_output/alsa.c:459 modules/audio_output/alsa.c:498
+#: modules/audio_output/alsa.c:510 modules/audio_output/auhal.c:269
 msgid "Audio output failed"
 msgstr "オーディオ出力に失敗しました"
 
-#: modules/audio_output/alsa.c:448 modules/audio_output/alsa.c:499
+#: modules/audio_output/alsa.c:460 modules/audio_output/alsa.c:511
 #, c-format
 msgid "VLC could not open the ALSA device \"%s\" (%s)."
 msgstr "VLCは、ALSA デバイス\"%s\"(%s)を開くことができませんでした。"
 
-#: modules/audio_output/alsa.c:487
+#: modules/audio_output/alsa.c:499
 #, c-format
 msgid "The audio device \"%s\" is already in use."
 msgstr "オーディオデバイス\"%s\"は既に使用されています。"
 
-#: modules/audio_output/alsa.c:970
+#: modules/audio_output/alsa.c:982
 msgid "Unknown soundcard"
 msgstr "不明なサウンドカードです"
 
@@ -9803,11 +9848,11 @@ msgstr "字幕(拡張)"
 msgid "Subtitle renderers using libass"
 msgstr "字幕レンダラーがlibassを使用"
 
-#: modules/codec/libass.c:706 modules/misc/freetype.c:360
+#: modules/codec/libass.c:722 modules/misc/freetype.c:358
 msgid "Building font cache"
 msgstr "フォントキャッシュの構築中"
 
-#: modules/codec/libass.c:707
+#: modules/codec/libass.c:723
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a minute."
@@ -9884,7 +9929,8 @@ msgid "MP3 fixed point audio encoder"
 msgstr "MP3固定小数点オーディオエンコーダー"
 
 #: modules/codec/speex.c:57 modules/codec/speex.c:800
-#: modules/gui/macosx/open.m:209
+#: modules/gui/macosx/open.m:209 linux/modules/gui/qt4/ui/sprefs_video.h:324
+#: linux/modules/gui/qt4/ui/video_effects.h:1149
 msgid "Mode"
 msgstr "モード"
 
@@ -11131,6 +11177,7 @@ msgid "Quiet mode."
 msgstr "クワイエットモードにします。"
 
 #: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "統計"
 
@@ -12530,11 +12577,11 @@ msgstr "HTTPトンネルポート"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "HTTPオーバーRTSP/RTPトンネルで使用するポート番号を指定します。"
 
-#: modules/demux/live555.cpp:606
+#: modules/demux/live555.cpp:604
 msgid "RTSP authentication"
 msgstr "RTSP認証"
 
-#: modules/demux/live555.cpp:607
+#: modules/demux/live555.cpp:605
 msgid "Please enter a valid login name and a password."
 msgstr "正しいログイン名とパスワードを入力してください。"
 
@@ -13337,6 +13384,7 @@ msgstr ""
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:112
 #: modules/video_filter/marq.c:87
+#: linux/modules/gui/qt4/ui/video_effects.h:1168
 msgid "Text"
 msgstr "テキスト"
 
@@ -13445,6 +13493,7 @@ msgstr ""
 #: modules/misc/freetype.c:92 modules/misc/notify/xosd.c:80
 #: modules/misc/quartztext.c:80 modules/misc/win32text.c:58
 #: modules/video_filter/marq.c:164 modules/video_filter/rss.c:207
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:211
 msgid "Font"
 msgstr "フォント"
 
@@ -13488,13 +13537,15 @@ msgid "Bookmarks"
 msgstr "ブックマーク"
 
 #: modules/gui/macosx/bookmarks.m:88
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:104
+#: linux/modules/gui/qt4/ui/sout.h:331 linux/modules/gui/qt4/ui/vlm.h:300
 msgid "Add"
 msgstr "追加"
 
 #: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:642
 #: modules/gui/macosx/simple_prefs.m:246
 #: modules/gui/qt4/components/preferences_widgets.cpp:1201
-#: modules/gui/qt4/dialogs/bookmarks.cpp:47
+#: modules/gui/qt4/dialogs/bookmarks.cpp:47 linux/modules/gui/qt4/ui/vlm.h:301
 msgid "Clear"
 msgstr "消去"
 
@@ -13507,7 +13558,7 @@ msgstr "編集"
 msgid "Extract"
 msgstr "展開"
 
-#: modules/gui/macosx/bookmarks.m:92
+#: modules/gui/macosx/bookmarks.m:92 linux/modules/gui/qt4/ui/open_file.h:224
 msgid "Remove"
 msgstr "削除"
 
@@ -13677,7 +13728,7 @@ msgstr "少し戻る"
 msgid "Fast Forward"
 msgstr "少し進む"
 
-#: modules/gui/macosx/equalizer.m:146
+#: modules/gui/macosx/equalizer.m:146 linux/modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
 msgstr "2パス"
 
@@ -13692,7 +13743,7 @@ msgstr ""
 "イコライザーを有効にします。バンドは手動設定かプリセットを使うことができま"
 "す。"
 
-#: modules/gui/macosx/equalizer.m:152
+#: modules/gui/macosx/equalizer.m:152 linux/modules/gui/qt4/ui/equalizer.h:130
 msgid "Preamp"
 msgstr "プリアンプ"
 
@@ -13714,11 +13765,13 @@ msgstr "波紋"
 
 #: modules/gui/macosx/extended.m:72 modules/meta_engine/id3genres.h:95
 #: modules/video_filter/psychedelic.c:55
+#: linux/modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
 msgstr "サイケデリック"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
 #: modules/video_filter/gradient.c:82
+#: linux/modules/gui/qt4/ui/video_effects.h:1148
 msgid "Gradient"
 msgstr "グラデーション"
 
@@ -13751,6 +13804,7 @@ msgid "Crops a defined part of the image"
 msgstr "指定された部分の画像をクロッピングします"
 
 #: modules/gui/macosx/extended.m:83
+#: linux/modules/gui/qt4/ui/video_effects.h:1134
 msgid "Invert colors"
 msgstr "色の逆転"
 
@@ -14285,6 +14339,13 @@ msgstr "キャプチャー"
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:102
+#: linux/modules/gui/qt4/ui/open.h:246
+#: linux/modules/gui/qt4/ui/open_disk.h:300
+#: linux/modules/gui/qt4/ui/open_file.h:232
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:412
+#: linux/modules/gui/qt4/ui/sprefs_input.h:308
+#: linux/modules/gui/qt4/ui/sprefs_input.h:317
+#: linux/modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
 msgstr "参照..."
 
@@ -14298,6 +14359,7 @@ msgstr "別のメディアと同期再生する"
 
 #: modules/gui/macosx/open.m:186 modules/gui/macosx/simple_prefs.m:280
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:414
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:394
 msgid "Choose..."
 msgstr "選択..."
 
@@ -14306,7 +14368,7 @@ msgstr "選択..."
 msgid "Device name"
 msgstr "デバイス名"
 
-#: modules/gui/macosx/open.m:193
+#: modules/gui/macosx/open.m:193 linux/modules/gui/qt4/ui/open_disk.h:298
 msgid "No DVD menus"
 msgstr "DVDメニューなし"
 
@@ -14316,6 +14378,7 @@ msgstr "VIDEO_TSフォルダー"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:739
 #: modules/services_discovery/udev.c:587
+#: linux/modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
 
@@ -14460,6 +14523,7 @@ msgid "Subtitles encoding"
 msgstr "字幕のエンコード"
 
 #: modules/gui/macosx/open.m:316
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "フォントサイズ"
 
@@ -14476,7 +14540,7 @@ msgid "Subtitle File"
 msgstr "字幕ファイル"
 
 #: modules/gui/macosx/open.m:587 modules/gui/macosx/open.m:953
-#: modules/gui/macosx/open.m:1189
+#: modules/gui/macosx/open.m:1189 linux/modules/gui/qt4/ui/open_file.h:217
 msgid "Open File"
 msgstr "ファイルを開く"
 
@@ -14542,7 +14606,7 @@ msgstr "ロー入力データをダンプ"
 msgid "Encapsulation Method"
 msgstr "カプセル化"
 
-#: modules/gui/macosx/output.m:159
+#: modules/gui/macosx/output.m:159 linux/modules/gui/qt4/ui/sout.h:335
 msgid "Transcoding options"
 msgstr "トランスコーディングオプション"
 
@@ -14551,7 +14615,7 @@ msgstr "トランスコーディングオプション"
 msgid "Bitrate (kb/s)"
 msgstr "ビットレート(kb/s)"
 
-#: modules/gui/macosx/output.m:166
+#: modules/gui/macosx/output.m:166 linux/modules/gui/qt4/ui/profiles.h:478
 msgid "Scale"
 msgstr "スケール"
 
@@ -14559,7 +14623,7 @@ msgstr "スケール"
 msgid "Stream Announcing"
 msgstr "ストリームアナウンス"
 
-#: modules/gui/macosx/output.m:181
+#: modules/gui/macosx/output.m:181 linux/modules/gui/qt4/ui/sout.h:342
 msgid "SAP announce"
 msgstr "SAPアナウンス"
 
@@ -14590,11 +14654,12 @@ msgstr "ファイルの保存"
 #: modules/gui/macosx/output.m:526 modules/gui/macosx/playlist.m:745
 #: modules/gui/macosx/prefs.m:203 modules/gui/macosx/simple_prefs.m:310
 #: modules/gui/qt4/components/sout/profile_selector.cpp:250
+#: linux/modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
 msgstr "保存"
 
 #: modules/gui/macosx/playlist.m:136 modules/gui/macosx/playlist.m:140
-#: modules/gui/macosx/wizard.m:350 modules/gui/qt4/dialogs/plugins.cpp:494
+#: modules/gui/macosx/wizard.m:350 modules/gui/qt4/dialogs/plugins.cpp:498
 #: modules/mux/asf.c:58
 msgid "Author"
 msgstr "作成者"
@@ -14610,6 +14675,8 @@ msgid "Save Playlist..."
 msgstr "プレイリストの保存..."
 
 #: modules/gui/macosx/playlist.m:465 modules/gui/qt4/dialogs/bookmarks.cpp:45
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:105
+#: linux/modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
 msgstr "削除"
 
@@ -14792,6 +14859,7 @@ msgid "Reset All"
 msgstr "すべてリセット"
 
 #: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:306
+#: linux/modules/gui/qt4/ui/video_effects.h:1111
 msgid "Basic"
 msgstr "基本"
 
@@ -14855,6 +14923,7 @@ msgid "Input & Codec settings"
 msgstr "入力とコーデックの設定"
 
 #: modules/gui/macosx/simple_prefs.m:228
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:414
 msgid "Effects"
 msgstr "エフェクト"
 
@@ -14867,6 +14936,7 @@ msgid "General Audio"
 msgstr "オーディオ全般"
 
 #: modules/gui/macosx/simple_prefs.m:231
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
 msgstr "ヘッドフォンのサラウンドエフェクト"
 
@@ -14915,7 +14985,7 @@ msgstr "AVIファイルの修復"
 msgid "Default Caching Level"
 msgstr "デフォルトキャッシュレベル"
 
-#: modules/gui/macosx/simple_prefs.m:254
+#: modules/gui/macosx/simple_prefs.m:254 linux/modules/gui/qt4/ui/open.h:235
 msgid "Caching"
 msgstr "キャッシュ"
 
@@ -14960,6 +15030,7 @@ msgid "Show Fullscreen Controller"
 msgstr "全画面表示コントローラーの表示"
 
 #: modules/gui/macosx/simple_prefs.m:270
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:376
 msgid "Privacy / Network Interaction"
 msgstr "プライバシー / ネットワークのインタラクション"
 
@@ -14976,6 +15047,7 @@ msgid "Default Encoding"
 msgstr "デフォルトエンコーディング"
 
 #: modules/gui/macosx/simple_prefs.m:279
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:207
 msgid "Display Settings"
 msgstr "ディスプレイ設定"
 
@@ -15005,6 +15077,7 @@ msgstr "全画面表示時のブラックスクリーン表示"
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
+#: linux/modules/gui/qt4/ui/sprefs_video.h:310
 msgid "Display"
 msgstr "ディスプレイ"
 
@@ -15017,6 +15090,7 @@ msgid "Output module"
 msgstr "出力モジュール"
 
 #: modules/gui/macosx/simple_prefs.m:298
+#: linux/modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Video snapshots"
 msgstr "ビデオスナップショット"
 
@@ -15025,14 +15099,17 @@ msgid "Folder"
 msgstr "フォルダー"
 
 #: modules/gui/macosx/simple_prefs.m:301
+#: linux/modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Format"
 msgstr "フォーマット"
 
 #: modules/gui/macosx/simple_prefs.m:302
+#: linux/modules/gui/qt4/ui/sprefs_video.h:328
 msgid "Prefix"
 msgstr "プレフィックス"
 
 #: modules/gui/macosx/simple_prefs.m:303
+#: linux/modules/gui/qt4/ui/sprefs_video.h:331
 msgid "Sequential numbering"
 msgstr "連番付け"
 
@@ -15517,6 +15594,7 @@ msgid "In this page, a few additional streaming parameters can be set."
 msgstr "このページでは、いくつかの追加のストリーミングパラメータを指定します。"
 
 #: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:1866
+#: linux/modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
 msgstr "TTL (Time-To-Live)"
 
@@ -16405,11 +16483,11 @@ msgstr "再生"
 msgid "buffers"
 msgstr "バッファー"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:381
+#: modules/gui/qt4/components/interface_widgets.cpp:357
 msgid "Current visualization"
 msgstr "現在の視覚化"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:420
+#: modules/gui/qt4/components/interface_widgets.cpp:396
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16417,19 +16495,19 @@ msgstr ""
 "現在の再生速度: %1\n"
 "クリックで調整"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:491
+#: modules/gui/qt4/components/interface_widgets.cpp:467
 msgid "Revert to normal play speed"
 msgstr "通常の再生速度に戻す"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:565
+#: modules/gui/qt4/components/interface_widgets.cpp:541
 msgid "Download cover art"
 msgstr "アルバムアートをダウンロードする"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:607
+#: modules/gui/qt4/components/interface_widgets.cpp:583
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "経過時間と残り時間の切り替え"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:609
+#: modules/gui/qt4/components/interface_widgets.cpp:585
 msgid "Double click to jump to a chosen time position"
 msgstr "ダブルクリックで選択された時間へ移動"
 
@@ -16451,6 +16529,7 @@ msgid "File names:"
 msgstr "ファイル名:"
 
 #: modules/gui/qt4/components/open_panels.cpp:149
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:382
 msgid "Filter:"
 msgstr "フィルター:"
 
@@ -16518,6 +16597,11 @@ msgstr "フレーム/秒"
 msgid "Advanced Options"
 msgstr "拡張オプション"
 
+#: modules/gui/qt4/components/playlist/playlist.cpp:54
+#, fuzzy
+msgid "Media Browser"
+msgstr " 参照 "
+
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
 msgstr "ダブルクリックでメディア情報を表示"
@@ -16553,22 +16637,6 @@ msgstr "逆順"
 #: modules/gui/qt4/components/playlist/selector.cpp:248
 msgid "Remove this podcast subscription"
 msgstr "このPodcastの視聴申込を削除"
-
-#: modules/gui/qt4/components/playlist/selector.cpp:267
-msgid "My Computer"
-msgstr "マイコンピューター"
-
-#: modules/gui/qt4/components/playlist/selector.cpp:269
-msgid "Devices"
-msgstr "デバイス"
-
-#: modules/gui/qt4/components/playlist/selector.cpp:271
-msgid "Local Network"
-msgstr "ローカルネットワーク"
-
-#: modules/gui/qt4/components/playlist/selector.cpp:273
-msgid "Internet"
-msgstr "インターネット"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -16727,6 +16795,7 @@ msgstr "適用 (&A)"
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
+#: modules/gui/qt4/dialogs/openurl.cpp:60
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
 #: modules/gui/qt4/dialogs/preferences.cpp:85
 #: modules/gui/qt4/dialogs/sout.cpp:97 modules/gui/qt4/dialogs/toolbar.cpp:189
@@ -16767,6 +16836,7 @@ msgid "File/Folder"
 msgstr "ファイル/フォルダー"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:46
+#: linux/modules/gui/qt4/ui/sout.h:328
 msgid "Source"
 msgstr "入力元"
 
@@ -16879,6 +16949,7 @@ msgstr "すべてのブックマークを削除"
 #: modules/gui/qt4/dialogs/mediainfo.cpp:72
 #: modules/gui/qt4/dialogs/messages.cpp:110
 #: modules/gui/qt4/dialogs/plugins.cpp:70
+#: modules/gui/qt4/dialogs/plugins.cpp:532
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:36
 #: modules/gui/qt4/dialogs/vlm.cpp:137
 msgid "&Close"
@@ -16893,6 +16964,7 @@ msgid "Convert"
 msgstr "変換"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:411
 msgid "Destination file:"
 msgstr "出力ファイル:"
 
@@ -16966,7 +17038,7 @@ msgid "Go to time"
 msgstr "指定時間に移動"
 
 #: modules/gui/qt4/dialogs/help.cpp:85 modules/gui/qt4/dialogs/help.cpp:163
-#: modules/gui/qt4/dialogs/plugins.cpp:467
+#: modules/gui/qt4/dialogs/plugins.cpp:471
 msgid "About"
 msgstr "VideoLANについて"
 
@@ -17173,6 +17245,7 @@ msgid "&Enqueue"
 msgstr "再生キューに追加 (&E)"
 
 #: modules/gui/qt4/dialogs/open.cpp:119 modules/gui/qt4/dialogs/open.cpp:221
+#: modules/gui/qt4/dialogs/openurl.cpp:54
 msgid "&Play"
 msgstr "再生 (&P)"
 
@@ -17193,15 +17266,15 @@ msgstr "変換 / 保存 (&C)"
 msgid "Open URL"
 msgstr "URLを開く"
 
-#: modules/gui/qt4/dialogs/openurl.cpp:63
+#: modules/gui/qt4/dialogs/openurl.cpp:64
 msgid "Enter URL here..."
 msgstr "ここでURLを入力します..."
 
-#: modules/gui/qt4/dialogs/openurl.cpp:65
+#: modules/gui/qt4/dialogs/openurl.cpp:66
 msgid "Please enter the URL or path to the media you want to play"
 msgstr "再生したいメディアのURLまたは、パスを指定してください。"
 
-#: modules/gui/qt4/dialogs/openurl.cpp:69
+#: modules/gui/qt4/dialogs/openurl.cpp:70
 msgid ""
 "If your clipboard contains a valid URL\n"
 "or the path to a file on your computer,\n"
@@ -17230,19 +17303,19 @@ msgstr "スコア"
 msgid "&Search:"
 msgstr "検索: (&S)"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:208
+#: modules/gui/qt4/dialogs/plugins.cpp:209
 msgid "More information..."
 msgstr "追加情報..."
 
-#: modules/gui/qt4/dialogs/plugins.cpp:217
+#: modules/gui/qt4/dialogs/plugins.cpp:218
 msgid "Reload extensions"
 msgstr "エクステンションの再読み込み"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:488
+#: modules/gui/qt4/dialogs/plugins.cpp:492
 msgid "Version"
 msgstr "バージョン"
 
-#: modules/gui/qt4/dialogs/plugins.cpp:508
+#: modules/gui/qt4/dialogs/plugins.cpp:512
 msgid "Website"
 msgstr "ウェブサイト"
 
@@ -17282,7 +17355,7 @@ msgstr "設定をリセット (&R)"
 msgid "Are you sure you want to reset your VLC media player preferences?"
 msgstr "本当にVLCメディアプレイヤーの設定をリセットしますか?"
 
-#: modules/gui/qt4/dialogs/sout.cpp:42
+#: modules/gui/qt4/dialogs/sout.cpp:42 linux/modules/gui/qt4/ui/sout.h:326
 msgid "Stream Output"
 msgstr "ストリーム出力"
 
@@ -17381,6 +17454,7 @@ msgid "Cl&ose"
 msgstr "閉じる (&O)"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:217
+#: linux/modules/gui/qt4/ui/profiles.h:455
 msgid "Profile Name"
 msgstr "プロファイル名"
 
@@ -17445,6 +17519,7 @@ msgid "Repeat delay:"
 msgstr "リピートの遅延:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:112
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:379
 msgid " days"
 msgstr " 日"
 
@@ -18295,6 +18370,7 @@ msgid "Gospel"
 msgstr "ゴスペル"
 
 #: modules/meta_engine/id3genres.h:67 modules/video_filter/noise.c:52
+#: linux/modules/gui/qt4/ui/video_effects.h:1144
 msgid "Noise"
 msgstr "ノイズ"
 
@@ -18718,7 +18794,7 @@ msgstr "文字レンダリング"
 msgid "Freetype2 font renderer"
 msgstr "Freetype2フォントレンダラー"
 
-#: modules/misc/freetype.c:361
+#: modules/misc/freetype.c:359
 msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
@@ -19634,6 +19710,7 @@ msgid "My Pictures"
 msgstr "マイピクチャー"
 
 #: modules/services_discovery/podcast.c:58
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:102
 msgid "Podcast URLs list"
 msgstr "Podcast URLリスト"
 
@@ -20064,6 +20141,7 @@ msgstr ""
 "ンビデオフィルターを使用する場合は、YUVAを使用してください。"
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
+#: linux/modules/gui/qt4/ui/video_effects.h:1176
 msgid "Transparency"
 msgstr "透明度"
 
@@ -20452,6 +20530,7 @@ msgid "Standard stream output"
 msgstr "標準ストリーム出力"
 
 #: modules/stream_out/switcher.c:90
+#: linux/modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "ファイル"
 
@@ -20779,6 +20858,7 @@ msgid "AltiVec conversions from "
 msgstr "AltiVec変換元 "
 
 #: modules/video_filter/adjust.c:64
+#: linux/modules/gui/qt4/ui/video_effects.h:1110
 msgid "Brightness threshold"
 msgstr "明るさの閾値"
 
@@ -20835,6 +20915,7 @@ msgid "Image properties filter"
 msgstr "画像プロパティフィルター"
 
 #: modules/video_filter/adjust.c:81
+#: linux/modules/gui/qt4/ui/video_effects.h:1104
 msgid "Image adjust"
 msgstr "画像調整"
 
@@ -21190,6 +21271,7 @@ msgid "Sat windowing"
 msgstr "彩度ウィンドウイング"
 
 #: modules/video_filter/atmo/atmo.cpp:268
+#: linux/modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "フィルター長(ミリ秒)"
 
@@ -21375,6 +21457,8 @@ msgid "AtmoLight Filter"
 msgstr "AtmoLightフィルター"
 
 #: modules/video_filter/atmo/atmo.cpp:361
+#: linux/modules/gui/qt4/ui/video_effects.h:1153
+#: linux/modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
@@ -21614,6 +21698,7 @@ msgid "Video filtering using a chain of video filter modules"
 msgstr "ビデオフィルターモジュールのチェインを使用"
 
 #: modules/video_filter/clone.c:39
+#: linux/modules/gui/qt4/ui/video_effects.h:1173
 msgid "Number of clones"
 msgstr "複製の数"
 
@@ -21642,6 +21727,7 @@ msgid "Clone video filter"
 msgstr "複製ビデオフィルター"
 
 #: modules/video_filter/clone.c:57
+#: linux/modules/gui/qt4/ui/video_effects.h:1172
 msgid "Clone"
 msgstr "複製"
 
@@ -21666,6 +21752,7 @@ msgid "Color threshold filter"
 msgstr "色閾値フィルター"
 
 #: modules/video_filter/colorthres.c:70
+#: linux/modules/gui/qt4/ui/video_effects.h:1135
 msgid "Color threshold"
 msgstr "色の閾値"
 
@@ -22417,6 +22504,7 @@ msgid "The degree of blurring from 1 to 127."
 msgstr "ぼかしの程度を1～127の範囲で指定します。"
 
 #: modules/video_filter/motionblur.c:59
+#: linux/modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "モーションぼかし"
 
@@ -22651,6 +22739,7 @@ msgid "Panoramix: wall with overlap video filter"
 msgstr "パノラマ表示: オーバーラップビデオフィルターによるタイル表示"
 
 #: modules/video_filter/panoramix.c:79
+#: linux/modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
 msgstr "パノラマ"
 
@@ -22997,6 +23086,7 @@ msgid "Rotate video filter"
 msgstr "ビデオ回転フィルター"
 
 #: modules/video_filter/rotate.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1128
 msgid "Rotate"
 msgstr "回転"
 
@@ -23210,6 +23300,7 @@ msgid "Sharpen video filter"
 msgstr "シャープネスビデオフィルター"
 
 #: modules/video_filter/sharpen.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1102
 msgid "Sharpen"
 msgstr "シャープ化"
 
@@ -23454,11 +23545,12 @@ msgstr "Direct3Dビデオ出力"
 msgid "Desktop"
 msgstr "デスクトップ"
 
-#: modules/video_output/msw/directx.c:64
+#: modules/video_output/msw/directx.c:68
+#: linux/modules/gui/qt4/ui/sprefs_video.h:317
 msgid "Use hardware YUV->RGB conversions"
 msgstr "ハードウェアによるYUV->RGB変換を使用"
 
-#: modules/video_output/msw/directx.c:66
+#: modules/video_output/msw/directx.c:70
 msgid ""
 "Try to use hardware acceleration for YUV->RGB conversions. This option "
 "doesn't have any effect when using overlays."
@@ -23466,11 +23558,11 @@ msgstr ""
 "YUV->RGBのハードウェアアクセラレーションの使用を試みます。オーバレイを使用す"
 "る場合には何の効果もありません。"
 
-#: modules/video_output/msw/directx.c:69
+#: modules/video_output/msw/directx.c:73
 msgid "Use video buffers in system memory"
 msgstr "システムメモリーにビデオバッファーを作成"
 
-#: modules/video_output/msw/directx.c:71
+#: modules/video_output/msw/directx.c:75
 msgid ""
 "Create video buffers in system memory instead of video memory. This isn't "
 "recommended as usually using video memory allows to benefit from more "
@@ -23482,11 +23574,11 @@ msgstr ""
 "クセラレーションの効果を有効にするため、このオプションは推奨しません。このオ"
 "プションは、オーバレイを使用する場合には何の効果もありません。"
 
-#: modules/video_output/msw/directx.c:76
+#: modules/video_output/msw/directx.c:80
 msgid "Use triple buffering for overlays"
 msgstr "オーバーレイにトリプルバッファーを使用"
 
-#: modules/video_output/msw/directx.c:78
+#: modules/video_output/msw/directx.c:82
 msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
@@ -23494,11 +23586,11 @@ msgstr ""
 "YUVオーバーレイの使用時、3つのバッファリングの使用を試みます。ビデオの品質が"
 "向上します。(フリッカーがなくなります)"
 
-#: modules/video_output/msw/directx.c:81
+#: modules/video_output/msw/directx.c:85
 msgid "Name of desired display device"
 msgstr "表示させるディスプレイデバイス名"
 
-#: modules/video_output/msw/directx.c:82
+#: modules/video_output/msw/directx.c:86
 msgid ""
 "In a multiple monitor configuration, you can specify the Windows device name "
 "of the display that you want the video window to open on. For example, \"\\"
@@ -23508,7 +23600,7 @@ msgstr ""
 "レイのウィンドウデバイス名を指定します。例: \"\\\\.\\DISPLAY1\" または \"\\"
 "\\.\\DISPLAY2\"."
 
-#: modules/video_output/msw/directx.c:87
+#: modules/video_output/msw/directx.c:91
 msgid ""
 "Recommended video output for Windows XP. Incompatible with Vista's Aero "
 "interface"
@@ -23516,11 +23608,11 @@ msgstr ""
 "Windows XPに推奨されるビデオ出力(Windows Vistaのエアロインターフェースとは非"
 "互換)"
 
-#: modules/video_output/msw/directx.c:100
+#: modules/video_output/msw/directx.c:104
 msgid "DirectX (DirectDraw) video output"
 msgstr "DirectX(DirectDraw)ビデオ出力"
 
-#: modules/video_output/msw/directx.c:229
+#: modules/video_output/msw/directx.c:233
 msgid "Wallpaper"
 msgstr "壁紙"
 
@@ -24001,6 +24093,1029 @@ msgstr "視覚化フィルター"
 msgid "Spectrum analyser"
 msgstr "スペクトラムアナライザー"
 
+#: linux/modules/gui/qt4/ui/equalizer.h:126
+#: linux/modules/gui/qt4/ui/open_disk.h:290
+#: linux/modules/gui/qt4/ui/open_net.h:91
+#: linux/modules/gui/qt4/ui/profiles.h:454
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:403
+#: linux/modules/gui/qt4/ui/sprefs_input.h:305
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:372
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:200
+#: linux/modules/gui/qt4/ui/sprefs_video.h:308
+#: linux/modules/gui/qt4/ui/streampanel.h:168
+#: linux/modules/gui/qt4/ui/v4l2.h:58
+msgid "Form"
+msgstr "フォーマット"
+
+#: linux/modules/gui/qt4/ui/equalizer.h:129
+#, fuzzy
+msgid "Preset"
+msgstr "パーセント"
+
+#: linux/modules/gui/qt4/ui/open.h:230
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:101
+#, fuzzy
+msgid "Dialog"
+msgstr "無効"
+
+#: linux/modules/gui/qt4/ui/open.h:232
+#, fuzzy
+msgid "Show extended options"
+msgstr "拡張設定を表示"
+
+#: linux/modules/gui/qt4/ui/open.h:234
+#, fuzzy
+msgid "Show &more options"
+msgstr "高度なオプションを表示"
+
+#: linux/modules/gui/qt4/ui/open.h:237
+#, fuzzy
+msgid "Change the caching for the media"
+msgstr "サービスの表示名を変更します。"
+
+#: linux/modules/gui/qt4/ui/open.h:239
+msgid " ms"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:240
+#, fuzzy
+msgid "Start Time"
+msgstr "開始時間"
+
+#: linux/modules/gui/qt4/ui/open.h:241
+#, fuzzy
+msgid "Play another media synchronously (extra audio file, ...)"
+msgstr "別のメディアと同期再生する"
+
+#: linux/modules/gui/qt4/ui/open.h:242
+#, fuzzy
+msgid "Extra media"
+msgstr "拡張メタデータ (&E)"
+
+#: linux/modules/gui/qt4/ui/open.h:244
+#, fuzzy
+msgid "Select the file"
+msgstr "ファイルの選択"
+
+#: linux/modules/gui/qt4/ui/open.h:247
+#, fuzzy
+msgid "MRL"
+msgstr "URL"
+
+#: linux/modules/gui/qt4/ui/open.h:249
+msgid "Complete MRL for VLC internal"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open.h:251
+#, fuzzy
+msgid "Edit Options"
+msgstr "オプション"
+
+#: linux/modules/gui/qt4/ui/open.h:253
+#, fuzzy
+msgid "Change the start time for the media"
+msgstr "サービスの表示名を変更します。"
+
+#: linux/modules/gui/qt4/ui/open.h:255
+msgid "s"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open_capture.h:98
+#, fuzzy
+msgid "Capture mode"
+msgstr "キャプチャー"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:100
+#, fuzzy
+msgid "Select the capture device type"
+msgstr "ポート番号の選択"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:102
+#, fuzzy
+msgid "Device Selection"
+msgstr "ファイル選択"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "オプション"
+
+#: linux/modules/gui/qt4/ui/open_capture.h:105
+msgid "Access advanced options to tweak the device"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open_capture.h:107
+#, fuzzy
+msgid "Advanced options..."
+msgstr "高度なオプション"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:291
+#, fuzzy
+msgid "Disc Selection"
+msgstr "ファイル選択"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:294
+msgid "SVCD/VCD"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open_disk.h:296
+msgid "Disable DVD Menus (for compatibility)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/open_disk.h:299
+#, fuzzy
+msgid "Disc device"
+msgstr "DVDデバイス"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:301
+#, fuzzy
+msgid "Starting Position"
+msgstr "再生位置表示"
+
+#: linux/modules/gui/qt4/ui/open_disk.h:304
+#, fuzzy
+msgid "Audio and Subtitles"
+msgstr "フォーマットされた字幕"
+
+#: linux/modules/gui/qt4/ui/open_file.h:219
+msgid "Choose one or more media file to open"
+msgstr "開くメディアファイルをひとつ、もしくはいくつか選択します"
+
+#: linux/modules/gui/qt4/ui/open_file.h:221
+msgid "File Selection"
+msgstr "ファイル選択"
+
+#: linux/modules/gui/qt4/ui/open_file.h:222
+msgid "You can select local files with the following list and buttons."
+msgstr "以下のリストとボタンでローカルファイルを選択することができます。"
+
+#: linux/modules/gui/qt4/ui/open_file.h:223
+msgid "Add..."
+msgstr "追加..."
+
+#: linux/modules/gui/qt4/ui/open_file.h:226
+msgid "Add a subtitles file"
+msgstr "字幕ファイルの追加"
+
+#: linux/modules/gui/qt4/ui/open_file.h:228
+msgid "Use a sub&titles file"
+msgstr "字幕ファイルを使う (&T)"
+
+#: linux/modules/gui/qt4/ui/open_file.h:230
+msgid "Select the subtitles file"
+msgstr "字幕ファイルの選択"
+
+#: linux/modules/gui/qt4/ui/open_file.h:233
+msgid "Font size:"
+msgstr "フォントサイズ:"
+
+#: linux/modules/gui/qt4/ui/open_file.h:234
+msgid "Text alignment:"
+msgstr "テキストの位置あわせ:"
+
+#: linux/modules/gui/qt4/ui/open_net.h:92
+msgid "Network Protocol"
+msgstr "ネットワークプロトコル"
+
+#: linux/modules/gui/qt4/ui/open_net.h:93
+#, fuzzy
+msgid "Please enter a network URL:"
+msgstr "新しいプロファイル名を入力してください。"
+
+#: linux/modules/gui/qt4/ui/open_net.h:95
+#, fuzzy
+msgid "Enter the URL of the network stream here."
+msgstr ""
+"ここにネットワークストリームのURLを入力します、プロトコルは指定しても指定しな"
+"くても構いません"
+
+#: linux/modules/gui/qt4/ui/open_net.h:97
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.example.com/stream.avi</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtp://@1234</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtsp://server.example.org:8080/test.sdp</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:456
+#, fuzzy
+msgid "MPEG-TS"
+msgstr "MJPEG"
+
+#: linux/modules/gui/qt4/ui/profiles.h:457
+#, fuzzy
+msgid "MPEG-PS"
+msgstr "MJPEG"
+
+#: linux/modules/gui/qt4/ui/profiles.h:458
+msgid "WAV"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:459
+msgid "ASF/WMV"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:460
+#, fuzzy
+msgid "Ogg/Ogm"
+msgstr "Ogg/OGMマルチプレクサ"
+
+#: linux/modules/gui/qt4/ui/profiles.h:461
+msgid "RAW"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:462
+#, fuzzy
+msgid "MPEG 1"
+msgstr "MJPEG"
+
+#: linux/modules/gui/qt4/ui/profiles.h:463
+msgid "FLV"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:464
+msgid "AVI"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:465
+#, fuzzy
+msgid "MP4/MOV"
+msgstr "MP4/MOVマルチプレクサ"
+
+#: linux/modules/gui/qt4/ui/profiles.h:467
+msgid "MKV"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:468
+#, fuzzy
+msgid "Encapsulation"
+msgstr "カプセル化"
+
+#: linux/modules/gui/qt4/ui/profiles.h:472
+#: linux/modules/gui/qt4/ui/profiles.h:491
+#, fuzzy
+msgid " kb/s"
+msgstr "%u kb/秒"
+
+#: linux/modules/gui/qt4/ui/profiles.h:473
+#, fuzzy
+msgid "Frame Rate"
+msgstr "フレームレート"
+
+#: linux/modules/gui/qt4/ui/profiles.h:475
+#, fuzzy
+msgid " fps"
+msgstr "フレーム/秒"
+
+#: linux/modules/gui/qt4/ui/profiles.h:477
+msgid ""
+"You just need to fill one of the three following parameters, VLC will "
+"autodetect the other using the original aspect ratio"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:480
+#: linux/modules/gui/qt4/ui/profiles.h:483
+msgid "00000; "
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:485
+#, fuzzy
+msgid "Keep original video track"
+msgstr "元のサイズを保持"
+
+#: linux/modules/gui/qt4/ui/profiles.h:486
+#, fuzzy
+msgid "Video codec"
+msgstr "ビデオコーデック"
+
+#: linux/modules/gui/qt4/ui/profiles.h:488
+#, fuzzy
+msgid "Keep original audio track"
+msgstr "元のサイズを保持"
+
+#: linux/modules/gui/qt4/ui/profiles.h:493
+#, fuzzy
+msgid "Sample Rate"
+msgstr "サンプリングレート"
+
+#: linux/modules/gui/qt4/ui/profiles.h:494
+#, fuzzy
+msgid "Audio codec"
+msgstr "オーディオコーデック"
+
+#: linux/modules/gui/qt4/ui/profiles.h:496
+#, fuzzy
+msgid "Overlay subtitles on the video"
+msgstr "ビデオに対する字幕の先行度:"
+
+#: linux/modules/gui/qt4/ui/sout.h:329 linux/modules/gui/qt4/ui/sout.h:339
+msgid "Destinations"
+msgstr "出力先"
+
+#: linux/modules/gui/qt4/ui/sout.h:330
+msgid "New destination"
+msgstr "新しい出力先"
+
+#: linux/modules/gui/qt4/ui/sout.h:332
+msgid ""
+"Add destinations following the streaming methods you need. Be sure to check "
+"with transcoding that the format is compatible with the method used."
+msgstr ""
+"出力先としたいストリーミング方法を以下から追加します。トランスコーディングと"
+"フォーマットが互換性があることを確認してください。"
+
+#: linux/modules/gui/qt4/ui/sout.h:333
+msgid "Display locally"
+msgstr "ローカルで再生する"
+
+#: linux/modules/gui/qt4/ui/sout.h:336
+msgid "Activate Transcoding"
+msgstr "トランスコーディングを有効にする"
+
+#: linux/modules/gui/qt4/ui/sout.h:340
+msgid "Miscellaneous Options"
+msgstr "その他のオプション"
+
+#: linux/modules/gui/qt4/ui/sout.h:341
+msgid "Stream all elementary streams"
+msgstr "すべての基本ストリームをストリーミングする"
+
+#: linux/modules/gui/qt4/ui/sout.h:343
+msgid "Group name"
+msgstr "グループ名"
+
+#: linux/modules/gui/qt4/ui/sout.h:345
+msgid "Generated stream output string"
+msgstr "生成されたストリーム出力文字列"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:406
+msgid "Keep audio level between sessions"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:407
+msgid "Always reset audio start level to:"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:408
+msgid " %"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:409
+#: linux/modules/gui/qt4/ui/sprefs_video.h:313
+#, fuzzy
+msgid "Output"
+msgstr "出力URL"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:410
+#, fuzzy
+msgid "Output module:"
+msgstr "出力モジュール"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:415
+#, fuzzy
+msgid "Dolby Surround:"
+msgstr "ドルビーサラウンド"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:416
+msgid "Normalize volume to:"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:417
+#, fuzzy
+msgid "Replay gain mode:"
+msgstr "再生ゲインモード"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:418
+#, fuzzy
+msgid "Visualization:"
+msgstr "視覚化"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:420
+#, fuzzy
+msgid "Enable Time-Stretching audio"
+msgstr "オーディオのタイムストレッチの有効化"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:422
+#, fuzzy
+msgid "Preferred audio language:"
+msgstr "優先するオーディオ言語"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:423
+#, fuzzy
+msgid "Password:"
+msgstr "パスワード"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:424
+#, fuzzy
+msgid "Username:"
+msgstr "ユーザー名"
+
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:425
+#, fuzzy
+msgid "Submit played tracks stats to Last.fm"
+msgstr "last.fmへ再生した曲を送信"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:306
+msgid "Optical drive"
+msgstr "光学ドライブ"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:307
+msgid "Default optical device"
+msgstr "デフォルトの光学デバイス"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:309
+msgid "Codecs"
+msgstr "コーデック"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:310
+#, fuzzy
+msgid "Skip H.264 in-loop deblocking filter"
+msgstr "H.264インループブロック化解除フィルター"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:311
+msgid "Video quality post-processing level"
+msgstr "ビデオの品質、後処理フィルターレベル"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:312
+msgid "Use GPU acceleration (experimental)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:313
+#, fuzzy
+msgid "Use system codecs if available (better quality, but dangerous)"
+msgstr "システムコーデック(高品質)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:315
+msgid "Damaged or incomplete AVI file"
+msgstr "壊れているか不完全なAVIファイル"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:319
+msgid "Default port (server mode)"
+msgstr "デフォルトポート(サーバーモード)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:320
+msgid "HTTP proxy URL"
+msgstr "HTTPプロキシーのURL"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:321
+msgid "Default caching policy"
+msgstr "デフォルトキャッシュポリシー"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:322
+msgid "HTTP (default)"
+msgstr "HTTP(デフォルト)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:323
+msgid "RTP over RTSP (TCP)"
+msgstr "RTPオーバーRTSP (TCP)"
+
+#: linux/modules/gui/qt4/ui/sprefs_input.h:324
+msgid "Live555 stream transport"
+msgstr "Live555ストリームトランスポート"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:373
+#, fuzzy
+msgid "Instances"
+msgstr "インターフェース"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:374
+#, fuzzy
+msgid "Allow only one instance"
+msgstr "ひとつのインスタンスだけ実行を許可"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:375
+#, fuzzy
+msgid "Enqueue files when in one instance mode"
+msgstr "単一インスタンスモードのとき、項目を再生一覧に予約として追加"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:377
+#, fuzzy
+msgid "Album art download policy:"
+msgstr "アルバムアートのダウンロードポリシー"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:378
+#, fuzzy
+msgid "Activate update notifier"
+msgstr "アップデート通知の有効化"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:380
+#, fuzzy
+msgid "Every "
+msgstr "オーバーレイ"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:381
+#, fuzzy
+msgid "Save recently played items"
+msgstr "メニューにある最近再生された項目を保存"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:384
+msgid "Separate words by | (without space)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:387
+#, fuzzy
+msgid "Menus language:"
+msgstr "オーディオ言語"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:388
+#, fuzzy
+msgid "File associations"
+msgstr "ファイル選択"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:389
+#, fuzzy
+msgid "Set up associations..."
+msgstr "設定..."
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:390
+msgid "Look and feel"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:391
+#, fuzzy
+msgid "Use custom skin"
+msgstr "スキン選択"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:393
+msgid "Skin resource file:"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:395
+#, fuzzy
+msgid "Resize interface to video size"
+msgstr "ネイティブのビデオサイズにインターフェースをリサイズ"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:396
+#, fuzzy
+msgid "Force window style:"
+msgstr "ウィジェットのスタイル:"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:397
+#, fuzzy
+msgid "Show systray icon"
+msgstr "システムトレイアイコン"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:398
+#, fuzzy
+msgid "Embed video in interface"
+msgstr "メインインターフェースにビデオ出力を統合します。"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:399
+msgid " Systray popup when minimized"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:400
+#, fuzzy
+msgid "Show controls in full screen mode"
+msgstr "全画面表示モードでコントローラーを表示"
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:401
+msgid "Minimal view mode (no toolbars)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:403
+msgid "This is VLC's default interface, with a native look and feel."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:405
+#, fuzzy
+msgid "Use native style"
+msgstr "字幕ファイルを使用"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:202
+#, fuzzy
+msgid "Enable On Screen Display (OSD)"
+msgstr "オンスクリーンディスプレイ(OSD)"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:203
+#, fuzzy
+msgid "Show media title on video start"
+msgstr "ビデオにメディアタイトルを表示"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:204
+#, fuzzy
+msgid "Subtitles Language"
+msgstr "字幕の言語"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:205
+#, fuzzy
+msgid "Preferred subtitles language"
+msgstr "優先する字幕の言語"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:206
+#, fuzzy
+msgid "Default encoding"
+msgstr "デフォルトエンコーディング"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:208
+#, fuzzy
+msgid "Effect"
+msgstr "エフェクト"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:209
+#, fuzzy
+msgid "Font color"
+msgstr "フォントの色"
+
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:212
+#: linux/modules/gui/qt4/ui/video_effects.h:1113
+#: linux/modules/gui/qt4/ui/video_effects.h:1115
+#: linux/modules/gui/qt4/ui/video_effects.h:1117
+#: linux/modules/gui/qt4/ui/video_effects.h:1119
+msgid " px"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:314
+msgid "Accelerated video output (Overlay)"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:318
+#, fuzzy
+msgid "DirectX"
+msgstr "方向"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:319
+#, fuzzy
+msgid "Display device"
+msgstr "表示"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:320
+#, fuzzy
+msgid "Enable wallpaper mode"
+msgstr "壁紙モードの有効化"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:322
+#, fuzzy
+msgid "Deinterlacing"
+msgstr "デインタレース"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:323
+#, fuzzy
+msgid "Force Aspect Ratio"
+msgstr "アスペクト比を固定"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:327
+#, fuzzy
+msgid "Directory"
+msgstr "ファイル/ディレクトリー"
+
+#: linux/modules/gui/qt4/ui/sprefs_video.h:329
+msgid "vlc-snap"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/streampanel.h:172
+msgid "Stuff"
+msgstr "スタッフ"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:174
+msgid "Edit settings"
+msgstr "設定の変更"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:175
+msgid "Control"
+msgstr "制御"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:176
+msgid "Run manually"
+msgstr "手動で実行"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:177
+msgid "Setup schedule"
+msgstr "スケジュール設定"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:178
+msgid "Run on schedule"
+msgstr "スケジュールで実行"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:179
+msgid "Status"
+msgstr "状態"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:180
+msgid "P/P"
+msgstr "P/P"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:183
+msgid "Prev"
+msgstr "前"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:184
+msgid "Add Input"
+msgstr "入力を追加"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:185
+msgid "Edit Input"
+msgstr "入力を編集"
+
+#: linux/modules/gui/qt4/ui/streampanel.h:186
+msgid "Clear List"
+msgstr "リストをクリア"
+
+#: linux/modules/gui/qt4/ui/v4l2.h:59
+#, fuzzy
+msgid "Refresh"
+msgstr "リストの再表示"
+
+#: linux/modules/gui/qt4/ui/v4l2.h:60
+msgid "No v4l2 instance found. Press the refresh button to try again."
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1101
+#, fuzzy
+msgid "Transform"
+msgstr "変換"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1103
+#, fuzzy
+msgid "Sigma"
+msgstr "シグナル"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1120
+#, fuzzy
+msgid "Synchronize top and bottom"
+msgstr "オーディオトラックに同期"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1121
+#, fuzzy
+msgid "Synchronize left and right"
+msgstr "オーディオトラックに同期"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1123
+#, fuzzy
+msgid "Magnification/Zoom"
+msgstr "拡大"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1124
+#, fuzzy
+msgid "Puzzle game"
+msgstr "パズル"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1125
+#, fuzzy
+msgid "Black slot"
+msgstr "黒色のレベル"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1126
+#: linux/modules/gui/qt4/ui/video_effects.h:1165
+#: linux/modules/gui/qt4/ui/video_effects.h:1171
+#, fuzzy
+msgid "Columns"
+msgstr "コマンド"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1127
+#: linux/modules/gui/qt4/ui/video_effects.h:1164
+#: linux/modules/gui/qt4/ui/video_effects.h:1170
+#, fuzzy
+msgid "Rows"
+msgstr " 参照 "
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1129
+#, fuzzy
+msgid "Angle"
+msgstr "ジャングル"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1130
+#, fuzzy
+msgid "Geometry"
+msgstr "スペクトロメーター"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1131
+#, fuzzy
+msgid "Color extraction"
+msgstr "色反転"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1133
+#: linux/modules/gui/qt4/ui/video_effects.h:1139
+msgid ">HHHHHH;#"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1136
+#, fuzzy
+msgid "Similarity"
+msgstr "相似度の閾値"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1140
+#, fuzzy
+msgid "Color fun"
+msgstr "色"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1142
+#, fuzzy
+msgid "Water effect"
+msgstr "ヘッドフォンのエフェクト"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1145
+#, fuzzy
+msgid "Motion detect"
+msgstr "モーション検出"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1147
+#, fuzzy
+msgid "Factor"
+msgstr "速く"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1151
+#, fuzzy
+msgid "Cartoon"
+msgstr "栗色"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1152
+#, fuzzy
+msgid "Image modification"
+msgstr "拡大"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1154
+#, fuzzy
+msgid "Edge weightning"
+msgstr "縁の重み"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1155
+#, fuzzy
+msgid "Output Color Filtermode"
+msgstr "出力カラーフィルターモード"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1156
+#, fuzzy
+msgid "Brightness (%)"
+msgstr "明るさ"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1157
+#, fuzzy
+msgid "Darknesslimit"
+msgstr "暗さの下限"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1158
+#, fuzzy
+msgid "Mark analyzed Pixels"
+msgstr "解析済みピクセルをマーク"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1160
+#, fuzzy
+msgid "Filter threshold (%)"
+msgstr "フィルター閾値"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1161
+#, fuzzy
+msgid "Filter smoothness (%)"
+msgstr "フィルターの滑らかさ(%)"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1163
+#, fuzzy
+msgid "Wall"
+msgstr "すべて"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1166
+msgid "Add text"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1174
+#, fuzzy
+msgid "Vout/Overlay"
+msgstr "オーバーレイ"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1175
+msgid "Add logo"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1179
+#: linux/modules/gui/qt4/ui/video_effects.h:1184
+#, fuzzy
+msgid "Logo"
+msgstr "[ループ]"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1180
+#, fuzzy
+msgid "Logo erase"
+msgstr "ロゴオーバーレイ"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1183
+msgid "Mask"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1185
+#, fuzzy
+msgid "Subpicture filters"
+msgstr "サブピクチャーフィルターモジュール"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1186
+#, fuzzy
+msgid "Video filters"
+msgstr "ビデオフィルター"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1187
+#, fuzzy
+msgid "Vout filters"
+msgstr "ビデオフィルター"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1188
+#, fuzzy
+msgid "Reset"
+msgstr "すべてリセット"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1189
+#, fuzzy
+msgid "Update"
+msgstr "更新 (&U)"
+
+#: linux/modules/gui/qt4/ui/video_effects.h:1190
+#, fuzzy
+msgid "Advanced video filter controls"
+msgstr "高度な制御 (&A)"
+
+#: linux/modules/gui/qt4/ui/vlm.h:287
+#, fuzzy
+msgid "VLM configurator"
+msgstr "VLM設定 (&V)"
+
+#: linux/modules/gui/qt4/ui/vlm.h:288
+#, fuzzy
+msgid "Media Manager Edition"
+msgstr "メディア情報"
+
+#: linux/modules/gui/qt4/ui/vlm.h:289
+#, fuzzy
+msgid "Name:"
+msgstr "名前"
+
+#: linux/modules/gui/qt4/ui/vlm.h:291
+#, fuzzy
+msgid "Input:"
+msgstr "入力"
+
+#: linux/modules/gui/qt4/ui/vlm.h:292
+#, fuzzy
+msgid "Select Input"
+msgstr "画面入力"
+
+#: linux/modules/gui/qt4/ui/vlm.h:293
+#, fuzzy
+msgid "Output:"
+msgstr "出力URL"
+
+#: linux/modules/gui/qt4/ui/vlm.h:294
+#, fuzzy
+msgid "Select Output"
+msgstr "ストリーム出力"
+
+#: linux/modules/gui/qt4/ui/vlm.h:295
+#, fuzzy
+msgid "Time Control"
+msgstr "音量の制御"
+
+#: linux/modules/gui/qt4/ui/vlm.h:296
+#, fuzzy
+msgid "Mux Control"
+msgstr "制御"
+
+#: linux/modules/gui/qt4/ui/vlm.h:297
+#, fuzzy
+msgid "Muxer:"
+msgstr "マルチプレクサ"
+
+#: linux/modules/gui/qt4/ui/vlm.h:298
+msgid "AAAA; "
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/vlm.h:299
+#, fuzzy
+msgid "Loop"
+msgstr "[ループ]"
+
+#: linux/modules/gui/qt4/ui/vlm.h:303
+#, fuzzy
+msgid "Media Manager List"
+msgstr "メディアデータサイズ"
+
+#~ msgid "My Computer"
+#~ msgstr "マイコンピューター"
+
+#~ msgid "Devices"
+#~ msgstr "デバイス"
+
+#~ msgid "Local Network"
+#~ msgstr "ローカルネットワーク"
+
+#~ msgid "Internet"
+#~ msgstr "インターネット"
+
 #, fuzzy
 #~ msgid "Caching value for files, in milliseconds."
 #~ msgstr "ファイルのキャッシュ値をミリ秒で指定します。"
@@ -24028,10 +25143,6 @@ msgstr "スペクトラムアナライザー"
 #, fuzzy
 #~ msgid "File input"
 #~ msgstr "ビデオ入力"
-
-#, fuzzy
-#~ msgid "Directory"
-#~ msgstr "ファイル/ディレクトリー"
 
 #, fuzzy
 #~ msgid "Directory input"
@@ -24133,648 +25244,6 @@ msgstr "スペクトラムアナライザー"
 #, fuzzy
 #~ msgid "TCP port to use (default 12345)"
 #~ msgstr "使用するビットレート(デフォルトは-1)です。"
-
-#~ msgid "Form"
-#~ msgstr "フォーマット"
-
-#, fuzzy
-#~ msgid "Preset"
-#~ msgstr "パーセント"
-
-#, fuzzy
-#~ msgid "Dialog"
-#~ msgstr "無効"
-
-#, fuzzy
-#~ msgid "Show extended options"
-#~ msgstr "拡張設定を表示"
-
-#, fuzzy
-#~ msgid "Show &more options"
-#~ msgstr "高度なオプションを表示"
-
-#, fuzzy
-#~ msgid "Change the caching for the media"
-#~ msgstr "サービスの表示名を変更します。"
-
-#, fuzzy
-#~ msgid "Start Time"
-#~ msgstr "開始時間"
-
-#, fuzzy
-#~ msgid "Play another media synchronously (extra audio file, ...)"
-#~ msgstr "別のメディアと同期再生する"
-
-#, fuzzy
-#~ msgid "Extra media"
-#~ msgstr "拡張メタデータ (&E)"
-
-#, fuzzy
-#~ msgid "Select the file"
-#~ msgstr "ファイルの選択"
-
-#, fuzzy
-#~ msgid "MRL"
-#~ msgstr "URL"
-
-#, fuzzy
-#~ msgid "Edit Options"
-#~ msgstr "オプション"
-
-#, fuzzy
-#~ msgid "Change the start time for the media"
-#~ msgstr "サービスの表示名を変更します。"
-
-#, fuzzy
-#~ msgid "Capture mode"
-#~ msgstr "キャプチャー"
-
-#, fuzzy
-#~ msgid "Select the capture device type"
-#~ msgstr "ポート番号の選択"
-
-#, fuzzy
-#~ msgid "Device Selection"
-#~ msgstr "ファイル選択"
-
-#~ msgid "Options"
-#~ msgstr "オプション"
-
-#, fuzzy
-#~ msgid "Advanced options..."
-#~ msgstr "高度なオプション"
-
-#, fuzzy
-#~ msgid "Disc Selection"
-#~ msgstr "ファイル選択"
-
-#, fuzzy
-#~ msgid "Disc device"
-#~ msgstr "DVDデバイス"
-
-#, fuzzy
-#~ msgid "Starting Position"
-#~ msgstr "再生位置表示"
-
-#, fuzzy
-#~ msgid "Audio and Subtitles"
-#~ msgstr "フォーマットされた字幕"
-
-#~ msgid "Choose one or more media file to open"
-#~ msgstr "開くメディアファイルをひとつ、もしくはいくつか選択します"
-
-#~ msgid "File Selection"
-#~ msgstr "ファイル選択"
-
-#~ msgid "You can select local files with the following list and buttons."
-#~ msgstr "以下のリストとボタンでローカルファイルを選択することができます。"
-
-#~ msgid "Add..."
-#~ msgstr "追加..."
-
-#~ msgid "Add a subtitles file"
-#~ msgstr "字幕ファイルの追加"
-
-#~ msgid "Use a sub&titles file"
-#~ msgstr "字幕ファイルを使う (&T)"
-
-#~ msgid "Select the subtitles file"
-#~ msgstr "字幕ファイルの選択"
-
-#~ msgid "Font size:"
-#~ msgstr "フォントサイズ:"
-
-#~ msgid "Text alignment:"
-#~ msgstr "テキストの位置あわせ:"
-
-#~ msgid "Network Protocol"
-#~ msgstr "ネットワークプロトコル"
-
-#, fuzzy
-#~ msgid "Enter the URL of the network stream here."
-#~ msgstr ""
-#~ "ここにネットワークストリームのURLを入力します、プロトコルは指定しても指定"
-#~ "しなくても構いません"
-
-#, fuzzy
-#~ msgid "MPEG-TS"
-#~ msgstr "MJPEG"
-
-#, fuzzy
-#~ msgid "MPEG-PS"
-#~ msgstr "MJPEG"
-
-#, fuzzy
-#~ msgid "Ogg/Ogm"
-#~ msgstr "Ogg/OGMマルチプレクサ"
-
-#, fuzzy
-#~ msgid "MPEG 1"
-#~ msgstr "MJPEG"
-
-#, fuzzy
-#~ msgid "MP4/MOV"
-#~ msgstr "MP4/MOVマルチプレクサ"
-
-#, fuzzy
-#~ msgid "Encapsulation"
-#~ msgstr "カプセル化"
-
-#, fuzzy
-#~ msgid " kb/s"
-#~ msgstr "%u kb/秒"
-
-#, fuzzy
-#~ msgid "Frame Rate"
-#~ msgstr "フレームレート"
-
-#, fuzzy
-#~ msgid " fps"
-#~ msgstr "フレーム/秒"
-
-#, fuzzy
-#~ msgid "Keep original video track"
-#~ msgstr "元のサイズを保持"
-
-#, fuzzy
-#~ msgid "Video codec"
-#~ msgstr "ビデオコーデック"
-
-#, fuzzy
-#~ msgid "Keep original audio track"
-#~ msgstr "元のサイズを保持"
-
-#, fuzzy
-#~ msgid "Sample Rate"
-#~ msgstr "サンプリングレート"
-
-#, fuzzy
-#~ msgid "Audio codec"
-#~ msgstr "オーディオコーデック"
-
-#, fuzzy
-#~ msgid "Overlay subtitles on the video"
-#~ msgstr "ビデオに対する字幕の先行度:"
-
-#~ msgid "Destinations"
-#~ msgstr "出力先"
-
-#~ msgid "New destination"
-#~ msgstr "新しい出力先"
-
-#~ msgid ""
-#~ "Add destinations following the streaming methods you need. Be sure to "
-#~ "check with transcoding that the format is compatible with the method used."
-#~ msgstr ""
-#~ "出力先としたいストリーミング方法を以下から追加します。トランスコーディング"
-#~ "とフォーマットが互換性があることを確認してください。"
-
-#~ msgid "Display locally"
-#~ msgstr "ローカルで再生する"
-
-#~ msgid "Activate Transcoding"
-#~ msgstr "トランスコーディングを有効にする"
-
-#~ msgid "Miscellaneous Options"
-#~ msgstr "その他のオプション"
-
-#~ msgid "Stream all elementary streams"
-#~ msgstr "すべての基本ストリームをストリーミングする"
-
-#~ msgid "Group name"
-#~ msgstr "グループ名"
-
-#~ msgid "Generated stream output string"
-#~ msgstr "生成されたストリーム出力文字列"
-
-#, fuzzy
-#~ msgid "Output"
-#~ msgstr "出力URL"
-
-#, fuzzy
-#~ msgid "Output module:"
-#~ msgstr "出力モジュール"
-
-#, fuzzy
-#~ msgid "Dolby Surround:"
-#~ msgstr "ドルビーサラウンド"
-
-#, fuzzy
-#~ msgid "Replay gain mode:"
-#~ msgstr "再生ゲインモード"
-
-#, fuzzy
-#~ msgid "Visualization:"
-#~ msgstr "視覚化"
-
-#, fuzzy
-#~ msgid "Enable Time-Stretching audio"
-#~ msgstr "オーディオのタイムストレッチの有効化"
-
-#, fuzzy
-#~ msgid "Preferred audio language:"
-#~ msgstr "優先するオーディオ言語"
-
-#, fuzzy
-#~ msgid "Password:"
-#~ msgstr "パスワード"
-
-#, fuzzy
-#~ msgid "Username:"
-#~ msgstr "ユーザー名"
-
-#, fuzzy
-#~ msgid "Submit played tracks stats to Last.fm"
-#~ msgstr "last.fmへ再生した曲を送信"
-
-#~ msgid "Optical drive"
-#~ msgstr "光学ドライブ"
-
-#~ msgid "Default optical device"
-#~ msgstr "デフォルトの光学デバイス"
-
-#~ msgid "Codecs"
-#~ msgstr "コーデック"
-
-#, fuzzy
-#~ msgid "Skip H.264 in-loop deblocking filter"
-#~ msgstr "H.264インループブロック化解除フィルター"
-
-#~ msgid "Video quality post-processing level"
-#~ msgstr "ビデオの品質、後処理フィルターレベル"
-
-#, fuzzy
-#~ msgid "Use system codecs if available (better quality, but dangerous)"
-#~ msgstr "システムコーデック(高品質)"
-
-#~ msgid "Damaged or incomplete AVI file"
-#~ msgstr "壊れているか不完全なAVIファイル"
-
-#~ msgid "Default port (server mode)"
-#~ msgstr "デフォルトポート(サーバーモード)"
-
-#~ msgid "HTTP proxy URL"
-#~ msgstr "HTTPプロキシーのURL"
-
-#~ msgid "Default caching policy"
-#~ msgstr "デフォルトキャッシュポリシー"
-
-#~ msgid "HTTP (default)"
-#~ msgstr "HTTP(デフォルト)"
-
-#~ msgid "RTP over RTSP (TCP)"
-#~ msgstr "RTPオーバーRTSP (TCP)"
-
-#~ msgid "Live555 stream transport"
-#~ msgstr "Live555ストリームトランスポート"
-
-#, fuzzy
-#~ msgid "Instances"
-#~ msgstr "インターフェース"
-
-#, fuzzy
-#~ msgid "Allow only one instance"
-#~ msgstr "ひとつのインスタンスだけ実行を許可"
-
-#, fuzzy
-#~ msgid "Enqueue files when in one instance mode"
-#~ msgstr "単一インスタンスモードのとき、項目を再生一覧に予約として追加"
-
-#, fuzzy
-#~ msgid "Album art download policy:"
-#~ msgstr "アルバムアートのダウンロードポリシー"
-
-#, fuzzy
-#~ msgid "Activate update notifier"
-#~ msgstr "アップデート通知の有効化"
-
-#, fuzzy
-#~ msgid "Every "
-#~ msgstr "オーバーレイ"
-
-#, fuzzy
-#~ msgid "Save recently played items"
-#~ msgstr "メニューにある最近再生された項目を保存"
-
-#, fuzzy
-#~ msgid "Menus language:"
-#~ msgstr "オーディオ言語"
-
-#, fuzzy
-#~ msgid "File associations"
-#~ msgstr "ファイル選択"
-
-#, fuzzy
-#~ msgid "Set up associations..."
-#~ msgstr "設定..."
-
-#, fuzzy
-#~ msgid "Use custom skin"
-#~ msgstr "スキン選択"
-
-#, fuzzy
-#~ msgid "Resize interface to video size"
-#~ msgstr "ネイティブのビデオサイズにインターフェースをリサイズ"
-
-#, fuzzy
-#~ msgid "Force window style:"
-#~ msgstr "ウィジェットのスタイル:"
-
-#, fuzzy
-#~ msgid "Show systray icon"
-#~ msgstr "システムトレイアイコン"
-
-#, fuzzy
-#~ msgid "Embed video in interface"
-#~ msgstr "メインインターフェースにビデオ出力を統合します。"
-
-#, fuzzy
-#~ msgid "Show controls in full screen mode"
-#~ msgstr "全画面表示モードでコントローラーを表示"
-
-#, fuzzy
-#~ msgid "Use native style"
-#~ msgstr "字幕ファイルを使用"
-
-#, fuzzy
-#~ msgid "Enable On Screen Display (OSD)"
-#~ msgstr "オンスクリーンディスプレイ(OSD)"
-
-#, fuzzy
-#~ msgid "Show media title on video start"
-#~ msgstr "ビデオにメディアタイトルを表示"
-
-#, fuzzy
-#~ msgid "Subtitles Language"
-#~ msgstr "字幕の言語"
-
-#, fuzzy
-#~ msgid "Preferred subtitles language"
-#~ msgstr "優先する字幕の言語"
-
-#, fuzzy
-#~ msgid "Default encoding"
-#~ msgstr "デフォルトエンコーディング"
-
-#, fuzzy
-#~ msgid "Effect"
-#~ msgstr "エフェクト"
-
-#, fuzzy
-#~ msgid "Font color"
-#~ msgstr "フォントの色"
-
-#, fuzzy
-#~ msgid "DirectX"
-#~ msgstr "方向"
-
-#, fuzzy
-#~ msgid "Display device"
-#~ msgstr "表示"
-
-#, fuzzy
-#~ msgid "Enable wallpaper mode"
-#~ msgstr "壁紙モードの有効化"
-
-#, fuzzy
-#~ msgid "Deinterlacing"
-#~ msgstr "デインタレース"
-
-#, fuzzy
-#~ msgid "Force Aspect Ratio"
-#~ msgstr "アスペクト比を固定"
-
-#~ msgid "Stuff"
-#~ msgstr "スタッフ"
-
-#~ msgid "Edit settings"
-#~ msgstr "設定の変更"
-
-#~ msgid "Control"
-#~ msgstr "制御"
-
-#~ msgid "Run manually"
-#~ msgstr "手動で実行"
-
-#~ msgid "Setup schedule"
-#~ msgstr "スケジュール設定"
-
-#~ msgid "Run on schedule"
-#~ msgstr "スケジュールで実行"
-
-#~ msgid "Status"
-#~ msgstr "状態"
-
-#~ msgid "P/P"
-#~ msgstr "P/P"
-
-#~ msgid "Prev"
-#~ msgstr "前"
-
-#~ msgid "Add Input"
-#~ msgstr "入力を追加"
-
-#~ msgid "Edit Input"
-#~ msgstr "入力を編集"
-
-#~ msgid "Clear List"
-#~ msgstr "リストをクリア"
-
-#, fuzzy
-#~ msgid "Refresh"
-#~ msgstr "リストの再表示"
-
-#, fuzzy
-#~ msgid "Transform"
-#~ msgstr "変換"
-
-#, fuzzy
-#~ msgid "Sigma"
-#~ msgstr "シグナル"
-
-#, fuzzy
-#~ msgid "Synchronize top and bottom"
-#~ msgstr "オーディオトラックに同期"
-
-#, fuzzy
-#~ msgid "Synchronize left and right"
-#~ msgstr "オーディオトラックに同期"
-
-#, fuzzy
-#~ msgid "Magnification/Zoom"
-#~ msgstr "拡大"
-
-#, fuzzy
-#~ msgid "Puzzle game"
-#~ msgstr "パズル"
-
-#, fuzzy
-#~ msgid "Black slot"
-#~ msgstr "黒色のレベル"
-
-#, fuzzy
-#~ msgid "Columns"
-#~ msgstr "コマンド"
-
-#, fuzzy
-#~ msgid "Rows"
-#~ msgstr " 参照 "
-
-#, fuzzy
-#~ msgid "Angle"
-#~ msgstr "ジャングル"
-
-#, fuzzy
-#~ msgid "Geometry"
-#~ msgstr "スペクトロメーター"
-
-#, fuzzy
-#~ msgid "Color extraction"
-#~ msgstr "色反転"
-
-#, fuzzy
-#~ msgid "Similarity"
-#~ msgstr "相似度の閾値"
-
-#, fuzzy
-#~ msgid "Color fun"
-#~ msgstr "色"
-
-#, fuzzy
-#~ msgid "Water effect"
-#~ msgstr "ヘッドフォンのエフェクト"
-
-#, fuzzy
-#~ msgid "Motion detect"
-#~ msgstr "モーション検出"
-
-#, fuzzy
-#~ msgid "Factor"
-#~ msgstr "速く"
-
-#, fuzzy
-#~ msgid "Cartoon"
-#~ msgstr "栗色"
-
-#, fuzzy
-#~ msgid "Image modification"
-#~ msgstr "拡大"
-
-#, fuzzy
-#~ msgid "Edge weightning"
-#~ msgstr "縁の重み"
-
-#, fuzzy
-#~ msgid "Output Color Filtermode"
-#~ msgstr "出力カラーフィルターモード"
-
-#, fuzzy
-#~ msgid "Brightness (%)"
-#~ msgstr "明るさ"
-
-#, fuzzy
-#~ msgid "Darknesslimit"
-#~ msgstr "暗さの下限"
-
-#, fuzzy
-#~ msgid "Mark analyzed Pixels"
-#~ msgstr "解析済みピクセルをマーク"
-
-#, fuzzy
-#~ msgid "Filter threshold (%)"
-#~ msgstr "フィルター閾値"
-
-#, fuzzy
-#~ msgid "Filter smoothness (%)"
-#~ msgstr "フィルターの滑らかさ(%)"
-
-#, fuzzy
-#~ msgid "Wall"
-#~ msgstr "すべて"
-
-#, fuzzy
-#~ msgid "Vout/Overlay"
-#~ msgstr "オーバーレイ"
-
-#, fuzzy
-#~ msgid "Logo"
-#~ msgstr "[ループ]"
-
-#, fuzzy
-#~ msgid "Logo erase"
-#~ msgstr "ロゴオーバーレイ"
-
-#, fuzzy
-#~ msgid "Subpicture filters"
-#~ msgstr "サブピクチャーフィルターモジュール"
-
-#, fuzzy
-#~ msgid "Video filters"
-#~ msgstr "ビデオフィルター"
-
-#, fuzzy
-#~ msgid "Vout filters"
-#~ msgstr "ビデオフィルター"
-
-#, fuzzy
-#~ msgid "Reset"
-#~ msgstr "すべてリセット"
-
-#, fuzzy
-#~ msgid "Update"
-#~ msgstr "更新 (&U)"
-
-#, fuzzy
-#~ msgid "Advanced video filter controls"
-#~ msgstr "高度な制御 (&A)"
-
-#, fuzzy
-#~ msgid "VLM configurator"
-#~ msgstr "VLM設定 (&V)"
-
-#, fuzzy
-#~ msgid "Media Manager Edition"
-#~ msgstr "メディア情報"
-
-#, fuzzy
-#~ msgid "Name:"
-#~ msgstr "名前"
-
-#, fuzzy
-#~ msgid "Input:"
-#~ msgstr "入力"
-
-#, fuzzy
-#~ msgid "Select Input"
-#~ msgstr "画面入力"
-
-#, fuzzy
-#~ msgid "Output:"
-#~ msgstr "出力URL"
-
-#, fuzzy
-#~ msgid "Select Output"
-#~ msgstr "ストリーム出力"
-
-#, fuzzy
-#~ msgid "Time Control"
-#~ msgstr "音量の制御"
-
-#, fuzzy
-#~ msgid "Mux Control"
-#~ msgstr "制御"
-
-#, fuzzy
-#~ msgid "Muxer:"
-#~ msgstr "マルチプレクサ"
-
-#, fuzzy
-#~ msgid "Loop"
-#~ msgstr "[ループ]"
-
-#, fuzzy
-#~ msgid "Media Manager List"
-#~ msgstr "メディアデータサイズ"
 
 #, fuzzy
 #~ msgid "SessionManager"
