@@ -1228,9 +1228,7 @@ ifdef HAVE_WIN64
 	patch -p0 < Patches/live-win64.patch
 endif
 ifndef HAVE_WIN32
-ifndef HAVE_WINCE
 	patch -p0 < Patches/live-getaddrinfo.patch
-endif
 endif
 
 .live: live
