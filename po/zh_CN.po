@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-30 00:36+0100\n"
+"POT-Creation-Date: 2010-05-04 00:28+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dean Lee <xslidian@lidian.info>\n"
 "Language-Team: Simplified Chinese <xslidian+vlc@gmail.com>\n"
@@ -74,7 +74,7 @@ msgstr "VLC 控制界面设置"
 msgid "Hotkeys settings"
 msgstr "热键设置"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2840 src/input/es_out.c:2880
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -129,7 +129,7 @@ msgstr "其它"
 msgid "Miscellaneous audio settings and modules."
 msgstr "其它音频设置与模块。"
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2843 src/input/es_out.c:2927
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -888,9 +888,9 @@ msgid "decoder"
 msgstr "解码器"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
-#: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
-#: modules/codec/avcodec/encoder.c:251 modules/codec/avcodec/encoder.c:650
-#: modules/codec/avcodec/encoder.c:659 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
+#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "流 / 编码转换失败"
@@ -940,65 +940,65 @@ msgstr "混杂的"
 msgid "Yes"
 msgstr "是"
 
-#: src/input/es_out.c:2002
+#: src/input/es_out.c:2007
 #, c-format
 msgid "Closed captions %u"
 msgstr "封闭字幕 %u"
 
-#: src/input/es_out.c:2830
+#: src/input/es_out.c:2835
 #, c-format
 msgid "Stream %d"
 msgstr "流 %d"
 
-#: src/input/es_out.c:2846 src/input/es_out.c:2954
+#: src/input/es_out.c:2851 src/input/es_out.c:2959
 msgid "Subtitle"
 msgstr "字幕"
 
-#: src/input/es_out.c:2854 src/input/es_out.c:2880 src/input/es_out.c:2927
-#: src/input/es_out.c:2954 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
+#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "类型"
 
-#: src/input/es_out.c:2857
+#: src/input/es_out.c:2862
 msgid "Original ID"
 msgstr "原始 ID"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2867
+#: src/input/es_out.c:2869 src/input/es_out.c:2872
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
 #: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "编码"
 
-#: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "语言"
 
-#: src/input/es_out.c:2874 src/input/meta.c:57
+#: src/input/es_out.c:2879 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "描述"
 
-#: src/input/es_out.c:2883 src/input/es_out.c:2886
+#: src/input/es_out.c:2888 src/input/es_out.c:2891
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "声道"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 msgid "Sample rate"
 msgstr "采样率"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2906
 msgid "Bits per sample"
 msgstr "位每采样"
 
-#: src/input/es_out.c:2906 modules/access/pvr.c:96
+#: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:471
@@ -1006,33 +1006,33 @@ msgstr "位每采样"
 msgid "Bitrate"
 msgstr "位率"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/s"
 
-#: src/input/es_out.c:2918
+#: src/input/es_out.c:2923
 msgid "Track replay gain"
 msgstr "音轨回放增益"
 
-#: src/input/es_out.c:2920
+#: src/input/es_out.c:2925
 msgid "Album replay gain"
 msgstr "专辑回放增益"
 
-#: src/input/es_out.c:2921
+#: src/input/es_out.c:2926
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "分辨率"
 
-#: src/input/es_out.c:2935
+#: src/input/es_out.c:2940
 msgid "Display resolution"
 msgstr "显示分辨率"
 
-#: src/input/es_out.c:2945 src/input/es_out.c:2948
+#: src/input/es_out.c:2950 src/input/es_out.c:2953
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "帧率"
@@ -1182,7 +1182,7 @@ msgstr "下一个章节"
 msgid "Previous chapter"
 msgstr "上一个章节"
 
-#: src/input/vlm.c:605 src/input/vlm.c:973
+#: src/input/vlm.c:611 src/input/vlm.c:969
 #, c-format
 msgid "Media: %s"
 msgstr "媒体: %s"
@@ -6999,7 +6999,7 @@ msgstr "光盘"
 msgid "VCD Format"
 msgstr "VCD 格式"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:298
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
 msgid "Application"
 msgstr "应用程序"
 
@@ -7808,7 +7808,7 @@ msgstr "频率 3 增益 (dB)"
 msgid "Freq 3 Q"
 msgstr "频率 3 Q"
 
-#: modules/audio_filter/resampler/bandlimited.c:93
+#: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
 msgstr "用于波段限制查补重采样的音频滤镜"
 
@@ -8125,14 +8125,14 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:799
-#: modules/gui/qt4/main_interface.cpp:803
-#: modules/gui/qt4/main_interface.cpp:843
-#: modules/gui/qt4/main_interface.cpp:845
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:930
-#: modules/gui/qt4/main_interface.cpp:937
-#: modules/gui/qt4/main_interface.cpp:960
+#: modules/gui/qt4/main_interface.cpp:808
+#: modules/gui/qt4/main_interface.cpp:812
+#: modules/gui/qt4/main_interface.cpp:852
+#: modules/gui/qt4/main_interface.cpp:854
+#: modules/gui/qt4/main_interface.cpp:922
+#: modules/gui/qt4/main_interface.cpp:939
+#: modules/gui/qt4/main_interface.cpp:946
+#: modules/gui/qt4/main_interface.cpp:969
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "VLC media player"
@@ -8271,15 +8271,15 @@ msgstr "FFmpeg 音频/视频编码器"
 msgid "FFmpeg deinterlace video filter"
 msgstr "FFmpeg 反交错视频滤镜"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
 msgstr "直接渲染"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:76
 msgid "Error resilience"
 msgstr "弹性错误"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:78
 msgid ""
 "FFmpeg can do error resilience.\n"
 "However, with a buggy encoder (such as the ISO MPEG-4 encoder from M$) this "
@@ -8291,11 +8291,11 @@ msgstr ""
 "很多错误。\n"
 "有效值范围从 0 到 4 (0 表示关闭所有弹性错误)。"
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
 msgstr "工作区 bug"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:85
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -8318,12 +8318,12 @@ msgstr ""
 "64 Qpel 色度。\n"
 "这必须是值的和。例如要修正 \"ac vlc\" 和 \"ump4\"，则输入 40。"
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:198
+#: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "紧急"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -8331,31 +8331,31 @@ msgstr ""
 "解码器在时间不充足的情况下可能部分解码器或跳过帧。在 CPU 不是很强大时这非常有"
 "用，但是可能会破坏图像。"
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
 msgstr "允许非正常速度优化"
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr "允许不符合标准的速度优化。更快但可能会出错。"
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:106
 msgid "Skip frame (default=0)"
 msgstr "跳帧 (默认=0)"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:108
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
 "强制跳帧来加速解码 (-1=无, 0=默认, 1=B 帧, 2=P 帧, 3=B+P 帧, 4=全部帧)。"
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
 msgstr "跳过 idct (默认=0)"
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8363,19 +8363,19 @@ msgstr ""
 "强制跳过 idct 来加速某些帧的解码 (-1=无, 0=默认, 1=B 帧, 2=P 帧, 3=B+P 帧, 4="
 "全部帧)。"
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Debug mask"
 msgstr "调试掩码"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:117
 msgid "Set FFmpeg debug mask"
 msgstr "设置 FFmpeg 的调试掩码"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:120
 msgid "Visualize motion vectors"
 msgstr "可视化运动向量"
 
-#: modules/codec/avcodec/avcodec.h:121
+#: modules/codec/avcodec/avcodec.h:122
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -8391,21 +8391,21 @@ msgstr ""
 "4 - 可视化向后预告 MVs 的 B 帧\n"
 "要可视化所有向量, 值应该为 7。"
 
-#: modules/codec/avcodec/avcodec.h:128
+#: modules/codec/avcodec/avcodec.h:129
 msgid "Low resolution decoding"
 msgstr "低分辨率解码"
 
-#: modules/codec/avcodec/avcodec.h:129
+#: modules/codec/avcodec/avcodec.h:130
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
 msgstr "仅解码视频的低分辨率版本。这仅需要很少的处理器资源"
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "用于 H.264 解码的跳过循环滤镜"
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:134
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -8413,67 +8413,67 @@ msgstr ""
 "跳过循环滤镜 (aka 去块) 通常对图像质量会造成不良的效果。但是它能为高分辨率的"
 "流提供一个很大的提速。"
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:138
 msgid "Hardware decoding"
 msgstr "硬件解码"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
 msgstr "这将允许硬件解码（当硬件解码可用时）。"
 
-#: modules/codec/avcodec/avcodec.h:145
+#: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
 msgstr "关键帧率"
 
-#: modules/codec/avcodec/avcodec.h:146
+#: modules/codec/avcodec/avcodec.h:147
 msgid "Number of frames that will be coded for one key frame."
 msgstr "一个关键帧所包含的帧数。"
 
-#: modules/codec/avcodec/avcodec.h:149
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of B frames"
 msgstr "B 帧率"
 
-#: modules/codec/avcodec/avcodec.h:150
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr "在两个参考帧之间将被标识为 B 帧的数量。"
 
-#: modules/codec/avcodec/avcodec.h:153
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
 msgstr "视频位率偏差"
 
-#: modules/codec/avcodec/avcodec.h:154
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "以 kbits/s 为单位的视频位率偏差。"
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
 msgstr "交错编码"
 
-#: modules/codec/avcodec/avcodec.h:157
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "为交错的帧开启专用的算法。"
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
 msgstr "交错运动估算"
 
-#: modules/codec/avcodec/avcodec.h:161
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr "开启交错运动估算算法。这需要较多的 CPU 资源。"
 
-#: modules/codec/avcodec/avcodec.h:164
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
 msgstr "预欲动估算"
 
-#: modules/codec/avcodec/avcodec.h:165
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "开启预运动估算算法。"
 
-#: modules/codec/avcodec/avcodec.h:168
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
 msgstr "速率控制缓存大小"
 
-#: modules/codec/avcodec/avcodec.h:169
+#: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -8481,30 +8481,30 @@ msgstr ""
 "速率控制缓存大小 (以千字节为单位)。一个较大的缓存将会有较佳的帧率控制，但是可"
 "能会导致流的延迟。"
 
-#: modules/codec/avcodec/avcodec.h:173
+#: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
 msgstr "帧率控制缓存激进性"
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
 msgstr "帧率控制缓存激进性。"
 
-#: modules/codec/avcodec/avcodec.h:177
+#: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
 msgstr "I 量化因数"
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:180
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
 msgstr "I 帧的量化因数，与 P 帧相比较 (例如 1.0 => 相同比例的 I 和 P 帧)。"
 
-#: modules/codec/avcodec/avcodec.h:182 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "噪点消除"
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -8512,11 +8512,11 @@ msgstr ""
 "开启一个简易的噪点消除算法仅在损失很小质量的画面的情况下通过降低编码长度和位"
 "率的方法消除噪点。"
 
-#: modules/codec/avcodec/avcodec.h:187
+#: modules/codec/avcodec/avcodec.h:188
 msgid "MPEG4 quantization matrix"
 msgstr "MPEG4 量化矩阵"
 
-#: modules/codec/avcodec/avcodec.h:188
+#: modules/codec/avcodec/avcodec.h:189
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -8525,17 +8525,17 @@ msgstr ""
 "为 MPEG2 编码使用 MPEG4 量化矩阵。通常这会产生质量较高的图像，但是还会保留与"
 "标准 MPEG2 解码器的兼容性。"
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
 msgstr "质量等级"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:195
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
 msgstr "用于编码的动态向量的质量等级 (这可能会大大降低编码速度)。"
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:200
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -8546,112 +8546,112 @@ msgstr ""
 "闭格式结构量化，以及动态向量 (hq) 的速率失真并改善噪点消除阀来改善编码器的任"
 "务。"
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:206
 msgid "Minimum video quantizer scale"
 msgstr "最小视频向量化比例"
 
-#: modules/codec/avcodec/avcodec.h:206
+#: modules/codec/avcodec/avcodec.h:207
 msgid "Minimum video quantizer scale."
 msgstr "最小视频向量化比例。"
 
-#: modules/codec/avcodec/avcodec.h:209
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Maximum video quantizer scale"
 msgstr "最大视频向量化比例"
 
-#: modules/codec/avcodec/avcodec.h:210
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Maximum video quantizer scale."
 msgstr "最大视频向量化比例。"
 
-#: modules/codec/avcodec/avcodec.h:213
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
 msgstr "格式向量化"
 
-#: modules/codec/avcodec/avcodec.h:214
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr "开启格式向量化 (用于填充系数的速率失真)。"
 
-#: modules/codec/avcodec/avcodec.h:217
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
 msgstr "固定量化比例"
 
-#: modules/codec/avcodec/avcodec.h:218
+#: modules/codec/avcodec/avcodec.h:219
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
 msgstr "为 VBR 编码固定视频量化比例 (允许值: 0.01 到 255.0)。"
 
-#: modules/codec/avcodec/avcodec.h:221
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
 msgstr "严格标准的一致"
 
-#: modules/codec/avcodec/avcodec.h:222
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr "在编码时强制严格标准的一致 (允许值: -1, 0, 1)。"
 
-#: modules/codec/avcodec/avcodec.h:225
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
 msgstr "明亮掩码"
 
-#: modules/codec/avcodec/avcodec.h:226
+#: modules/codec/avcodec/avcodec.h:227
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr "为非常高亮度的宏块提升量化 (默认: 0.0)。"
 
-#: modules/codec/avcodec/avcodec.h:229
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Darkness masking"
 msgstr "阴暗掩码"
 
-#: modules/codec/avcodec/avcodec.h:230
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr "为非常暗的宏块提升量化 (默认: 0.0)。"
 
-#: modules/codec/avcodec/avcodec.h:233
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Motion masking"
 msgstr "运动掩码"
 
-#: modules/codec/avcodec/avcodec.h:234
+#: modules/codec/avcodec/avcodec.h:235
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
 msgstr "为高时间的复杂运动的宏块提升量化 (默认: 0.0)。"
 
-#: modules/codec/avcodec/avcodec.h:237
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
 msgstr "边框掩码"
 
-#: modules/codec/avcodec/avcodec.h:238
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr "为带有边框的宏块提升量化 (默认: 0.0)。"
 
-#: modules/codec/avcodec/avcodec.h:241
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
 msgstr "亮度消除"
 
-#: modules/codec/avcodec/avcodec.h:242
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
 msgstr ""
 "在 PSNR 不是改变的很多的情况下消除亮度块 (默认: 0.0)。H264 规格推荐为 -4。"
 
-#: modules/codec/avcodec/avcodec.h:246
+#: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
 msgstr "色度消除"
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:248
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
 msgstr ""
 "在 PSNR 不是改变的很多的情况下消除色度块 (默认: 0.0)。H264 规格推荐为 7。"
 
-#: modules/codec/avcodec/avcodec.h:251
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Specify AAC audio profile to use"
 msgstr "指定要使用的 AAC 音频方案"
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
@@ -8660,17 +8660,17 @@ msgstr ""
 "指定要用于编码音频位流的 AAC 音频方案。它有下列选项: 主、低、ssr (不推荐) 和 "
 "ltp (默认: 主)"
 
-#: modules/codec/avcodec/encoder.c:222
+#: modules/codec/avcodec/encoder.c:225
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr "\"%s\" 不是视频编码器。"
 
-#: modules/codec/avcodec/encoder.c:230
+#: modules/codec/avcodec/encoder.c:233
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr "\"%s\" 不是音频编码器。"
 
-#: modules/codec/avcodec/encoder.c:256
+#: modules/codec/avcodec/encoder.c:259
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -8687,7 +8687,7 @@ msgstr ""
 "这不是一个 VLC media player 内部的错误。\n"
 "请不要向 VideoLAN 项目报告此问题。\n"
 
-#: modules/codec/avcodec/encoder.c:651 modules/codec/avcodec/encoder.c:660
+#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
 msgid "VLC could not open the encoder."
 msgstr "VLC 无法打开编码器。"
 
@@ -16334,7 +16334,7 @@ msgid "Errors"
 msgstr "错误"
 
 #: modules/gui/qt4/dialogs/errors.cpp:48
-#: modules/gui/qt4/dialogs/messages.cpp:184 modules/gui/qt4/menus.cpp:1507
+#: modules/gui/qt4/dialogs/messages.cpp:188 modules/gui/qt4/menus.cpp:1507
 msgid "&Clear"
 msgstr "清除(&C)"
 
@@ -16528,23 +16528,23 @@ msgstr "保存所有已显示的日志到一个文件"
 msgid "Verbosity Level"
 msgstr "冗长等级"
 
-#: modules/gui/qt4/dialogs/messages.cpp:128
+#: modules/gui/qt4/dialogs/messages.cpp:132
 msgid "Message filter"
 msgstr "信息滤镜"
 
-#: modules/gui/qt4/dialogs/messages.cpp:173
+#: modules/gui/qt4/dialogs/messages.cpp:177
 msgid "&Update"
 msgstr "更新(&U)"
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:288
 msgid "Save log file as..."
 msgstr "记录文件另存为..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:292
+#: modules/gui/qt4/dialogs/messages.cpp:290
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr "文本 / 日志 (*.log *.txt);; 所有 (*.*) "
 
-#: modules/gui/qt4/dialogs/messages.cpp:299
+#: modules/gui/qt4/dialogs/messages.cpp:297
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -16938,11 +16938,11 @@ msgstr "字幕文件"
 msgid "All Files"
 msgstr "所有文件"
 
-#: modules/gui/qt4/main_interface.cpp:914
+#: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
 msgstr "用于播放器的控制菜单"
 
-#: modules/gui/qt4/main_interface.cpp:957
+#: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
 msgstr "已暂停"
 
