@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-30 00:36+0100\n"
-"PO-Revision-Date: 2010-04-15 19:58+0100\n"
+"POT-Creation-Date: 2010-05-04 00:28+0100\n"
+"PO-Revision-Date: 2010-05-02 14:00+0100\n"
 "Last-Translator: pico.dev <pico.dev@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "Preferencias para interfaces de control de VLC"
 msgid "Hotkeys settings"
 msgstr "Preferencias de teclas rápidas"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2840 src/input/es_out.c:2880
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -130,7 +130,7 @@ msgstr "Miscelánea"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Preferencias varias de audio y módulos."
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2843 src/input/es_out.c:2927
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -931,9 +931,9 @@ msgid "decoder"
 msgstr "Decodificador"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
-#: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
-#: modules/codec/avcodec/encoder.c:251 modules/codec/avcodec/encoder.c:650
-#: modules/codec/avcodec/encoder.c:659 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
+#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Falló emitiendo / transcodificando"
@@ -985,65 +985,65 @@ msgstr ""
 msgid "Yes"
 msgstr "Sí"
 
-#: src/input/es_out.c:2002
+#: src/input/es_out.c:2007
 #, c-format
 msgid "Closed captions %u"
 msgstr "Subtítulos %u"
 
-#: src/input/es_out.c:2830
+#: src/input/es_out.c:2835
 #, c-format
 msgid "Stream %d"
 msgstr "Emitir %d"
 
-#: src/input/es_out.c:2846 src/input/es_out.c:2954
+#: src/input/es_out.c:2851 src/input/es_out.c:2959
 msgid "Subtitle"
 msgstr "Subtítulo"
 
-#: src/input/es_out.c:2854 src/input/es_out.c:2880 src/input/es_out.c:2927
-#: src/input/es_out.c:2954 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
+#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "Tipo"
 
-#: src/input/es_out.c:2857
+#: src/input/es_out.c:2862
 msgid "Original ID"
 msgstr "ID original"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2867
+#: src/input/es_out.c:2869 src/input/es_out.c:2872
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
 #: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "Códec"
 
-#: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Idioma"
 
-#: src/input/es_out.c:2874 src/input/meta.c:57
+#: src/input/es_out.c:2879 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "Descripción"
 
-#: src/input/es_out.c:2883 src/input/es_out.c:2886
+#: src/input/es_out.c:2888 src/input/es_out.c:2891
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "Canales"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 msgid "Sample rate"
 msgstr "Tasa de muestreo"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2906
 msgid "Bits per sample"
 msgstr "Bits por muestra"
 
-#: src/input/es_out.c:2906 modules/access/pvr.c:96
+#: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:471
@@ -1051,33 +1051,33 @@ msgstr "Bits por muestra"
 msgid "Bitrate"
 msgstr "Tasa de bits"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/s"
 
-#: src/input/es_out.c:2918
+#: src/input/es_out.c:2923
 msgid "Track replay gain"
 msgstr "Reproducir ganancia de pista"
 
-#: src/input/es_out.c:2920
+#: src/input/es_out.c:2925
 msgid "Album replay gain"
 msgstr "Reproducir ganancia de álbum"
 
-#: src/input/es_out.c:2921
+#: src/input/es_out.c:2926
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "Resolución"
 
-#: src/input/es_out.c:2935
+#: src/input/es_out.c:2940
 msgid "Display resolution"
 msgstr "Resolución de pantalla"
 
-#: src/input/es_out.c:2945 src/input/es_out.c:2948
+#: src/input/es_out.c:2950 src/input/es_out.c:2953
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "Tasa de fotogramas"
@@ -1227,7 +1227,7 @@ msgstr "Capítulo siguiente"
 msgid "Previous chapter"
 msgstr "Capítulo anterior"
 
-#: src/input/vlm.c:605 src/input/vlm.c:973
+#: src/input/vlm.c:611 src/input/vlm.c:969
 #, c-format
 msgid "Media: %s"
 msgstr "Medio: %s"
@@ -1461,16 +1461,15 @@ msgid "Extra interface modules"
 msgstr "Módulos extra de interfaz"
 
 #: src/libvlc-module.c:180
-#, fuzzy
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
-"Esta opción permite seleccionar «interfaces adicionales» para VLC. Se lanzan "
-"en segundo plano añadidas al interfaz predeterminada. Usar una lista de "
-"módulos de interfaz separados por comas. (valores comunes son «rc» (control "
+"Puede seleccionar «interfaces adicionales» para VLC. Se lanzan en segundo "
+"plano añadidas a la interfaz predeterminada. Use una lista de módulos de "
+"interfaz separados por dos puntos. (valores comunes son «rc» (control "
 "remoto), «http», «gestures», ...)"
 
 #: src/libvlc-module.c:187
@@ -3692,13 +3691,12 @@ msgid "Services discovery modules"
 msgstr "Módulos de descubrimiento de servicios"
 
 #: src/libvlc-module.c:1228
-#, fuzzy
 msgid ""
 "Specifies the services discovery modules to load, separated by colons. "
 "Typical values are sap, hal, ..."
 msgstr ""
 "Especifica los módulos de descubrimiento de servicios a cargar, separados "
-"por punto y coma. Valores típicos son sap, hal, ..."
+"por dos puntos. Valores típicos son sap, hal, ..."
 
 #: src/libvlc-module.c:1231
 msgid "Play files randomly forever"
@@ -7406,7 +7404,7 @@ msgstr "Disco"
 msgid "VCD Format"
 msgstr "Formato VCD"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:298
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
 msgid "Application"
 msgstr "Aplicación"
 
@@ -8244,7 +8242,7 @@ msgstr "Ganancia de 3 freq (dB)"
 msgid "Freq 3 Q"
 msgstr "Freq 3 Q"
 
-#: modules/audio_filter/resampler/bandlimited.c:93
+#: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
 msgstr "Filtro de audio para remuestreo de interpolación limitado por banda"
 
@@ -8577,14 +8575,14 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:799
-#: modules/gui/qt4/main_interface.cpp:803
-#: modules/gui/qt4/main_interface.cpp:843
-#: modules/gui/qt4/main_interface.cpp:845
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:930
-#: modules/gui/qt4/main_interface.cpp:937
-#: modules/gui/qt4/main_interface.cpp:960
+#: modules/gui/qt4/main_interface.cpp:808
+#: modules/gui/qt4/main_interface.cpp:812
+#: modules/gui/qt4/main_interface.cpp:852
+#: modules/gui/qt4/main_interface.cpp:854
+#: modules/gui/qt4/main_interface.cpp:922
+#: modules/gui/qt4/main_interface.cpp:939
+#: modules/gui/qt4/main_interface.cpp:946
+#: modules/gui/qt4/main_interface.cpp:969
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "Reproductor multimedia VLC"
@@ -8727,15 +8725,15 @@ msgstr "Codificador de audio/video FFmpeg"
 msgid "FFmpeg deinterlace video filter"
 msgstr "Filtro de desentrelazar video FFmpeg"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
 msgstr "Generación directa"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:76
 msgid "Error resilience"
 msgstr "Salto de error"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:78
 msgid ""
 "FFmpeg can do error resilience.\n"
 "However, with a buggy encoder (such as the ISO MPEG-4 encoder from M$) this "
@@ -8748,11 +8746,11 @@ msgstr ""
 "Valores válidos van de 0 a 4 (0 deshabilita todas las resistencias a "
 "errores)."
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
 msgstr "Manejo de errores"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:85
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -8776,12 +8774,12 @@ msgstr ""
 "Esto debe ser la suma de los valores. P. ej., para fijar «ac vlc» y «ump4», "
 "pon 40."
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:198
+#: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "Aprisa"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -8790,22 +8788,22 @@ msgstr ""
 "no hay tiempo suficiente. Es útil con CPU de baja potencia pero puede "
 "producir imágenes distorsionadas."
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
 msgstr "Permitir trucos de velocidad"
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 "Permitir trucos de velocidad no compatibles con el estándar. Más rápido pero "
 "propenso a errores."
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:106
 msgid "Skip frame (default=0)"
 msgstr "Omitir fotograma (por defecto=0)"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:108
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8813,11 +8811,11 @@ msgstr ""
 "Forzar el saltar fotogramas para acelerar la decodificación (-1=Ninguno, "
 "0=Por defecto, 1=fotogramas B, 2=fotogramas P, 3= fotogramas B+P, 4=todos)."
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
 msgstr "Saltar idct (por defecto=0)"
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8826,19 +8824,19 @@ msgstr ""
 "(-1=Ninguno, 0=Por defecto, 1=fotogramas B, 2=fotogramas P, 3= fotogramas B"
 "+P, 4=todos)."
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Debug mask"
 msgstr "Máscara de depuración de errores"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:117
 msgid "Set FFmpeg debug mask"
 msgstr "Establecer máscara de depuración de errores FFfmpeg"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:120
 msgid "Visualize motion vectors"
 msgstr "Visualizar vectores de movimiento"
 
-#: modules/codec/avcodec/avcodec.h:121
+#: modules/codec/avcodec/avcodec.h:122
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -8855,11 +8853,11 @@ msgstr ""
 "4 - visualizar atrás VMs predecidos de fotogramas B\n"
 "Para visualizar todos los vectores, el valor debería ser 7."
 
-#: modules/codec/avcodec/avcodec.h:128
+#: modules/codec/avcodec/avcodec.h:129
 msgid "Low resolution decoding"
 msgstr "Decodificación de baja resolución"
 
-#: modules/codec/avcodec/avcodec.h:129
+#: modules/codec/avcodec/avcodec.h:130
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
@@ -8867,11 +8865,11 @@ msgstr ""
 "Sólo decodifica una versión de baja resolución del video. Esto requiere "
 "menos potencia de procesamiento"
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "Omitir el filtro bucle para decodificación H.264"
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:134
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -8879,69 +8877,69 @@ msgstr ""
 "Omitir el filtro bucle (o desbloquear) normalmente afecta perjudicialmente "
 "la calidad. Aun así da gran velocidad en emisiones de alta definición."
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:138
 msgid "Hardware decoding"
 msgstr "Decodificación por hardware"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:145
+#: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
 msgstr "Proporción de fotogramas clave"
 
-#: modules/codec/avcodec/avcodec.h:146
+#: modules/codec/avcodec/avcodec.h:147
 msgid "Number of frames that will be coded for one key frame."
 msgstr "Número de fotogramas a codificar para un fotograma clave."
 
-#: modules/codec/avcodec/avcodec.h:149
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of B frames"
 msgstr "Proporción de fotogramas B"
 
-#: modules/codec/avcodec/avcodec.h:150
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr "Número de fotogramas B a codificar entre dos fotogramas referencia."
 
-#: modules/codec/avcodec/avcodec.h:153
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
 msgstr "Tolerancia de tasa de bits de video"
 
-#: modules/codec/avcodec/avcodec.h:154
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "Tolerancia de tasa de bits de video en kbit/s."
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
 msgstr "Codificación entrelazada"
 
-#: modules/codec/avcodec/avcodec.h:157
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "Habilitar algoritmos dedicados a fotogramas entrelazados."
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
 msgstr "Estimación de movimiento entrelazado"
 
-#: modules/codec/avcodec/avcodec.h:161
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 "Habilitar algoritmos de estimación de movimiento entrelazado. Esto requiere "
 "más CPU."
 
-#: modules/codec/avcodec/avcodec.h:164
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
 msgstr "Estimación pre-movimiento"
 
-#: modules/codec/avcodec/avcodec.h:165
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "Habilita el algoritmo de estimación pre-movimiento."
 
-#: modules/codec/avcodec/avcodec.h:168
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
 msgstr "Tamaño del buffer de control de tasa"
 
-#: modules/codec/avcodec/avcodec.h:169
+#: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -8949,19 +8947,19 @@ msgstr ""
 "Tamaño del buffer de control de tasa (en kbytes). Un buffer mayor permitirá "
 "mejor control de tasa, pero causará un retraso en la emisión."
 
-#: modules/codec/avcodec/avcodec.h:173
+#: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
 msgstr "Agresividad del buffer de control de tasa"
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
 msgstr "Indicar agresividad del buffer de control."
 
-#: modules/codec/avcodec/avcodec.h:177
+#: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
 msgstr "Factor de cuantización I"
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:180
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -8969,12 +8967,12 @@ msgstr ""
 "Factor de cuantización de fotogramas I, comparados con los P (p. ej. 1.0 => "
 "misma escala q para fotogramas I y P.)"
 
-#: modules/codec/avcodec/avcodec.h:182 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Reducción de ruido"
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -8982,11 +8980,11 @@ msgstr ""
 "Habilita un simple algoritmo de reducción de ruido para reducir la longitud "
 "de codificación y tasa de bits, al coste de fotogramas de menor calidad."
 
-#: modules/codec/avcodec/avcodec.h:187
+#: modules/codec/avcodec/avcodec.h:188
 msgid "MPEG4 quantization matrix"
 msgstr "Matriz de cuantización MPEG4"
 
-#: modules/codec/avcodec/avcodec.h:188
+#: modules/codec/avcodec/avcodec.h:189
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -8996,11 +8994,11 @@ msgstr ""
 "generalmente da una mejor imagen y mantiene la compatibilidad con "
 "decodificadores MPEG2 estándar."
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
 msgstr "Nivel de calidad"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:195
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
@@ -9008,7 +9006,7 @@ msgstr ""
 "Nivel de calidad para la codificación de vectores de movimiento (esto puede "
 "frenar mucho la codificación)."
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:200
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -9021,37 +9019,37 @@ msgstr ""
 "elevará el umbral de reducción de ruido para facilitar la tarea del "
 "codificador."
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:206
 msgid "Minimum video quantizer scale"
 msgstr "Escala mínima de cuantizador de video"
 
-#: modules/codec/avcodec/avcodec.h:206
+#: modules/codec/avcodec/avcodec.h:207
 msgid "Minimum video quantizer scale."
 msgstr "Escala mínima de cuantizador de video."
 
-#: modules/codec/avcodec/avcodec.h:209
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Maximum video quantizer scale"
 msgstr "Escala máxima de cuantizador de video"
 
-#: modules/codec/avcodec/avcodec.h:210
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Maximum video quantizer scale."
 msgstr "Escala máxima de cuantizador de video."
 
-#: modules/codec/avcodec/avcodec.h:213
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
 msgstr "Cuantización trellis"
 
-#: modules/codec/avcodec/avcodec.h:214
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr ""
 "Habilita cuantización trellis (tasa de distorsión para coeficientes de "
 "bloque)."
 
-#: modules/codec/avcodec/avcodec.h:217
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
 msgstr "Escala fija de cuantizador"
 
-#: modules/codec/avcodec/avcodec.h:218
+#: modules/codec/avcodec/avcodec.h:219
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
@@ -9059,39 +9057,39 @@ msgstr ""
 "Una escala fija de cuantizador de video para codificación VBR (valores "
 "aceptados: 0.01 a 255.0)."
 
-#: modules/codec/avcodec/avcodec.h:221
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
 msgstr "Compatibilidad estándar estricta"
 
-#: modules/codec/avcodec/avcodec.h:222
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ""
 "Fuerza una compatibilidad estándar estricta al codificar (valores aceptados: "
 "-1, 0, 1)."
 
-#: modules/codec/avcodec/avcodec.h:225
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
 msgstr "Enmascarado de luminosidad"
 
-#: modules/codec/avcodec/avcodec.h:226
+#: modules/codec/avcodec/avcodec.h:227
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr ""
 "Eleva el cuantizador para macrobloques muy brillantes (por defecto: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:229
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Darkness masking"
 msgstr "Enmascarado de oscuridad"
 
-#: modules/codec/avcodec/avcodec.h:230
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr "Eleva el cuantizador para macrobloques muy oscuros (por defecto: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:233
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Motion masking"
 msgstr "Enmascarado de movimiento"
 
-#: modules/codec/avcodec/avcodec.h:234
+#: modules/codec/avcodec/avcodec.h:235
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
@@ -9099,11 +9097,11 @@ msgstr ""
 "Eleva el cuantizador para macrobloques con una alta complejidad temporal "
 "(por defecto: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:237
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
 msgstr "Enmascarado de borde"
 
-#: modules/codec/avcodec/avcodec.h:238
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
@@ -9111,11 +9109,11 @@ msgstr ""
 "Eleva el cuantizador para macrobloques al borde del fotograma (por defecto: "
 "0.0)."
 
-#: modules/codec/avcodec/avcodec.h:241
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
 msgstr "Eliminación de luminosidad"
 
-#: modules/codec/avcodec/avcodec.h:242
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -9123,11 +9121,11 @@ msgstr ""
 "Elimina bloques de luminosidad cuando el PSNR no ha cambiado mucho (por "
 "defecto: 0.0). La especificación H264 recomienda -4."
 
-#: modules/codec/avcodec/avcodec.h:246
+#: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
 msgstr "Eliminación de luminosidad cromática."
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:248
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -9135,11 +9133,11 @@ msgstr ""
 "Elimina bloques de crominancia cuando el PSNR no ha cambiado mucho (por "
 "defecto: 0,0). La especificación H264 recomienda 7."
 
-#: modules/codec/avcodec/avcodec.h:251
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Specify AAC audio profile to use"
 msgstr "Especificar perfil de audio AAC a usar"
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
@@ -9149,17 +9147,17 @@ msgstr ""
 "de audio. Obtiene las siguientes opciones: main, low, ssr (no soportada) y "
 "ltp (predeterminado: main)"
 
-#: modules/codec/avcodec/encoder.c:222
+#: modules/codec/avcodec/encoder.c:225
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr "«%s» no es un codificador de video."
 
-#: modules/codec/avcodec/encoder.c:230
+#: modules/codec/avcodec/encoder.c:233
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr "«%s» no es un codificador de audio."
 
-#: modules/codec/avcodec/encoder.c:256
+#: modules/codec/avcodec/encoder.c:259
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -9176,7 +9174,7 @@ msgstr ""
 "Esto no es un error en el reproductor multimedia VLC.\n"
 "No contacte con el proyecto VideoLAN sobre esta incidencia.\n"
 
-#: modules/codec/avcodec/encoder.c:651 modules/codec/avcodec/encoder.c:660
+#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
 msgid "VLC could not open the encoder."
 msgstr "VLC no pudo abrir el codificador."
 
@@ -16734,9 +16732,8 @@ msgid "Advanced Options"
 msgstr "Opciones avanzadas"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:54
-#, fuzzy
 msgid "Media Browser"
-msgstr " Explorar"
+msgstr "Navegador multimedia"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
@@ -16811,9 +16808,8 @@ msgid "List View"
 msgstr "Vista de lista"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:99
-#, fuzzy
 msgid "Change playlistview"
-msgstr "Guardar lista de reproducción"
+msgstr "Cambiar vista de la lista de reproducción"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:344
 msgid "Select File"
@@ -17120,7 +17116,7 @@ msgid "Errors"
 msgstr "Errores"
 
 #: modules/gui/qt4/dialogs/errors.cpp:48
-#: modules/gui/qt4/dialogs/messages.cpp:184 modules/gui/qt4/menus.cpp:1507
+#: modules/gui/qt4/dialogs/messages.cpp:188 modules/gui/qt4/menus.cpp:1507
 msgid "&Clear"
 msgstr "&Borrar"
 
@@ -17318,23 +17314,23 @@ msgstr "Guarda todas las trazas mostradas en un archivo"
 msgid "Verbosity Level"
 msgstr "Nivel de detalle"
 
-#: modules/gui/qt4/dialogs/messages.cpp:128
+#: modules/gui/qt4/dialogs/messages.cpp:132
 msgid "Message filter"
 msgstr "Filtro de mensaje"
 
-#: modules/gui/qt4/dialogs/messages.cpp:173
+#: modules/gui/qt4/dialogs/messages.cpp:177
 msgid "&Update"
 msgstr "&Actualizar"
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:288
 msgid "Save log file as..."
 msgstr "Guardar archivo de trazas como..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:292
+#: modules/gui/qt4/dialogs/messages.cpp:290
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr "Archivos de texto y trazas (*.log *.txt);; Todo (*.*) "
 
-#: modules/gui/qt4/dialogs/messages.cpp:299
+#: modules/gui/qt4/dialogs/messages.cpp:297
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -17731,11 +17727,11 @@ msgstr "Archivos de subtítulos"
 msgid "All Files"
 msgstr "Todos los archivos"
 
-#: modules/gui/qt4/main_interface.cpp:914
+#: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
 msgstr "Menú de control para el reproductor"
 
-#: modules/gui/qt4/main_interface.cpp:957
+#: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
 msgstr "Pausado"
 
@@ -18121,7 +18117,6 @@ msgstr ""
 "funciona con Windows y X11 con extensiones de composición."
 
 #: modules/gui/qt4/qt4.cpp:109
-#, fuzzy
 msgid "Fullscreen controller opacity between 0.1 and 1"
 msgstr "Opacidad del controlador a pantalla completa entre 0.1 y 1"
 
@@ -18814,7 +18809,6 @@ msgid "Font family for the font you want to use"
 msgstr "Familia de la fuente a usar"
 
 #: modules/misc/freetype.c:97
-#, fuzzy
 msgid "Fontfile for the font you want to use"
 msgstr "Archivo de la fuente a usar"
 
@@ -20682,7 +20676,7 @@ msgstr "Archivos"
 
 #: modules/stream_out/switcher.c:92
 msgid "Full paths of the files separated by colons."
-msgstr "Rutas completas de archivos separadas por comas."
+msgstr "Rutas completas de archivos separadas por dos puntos."
 
 #: modules/stream_out/switcher.c:93
 msgid "Sizes"
@@ -20808,13 +20802,12 @@ msgid "Maximum output video height."
 msgstr "Máxima altura del video de salida."
 
 #: modules/stream_out/transcode/transcode.c:80
-#, fuzzy
 msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
 "Los filtros de video se aplicarán a las emisiones de video (tras aplicar "
-"capas). Debes poner una lista de filtros separados por comas."
+"capas). Puede introducir una lista de filtros separados por dos puntos."
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -20866,13 +20859,13 @@ msgid "Audio filter"
 msgstr "Filtro de audio"
 
 #: modules/stream_out/transcode/transcode.c:104
-#, fuzzy
 msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
 "Los filtros de audio se aplicarán a las emisiones de audio (tras aplicar los "
-"filtros de conversión). Debes poner una lista de filtros separados por comas."
+"filtros de conversión). Puede instroducir una lista de filtros separados por "
+"dos puntos."
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
@@ -20893,7 +20886,6 @@ msgid "This is the subtitles codec that will be used."
 msgstr "Códec de subtítulos a usar."
 
 #: modules/stream_out/transcode/transcode.c:117
-#, fuzzy
 msgid ""
 "This allows you to add overlays (also known as \"subpictures\" on the "
 "transcoded video stream. The subpictures produced by the filters will be "
@@ -20902,8 +20894,8 @@ msgid ""
 msgstr ""
 "Esto le permite añadir capas (también conocidas como «sub-imágenes») sobre la "
 "emisión de video transcodificado. Las sub-imágenes producidas por los "
-"filtros se superpondrán directamente sobre el video. Debe especificar una "
-"lista de módulos de sub-imágenes"
+"filtros se superpondrán directamente sobre el video. Puede especificar una "
+"lista de módulos de sub-imágenes separados por dos puntos"
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -21105,9 +21097,8 @@ msgstr ""
 "dispositivo en acción."
 
 #: modules/video_filter/atmo/atmo.cpp:135
-#, fuzzy
 msgid "Device type"
-msgstr "Dispositivo"
+msgstr "Tipo de dispositivo"
 
 #: modules/video_filter/atmo/atmo.cpp:136
 msgid ""
@@ -23183,7 +23174,6 @@ msgid "VNC Port"
 msgstr "Puerto VNC"
 
 #: modules/video_filter/remoteosd.c:80
-#, fuzzy
 msgid "VNC portnumber."
 msgstr "Número de puerto VNC."
 
@@ -24444,9 +24434,8 @@ msgid "Network Protocol"
 msgstr "Protocolo de red"
 
 #: linux/modules/gui/qt4/ui/open_net.h:93
-#, fuzzy
 msgid "Please enter a network URL:"
-msgstr "Por favor pon una dirección"
+msgstr "Introducir una URL:"
 
 #: linux/modules/gui/qt4/ui/open_net.h:95
 msgid "Enter the URL of the network stream here."
@@ -25049,7 +25038,6 @@ msgid "Brightness (%)"
 msgstr "Brillo (%)"
 
 #: linux/modules/gui/qt4/ui/video_effects.h:1157
-#, fuzzy
 msgid "Darknesslimit"
 msgstr "Límite de oscuridad"
 
