@@ -134,23 +134,6 @@ int *net_Listen (vlc_object_t *p_this, const char *psz_host,
     memset (&hints, 0, sizeof( hints ));
     hints.ai_socktype = type;
     hints.ai_protocol = protocol;
-
-#ifdef WIN32
-    /*
-     * ! HACK !
-     * Win32 seems to have some issues when the socket type is not defined.
-     * As a hack we define it according to the protocol
-     */
-    switch(protocol)
-    {
-    case IPPROTO_TCP:
-        hints.ai_socktype = SOCK_STREAM;
-        break;
-    case IPPROTO_UDP:
-        hints.ai_socktype = SOCK_DGRAM;
-        break;
-    }
-#endif
     hints.ai_flags = AI_PASSIVE;
 
     msg_Dbg (p_this, "net: listening to %s port %d", psz_host, i_port);
