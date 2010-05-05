@@ -463,6 +463,18 @@ vout_thread_t * vout_Create( vlc_object_t *p_parent, video_format_t *p_fmt )
     if( !p_vout->p->psz_filter_chain || !*p_vout->p->psz_filter_chain )
     {
         psz_parser = NULL;
+#ifdef __APPLE__
+        // On Mac OS, the wrapper video output module has lower precedence
+        // than the opengl module.  So if a vout is requested, we must
+        // select the wrapper video output module.
+        char *psz_vout = var_CreateGetNonEmptyString( p_vout, "vout" );
+        if( psz_vout )
+        {
+            if( strcmp( psz_vout, "opengl" ) != 0 )
+                psz_parser = strdup( "vout_wrapper" );
+            free( psz_vout );
+        }
+#endif
     }
     else
     {
