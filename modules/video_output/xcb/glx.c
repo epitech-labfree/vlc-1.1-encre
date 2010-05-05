@@ -167,7 +167,11 @@ static bool CheckGLX (vout_display_t *vd, Display *dpy, bool *restrict pv13)
     {
         msg_Dbg (vd, "using GLX extension version %d.%d", major, minor);
         ok = true;
+#ifdef IT_WORKS
         *pv13 = minor >= 3;
+#else
+        *pv13 = false;
+#endif
     }
     return ok;
 }
