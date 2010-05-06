@@ -7,16 +7,15 @@
 # Md. Rezwan Shahid <rezwan@ankur.org.bd>, 2009.
 # Golam Maruf Oovee <maruf@ankur.org.bd>, 2009.
 # Loba Yeasmeen <loba@ankur.org.bd>, 2009.
-# Mahay Alam Khan (মাহে আলম খান) <mak@ankur.org.bd>, 2009.
 # Sadia Afroz <sadia@ankur.org.bd>, 2009, 2010.
 # Israt Jahan <israt@ankur.org.bd>, 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: vlc 0.8.2-svn\n"
+"Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-30 00:36+0100\n"
-"PO-Revision-Date: 2010-04-18 19:21+0600\n"
+"POT-Creation-Date: 2010-05-05 22:40+0100\n"
+"PO-Revision-Date: 2010-05-05 19:21+0600\n"
 "Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -78,7 +77,7 @@ msgstr "VLC কন্ট্রোল ইন্টারফেসের সেট
 msgid "Hotkeys settings"
 msgstr "হট কী সেটিংসমূহ"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2840 src/input/es_out.c:2880
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -133,7 +132,7 @@ msgstr "বিবিধ"
 msgid "Miscellaneous audio settings and modules."
 msgstr "বিবিধ অডিও সেটিংসমূহ এবং মডিউল।"
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2843 src/input/es_out.c:2927
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -916,9 +915,9 @@ msgid "decoder"
 msgstr "ডিকোডার"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
-#: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
-#: modules/codec/avcodec/encoder.c:251 modules/codec/avcodec/encoder.c:650
-#: modules/codec/avcodec/encoder.c:659 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
+#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "স্ট্রীমিং/ট্রান্সকোডিং ব্যর্থ"
@@ -970,65 +969,65 @@ msgstr "স্ক্রাম্বেল্ড"
 msgid "Yes"
 msgstr "হ্যা"
 
-#: src/input/es_out.c:2002
+#: src/input/es_out.c:2007
 #, c-format
 msgid "Closed captions %u"
 msgstr "বন্ধ ক্যাপশন %u"
 
-#: src/input/es_out.c:2830
+#: src/input/es_out.c:2835
 #, c-format
 msgid "Stream %d"
 msgstr "স্ট্রীম %d"
 
-#: src/input/es_out.c:2846 src/input/es_out.c:2954
+#: src/input/es_out.c:2851 src/input/es_out.c:2959
 msgid "Subtitle"
 msgstr "সাবটাইটেল"
 
-#: src/input/es_out.c:2854 src/input/es_out.c:2880 src/input/es_out.c:2927
-#: src/input/es_out.c:2954 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
+#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "ধরন"
 
-#: src/input/es_out.c:2857
+#: src/input/es_out.c:2862
 msgid "Original ID"
 msgstr "আসল ID"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2867
+#: src/input/es_out.c:2869 src/input/es_out.c:2872
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
 #: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "কোডেক"
 
-#: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "ভাষা"
 
-#: src/input/es_out.c:2874 src/input/meta.c:57
+#: src/input/es_out.c:2879 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: src/input/es_out.c:2883 src/input/es_out.c:2886
+#: src/input/es_out.c:2888 src/input/es_out.c:2891
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "চ্যানেল"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 msgid "Sample rate"
 msgstr "স্যাম্পল রেট"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 #, c-format
 msgid "%u Hz"
 msgstr "%u হার্জ"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2906
 msgid "Bits per sample"
 msgstr "প্রতি স্যাম্পলে বিট"
 
-#: src/input/es_out.c:2906 modules/access/pvr.c:96
+#: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:471
@@ -1036,33 +1035,33 @@ msgstr "প্রতি স্যাম্পলে বিট"
 msgid "Bitrate"
 msgstr "বিট রেট"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 #, c-format
 msgid "%u kb/s"
 msgstr "%u কিলোবাইট/সেকেন্ড"
 
-#: src/input/es_out.c:2918
+#: src/input/es_out.c:2923
 msgid "Track replay gain"
 msgstr "ট্র্যাক রিপ্লের গেইন"
 
-#: src/input/es_out.c:2920
+#: src/input/es_out.c:2925
 msgid "Album replay gain"
 msgstr "অ্যালবাম রিপ্লের গেইন"
 
-#: src/input/es_out.c:2921
+#: src/input/es_out.c:2926
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f ডেসিবল"
 
-#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "রেজল্যুশন"
 
-#: src/input/es_out.c:2935
+#: src/input/es_out.c:2940
 msgid "Display resolution"
 msgstr "প্রদর্শনের রেজল্যুশন"
 
-#: src/input/es_out.c:2945 src/input/es_out.c:2948
+#: src/input/es_out.c:2950 src/input/es_out.c:2953
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "ফ্রেমের রেট"
@@ -1212,7 +1211,7 @@ msgstr "পরবর্তী অধ্যায়"
 msgid "Previous chapter"
 msgstr "পূর্ববর্তী অধ্যায়"
 
-#: src/input/vlm.c:605 src/input/vlm.c:973
+#: src/input/vlm.c:611 src/input/vlm.c:969
 #, c-format
 msgid "Media: %s"
 msgstr "মিডিয়া: %s"
@@ -1443,16 +1442,16 @@ msgid "Extra interface modules"
 msgstr "অতিরিক্ত ইন্টারফেস মডিউল"
 
 #: src/libvlc-module.c:180
-#, fuzzy
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
-"আপনি VLC-র জন্য \"অতিরিক্ত ইন্টারফেস\" নির্বাচন করতে পারেন। সেগুলো পূর্বনির্ধারিত "
-"ইন্টারফেসের সাথে পটভূমিতে খুলবে। কমা দ্বারা পৃথককৃত ইন্টারফেস মডিউলের তালিকা ব্যবহার "
-"করুন। (সাধারণ মানগুলো হল \"rc\" (রিমোট কন্ট্রোল), \"http\", \"gestures\" ...)"
+"আপনি VLC এর জন্য \"অতিরিক্ত ইন্টারফেস\" নির্বাচন করতে পারেন। সেগুলো পূর্বনির্ধারিত "
+"ইন্টারফেসের সাথে পটভূমিতে খুলবে। কোলন দ্বারা পৃথককৃত ইন্টারফেস মডিউলের তালিকা "
+"ব্যবহার করুন। (সাধারণ মানগুলো হল \"rc\" (রিমোট কন্ট্রোল), \"http\", \"gestures"
+"\" ...)"
 
 #: src/libvlc-module.c:187
 msgid "You can select control interfaces for VLC."
@@ -1777,7 +1776,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:375
 msgid "None"
 msgstr "কোনটি না"
 
@@ -3630,13 +3629,12 @@ msgid "Services discovery modules"
 msgstr "সেবা অনুসন্ধান মডিউল"
 
 #: src/libvlc-module.c:1228
-#, fuzzy
 msgid ""
 "Specifies the services discovery modules to load, separated by colons. "
 "Typical values are sap, hal, ..."
 msgstr ""
-"লোড করার জন্য সেবা অনুসন্ধান মডিউল উল্লেখ করা হবে, যা সেমি-কোলন দ্বারা পৃথককৃত। "
-"সাধারণ মানগুলো হলো sap, hal, ..."
+"লোড করার জন্য সেবা অনুসন্ধান মডিউল উল্লেখ করা হবে, যা কোলন দ্বারা পৃথককৃত। সাধারণ "
+"মানগুলো হলো sap, hal, ..."
 
 #: src/libvlc-module.c:1231
 msgid "Play files randomly forever"
@@ -7311,7 +7309,7 @@ msgstr "ডিস্ক"
 msgid "VCD Format"
 msgstr "VCD ফরম্যাট"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:298
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
 msgid "Application"
 msgstr "অ্যাপ্লিকেশন"
 
@@ -8155,7 +8153,7 @@ msgstr "কম্পাঙ্ক ৩-এর গেইন (ডেসিবেল)
 msgid "Freq 3 Q"
 msgstr "কম্পাঙ্ক ৩ Q"
 
-#: modules/audio_filter/resampler/bandlimited.c:93
+#: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
 msgstr "ব্যান্ড-লিমিটেড ইন্টারপোলেশন রিস্যাম্পলিং-এর জন্য অডিও পরিশোধক"
 
@@ -8483,14 +8481,14 @@ msgstr "৫.১"
 #: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:799
-#: modules/gui/qt4/main_interface.cpp:803
-#: modules/gui/qt4/main_interface.cpp:843
-#: modules/gui/qt4/main_interface.cpp:845
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:930
-#: modules/gui/qt4/main_interface.cpp:937
-#: modules/gui/qt4/main_interface.cpp:960
+#: modules/gui/qt4/main_interface.cpp:808
+#: modules/gui/qt4/main_interface.cpp:812
+#: modules/gui/qt4/main_interface.cpp:852
+#: modules/gui/qt4/main_interface.cpp:854
+#: modules/gui/qt4/main_interface.cpp:922
+#: modules/gui/qt4/main_interface.cpp:939
+#: modules/gui/qt4/main_interface.cpp:946
+#: modules/gui/qt4/main_interface.cpp:969
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "VLC মিডিয়া প্লেয়ার"
@@ -8631,15 +8629,15 @@ msgstr "FFmpeg অডিও/ভিডিও এনকোডার"
 msgid "FFmpeg deinterlace video filter"
 msgstr "FFmpeg ডিইন্টারলেস ভিডিও পরিশোধক"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
 msgstr "সরাসরি রেন্ডারিং"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:76
 msgid "Error resilience"
 msgstr "ত্রুটি কাটিয়ে উঠা"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:78
 msgid ""
 "FFmpeg can do error resilience.\n"
 "However, with a buggy encoder (such as the ISO MPEG-4 encoder from M$) this "
@@ -8651,11 +8649,11 @@ msgstr ""
 "সমস্যা উৎপন্ন করতে পারে।\n"
 "বৈধ মানের সীমা 0 থেকে 4 পর্যন্ত (0 সকল ত্রুটি কাটিয়ে উঠা নিষ্ক্রিয় করে)।"
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
 msgstr "বাগ নিয়ে কাজ করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:85
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -8673,12 +8671,12 @@ msgstr ""
 "ক্রোমা।\\nএটি মানসমূহের যোগফল হতে হবে। উদাহরণস্বরূপ, \"ac vlc\" এবং \"ump4\" ঠিক "
 "করার জন্য 40 প্রবেশ করাতে হবে।"
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:198
+#: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "তাড়াতাড়ি করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -8686,20 +8684,20 @@ msgstr ""
 "যথেষ্ট সময় না থাকলে ডিকোডার ফ্রেমগুলোকে আংশিকভাবে ডিকোড বা উপেক্ষা করতে পারে। "
 "নিম্ন CPU শক্তির জন্যও এটি কার্যকর কিন্তু এতে বিকৃত ছবি উৎপন্ন হতে পারে।"
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
 msgstr "গতি সম্পর্কিত কৌশল অনুমোদন করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr "স্পেসিফিকেশন বহির্ভূত গতিবর্ধক কৌশল অনুমোদন করা হবে। দ্রুততর কিন্তু ত্রুটিপ্রবণ।"
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:106
 msgid "Skip frame (default=0)"
 msgstr "ফ্রেম উপেক্ষা করা হবে (পূর্বনির্ধারিত=0)"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:108
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8707,11 +8705,11 @@ msgstr ""
 "ডিকোডিং-এর গতি বাড়ানোর জন্য ফ্রেম উপেক্ষা কার্যকরী করা হবে (-1=None, 0=Default, "
 "1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)।"
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
 msgstr "idct উপেক্ষা করা হবে (পূর্বনির্ধারিত=0)"
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8719,19 +8717,19 @@ msgstr ""
 "ফ্রেম টাইপের ডিকোডিং গতি বাড়ানোর জন্য idct উপেক্ষা কার্যকরী করা হবে (-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)।"
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Debug mask"
 msgstr "ডিবাগ মাস্ক"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:117
 msgid "Set FFmpeg debug mask"
 msgstr "FFmpeg ডিবাগ মাস্ক নির্ধারণ করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:120
 msgid "Visualize motion vectors"
 msgstr "গতিশীল ভেক্টর ভিজুয়ালাইজ করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:121
+#: modules/codec/avcodec/avcodec.h:122
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -8746,11 +8744,11 @@ msgstr ""
 "\\n4 - B ফ্রেমের পূর্ববর্তী অনুমানকৃত MV প্রদর্শন করা হবে\\nসকল ভেক্টর প্রদর্শনের জন্য, "
 "7 দিতে হবে।"
 
-#: modules/codec/avcodec/avcodec.h:128
+#: modules/codec/avcodec/avcodec.h:129
 msgid "Low resolution decoding"
 msgstr "নিম্ন রেজল্যুশন ডিকোডিং"
 
-#: modules/codec/avcodec/avcodec.h:129
+#: modules/codec/avcodec/avcodec.h:130
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
@@ -8758,11 +8756,11 @@ msgstr ""
 "শুধুমাত্র ভিডিওটির একটি নিম্ন রেজল্যুশন সংস্করণ ডিকোড করা হবে। এটিতে কম প্রসেসিং "
 "শক্তি খরচ হয়"
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "H.264 ডিকোডিং এর জন্য পুনরাবৃত্তি পরিশোধক উপেক্ষা করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:134
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -8770,67 +8768,67 @@ msgstr ""
 "পুনরাবৃত্তি পরিশোধক (ডিব্লকিং) উপেক্ষা করা হলে সাধারণত গুণগত মানের ওপর খারাপ প্রভাব "
 "পড়ে। যদিও এর ফলে উচ্চ ডেফিনেশন স্ট্রীমের গতি অত্যন্ত বৃদ্ধি পায়।"
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:138
 msgid "Hardware decoding"
 msgstr "হার্ডওয়্যার ডিকোডিং"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
 msgstr "বিদ্যমান থাকলে এটি হার্ডওয়্যার ডিকোডিং অনুমোদন করে।"
 
-#: modules/codec/avcodec/avcodec.h:145
+#: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
 msgstr "কী ফ্রেমের অনুপাত"
 
-#: modules/codec/avcodec/avcodec.h:146
+#: modules/codec/avcodec/avcodec.h:147
 msgid "Number of frames that will be coded for one key frame."
 msgstr "একটি কী ফ্রেমের জন্য যতোগুলো ফ্রেমকে কোড করা হবে।"
 
-#: modules/codec/avcodec/avcodec.h:149
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of B frames"
 msgstr "B ফ্রেমের অনুপাত"
 
-#: modules/codec/avcodec/avcodec.h:150
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr "দুটি রেফারেন্স ফ্রেমের মধ্যে কোড করা হবে এমন B ফ্রেমের সংখ্যা।"
 
-#: modules/codec/avcodec/avcodec.h:153
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
 msgstr "ভিডিও বিটরেটের সহিষ্ণুতা"
 
-#: modules/codec/avcodec/avcodec.h:154
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "কিলোবিট/সেকেন্ডে ভিডিও বিটরেটের সহিষ্ণুতা।"
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
 msgstr "ইন্টারলেসড এনকোডিং"
 
-#: modules/codec/avcodec/avcodec.h:157
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "ইন্টারলেস করা ফ্রেমের জন্য ডেডিকেটেড এলগরিদম সক্রিয় করা হবে।"
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
 msgstr "ইন্টারলেসড মোশন এস্টিমেশন"
 
-#: modules/codec/avcodec/avcodec.h:161
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr "ইন্টারলেসড মোশন এস্টিমেশন এলগরিদম সক্রিয় করা হবে। এতে বেশি CPU প্রয়োজন।"
 
-#: modules/codec/avcodec/avcodec.h:164
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
 msgstr "প্রি-মোশন এস্টিমেশন"
 
-#: modules/codec/avcodec/avcodec.h:165
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "প্রি-মোশন এস্টিমেশন এলগরিদম সক্রিয় করা হবে।"
 
-#: modules/codec/avcodec/avcodec.h:168
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
 msgstr "রেট কন্ট্রোল বাফারের আকার"
 
-#: modules/codec/avcodec/avcodec.h:169
+#: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -8838,19 +8836,19 @@ msgstr ""
 "রেট কন্ট্রোল বাফারের আকার (কিলোবাইটে)। একটি বড় বাফার ভালো রেট কন্ট্রোল করবে, "
 "কিন্তু স্ট্রীমে একটি বিলম্ব তৈরি করবে।"
 
-#: modules/codec/avcodec/avcodec.h:173
+#: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
 msgstr "রেট কন্ট্রোল বাফারের আক্রমনাত্মকতা"
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
 msgstr "রেট কন্ট্রোল বাফারের আক্রমনাত্মকতা।"
 
-#: modules/codec/avcodec/avcodec.h:177
+#: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
 msgstr "I কোয়ান্টাইজেশন ফ্যাক্টর"
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:180
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -8858,12 +8856,12 @@ msgstr ""
 "I ফ্রেমের কোয়ান্টাইজেশন ফ্যাক্টর, P ফ্রেমের সাথে তুলনা করে (উদাহরণস্বরূপ 1.0 => I "
 "এবং P ফ্রেমের জন্য একই qscale)।"
 
-#: modules/codec/avcodec/avcodec.h:182 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "নয়েজ রিডাকশন"
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -8871,11 +8869,11 @@ msgstr ""
 "এনকোডিং দৈর্ঘ্য এবং বিটরেট কমানোর জন্য একটি সরল নয়েজ রিডাকশন এলগরিদম সক্রিয় করা "
 "হবে, নিম্ন মানের ফ্রেমের বিনিময়ে।"
 
-#: modules/codec/avcodec/avcodec.h:187
+#: modules/codec/avcodec/avcodec.h:188
 msgid "MPEG4 quantization matrix"
 msgstr "MPEG4 কোয়ান্টাইজেশন ম্যাট্রিক্স"
 
-#: modules/codec/avcodec/avcodec.h:188
+#: modules/codec/avcodec/avcodec.h:189
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -8885,11 +8883,11 @@ msgstr ""
 "সাধারণত ভালো ছবি পাওয়া যায়, যদিও স্ট্যান্ডার্ড MPEG2 ডিকোডারের সাথে তখনও "
 "সামঞ্জস্যতা থাকে।"
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
 msgstr "গুণগত মানের স্তর"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:195
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
@@ -8897,7 +8895,7 @@ msgstr ""
 "মোশন ভেক্টরের এনকোডিং-এর জন্য গুণগত মানের স্তর (এর ফলে এনকোডিং অত্যন্ত ধীর হয়ে "
 "যেতে পারে)।"
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:200
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -8909,35 +8907,35 @@ msgstr ""
 "(hg) রেট বিকৃতি নিষ্ক্রিয় করে, এবং এনকোডারের কাজ সহজ করার জন্য নয়েজ রিডাকশন "
 "থ্রেশহোল্ড বাড়িয়ে দেয়।"
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:206
 msgid "Minimum video quantizer scale"
 msgstr "সর্বনিম্ন ভিডিও কোয়ান্টাইজার স্কেল"
 
-#: modules/codec/avcodec/avcodec.h:206
+#: modules/codec/avcodec/avcodec.h:207
 msgid "Minimum video quantizer scale."
 msgstr "সর্বনিম্ন ভিডিও কোয়ান্টাইজার স্কেল।"
 
-#: modules/codec/avcodec/avcodec.h:209
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Maximum video quantizer scale"
 msgstr "সর্বোচ্চ ভিডিও কোয়ান্টাইজার স্কেল"
 
-#: modules/codec/avcodec/avcodec.h:210
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Maximum video quantizer scale."
 msgstr "সর্বোচ্চ ভিডিও কোয়ান্টাইজার স্কেল।"
 
-#: modules/codec/avcodec/avcodec.h:213
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
 msgstr "ট্রেলিস কোয়ান্টাইজেশন"
 
-#: modules/codec/avcodec/avcodec.h:214
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr "ট্রেলিস কোয়ান্টাইজেশন সক্রিয় করা হবে (ব্লক সহগের জন্য রেট বিকৃতি)।"
 
-#: modules/codec/avcodec/avcodec.h:217
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
 msgstr "নির্দিষ্ট কোয়ান্টাইজার স্কেল"
 
-#: modules/codec/avcodec/avcodec.h:218
+#: modules/codec/avcodec/avcodec.h:219
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
@@ -8945,38 +8943,38 @@ msgstr ""
 "VBR এনকোডিং এর জন্য একটি নির্দিষ্ট ভিডিও কোয়ান্টাইজার স্কেল (গ্রহণযোগ্য মান: 0.01 "
 "থেকে 255.0)।"
 
-#: modules/codec/avcodec/avcodec.h:221
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
 msgstr "স্ট্রিক্ট স্ট্যান্ডার্ড কমপ্লাইয়েন্স"
 
-#: modules/codec/avcodec/avcodec.h:222
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ""
 "এনকোডিং করার সময় একটি স্ট্রিক্ট স্ট্যান্ডার্ড কমপ্লাইয়েন্স কার্যকর করা হবে (গ্রহণযোগ্য "
 "মান: -1, 0, 1)।"
 
-#: modules/codec/avcodec/avcodec.h:225
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
 msgstr "উজ্জ্বল মাস্কিং"
 
-#: modules/codec/avcodec/avcodec.h:226
+#: modules/codec/avcodec/avcodec.h:227
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr "অতি উজ্জ্বল ম্যাক্রোব্লকের জন্য কোয়ান্টাইজার বাড়ানো হবে (পূর্বনির্ধারিত: 0.0)।"
 
-#: modules/codec/avcodec/avcodec.h:229
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Darkness masking"
 msgstr "অন্ধকার মাস্কিং"
 
-#: modules/codec/avcodec/avcodec.h:230
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr "অতি অন্ধকার ম্যাক্রোব্লকের জন্য কোয়ান্টাইজার বাড়ানো হবে (পূর্বনির্ধারিত: 0.0)।"
 
-#: modules/codec/avcodec/avcodec.h:233
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Motion masking"
 msgstr "মোশন মাস্কিং"
 
-#: modules/codec/avcodec/avcodec.h:234
+#: modules/codec/avcodec/avcodec.h:235
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
@@ -8984,22 +8982,22 @@ msgstr ""
 "অতি ক্ষনস্থায়ী কমপ্লেক্সিটির সাথে ম্যাক্রোব্লকের জন্য কোয়ান্টাইজার বাড়ানো হবে "
 "(পূর্বনির্ধারিত: 0.0)।"
 
-#: modules/codec/avcodec/avcodec.h:237
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
 msgstr "সীমানা মাস্কিং"
 
-#: modules/codec/avcodec/avcodec.h:238
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
 "ফ্রেমের সীমানার ম্যাক্রোব্লকগুলোর জন্য কোয়ান্টাইজার বাড়ানো হবে (পূর্বনির্ধারিত: 0.0)।"
 
-#: modules/codec/avcodec/avcodec.h:241
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
 msgstr "উজ্জ্বলতা বাদ দেয়া হবে"
 
-#: modules/codec/avcodec/avcodec.h:242
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -9007,11 +9005,11 @@ msgstr ""
 "PSNR বেশি পরিবর্তিত না হলে উজ্জ্বলতা ব্লক বাদ দেয়া হয় (পূর্বনির্ধারিত: 0.0)। H264 "
 "স্পেসিফিকেশন -4 নির্ধারণ করার জন্য সুপারিশ করে।"
 
-#: modules/codec/avcodec/avcodec.h:246
+#: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
 msgstr "ক্রমিন্যান্স বাদ দেয়া হবে"
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:248
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -9019,11 +9017,11 @@ msgstr ""
 "PSNR বেশি পরিবর্তিত না হলে ক্রমিন্যান্স ব্লক বাদ দেয়া হয় (পূর্বনির্ধারিত: 0.0)। H264 "
 "স্পেসিফিকেশন 7 নির্ধারণ করার জন্য সুপারিশ করে।"
 
-#: modules/codec/avcodec/avcodec.h:251
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Specify AAC audio profile to use"
 msgstr "ব্যবহার করার জন্য AAC আউটপুট প্রোফাইল উল্লেখ করা হবে"
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
@@ -9033,17 +9031,17 @@ msgstr ""
 "করা হবে। এর জন্য নিম্নোক্ত অপশনসমূহ প্রযোজ্য: প্রধান, নিম্ন, ssr (সমর্থিত নয়) এবং ltp "
 "(পূর্বনির্ধারিত: প্রধান)"
 
-#: modules/codec/avcodec/encoder.c:222
+#: modules/codec/avcodec/encoder.c:225
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr "\"%s\" কোনো ভিডিও এনকোডার নয়।"
 
-#: modules/codec/avcodec/encoder.c:230
+#: modules/codec/avcodec/encoder.c:233
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr "\"%s\" কোনো অডিও এনকোডার নয়।"
 
-#: modules/codec/avcodec/encoder.c:256
+#: modules/codec/avcodec/encoder.c:259
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -9061,7 +9059,7 @@ msgstr ""
 "এটি VLC মিডিয়া প্লেয়ারের অভ্যন্তরের কোনো সমস্যা নয়।\n"
 "এ ব্যাপারে ভিডিওল্যান প্রজেক্টের সাথে যোগাযোগ করবেন না।\n"
 
-#: modules/codec/avcodec/encoder.c:651 modules/codec/avcodec/encoder.c:660
+#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
 msgid "VLC could not open the encoder."
 msgstr "VLC এনকোডারটি খুলতে পারেনি।"
 
@@ -12560,11 +12558,11 @@ msgstr "HTTP টানেল পোর্ট"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "HTTP এর উপর RTSP/RTP টানেল করার জন্য যে পোর্ট ব্যবহার করা হবে।"
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:605
 msgid "RTSP authentication"
 msgstr "RTSP প্রমাণীকরণ"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:606
 msgid "Please enter a valid login name and a password."
 msgstr "অনুগ্রহ করে একটি বৈধ লগইন নাম এবং পাসওয়ার্ড দিন।"
 
@@ -16469,11 +16467,11 @@ msgstr "চালানো"
 msgid "buffers"
 msgstr "বাফার"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:373
 msgid "Current visualization"
 msgstr "বর্তমান দৃশ্যায়ণ"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:412
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16481,19 +16479,19 @@ msgstr ""
 "বর্তমান প্লে-ব্যাকের গতি: %1\n"
 "সমন্বয় করতে ক্লিক করা হবে"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:483
 msgid "Revert to normal play speed"
 msgstr "সাধারন চালানোর গতি পূর্বাবস্থায় ফিরিয়ে আনুন"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:557
 msgid "Download cover art"
 msgstr "প্রচ্ছদ চিত্র ডাউনলোড করা হবে"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:599
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "অতিবাহিত এবং অবশিষ্ট সময়ের মধ্যে টগল করতে ক্লিক করুন"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:601
 msgid "Double click to jump to a chosen time position"
 msgstr "পছন্দনীয় সময় অবস্থানে যেতে ডাবল ক্লিক করুন"
 
@@ -16584,9 +16582,8 @@ msgid "Advanced Options"
 msgstr "উন্নত অপশনসমূহ"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:54
-#, fuzzy
 msgid "Media Browser"
-msgstr " ব্রাউজ করা হবে"
+msgstr "মিডিয়া ব্রাউজার"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
@@ -16661,9 +16658,8 @@ msgid "List View"
 msgstr "তালিকা আকারে প্রদর্শন"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:99
-#, fuzzy
 msgid "Change playlistview"
-msgstr "প্লে-লিস্ট সংরক্ষণ করা হবে"
+msgstr "প্লে-লিস্টের প্রদর্শন পরিবর্তন"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:344
 msgid "Select File"
@@ -16971,7 +16967,7 @@ msgid "Errors"
 msgstr "ত্রুটি"
 
 #: modules/gui/qt4/dialogs/errors.cpp:48
-#: modules/gui/qt4/dialogs/messages.cpp:184 modules/gui/qt4/menus.cpp:1507
+#: modules/gui/qt4/dialogs/messages.cpp:188 modules/gui/qt4/menus.cpp:1507
 msgid "&Clear"
 msgstr "পরিষ্কার করা হবে (&C)"
 
@@ -17165,23 +17161,23 @@ msgstr "প্রদর্শিত সকল লগ একটি ফাইল�
 msgid "Verbosity Level"
 msgstr "ভার্বোসিটির স্তর"
 
-#: modules/gui/qt4/dialogs/messages.cpp:128
+#: modules/gui/qt4/dialogs/messages.cpp:132
 msgid "Message filter"
 msgstr "বার্তা ফিল্টার"
 
-#: modules/gui/qt4/dialogs/messages.cpp:173
+#: modules/gui/qt4/dialogs/messages.cpp:177
 msgid "&Update"
 msgstr "হালনাগাদ (&U)"
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:288
 msgid "Save log file as..."
 msgstr "লগ ফাইল নতুন নামে সংরক্ষণ করা হবে..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:292
+#: modules/gui/qt4/dialogs/messages.cpp:290
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr "পাঠ্য / লগ (*.log *.txt);; সকল (*.*) "
 
-#: modules/gui/qt4/dialogs/messages.cpp:299
+#: modules/gui/qt4/dialogs/messages.cpp:297
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -17582,11 +17578,11 @@ msgstr "সাবটাইটেল ফাইল"
 msgid "All Files"
 msgstr "সকল ফাইল"
 
-#: modules/gui/qt4/main_interface.cpp:914
+#: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
 msgstr "প্লেয়ারের জন্য কন্ট্রোল মেনু"
 
-#: modules/gui/qt4/main_interface.cpp:957
+#: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
 msgstr "বিরত"
 
@@ -17970,9 +17966,8 @@ msgstr ""
 
 # Translated by sadia
 #: modules/gui/qt4/qt4.cpp:109
-#, fuzzy
 msgid "Fullscreen controller opacity between 0.1 and 1"
-msgstr "পর্দা জুড়ে প্রদর্শনের অস্বচ্ছতা কনট্রোলার, অস্বচ্ছতা 0.1 এবং 1 এর মধ্যে"
+msgstr "পর্দা জুড়ে প্রদর্শনের অস্বচ্ছতা কনট্রোলার অস্বচ্ছতা 0.1 এবং 1 এর মধ্যে"
 
 # Translated by sadia
 #: modules/gui/qt4/qt4.cpp:110
@@ -18659,9 +18654,8 @@ msgid "Font family for the font you want to use"
 msgstr "আপনি যে ফন্টটি ব্যবহার করতে চান তার ফন্ট ফ্যামিলি"
 
 #: modules/misc/freetype.c:97
-#, fuzzy
 msgid "Fontfile for the font you want to use"
-msgstr "আপনি যে ফন্টটি ব্যবহার করতে চান তার ফন্ট ফাইল"
+msgstr "আপনি যে ফন্টটি ব্যবহার করতে চান তার ফন্টফাইল"
 
 #: modules/misc/freetype.c:100 modules/misc/win32text.c:60
 msgid "Font size in pixels"
@@ -20642,13 +20636,12 @@ msgid "Maximum output video height."
 msgstr "সর্বোচ্চ আউটপুট ভিডিও উচ্চতা।"
 
 #: modules/stream_out/transcode/transcode.c:80
-#, fuzzy
 msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
 "ভিডিও পরিশোধকগুলি ভিডিও স্ট্রীমে কার্যকর করা হবে (ওভারলে কার্যকর হওয়ার পর)। "
-"আপনাকে একটি কমা দ্বারা পৃথককৃত পরিশোধকের তালিকা দিতে হবে।"
+"আপনাকে একটি কোলন দ্বারা পৃথককৃত পরিশোধকের তালিকা দিতে পারেন।"
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -20698,13 +20691,12 @@ msgid "Audio filter"
 msgstr "অডিও পরিশোধক"
 
 #: modules/stream_out/transcode/transcode.c:104
-#, fuzzy
 msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
 "অডিও পরিশোধকগুলি অডিও স্ট্রীমে কার্যকর করা হবে (রূপান্তরকরন পরিশোধকগুলি কার্যকর "
-"হওয়ার পর)। আপনাকে একটি কমা দ্বারা পৃথককৃত পরিশোধকের তালিকা দিতে হবে।"
+"হওয়ার পর)। আপনাকে একটি কোলন দ্বারা পৃথককৃত পরিশোধকের তালিকা দিতে পারেন।"
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
@@ -20725,7 +20717,6 @@ msgid "This is the subtitles codec that will be used."
 msgstr "এই সাবটাইটেল কোডেকটি ব্যবহৃত হবে।"
 
 #: modules/stream_out/transcode/transcode.c:117
-#, fuzzy
 msgid ""
 "This allows you to add overlays (also known as \"subpictures\" on the "
 "transcoded video stream. The subpictures produced by the filters will be "
@@ -20734,7 +20725,7 @@ msgid ""
 msgstr ""
 "এটির মাধ্যমে আপনি ট্রান্সকোড করা ভিডিও স্ট্রীমে ওভারলে (\"উপছবি\" নামেও পরিচিত) "
 "যোগ করতে পারেন। পরিশোধক দ্বারা উৎপন্ন উপছবিসমূহ ভিডিওর ওপর সরাসরি ওভারলে করা "
-"হবে। আপনাকে কমা দ্বারা পৃথককৃত উপছবি মডিউলের একটি তালিকা দিতে হবে"
+"হবে। আপনাকে কোলন দ্বারা পৃথককৃত উপছবি মডিউলের একটি তালিকা দিতে পারেন"
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -20931,9 +20922,8 @@ msgstr ""
 "আপনি লাইভ অ্যাকশন দেখানো ছবি এবং কিছু মুভিতেও এটি দেখতে পারেন।"
 
 #: modules/video_filter/atmo/atmo.cpp:135
-#, fuzzy
 msgid "Device type"
-msgstr "ডিভাইসটাইপ"
+msgstr "ডিভাইসের ধরন"
 
 #: modules/video_filter/atmo/atmo.cpp:136
 msgid ""
@@ -22982,9 +22972,8 @@ msgid "VNC Port"
 msgstr "VNC পোর্ট"
 
 #: modules/video_filter/remoteosd.c:80
-#, fuzzy
 msgid "VNC portnumber."
-msgstr "VNC পোর্টনম্বর।"
+msgstr "VNC পোর্টনাম্বার।"
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC Password"
@@ -24229,9 +24218,8 @@ msgid "Network Protocol"
 msgstr "নেটওয়ার্ক প্রোটোকল"
 
 #: linux/modules/gui/qt4/ui/open_net.h:93
-#, fuzzy
 msgid "Please enter a network URL:"
-msgstr "অনুগ্রহ করে নতুন বৃত্তান্তের নাম প্রবেশ করান।"
+msgstr "অনুগ্রহ করে একটি নেটওয়ার্ক URL দিন:"
 
 #: linux/modules/gui/qt4/ui/open_net.h:95
 msgid "Enter the URL of the network stream here."
@@ -24262,6 +24250,28 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.example.com/stream.avi</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtp://@1234</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtsp://server.example.org:8080/test.sdp</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 
 #: linux/modules/gui/qt4/ui/profiles.h:456
 msgid "MPEG-TS"
@@ -24833,9 +24843,8 @@ msgid "Brightness (%)"
 msgstr "উজ্জ্বলতা (%)"
 
 #: linux/modules/gui/qt4/ui/video_effects.h:1157
-#, fuzzy
 msgid "Darknesslimit"
-msgstr "কালোর সীমা"
+msgstr "আধাঁরসীমা"
 
 #: linux/modules/gui/qt4/ui/video_effects.h:1158
 msgid "Mark analyzed Pixels"
@@ -24953,3222 +24962,3 @@ msgstr "পুনরাবৃত্তি"
 #: linux/modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "মিডিয়া ব্যবস্থাপকের তালিকা"
-
-#~ msgid "Attachment"
-#~ msgstr "সংযুক্তি"
-
-#~ msgid "Attachment input"
-#~ msgstr "সংযুক্তি ইনপুট"
-
-#~ msgid "Caching value for files, in milliseconds."
-#~ msgstr "ফাইলের জন্য ক্যাশিং মান, মিলিসেকেন্ডে নির্ধারিত।"
-
-#~ msgid "Extra network caching value (ms)"
-#~ msgstr "এক্সট্রা নেটওয়ার্ক ক্যাশিং মান (মিলিসেকেন্ড)"
-
-#~ msgid "Supplementary caching value for remote files, in milliseconds."
-#~ msgstr "রিমোট ফাইলের জন্য সম্পূরক ক্যাশিং মান, মিলিসেকেন্ডে নির্ধারিত।"
-
-#~ msgid "Subdirectory behavior"
-#~ msgstr "উপডিরেক্টরির আচরন"
-
-#~ msgid ""
-#~ "Select whether subdirectories must be expanded.\n"
-#~ "none: subdirectories do not appear in the playlist.\n"
-#~ "collapse: subdirectories appear but are expanded on first play.\n"
-#~ "expand: all subdirectories are expanded.\n"
-#~ msgstr ""
-#~ "সাবডিরেক্টরিগুলো সম্প্রসারণ করা হবে কিনা তা ঠিক করা হবে।\n"
-#~ "কোনটি না: প্লেলিস্টে সাবডিরেক্টরি দেখা যাবে না।\n"
-#~ "কলাপস: সাবডিরেক্টরি দেখা যাবে কিন্তু প্রথমবার চালানোর সময় সম্প্রসারণ করা হবে।\n"
-#~ "সম্প্রসারণ: সকল সাবডিরেক্টরি সম্প্রসারণ করা হবে।\n"
-
-#~ msgid "collapse"
-#~ msgstr "কলাপস"
-
-#~ msgid "expand"
-#~ msgstr "সম্প্রসারণ করা হবে"
-
-#~ msgid "Ignored extensions"
-#~ msgstr "উপেক্ষাকৃত এক্সটেনশন"
-
-#~ msgid ""
-#~ "Files with these extensions will not be added to playlist when opening a "
-#~ "directory.\n"
-#~ "This is useful if you add directories that contain playlist files for "
-#~ "instance. Use a comma-separated list of extensions."
-#~ msgstr ""
-#~ "কোনো ডিরেক্টরি খোলার সময় এই বর্ধিতাংশসহ ফাইলগুলো প্লেলিস্টে যোগ করা হবে না।"
-#~ "\\nআপনি যদি এমন একটি ডিরেক্টরি যোগ করেন যেখানে উদাহরণস্বরূপ প্লেলিস্টের ফাইল "
-#~ "আছে, সেখানে এটি কাজে আসে। কমা দ্বারা পৃথককৃত এক্সটেনশনের একটি তালিকা ব্যবহার "
-#~ "করা হবে।"
-
-#~ msgid "File input"
-#~ msgstr "ফাইল ইনপুট"
-
-#~ msgid "Directory input"
-#~ msgstr "ডিরেক্টরি ইনপুট"
-
-#~ msgid ""
-#~ "Caching value for imem streams. This value should be set in milliseconds."
-#~ msgstr "imem স্ট্রীমের জন্য ক্যাশিং মান। এই মানটি মিলিসেকেন্ডে নির্ধারণ করতে হবে।"
-
-#~ msgid "Set the ID of the elementary stream"
-#~ msgstr "প্রাথমিক স্ট্রীমের ID নির্ধারণ করুন"
-
-#~ msgid "Group"
-#~ msgstr "গ্রুপ"
-
-#~ msgid "Set the group of the elementary stream"
-#~ msgstr "প্রাথমিক স্ট্রীমের গ্রুপ নির্ধারণ"
-
-#~ msgid "Category"
-#~ msgstr "শ্রেণীবিভাগ"
-
-#~ msgid "Set the category of the elementary stream"
-#~ msgstr "প্রাথমিক স্ট্রীমের শ্রেণীবিভাগ নির্ধারণ"
-
-#~ msgid "Unknown"
-#~ msgstr "অজানা"
-
-#~ msgid "Data"
-#~ msgstr "ডাটা"
-
-#~ msgid "Set the codec of the elementary stream"
-#~ msgstr "প্রাথমিক স্ট্রীমের কোডেক নির্ধারণ"
-
-#~ msgid "Language of the elementary stream as described by ISO639"
-#~ msgstr "ISO639 দ্বারা বর্ণনাকৃত প্রাথমিক স্ট্রীমের ভাষা"
-
-#~ msgid "Sample rate of an audio elementary stream"
-#~ msgstr "অডিও প্রাথমিক স্ট্রীমের নমুনা হার"
-
-#~ msgid "Channels count"
-#~ msgstr "চ্যানেল গণনা"
-
-#~ msgid "Channels count of an audio elementary stream"
-#~ msgstr "অডিও প্রাথমিক স্ট্রীমের চ্যানেল গণনা"
-
-#~ msgid "Width of video or subtitle elementary streams"
-#~ msgstr "ভিডিও বা সাবটাইটেলের প্রাথমিক স্ট্রীমসমূহের প্রস্থ"
-
-#~ msgid "Height of video or subtitle elementary streams"
-#~ msgstr "ভিডিও বা সাবটাইটেলের প্রাথমিক স্ট্রীমসমূহের দৈর্ঘ্য"
-
-#~ msgid "Display aspect ratio"
-#~ msgstr "দৃশ্যমান অনুপাত প্রদর্শন"
-
-#~ msgid "Display aspect ratio of a video elementary stream"
-#~ msgstr "ভিডিওর প্রাথমিক স্ট্রীমের দৃশ্যমান অনুপাত প্রদর্শন"
-
-#~ msgid "Frame rate of a video elementary stream"
-#~ msgstr "ভিডিও প্রাথমিক স্ট্রীমের ফ্রেমের হার"
-
-#~ msgid "Callback cookie string"
-#~ msgstr "কলব্যাক কুকি স্ট্রিং"
-
-#~ msgid "Text identifier for the callback functions"
-#~ msgstr "কলব্যাক ফাংশনের জন্য টেক্সট আইডেন্টিফায়ার"
-
-#~ msgid "Data for the get and release functions"
-#~ msgstr "গেট ও রিলিজ ফাংশনের জন্য উপাত্ত"
-
-#~ msgid "Get function"
-#~ msgstr "গেট ফাংশন"
-
-#~ msgid "Address of the get callback function"
-#~ msgstr "গেট কলব্যাক ফাংশনের ঠিকানা"
-
-#~ msgid "Release function"
-#~ msgstr "রিলিজ ফাংশন"
-
-#~ msgid "Address of the release callback function"
-#~ msgstr "রিলিজ কলব্যাক ফাংশনের ঠিকানা"
-
-#~ msgid "Memory input"
-#~ msgstr "মেমরি ইনপুট"
-
-#~ msgid "TCP address to use (default localhost)"
-#~ msgstr "যে TCP ঠিকানা ব্যবহার করতে হবে (পূর্বনির্ধারিত লোকালহোস্ট)"
-
-#~ msgid ""
-#~ "TCP address to use to communicate with the video part of the Bar Graph "
-#~ "(default localhost).In the case of bargraph incrustation, use localhost."
-#~ msgstr ""
-#~ "বার গ্রাফের ভিডিও অংশের সাথে যোগাযোগ করতে যে TCP ঠিকানা ব্যবহার করতে হবে "
-#~ "(পূর্বনির্ধারিত লোকালহোস্ট)।বারগ্রাফের আচ্ছাদনের ক্ষেত্রে, লোকালহোস্ট ব্যবহার করা "
-#~ "হবে।"
-
-#~ msgid "TCP port to use (default 12345)"
-#~ msgstr "যে TCP পোর্ট ব্যবহার করতে হবে (পূর্বনির্ধারিত হলো 12345)"
-
-#~ msgid ""
-#~ "TCP port to use to communicate with the video part of the Bar Graph "
-#~ "(default 12345).Use the same port as the one used in the rc interface."
-#~ msgstr ""
-#~ "বার গ্রাফের ভিডিও অংশের সাথে যোগাযোগ করতে যে TCP পোর্ট ব্যবহার করতে হবে "
-#~ "(পূর্বনির্ধারিত হলো 12345)।rc ইন্টারফেসে ব্যবহৃত পোর্টের অনুরূপ পোর্ট ব্যবহার করা "
-#~ "হবে।"
-
-#~ msgid "Defines if BarGraph information should be sent (default 1)"
-#~ msgstr "BarGraph'র তথ্য প্রেরণ করতে হলে নির্ধারণ করা হয় (পূর্বনির্ধারিত 1)"
-
-#~ msgid ""
-#~ "Defines if BarGraph information should be sent. 1 if the information "
-#~ "should be sent, 0 otherwise (default 1)."
-#~ msgstr ""
-#~ "BarGraph'র তথ্য প্রেরণ করতে হলে নির্ধারণ করা হয়। তথ্য প্রেরণ করতে হলে 1, নতুবা "
-#~ "0 (পূর্বনির্ধারিত 1)।"
-
-#~ msgid "Sends the barGraph information every n audio packets (default 4)"
-#~ msgstr "প্রতি n সংখ্যক অডিও প্যাকেটে বারগ্রাফের তথ্য প্রেরণ করে (পূর্বনির্ধারিত 4)"
-
-#~ msgid ""
-#~ "Defines how often the barGraph information should be sent. Sends the "
-#~ "barGraph information every n audio packets (default 4)."
-#~ msgstr ""
-#~ "বারগ্রাফের তথ্য কতক্ষণ পরপর প্রেরণ করা হবে তা নির্ধারণ করে। প্রতি n সংখ্যক অডিও "
-#~ "প্যাকেটে বারগ্রাফের তথ্য প্রেরণ করে (পূর্বনির্ধারিত 4)।"
-
-#~ msgid "Defines if silence alarm information should be sent (default 1)"
-#~ msgstr "নীরবতা অ্যালার্মের তথ্য প্রেরণ করতে হলে তা নির্ধারণ করে (পূর্বনির্ধারিত 1)"
-
-#~ msgid ""
-#~ "Defines if silence alarm information should be sent. 1 if the information "
-#~ "should be sent, 0 otherwise (default 1)."
-#~ msgstr ""
-#~ "নীরবতা অ্যালার্মের তথ্য প্রেরণ করতে হলে তা নির্ধারণ করে। তথ্য প্রেরণ করতে হলে 1, "
-#~ "নতুবা 0 (পূর্বনির্ধারিত 1)।"
-
-#~ msgid "Time window to use in ms (default 5000)"
-#~ msgstr ""
-#~ "যে সময় উইন্ডো ব্যবহার করতে হবে, মিলিসেকেন্ডে নির্ধারিত (পূর্বনির্ধারিত হলো ৫০০০) "
-
-#~ msgid ""
-#~ "Time Window during when the audio level is measured in ms for silence "
-#~ "detection. If the audio level is under the threshold during this time, an "
-#~ "alarm is sent (default 5000)."
-#~ msgstr ""
-#~ "নীরবতা সনাক্তকরণের জন্য অডিও লেভেল মিলিসেকেন্ডে মাপার সময় সময়ের উইন্ডো। এসময় "
-#~ "অডিও লেভেল থ্রেশহোল্ডের নিচে থাকলে, একটি অ্যালার্ম প্রেরিত হবে (পূর্বনির্ধারিত "
-#~ "মান ৫০০০)।"
-
-#~ msgid "Minimum Audio level to raise the alarm (default 0.1)"
-#~ msgstr "অ্যালার্ম বাজানোর জন্য সর্বনিম্ন অডিও লেভেল (পূর্বনির্ধারিত মান 0.1)"
-
-#~ msgid ""
-#~ "Threshold to be attained to raise an alarm. If the audio level is under "
-#~ "the threshold during this time, an alarm is sent (default 0.1)."
-#~ msgstr ""
-#~ "অ্যালার্মের জন্য যে থ্রেশহোল্ডে উপনীত হতে হবে। এসময় অডিও লেভেল থ্রেশহোল্ডের নিচে "
-#~ "থাকলে, একটি অ্যালার্ম প্রেরিত হবে (পূর্বনির্ধারিত মান 0.1)।"
-
-#, fuzzy
-#~ msgid "Time between two alamr messages in ms (default 2000)"
-#~ msgstr ""
-#~ "দুটি অ্যালার্ম বার্তার মধ্যবর্তী সময় মিলিসেকেন্ডে নির্ধারিত (পূর্বনির্ধারিত মান ২০০০)"
-
-#~ msgid ""
-#~ "Time between two alarm messages in ms. This value is used to avoid alarm "
-#~ "saturation (default 2000)."
-#~ msgstr ""
-#~ "দুটি অ্যালার্ম বার্তার মধ্যবর্তী সময় মিলিসেকেন্ডে নির্ধারিত। অ্যালার্ম স্যাচুরেশন "
-#~ "এড়ানোর জন্য এই মান ব্যবহার করা হয় (পূর্বনির্ধারিত মান ২০০০)।"
-
-#~ msgid "Force connection reset regularly (default 1)"
-#~ msgstr "সংযোগ পুনঃনির্ধারণ নিয়মিতভাবে ফোর্স করা হবে (পূর্বনির্ধারিত মান 1)"
-
-#~ msgid ""
-#~ "Defines if the TCP connection should be reset. This is to be used when "
-#~ "using with audiobargraph_v (default 1)."
-#~ msgstr ""
-#~ "TCP সংযোগ পুনঃনির্ধারণ করতে হলে তা নির্ধারণ করে। অডিওবারগ্রাফের সাথে ব্যবহার "
-#~ "করার সময় এটি ব্যবহার করতে হবে (পূর্বনির্ধারিত মান 1)। (_v)"
-
-#~ msgid "Audio part of the BarGraph function"
-#~ msgstr "BarGraph ফাংশনের অডিও অংশ"
-
-#~ msgid "audiobargraph_a"
-#~ msgstr "অডিওবারগ্রাফ (_a)"
-
-#~ msgid "My Computer"
-#~ msgstr "আমার কম্পিউটার"
-
-#~ msgid "Devices"
-#~ msgstr "যন্ত্রসমূহ"
-
-#~ msgid "Local Network"
-#~ msgstr "লোকাল নেটওয়ার্ক"
-
-#~ msgid "Internet"
-#~ msgstr "ইন্টারনেট"
-
-#~ msgid "SessionManager"
-#~ msgstr "SessionManager"
-
-#~ msgid "SQLite database module"
-#~ msgstr "SQLite ডাটাবেস মডিউল"
-
-#~ msgid "Flac audio packetizer"
-#~ msgstr "ফ্ল্যাক অডিও প্যাকেটাইজার"
-
-#~ msgid "Screen capture"
-#~ msgstr "স্ক্রীন ক্যাপচার"
-
-#~ msgid "Your window manager does not provide a list of applications."
-#~ msgstr "আপনার উইন্ডো ব্যবস্থাপক অ্যাপ্লিকেশনসমূহের তালিকা প্রদান করেনি।"
-
-#~ msgid "Applications"
-#~ msgstr "অ্যাপ্লিকেশন"
-
-#~ msgid "Value of the audio channels levels"
-#~ msgstr "অডিও চ্যানেলের স্তরের মান"
-
-#~ msgid ""
-#~ "Value of the audio level of each channels between 0 and 1Each level "
-#~ "should be separated with ':'."
-#~ msgstr ""
-#~ "প্রতিটি চ্যানেলের অডিও স্তরের মান 0 থেকে 1-এর মধ্যে, প্রতিটি স্তর ':' দ্বারা "
-#~ "বিভাজিত হওয়া আবশ্যক।"
-
-#~ msgid "X coordinate of the bargraph."
-#~ msgstr "বারগ্রাফের X স্থানাঙ্ক।"
-
-#~ msgid "Y coordinate of the bargraph."
-#~ msgstr "বারগ্রাফের Y স্থানাঙ্ক।"
-
-#~ msgid "Transparency of the bargraph"
-#~ msgstr "বারগ্রাফের স্বচ্ছতা"
-
-#~ msgid ""
-#~ "Bargraph transparency value (from 0 for full transparency to 255 for full "
-#~ "opacity)."
-#~ msgstr "বারগ্রাফের স্বচ্ছতার মান (পূর্ণ স্বচ্ছতার জন্য 0, পূর্ণ অস্বচ্ছতার জন্য 255)।"
-
-#~ msgid "Bargraph position"
-#~ msgstr "বারগ্রাফের অবস্থান"
-
-#~ msgid ""
-#~ "Enforce the bargraph position on the video (0=center, 1=left, 2=right, "
-#~ "4=top, 8=bottom, you can also use combinations of these values, eg 6 = "
-#~ "top-right)."
-#~ msgstr ""
-#~ "ভিডিওতে বারগ্রাফের অবস্থান পরিবর্তন কার্যকরী করা হবে (0=কেন্দ্র, 1=বাম, 2=ডান, "
-#~ "4=শীর্ষ, 8=নিম্ন, আপনি এই মানগুলোর সমন্বয়ও ব্যবহার করতে পারেন, যেমন 6=উপর-ডান)।"
-
-#~ msgid "Alarm"
-#~ msgstr "অ্যালার্ম"
-
-#~ msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
-#~ msgstr ""
-#~ "নীরবতার সিগন্যাল দেয় এবং প্রদর্শন করে এবং সতর্ক করে (0=কোনো অ্যালার্ম নেই, "
-#~ "1=অ্যালার্ম)।"
-
-#~ msgid "Bar width in pixel (default : 10)"
-#~ msgstr "বারের প্রস্থ পিক্সেলে (পূর্বনির্ধারিত : ১০)"
-
-#~ msgid ""
-#~ "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
-#~ msgstr ""
-#~ "BarGraph-এ প্রতিটি বার যেভাবে প্রদর্শিত হবে তার প্রস্থ পিক্সেলে (পূর্বনির্ধারিত : "
-#~ "১০)।"
-
-#~ msgid "Audio Bar Graph Video sub filter"
-#~ msgstr "অডিও বার গ্রাফ ভিডিও সাব ফিল্টার"
-
-#~ msgid "Audio Bar Graph Video"
-#~ msgstr "অডিও বার গ্রাফ ভিডিও"
-
-#~ msgid "Ball color"
-#~ msgstr "বলের রং"
-
-#~ msgid "Ball color, one of \"red\", \"blue\" and \"green\"."
-#~ msgstr "বলের রং, \"লাল\", \"নীল\" বা \"সবুজ\" যেকোনো একটি।"
-
-#~ msgid "Edge visible"
-#~ msgstr "প্রান্ত দৃশ্যমান"
-
-#~ msgid "Set edge visibility."
-#~ msgstr "প্রান্তের দৃশ্যমানতা নির্ধারণ করুন।"
-
-#~ msgid "Ball speed"
-#~ msgstr "বলের গতি"
-
-#~ msgid ""
-#~ "Set ball speed, the displacement value                                 in "
-#~ "number of pixels by frame."
-#~ msgstr ""
-#~ "বলের গতি নির্ধারণ করুন, ফ্রেম অনুযায়ী স্থানচ্যুতির "
-#~ "মান                                 পিক্সেলের সংখ্যায়।"
-
-#~ msgid "Ball size"
-#~ msgstr "বলের আকার"
-
-#~ msgid ""
-#~ "Set ball size giving its radius in number                                 "
-#~ "of pixels"
-#~ msgstr ""
-#~ "বলের আকার নির্ধারণ করুন সংখ্যায় ব্যাসার্ধ উল্লেখ "
-#~ "করে                                 পিক্সেল"
-
-#~ msgid "Gradient threshold"
-#~ msgstr "গ্রেডিয়েন্ট থ্রেশহোল্ড"
-
-#~ msgid "Set gradient threshold for edge computation."
-#~ msgstr "প্রান্ত গণনার জন্য গ্রেডিয়েন্ট সীমা নির্ধারণ করুন।"
-
-#~ msgid "Augmented reality ball game"
-#~ msgstr "সমৃদ্ধ বাস্তবসম্মত বল খেলা"
-
-#~ msgid "Ball video filter"
-#~ msgstr "বল ভিডিও পরিশোধক"
-
-#~ msgid "Ball"
-#~ msgstr "বল"
-
-#~ msgid "Afar"
-#~ msgstr "আফার"
-
-#~ msgid "Abkhazian"
-#~ msgstr "আবখাজিয়ান"
-
-#~ msgid "Afrikaans"
-#~ msgstr "আফ্রিকান"
-
-#~ msgid "Albanian"
-#~ msgstr "আলবেনিয়ান"
-
-#~ msgid "Amharic"
-#~ msgstr "আমহারিক"
-
-#~ msgid "Arabic"
-#~ msgstr "আরবী"
-
-#~ msgid "Armenian"
-#~ msgstr "আর্মেনিয়ান"
-
-#~ msgid "Assamese"
-#~ msgstr "আসামিয়"
-
-#~ msgid "Avestan"
-#~ msgstr "অ্যাভেস্তান"
-
-#~ msgid "Aymara"
-#~ msgstr "অ্যায়মারা"
-
-#~ msgid "Azerbaijani"
-#~ msgstr "আজারবাইজানীয়"
-
-#~ msgid "Bashkir"
-#~ msgstr "বাস্কির"
-
-#~ msgid "Basque"
-#~ msgstr "বাস্ক"
-
-#~ msgid "Belarusian"
-#~ msgstr "বেলারুশিয়ান"
-
-#~ msgid "Bengali"
-#~ msgstr "বাংলা"
-
-#~ msgid "Bihari"
-#~ msgstr "বিহারী"
-
-#~ msgid "Bislama"
-#~ msgstr "বিসলামা"
-
-#~ msgid "Bosnian"
-#~ msgstr "বসনিয়ান"
-
-#~ msgid "Breton"
-#~ msgstr "ব্রেটন"
-
-#~ msgid "Bulgarian"
-#~ msgstr "বুলগেরিয়ান"
-
-#~ msgid "Burmese"
-#~ msgstr "বুর্মিজ"
-
-#~ msgid "Catalan"
-#~ msgstr "ক্যাটালান"
-
-#~ msgid "Chamorro"
-#~ msgstr "চামোরো"
-
-#~ msgid "Chechen"
-#~ msgstr "চেচেন"
-
-#~ msgid "Chinese"
-#~ msgstr "চাইনিজ"
-
-#~ msgid "Church Slavic"
-#~ msgstr "চার্চ স্ল্যাভিক"
-
-#~ msgid "Chuvash"
-#~ msgstr "চুভাশ"
-
-#~ msgid "Cornish"
-#~ msgstr "কর্নিশ"
-
-#~ msgid "Corsican"
-#~ msgstr "কর্সিকান"
-
-#~ msgid "Czech"
-#~ msgstr "চেক"
-
-#~ msgid "Danish"
-#~ msgstr "ডেনিশ"
-
-#~ msgid "Dutch"
-#~ msgstr "ডাচ"
-
-#~ msgid "Dzongkha"
-#~ msgstr "জংখা"
-
-#~ msgid "English"
-#~ msgstr "ইংলিশ"
-
-#, fuzzy
-#~ msgid "Esperanto"
-#~ msgstr "দৃশ্যমান-অনুপাত"
-
-#~ msgid "Estonian"
-#~ msgstr "এস্তোনিয়ান"
-
-#~ msgid "Faroese"
-#~ msgstr "ফারোস"
-
-#~ msgid "Fijian"
-#~ msgstr "ফিজিয়ান"
-
-#~ msgid "Finnish"
-#~ msgstr "ফিনিশ"
-
-#~ msgid "French"
-#~ msgstr "ফ্রেঞ্চ"
-
-#~ msgid "Frisian"
-#~ msgstr "ফ্রিসিয়ান"
-
-#~ msgid "Georgian"
-#~ msgstr "জর্জিয়ান"
-
-#~ msgid "German"
-#~ msgstr "জার্মান"
-
-#~ msgid "Gaelic (Scots)"
-#~ msgstr "গেলিক (স্কট)"
-
-#~ msgid "Irish"
-#~ msgstr "আইরিশ"
-
-#~ msgid "Gallegan"
-#~ msgstr "গ্যালেগান"
-
-#~ msgid "Manx"
-#~ msgstr "ম্যান্ক্স"
-
-#~ msgid "Greek, Modern ()"
-#~ msgstr "গ্রীক, মডার্ন ০"
-
-#~ msgid "Guarani"
-#~ msgstr "গুয়ারানি"
-
-#~ msgid "Gujarati"
-#~ msgstr "গুজরাটি"
-
-#~ msgid "Hebrew"
-#~ msgstr "হিব্রু"
-
-#~ msgid "Herero"
-#~ msgstr "হেরেরো"
-
-#~ msgid "Hindi"
-#~ msgstr "হিন্ডি"
-
-#~ msgid "Hiri Motu"
-#~ msgstr "হিড়ি মটু"
-
-#~ msgid "Hungarian"
-#~ msgstr "হাঙ্গেরিয়ান"
-
-#~ msgid "Icelandic"
-#~ msgstr "আইসল্যান্ডিক"
-
-#~ msgid "Inuktitut"
-#~ msgstr "ইনুক্তিতুত"
-
-#, fuzzy
-#~ msgid "Interlingue"
-#~ msgstr "ইন্টারলিঙ্গুয়া"
-
-#~ msgid "Interlingua"
-#~ msgstr "ইন্টারলিঙ্গুয়া"
-
-#~ msgid "Indonesian"
-#~ msgstr "ইন্দোনেশিয়ান"
-
-#~ msgid "Inupiaq"
-#~ msgstr "ইনুপিয়াক"
-
-#~ msgid "Italian"
-#~ msgstr "ইটালিয়ান"
-
-#~ msgid "Javanese"
-#~ msgstr "জাভানি"
-
-#~ msgid "Japanese"
-#~ msgstr "জাপানি"
-
-#~ msgid "Kalaallisut (Greenlandic)"
-#~ msgstr "কালাল্লিসুট (গ্রীনল্যান্ডিক)"
-
-#~ msgid "Kannada"
-#~ msgstr "কাননাড়া"
-
-#~ msgid "Kashmiri"
-#~ msgstr "কাশ্মীরি"
-
-#, fuzzy
-#~ msgid "Kazakh"
-#~ msgstr "Karaoke"
-
-#~ msgid "Khmer"
-#~ msgstr "খামের"
-
-#~ msgid "Kikuyu"
-#~ msgstr "কিকুউ"
-
-#~ msgid "Kinyarwanda"
-#~ msgstr "কিনিআরোয়ান্ডা"
-
-#~ msgid "Kirghiz"
-#~ msgstr "কির্জিক"
-
-#~ msgid "Komi"
-#~ msgstr "কমি"
-
-#~ msgid "Korean"
-#~ msgstr "কোরিয়ান"
-
-#~ msgid "Kuanyama"
-#~ msgstr "কুয়ানিআমা"
-
-#~ msgid "Kurdish"
-#~ msgstr "কুর্দিশ"
-
-#~ msgid "Lao"
-#~ msgstr "লাও"
-
-#~ msgid "Latin"
-#~ msgstr "ল্যাটিন"
-
-#~ msgid "Latvian"
-#~ msgstr "লাটভিয়ান"
-
-#~ msgid "Lingala"
-#~ msgstr "লিনগালা"
-
-#~ msgid "Lithuanian"
-#~ msgstr "লিথুনিয়ান"
-
-#~ msgid "Letzeburgesch"
-#~ msgstr "লেজবুরগেশ"
-
-#~ msgid "Macedonian"
-#~ msgstr "ম্যাসেডোনিয়ান"
-
-#~ msgid "Marshall"
-#~ msgstr "মার্শাল"
-
-#~ msgid "Malayalam"
-#~ msgstr "মালায়ালাম"
-
-#~ msgid "Maori"
-#~ msgstr "মাওরি"
-
-#~ msgid "Marathi"
-#~ msgstr "মারাঠি"
-
-#~ msgid "Malay"
-#~ msgstr "মালায়"
-
-#~ msgid "Malagasy"
-#~ msgstr "মালাগাসি"
-
-#~ msgid "Maltese"
-#~ msgstr "মাল্তিজ"
-
-#~ msgid "Moldavian"
-#~ msgstr "মল্ডাভিয়ান"
-
-#~ msgid "Mongolian"
-#~ msgstr "মঙ্গোলিয়ান"
-
-#~ msgid "Nauru"
-#~ msgstr "নাউরু"
-
-#~ msgid "Navajo"
-#~ msgstr "নাভজো"
-
-#~ msgid "Ndebele, South"
-#~ msgstr "এনডেবেলে, দক্ষিন"
-
-#~ msgid "Ndebele, North"
-#~ msgstr "এনডেবেলে, উত্তর"
-
-#~ msgid "Ndonga"
-#~ msgstr "এনডোঙ্গা"
-
-#~ msgid "Nepali"
-#~ msgstr "নেপালি"
-
-#~ msgid "Norwegian"
-#~ msgstr "নরওয়েজিয়ান"
-
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "নরওয়েজিয়ান নাইনরস্ক"
-
-#~ msgid "Norwegian Bokmaal"
-#~ msgstr "নরওয়েজিয়ান বকমাল"
-
-#~ msgid "Chichewa; Nyanja"
-#~ msgstr "চিচেওয়া; নিয়ানজা"
-
-#~ msgid "Occitan (post 1500); Provencal"
-#~ msgstr "অক্কিটান (পোস্ট ১৫০০); প্রোভেনসাল"
-
-#~ msgid "Oriya"
-#~ msgstr "উড়িষ্যা"
-
-#~ msgid "Oromo"
-#~ msgstr "ওরোমো"
-
-#~ msgid "Ossetian; Ossetic"
-#~ msgstr "অসেশিয়ান; অসেটিক"
-
-#~ msgid "Panjabi"
-#~ msgstr "পাঞ্জাবি"
-
-#~ msgid "Persian"
-#~ msgstr "ফারসি"
-
-#~ msgid "Pali"
-#~ msgstr "পালি"
-
-#~ msgid "Polish"
-#~ msgstr "পোলিশ"
-
-#~ msgid "Portuguese"
-#~ msgstr "পর্তুগিজ"
-
-#~ msgid "Pushto"
-#~ msgstr "পুশতো"
-
-#~ msgid "Quechua"
-#~ msgstr "কোয়েচুয়া"
-
-#, fuzzy
-#~ msgid "Original audio"
-#~ msgstr "আসল আকার"
-
-#~ msgid "Raeto-Romance"
-#~ msgstr "রিটো-রোমান্স"
-
-#~ msgid "Romanian"
-#~ msgstr "রোমানিয়ান"
-
-#~ msgid "Rundi"
-#~ msgstr "রুন্ডি"
-
-#, fuzzy
-#~ msgid "Russian"
-#~ msgstr "ফিউশন"
-
-#~ msgid "Sango"
-#~ msgstr "সানগো"
-
-#, fuzzy
-#~ msgid "Sanskrit"
-#~ msgstr "প্রতিলিপি"
-
-#~ msgid "Serbian"
-#~ msgstr "সার্বিয়ান"
-
-#~ msgid "Croatian"
-#~ msgstr "ক্রোয়েশিয়ান"
-
-#~ msgid "Sinhalese"
-#~ msgstr "সিংহলী"
-
-#~ msgid "Slovak"
-#~ msgstr "স্লোভাক"
-
-#~ msgid "Slovenian"
-#~ msgstr "স্লোভেনিয়ান"
-
-#~ msgid "Northern Sami"
-#~ msgstr "উত্তর সামি"
-
-#~ msgid "Samoan"
-#~ msgstr "সামোয়ান"
-
-#~ msgid "Shona"
-#~ msgstr "শোনা"
-
-#~ msgid "Sindhi"
-#~ msgstr "সিন্ধী"
-
-#~ msgid "Somali"
-#~ msgstr "সোমালি"
-
-#~ msgid "Sotho, Southern"
-#~ msgstr "সোথো, দক্ষিনীয়"
-
-#~ msgid "Spanish"
-#~ msgstr "স্প্যানিশ"
-
-#~ msgid "Sardinian"
-#~ msgstr "সার্ডিনিয়ান"
-
-#~ msgid "Swati"
-#~ msgstr "সোয়াতি"
-
-#~ msgid "Sundanese"
-#~ msgstr "সানডানিজ"
-
-#~ msgid "Swahili"
-#~ msgstr "সোয়াহিলি"
-
-#~ msgid "Swedish"
-#~ msgstr "সুইডিশ"
-
-#~ msgid "Tahitian"
-#~ msgstr "তাহিশিয়ান"
-
-#~ msgid "Tamil"
-#~ msgstr "তামিল"
-
-#~ msgid "Tatar"
-#~ msgstr "তাতার"
-
-#~ msgid "Telugu"
-#~ msgstr "তেলেগু"
-
-#~ msgid "Tajik"
-#~ msgstr "তাজিক"
-
-#~ msgid "Tagalog"
-#~ msgstr "তাগালোগ"
-
-#~ msgid "Thai"
-#~ msgstr "থাই"
-
-#~ msgid "Tibetan"
-#~ msgstr "তিব্বতীয়ান"
-
-#~ msgid "Tigrinya"
-#~ msgstr "তিগরিনিয়া"
-
-#~ msgid "Tonga (Tonga Islands)"
-#~ msgstr "টোঙ্গা (টোঙ্গা দ্বীপ)"
-
-#~ msgid "Tswana"
-#~ msgstr "সাওয়ানা"
-
-#~ msgid "Tsonga"
-#~ msgstr "সোঙ্গা"
-
-#~ msgid "Turkish"
-#~ msgstr "তুর্কি"
-
-#~ msgid "Turkmen"
-#~ msgstr "তুর্কমেন"
-
-#~ msgid "Twi"
-#~ msgstr "টুই"
-
-#~ msgid "Uighur"
-#~ msgstr "আইজার"
-
-#, fuzzy
-#~ msgid "Ukrainian"
-#~ msgstr "ইউক্রেনিয়ান (KOI8-U)"
-
-#~ msgid "Urdu"
-#~ msgstr "ঊর্দূ"
-
-#~ msgid "Uzbek"
-#~ msgstr "উজবেক"
-
-#, fuzzy
-#~ msgid "Vietnamese"
-#~ msgstr "ভিয়েতনামী (VISCII)"
-
-#~ msgid "Volapuk"
-#~ msgstr "ভোলাপুক"
-
-#~ msgid "Welsh"
-#~ msgstr "ওয়েলশ"
-
-#~ msgid "Wolof"
-#~ msgstr "ওলফ"
-
-#~ msgid "Xhosa"
-#~ msgstr "ঝোসা"
-
-#~ msgid "Yiddish"
-#~ msgstr "ভিডিশ"
-
-#~ msgid "Yoruba"
-#~ msgstr "জরুবা"
-
-#~ msgid "Zhuang"
-#~ msgstr "ঝুয়াং"
-
-#~ msgid "Zulu"
-#~ msgstr "জুলু"
-
-#, fuzzy
-#~ msgid "HRD-timing information"
-#~ msgstr "সংস্করণ তথ্য মুদ্রণ করা হবে"
-
-#~ msgid "Privacy and Network Policies"
-#~ msgstr "গোপনতা এবং নেটওয়ার্ক নীতিমালা"
-
-#~ msgid "Privacy and Network Warning"
-#~ msgstr "গোপনতা এবং নেটওয়ার্ক সতর্কবানী"
-
-#, fuzzy
-#~ msgid ""
-#~ "<p><i>VideoLAN</i> prefers when applications request authorization before "
-#~ "accessing Internet.</p>\n"
-#~ "<p><b>VLC media player</b> can get information from the Internet in order "
-#~ "to get <b>media informations</b> or to check for available <b>updates</b>."
-#~ "</p>\n"
-#~ "<p><i>VLC media player</i> <b>doesn't</b> send or collect any "
-#~ "information, even anonymously, about your usage.</p>\n"
-#~ msgstr ""
-#~ "<p> <i>ভিডিওল্যান দল</i> অনুমোদন ছাড়া অনলাইনে অ্যাপ্লিকেশন ছাড় সমর্থন করে না।</"
-#~ "p>\n"
-#~ " <p><i>VLC মিডিয়া প্লেয়ার</i> CD কভার পাওয়ার জন্য অথবা হালনাগাদ পাওয়া যাবে "
-#~ "কিনা তা পরীক্ষা করার জন্য ইন্টারনেট থেকে খুব সীমিত তথ্য নিতে পারে।</p>\n"
-#~ "<p><i>VLC মিডিয়া প্লেয়ার</i> কখনও (এমনকি ভুল করেও) আপনার ব্যবহারের <b>কোনো</"
-#~ "b> তথ্য প্রেরন বা সংগ্রহ <b>করে না</b>।</p>\n"
-#~ "<p>কাজেই অনুগ্রহ করে কোন একটি নির্বাচন করা হবে, পূর্বনির্ধারিতভাবে ওয়েবে কোনো "
-#~ "প্রবেশাধিকার নেই।</p>\n"
-
-#~ msgid "Check for updates"
-#~ msgstr "আপডেট পরীক্ষা করুন"
-
-#, fuzzy
-#~ msgid "MTP devices"
-#~ msgstr "DVD ডিভাইস"
-
-#, fuzzy
-#~ msgid "MTP Device"
-#~ msgstr "ডিভাইস"
-
-#, fuzzy
-#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-#~ msgstr "সর্বনিম্ন ম্যাক OS X ওপেনGL ভিডিও আউটপুট (একটি সীমানাহীন উইন্ডো খোলে)"
-
-#~ msgid "Method used by libdvdcss for decryption"
-#~ msgstr "ডিক্রিপশনের জন্য libdvdcss দ্বারা ব্যবহৃত মেথড"
-
-#~ msgid ""
-#~ "Set the method used by libdvdcss for key decryption.\n"
-#~ "title: decrypted title key is guessed from the encrypted sectors of the "
-#~ "stream. Thus it should work with a file as well as the DVD device. But it "
-#~ "sometimes takes much time to decrypt a title key and may even fail. With "
-#~ "this method, the key is only checked at the beginning of each title, so "
-#~ "it won't work if the key changes in the middle of a title.\n"
-#~ "disc: the disc key is first cracked, then all title keys can be decrypted "
-#~ "instantly, which allows us to check them often.\n"
-#~ "key: the same as \"disc\" if you don't have a file with player keys at "
-#~ "compilation time. If you do, the decryption of the disc key will be "
-#~ "faster with this method. It is the one that was used by libcss.\n"
-#~ "The default method is: key."
-#~ msgstr ""
-#~ "কী ডিক্রিপশনের জন্য libdvdcss দ্বারা ব্যবহৃত মেথড নির্ধারণ করা হবে।\\nশিরোনাম: "
-#~ "স্ট্রীমের এনক্রিপ্টেড সেক্টর থেকে ডিক্রিপ্টেড শিরোনাম কী অনুমান করা হয়। ফলে এটি "
-#~ "DVD ডিভাইসের মতো যেকোনো ফাইলের সাথেও কাজ করবে। কিন্তু মাঝে মাঝে এটি একটি "
-#~ "শিরোনাম কী ডিক্রিপ্ট করতে বেশ সময় নেয় এবং এমনকি ব্যর্থও হতে পারে। এই মেথডে, "
-#~ "শুধুমাত্র প্রতিটি শিরোনামের শুরুতে কী-টি পরীক্ষা করা হয়, কাজেই কোনো শিরোনামের "
-#~ "মাঝে কী পরিবর্তিত হলে এটি কাজ করবে না।\\nডিস্ক: ডিস্ক কী-টি প্রথমে ক্র্যাক করা "
-#~ "হয়, তারপর সকল শিরোনাম কী-গুলো তাৎক্ষণিকভাবে ডিক্রিপ্ট করা যায়, যার ফলে আমরা "
-#~ "তাদেরকে প্রায়ই পরীক্ষা করতে পারি।\\nকী: যদি কম্পাইলেশনের সময় আপনার প্লেয়ার কী-"
-#~ "সহ কোনো ফাইল না থাকে তাহলে এটি \"ডিস্ক\" এর মতই। যদি আপনার থাকে, তাহলে এই "
-#~ "মেথডে কী এর ডিক্রিপশন দ্রুততর হবে। এটি libcss দ্বারা ব্যবহৃত হয়েছে।"
-#~ "\\nপূর্বনির্ধারিত মেথড হল: কী।"
-
-#~ msgid "title"
-#~ msgstr "শিরোনাম"
-
-#~ msgid "Key"
-#~ msgstr "কী"
-
-#~ msgid "Set"
-#~ msgstr "নির্ধারণ"
-
-#~ msgid "SDL video driver name"
-#~ msgstr "SDL ভিডিও ড্রাইভারের নাম"
-
-#~ msgid "Select the protocol for the URL."
-#~ msgstr "URL এর জন্য প্রোটোকল নির্বাচন করা হবে।"
-
-#~ msgid "Select the port used"
-#~ msgstr "ব্যবহৃত পোর্ট নির্বাচন করা হবে"
-
-#~ msgid "Use host codecs if available"
-#~ msgstr "যদি থাকে তবে হোস্ট কোডেক ব্যবহার করুন"
-
-#~ msgid "Other codecs"
-#~ msgstr "অন্যান্য কোডেক"
-
-#~ msgid "Settings for audio+video and miscellaneous decoders and encoders."
-#~ msgstr "অডিও+ভিডিও এবং বিবিধ ডিকোডার এবং এনকোডার-এর সেটিংসমূহ।"
-
-#~ msgid "Add Node"
-#~ msgstr "নোড যোগ করা হবে"
-
-#~ msgid "Random off"
-#~ msgstr "র‍‍্যান্ডম বন্ধ"
-
-#~ msgid "Add to playlist"
-#~ msgstr "প্লেলিস্টে যোগ করা হবে"
-
-#~ msgid "Advanced open..."
-#~ msgstr "খোলার উন্নত উপায়..."
-
-#~ msgid "%s: option `%s' is ambiguous\n"
-#~ msgstr "%s: `%s' অপশনটি দুর্বোধ্য\n"
-
-#~ msgid "%s: option `--%s' doesn't allow an argument\n"
-#~ msgstr "%s: `--%s' অপশনটি কোনো আর্গুমেন্ট সমর্থন করে না\n"
-
-#~ msgid "%s: option `%c%s' doesn't allow an argument\n"
-#~ msgstr "%s: `%c%s' অপশনটি কোনো আর্গুমেন্ট সমর্থন করে না\n"
-
-#~ msgid "%s: option `%s' requires an argument\n"
-#~ msgstr "%s: `%s' অপশনটির একটি আর্গুমেন্ট প্রয়োজন\n"
-
-#~ msgid "%s: unrecognized option `%s%s'\n"
-#~ msgstr "%s: অচেনা অপশন `%s%s'\n"
-
-#~ msgid "%s: illegal option -- %c\n"
-#~ msgstr "%s: অবৈধ অপশন -- %c\n"
-
-#~ msgid "%s: invalid option -- %c\n"
-#~ msgstr "%s: অকার্যকর অপশন -- %c\n"
-
-#~ msgid "%s: option requires an argument -- %c\n"
-#~ msgstr "%s: অপশনটির একটি আর্গুমেন্ট প্রয়োজন -- %c\n"
-
-#~ msgid "%s: option `-W %s' is ambiguous\n"
-#~ msgstr "%s: `-W %s' অপশনটি দুর্বোধ্য\n"
-
-#~ msgid "%s: option `-W %s' doesn't allow an argument\n"
-#~ msgstr "%s: `-W %s' অপশনটি কোনো আর্গুমেন্ট সমর্থন করে না\n"
-
-#~ msgid "VLC could not open the packetizer module."
-#~ msgstr "VLC প্যাকেটাইজার মডিউল খুলতে পারেনি।"
-
-#~ msgid "Show interface with mouse"
-#~ msgstr "মাউসের সাথে ইন্টারফেস প্রদর্শন করা হবে"
-
-#~ msgid ""
-#~ "When this is enabled, the interface is shown when you move the mouse to "
-#~ "the edge of the screen in fullscreen mode."
-#~ msgstr ""
-#~ "যখন এটি সক্রিয় করা হয়, তখন পর্দা জুড়ে প্রদর্শন মোডে যদি আপনি মাউসটি পর্দার "
-#~ "প্রান্তে নেন তবে ইন্টারফেসটি প্রদর্শন করা হবে।"
-
-#~ msgid "key and mouse event handling at vout level."
-#~ msgstr "ভৌট স্তরে কী (key) এবং মাউস ইভেন্ট হ্যান্ডলিং।"
-
-#~ msgid ""
-#~ "This parameter accepts values : 1 (full event handling support), 2 (event "
-#~ "handling only for fullscreen) or 3 (No event handling). Full event "
-#~ "handling support is the default value."
-#~ msgstr ""
-#~ "এই প্যারামিটারটি এই মানগুলো গ্রহণ করে: ১ (পূর্ণ ইভেন্ট হ্যান্ডলিং সমর্থন), ২ "
-#~ "(শুধুমাত্র পূর্ণপর্দার জন্য ইভেন্ট হ্যান্ডলিং) বা ৩ (কোনো ইভেন্ট হ্যান্ডলিং নয়)। "
-#~ "পূর্বনির্ধারিত মান হলো পূর্ণ ইভেন্ট হ্যান্ডলিং সমর্থন।"
-
-#~ msgid "Full support"
-#~ msgstr "পূর্ণসমর্থন"
-
-#~ msgid "Fullscreen-only"
-#~ msgstr "শুধুমাত্র-পূর্ণপর্দা"
-
-#~ msgid ""
-#~ "This is the default VCD device to use. If you don't specify anything, "
-#~ "we'll scan for a suitable CD-ROM device."
-#~ msgstr ""
-#~ "এই VCD ডিভাইসটি ব্যবহারের জন্য পূর্বনির্ধারিত। আপনি যদি কিছু উল্লেখ না করেন, "
-#~ "তাহলে আমরা একটি উপযুক্ত সিডি-রম ডিভাইস খুঁজে নেব।"
-
-#~ msgid ""
-#~ "This is the default Audio CD device to use. If you don't specify "
-#~ "anything, we'll scan for a suitable CD-ROM device."
-#~ msgstr ""
-#~ "এই অডিও CD ডিভাইসটি ব্যবহারের জন্য পূর্বনির্ধারিত। আপনি যদি কিছু উল্লেখ না করেন, "
-#~ "তাহলে আমরা একটি উপযুক্ত CD-ROM ডিভাইস খুঁজে নেব।"
-
-#~ msgid "Enable FPU support"
-#~ msgstr "FPU সমর্থন সক্রিয় করা হবে"
-
-#~ msgid ""
-#~ "If your processor has a floating point calculation unit, VLC can take "
-#~ "advantage of it."
-#~ msgstr ""
-#~ "যদি আপনার প্রসেসরের দশমিক সংখ্যা হিসাব করার একটি একক থাকে, VLC এর সুবিধা "
-#~ "নিতে পারে।"
-
-#~ msgid ""
-#~ "Toggle wallpaper mode in video output. Only works with the directx video "
-#~ "output for the time being."
-#~ msgstr ""
-#~ "ভিডিও আউটপুটে ওয়ালপেপার মোড টগল করা হবে। আপাতত শুধুমাত্র directx ভিডিও "
-#~ "আউটপুটের সাথে কাজ করে।"
-
-#~ msgid "save the current command line options in the config"
-#~ msgstr "কনফিগে বর্তমান কমান্ড লাইন অপশন সংরক্ষণ করা হবে"
-
-#~ msgid "%.1f kB"
-#~ msgstr "%.1f কিলোবাইট"
-
-#~ msgid "CD reading failed"
-#~ msgstr "সিডি পড়তে ব্যর্থ"
-
-#~ msgid "VLC could not get a new block of size: %i."
-#~ msgstr "VLC নতুন কোনো ব্লক পায়নি যার আকার: %i।"
-
-#~ msgid "overlap"
-#~ msgstr "ওভারল্যাপ"
-
-#~ msgid "full"
-#~ msgstr "পূর্ণ"
-
-#~ msgid ""
-#~ "This integer when viewed in binary is a debugging mask\n"
-#~ "meta info          1\n"
-#~ "events             2\n"
-#~ "MRL                4\n"
-#~ "external call      8\n"
-#~ "all calls (0x10)  16\n"
-#~ "LSN       (0x20)  32\n"
-#~ "seek      (0x40)  64\n"
-#~ "libcdio   (0x80) 128\n"
-#~ "libcddb  (0x100) 256\n"
-#~ msgstr ""
-#~ "এই ইন্টিজারটি একটি ডিবাগিং মাস্ক, যখন এটিকে বাইনারিতে দেখা হয়\n"
-#~ "মেটা ইনফো          ১\n"
-#~ "ইভেন্টসমূহ             ২\n"
-#~ "MRL                ৪\n"
-#~ "বাহ্যিক কল      ৮\n"
-#~ "সকল কল (0x10)  ১৬\n"
-#~ "LSN       (0x20)  ৩২\n"
-#~ "অনুসন্ধান      (0x40)  ৬৪\n"
-#~ "libcdio   (0x80) ১২৮\n"
-#~ "libcddb  (0x100) ২৫৬\n"
-
-#~ msgid ""
-#~ "Caching value for CDDA streams. This value should be set in millisecond "
-#~ "units."
-#~ msgstr "CDDA স্ট্রীমের জন্য ক্যাশিং মান। এই মানটি মিলিসেকেন্ডে নির্ধারণ করতে হবে।"
-
-#~ msgid ""
-#~ "How many CD blocks to get on a single CD read. Generally on newer/faster "
-#~ "CDs, this increases throughput at the expense of a little more memory "
-#~ "usage and initial delay. SCSI-MMC limitations generally don't allow for "
-#~ "more than 25 blocks per access."
-#~ msgstr ""
-#~ "একটি সিডি পড়ার সময় কতগুলো সিডি ব্লক পেতে হবে। সাধরনত নতুন/দ্রুততর সিডিগুলোতে, "
-#~ "খুব অল্প অতিরিক্ত মেমরী এবং প্রাথমিক বিলম্বের বিনিময়ে থ্রুপুট বেশি পাওয়া যায়। "
-#~ "SCSI-MMC প্রতিবন্ধকতাগুলো সাধারণত প্রতি এক্সেসে ২৫ ব্লকের বেশি সমর্থন করে না।"
-
-#~ msgid ""
-#~ "Format used in the GUI Playlist Title. Similar to the Unix date \n"
-#~ "Format specifiers that start with a percent sign. Specifiers are: \n"
-#~ "   %a : The artist (for the album)\n"
-#~ "   %A : The album information\n"
-#~ "   %C : Category\n"
-#~ "   %e : The extended data (for a track)\n"
-#~ "   %I : CDDB disk ID\n"
-#~ "   %G : Genre\n"
-#~ "   %M : The current MRL\n"
-#~ "   %m : The CD-DA Media Catalog Number (MCN)\n"
-#~ "   %n : The number of tracks on the CD\n"
-#~ "   %p : The artist/performer/composer in the track\n"
-#~ "   %T : The track number\n"
-#~ "   %s : Number of seconds in this track\n"
-#~ "   %S : Number of seconds in the CD\n"
-#~ "   %t : The track title or MRL if no title\n"
-#~ "   %Y : The year 19xx or 20xx\n"
-#~ "   %% : a % \n"
-#~ msgstr ""
-#~ "GUI প্লেলিস্ট শিরোনামে ব্যবহৃত বিন্যাস। ইউনিক্স তারিখের বিন্যাস\n"
-#~ "সদৃশ স্পেসিফায়ার যা একটি শতকরা চিহ্ন দিয়ে শুরু হয়। স্পেসিফায়ারগুলো হল:\n"
-#~ "   %a : শিল্পী (অ্যালবামের জন্য)\n"
-#~ "   %A : অ্যালবামের তথ্য\n"
-#~ "   %C : শ্রেণী\n"
-#~ "   %e : বর্ধিত ডাটা (একটি ট্র্যাকের জন্য)\n"
-#~ "   %I : CDDB ডিস্ক ID\n"
-#~ "   %G : ধরন\n"
-#~ "   %M : বর্তমান MRL\n"
-#~ "   %m : CD-DA মিডিয়া ক্যাটালগ সংখ্যা (MCN)\n"
-#~ "   %n : CD-র সর্বমোট ট্র্যাকের সংখ্যা\n"
-#~ "   %p : ট্র্যাকের শিল্পী/পারফর্মার/কম্পোজার\n"
-#~ "   %T : ট্র্যাকটি কত নম্বর\n"
-#~ "   %s : ট্র্যাকটিতে সেকেন্ডের সংখ্যা\n"
-#~ "   %S : CD-তে সর্বমোট সেকেন্ডের সংখ্যা\n"
-#~ "   %t : ট্র্যাক শিরোনাম বা MRL (যদি কোনো শিরোনাম না থাকে)\n"
-#~ "   %Y : বছর ১৯xx বা ২০xx\n"
-#~ "   %% : a % \n"
-
-#~ msgid ""
-#~ "Format used in the GUI Playlist Title. Similar to the Unix date \n"
-#~ "Format specifiers that start with a percent sign. Specifiers are: \n"
-#~ "   %M : The current MRL\n"
-#~ "   %m : The CD-DA Media Catalog Number (MCN)\n"
-#~ "   %n : The number of tracks on the CD\n"
-#~ "   %T : The track number\n"
-#~ "   %s : Number of seconds in this track\n"
-#~ "   %S : Number of seconds in the CD\n"
-#~ "   %t : The track title or MRL if no title\n"
-#~ "   %% : a % \n"
-#~ msgstr ""
-#~ "GUI প্লেলিস্ট শিরোনামে ব্যবহৃত বিন্যাস। ইউনিক্স তারিখের ফরম্যাট \n"
-#~ "সদৃশ স্পেসিফায়ার যা একটি শতকরা চিহ্ন দিয়ে শুরু হয়। স্পেসিফায়ারগুলো হল:\n"
-#~ "   %M : বর্তমান MRL\n"
-#~ "   %m : CD-DA মিডিয়া ক্যাটালগ সংখ্যা (MCN)\n"
-#~ "   %n : CD-র সর্বমোট ট্র্যাকের সংখ্যা\n"
-#~ "   %T : ট্র্যাকটি কত নম্বর\n"
-#~ "   %s : ট্র্যাকের সেকেন্ড সংখ্যা\n"
-#~ "   %S : সিডির সর্বমোট সেকেন্ড সংখ্যা\n"
-#~ "   %t : ট্র্যাক শিরোনাম বা MRL (যদি কোনো শিরোনাম না থাকে)\n"
-#~ "   %% : a % \n"
-
-#~ msgid "Enable CD paranoia?"
-#~ msgstr "সিডি প্যারানয়া সক্রিয় করা হবে?"
-
-#~ msgid ""
-#~ "Select whether to use CD Paranoia for jitter/error correction.\n"
-#~ "none: no paranoia - fastest.\n"
-#~ "overlap: do only overlap detection - not generally recommended.\n"
-#~ "full: complete jitter and error correction detection - slowest.\n"
-#~ msgstr ""
-#~ "জিটার/ত্রুটি সংশোধনের জন্য সিডি প্যারানয়া ব্যবহার করা হবে কিনা তা নির্বাচন করা "
-#~ "হবে।\n"
-#~ "কোনটি না: কোনো প্যারানয়া নয় - দ্রুততম।\n"
-#~ "ওভারল্যাপ: শুধুমাত্র ওভারল্যাপ সনাক্ত করা হবে - সাধারণত এটি সুপারিশকৃত নয়।\n"
-#~ "পূর্ণ: সম্পূর্ণ জিটার এবং ত্রুটি সমাধান সনাক্তকরণ - ধীরতম।\n"
-
-#~ msgid "cddax://[device-or-file][@[T]track]"
-#~ msgstr "cddax://[device-or-file][@[T]track]"
-
-#~ msgid "Compact Disc Digital Audio (CD-DA) input"
-#~ msgstr "কম্প্যাক্ট ডিস্ক ডিজিটাল অডিও (CD-DA) ইনপুট"
-
-#~ msgid "Audio Compact Disc"
-#~ msgstr "অডিও কম্প্যাক্ট ডিস্ক"
-
-#~ msgid "Additional debug"
-#~ msgstr "অতিরিক্ত ডিবাগ"
-
-#~ msgid "Caching value in microseconds"
-#~ msgstr "মাইক্রোসেকেন্ডে ক্যাশিং মান"
-
-#~ msgid "Format to use in playlist \"title\" field when no CDDB"
-#~ msgstr ""
-#~ "যখন CDDB অনুপস্থিত থাকে তখন প্লেলিস্টের \"শিরোনাম\" ফিল্ডে ব্যবহার করার বিন্যাস"
-
-#~ msgid "Use CD audio controls and output?"
-#~ msgstr "সিডি অডিও কন্ট্রোল এবং আউটপুট ব্যবহার করা হবে?"
-
-#~ msgid "If set, audio controls and audio jack output are used"
-#~ msgstr "যদি নির্ধারণ করা থাকে, অডিও কন্ট্রোল এবং অডিও জ্যাক আউটপুট ব্যবহার করা হয়"
-
-#~ msgid "Do CD-Text lookups?"
-#~ msgstr "সিডি-টেক্সট দেখা হবে?"
-
-#~ msgid "If set, get CD-Text information"
-#~ msgstr "যদি নির্ধারণ করা থাকে, সিডি-টেক্সট তথ্য নেয়া হবে"
-
-#~ msgid "Use Navigation-style playback?"
-#~ msgstr "নেভিগেশন-শৈলী প্লেব্যাক ব্যবহার করা হবে?"
-
-#~ msgid "Tracks are navigated via Navagation rather than a playlist entries"
-#~ msgstr ""
-#~ "ট্র্যাকসমূহ একটি প্লেলিস্টের এন্ট্রির পরিবর্তে নেভিগেশনের মাধ্যমে নেভিগেট করা হবে"
-
-#~ msgid "CDDB"
-#~ msgstr "CDDB"
-
-#~ msgid "Format to use in playlist \"title\" field when using CDDB"
-#~ msgstr "CDDB ব্যবহার করার সময় প্লেলিস্টের \"শিরোনাম\" ফিল্ডে ব্যবহারের বিন্যাস"
-
-#~ msgid "CDDB lookups"
-#~ msgstr "CDDB দেখা হবে"
-
-#~ msgid "If set, lookup CD-DA track information using the CDDB protocol"
-#~ msgstr ""
-#~ "যদি নির্ধারণ করা থাকে, CDDB প্রোটোকল ব্যবহার করে CD-DA ট্র্যাক তথ্য দেখা হবে"
-
-#~ msgid "CDDB server"
-#~ msgstr "CDDB সার্ভার"
-
-#~ msgid "Contact this CDDB server look up CD-DA information"
-#~ msgstr "CD-DA তথ্য দেখার জন্য এই CDDB সার্ভারের সাথে যোগাযোগ করা হবে"
-
-#~ msgid "CDDB server port"
-#~ msgstr "CDDB সার্ভার পোর্ট"
-
-#~ msgid "CDDB server uses this port number to communicate on"
-#~ msgstr "CDDB সার্ভার যোগাযোগ চালিয়ে যাওয়ার জন্য এই পোর্ট নম্বরটি ব্যবহার করে"
-
-#~ msgid "email address reported to CDDB server"
-#~ msgstr "CDDB সার্ভারে ইমেইল ঠিকানা প্রতিবেদন করা হয়েছে"
-
-#~ msgid "Cache CDDB lookups?"
-#~ msgstr "CDDB লুকআপ ক্যাশ করা হবে?"
-
-#~ msgid "If set cache CDDB information about this CD"
-#~ msgstr "যদি নির্ধারণ করা থাকে, এই সিডি সম্পর্কিত CDDB তথ্য ক্যাশ করা হবে"
-
-#~ msgid "Contact CDDB via the HTTP protocol?"
-#~ msgstr "HTTP প্রোটোকলের মাধ্যমে CDDB তে যোগাযোগ করা হবে?"
-
-#~ msgid "If set, the CDDB server gets information via the CDDB HTTP protocol"
-#~ msgstr ""
-#~ "যদি নির্ধারণ করা থাকে, CDDB সার্ভার CDDB HTTP প্রোটোকলের মাধ্যমে তথ্য পায়"
-
-#~ msgid "CDDB server timeout"
-#~ msgstr "CDDB সার্ভারের টাইম আউট"
-
-#~ msgid "Time (in seconds) to wait for a response from the CDDB server"
-#~ msgstr "CDDB সার্ভার থেকে সাড়া পেতে যতক্ষন অপেক্ষা করা হবে (সেকেন্ডে)"
-
-#~ msgid "Directory to cache CDDB requests"
-#~ msgstr "CDDB অনুরোধ ক্যাশ করার ডিরেক্টরি"
-
-#~ msgid "Prefer CD-Text info to CDDB info?"
-#~ msgstr "CDDB তথ্যের চেয়ে সিডি-টেক্সট তথ্য প্রাধান্য দেয়া হবে?"
-
-#~ msgid ""
-#~ "If set, CD-Text information will be preferred to CDDB information when "
-#~ "both are available"
-#~ msgstr ""
-#~ "যদি নির্ধারণ করা থাকে, CDDB তথ্যের চেয়ে সিডি-টেক্সট তথ্যকে প্রাধান্য দেয়া হবে "
-#~ "(যখন দুটোই উপস্থিত থাকে)"
-
-#~ msgid "Media Catalog Number (MCN)"
-#~ msgstr "মিডিয়া ক্যাটালগ নম্বর (MCN)"
-
-#~ msgid "Track %i"
-#~ msgstr "ট্র্যাক %i"
-
-#~ msgid "Standard filesystem directory input"
-#~ msgstr "স্ট্যান্ডার্ড ফাইলসিস্টেম ডিরেক্টরি ইনপুট"
-
-#~ msgid "audio filter for simple channel mixing"
-#~ msgstr "সরল চ্যানেল মিক্সিং এর জন্য অডিও পরিশোধক"
-
-#~ msgid "Floating-point audio format conversions"
-#~ msgstr "ফ্লোটিং-পয়েন্ট অডিও ফরম্যাট রুপান্তর"
-
-#~ msgid "Max level"
-#~ msgstr "সর্বোচ্চ স্তর"
-
-#~ msgid "Audio filter for linear interpolation resampling"
-#~ msgstr "লিনিয়ার ইন্টারপোলেশন রিস্যাম্পলিং-এর জন্য অডিও পরিশোধক"
-
-#~ msgid "Audio filter for trivial resampling"
-#~ msgstr "ট্রিভিয়াল রিস্যাম্পলিং-এর জন্য অডিও পরিশোধক"
-
-#~ msgid ""
-#~ "DirectX device number: 0 default device, 1..N device by number(Note that "
-#~ "the default device appears as 0 AND another number)."
-#~ msgstr ""
-#~ "DirectX ডিভাইসের নম্বর: 0 পূর্বনির্ধারিত ডিভাইস, 1..সংখ্যানুযায়ী N ডিভাইস (মনে "
-#~ "রাখবেন পূর্বনির্ধারিত ডিভাইসটি 0 এবং আরেকটি নম্বর হিসেবে দেখা যায়)।"
-
-#~ msgid "CMML annotations decoder"
-#~ msgstr "CMML অ্যানোটেশন ডিকোডার"
-
-#~ msgid "Wrapper for subtitle renderers using CSRI/asa"
-#~ msgstr "CSRI/asa ব্যবহার করে এমন সাবটাইটেলের জন্য মোড়ক"
-
-#~ msgid ""
-#~ "This module make possible making video stream from raw-image generating "
-#~ "(to memory) from rendering program uses libvlc. To use this module from "
-#~ "libvlc set --codec to invmem, set all --invmem-* options in vlc_argv an "
-#~ "use libvlc_media_new(libvlc, \"fake://\", &ex);. Besides is simillar to "
-#~ "vmem video output module."
-#~ msgstr ""
-#~ "এই মডিউলটি, libvlc নির্ভর রেন্ডারিং প্রোগ্রাম দ্বারা (মেমোরি তে) অশোধিত-চিত্র "
-#~ "থেকে ভিডিও স্ট্রীম তৈরি করতে সাহায্য করে। libvlc সেট থেকে এই মডিউল ব্যবহার "
-#~ "করতে --কোডেক থেকে invmem, vlc_argv এ সব --invmem-* অপশন নির্ধারণ করা হবে "
-#~ "এবং libvlc_media_new(libvlc, \"fake://\", &ex) ব্যবহকরাকরা হবেরুন; তাছাড়া "
-#~ "এটি vmem ভিডিও আউটপুট মডিউলের অনুরুপ।"
-
-#~ msgid "RealAudio library decoder"
-#~ msgstr "RealAudio লাইব্রেরি ডিকোডার"
-
-#~ msgid "Tarkin decoder"
-#~ msgstr "টার্কিন ডিকোডার "
-
-#~ msgid "Faster, less precise scenecut detection"
-#~ msgstr "দ্রুততর, কম নির্ভূল সিন-কাট শনাক্তকরন"
-
-#~ msgid ""
-#~ "Faster, less precise scenecut detection. Required and implied by multi-"
-#~ "threading."
-#~ msgstr ""
-#~ "দ্রুততর, কম নির্ভূল সিন-কাট শনাক্তকরন। মাল্টি-থ্রেডিং দ্বারা প্রয়োজনীয় এবং "
-#~ "বাস্তবায়িত।"
-
-#~ msgid ""
-#~ "Force the specified number of consecutive B-frames to be used, except "
-#~ "possibly before an I-frame."
-#~ msgstr ""
-#~ "উল্লেখিত সংখ্যক ধারাবহিক B-ফ্রেম ব্যবহার করতে বাধ্য করা হবে,সম্ভবত একটি I-"
-#~ "ফ্রেমের পূর্ব ব্যতীত।"
-
-#~ msgid ""
-#~ "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
-#~ "(fast)\n"
-#~ " - hex: hexagonal search, radius 2\n"
-#~ " - umh: uneven multi-hexagon search (better but slower)\n"
-#~ " - esa: exhaustive search (extremely slow, primarily for testing)\n"
-#~ msgstr ""
-#~ "গতি এস্টিমেশন এলগরিদম নির্বাচন করে:  - dia: ডায়মন্ড অনুসন্ধান, ব্যাসার্ধ ১ "
-#~ "(দ্রুত)\n"
-#~ " - hex: ষড়ভূজ অনুসন্ধান, ব্যাসার্ধ ২\n"
-#~ " - umh: অসম মাল্টি-ষড়ভূজ অনুসন্ধান (ভালো কিন্তু ধীরগতিসম্পন্ন)\n"
-#~ " - esa: exhaustive অনুসন্ধান (অত্যন্ত ধীরগতিসম্পন্ন, প্রাথমিকভাবে পরীক্ষণের জন্য)\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "This parameter controls quality versus speed tradeoffs involved in the "
-#~ "motion estimation decision process (lower = quicker and higher = better "
-#~ "quality). Range 1 to 7."
-#~ msgstr ""
-#~ "এই প্যারামিটারটি গুনমান বনাম গতি ট্রেডঅফ নিয়ন্ত্রন করে যা গতি এস্টিমেশন সিদ্ধান্ত "
-#~ "প্রসেসে অন্তর্ভুক্ত আছে (নিম্নতর = দ্রততর এবং উচ্চতর = ভালো গুনমান)। ১ থেকে ৭ "
-#~ "পর্যন্ত সীমা।"
-
-#~ msgid ""
-#~ "This parameter controls quality versus speed tradeoffs involved in the "
-#~ "motion estimation decision process (lower = quicker and higher = better "
-#~ "quality). Range 1 to 6."
-#~ msgstr ""
-#~ "এই প্যারামিটারটি গুনমান বনাম গতি ট্রেডঅফ নিয়ন্ত্রন করে যা গতি এস্টিমেশন সিদ্ধান্ত "
-#~ "প্রসেসে অন্তর্ভুক্ত আছে (নিম্নতর = দ্রততর এবং উচ্চতর = ভালো গুনমান)। ১ থেকে ৬ "
-#~ "পর্যন্ত সীমা।"
-
-#~ msgid ""
-#~ "This parameter controls quality versus speed tradeoffs involved in the "
-#~ "motion estimation decision process (lower = quicker and higher = better "
-#~ "quality). Range 1 to 5."
-#~ msgstr ""
-#~ "এই প্যারামিটারটি গুনমান বনাম গতি ট্রেডঅফ নিয়ন্ত্রন করে যা গতি এস্টিমেশন সিদ্ধান্ত "
-#~ "প্রসেসে অন্তর্ভুক্ত আছে (নিম্নতর = দ্রততর এবং উচ্চতর = ভালো গুনমান)। ১ থেকে ৫ "
-#~ "পর্যন্ত সীমা।"
-
-#~ msgid "MPEG I/II hw video decoder (using libmpeg2)"
-#~ msgstr "MPEG I/II hw ভিডিও ডিকোডার (libmpeg2 ব্যবহার করে)"
-
-#~ msgid "Deinterlace mode: %s"
-#~ msgstr "ডিইন্টারলেস মোড: %s"
-
-#~ msgid "%.2fx"
-#~ msgstr "%.2fx"
-
-#~ msgid "Act as master"
-#~ msgstr "মাস্টার হিসেবে কাজ করা হবে"
-
-#~ msgid "Should act as the master client for the network synchronisation?"
-#~ msgstr "নেটওয়ার্ক সিনক্রোনাইজেশনের জন্য মাস্টার ক্লায়েন্ট হিসেবে কাজ করা হবে কি?"
-
-#~ msgid "Unknown command!"
-#~ msgstr "অজানা কমান্ড!"
-
-#~ msgid "Threshold"
-#~ msgstr "থ্রেশহোল্ড"
-
-#~ msgid "Height of the zone triggering the interface."
-#~ msgstr "ইন্টারফেসকে যে জোনটি ট্রিগার করছে সেটির উচ্চতা।"
-
-#~ msgid "Ask"
-#~ msgstr "জিজ্ঞেস করা হবে"
-
-#~ msgid ""
-#~ "Allows you to modify the user name that will be used for authenticating "
-#~ "the connection."
-#~ msgstr ""
-#~ "এর মাধ্যমে আপনি সংযোগ প্রমাণীকরণ করার জন্য যে ব্যবহারকারী নাম ব্যবহার করা হবে "
-#~ "তা পরিবর্তন করতে পারবেন।"
-
-#~ msgid ""
-#~ "Allows you to modify the password that will be used for the connection."
-#~ msgstr ""
-#~ "সংযোগের জন্য যে পাসওয়ার্ড ব্যবহৃত হবে সেটি পরিবর্তন করতে আপনাকে অনুমোদন করা হবে।"
-
-#~ msgid "MPEG-4 video demuxer"
-#~ msgstr "MPEG-4 ভিডিও ডিমাক্সার"
-
-#~ msgid "MPEG-4 V"
-#~ msgstr "MPEG-4 V"
-
-#~ msgid "Use DVD Menus"
-#~ msgstr "DVD মেনু ব্যবহার করুন"
-
-#~ msgid "BeOS standard API interface"
-#~ msgstr "BeOS স্ট্যান্ডার্ড API ইন্টারফেস"
-
-#~ msgid "Open files from all sub-folders as well?"
-#~ msgstr "সকল সাব-ফোল্ডার থেকেও কি ফাইল খোলা হবে?"
-
-#~ msgid "Open Disc"
-#~ msgstr "ডিস্ক খুলুন"
-
-#~ msgid "Open Subtitles"
-#~ msgstr "সাবটাইটেল খুলুন"
-
-#~ msgid "Prev Title"
-#~ msgstr "পূর্ববর্তী শিরোনাম"
-
-#~ msgid "Next Title"
-#~ msgstr "পরবর্তী শিরোনাম"
-
-#~ msgid "Go to Title"
-#~ msgstr "শিরোনামে যান"
-
-#~ msgid "Go to Chapter"
-#~ msgstr "অধ্যায়ে যান"
-
-#~ msgid "Speed"
-#~ msgstr "গতি"
-
-#~ msgid "VLC media player: Open Media Files"
-#~ msgstr "VLC মিডিয়া প্লেয়ার: মিডিয়া ফাইল খুলুন"
-
-#~ msgid "VLC media player: Open Subtitle File"
-#~ msgstr "VLC মিডিয়া প্লেয়ার: সাবটাইটেল ফাইল খুলুন"
-
-#~ msgid "Drop files to play"
-#~ msgstr "চালানোর জন্য ফাইল টেনে এনে ছাড়ুন"
-
-#~ msgid "playlist"
-#~ msgstr "প্লে-লিস্ট"
-
-#~ msgid "Close"
-#~ msgstr "বন্ধ করা হবে"
-
-#~ msgid "Select None"
-#~ msgstr "কিছুই নির্বাচন করবেন না"
-
-#~ msgid "Sort Reverse"
-#~ msgstr "উল্টাদিকে সাজান"
-
-#~ msgid "Sort by Path"
-#~ msgstr "পথ অনুসারে সাজান"
-
-#~ msgid "Randomize"
-#~ msgstr "র‍্যান্ডোমাইজ"
-
-#~ msgid "Remove All"
-#~ msgstr "সমস্ত মুছে ফেলুন"
-
-#~ msgid "Defaults"
-#~ msgstr "পূর্বনির্ধারিত"
-
-#~ msgid "Show Interface"
-#~ msgstr "ইন্টারফেস প্রদর্শন করা হবে"
-
-#~ msgid "50%"
-#~ msgstr "৫০%"
-
-#~ msgid "100%"
-#~ msgstr "১০০%"
-
-#~ msgid "200%"
-#~ msgstr "২০০%"
-
-#~ msgid "Vertical Sync"
-#~ msgstr "উল্লম্ব সিনক্রোনাইজেশন"
-
-#~ msgid "Correct Aspect Ratio"
-#~ msgstr "সঠিক দৃশ্যমান অনুপাত"
-
-#~ msgid "Stay On Top"
-#~ msgstr "শীর্ষে অবস্থান করা হবে"
-
-#~ msgid "Take Screen Shot"
-#~ msgstr "স্ক্রিন শট নিন"
-
-#~ msgid "VLC's last release for your OS is the 0.9 series."
-#~ msgstr "আপনার OS এর জন্য VLC এর সর্বশেষ মুক্তিপ্রাপ্ত ক্রমটি হলো ০.৯।"
-
-#~ msgid ""
-#~ "VLC's last release for your OS is VLC 0.8.6i, which is prone to known "
-#~ "security issues."
-#~ msgstr ""
-#~ "আপনার OS এর জন্য VLC এর সর্বশেষ মুক্তিপ্রাপ্ত সংস্করণটি হলো VLC 0.8.6i যাতে "
-#~ "পরিচিত নিরাপত্তাজনিত সমস্যা থাকতে পারে।"
-
-#~ msgid ""
-#~ "VLC's last release for your OS is VLC 0.7.2, which is highly out of date "
-#~ "and prone to known security issues. We recommend you to update your Mac "
-#~ "to a modern version of Mac OS X."
-#~ msgstr ""
-#~ "আপনার OS এর জন্য VLC এর সর্বশেষ মুক্তিপ্রাপ্ত সংস্করণটি হলো VLC 0.7.2 যার "
-#~ "মেয়াদউত্তীর্ন হয়েছে এবং যাতে পরিচিত নিরাপত্তা জনিত সমস্যা থাকতে পারে। আপনার "
-#~ "Mac কে Mac OS X এর সাম্প্রতিক সংস্করণে হালনাগাদ করার সুপারিশ করছি।"
-
-#~ msgid "Your version of Mac OS X is no longer supported"
-#~ msgstr "আপনার ম্যাক OS X এর সংস্করন আর সমর্থিত নয়"
-
-#~ msgid ""
-#~ "VLC media player %s requires Mac OS X 10.5 or higher.\n"
-#~ "\n"
-#~ "%@"
-#~ msgstr ""
-#~ "VLC মিডিয়া প্লেয়ারের %s ম্যাক OS X 10.5 অথবা উচ্চ সংস্কণ প্রয়োজন।\n"
-#~ "%@"
-
-#~ msgid "Update check failed"
-#~ msgstr "হালনাগাদ পরীক্ষণ ব্যর্থ"
-
-#~ msgid "Checking for updates was not enabled in this build."
-#~ msgstr "এই বিল্ড-এ হালনাগাদ পরীক্ষণ সক্রিয় করা নেই।"
-
-#~ msgid "Check for Updates"
-#~ msgstr "হালনাগাদ পরীক্ষা করা হবে"
-
-#~ msgid "Download now"
-#~ msgstr "এখনই ডাউনলোড করা হবে"
-
-#~ msgid "Do you want VLC to check for updates automatically?"
-#~ msgstr "আপনি কি চান যে VLC স্বয়ংক্রিয়ভাবে হালনাগাদ পরীক্ষা করবে?"
-
-#~ msgid "You can change this option in VLC's update window later on."
-#~ msgstr "আপনি পরে VLC এর হালনাগাদ উইন্ডোতে এই অপশনটি পরিবর্তন করতে পারবেন।"
-
-#~ msgid "No"
-#~ msgstr "না"
-
-#~ msgid "This version of VLC is the latest available."
-#~ msgstr "VLC এর এই সংস্করনটি সবচেয়ে নতুন।"
-
-#~ msgid "This version of VLC is outdated."
-#~ msgstr "VLC এর এই সংস্করনটি পুরনো।"
-
-#~ msgid "The current release is %d.%d.%d%c."
-#~ msgstr "সম্প্রতি মুক্তিপ্রাপ্ত সংস্করণটি হলো %d.%d.%d%c ।"
-
-#~ msgid "Autoplay selected file"
-#~ msgstr "নির্বাচিত ফাইল স্বয়ংক্রিয়ভাবে চালানো হবে"
-
-#~ msgid "Automatically play a file when selected in the file selection list"
-#~ msgstr ""
-#~ "ফাইল নির্বাচন তালিকায় কোনো ফাইল নির্বাচন করা হলে সেটি স্বয়ংক্রিয়ভাবে চালানো "
-#~ "হবে"
-
-#~ msgid "PDA Linux Gtk2+ interface"
-#~ msgstr "PDA লিনাক্স Gtk2+ ইন্টারফেস"
-
-#~ msgid "Permissions"
-#~ msgstr "অনুমতিসমূহ"
-
-#~ msgid "Size"
-#~ msgstr "আকার"
-
-#~ msgid "Owner"
-#~ msgstr "মালিক"
-
-#~ msgid "Forward"
-#~ msgstr "সামনে যান"
-
-#~ msgid "00:00:00"
-#~ msgstr "00:00:00"
-
-#~ msgid "MRL:"
-#~ msgstr "MRL:"
-
-#~ msgid "Port:"
-#~ msgstr "পোর্ট:"
-
-#~ msgid "Address:"
-#~ msgstr "ঠিকানা:"
-
-#~ msgid "unicast"
-#~ msgstr "ইউনিকাস্ট"
-
-#~ msgid "multicast"
-#~ msgstr "মাল্টিকাস্ট"
-
-#~ msgid "Network: "
-#~ msgstr "নেটওয়ার্ক:"
-
-#~ msgid "udp"
-#~ msgstr "udp"
-
-#~ msgid "udp6"
-#~ msgstr "udp6"
-
-#~ msgid "rtp"
-#~ msgstr "rtp"
-
-#~ msgid "rtp4"
-#~ msgstr "rtp4"
-
-#~ msgid "ftp"
-#~ msgstr "ftp"
-
-#~ msgid "http"
-#~ msgstr "http"
-
-#~ msgid "sout"
-#~ msgstr "sout"
-
-#~ msgid "mms"
-#~ msgstr "mms"
-
-#~ msgid "Protocol:"
-#~ msgstr "প্রোটোকল:"
-
-#~ msgid "Transcode:"
-#~ msgstr "ট্রান্সকোড:"
-
-#~ msgid "enable"
-#~ msgstr "সক্রিয় করা হবে"
-
-#~ msgid "Video:"
-#~ msgstr "ভিডিও:"
-
-#~ msgid "Audio:"
-#~ msgstr "অডিও:"
-
-#~ msgid "Channel:"
-#~ msgstr "চ্যানেল:"
-
-#~ msgid "Norm:"
-#~ msgstr "নর্ম:"
-
-#~ msgid "Size:"
-#~ msgstr "আকার:"
-
-#~ msgid "Frequency:"
-#~ msgstr "কম্পাঙ্ক:"
-
-#~ msgid "Samplerate:"
-#~ msgstr "স্যাম্পলরেট:"
-
-#~ msgid "Quality:"
-#~ msgstr "গুনাগুন:"
-
-#~ msgid "Tuner:"
-#~ msgstr "টিউনার:"
-
-#~ msgid "Sound:"
-#~ msgstr "শব্দ:"
-
-#~ msgid "MJPEG:"
-#~ msgstr "MJPEG:"
-
-#~ msgid "Decimation:"
-#~ msgstr "ডেসিমেশন:"
-
-#~ msgid "pal"
-#~ msgstr "pal"
-
-#~ msgid "ntsc"
-#~ msgstr "ntsc"
-
-#~ msgid "secam"
-#~ msgstr "secam"
-
-#~ msgid "240x192"
-#~ msgstr "২৪০x১৯২"
-
-#~ msgid "320x240"
-#~ msgstr "৩২০x২৪০"
-
-#~ msgid "qsif"
-#~ msgstr "qsif"
-
-#~ msgid "qcif"
-#~ msgstr "qcif"
-
-#~ msgid "sif"
-#~ msgstr "sif"
-
-#~ msgid "cif"
-#~ msgstr "cif"
-
-#~ msgid "vga"
-#~ msgstr "vga"
-
-#~ msgid "kHz"
-#~ msgstr "কিলোহার্জ"
-
-#~ msgid "Hz/s"
-#~ msgstr "হার্জ/সেকেন্ড"
-
-#~ msgid "mono"
-#~ msgstr "মোনো"
-
-#~ msgid "stereo"
-#~ msgstr "স্টেরিও"
-
-#~ msgid "Camera"
-#~ msgstr "ক্যামেরা"
-
-#~ msgid "Video Codec:"
-#~ msgstr "ভিডিও কোডেক:"
-
-#~ msgid "huffyuv"
-#~ msgstr "huffyuv"
-
-#~ msgid "mp1v"
-#~ msgstr "mp1v"
-
-#~ msgid "mp2v"
-#~ msgstr "mp2v"
-
-#~ msgid "mp4v"
-#~ msgstr "mp4v"
-
-#~ msgid "H263"
-#~ msgstr "H263"
-
-#~ msgid "WMV1"
-#~ msgstr "WMV1"
-
-#~ msgid "WMV2"
-#~ msgstr "WMV2"
-
-#~ msgid "Video Bitrate:"
-#~ msgstr "ভিডিও বিটরেট:"
-
-#~ msgid "Bitrate Tolerance:"
-#~ msgstr "বিটরেট সহিষ্ণুতা:"
-
-#~ msgid "Keyframe Interval:"
-#~ msgstr "কীফ্রেম বিরতি:"
-
-#~ msgid "Audio Codec:"
-#~ msgstr "অডিও কোডেক:"
-
-#~ msgid "Deinterlace:"
-#~ msgstr "ডিইন্টারলেস:"
-
-#~ msgid "Access:"
-#~ msgstr "প্রবেশাধিকার:"
-
-#~ msgid "URL:"
-#~ msgstr "URL:"
-
-#~ msgid "Time To Live (TTL):"
-#~ msgstr "টাইম টু লিভ (TTL):"
-
-#~ msgid "127.0.0.1"
-#~ msgstr "127.0.0.1"
-
-#~ msgid "localhost"
-#~ msgstr "localhost"
-
-#~ msgid "localhost.localdomain"
-#~ msgstr "localhost.localdomain"
-
-#~ msgid "239.0.0.42"
-#~ msgstr "239.0.0.42"
-
-#~ msgid "TS"
-#~ msgstr "TS"
-
-#~ msgid "MPEG1"
-#~ msgstr "MPEG1"
-
-#~ msgid "OGG"
-#~ msgstr "OGG"
-
-#~ msgid "MOV"
-#~ msgstr "MOV"
-
-#~ msgid "ASF"
-#~ msgstr "ASF"
-
-#~ msgid "kbits/s"
-#~ msgstr "কিলোবিট/সেকেন্ড"
-
-#~ msgid "alaw"
-#~ msgstr "alaw"
-
-#~ msgid "ulaw"
-#~ msgstr "ulaw"
-
-#~ msgid "mpga"
-#~ msgstr "mpga"
-
-#~ msgid "mp3"
-#~ msgstr "mp3"
-
-#~ msgid "a52"
-#~ msgstr "a52"
-
-#~ msgid "vorb"
-#~ msgstr "vorb"
-
-#~ msgid "bits/s"
-#~ msgstr "বিট/সেকেন্ড"
-
-#~ msgid "Audio Bitrate :"
-#~ msgstr "অডিও বিটরেট:"
-
-#~ msgid "SAP Announce:"
-#~ msgstr "SAP ঘোষনা:"
-
-#~ msgid "SLP Announce:"
-#~ msgstr "SLP ঘোষনা:"
-
-#~ msgid "Announce Channel:"
-#~ msgstr "চ্যানেল ঘোষনা:"
-
-#~ msgid " Clear "
-#~ msgstr " পরিষ্কার করা হবে"
-
-#~ msgid " Save "
-#~ msgstr " সংরক্ষণ করা হবে"
-
-#~ msgid " Apply "
-#~ msgstr " প্রয়োগ করা হবে"
-
-#~ msgid " Cancel "
-#~ msgstr " বাতিল করা হবে"
-
-#~ msgid "Preference"
-#~ msgstr "পছন্দসমূহ"
-
-#~ msgid ""
-#~ "VLC media player is an MPEG, MPEG 2, MP3 and DivX player that accepts "
-#~ "input from local or network sources and is licensed under the GPL (http://"
-#~ "www.gnu.org/copyleft/gpl.html)."
-#~ msgstr ""
-#~ "VLC মিডিয়া প্লেয়ার একটি MPEG, MPEG 2, MP3 এবং DivX প্লেয়ার যা স্থানীয় অথবা "
-#~ "নেটওয়ার্ক উৎস থেকে ইনপুট নিতে পারে এবং GPL (http://www.gnu.org/copyleft/gpl."
-#~ "html) এর অধীনে লাইসেন্সকৃত।"
-
-#~ msgid "Authors: the VideoLAN Team, http://www.videolan.org/team/"
-#~ msgstr "লেখকবৃন্দ: ভিডিওল্যান দল, http://www.videolan.org/team/"
-
-#~ msgid "(c) 1996-2004 the the VideoLAN team team"
-#~ msgstr "(c) ১৯৯৬-২০০৪ ভিডিওল্যান দল"
-
-#~ msgid "Couldn't find pixmap file: %s"
-#~ msgstr "পিক্সম্যাপ ফাইল পাওয়া যায়নি: %s"
-
-#~ msgid "QNX RTOS video and audio output"
-#~ msgstr "QNX RTOS ভিডিও এবং অডিও আউটপুট"
-
-#~ msgid "Statistics about the currently playing media or stream."
-#~ msgstr "বর্তমানে চালানো মিডিয়া বা স্ট্রিমের পরিসংখ্যান।"
-
-#~ msgid "Corrupted"
-#~ msgstr "নষ্ট হয়ে যাওয়া"
-
-#~ msgid "Show the current item"
-#~ msgstr "বর্তমান উপাদান প্রদর্শন করা হবে"
-
-#~ msgid "Audio Port"
-#~ msgstr "অডিও পোর্ট:"
-
-#~ msgid "Video Port"
-#~ msgstr "ভিডিও পোর্ট"
-
-#~ msgid "Classic look"
-#~ msgstr "ক্ল্যাসিক দর্শন"
-
-#~ msgid "Complete look with information area"
-#~ msgstr "তথ্যের স্থান সহকারে পূর্ণ দর্শন"
-
-#~ msgid "Select play mode"
-#~ msgstr "চালানোর মোড নির্বাচন করা হবে"
-
-#~ msgid "Alignment:"
-#~ msgstr "প্রান্তিককরণ:"
-
-#~ msgid "Default volume"
-#~ msgstr "পূর্বনির্ধারিত ভলিউম"
-
-#~ msgid "256 corresponds to 100%, 1024 to 400%"
-#~ msgstr "২৫৬ মানে ১০০%, ১০২৪ মানে ৪০০%"
-
-#~ msgid "Save volume on exit"
-#~ msgstr "প্রস্থানের সময় ভলিউম সংরক্ষণ করা হবে"
-
-#~ msgid "last.fm"
-#~ msgstr "last.fm"
-
-#~ msgid "Enable last.fm submission"
-#~ msgstr "last.fm জমা সক্রিয় করা হবে"
-
-#~ msgid "Disc Devices"
-#~ msgstr "ডিস্ক ডিভাইস"
-
-#~ msgid "Server default port"
-#~ msgstr "সার্ভারের পূর্বনির্ধারিত পোর্ট"
-
-#~ msgid "Post-Processing quality"
-#~ msgstr "প্রসেসিং এর পরের মান"
-
-#~ msgid "Repair AVI files"
-#~ msgstr "AVI ফাইলসমূহ সংশোধন করা হবে"
-
-#~ msgid "Association Setup"
-#~ msgstr "সংশ্লিষ্টতা সেটআপ"
-
-#~ msgid "Filter"
-#~ msgstr "পরিশোধক"
-
-#~ msgid "Interface Type"
-#~ msgstr "ইন্টারফেসের ধরন"
-
-#~ msgid "Native"
-#~ msgstr "স্থানীয়"
-
-# Translated by sadia
-#~ msgid "Display mode"
-#~ msgstr "প্রদর্শন মোড"
-
-#~ msgid "Show a controller in fullscreen"
-#~ msgstr "পর্দা জুড়ে নিয়ন্ত্রক প্রদর্শন করা হবে"
-
-# Translated by sadia
-#~ msgid "Skin file"
-#~ msgstr "স্কিন ফাইল"
-
-#~ msgid ""
-#~ "\n"
-#~ "(WinCE interface)\n"
-#~ "\n"
-#~ msgstr ""
-#~ "\n"
-#~ "(WinCE ইন্টারফেস)\n"
-#~ "\n"
-
-#~ msgid ""
-#~ "(c) 1996-2008 - the VideoLAN Team\n"
-#~ "\n"
-#~ msgstr "(c) ১৯৯৬-২০০৮ - ভিডিওল্যান দল\n"
-
-#~ msgid "Compiled by "
-#~ msgstr "কম্পাইল করেছেন"
-
-#~ msgid ""
-#~ "The VideoLAN team <videolan@videolan.org>\n"
-#~ "http://www.videolan.org/"
-#~ msgstr ""
-#~ "ভিডিওল্যান দল <videolan@videolan.org>\n"
-#~ "http://www.videolan.org/"
-
-#~ msgid "Open:"
-#~ msgstr "খুলুন:"
-
-#~ msgid ""
-#~ "Alternatively, you can build an MRL using one of the following predefined "
-#~ "targets:"
-#~ msgstr ""
-#~ "বিকল্পভাবে, আপনি নিম্নের যেকোনো একটি পূর্বনির্ধারিত টার্গেট ব্যবহার করে একটি MRL "
-#~ "তৈরি করতে পারেন:"
-
-#~ msgid "Choose directory"
-#~ msgstr "ডিরেক্টরি নির্বাচন করা হবে"
-
-#~ msgid "Choose file"
-#~ msgstr "ফাইল নির্বাচন করা হবে"
-
-#~ msgid ""
-#~ "Embed the video inside the interface instead of having it in a separate "
-#~ "window."
-#~ msgstr "ভিডিওকে পৃথক উইন্ডোতে দেখার পরিবর্তে ইন্টারফেসের ভিতরে এমবেড করা হবে।"
-
-#~ msgid "WinCE interface"
-#~ msgstr "WinCE ইন্টারফেস"
-
-#~ msgid "WinCE dialogs provider"
-#~ msgstr "WinCE ডায়লগ প্রদানকারী"
-
-#~ msgid "Dummy access function"
-#~ msgstr "মেকি নিবেশন ফাংশন"
-
-#~ msgid "Gtk+ GUI helper"
-#~ msgstr "Gtk+ GUI সহায়তাদানকারী"
-
-#~ msgid "Old playlist export"
-#~ msgstr "পুরনো প্লে-লিস্ট এক্সপোর্ট"
-
-#~ msgid "HAL devices detection"
-#~ msgstr "HAL ডিভাইস সনাক্তকরন"
-
-#~ msgid "Run as standalone Qt/Embedded GUI Server"
-#~ msgstr "স্ট্যান্ডঅ্যালোন Qt/সন্নিবেশিত GUI সার্ভার হিসেবে চালান"
-
-#~ msgid ""
-#~ "Use this option to run as standalone Qt/Embedded GUI Server. This option "
-#~ "is equivalent to the -qws option from normal Qt."
-#~ msgstr ""
-#~ "স্ট্যান্ডঅ্যালোন Qt/সন্নিবেশিত GUI সার্ভার হিসেবে চালানোর জন্য এই অপশনটি ব্যবহার "
-#~ "করা হবে। এই অপশনটি সাধারন Qt এর -qws অপশনের সমতুল্য।"
-
-#~ msgid "Qt Embedded GUI helper"
-#~ msgstr "Qt সন্নিবেশিত GUI সহায়তাকারী"
-
-#~ msgid "video"
-#~ msgstr "ভিডিও"
-
-#~ msgid "Mac Text renderer"
-#~ msgstr "Mac লেখ রেন্ডারার"
-
-#~ msgid "Quartz font renderer"
-#~ msgstr "Quartz ফন্ট রেন্ডারার"
-
-#~ msgid "C module that does nothing"
-#~ msgstr "C মডিউল যা কিছুই করে না"
-
-#~ msgid "Miscellaneous stress tests"
-#~ msgstr "বিবিধ স্ট্রেস পরীক্ষা"
-
-#~ msgid "SAP Announcements"
-#~ msgstr "SAP ঘোষনাসমূহ"
-
-#~ msgid "Les Guignols"
-#~ msgstr "Les Guignols"
-
-#~ msgid "Canal +"
-#~ msgstr "Canal +"
-
-#~ msgid "Shoutcast Radio"
-#~ msgstr "শাউটকাস্ট রেডিও"
-
-#~ msgid "Shoutcast TV"
-#~ msgstr "শাউটকাস্ট TV"
-
-#~ msgid "Shoutcast radio listings"
-#~ msgstr "শাউটকাস্ট রেডিও তালিকাভুক্ত করা"
-
-#~ msgid "Shoutcast TV listings"
-#~ msgstr "শাউটকাস্ট TV তালিকাভুক্ত করা"
-
-#~ msgid "Freebox TV listing (French ISP free.fr services)"
-#~ msgstr "ফ্রিবক্স TV তালিকাভুক্ত করা (ফ্রেঞ্চ ISP free.fe সার্ভিস)"
-
-#~ msgid "Filter mode"
-#~ msgstr "পরিশোধক মোড"
-
-#~ msgid "kind of filtering which should be use to calcuate the color output"
-#~ msgstr "রঙের আউটপুট হিসাব করার জন্য যে ধরনের পরিশোধন প্রক্রিয়া ব্যবহার করতে হবে"
-
-#~ msgid "summary"
-#~ msgstr "সারসংক্ষেপ"
-
-#~ msgid "left"
-#~ msgstr "বাম"
-
-#~ msgid "right"
-#~ msgstr "ডান"
-
-#~ msgid "bottom"
-#~ msgstr "নিচ"
-
-#~ msgid "Use built-in AtmoLight"
-#~ msgstr "বিল্ট-ইন AtmoLight ব্যবহার করা হবে"
-
-#~ msgid ""
-#~ "VLC will directly use your AtmoLight hardware without running the "
-#~ "external AtmoWinA.exe Userspace driver."
-#~ msgstr ""
-#~ "বাহ্যিক AtmoWinA.exe Userspace ড্রাইভার না চালিয়ে VLC সরাসরি আপনার "
-#~ "AtmoLight হার্ডওয়্যার ব্যবহার করবে।"
-
-#~ msgid "Choose between the built-in AtmoLight driver or the external"
-#~ msgstr ""
-#~ "বিল্ট-ইন AtmoLight ড্রাইভার এবং বাহ্যিক ড্রাইভারের মধ্যে যেকোন একটি নির্বাচন "
-#~ "করা হবে"
-
-#~ msgid "Enter the connection of your AtmoLight hardware"
-#~ msgstr "আপনার AtmoLight হার্ডওয়্যারের সংযোগে প্রবেশ করা হবে"
-
-#~ msgid "video-filter-event"
-#~ msgstr "ভিডিও-পরিশোধক-ইভেন্ট"
-
-#~ msgid "Offset X offset (automatic compensation)"
-#~ msgstr "অফসেট X অফসেট (স্বয়ংক্রিয় ক্ষতিপূরন)"
-
-#~ msgid ""
-#~ "Select if you want an automatic offset in horizontal (in case of "
-#~ "misalignment due to autoratio control)"
-#~ msgstr ""
-#~ "অনুভূমিকে একটি স্বয়ংক্রিয় অফসেট চাইলে এটি নির্বাচন করা হবে (স্বয়ংক্রিয় অনুপাত "
-#~ "নিয়ন্ত্রনের জন্য ভুলপ্রান্তিককরণের ক্ষেত্রে)"
-
-#~ msgid "Xinerama option"
-#~ msgstr "Xinerama অপশন"
-
-#~ msgid "Uncheck if you have not used xinerama"
-#~ msgstr "আপনি Xinerama ব্যবহার না করে থাকলে টিক উঠিয়ে দিন"
-
-#~ msgid "Embedded Windows video"
-#~ msgstr "সন্নিবেশিত উইন্ডোজ ভিডিও"
-
-#~ msgid "Matrox Graphic Array video output"
-#~ msgstr "ম্যাট্রক্স গ্রাফিক্স অ্যারে ভিডিও আউটপুট"
-
-#~ msgid "DirectX video output"
-#~ msgstr "DirectX ভিডিও আউটপুট"
-
-#~ msgid "Core Animation OpenGL Layer (Mac OS X)"
-#~ msgstr "কোর অ্যানিমেশন OpenGL লেয়ার (Mac OS X)"
-
-#~ msgid "QT Embedded display"
-#~ msgstr "QT সন্নিবেশিত ডিসপ্লে"
-
-#~ msgid ""
-#~ "Qt Embedded hardware display to use. By default VLC will use the value of "
-#~ "the DISPLAY environment variable."
-#~ msgstr ""
-#~ "ব্যবহার করার জন্য  Qt সন্নিবেশিত হার্ডওয়্যার ডিসপ্লে। VLC পূর্বনির্ধারিত মান "
-#~ "হিসেবে DISPLAY এনভায়রনমেন্ট ভেরিয়েবল ব্যবহার করবে।"
-
-#~ msgid "QT Embedded video output"
-#~ msgstr "QT সন্নিবেশিত ভিডিও আউটপুট"
-
-#~ msgid "Alternate fullscreen method"
-#~ msgstr "পর্দা জুড়ে প্রদর্শনের বিকল্প প্রক্রিয়া"
-
-#~ msgid ""
-#~ "There are two ways to make a fullscreen window, unfortunately each one "
-#~ "has its drawbacks.\n"
-#~ "1) Let the window manager handle your fullscreen window (default), but "
-#~ "things like taskbars will likely show on top of the video.\n"
-#~ "2) Completely bypass the window manager, but then nothing will be able to "
-#~ "show on top of the video."
-#~ msgstr ""
-#~ "পূর্ণপর্দা মোড তৈরি করার দুটি পদ্ধতি আছে, দু:খজনকভাবে প্রতিটিরই কিছু সমস্যা আছে।"
-#~ "\\n১) উইন্ডো ম্যানেজারকে আপনার পূর্ণপর্দা উইন্ডো হ্যান্ডল করতে দিন (পূর্বনির্ধারিত), "
-#~ "কিন্তু টাস্কবারটি হয়তো ভিডিওর ওপর দেখা যাবে।\\n২) উইন্ডো ম্যানেজার সম্পূর্ণভাবে "
-#~ "উপেক্ষা করা হবে, কিন্তু তাহলে কোনো কিছুকেই ভিডিওর ওপর দেখানো যাবে না।"
-
-#~ msgid "Screen for fullscreen mode."
-#~ msgstr "পূর্ণ পর্দা প্রদর্শনীর জন্য পর্দা।"
-
-#~ msgid ""
-#~ "Screen to use in fullscreen mode. For instance set it to 0 for first "
-#~ "screen, 1 for the second."
-#~ msgstr ""
-#~ "পূর্ণ পর্দা প্রদর্শনী মোডে ব্যবহার করার জন্য পর্দা। দৃষ্টান্তস্বরূপ, প্রথম পর্দার জন্য 0 "
-#~ "নির্ধারণ করা হবে, দ্বিতীয় পর্দার জন্য 1 নির্ধারণ করা হবে।"
-
-#~ msgid "OpenGL(GLX) provider"
-#~ msgstr "OpenGL(GLX) প্রোভাইডার"
-
-#~ msgid ""
-#~ "If your graphics card provides several adaptors, you need to choose which "
-#~ "one will be used (you shouldn't have to change this)."
-#~ msgstr ""
-#~ "যদি আপনার গ্রাফিক্স কার্ড কিছু সংখ্যক অ্যাডাপ্টর প্রদান করে, তাহলে আপনার নির্ধারণ "
-#~ "করতে হবে কোনটি ব্যবহার করা হবে (আপনার এটি পরিবর্তন করার প্রয়োজন নেই)।"
-
-#~ msgid "XVimage chroma format"
-#~ msgstr "XVimage ক্রোমা ফরম্যাট"
-
-#~ msgid ""
-#~ "Force the XVideo renderer to use a specific chroma format instead of "
-#~ "trying to improve performances by using the most efficient one."
-#~ msgstr ""
-#~ "XVideo রেন্ডারারকে সবচেয়ে ভালো ক্রোমা ফরম্যাট ব্যবহার করে পারফর্মেন্স বৃদ্ধি করার "
-#~ "চেষ্টার পরিবর্তে একটি উল্লিখিত ক্রোমা ফরম্যাট ব্যবহার করতে বাধ্য করা হবে।"
-
-#~ msgid "XVideo extension video output"
-#~ msgstr "XVideo এক্সটেনসন ভিডিও আউটপুট"
-
-#~ msgid "XVMC adaptor number"
-#~ msgstr "XVMC অ্যাডাপ্টার নম্বর"
-
-#~ msgid ""
-#~ "If you graphics card provides several adaptors, this option allows you to "
-#~ "choose which one will be used (you shouldn't have to change this)."
-#~ msgstr ""
-#~ "যদি আপনার গ্রাফিক্স কার্ড কিছু সংখ্যক অ্যাডাপ্টর প্রদান করে, এই বিকল্পটির মাধ্যমে "
-#~ "আপনি নির্ধারণ করতে পারবেন কোনটি ব্যবহার করা হবে (আপনার এটি পরিবর্তন করার "
-#~ "প্রয়োজন নেই)।"
-
-#~ msgid "X11 display name"
-#~ msgstr "X11 ডিসপ্লে নাম"
-
-#~ msgid ""
-#~ "Specify the X11 hardware display you want to use. By default VLC will use "
-#~ "the value of the DISPLAY environment variable."
-#~ msgstr ""
-#~ "আপনি যে X11 হার্ডওয়্যার ডিসপ্লে ব্যবহার করতে চান তা উল্লেখ করা হবে। VLC "
-#~ "পূর্বনির্ধারিত মান হিসেবে DISPLAY এনভায়রনমেন্ট ভেরিয়েবল ব্যবহার করবে।"
-
-#~ msgid "Screen to be used for fullscreen mode."
-#~ msgstr "পর্দা জুড়ে প্রদর্শন মোডে ব্যবহারের জন্য পর্দা।"
-
-#~ msgid ""
-#~ "Choose the screen you want to use in fullscreen mode. For instance set it "
-#~ "to 0 for first screen, 1 for the second."
-#~ msgstr ""
-#~ "পর্দা জুড়ে প্রদর্শন মোডে আপনি যে পর্দা ব্যবহার করতে চান তা নির্বাচন করা হবে। "
-#~ "দৃষ্টান্তস্বরূপ, প্রথম পর্দার জন্য 0 নির্ধারণ করা হবে, দ্বিতীয় পর্দার জন্য 1 নির্ধারণ "
-#~ "করা হবে।"
-
-#~ msgid "You can choose the default deinterlace mode"
-#~ msgstr "আপনি ডিফল্ট ডিইন্টারলেস মোড নির্বাচন করতে পারেন"
-
-#~ msgid "You can choose the crop style to apply."
-#~ msgstr "আপনি প্রয়োগ করার জন্য ক্রোপ স্টাইলটি নির্বাচন করতে পারেন।"
-
-#~ msgid "XVMC extension video output"
-#~ msgstr "XVMC এক্সটেনশন ভিডিও আউটপুট"
-
-#~ msgid "XCB"
-#~ msgstr "XCB"
-
-#~ msgid "(Experimental) XCB video output"
-#~ msgstr "(পরীক্ষামূলক) XCB ভিডিও আউটপুট"
-
-#~ msgid "(Experimental) XCB video window"
-#~ msgstr "(পরীক্ষামূলক) XCB ভিডিও উইন্ডো"
-
-#~ msgid "GaLaktos visualization"
-#~ msgstr "GaLaktos ভিজুয়ালাইজেশন"
-
-#~ msgid "Number of stars"
-#~ msgstr "তারকার সংখ্যা"
-
-#~ msgid "Number of stars to draw with random effect."
-#~ msgstr "র‍্যান্ডম প্রভাবের সাহায্যে আঁকার জন্য তারকার সংখ্যা।"
-
-#~ msgid ""
-#~ "If your graphics card provides several adaptors, you have to choose which "
-#~ "one will be used (you shouldn't have to change this)."
-#~ msgstr ""
-#~ "যদি আপনার গ্রাফিক্স কার্ড কিছু সংখ্যক অ্যাডাপ্টর প্রদান করে, তাহলে আপনার নির্ধারন "
-#~ "করতে হবে কোনটি ব্যবহার করা হবে (আপনার এটি পরিবর্তন করার প্রয়োজন নেই)।"
-
-#~ msgid "Crash Report successfully sent"
-#~ msgstr "ক্র্যাশ রিপোর্ট সফলভাবে প্রেরিত হয়েছে"
-
-#~ msgid "Thanks for your report!"
-#~ msgstr "আপনার রিপোর্টের জন্য ধন্যবাদ!"
-
-# need proper word
-#, fuzzy
-#~ msgid "Spatialization"
-#~ msgstr "দৃশ্যায়ন"
-
-#, fuzzy
-#~ msgid "Processing"
-#~ msgstr "পরবর্তী প্রসেসিং"
-
-#~ msgid ""
-#~ "New target video bitrate. Quality is ok for -10/15\\% of the "
-#~ "originalbitrate."
-#~ msgstr ""
-#~ "নতুন লক্ষ্য ভিডিও বিটের হার। প্রকৃত বিটের হারের -১০/১৫\\% হলে মান ঠিক থাকবে।"
-
-# নিশ্চিত হতে হবে
-#~ msgid "Shaping delay"
-#~ msgstr "শেপিং বিলম্ব"
-
-#~ msgid "Amount of data used for transrating in ms."
-#~ msgstr "মিলিসেকেন্ডে ট্রান্সরেট করার জন্য ব্যবহৃত ডেটার পরিমান।"
-
-#~ msgid "Use MPEG4 matrix"
-#~ msgstr "MPEG4 ম্যাট্রিক্স ব্যবহার করুন"
-
-#~ msgid "Use the MPEG4 quantification matrix."
-#~ msgstr "MPEG4 কোয়ান্টিফিকেশন ম্যাট্রিক্স ব্যবহার করুন"
-
-#~ msgid "MPEG2 video transrating stream output"
-#~ msgstr "MPEG2 ভিডিও ট্রান্সরেটিং স্ট্রীম আউটপুট"
-
-#~ msgid "Transrate"
-#~ msgstr "ট্রান্সরেট"
-
-#~ msgid "Set aspect (like 4:3) of the video canvas"
-#~ msgstr "ভিডিও ক্যানভাসের দৃশ্যমান অনুপাত (যেমন ৪:৩) নির্ধারণ করুন"
-
-#~ msgid "Path to use in openfile dialog"
-#~ msgstr "ফাইল খোলার ডায়লগে ব্যবহৃত পাথ"
-
-#~ msgid "VIDEO_TS directory"
-#~ msgstr "VIDEO_TS ডিরেক্টরি"
-
-#~ msgid "Video On Demand"
-#~ msgstr "ভিডিও অন ডিমান্ড"
-
-#~ msgid "VLC media player "
-#~ msgstr "VLC মিডিয়া প্লেয়ার"
-
-#~ msgid "FFmpeg video filter"
-#~ msgstr "FFmpeg ভিডিও ফিল্টার"
-
-#, fuzzy
-#~ msgid "Autodetect"
-#~ msgstr "অটোডেল"
-
-#~ msgid "Login:"
-#~ msgstr "লগিন:"
-
-#~ msgid "Remaining time: %i seconds"
-#~ msgstr "সময় বাকি আছে: %i সেকেন্ড"
-
-#, fuzzy
-#~ msgid "An error occured while saving your settings via SimplePrefs."
-#~ msgstr ""
-#~ "SimplePrefs (%i) এর মাধ্যমে আপনার সেটিং সংরক্ষন করার সময় একটি সমস্যা দেখা "
-#~ "দিয়েছে।"
-
-#~ msgid "New Node"
-#~ msgstr "নতুন নোড"
-
-#~ msgid "UDP/RTP"
-#~ msgstr "UDP/RTP"
-
-#~ msgid "UDP/RTP Multicast"
-#~ msgstr "UDP/RTP মাল্টিকাস্ট"
-
-#~ msgid "Use a sub&amp;titles file"
-#~ msgstr "একটি সাব&amp;টাইটেল ফাইল ব্যবহার করুন"
-
-#, fuzzy
-#~ msgid "textFormat"
-#~ msgstr "ফরম্যাট"
-
-#~ msgid "General interface settings"
-#~ msgstr "সাধারন ইন্টারফেস সেটিং"
-
-#~ msgid ""
-#~ "These are the settings for the input, demultiplexing and decoding parts "
-#~ "of VLC. Encoder settings can also be found here."
-#~ msgstr ""
-#~ "এগুলো ইনপুটের জন্য সেটিং, ভিএলসি-র ডিমাল্টিপ্লেক্সিং এবং ডিকোডিং অংশ। এখানে "
-#~ "এনকোডারের সেটিং ও পাওয়া যাবে।"
-
-#~ msgid "Other advanced settings"
-#~ msgstr "অন্যান্য উন্নত সেটিং"
-
-#~ msgid "Media &Information..."
-#~ msgstr "মিডিয়া তথ্য... (&I)"
-
-#~ msgid "&Messages..."
-#~ msgstr "বার্তাসমূহ... (&M)"
-
-#~ msgid "&Extended Settings..."
-#~ msgstr "বর্ধিত সেটিং... (&E)"
-
-#~ msgid "&Bookmarks..."
-#~ msgstr "বুকমার্ক... (&B)"
-
-#~ msgid "&About..."
-#~ msgstr "পরিচিতি... (&A)"
-
-#~ msgid "&Load Playlist File..."
-#~ msgstr "চালানোর তালিকার ফাইল লোগ করুন... (&L)"
-
-#~ msgid "Additional &Sources"
-#~ msgstr "অতিরিক্ত সোর্স... (&S)"
-
-#~ msgid "Based upon Git commit [%s]\n"
-#~ msgstr "Git commit [%s] এর উপর ভিত্তি করে\n"
-
-#~ msgid "American English"
-#~ msgstr "আমেরিকান ইংলিশ"
-
-#~ msgid "Brazilian Portuguese"
-#~ msgstr "ব্রাজিলিয়ান পর্তুগিজ"
-
-#~ msgid "British English"
-#~ msgstr "ব্রিটিশ ইংলিশ"
-
-#~ msgid "Chinese Traditional"
-#~ msgstr "ঐতিহ্যবাহী চিনা"
-
-#~ msgid "Galician"
-#~ msgstr "গ্যালিচিয়ান"
-
-#~ msgid "Occitan"
-#~ msgstr "অক্কিটান"
-
-#~ msgid "Punjabi"
-#~ msgstr "পান্জাবি"
-
-#~ msgid "Access filter module"
-#~ msgstr "এক্সেস মডিউল মডিউল"
-
-#~ msgid "Minimize number of threads"
-#~ msgstr "থ্রেডের সংখ্যা কমানো হবে"
-
-#~ msgid "This option minimizes the number of threads needed to run VLC."
-#~ msgstr "ভিএলসি চালানোর জন্য যতগুলো থ্রেড প্রয়োজন, এই বিকল্পটি তার সংখ্যা কমায়।"
-
-#~ msgid "(Experimental) Minimize latency whenreading live stream."
-#~ msgstr "(পরিক্ষামূলক) লাইভ স্ট্রিম পড়ার সময় ল্যাটেন্সি কমানো হবে।"
-
-#~ msgid ""
-#~ "print help on a specific module (can be combined with --advanced and --"
-#~ "help-verbose)"
-#~ msgstr ""
-#~ "ভিএলসি এবং এর মডিউলসমূহের সহায়তা প্রিন্ট করুন (--advanced এবং --help-verbose "
-#~ "এর সাথে সংযুক্ত থাকতে পারে)"
-
-#~ msgid "Cancelled"
-#~ msgstr "বাতিল করা হয়েছে"
-
-#~ msgid "QAM constellation points [16, 32, 64, 128, 256]"
-#~ msgstr "QAM কন্সিলেশন বিন্দুসমূহ [১৬, ৩২, ৬৪, ১২৮, ২৫৬]"
-
-#~ msgid "16"
-#~ msgstr "১৬"
-
-#~ msgid "32"
-#~ msgstr "৩২"
-
-#~ msgid "64"
-#~ msgstr "৬৪"
-
-#~ msgid "128"
-#~ msgstr "১২৮"
-
-#~ msgid "256"
-#~ msgstr "২৫৬"
-
-#~ msgid "High Priority FEC Rate [Undefined,1/2,2/3,3/4,5/6,7/8]"
-#~ msgstr "নিম্ন প্রায়োরিটি FEC হার [অনির্ধারিত,১/২,২/৩,৩/৪,৫/৬,৭/৮]"
-
-#~ msgid "Illegal Polarization"
-#~ msgstr "অবৈধ পোলারাইজেশন"
-
-#~ msgid ""
-#~ "Caching value for DV streams. Thisvalue should be set in milliseconds."
-#~ msgstr "DV স্ট্রিমের জন্য ক্যাশিং মান। এই মানটি মিলিসেকেন্ডে হতে হবে।"
-
-#~ msgid "dv"
-#~ msgstr "dv"
-
-#~ msgid "EyeTV access module"
-#~ msgstr "EyeTV এক্সেস মডিউল"
-
-#~ msgid "Bandwidth limit (bytes/s)"
-#~ msgstr "ব্যন্ডউইডথ সীমা (বাইট/সেকেন্ড)"
-
-#~ msgid ""
-#~ "The bandwidth module will drop any data in excess of that many bytes per "
-#~ "seconds."
-#~ msgstr ""
-#~ "প্রতি সেকেন্ডে এ পরিমান বাইটের অধিক যেকোনো ডেটাকে ব্যান্ডউইড্থ মডিউল বাদ দিয়ে "
-#~ "দেবে।"
-
-#~ msgid "Bandwidth limiter"
-#~ msgstr "ব্যন্ডউইডথ লিমিটার"
-
-#~ msgid "Force use of dump module"
-#~ msgstr "ডাম্প মডিউলের ব্যবহার কার্যকর করুন।"
-
-#~ msgid "Activate the dump module even for media with fast seeking."
-#~ msgstr "দ্রুত সিকিং এর জন্যও ডাম্প মডিউল সক্রিয় করুন।"
-
-#~ msgid "Maximum size of temporary file (Mb)"
-#~ msgstr "অস্থায়ী ফাইলের সর্বোচ্চ আকার (মেগাবাইট)"
-
-#~ msgid ""
-#~ "The dump module will abort dumping of the media if more than this much "
-#~ "megabyte were performed."
-#~ msgstr ""
-#~ "এই পরিমান মেগাবাইটের বেশি সম্পন্ন হলে ডাম্প মডিউল মিডিয়া ডাম্প করা বন্ধ করবে।"
-
-#~ msgid "Record directory"
-#~ msgstr "রেকর্ড ডিরেক্টরি"
-
-#~ msgid "Force use of the timeshift module"
-#~ msgstr "টাইমশিফ্ট মডিউলের ব্যবহার কার্যকর করুন।"
-
-#~ msgid ""
-#~ "Force use of the timeshift module even if the access declares that it can "
-#~ "control pace or pause."
-#~ msgstr ""
-#~ "টাইমশিফ্ট মডিউলের ব্যবহার কার্যকর করুন, এমনকি যদি এক্সেস ঘোষনা করে যে সে গতি "
-#~ "বা বিরতি নিয়ন্ত্রন করতে পারবে তবুও।"
-
-#~ msgid "Timeshift"
-#~ msgstr "সময়শিফ্ট"
-
-#~ msgid ""
-#~ "Name of the device to use. If you don't specify anything, /dev/video0 "
-#~ "will be used."
-#~ msgstr ""
-#~ "যে যন্ত্রটি ব্যবহার করা হবে সেটির নাম। যদি আপনি কিছু উল্লেখ না করেন, /dev/"
-#~ "video0 ব্যবহার করা হবে।"
-
-#~ msgid ""
-#~ "Name of the audio device to use. If you don't specify anything, \"/dev/dsp"
-#~ "\" will be used for OSS."
-#~ msgstr ""
-#~ "যে অডিও ডিভাইসটি ব্যবহার করা হবে। আপনি যদি কোনো কিছু উল্লেখ না করেন, OSS এর "
-#~ "জন্য  \"/dev/dsp\" ব্যবহৃত হবে।"
-
-#~ msgid ""
-#~ "Name of the audio device to use. If you don't specify anything, \"/dev/dsp"
-#~ "\" will be used for OSS, \"hw\" for Alsa."
-#~ msgstr ""
-#~ "যে অডিও ডিভাইসটি ব্যবহার করা হবে। আপনি যদি কোনো কিছু উল্লেখ না করেন, OSS এর "
-#~ "জন্য  \"/dev/dsp\" ব্যবহৃত হবে। Alsa এর জন্য \"hw\"।"
-
-#~ msgid "Audio method"
-#~ msgstr "অডিও মেথড"
-
-#~ msgid "Audio method to use: 0 to disable audio, 1 for OSS."
-#~ msgstr "যে অডিও মেথডটি ব্যবহার করা হবে, OSS এর জন্য ১।"
-
-#~ msgid ""
-#~ "Audio method to use: 0 to disable audio, 1 for OSS, 2 for ALSA, 3 for "
-#~ "ALSA or OSS (ALSA is preferred)."
-#~ msgstr ""
-#~ "যে অডিও মেথডটি ব্যবহার করা হবে, OSS এর জন্য ১, ALSA এর জন্য ২, ALSA বা OSS "
-#~ "এর জন্য ৩ (ALSA সুপারিশকৃত)।"
-
-#~ msgid ""
-#~ "Name of the audio device to use. If you don't specify anything, no audio "
-#~ "device will be used."
-#~ msgstr ""
-#~ "যে অডিও যন্ত্রটি ব্যবহার করা হবে তার নাম। আপনি যদি কিছু উল্লেখ না করেন, কোনো "
-#~ "অডিও যন্ত্র ব্যবহার করা হবে না।"
-
-#~ msgid ""
-#~ "Samplerate of the captured audio stream, in Hz (eg: 11025, 22050, 44100)"
-#~ msgstr "ক্যাপচারকৃত অডিও স্ট্রিমের স্যাম্পলহার, হার্জে (যেমন, ১১০২৫, ২২০৫০, ৪৪১০০)"
-
-#~ msgid "The above message had unknown log level"
-#~ msgstr "উপরের বার্তার লগ লেভেলটি অজানা"
-
-#~ msgid "The above message had unknown vcdimager log level"
-#~ msgstr "উপরের বার্তার vcdimager লগ লেভেলটি অজানা"
-
-#~ msgid "spatializer"
-#~ msgstr "স্পেশালাইজার"
-
-#~ msgid "aRts audio output"
-#~ msgstr "aRts অডিও আউটপুট"
-
-#~ msgid "EsounD audio output"
-#~ msgstr "EsounD অডিও আউটপুট"
-
-#~ msgid "Esound server"
-#~ msgstr "Esound সার্ভার"
-
-#~ msgid "Cinepak video decoder"
-#~ msgstr "Cinepak ভিডিও ডিকোডার"
-
-#~ msgid "Dirac video encoder"
-#~ msgstr "Dirac ভিডিও এনকোডার"
-
-#~ msgid "%d Hz"
-#~ msgstr "%d হার্জ"
-
-#~ msgid "Kate text subtitles decoder"
-#~ msgstr "কেট টেক্সট সাবটাইটেল ডিকোডার"
-
-#~ msgid "Kate comment"
-#~ msgstr "কেট মন্তব্য"
-
-#~ msgid "Speex comment"
-#~ msgstr "স্পিক্স মন্তব্য"
-
-#~ msgid "Theora comment"
-#~ msgstr "থিয়োরা মন্তব্য"
-
-#~ msgid "Vorbis comment"
-#~ msgstr "ভর্বিস মন্তব্য"
-
-#~ msgid "Define playlist bookmarks."
-#~ msgstr "চালানোর তালিকার বুকমার্ক নির্ধারন করুন।"
-
-#~ msgid "Backward"
-#~ msgstr "পিছনের দিকে"
-
-#~ msgid "Raw A/52 demuxer"
-#~ msgstr "Raw A/52 ডিমাক্সার"
-
-#~ msgid "Raw DTS demuxer"
-#~ msgstr "Raw DTS ডিমাক্সার"
-
-#~ msgid "MPEG-4 audio demuxer"
-#~ msgstr "MPEG-4 অডিও ডিমাক্সার"
-
-#~ msgid "MPEG audio / MP3 demuxer"
-#~ msgstr "MPEG অডিও /MP3 ডিমাক্সার"
-
-#~ msgid "This is the desired frame rate when playing raw video streams."
-#~ msgstr "MPEG4 raw ভিডিও স্ট্রিম চালানোর সময়কার কাঙ্খিত ফ্রেমের হার।"
-
-#~ msgid "(Experimental) Real-Time Protocol demuxer"
-#~ msgstr "(পরীক্ষামূলকভাবে) রিয়েল-টাইম প্রোটোকল ডিমাক্সার"
-
-#~ msgid "Teletext hearing impaired subtitles"
-#~ msgstr "টেলিটেক্সট হিয়ারিং ইমপেয়ার্ড সাবটাইটেল"
-
-#~ msgid "subtitles"
-#~ msgstr "সাবটাইটেলসমূহ"
-
-#~ msgid "4:3 subtitles"
-#~ msgstr "৪:৩ সাবটাইটেলসমূহ"
-
-#~ msgid "16:9 subtitles"
-#~ msgstr "১৬:৯ সাবটাইটেলসমূহ"
-
-#~ msgid "2.21:1 subtitles"
-#~ msgstr "২:২১:১ সাবটাইটেলসমূহ"
-
-#~ msgid "4:3 hearing impaired"
-#~ msgstr "৪:৩ হিয়ারিং ইমপেয়ার্ড"
-
-#~ msgid "16:9 hearing impaired"
-#~ msgstr "১৬:৯ হিয়ারিং ইমপেয়ার্ড"
-
-#~ msgid "2.21:1 hearing impaired"
-#~ msgstr "২.২১:১ হিয়ারিং ইমপেয়ার্ড"
-
-#~ msgid "Compiled by %s, based on Git commit %s"
-#~ msgstr "%s দ্বারা কম্পাইলকৃত, %s Git কমিটের উপর ভিত্তি করে"
-
-#~ msgid "Quick Open File..."
-#~ msgstr "ফাইল দ্রুত খুলুন..."
-
-#~ msgid "HTTP/FTP/MMS/RTSP"
-#~ msgstr "HTTP/FTP/MMS/RTSP"
-
-#~ msgid "Allow timeshifting"
-#~ msgstr "সময় শিফ্টিংএর অনুমতি দেয়া হবে"
-
-#~ msgid "Access Filter"
-#~ msgstr "এক্সেস ফিল্টার"
-
-#~ msgid "Save As:"
-#~ msgstr "নতুনভাবে সংরক্ষন করুন:"
-
-#~ msgid " State    : Stopped %s"
-#~ msgstr " স্টেট    : বন্ধ করা হয়েছে %s"
-
-#~ msgid " State    : Buffering %s"
-#~ msgstr " স্টেট    : বাফার করা হচ্ছে %s"
-
-#~ msgid ""
-#~ "Loop from point A to point B continuously.\n"
-#~ "Click to set point A"
-#~ msgstr ""
-#~ "ধারাবাহিকভাবে A বিন্দু থেকে B বিন্দুতে লুপ করা হবে।\n"
-#~ "A পয়েন্ট সেট করার জন্য ক্লিক করুন"
-
-#~ msgid "Teletext on"
-#~ msgstr "টেলিটেক্সট চালু"
-
-#~ msgid "Based on Git commit: "
-#~ msgstr "Git কমিট এর উপর ভিত্তি করে: "
-
-#~ msgid "Login"
-#~ msgstr "লগইন"
-
-#~ msgid "Switch to complete preferences"
-#~ msgstr "পছন্দসমূহের পূর্ণ তালিকা প্রদর্শন করা হবে"
-
-#~ msgid ""
-#~ "This will reset your VLC media player preferences.\n"
-#~ "Are you sure you want to continue?"
-#~ msgstr ""
-#~ "এটি আপনার ভিএলসি মিডিয়া প্লেয়ার পছন্দসমূহ রিসেট করবে।\n"
-#~ "আপনি কি নিশ্চিত যে আপনি চালিয়ে যেতে চান?"
-
-#~ msgid "Open playlist file"
-#~ msgstr "চালানোর তালিকার ফাইল খুলুন"
-
-#~ msgid "Choose a filename to save playlist"
-#~ msgstr "চালানোর তালিকা সংরক্ষন করার জন্য একটি ফাইলের নাম পছন্দ করুন"
-
-#~ msgid "Save file"
-#~ msgstr "ফাইল সংরক্ষন করুন"
-
-#~ msgid "Choose a filename to save the VLM configuration..."
-#~ msgstr "VLM কনফিগারেশন সংরক্ষন করার জন্য একটি ফাইলের নাম নির্বাচন করুন..."
-
-#~ msgid "VLM conf (*.vlm) ;; All (*.*)"
-#~ msgstr "VLM conf (*.vlm) ;; সকল (*.*)"
-
-#~ msgid "Open a VLM Configuration File"
-#~ msgstr "একটি VLM কনফিগারেশন ফাইল খুলুন"
-
-#~ msgid "&Playlist"
-#~ msgstr "চালানোর তালিকা (&P)"
-
-#~ msgid "Show P&laylist"
-#~ msgstr "চালানোর তালিকা প্রদর্শন করা হবে (&l)"
-
-#~ msgid "Play&list..."
-#~ msgstr "চালানোর তালিকা... (&l)"
-
-#~ msgid "&Preferences..."
-#~ msgstr "পছন্দসমূহ... (&P)"
-
-#~ msgid "Load File..."
-#~ msgstr "ফাইল লোড করুন..."
-
-#~ msgid "Tools"
-#~ msgstr "টুল"
-
-#~ msgid "Show Playlist"
-#~ msgstr "চালানোর তালিকা প্রদর্শন করা হবে"
-
-#~ msgid "Minimal View..."
-#~ msgstr "সংক্ষেপ প্রদর্শন..."
-
-#~ msgid "Toggle Fullscreen Interface"
-#~ msgstr "পূর্ণপর্দা ইন্টারফেস পরিবর্তন করুন"
-
-#~ msgid "Use non native buttons and volume slider"
-#~ msgstr "অস্থানীয় বাটন এবং ভলিউম স্লাইডার ব্যবহার করা হবে"
-
-#~ msgid "Card Selection"
-#~ msgstr "কার্ড নির্বাচন"
-
-#~ msgid "Customize"
-#~ msgstr "কাস্টমাইজ করুন"
-
-#~ msgid "Outputs"
-#~ msgstr "আউটপুট"
-
-#~ msgid "Prefer UDP over RTP"
-#~ msgstr "RTP এর চেয়ে UDP পছন্দ করা হবে"
-
-#~ msgid "Using this option is not recommended in most of the cases."
-#~ msgstr "বেশিরভাগ ক্ষেত্রে এই বিকল্পটি ব্যবহার করার সুপারিশ করা হয় না।"
-
-#~ msgid "Integrate video in interface"
-#~ msgstr "ইন্টারফেসে ভিডিও ইন্টিগ্রেট করুন"
-
-#~ msgid ""
-#~ "All playlists|*.pls;*.m3u;*.asx;*.b4s;*.xspf|M3U files|*.m3u|XSPF "
-#~ "playlist|*.xspf"
-#~ msgstr ""
-#~ "সকল চালানোর তালিকা|*.pls;*.m3u;*.asx;*.b4s;*.xspf|M3U files|*.m3u|XSPF "
-#~ "playlist|*.xspf"
-
-#~ msgid "WinCE interface module"
-#~ msgstr "WinCE ইন্টারফেস মডিউল"
-
-#~ msgid "RRD output file"
-#~ msgstr "RRD আউটপুট ফাইল"
-
-#~ msgid "Output data for RRDTool in this file."
-#~ msgstr "এই ফাইলে RRDTool এর জন্য আউটপুট ডেটা।"
-
-#~ msgid "Bonjour"
-#~ msgstr "Bonjour"
-
-#~ msgid ""
-#~ "This automatically enables timeshifting for streams discovered through "
-#~ "SAP announcements."
-#~ msgstr ""
-#~ "এটি স্বয়ংক্রিয়ভাবে SAP ঘোষনার মাধ্যমে পাওয়া স্ট্রিমসমূহের সময়শিফ্টিং সক্রিয় করে।"
-
-#~ msgid "Universal Plug'n'Play discovery ( Intel SDK )"
-#~ msgstr "ইউনিভারস্যাল প্লাগ'এন'প্লে ডিসকভারী (ইন্টেল SDK)"
-
-#~ msgid ""
-#~ "This is the hop limit (also known as \"Time-To-Live\" or TTL) of the "
-#~ "multicast packets sent by the stream output (0 = use operating system "
-#~ "built-in default)."
-#~ msgstr ""
-#~ "এটি স্ট্রিম আউটপুট দ্বারা প্রেরনকৃত মাল্টিকাস্ট প্যাকেটের হপ সীমা (\"Time-To-Live"
-#~ "\" বা TTL হিসেবেও পরিচিত) (০ = অপারেটিং সিস্টেম দ্বারা নির্ধরিত ডিফল্ট ব্যবহার "
-#~ "করা হবে)।"
-
-#~ msgid "Image video output"
-#~ msgstr "ছবি ভিডিও আউটপুট"
-
-#~ msgid "Cube"
-#~ msgstr "কিউব"
-
-#~ msgid "Transparent Cube"
-#~ msgstr "স্বচ্ছ কিউব"
-
-#~ msgid "Cylinder"
-#~ msgstr "সিলিন্ডার"
-
-#~ msgid "Torus"
-#~ msgstr "টোরাস"
-
-#~ msgid "Sphere"
-#~ msgstr "গোলক"
-
-#~ msgid "SQUAREXY"
-#~ msgstr "SQUAREXY"
-
-#~ msgid "SQUARER"
-#~ msgstr "SQUARER"
-
-#~ msgid "ASINXY"
-#~ msgstr "ASINXY"
-
-#~ msgid "ASINR"
-#~ msgstr "ASINR"
-
-#~ msgid "SINEXY"
-#~ msgstr "SINEXY"
-
-#~ msgid "SINER"
-#~ msgstr "SINER"
-
-#~ msgid "OpenGL sampling accuracy "
-#~ msgstr "OpenGL স্যাম্পলিং অ্যাকুরেসি"
-
-#~ msgid "Select the accuracy of 3D object sampling(1 = min and 10 = max)"
-#~ msgstr ""
-#~ "ত্রিমাত্রিক অবজেক্ট স্যাম্পলের অ্যাকুরেসি নির্বাচন করুন(১ = সর্বনিম্ন এবং ১০ = "
-#~ "সর্বোচ্চ)"
-
-#~ msgid "OpenGL Cylinder radius"
-#~ msgstr "OpenGL সিলিন্ডার ব্যাসার্ধ"
-
-#~ msgid "Radius of the OpenGL cylinder effect, if enabled"
-#~ msgstr "OpenGL সিলিন্ডার প্রভাব, যদি সক্রিয় থাকে"
-
-#~ msgid "Point of view x-coordinate"
-#~ msgstr "পয়েন্ট অব ভিউ X স্থানাঙ্ক"
-
-#~ msgid ""
-#~ "Point of view (X coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "কিউব/সিলিন্ডার প্রভাবের পয়েন্ট অব ভিউ (X স্থানাঙ্ক), যদি সক্রিয় থাকে।"
-
-#~ msgid "Point of view y-coordinate"
-#~ msgstr "পয়েন্ট অব ভিউ Y স্থানাঙ্ক"
-
-#~ msgid ""
-#~ "Point of view (Y coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "কিউব/সিলিন্ডার প্রভাবের পয়েন্ট অব ভিউ (Y স্থানাঙ্ক), যদি সক্রিয় থাকে।"
-
-#~ msgid "Point of view z-coordinate"
-#~ msgstr "পয়েন্ট অব ভিউ Z স্থানাঙ্ক"
-
-#~ msgid ""
-#~ "Point of view (Z coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "কিউব/সিলিন্ডার প্রভাবের পয়েন্ট অব ভিউ (Z স্থানাঙ্ক), যদি সক্রিয় থাকে।"
-
-#~ msgid "OpenGL cube rotation speed"
-#~ msgstr "OpenGL কিউব ঘোরানোর গতি"
-
-#~ msgid "Rotation speed of the OpenGL cube effect, if enabled."
-#~ msgstr "OpenGL কিউব প্রভাবের ঘোরার গতি, যদি সক্রিয় থাকে।"
-
-#~ msgid "Several visual OpenGL effects are available."
-#~ msgstr "বেশ কিছু ভিজুয়াল OpenGL প্রভাব আছে।"
-
-#~ msgid "Number of bands"
-#~ msgstr "ব্যান্ডের সংখ্যা"
-
-#~ msgid "Number of bands used by spectrum analyzer, should be 20 or 80."
-#~ msgstr "স্পেক্ট্রাম অ্যানালাইজার দ্বারা ব্যবহৃত ব্যান্ডের সংখ্যা, ২০ বা ৮০ হওয়া উচিত।"
-
-#~ msgid "Number of bands used by the spectrometer, from 20 to 80."
-#~ msgstr "স্পেক্ট্রোমিটার দ্বারা ব্যবহৃত ব্যান্ডের সংখ্যা, ২০ বা ৮০ হওয়া উচিত।"
-
-#~ msgid "Any (*.*) "
-#~ msgstr "যেকোনো (*.*) "
-
-#~ msgid "Recently played"
-#~ msgstr "সম্প্রতি চালানো"
-
-#~ msgid "Audio CD - Track "
-#~ msgstr "অডিও সিডি - ট্র্যাক"
-
-#~ msgid "Seam Carving video filter"
-#~ msgstr "সিম কার্ভিং ভিডিও ফিল্টার"
-
-#~ msgid "Seam Carving"
-#~ msgstr "সিম কার্ভিং"
-
-#~ msgid "Choose subtitles file"
-#~ msgstr "সাবটাইটেল ফাইল নির্বাচন করুন"
-
-#~ msgid "&Equalizer"
-#~ msgstr "ইকুয়ালাইজার (&E)"
-
-#~ msgid "&Title"
-#~ msgstr "শিরোনাম (&T)"
-
-#~ msgid "Undock from Interface"
-#~ msgstr "ইন্টারফেস থেকে আনডক করুন"
-
-#~ msgid "Add Interfaces"
-#~ msgstr "ইন্টারফেস যোগ করুন"
-
-#~ msgid "Get Stream Information"
-#~ msgstr "স্ট্রিমের তথ্য নিন"
-
-#~ msgid "close"
-#~ msgstr "বন্ধ করুন"
-
-#~ msgid "Check for updates..."
-#~ msgstr "আপডেট পরীক্ষা করুন..."
-
-#~ msgid "Disk Device"
-#~ msgstr "ডিস্ক যন্ত্র"
-
-#~ msgid "Subtitles languages"
-#~ msgstr "সাবটাইটেল ভাষা"
-
-#~ msgid "Skip Frames"
-#~ msgstr "ফ্রেম উপেক্ষা করা হবে"
-
-#~ msgid "Display Device"
-#~ msgstr "ডিসপ্লে যন্ত্র"
-
-#~ msgid "Timestamp:"
-#~ msgstr "টাইমস্ট্যাম্প:"
-
-#~ msgid "Timeout:"
-#~ msgstr "নির্ধারিত সময়কাল:"
-
-#~ msgid "Previous track"
-#~ msgstr "পূর্ববর্তী ট্র্যাক"
-
-#~ msgid "Subtitles & OSD settings"
-#~ msgstr "সাবটাইটেল এবং পর্দায় প্রদর্শিত বার্তার সেটিং"
-
-#~ msgid "Advanced information"
-#~ msgstr "উন্নত তথ্য"
-
-#~ msgid "Playlist item info"
-#~ msgstr "চালানোর তালিকার আইটেমের তথ্য"
-
-#~ msgid "Open..."
-#~ msgstr "খুলুন..."
-
-#~ msgid "Use an external subtitles file."
-#~ msgstr "একটি বাহ্যিক সাবটাইটেল ফাইল ব্যবহার করুন।"
-
-#~ msgid "Advanced Settings..."
-#~ msgstr "উন্নত সেটিং..."
-
-#~ msgid "File:"
-#~ msgstr "ফাইল:"
-
-#~ msgid "Title number."
-#~ msgstr "শিরোনাম নম্বর।"
-
-#~ msgid "&Save Playlist..."
-#~ msgstr "চালানোর তালিকা সংরক্ষন করা হবে... (&S)"
-
-#~ msgid "&Manage"
-#~ msgstr "ম্যানেজ (&M)"
-
-#~ msgid "&View items"
-#~ msgstr "আইটেম দর্শন (&V)"
-
-#~ msgid "Preparse"
-#~ msgstr "প্রিপার্স"
-
-#~ msgid "%i items in playlist"
-#~ msgstr "চালানোর তালিকায় %i আইটেম"
-
-#~ msgid "XSPF playlist"
-#~ msgstr "XSPF চালানোর তালিকা"
-
-#~ msgid "Playlist is empty"
-#~ msgstr "চালানোর তালিকা খালি"
-
-#~ msgid "Subtitles file"
-#~ msgstr "সাবটাইটেল ফাইল"
-
-#~ msgid "Open file"
-#~ msgstr "ফাইল খুলুন"
-
-#~ msgid "Transcode video (if available)"
-#~ msgstr "ট্রান্সকোড ভিডিও (যদি উপস্থিত থাকে)"
-
-#~ msgid "Save to file"
-#~ msgstr "ফাইলে সংরক্ষন করা হবে"
-
-#~ msgid "Wave effect"
-#~ msgstr "ওয়েভ প্রভাব"
-
-#~ msgid "Video Options"
-#~ msgstr "ভিডিও বিকল্প"
-
-#~ msgid ""
-#~ "Preamp\n"
-#~ "12.0dB"
-#~ msgstr ""
-#~ "প্রিঅ্যাম্প\n"
-#~ "১২.০ডেসিবল"
-
-#~ msgid "More Information"
-#~ msgstr "আরো তথ্য"
-
-#~ msgid "Playing"
-#~ msgstr "চালানো হচ্ছে"
-
-#~ msgid "Open &File...\tCtrl-F"
-#~ msgstr "ফাইল খুলুন... (&F)      কন্ট্রোল-F"
-
-#~ msgid "&Playlist...\tCtrl-P"
-#~ msgstr "চালানোর তালিকা...(&P)        কন্ট্রোল-P"
-
-#~ msgid "VideoLAN's Website"
-#~ msgstr "ভিডিওল্যান ওয়েবসাইট"
-
-#~ msgid "Online Help"
-#~ msgstr "অনলাইন সহায়িকা"
-
-#~ msgid "Previous playlist item"
-#~ msgstr "পূর্ববর্তী চালানোর তালিকার আইটেম"
-
-#~ msgid "Next playlist item"
-#~ msgstr "পরবর্তী চালানোর তালিকার আইটেম"
-
-#~ msgid "Play faster"
-#~ msgstr "দ্রততরভাবে চালানো হবে"
-
-#~ msgid "&Bookmarks...\tCtrl-B"
-#~ msgstr "বুকমার্ক... (&B)\tকন্ট্রোল-B"
-
-#~ msgid "Preference&s...\tCtrl-S"
-#~ msgstr "পছন্দসমূহ... (&s)                 কন্ট্রোল-S"
-
-#~ msgid "About %s"
-#~ msgstr "%s পরিচিতি"
-
-#~ msgid "Show/Hide Interface"
-#~ msgstr "ইন্টারফেস প্রদর্শিত/লুকানো হবে"
-
-#~ msgid "Open &File..."
-#~ msgstr "ফাইল খুলুন... (&F)"
-
-#~ msgid "Media &Info..."
-#~ msgstr "মিডিয়া তথ্য... (&I)"
-
-#~ msgid "Bookmarks dialog"
-#~ msgstr "বুকমার্ক ডায়লগ"
-
-#~ msgid "Distortion"
-#~ msgstr "বিকৃতি"
-
-#~ msgid "Video canvas width"
-#~ msgstr "ভিডিও ক্যানভাসের প্রস্থ"
-
-#~ msgid "Video canvas height"
-#~ msgstr "ভিডিও ক্যানভাসের উচ্চতা"
-
-#~ msgid "Prompt"
-#~ msgstr "প্রম্পট"
-
-#~ msgid "Security options"
-#~ msgstr "নিরাপত্তা বিকল্প"
-
-#~ msgid "Track Number"
-#~ msgstr "ট্র্যাক নম্বর"
-
-#~ msgid "Advanced Information"
-#~ msgstr "উন্নত তথ্য"
-
-#~ msgid "Interfaces"
-#~ msgstr "ইন্টারফেসসমূহ"
-
-#~ msgid "Find a name"
-#~ msgstr "একটি নাম খুজুন"
-
-#~ msgid "Distribution License"
-#~ msgstr "বিতরন লাইসেন্স"
-
-#~ msgid "Video Codec"
-#~ msgstr "ভিডিও কোডেক"
-
-#~ msgid "Visualisation"
-#~ msgstr "দৃশ্যায়ণ"
-
-#~ msgid "Subtitles preferred language"
-#~ msgstr "সাবটাইটেলের পছন্দসই ভাষা"
-
-#~ msgid "Charset"
-#~ msgstr "ক্যারসেট"
-
-#~ msgid "Video Device Name "
-#~ msgstr "ভিডিও যন্ত্রের নাম"
-
-#~ msgid "Audio Device Name "
-#~ msgstr "অডিও যন্ত্রের নাম"
-
-#~ msgid "Video Adjustments and Effects"
-#~ msgstr "ভিডিও সমন্বয় এবং প্রভাব"
-
-#~ msgid "Report a Bug"
-#~ msgstr "একটি ত্রুটি রিপোর্ট করুন"
-
-#~ msgid "_Title"
-#~ msgstr "শিরোনাম (_T)"
-
-#~ msgid "_Chapter"
-#~ msgstr "অধ্যায় (_C)"
-
-#~ msgid "_Audio"
-#~ msgstr "অডিও (_A)"
-
-#~ msgid "_Video"
-#~ msgstr "ভিডিও (_V)"
-
-#~ msgid "Title:"
-#~ msgstr "শিরোনাম:"
-
-#~ msgid "E_xit"
-#~ msgstr "প্রস্থান (_x)"
-
-#~ msgid "_Settings"
-#~ msgstr "সেটিং (_S)"
-
-#~ msgid "_Help"
-#~ msgstr "সহায়িকা (_H)"
-
-#~ msgid "_About..."
-#~ msgstr "পরিচিতি... (_A)"
-
-#~ msgid "_Play"
-#~ msgstr "চালান (_P)"
-
-#~ msgid "_New"
-#~ msgstr "নতুন (_N)"
-
-#~ msgid "Languages"
-#~ msgstr "ভাষাসমূহ"
-
-#~ msgid "Choose the program"
-#~ msgstr "প্রোগ্রাম নির্বাচন করুন"
-
-#~ msgid "Switch program"
-#~ msgstr "প্রোগ্রাম পরিবর্তন করুন"
-
-#~ msgid "_File"
-#~ msgstr "ফাইল (_F)"
-
-#~ msgid "Exit the program"
-#~ msgstr "প্রোগ্রাম থেকে বেরিয়ে যান"
-
-#~ msgid "_View"
-#~ msgstr "প্রদর্শন (_V)"
-
-#~ msgid "Force a specific SDL video output driver."
-#~ msgstr "একটি সুনির্দিষ্ট SDL ভিডিও আউটপুট ড্রাইভারকে জোর করা হবে।"
