@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.3-rc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-04 00:28+0100\n"
-"PO-Revision-Date: 2010-05-01 18:57+0100\n"
+"POT-Creation-Date: 2010-05-10 23:46+0100\n"
+"PO-Revision-Date: 2010-05-08 14:06+0100\n"
 "Last-Translator: Rousseaux Gaetan <gaetan_rousseaux@voo.be>\n"
 "Language-Team: Walloon <gaetan_rousseaux@voo.be>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +55,7 @@ msgstr "Tchuzes des mwaisses eterfaces"
 
 #: include/vlc_config_cat.h:42
 msgid "Main interfaces"
-msgstr "Mwaisse eterfaces"
+msgstr "Mwaisses eterfaces"
 
 #: include/vlc_config_cat.h:43
 msgid "Settings for the main interface"
@@ -1018,21 +1018,21 @@ msgstr "Finté do Håynaedje"
 msgid "Frame rate"
 msgstr "Frecwince do cåde "
 
-#: src/input/input.c:2473
+#: src/input/input.c:2479
 msgid "Your input can't be opened"
 msgstr "Vosse intrêye n' pout nén esse drovowe"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2480
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "VLC n' a nén parvinou a drovi li MRL '%s'. Verifyî li djournå po les detays."
 
-#: src/input/input.c:2593
+#: src/input/input.c:2599
 msgid "VLC can't recognize the input's format"
 msgstr "VLC n' pout recnoxhe li cogne d'intrêye"
 
-#: src/input/input.c:2594
+#: src/input/input.c:2600
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1661,7 +1661,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:375
 msgid "None"
 msgstr "Nole"
 
@@ -5138,7 +5138,7 @@ msgstr ""
 #: modules/access/dshow/dshow.cpp:118 modules/access/v4l.c:85
 #: modules/access/v4l2.c:74
 msgid "Video input chroma format"
-msgstr ""
+msgstr "Cogne chroma del intrêye videyo"
 
 #: modules/access/dshow/dshow.cpp:120
 msgid ""
@@ -5420,13 +5420,15 @@ msgstr "sierveu HTTP"
 
 #: modules/access/dvb/access.c:943
 msgid "Input syntax is deprecated"
-msgstr ""
+msgstr "Li sintake d' intrêye est forcrexhowe"
 
 #: modules/access/dvb/access.c:944
 msgid ""
 "The given syntax is deprecated. Run \"vlc -p dvb\" to see an explanation of "
 "the new syntax."
 msgstr ""
+"Li sintake sinêye est forcrexhowe. Enondez \"vlc -p dvb\" po vey ene "
+"esplikêye del novele sintake."
 
 #: modules/access/dvb/access.c:990
 msgid "Invalid polarization"
@@ -5759,11 +5761,11 @@ msgstr "Intrêye HTTP"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "Otintifiaedje HTTP"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr ""
@@ -6402,7 +6404,7 @@ msgstr "Dominne/Groupe d' ovraedje ki serè eployî pol raloyaedje"
 
 #: modules/access/smb.c:75
 msgid "Samba (Windows network shares) input"
-msgstr ""
+msgstr "Intrêye Samba (pårtaedjes rantoele Windows)"
 
 #: modules/access/smb.c:78
 msgid "SMB input"
@@ -6939,7 +6941,7 @@ msgstr ""
 
 #: modules/access/v4l2.c:2962
 msgid "Reset controls to default"
-msgstr ""
+msgstr "Rimete a zero les contrôles pa prémetou"
 
 #: modules/access/vcd/vcd.c:48
 msgid "Caching value for VCDs. This value should be set in milliseconds."
@@ -7121,19 +7123,19 @@ msgstr "Cogne a eployî dins l' tchamp \"tite\" del djivêye a djouwer."
 
 #: modules/access/zip/zipstream.c:38
 msgid "Media in Zip"
-msgstr ""
+msgstr "Media e Zip"
 
 #: modules/access/zip/zipstream.c:39
 msgid "Path to the media in the Zip archive"
-msgstr ""
+msgstr "Tchmin do media po-z ariver al årtchive Zip"
 
 #: modules/access/zip/zipstream.c:48
 msgid "Zip files filter"
-msgstr ""
+msgstr "Passete des fitchîs ZIP"
 
 #: modules/access/zip/zipstream.c:53
 msgid "Zip access"
-msgstr ""
+msgstr "Accès Zip"
 
 #: modules/access_output/dummy.c:45 modules/stream_out/dummy.c:51
 msgid "Dummy stream output"
@@ -7215,11 +7217,11 @@ msgstr ""
 
 #: modules/access_output/http.c:90
 msgid "Advertise with Bonjour"
-msgstr ""
+msgstr "Anoncî avou Bonjour"
 
 #: modules/access_output/http.c:91
 msgid "Advertise the stream with the Bonjour protocol."
-msgstr ""
+msgstr "Anoncî l' floû avou l' protocole Bonjour."
 
 #: modules/access_output/http.c:95
 msgid "HTTP stream output"
@@ -7928,7 +7930,7 @@ msgstr ""
 
 #: modules/audio_output/auhal.c:161
 msgid "HAL AudioUnit output"
-msgstr ""
+msgstr "Rexhowe HAL AudioUnit"
 
 #: modules/audio_output/auhal.c:270
 msgid ""
@@ -8094,7 +8096,7 @@ msgstr "Djouweu d' media VLC"
 
 #: modules/audio_output/pulse.c:103
 msgid "Pulseaudio audio output"
-msgstr ""
+msgstr "Rexhowe odio Pulseaudio"
 
 #: modules/audio_output/sdl.c:69
 msgid "Simple DirectMedia Layer audio output"
@@ -8120,7 +8122,7 @@ msgstr "Prémetou éndjin odio"
 
 #: modules/audio_output/waveout.c:98
 msgid "Win32 waveOut extension output"
-msgstr ""
+msgstr "Rexhowe del cawete Win32 waveOut"
 
 #: modules/audio_output/windows_audio_common.h:145
 msgid "Use float32 output"
@@ -8421,7 +8423,7 @@ msgid ""
 "same qscale for I and P frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Raptitixheu do brut"
@@ -8650,7 +8652,7 @@ msgstr ""
 msgid "Enable adaptive prefiltering"
 msgstr ""
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "nole"
 
@@ -8676,7 +8678,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:87
 msgid "Chroma format"
-msgstr ""
+msgstr "Cogne chroma"
 
 #: modules/codec/dirac.c:88
 msgid ""
@@ -8890,7 +8892,7 @@ msgstr "Cowordonêyes Y do sortite ecôdé"
 msgid "DVB subtitles decoder"
 msgstr "Decôdeu des sortites"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "Sortites DVB"
 
@@ -8967,7 +8969,7 @@ msgstr "Disinterlacî l' module a eployî."
 #: modules/codec/fake.c:76 modules/video_output/omapfb.c:82
 #: modules/video_output/yuv.c:44
 msgid "Chroma used"
-msgstr ""
+msgstr "Chroma eployî"
 
 #: modules/codec/fake.c:78 modules/video_output/yuv.c:46
 msgid "Force use of a specific chroma for output. Default is I420."
@@ -9057,7 +9059,7 @@ msgstr "Dinêyes po les fonccions d' aclawaedje et di disaclawaedje"
 #: modules/codec/invmem.c:70 modules/video_output/snapshot.c:61
 #: modules/video_output/vmem.c:51
 msgid "Chroma"
-msgstr ""
+msgstr "Chroma"
 
 #: modules/codec/invmem.c:71 modules/video_output/vmem.c:52
 msgid ""
@@ -9316,7 +9318,7 @@ msgstr ""
 
 #: modules/codec/kate.c:328
 msgid "Kate text subtitles packetizer"
-msgstr ""
+msgstr "Ewalpeu des sortites tecse Kate"
 
 #: modules/codec/libass.c:65
 msgid "Subtitles (advanced)"
@@ -9350,7 +9352,7 @@ msgstr ""
 
 #: modules/codec/mash.cpp:70
 msgid "Video decoder using openmash"
-msgstr ""
+msgstr "Decôdeu videyo eployant openmash"
 
 #: modules/codec/mpeg_audio.c:114
 msgid "MPEG audio layer I/II/III decoder"
@@ -9708,7 +9710,7 @@ msgstr ""
 
 #: modules/codec/subtitles/subsdec.c:203
 msgid "Text subtitles decoder"
-msgstr ""
+msgstr "Decôdeu des sortites tecse"
 
 #. xgettext:
 #. The Windows ANSI code page most commonly used for this language.
@@ -9792,7 +9794,7 @@ msgstr ""
 
 #: modules/codec/telx.c:71
 msgid "Teletext subtitles decoder"
-msgstr ""
+msgstr "Decôdeu des sortites teletecse"
 
 #: modules/codec/theora.c:98 modules/codec/vorbis.c:173
 msgid ""
@@ -9892,21 +9894,21 @@ msgstr "Ecôdeu odio Vorbis"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr ""
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "Grandeu macsimom do GOP"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
 msgstr ""
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "Grandeu minimom do GOP"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -9918,11 +9920,11 @@ msgid ""
 "frames, but do not start a new GOP."
 msgstr ""
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr ""
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -9933,39 +9935,39 @@ msgid ""
 "1 to 100."
 msgstr ""
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "B-cådes etur I eyet P"
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr ""
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr ""
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
 msgstr ""
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr ""
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
 msgstr ""
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr ""
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -9975,200 +9977,200 @@ msgid ""
 " - normal: Non-strict (not Blu-ray compatible)\n"
 msgstr ""
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
 "appropriately."
 msgstr ""
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
 msgstr ""
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "Nombe di cådes di referince"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
 "decoders are unable to deal with large frameref values. Range 1 to 16."
 msgstr ""
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr ""
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr ""
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr ""
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "Livea H.264"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 msgstr ""
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 msgid "H.264 profile"
 msgstr "Profil H.264"
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr ""
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr ""
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr ""
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr ""
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 msgid "Force number of slices per frame"
 msgstr ""
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr ""
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr ""
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr ""
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "DEfini QP"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
 msgstr ""
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr ""
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr ""
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "Min QP"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr ""
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "Macs QP"
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr ""
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr ""
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr ""
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr ""
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
-msgstr ""
-
-#: modules/codec/x264.c:183
-msgid "Max local bitrate"
-msgstr ""
+msgstr "Permetowe variance dins l' moyene roedeur des bits (e kbits/s)."
 
 #: modules/codec/x264.c:184
-msgid "Sets a maximum local bitrate (in kbits/s)."
-msgstr ""
+msgid "Max local bitrate"
+msgstr "Macs locåle rodedeur des bits"
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:185
+msgid "Sets a maximum local bitrate (in kbits/s)."
+msgstr "Definit ene macsimom locåle roedeur des bits (e kbits/s)."
+
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "Tampon VBV"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr ""
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr ""
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr ""
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr ""
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -10177,11 +10179,11 @@ msgid ""
 "frame"
 msgstr ""
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "Foice di AQ"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -10189,35 +10191,35 @@ msgid ""
 " - 1.5: strong AQ"
 msgstr ""
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "Facteur QP etur I eyet P"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr "Facteur QP etur I eyet P. Fortchete 1.0 a 2.0."
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "Facteur QP etur P eyet B"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr "Facteur QP etur P eyet B. Fortchete 1.0 a 2.0."
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr ""
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr ""
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -10225,35 +10227,35 @@ msgid ""
 " - 3: Nth pass, overwrites stats file\n"
 msgstr ""
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "Coube di rastrindaedje QP"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr "Coube di rastrindaedje QP. Fortchete 1.0 a 2.0."
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr ""
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
 msgstr ""
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
 msgstr ""
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "Pårticions a-z aconter"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -10264,49 +10266,49 @@ msgid ""
 "(p4x4 requires p8x8. i8x8 requires 8x8dct)."
 msgstr ""
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr ""
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr ""
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr ""
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
 " - -1: smallest possible according to level\n"
 msgstr ""
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr ""
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr ""
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 msgid "Weighted prediction for P-frames"
 msgstr ""
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr ""
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -10316,104 +10318,104 @@ msgid ""
 " - tesa: hadamard exhaustive search (extremely slow, primarily for testing)\n"
 msgstr ""
 
-#: modules/codec/x264.c:271
-msgid "Maximum motion vector search range"
-msgstr ""
-
 #: modules/codec/x264.c:272
+msgid "Maximum motion vector search range"
+msgstr "Fortchete di cweraedje macsimom del roye movmint"
+
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
 "may benefit from settings between 24 and 32. Range 0 to 64."
 msgstr ""
 
-#: modules/codec/x264.c:277
-msgid "Maximum motion vector length"
-msgstr ""
-
 #: modules/codec/x264.c:278
+msgid "Maximum motion vector length"
+msgstr "Longueu macsimom del roye movmint"
+
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr ""
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr ""
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr ""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
 msgstr ""
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr ""
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
 "quality). Range 1 to 9."
 msgstr ""
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr ""
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr ""
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
 msgstr ""
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr ""
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr ""
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr ""
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr ""
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr ""
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr ""
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr ""
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -10422,193 +10424,207 @@ msgid ""
 "This requires CABAC."
 msgstr ""
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr ""
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr ""
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr ""
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
 msgstr ""
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 msgid "Use Psy-optimizations"
 msgstr ""
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
 msgstr ""
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr ""
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr ""
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr ""
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr ""
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "Amidraedjes del CPU"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr ""
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr ""
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr ""
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr ""
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
 msgstr ""
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr ""
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
 msgstr ""
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "Môde taijheu"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "Môde taijheu."
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Sitatistikes"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr ""
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "Limeros d' id SPS et PPS"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr ""
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr ""
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr ""
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr ""
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
 "yet"
 msgstr ""
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+msgid "HRD-timing information"
+msgstr ""
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr ""
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
-msgstr ""
+msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
-msgstr ""
+msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
-msgstr ""
+msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "rade"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "normå"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "londjin"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "tot"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr ""
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr ""
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "tot seu"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "H.264/MPEG4 AVC ecôdeu (x264)"
 
@@ -10779,7 +10795,7 @@ msgstr ""
 
 #: modules/control/hotkeys.c:590
 msgid "Original Size"
-msgstr ""
+msgstr "Oridjinnåle grandeur"
 
 #: modules/control/hotkeys.c:618
 msgid "Deinterlace off"
@@ -10922,7 +10938,7 @@ msgstr "movmint"
 
 #: modules/control/motion.c:81
 msgid "motion control interface"
-msgstr ""
+msgstr "Eterface do contrôle do movmint"
 
 #: modules/control/motion.c:82
 msgid ""
@@ -11112,6 +11128,7 @@ msgstr ""
 #: modules/control/rc.c:801
 msgid "| enqueue XYZ  . . . . . . . . . queue XYZ to playlist"
 msgstr ""
+"| mete al cawêye XYZ  . . . . . . . . . cawêye XYZ dins l'djivêye a djouwer"
 
 #: modules/control/rc.c:802
 msgid "| playlist . . . . .  show items currently in playlist"
@@ -11205,15 +11222,15 @@ msgstr ""
 
 #: modules/control/rc.c:824
 msgid "| faster . . . . . . . . . .  faster playing of stream"
-msgstr ""
+msgstr "| pus rade . . . . . . . . . .  djouwaedje pus rade do floû"
 
 #: modules/control/rc.c:825
 msgid "| slower . . . . . . . . . .  slower playing of stream"
-msgstr ""
+msgstr "| pus londjin . . . . . . . . . .  djouwaedje pus londjin do floû"
 
 #: modules/control/rc.c:826
 msgid "| normal . . . . . . . . . .  normal playing of stream"
-msgstr ""
+msgstr "| normå . . . . . . . . . .  normå djouwaedje do floû"
 
 #: modules/control/rc.c:827
 msgid "| frame. . . . . . . . . .  play frame by frame"
@@ -11241,11 +11258,11 @@ msgstr ""
 
 #: modules/control/rc.c:833
 msgid "| get_title . . . . .  the title of the current stream"
-msgstr ""
+msgstr "| awè_l' tite . . . . .  l' tite do floû do moumint"
 
 #: modules/control/rc.c:834
 msgid "| get_length . . . .  the length of the current stream"
-msgstr ""
+msgstr "| awè_li longeur . . . . .  li longueur do floû do moumint"
 
 #: modules/control/rc.c:836
 msgid "| volume [X] . . . . . . . . . .  set/get audio volume"
@@ -11253,11 +11270,11 @@ msgstr "| volume [X] . . . . . . . . . .  defini/cweri l' volume odio"
 
 #: modules/control/rc.c:837
 msgid "| volup [X]  . . . . . . .  raise audio volume X steps"
-msgstr ""
+msgstr "| volhôt [X]  . . . . . .  monter l' volume do son X digrés"
 
 #: modules/control/rc.c:838
 msgid "| voldown [X]  . . . . . .  lower audio volume X steps"
-msgstr ""
+msgstr "| volbas [X]  . . . . . .  baxhî l' volume do son X digrés"
 
 #: modules/control/rc.c:839
 msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
@@ -11869,11 +11886,11 @@ msgstr ""
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr ""
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "Otintifiaedje RTSP"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr ""
 
@@ -12274,7 +12291,7 @@ msgstr ""
 
 #: modules/demux/rawdv.c:49
 msgid "DV (Digital Video) demuxer"
-msgstr ""
+msgstr "Dismultiplecseu DV (Didjitåle Videyo)"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -12321,6 +12338,8 @@ msgstr "Dismultiplecseu SMF"
 #: modules/demux/subtitle.c:51 modules/demux/subtitle_asa.c:49
 msgid "Apply a delay to all subtitles (in 1/10s, eg 100 means 10s)."
 msgstr ""
+"Mete en ouve on tårdaedje po tos les sortites (e 1/10s, par egzimpe 100 vout "
+"dire 10s)."
 
 #: modules/demux/subtitle.c:53
 msgid ""
@@ -12378,7 +12397,7 @@ msgstr "Sortites (dismultiplecseu asa)"
 
 #: modules/demux/ts.c:110
 msgid "Extra PMT"
-msgstr ""
+msgstr "PMT di pus"
 
 #: modules/demux/ts.c:112
 msgid "Allows a user to specify an extra pmt (pmt_pid=pid:stream_type[,...])."
@@ -12421,7 +12440,7 @@ msgstr ""
 
 #: modules/demux/ts.c:130 modules/mux/mpeg/ts.c:173
 msgid "Second CSA Key"
-msgstr ""
+msgstr "Deujhinme clé CSA"
 
 #: modules/demux/ts.c:131 modules/mux/mpeg/ts.c:174
 msgid ""
@@ -12447,7 +12466,7 @@ msgstr ""
 
 #: modules/demux/ts.c:140
 msgid "Packet size in bytes to decrypt"
-msgstr ""
+msgstr "Grandeu do paket a discripter e bites"
 
 #: modules/demux/ts.c:141
 msgid ""
@@ -12508,7 +12527,7 @@ msgstr "Sortites do teletecse"
 
 #: modules/demux/ts.c:197
 msgid "Teletext: additional information"
-msgstr ""
+msgstr "Teletecse: infôrmåcion di rawete"
 
 #: modules/demux/ts.c:198
 msgid "Teletext: program schedule"
@@ -12518,19 +12537,19 @@ msgstr ""
 msgid "Teletext subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "efets netyîs"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr ""
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr ""
 
@@ -12548,19 +12567,19 @@ msgstr ""
 
 #: modules/demux/ty.c:773
 msgid "Closed captions 1"
-msgstr ""
+msgstr "Cloyowes imådjetes 1"
 
 #: modules/demux/ty.c:774
 msgid "Closed captions 2"
-msgstr ""
+msgstr "Cloyowes imådjetes 2"
 
 #: modules/demux/ty.c:775
 msgid "Closed captions 3"
-msgstr ""
+msgstr "Cloyowes imådjetes 3"
 
 #: modules/demux/ty.c:776
 msgid "Closed captions 4"
-msgstr ""
+msgstr "Cloyowes imådjetes 4"
 
 #: modules/demux/vc1.c:44
 msgid "Desired frame rate for the VC-1 stream."
@@ -12588,7 +12607,7 @@ msgstr "Dismultiplecseu XA"
 
 #: modules/gui/fbosd.c:101 modules/video_output/fb.c:56
 msgid "Framebuffer device"
-msgstr ""
+msgstr "Éndjin tampon memwere"
 
 #: modules/gui/fbosd.c:103 modules/video_output/fb.c:58
 msgid "Framebuffer device to use for rendering (usually /dev/fb0)."
@@ -12866,12 +12885,12 @@ msgstr "Aler a"
 
 #: modules/gui/macosx/controls.m:214
 msgid "Random On"
-msgstr ""
+msgstr "Astcheyance Eclitchî"
 
 #: modules/gui/macosx/controls.m:313 modules/gui/macosx/controls.m:344
 #: modules/gui/macosx/controls.m:372
 msgid "Repeat Off"
-msgstr ""
+msgstr "Repeter Disclitchî"
 
 #: modules/gui/macosx/controls.m:480 modules/gui/macosx/controls.m:1082
 #: modules/gui/macosx/intf.m:681
@@ -13032,7 +13051,7 @@ msgstr "Transformaedje"
 
 #: modules/gui/macosx/extended.m:86
 msgid "Rotates or flips the image"
-msgstr ""
+msgstr "Fwait tourner ou ratouner l' imådje"
 
 #: modules/gui/macosx/extended.m:87
 msgid "Interactive Zoom"
@@ -13361,7 +13380,7 @@ msgstr ""
 
 #: modules/gui/macosx/intf.m:2449
 msgid "Move To Trash and Relaunch VLC"
-msgstr ""
+msgstr "Taper å batch et renonder VLC"
 
 #: modules/gui/macosx/intf.m:2583
 #, c-format
@@ -13423,7 +13442,7 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:79
 msgid "Auto-playback of new items"
-msgstr ""
+msgstr "Djouwaedje otomatike des noveas cayets"
 
 #: modules/gui/macosx/macosx.m:80
 msgid "Start playback of new items immediately once they were added."
@@ -13871,7 +13890,7 @@ msgstr "Arindjî l' Node sol Oteur"
 #: modules/gui/macosx/playlist.m:537 modules/gui/macosx/playlist.m:538
 #: modules/gui/macosx/playlist.m:1553 modules/gui/macosx/playlist.m:1554
 msgid "No items in the playlist"
-msgstr "Nole cayet dins l' djivêye a djouwer"
+msgstr "Nou cayet dins l' djivêye a djouwer"
 
 #: modules/gui/macosx/playlist.m:481 modules/gui/macosx/playlist.m:482
 msgid "Search in Playlist"
@@ -14290,12 +14309,12 @@ msgstr "Da vosse"
 #: modules/gui/macosx/simple_prefs.m:572
 #: modules/gui/qt4/components/simple_preferences.cpp:464
 msgid "Lowest latency"
-msgstr ""
+msgstr "Li pus basse latince"
 
 #: modules/gui/macosx/simple_prefs.m:572
 #: modules/gui/qt4/components/simple_preferences.cpp:465
 msgid "Low latency"
-msgstr ""
+msgstr "Basse latince"
 
 #: modules/gui/macosx/simple_prefs.m:572
 #: modules/gui/qt4/components/simple_preferences.cpp:466
@@ -14307,12 +14326,12 @@ msgstr "Normå"
 #: modules/gui/macosx/simple_prefs.m:573
 #: modules/gui/qt4/components/simple_preferences.cpp:467
 msgid "High latency"
-msgstr ""
+msgstr "Hôte latince"
 
 #: modules/gui/macosx/simple_prefs.m:573
 #: modules/gui/qt4/components/simple_preferences.cpp:468
 msgid "Higher latency"
-msgstr ""
+msgstr "Pus hôte latince"
 
 #: modules/gui/macosx/simple_prefs.m:815
 msgid "Interface Settings not saved"
@@ -14715,7 +14734,7 @@ msgstr "Anonçaedje SAP"
 #: modules/gui/macosx/wizard.m:405 modules/gui/macosx/wizard.m:415
 #: modules/gui/macosx/wizard.m:447 modules/gui/macosx/wizard.m:1890
 msgid "Local playback"
-msgstr ""
+msgstr "Locå djouwaedje"
 
 #: modules/gui/macosx/wizard.m:407 modules/gui/macosx/wizard.m:416
 msgid "Add Subtitles to transcoded video"
@@ -15205,7 +15224,7 @@ msgstr "      %s: %s"
 
 #: modules/gui/ncurses.c:1715 modules/gui/ncurses.c:1803
 msgid "No item currently playing"
-msgstr ""
+msgstr "Nou cayet djouwé pol moumint"
 
 #: modules/gui/ncurses.c:1828
 msgid " Logs "
@@ -15272,7 +15291,7 @@ msgstr "Tchaptrê/Tite shuvant"
 
 #: modules/gui/qt4/components/controller.cpp:486
 msgid "Teletext Activation"
-msgstr ""
+msgstr "Metaedje en alaedje Teletecse"
 
 #: modules/gui/qt4/components/controller.cpp:502
 msgid "Toggle Transparency "
@@ -15316,7 +15335,7 @@ msgstr "Digré en avant"
 
 #: modules/gui/qt4/components/controller.hpp:109
 msgid "Loop/Repeat mode"
-msgstr ""
+msgstr "Môde blouke/repeter"
 
 #: modules/gui/qt4/components/controller.hpp:111
 msgid "Stop playback"
@@ -15540,11 +15559,11 @@ msgstr "Djouwé"
 msgid "buffers"
 msgstr "tampons"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:373
 msgid "Current visualization"
 msgstr "Voeyaedje do moumint"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:412
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -15552,19 +15571,19 @@ msgstr ""
 "Radisté del djouwaedje do moumint: %1\n"
 "Clitchî po adjuster"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:483
 msgid "Revert to normal play speed"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:557
 msgid "Download cover art"
 msgstr "Aberweter l' potchete"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:599
 msgid "Click to toggle between elapsed and remaining time"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:601
 msgid "Double click to jump to a chosen time position"
 msgstr ""
 
@@ -16169,7 +16188,7 @@ msgstr ") est disponibe."
 
 #: modules/gui/qt4/dialogs/help.cpp:325
 msgid "You have the latest version of VLC media player."
-msgstr ""
+msgstr "Vos avoz li dierinne modêye do djouweu d' media VLC."
 
 #: modules/gui/qt4/dialogs/help.cpp:329
 msgid "An error occurred while checking for updates..."
@@ -16201,7 +16220,7 @@ msgstr "Eplaeçmint:"
 
 #: modules/gui/qt4/dialogs/messages.cpp:106
 msgid "Modules tree"
-msgstr ""
+msgstr "Coxhlaedje des modules"
 
 #: modules/gui/qt4/dialogs/messages.cpp:112
 msgid "C&lear"
@@ -16319,7 +16338,7 @@ msgstr "Rawetes"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:101
 msgid "Capability"
-msgstr ""
+msgstr "Ahessaedje"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:101
 msgid "Score"
@@ -16624,7 +16643,7 @@ msgstr "Tos les Fitchîs"
 
 #: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
-msgstr ""
+msgstr "Menu d' contrôle pol djouweu"
 
 #: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
@@ -16668,7 +16687,7 @@ msgstr "Drovi &Plake..."
 
 #: modules/gui/qt4/menus.cpp:323
 msgid "Open &Network Stream..."
-msgstr ""
+msgstr "Drovi &l' floû rantoele..."
 
 #: modules/gui/qt4/menus.cpp:325 modules/gui/qt4/menus.cpp:875
 msgid "Open &Capture Device..."
@@ -16752,7 +16771,7 @@ msgstr ""
 
 #: modules/gui/qt4/menus.cpp:503
 msgid "Customi&ze Interface..."
-msgstr ""
+msgstr "Mete& a vosse môde l' eterface..."
 
 #: modules/gui/qt4/menus.cpp:561
 msgid "Audio &Track"
@@ -17036,7 +17055,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:130
 msgid "Automatically save the volume on exit"
-msgstr ""
+msgstr "Schaper otomaticmint l' livea do volume cwand vos moussîz foû"
 
 #: modules/gui/qt4/qt4.cpp:132
 msgid "Ask for network policy at start"
@@ -17056,7 +17075,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:140
 msgid "Define the colors of the volume slider "
-msgstr ""
+msgstr "Defini les coleurs do boton d' ascinseu do volume"
 
 #: modules/gui/qt4/qt4.cpp:141
 msgid ""
@@ -17101,7 +17120,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:160
 msgid "Load extensions on startup"
-msgstr ""
+msgstr "Tcherdjî les cawetes a l' enondaedje"
 
 #: modules/gui/qt4/qt4.cpp:161
 msgid "Automatically load the extensions module on startup"
@@ -17109,7 +17128,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:164
 msgid "Start in minimal view (without menus)"
-msgstr ""
+msgstr "Enoder avou l' minimåle vuwe (sins les menus)"
 
 #: modules/gui/qt4/qt4.cpp:169
 msgid "Qt interface"
@@ -17765,7 +17784,7 @@ msgstr "Moteur di rindou do tecse"
 
 #: modules/misc/freetype.c:148
 msgid "Freetype2 font renderer"
-msgstr ""
+msgstr "Moteur di rindou di fonte Freetype2"
 
 #: modules/misc/freetype.c:359
 msgid ""
@@ -17970,7 +17989,7 @@ msgstr "TV frincesse"
 
 #: modules/misc/notify/growl.m:97
 msgid "Growl Notification Plugin"
-msgstr ""
+msgstr "Tchôke-divins di notifiaedje Growl"
 
 #: modules/misc/notify/growl.m:279
 msgid "Now playing"
@@ -18028,7 +18047,7 @@ msgstr "Notifyî"
 
 #: modules/misc/notify/notify.c:55
 msgid "LibNotify Notification Plugin"
-msgstr ""
+msgstr "Tchôke-divins di notifiaedje LibNotify"
 
 #: modules/misc/notify/telepathy.c:68
 msgid ""
@@ -18462,15 +18481,15 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:152
 msgid "Minimum B (deprecated)"
-msgstr ""
+msgstr "Minimom B (forcrexhou)"
 
 #: modules/mux/mpeg/ts.c:153 modules/mux/mpeg/ts.c:156
 msgid "This setting is deprecated and not used anymore"
-msgstr ""
+msgstr "Cisse apontiaedje est forcrexhowe et n' est nén måy eployeye"
 
 #: modules/mux/mpeg/ts.c:155
 msgid "Maximum B (deprecated)"
-msgstr ""
+msgstr "Macsimom B (forcrexhou)"
 
 #: modules/mux/mpeg/ts.c:159
 msgid ""
@@ -18516,7 +18535,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:181
 msgid "Packet size in bytes to encrypt"
-msgstr ""
+msgstr "Grandeu do paket e bites a ecripter"
 
 #: modules/mux/mpeg/ts.c:182
 msgid ""
@@ -18763,15 +18782,15 @@ msgstr "Disrastrindaedje"
 
 #: modules/stream_filter/rar.c:47
 msgid "Uncompressed RAR"
-msgstr ""
+msgstr "RAR nén rastrindou"
 
 #: modules/stream_filter/record.c:49
 msgid "Internal stream record"
-msgstr ""
+msgstr "Divintrin eredjistraedje do floû"
 
 #: modules/stream_out/autodel.c:46
 msgid "Autodel"
-msgstr ""
+msgstr "Disfacer otomaticmint"
 
 #: modules/stream_out/autodel.c:47
 msgid "Automatically add/delete input streams"
@@ -18874,15 +18893,15 @@ msgstr "Discrijhaedje del rexhowe do floû"
 
 #: modules/stream_out/display.c:42
 msgid "Enable/disable audio rendering."
-msgstr ""
+msgstr "Mete en alaedje/dismete l' rindou odio."
 
 #: modules/stream_out/display.c:44
 msgid "Enable/disable video rendering."
-msgstr ""
+msgstr "Mete en alaedje/dismete l' rindou videyo."
 
 #: modules/stream_out/display.c:46
 msgid "Introduces a delay in the display of the stream."
-msgstr ""
+msgstr "Stitche on tårdaedje dins l' håynaedje do floû."
 
 #: modules/stream_out/display.c:55
 msgid "Display stream output"
@@ -18922,7 +18941,7 @@ msgstr "Multiplecseu d' rexhowe"
 
 #: modules/stream_out/es.c:54
 msgid "This is the default muxer method that will be used."
-msgstr ""
+msgstr "Çouci est l' premetowe metôde do multiplecseu ki serèt eployeye."
 
 #: modules/stream_out/es.c:55
 msgid "Audio output muxer"
@@ -19000,7 +19019,7 @@ msgstr "Passete videyo"
 
 #: modules/stream_out/mosaic_bridge.c:121
 msgid "Video filters will be applied to the video stream."
-msgstr ""
+msgstr "Des passetes videyo seront metous en ouve å floû videyo."
 
 #: modules/stream_out/mosaic_bridge.c:123
 msgid "Image chroma"
@@ -19107,11 +19126,11 @@ msgstr ""
 
 #: modules/stream_out/rtp.c:83 modules/stream_out/standard.c:91
 msgid "SAP announcing"
-msgstr ""
+msgstr "Anonçaedje SAP"
 
 #: modules/stream_out/rtp.c:84 modules/stream_out/standard.c:92
 msgid "Announce this session with SAP."
-msgstr ""
+msgstr "Anoncer cisse session avou SAP."
 
 #: modules/stream_out/rtp.c:85
 msgid "Muxer"
@@ -19286,7 +19305,7 @@ msgstr "Dinêyes di rhoucaedje del videyo"
 
 #: modules/stream_out/smem.c:77
 msgid "Data for the video callback function."
-msgstr ""
+msgstr "Dinêyes pol fonccion di rhoucaedje videyo."
 
 #: modules/stream_out/smem.c:79
 msgid "Audio callback data"
@@ -20773,11 +20792,11 @@ msgstr ""
 
 #: modules/video_filter/gaussianblur.c:52
 msgid "Add a blurring effect"
-msgstr ""
+msgstr "Radjouter on efet do flou"
 
 #: modules/video_filter/gaussianblur.c:57
 msgid "Gaussian blur video filter"
-msgstr ""
+msgstr "Passete videyo do flou di Gauss"
 
 #: modules/video_filter/gaussianblur.c:58
 msgid "Gaussian Blur"
@@ -20829,7 +20848,7 @@ msgstr ""
 
 #: modules/video_filter/grain.c:49
 msgid "add grain to image"
-msgstr ""
+msgstr "radjouter do grin al imådje"
 
 #: modules/video_filter/grain.c:54
 msgid "Grain video filter"
@@ -20903,7 +20922,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:73
 msgid "Use a local picture as logo on the video"
-msgstr ""
+msgstr "Eployî ene locåle imådje come imådjete sol videyo"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub filter"
@@ -21639,11 +21658,11 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:43 modules/video_filter/puzzle.c:44
 msgid "Number of puzzle rows"
-msgstr ""
+msgstr "Nombe di royes do puzel"
 
 #: modules/video_filter/puzzle.c:45 modules/video_filter/puzzle.c:46
 msgid "Number of puzzle columns"
-msgstr ""
+msgstr "Nombe di colones do puzel"
 
 #: modules/video_filter/puzzle.c:47
 msgid "Make one tile a black slot"
@@ -21656,7 +21675,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:56
 msgid "Puzzle interactive game video filter"
-msgstr ""
+msgstr "Passete videyo do djeu d' puzel interactif"
 
 #: modules/video_filter/puzzle.c:57
 msgid "Puzzle"
@@ -21857,7 +21876,7 @@ msgstr "Cogne del imådje"
 
 #: modules/video_filter/scene.c:58
 msgid "Format of the output images (png, jpeg, ...)."
-msgstr ""
+msgstr "Cogne del rexhowe des imådjes (png, jpeg, ...)."
 
 #: modules/video_filter/scene.c:60
 msgid "Image width"
@@ -21953,11 +21972,11 @@ msgstr "Rawijhî"
 
 #: modules/video_filter/swscale.c:58
 msgid "Scaling mode"
-msgstr ""
+msgstr "Môde di metaedje al schåle"
 
 #: modules/video_filter/swscale.c:59
 msgid "Scaling mode to use."
-msgstr ""
+msgstr "Môde di metaedje al schåle a eployî."
 
 #: modules/video_filter/swscale.c:63
 msgid "Fast bilinear"
@@ -22213,7 +22232,7 @@ msgstr ""
 
 #: modules/video_output/msw/directx.c:85
 msgid "Name of desired display device"
-msgstr ""
+msgstr "No del éndjin d' håynaedje volou"
 
 #: modules/video_output/msw/directx.c:86
 msgid ""
@@ -22436,11 +22455,11 @@ msgstr "XVideyo"
 msgid "XVideo output (XCB)"
 msgstr "Rexhowe XVideyo (XCB)"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 msgid "Video acceleration not available"
 msgstr "Acceleråcion del Videyo nén disponibe"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
@@ -22652,7 +22671,7 @@ msgstr ""
 
 #: modules/visualization/visual/visual.c:94
 msgid "Peak height"
-msgstr ""
+msgstr "Hôteu del copete"
 
 #: modules/visualization/visual/visual.c:96
 msgid "Total pixel height of the peak items."
@@ -23020,7 +23039,7 @@ msgstr ""
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:406
 msgid "Keep audio level between sessions"
-msgstr ""
+msgstr "Wårder l' livea do son etur les sessions"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:407
 msgid "Always reset audio start level to:"
@@ -23097,7 +23116,7 @@ msgstr ""
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:312
 msgid "Use GPU acceleration (experimental)"
-msgstr ""
+msgstr "Eployî l' acceleråcion do GPU (esperimintå)"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:313
 msgid "Use system codecs if available (better quality, but dangerous)"
@@ -23157,7 +23176,7 @@ msgstr "Tchaeke"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:381
 msgid "Save recently played items"
-msgstr ""
+msgstr "Schaper les cayets djouwés dierinnmint"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:384
 msgid "Separate words by | (without space)"
@@ -23213,7 +23232,7 @@ msgstr ""
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:401
 msgid "Minimal view mode (no toolbars)"
-msgstr ""
+msgstr "Môde di vuwe minimå (nou bår ås usteyes)"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:403
 msgid "This is VLC's default interface, with a native look and feel."
@@ -23737,6 +23756,9 @@ msgstr "Djivêye do manaedjeu des medias"
 
 #~ msgid "Kalaallisut (Greenlandic)"
 #~ msgstr "Kalaallisut (Groenlandès)"
+
+#~ msgid "Kannada"
+#~ msgstr "Kanada"
 
 #~ msgid "Kashmiri"
 #~ msgstr "Kashmiri"
