@@ -2353,7 +2353,6 @@ static int InputSourceInit( input_thread_t *p_input,
                 *(--psz_path) = '\\';
                 *(--psz_path) = '\\';
             }
-            msg_Err( p_input, "REMOTE: %s", psz_path );
         }
         else
             /* Strip leading slash in front of the drive letter */
