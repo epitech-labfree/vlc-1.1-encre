@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-04 00:28+0100\n"
+"POT-Creation-Date: 2010-05-16 00:20+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dean Lee <xslidian@lidian.info>\n"
 "Language-Team: Simplified Chinese <xslidian+vlc@gmail.com>\n"
@@ -95,7 +95,7 @@ msgid "General audio settings"
 msgstr "常规音频设置"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:481
 msgid "Filters"
 msgstr "滤镜"
 
@@ -765,7 +765,7 @@ msgstr "超过了滤镜的最大数量 (%d)。"
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1686 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "关闭"
 
@@ -1037,20 +1037,20 @@ msgstr "显示分辨率"
 msgid "Frame rate"
 msgstr "帧率"
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "您的输入无法被打开"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "VLC 无法打开 MRL '%s'。请检查日志获取详细信息。"
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "VLC 无法识别输入格式"
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1403,15 +1403,14 @@ msgid "Extra interface modules"
 msgstr "扩展界面模块"
 
 #: src/libvlc-module.c:180
-#, fuzzy
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
 "list of interface modules. (common values are \"rc\" (remote control), \"http"
 "\", \"gestures\" ...)"
 msgstr ""
-"您可以为 VLC 选择 \"附加界面\"。它们将在除主界面之外的地方后台启动。使用逗号"
-"分隔界面模块。(公共值是 \"rc\" （远程控制、\"help\"、\"gestures\"...)"
+"您可以为 VLC 选择 \"附加界面\"。它们将在启动默认界面时在后台启动。使用逗号分"
+"隔界面模块列表。(常用值为 \"rc\" (远程控制), \"http\", \"gestures\" ...)"
 
 #: src/libvlc-module.c:187
 msgid "You can select control interfaces for VLC."
@@ -1713,7 +1712,7 @@ msgstr "这允许以稍低或稍高的速度播放音频且不影响音频音调
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:375
 msgid "None"
 msgstr "无"
 
@@ -1992,13 +1991,13 @@ msgid ""
 msgstr "在 n 毫秒后隐藏光标和全屏控制器，默认是 3000 毫秒 (3 秒)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1962 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "反交错"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1978
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "反交错模式"
@@ -3429,11 +3428,10 @@ msgid "Services discovery modules"
 msgstr "服务发现模块"
 
 #: src/libvlc-module.c:1228
-#, fuzzy
 msgid ""
 "Specifies the services discovery modules to load, separated by colons. "
 "Typical values are sap, hal, ..."
-msgstr "指定要载入的服务发现模块，由半冒号分隔。标准值是 sap、hal ..."
+msgstr "指定要载入的服务发现模块，由冒号分隔。标准值为 sap、hal ..."
 
 #: src/libvlc-module.c:1231
 msgid "Play files randomly forever"
@@ -4578,7 +4576,7 @@ msgstr "安装"
 msgid "Undefined"
 msgstr "未定义"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1674 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "预处理"
@@ -5798,11 +5796,11 @@ msgstr "HTTP 输入"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "HTTP 验证"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr "请为域 %s 输入一个有效的登录名和密码。"
@@ -6847,9 +6845,9 @@ msgid ""
 "audio_crc=0,stream_type=3} ). To list available controls, increase verbosity "
 "(-vvv) or use the v4l2-ctl application."
 msgstr ""
-"使用由所以园括号包裹的逗号分隔符列表设置 v4l2 驱动的值  (例如: "
-"{video_bitrate=6000000,audio_crc=0,stream_type=3} )。要列出可用的控制，请增强"
-"提示程度 (-vvv) 或使用 v4l2 控制应用程序。"
+"设置 v4l2 驱动的值  (例如: {video_bitrate=6000000,audio_crc=0,"
+"stream_type=3} ) 为逗号分隔的一列值，可以放在大括号内。要列出可用的控件，请增"
+"强提示程度 (-vvv) 或使用 v4l2 控制应用程序。"
 
 #: modules/access/v4l2.c:194
 msgid "Tuner id"
@@ -8499,7 +8497,7 @@ msgid ""
 "same qscale for I and P frames)."
 msgstr "I 帧的量化因数，与 P 帧相比较 (例如 1.0 => 相同比例的 I 和 P 帧)。"
 
-#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "噪点消除"
@@ -8745,7 +8743,7 @@ msgstr "预过滤器"
 msgid "Enable adaptive prefiltering"
 msgstr "启用自适应预过滤"
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "无"
 
@@ -8988,7 +8986,7 @@ msgstr "编码字幕的 Y 坐标"
 msgid "DVB subtitles decoder"
 msgstr "DVB 字幕解码器"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "DVB 字幕"
 
@@ -9838,7 +9836,7 @@ msgstr "文本字幕解码器"
 #: modules/codec/subtitles/subsdec.c:296
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "GB18030"
+msgstr "CP950"
 
 #: modules/codec/subtitles/subsusf.c:52
 msgid "USFSubs"
@@ -10018,11 +10016,11 @@ msgstr "Vorbis 音频编码器"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr "WMA v1/v2 定点音频解码器"
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "最大 GOP 大小"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10030,11 +10028,11 @@ msgstr ""
 "设置 IDR 帧之间的最大间隔。较大的帧将节省大小，并改进在给予为率下的搜索精确性"
 "质量。"
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "最小 GOP 大小"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10050,11 +10048,11 @@ msgstr ""
 "IDR 帧将从任意参考帧之前限制之后的 P 帧。\n"
 "如果场景出现在此间隔内，它们还是将会被编码为 I 帧，但是不启动一个新的 GOP。"
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "扩展 I 帧激进性"
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10070,39 +10068,39 @@ msgstr ""
 "辑检测，所以 I 帧将会被插入到每个 keyint 帧中，这可能会导致编码效率的降低。范"
 "围是 1 到 100。"
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "在 I 和 P 之间的 B 帧"
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr "在 I 和 P 帧之间的连续 B 帧。范围是 1 到 16。"
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "适应 B 帧检测"
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
 msgstr "强制使用指定数量的连续 B 帧，除非可能是 I 帧前的 B 帧。范围由 0 到 2。"
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "影响 (倾向) B 帧用法"
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
 msgstr "倾向使用 B 帧。积极的值将造成更多的 B 帧, 保守的值将造成较少的 B 帧。"
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr "保留一些 B 帧作为参考"
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10117,7 +10115,7 @@ msgstr ""
 " - strict: 严格的等级椎\n"
 " - normal: 不严格 (与 Blu-ray 不兼容)\n"
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10125,11 +10123,11 @@ msgid ""
 msgstr ""
 "允许 B 帧被用做参考预测其它帧。保持 2+ 连续 B 帧作为参考，并记录帧框架。"
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10137,11 +10135,11 @@ msgstr ""
 "CABAC (内容适应二进制算法编码)。将轻微的降速编码和解码, 但是会节省 10 到 15% "
 "位率。"
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "参考帧数量"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10150,19 +10148,19 @@ msgstr ""
 "用作预测的前帧数量。这在动画中非常有效，但是可能会造成看上去和原始版本稍有差"
 "异。某些解码器可能无法分析大的参考帧值。范围是 1 到 16。"
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "跳过循环滤镜"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr "取消去块循环滤镜 (降低质量)。"
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "循环滤镜 AlphaCO 和 Beta 参数 alpha: beta"
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10170,11 +10168,11 @@ msgstr ""
 "循环滤镜 AlphaCO 和 Beta 参数。alpha 和 beta 参数的范围是 -6 到 6。-6 表示很"
 "少的过滤，6 表示强过滤。"
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "H.264 等级"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
@@ -10183,67 +10181,67 @@ msgstr ""
 "指定 H.264 等级 (由 AnnexA 定义标准)。等级不是强制的; 它将服从用户选择的其它"
 "编码选项。范围是 1 到 5.1 (10 到 51 也被允许)。"
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 msgid "H.264 profile"
 msgstr "H.264 档案"
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr "指定 H.264 profile，将对已有设置强加限制"
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "交错模式"
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr "纯交错模式。"
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr "使用周期性的内部刷新"
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr "使用周期性的内部刷新而不是 IDR 帧"
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
 msgstr "使用 mb-tree 速率控制"
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr "您可以禁用 Macroblock-tree 宏块树速率控制"
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 msgid "Force number of slices per frame"
 msgstr "强制每帧切片数"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr "强制矩形切片，可被其他切片设置覆盖"
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr "限定各切片的尺寸为指定字节数"
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr "设定以字节为单位的最大切片尺寸，含 NAL 开销所占的尺寸"
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr "限定宏块中各切片的尺寸"
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr "设置每切片的最大宏块数"
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "设置 QP"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10251,77 +10249,77 @@ msgstr ""
 "这将选择要使用的量化器。较低的值会有较佳的精确性，但是有较高的位率。26 是一个"
 "比较好的值。范围从 0 (无损) 到 51。"
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "基于质量的 VBR"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr "基于质量的 1 pass VBR。范围从 0 到 51。"
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "最小 QP"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr "最小的量化器参数。15 到 35 看上去是一个有用的范围。"
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "最大 QP"
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr "最大量化器参数。"
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "最大 QP 步进"
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr "在帧之前的最大 QP 步进。"
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "平均位率公差"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr "平均位率内允许的误差 (以 kbits/s 为单位)。"
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "最大本地位率"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr "设置最大本地位率 (以 kbits/s 为位率)。"
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "VBV 缓冲"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr "最大本地位率的平均周期 (以 kbits 为单位)。"
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "初始 VBV 缓冲占有期"
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr "设置初始缓存占有期作为缓存的一部分。范围从 0.0 到 1.0。"
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr "AQ 如何发布位"
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -10334,11 +10332,11 @@ msgstr ""
 " - 1: 当前 x264 的默认模式\n"
 " - 2: 使用 log(数值)^2 替代 log(数值) 并尝试适应各帧强度"
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "AQ 强度"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -10350,35 +10348,35 @@ msgstr ""
 " - 0.5: 弱 AQ\n"
 " - 1.5: 强 AQ"
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "I 和 P 之间的 QP 因数"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr "在 I 和 P 之间的 QP 因数。范围从 1.0 到 2.0。"
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "P 和 B 之间的 QP 因数"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr "在 P 和 B 之间的 QP 因数。范围从 1.0 到 2.0。"
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "在色度和亮度之间的差异"
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr "在色度和亮度之间的差异。"
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "多重编码码率控制"
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -10390,35 +10388,35 @@ msgstr ""
 " - 2: 二重, 不覆盖状态文件\n"
 " - 3: 多重, 覆盖状态文件\n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "QP 曲线压缩"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr "QP 曲线压缩。范围从 0.0 (CBR) 到 1.0 (QCP)。"
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "减少 QP 波动"
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
 msgstr "这将减少在曲线压缩之前的 QP 波动。临时模糊的复杂性。"
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
 msgstr "这在曲线压缩之后减少 QP 的波动。临时模糊突增。"
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "分割计算器"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -10436,19 +10434,19 @@ msgstr ""
 " - 全部  : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 需要 p8x8。i8x8 需要 8x8dct)。"
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "直接 MV 预计模式"
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr "直接 MV 预计模式。"
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "直接预计大小"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -10458,19 +10456,19 @@ msgstr ""
 " -  1: 8x8\n"
 " - -1: 按照等级的最小可能\n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "用于 B 帧的有利预计"
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "用于 B 帧的有利预计。"
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 msgid "Weighted prediction for P-frames"
 msgstr "P 帧加权预测"
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
@@ -10480,11 +10478,11 @@ msgstr ""
 " - 1: 隐性补偿\n"
 " - 2: 智能分析\n"
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "整数像素运动估计模式"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -10499,11 +10497,11 @@ msgstr ""
 " - esa: 穷举搜索 (非常慢, 主要用于测试)\n"
 " - tesa: hadamard 穷举搜索 (非常慢, 主要用于测试)\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "最大运动向量搜索范围"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -10512,30 +10510,30 @@ msgstr ""
 "运动估算搜索的最大距离，较慎重的预测点。默认的 16 适合大多数的距离，高连续动"
 "态场景可以设置为 24 和 32。范围是 0 到 64。"
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "最大运动向量长度"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr "以像素为单位的最大运动向量长度。-1 是自动，基于等级。"
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr "线程之间的最小缓存空间"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr "线程之间的最小缓冲空间。-1 是自动，基于线程数量。"
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr "疯狂视觉优化的强度，默认为 \"1.0:0.0\""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
@@ -10543,11 +10541,11 @@ msgstr ""
 "第一个参数控制是否启用 RD (subme>=6) 第二个参数控制疯狂视觉优化是否使用 "
 "Trellis，默认关闭"
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr "子像素运动估计和切割确定质量"
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
@@ -10556,19 +10554,19 @@ msgstr ""
 "此参数控制了在运动估计处理过程中的质量与速度比 (较低 = 快速和高质量 = 较佳的"
 "质量)。范围是 1 到 9。"
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "为 B 帧 RD 基于模式判断"
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr "为 B 帧 RD 基于模式判断。这需要 subme 6 (或更高)。"
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "在一个每分割基础上判断参考"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -10576,35 +10574,35 @@ msgstr ""
 "允许每 8x8 或 16x8 的分割独立的选择一个参考帧，相反的每个预宏块只有一个参考"
 "帧。"
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "动态估算中的色度"
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr "在 P 帧中的用于 subpel 和模式确定的色度 ME。"
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "在 B 帧中的 MVs 连带优化"
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr "联合双向动态优化。"
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr "适应空间改版大小"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr "用于 inter-MB 中的 8x8 的传输中的基于 SATD 的判断。"
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "格式 RD 量化"
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -10618,138 +10616,138 @@ msgstr ""
 " - 2: 在所有模式判断时开启\n"
 "这需要 CABAC。"
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "在 P 帧上的早期跳过检测"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr "在 P 帧上的早期跳过检测。"
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr "P 帧的阀系数"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
 msgstr "P 帧上的阀系数。消除 dct 块仅包含一个小的单一系数。"
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 msgid "Use Psy-optimizations"
 msgstr "使用疯狂视觉优化"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr "使用所有可能同时恶化 PSNR 与 SSIM 的视觉优化"
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
 msgstr "Dct-域噪点消除。适应伪造的死区。10 到 1000 看上去是一个有用的范围。"
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "Inter 亮度量化死区"
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr "设置 inter 量化死区的大小。范围是 0 到 32。"
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "Intra 亮度量化死区"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr "设置 intra 量化死区的大小。范围是 0 到 32。"
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr "在线程中的非确定性优化"
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr "以可重复性为代价轻微改进 SMP 的质量。"
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "CPU 优化"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr "使用汇编 CPU 优化。"
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "2 重状态文件名"
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr "用于多重编码的 2 重状态文件文件名。"
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "PSNR 计算"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
 msgstr "计算并打印 PSNR 状态。这不会影响实际编码质量。"
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "SSIM 计算"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
 msgstr "计算并打印 SSIM 状态。这不会影响实际编码质量。"
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "静默模式"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "静默模式。"
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "统计"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr "打印每帧的状态。"
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "SPS 和 PPS id 号"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr "设置 SPS 和 PPS id 号以允许用不同的设置连接流。"
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "访问单元分隔符"
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr "生成反问单元分隔符 NAL 单元。"
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr "统计帧数以供帧类预测"
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
@@ -10758,55 +10756,69 @@ msgstr ""
 "统计帧数以供帧类预测。目前默认低于 x264 的默认设置，因为不可混流的输出仍然无"
 "法很好处理更大的值"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+msgid "HRD-timing information"
+msgstr "HRD 计时信息"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
 msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "快速"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "普通"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "慢"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "全部"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "三位"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "临时"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "自动"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "H.264/MPEG4 AVC 编码器 (x264)"
 
@@ -12079,11 +12091,11 @@ msgstr "HTTP 隧道端口"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "用于通过 HTTP 隧道 RTSP/RTP 的端口。"
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "RTSP 验证"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr "请输入一个有效的登录名和密码。"
 
@@ -12743,19 +12755,19 @@ msgstr "Teletext: 节目表"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "Teletext 字幕: 听力障碍"
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr "DVB 字幕: 听力障碍"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "清除效果"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "听力障碍"
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "可见的损坏报道"
 
@@ -15793,7 +15805,7 @@ msgstr "已丢弃 (已损坏)"
 
 #: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Dropped (discontinued)"
-msgstr "已终止 (未继续)"
+msgstr "已丢弃 (非连续)"
 
 #: modules/gui/qt4/components/info_panels.cpp:524
 #: modules/gui/qt4/components/info_panels.cpp:537
@@ -15841,11 +15853,11 @@ msgstr "已播放"
 msgid "buffers"
 msgstr "缓冲器"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:373
 msgid "Current visualization"
 msgstr "当前的可视化"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:412
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -15853,19 +15865,19 @@ msgstr ""
 "当前回放速度: %1\n"
 "点击调整"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:483
 msgid "Revert to normal play speed"
 msgstr "恢复普通播放速度"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:557
 msgid "Download cover art"
 msgstr "下载封面"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:599
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "点击可在已用和剩余时间之间切换"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:601
 msgid "Double click to jump to a chosen time position"
 msgstr "双击跳到选定时间位置"
 
@@ -15956,9 +15968,8 @@ msgid "Advanced Options"
 msgstr "高级选项"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:54
-#, fuzzy
 msgid "Media Browser"
-msgstr " 浏览 "
+msgstr "媒体浏览器"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
@@ -16022,20 +16033,19 @@ msgstr "URI"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:56
 msgid "Detailed View"
-msgstr "详细信息形式查看"
+msgstr "详细信息视图"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:57
 msgid "Icon View"
-msgstr "图标形式查看"
+msgstr "图标视图"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:58
 msgid "List View"
-msgstr "列表形式查看"
+msgstr "列表视图"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:99
-#, fuzzy
 msgid "Change playlistview"
-msgstr "保存播放列表"
+msgstr "更改播放列表视图"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:344
 msgid "Select File"
@@ -17992,9 +18002,8 @@ msgid "Font family for the font you want to use"
 msgstr "您要使用字体的字体集"
 
 #: modules/misc/freetype.c:97
-#, fuzzy
 msgid "Fontfile for the font you want to use"
-msgstr "您要使用字体的字体文件"
+msgstr "您要使用的字体的字体文件"
 
 #: modules/misc/freetype.c:100 modules/misc/win32text.c:60
 msgid "Font size in pixels"
@@ -19884,12 +19893,11 @@ msgid "Maximum output video height."
 msgstr "最大输出视频高度。"
 
 #: modules/stream_out/transcode/transcode.c:80
-#, fuzzy
 msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
-"将被应用到视频流的视频滤镜 (在覆盖后应用)。您必须输入一个滤镜的逗号分隔符列"
+"将被应用到视频流的视频滤镜 (在应用覆盖层之后)。您可以输入一个冒号分隔的滤镜列"
 "表。"
 
 #: modules/stream_out/transcode/transcode.c:83
@@ -19940,13 +19948,12 @@ msgid "Audio filter"
 msgstr "音频滤镜"
 
 #: modules/stream_out/transcode/transcode.c:104
-#, fuzzy
 msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
-"将被应用到音频流中的音频滤镜 (在转换文件被应用后)。您必须输入一个滤镜的逗号分"
-"隔符列表。"
+"将被应用到音频流的音频滤镜 (在转换滤镜被应用后)。您可以输入一个冒号分隔的滤镜"
+"列表。"
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
@@ -19967,15 +19974,14 @@ msgid "This is the subtitles codec that will be used."
 msgstr "这是将被使用的字幕编解码器。"
 
 #: modules/stream_out/transcode/transcode.c:117
-#, fuzzy
 msgid ""
 "This allows you to add overlays (also known as \"subpictures\" on the "
 "transcoded video stream. The subpictures produced by the filters will be "
 "overlayed directly onto the video. You can specify a colon-separated list of "
 "subpicture modules"
 msgstr ""
-"这将允许您添加覆盖层 (也被叫做 \"子画面\") 到被转码的视频流中。由滤镜生成的子"
-"画面将直接覆盖在视频上。您必须输入一个逗号分隔的子画面模块的列表"
+"这将允许您在转码后的视频流上添加覆盖层 (也被叫做 \"子画面\")。由滤镜生成的子"
+"画面将直接覆盖在视频上。您必须输入一个冒号分隔的子画面模块的列表"
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -20880,7 +20886,7 @@ msgstr "视频输出模块"
 msgid ""
 "You can use specific video output modules for the clones. Use a comma-"
 "separated list of modules."
-msgstr "您可以指定用于克隆的视频输出模块。使用一个逗号分隔符列表的模块。"
+msgstr "您可以指定用于克隆的视频输出模块。使用一个逗号分隔的模块列表。"
 
 #: modules/video_filter/clone.c:47
 msgid "Duplicate your video to multiple windows and/or video output modules"
@@ -21588,8 +21594,8 @@ msgid ""
 "comma-separated list of picture ID(s).These IDs are assigned in the \"mosaic-"
 "bridge\" module."
 msgstr ""
-"您可以强制指定 mosaic 元素的数序。您必须给予一个逗号分隔符列表的图像 ID。这"
-"些 ID 被分配给 \"mosaic - 桥\" 模式。"
+"您可以强制指定 mosaic 元素的数序。您必须给予一个逗号分隔的图像 ID 列表。这些 "
+"ID 被分配给 \"mosaic - 桥\" 模式。"
 
 #: modules/video_filter/mosaic.c:149
 msgid "Offsets in order"
@@ -21602,7 +21608,7 @@ msgid ""
 "separated list of coordinates (eg: 10,10,150,10)."
 msgstr ""
 "您可以强制指定在 mosaic 中的元素偏移 (x,y) (仅在位置模式被设置为 \"偏移\" 的"
-"情况下)。您必须给出一个逗号分隔符的坐标列表 (例如: 10,10,150,10)。"
+"情况下)。您必须给出一个逗号分隔的坐标列表 (例如: 10,10,150,10)。"
 
 #: modules/video_filter/mosaic.c:157
 msgid ""
@@ -21857,7 +21863,7 @@ msgstr "活动窗口"
 
 #: modules/video_filter/panoramix.c:66
 msgid "Comma separated list of active windows, defaults to all"
-msgstr "活动窗口的逗号分隔符列表，默认为全部"
+msgstr "逗号分隔的活动窗口列表，默认为全部"
 
 #: modules/video_filter/panoramix.c:71
 msgid "Split the video in multiple windows to display on a wall of screens"
@@ -22132,7 +22138,6 @@ msgid "VNC Port"
 msgstr "VNC 端口"
 
 #: modules/video_filter/remoteosd.c:80
-#, fuzzy
 msgid "VNC portnumber."
 msgstr "VNC 端口号。"
 
@@ -22867,11 +22872,18 @@ msgstr "X 窗口"
 msgid "X11 video window (XCB)"
 msgstr "X11 视频窗口 (XCB)"
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "VLC media player"
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -22915,11 +22927,11 @@ msgstr "XVideo"
 msgid "XVideo output (XCB)"
 msgstr "XVideo 输出 (XCB)"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 msgid "Video acceleration not available"
 msgstr "无可用视频加速"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
@@ -23718,7 +23730,7 @@ msgstr "嵌入视频到界面中"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:399
 msgid " Systray popup when minimized"
-msgstr " 最小化时弹出系统托盘"
+msgstr "最小化时弹出系统托盘图标"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:400
 msgid "Show controls in full screen mode"
@@ -23958,7 +23970,6 @@ msgid "Brightness (%)"
 msgstr "亮度 (%)"
 
 #: linux/modules/gui/qt4/ui/video_effects.h:1157
-#, fuzzy
 msgid "Darknesslimit"
 msgstr "暗度限制"
 
@@ -24078,509 +24089,6 @@ msgstr "循环"
 #: linux/modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "媒体管理器列表"
-
-#~ msgid "Afar"
-#~ msgstr "阿法尔语"
-
-#~ msgid "Abkhazian"
-#~ msgstr "阿布哈齐亚语"
-
-#~ msgid "Afrikaans"
-#~ msgstr "阿非利堪斯语"
-
-#~ msgid "Albanian"
-#~ msgstr "阿尔巴尼亚语"
-
-#~ msgid "Amharic"
-#~ msgstr "阿姆哈拉语"
-
-#~ msgid "Arabic"
-#~ msgstr "阿拉伯语"
-
-#~ msgid "Armenian"
-#~ msgstr "亚美尼亚语"
-
-#~ msgid "Assamese"
-#~ msgstr "阿萨姆语"
-
-#~ msgid "Avestan"
-#~ msgstr "阿维斯陀语"
-
-#~ msgid "Aymara"
-#~ msgstr "艾马拉语"
-
-#~ msgid "Azerbaijani"
-#~ msgstr "阿塞拜疆语"
-
-#~ msgid "Bashkir"
-#~ msgstr "巴什基尔语"
-
-#~ msgid "Basque"
-#~ msgstr "巴斯克语"
-
-#~ msgid "Belarusian"
-#~ msgstr "白俄罗斯语"
-
-#~ msgid "Bengali"
-#~ msgstr "孟加拉语"
-
-#~ msgid "Bihari"
-#~ msgstr "比哈里语"
-
-#~ msgid "Bislama"
-#~ msgstr "比斯拉马语"
-
-#~ msgid "Bosnian"
-#~ msgstr "波斯尼亚语"
-
-#~ msgid "Breton"
-#~ msgstr "布列塔尼语"
-
-#~ msgid "Bulgarian"
-#~ msgstr "保加利亚语"
-
-#~ msgid "Burmese"
-#~ msgstr "缅甸语"
-
-#~ msgid "Catalan"
-#~ msgstr "加泰罗尼亚语"
-
-#~ msgid "Chamorro"
-#~ msgstr "夏莫罗语"
-
-#~ msgid "Chechen"
-#~ msgstr "车臣语"
-
-#~ msgid "Chinese"
-#~ msgstr "中文"
-
-#~ msgid "Church Slavic"
-#~ msgstr "教会斯拉夫语"
-
-#~ msgid "Chuvash"
-#~ msgstr "楚瓦什语"
-
-#~ msgid "Cornish"
-#~ msgstr "康沃尔语"
-
-#~ msgid "Corsican"
-#~ msgstr "科西嘉语"
-
-#~ msgid "Czech"
-#~ msgstr "捷克语"
-
-#~ msgid "Danish"
-#~ msgstr "丹麦语"
-
-#~ msgid "Dutch"
-#~ msgstr "荷兰语"
-
-#~ msgid "Dzongkha"
-#~ msgstr "宗卡语"
-
-#~ msgid "English"
-#~ msgstr "英语"
-
-#, fuzzy
-#~ msgid "Esperanto"
-#~ msgstr "高宽比"
-
-#~ msgid "Estonian"
-#~ msgstr "爱沙尼亚语"
-
-#~ msgid "Faroese"
-#~ msgstr "法罗语"
-
-#~ msgid "Fijian"
-#~ msgstr "斐济语"
-
-#~ msgid "Finnish"
-#~ msgstr "芬兰语"
-
-#~ msgid "French"
-#~ msgstr "法语"
-
-#~ msgid "Frisian"
-#~ msgstr "弗里斯兰语"
-
-#~ msgid "Georgian"
-#~ msgstr "乔治亚语"
-
-#~ msgid "German"
-#~ msgstr "德语"
-
-#~ msgid "Gaelic (Scots)"
-#~ msgstr "盖尔语 (苏格兰)"
-
-#~ msgid "Irish"
-#~ msgstr "爱尔兰语"
-
-#~ msgid "Gallegan"
-#~ msgstr "加利西亚语"
-
-#~ msgid "Manx"
-#~ msgstr "马恩岛语"
-
-#~ msgid "Greek, Modern ()"
-#~ msgstr "希腊语, 现代 ()"
-
-#~ msgid "Guarani"
-#~ msgstr "瓜拉尼语"
-
-#~ msgid "Gujarati"
-#~ msgstr "古吉拉特语"
-
-#~ msgid "Hebrew"
-#~ msgstr "希伯来语"
-
-#~ msgid "Herero"
-#~ msgstr "赫雷罗语"
-
-#~ msgid "Hindi"
-#~ msgstr "印地语"
-
-#~ msgid "Hiri Motu"
-#~ msgstr "莫图土语"
-
-#~ msgid "Hungarian"
-#~ msgstr "匈牙利语"
-
-#~ msgid "Icelandic"
-#~ msgstr "冰岛语"
-
-#~ msgid "Inuktitut"
-#~ msgstr "伊努伊特语"
-
-#, fuzzy
-#~ msgid "Interlingue"
-#~ msgstr "语际语"
-
-#~ msgid "Interlingua"
-#~ msgstr "语际语"
-
-#~ msgid "Indonesian"
-#~ msgstr "印度尼西亚语"
-
-#~ msgid "Inupiaq"
-#~ msgstr "伊努皮克语"
-
-#~ msgid "Italian"
-#~ msgstr "意大利语"
-
-#~ msgid "Javanese"
-#~ msgstr "爪哇语"
-
-#~ msgid "Japanese"
-#~ msgstr "日语"
-
-#~ msgid "Kalaallisut (Greenlandic)"
-#~ msgstr "格陵兰因纽特语 (格陵兰语)"
-
-#~ msgid "Kannada"
-#~ msgstr "卡纳达语"
-
-#~ msgid "Kashmiri"
-#~ msgstr "克什米尔语"
-
-#, fuzzy
-#~ msgid "Kazakh"
-#~ msgstr "卡拉 OK"
-
-#~ msgid "Khmer"
-#~ msgstr "高棉语"
-
-#~ msgid "Kikuyu"
-#~ msgstr "基库尤语"
-
-#~ msgid "Kinyarwanda"
-#~ msgstr "金亚瓦达语"
-
-#~ msgid "Kirghiz"
-#~ msgstr "吉尔吉斯语"
-
-#~ msgid "Komi"
-#~ msgstr "科米语"
-
-#~ msgid "Korean"
-#~ msgstr "朝鲜语"
-
-#~ msgid "Kuanyama"
-#~ msgstr "贡耶玛语"
-
-#~ msgid "Kurdish"
-#~ msgstr "库尔德语"
-
-#~ msgid "Lao"
-#~ msgstr "老挝语"
-
-#~ msgid "Latin"
-#~ msgstr "拉丁语"
-
-#~ msgid "Latvian"
-#~ msgstr "拉脱维亚语"
-
-#~ msgid "Lingala"
-#~ msgstr "林加拉语"
-
-#~ msgid "Lithuanian"
-#~ msgstr "立陶宛语"
-
-#~ msgid "Letzeburgesch"
-#~ msgstr "卢森堡语"
-
-#~ msgid "Macedonian"
-#~ msgstr "马其顿语"
-
-#~ msgid "Marshall"
-#~ msgstr "马绍尔语"
-
-#~ msgid "Malayalam"
-#~ msgstr "马拉雅拉姆语"
-
-#~ msgid "Maori"
-#~ msgstr "毛利语"
-
-#~ msgid "Marathi"
-#~ msgstr "马拉地语"
-
-#~ msgid "Malay"
-#~ msgstr "马来语"
-
-#~ msgid "Malagasy"
-#~ msgstr "马达加斯加语"
-
-#~ msgid "Maltese"
-#~ msgstr "马耳他语"
-
-#~ msgid "Moldavian"
-#~ msgstr "摩尔达维亚语"
-
-#~ msgid "Mongolian"
-#~ msgstr "蒙古语"
-
-#~ msgid "Nauru"
-#~ msgstr "瑙鲁语"
-
-#~ msgid "Navajo"
-#~ msgstr "纳瓦霍语"
-
-#~ msgid "Ndebele, South"
-#~ msgstr "恩德贝勒语, 南方"
-
-#~ msgid "Ndebele, North"
-#~ msgstr "恩德贝勒语, 北方"
-
-#~ msgid "Ndonga"
-#~ msgstr "恩同加语"
-
-#~ msgid "Nepali"
-#~ msgstr "尼泊尔语"
-
-#~ msgid "Norwegian"
-#~ msgstr "挪威语"
-
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "挪威尼诺斯克语"
-
-#~ msgid "Norwegian Bokmaal"
-#~ msgstr "挪威博克马尔语"
-
-#~ msgid "Chichewa; Nyanja"
-#~ msgstr "尼扬扎语"
-
-#~ msgid "Occitan (post 1500); Provencal"
-#~ msgstr "奥克西顿语 (前 1500); 普罗旺斯语"
-
-#~ msgid "Oriya"
-#~ msgstr "奥里雅语"
-
-#~ msgid "Oromo"
-#~ msgstr "库西特语"
-
-#~ msgid "Ossetian; Ossetic"
-#~ msgstr "奥塞梯语"
-
-#~ msgid "Panjabi"
-#~ msgstr "旁遮普语"
-
-#~ msgid "Persian"
-#~ msgstr "波斯语"
-
-#~ msgid "Pali"
-#~ msgstr "巴利语"
-
-#~ msgid "Polish"
-#~ msgstr "波兰语"
-
-#~ msgid "Portuguese"
-#~ msgstr "葡萄要语"
-
-#~ msgid "Pushto"
-#~ msgstr "普图什语"
-
-#~ msgid "Quechua"
-#~ msgstr "盖丘亚语"
-
-#, fuzzy
-#~ msgid "Original audio"
-#~ msgstr "原始大小"
-
-#~ msgid "Raeto-Romance"
-#~ msgstr "罗曼斯方言"
-
-#~ msgid "Romanian"
-#~ msgstr "罗马尼亚语"
-
-#~ msgid "Rundi"
-#~ msgstr "隆迪语"
-
-#, fuzzy
-#~ msgid "Russian"
-#~ msgstr "流行"
-
-#~ msgid "Sango"
-#~ msgstr "桑戈语"
-
-#, fuzzy
-#~ msgid "Sanskrit"
-#~ msgstr "抄本"
-
-#~ msgid "Serbian"
-#~ msgstr "塞尔维亚语"
-
-#~ msgid "Croatian"
-#~ msgstr "克罗地亚语"
-
-#~ msgid "Sinhalese"
-#~ msgstr "僧伽罗语"
-
-#~ msgid "Slovak"
-#~ msgstr "斯洛伐克语"
-
-#~ msgid "Slovenian"
-#~ msgstr "斯洛文尼亚语"
-
-#~ msgid "Northern Sami"
-#~ msgstr "北萨米语"
-
-#~ msgid "Samoan"
-#~ msgstr "萨摩亚语"
-
-#~ msgid "Shona"
-#~ msgstr "绍那语"
-
-#~ msgid "Sindhi"
-#~ msgstr "信德语"
-
-#~ msgid "Somali"
-#~ msgstr "索马里语"
-
-#~ msgid "Sotho, Southern"
-#~ msgstr "索托语, 南方"
-
-#~ msgid "Spanish"
-#~ msgstr "西班牙语"
-
-#~ msgid "Sardinian"
-#~ msgstr "撒丁语"
-
-#~ msgid "Swati"
-#~ msgstr "斯瓦特语"
-
-#~ msgid "Sundanese"
-#~ msgstr "巽他语"
-
-#~ msgid "Swahili"
-#~ msgstr "班图语"
-
-#~ msgid "Swedish"
-#~ msgstr "瑞典语"
-
-#~ msgid "Tahitian"
-#~ msgstr "塔希提语"
-
-#~ msgid "Tamil"
-#~ msgstr "泰米尔语"
-
-#~ msgid "Tatar"
-#~ msgstr "鞑靼语"
-
-#~ msgid "Telugu"
-#~ msgstr "泰卢固语"
-
-#~ msgid "Tajik"
-#~ msgstr "塔吉克语"
-
-#~ msgid "Tagalog"
-#~ msgstr "他加禄语"
-
-#~ msgid "Thai"
-#~ msgstr "泰语"
-
-#~ msgid "Tibetan"
-#~ msgstr "藏语"
-
-#~ msgid "Tigrinya"
-#~ msgstr "提格里尼亚语"
-
-#~ msgid "Tonga (Tonga Islands)"
-#~ msgstr "汤加语 (汤加群岛)"
-
-#~ msgid "Tswana"
-#~ msgstr "茨瓦纳语"
-
-#~ msgid "Tsonga"
-#~ msgstr "聪加语"
-
-#~ msgid "Turkish"
-#~ msgstr "土耳其语"
-
-#~ msgid "Turkmen"
-#~ msgstr "土库曼语"
-
-#~ msgid "Twi"
-#~ msgstr "契维语"
-
-#~ msgid "Uighur"
-#~ msgstr "维吾尔语"
-
-#, fuzzy
-#~ msgid "Ukrainian"
-#~ msgstr "乌克兰语 (KOI8-U)"
-
-#~ msgid "Urdu"
-#~ msgstr "乌尔都语"
-
-#~ msgid "Uzbek"
-#~ msgstr "乌孜别克语 "
-
-#, fuzzy
-#~ msgid "Vietnamese"
-#~ msgstr "越南语 (VISCII)"
-
-#~ msgid "Volapuk"
-#~ msgstr "沃拉普克语"
-
-#~ msgid "Welsh"
-#~ msgstr "威尔士语"
-
-#~ msgid "Wolof"
-#~ msgstr "沃洛夫语"
-
-#~ msgid "Xhosa"
-#~ msgstr "科萨语"
-
-#~ msgid "Yiddish"
-#~ msgstr "依地语"
-
-#~ msgid "Yoruba"
-#~ msgstr "约鲁巴语"
-
-#~ msgid "Zhuang"
-#~ msgstr "壮语"
-
-#~ msgid "Zulu"
-#~ msgstr "祖鲁语"
 
 #~ msgid "Attachment"
 #~ msgstr "附件"
@@ -24782,7 +24290,7 @@ msgstr "媒体管理器列表"
 #~ "进行警告提起的阈值。如果音频层级在此期间内低于此阈值则发送警告 (默认 "
 #~ "0.1)。"
 
-#~ msgid "Time between two alarm messages in ms (default 2000)"
+#~ msgid "Time between two alamr messages in ms (default 2000)"
 #~ msgstr "两条警告信息的间隔时间，以毫秒为单位 (默认 2000)"
 
 #~ msgid ""
@@ -24805,9 +24313,6 @@ msgstr "媒体管理器列表"
 #~ msgid "audiobargraph_a"
 #~ msgstr "audiobargraph_a"
 
-#~ msgid "HRD-timing information"
-#~ msgstr "HRD 计时信息"
-
 #~ msgid "My Computer"
 #~ msgstr "我的电脑"
 
@@ -24820,46 +24325,17 @@ msgstr "媒体管理器列表"
 #~ msgid "Internet"
 #~ msgstr "Internet"
 
-#~ msgid "Privacy and Network Policies"
-#~ msgstr "隐私与网络策略"
+#~ msgid "Fullscreen controller opacity opacity between 0.1 and 1"
+#~ msgstr "全屏控制板的不透明度，从 0.1 到 1"
 
-#~ msgid "Privacy and Network Warning"
-#~ msgstr "隐私与网络警告"
-
-#, fuzzy
-#~ msgid ""
-#~ "<p><i>VideoLAN</i> prefers when applications request authorization before "
-#~ "accessing Internet.</p>\n"
-#~ "<p><b>VLC media player</b> can get information from the Internet in order "
-#~ "to get <b>media informations</b> or to check for available <b>updates</b>."
-#~ "</p>\n"
-#~ "<p><i>VLC media player</i> <b>doesn't</b> send or collect any "
-#~ "information, even anonymously, about your usage.</p>\n"
-#~ msgstr ""
-#~ "<p><i>VideoLAN 小组</i>不想让一个未经验证的程序访问网络。</p>\n"
-#~ " <p><i>VLC media player</i>可以在 Internet 上请求受限制的信息，例如获取 "
-#~ "CD 封面或查找可用的更新。</p>\n"
-#~ "<p><i>VLC media player</i><b>不会</b>发送或收集<b>任意</b>的有关您使用情况"
-#~ "的信息，无论是否匿名。</p>\n"
-#~ "<p>因此请确认下列选项，默认存在的设置几乎不访问网络。</p>\n"
-
-#, fuzzy
-#~ msgid "Check for updates"
-#~ msgstr "检测更新"
+#~ msgid "SessionManager"
+#~ msgstr "会话管理器"
 
 #~ msgid "SQLite database module"
 #~ msgstr "SQLite 数据库模块"
 
 #~ msgid "Flac audio packetizer"
 #~ msgstr "Flac 音频分包器"
-
-#, fuzzy
-#~ msgid "MTP devices"
-#~ msgstr "DVD 设备"
-
-#, fuzzy
-#~ msgid "MTP Device"
-#~ msgstr "设备"
 
 #~ msgid "Screen capture"
 #~ msgstr "屏幕捕获"
@@ -24869,6 +24345,9 @@ msgstr "媒体管理器列表"
 
 #~ msgid "Applications"
 #~ msgstr "应用程序"
+
+#~ msgid "Devicetype"
+#~ msgstr "设备类型"
 
 #~ msgid "Value of the audio channels levels"
 #~ msgstr "音频声道层级数值"
@@ -24965,21 +24444,8 @@ msgstr "媒体管理器列表"
 #~ msgid "Ball"
 #~ msgstr "球"
 
-#, fuzzy
-#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-#~ msgstr "最小化 Mac OS X OpenGL 视频输出 (打开一个无边框的窗口)"
-
-#~ msgid "Time between two alamr messages in ms (default 2000)"
+#~ msgid "Time between two alarm messages in ms (default 2000)"
 #~ msgstr "两条警告信息的间隔时间，以毫秒为单位 (默认 2000)"
-
-#~ msgid "Fullscreen controller opacity opacity between 0.1 and 1"
-#~ msgstr "全屏控制板的不透明度，从 0.1 到 1"
-
-#~ msgid "SessionManager"
-#~ msgstr "会话管理器"
-
-#~ msgid "Devicetype"
-#~ msgstr "设备类型"
 
 #~ msgid "Method used by libdvdcss for decryption"
 #~ msgstr "libdvdcss 用于解密的模式"
@@ -25647,6 +25113,9 @@ msgstr "媒体管理器列表"
 #~ msgid "VIDEO_TS directory"
 #~ msgstr "VIDEO_TS 目录"
 
+#~ msgid "Check for Updates"
+#~ msgstr "检测更新"
+
 #~ msgid "Download now"
 #~ msgstr "立即下载"
 
@@ -25988,6 +25457,30 @@ msgstr "媒体管理器列表"
 
 #~ msgid "VLC media player "
 #~ msgstr "VLC media player"
+
+#~ msgid "Privacy and Network Policies"
+#~ msgstr "隐私与网络策略"
+
+#~ msgid "Privacy and Network Warning"
+#~ msgstr "隐私与网络警告"
+
+#~ msgid ""
+#~ "<p>The <i>VideoLAN Team</i> doesn't like when an application goes online "
+#~ "without authorization.</p>\n"
+#~ " <p><i>VLC media player</i> can retreive limited information from the "
+#~ "Internet in order to get CD covers or to check for available updates.</"
+#~ "p>\n"
+#~ "<p><i>VLC media player</i> <b>DOES NOT</b> send or collect <b>ANY</b> "
+#~ "information, even anonymously, about your usage.</p>\n"
+#~ "<p>Therefore please select from the following options, the default being "
+#~ "almost no access to the web.</p>\n"
+#~ msgstr ""
+#~ "<p><i>VideoLAN 小组</i>不想让一个未经验证的程序访问网络。</p>\n"
+#~ " <p><i>VLC media player</i>可以在 Internet 上请求受限制的信息，例如获取 "
+#~ "CD 封面或查找可用的更新。</p>\n"
+#~ "<p><i>VLC media player</i><b>不会</b>发送或收集<b>任意</b>的有关您使用情况"
+#~ "的信息，无论是否匿名。</p>\n"
+#~ "<p>因此请确认下列选项，默认存在的设置几乎不访问网络。</p>\n"
 
 #~ msgid "Path to use in openfile dialog"
 #~ msgstr "用于打开文件对话框的路径"
@@ -26429,23 +25922,107 @@ msgstr "媒体管理器列表"
 #~ msgid "American English"
 #~ msgstr "美式英语"
 
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯语"
+
+#~ msgid "Bengali"
+#~ msgstr "孟加拉语"
+
 #~ msgid "Brazilian Portuguese"
 #~ msgstr "巴西葡萄牙语"
 
 #~ msgid "British English"
 #~ msgstr "英式英语"
 
+#~ msgid "Bulgarian"
+#~ msgstr "保加利亚语"
+
+#~ msgid "Catalan"
+#~ msgstr "加泰罗尼亚语"
+
 #~ msgid "Chinese Traditional"
 #~ msgstr "繁体中文"
+
+#~ msgid "Czech"
+#~ msgstr "捷克语"
+
+#~ msgid "Danish"
+#~ msgstr "丹麦语"
+
+#~ msgid "Dutch"
+#~ msgstr "荷兰语"
+
+#~ msgid "Finnish"
+#~ msgstr "芬兰语"
+
+#~ msgid "French"
+#~ msgstr "法语"
 
 #~ msgid "Galician"
 #~ msgstr "加利西亚语"
 
+#~ msgid "Georgian"
+#~ msgstr "乔治亚语"
+
+#~ msgid "German"
+#~ msgstr "德语"
+
+#~ msgid "Hebrew"
+#~ msgstr "希伯来语"
+
+#~ msgid "Hungarian"
+#~ msgstr "匈牙利语"
+
+#~ msgid "Indonesian"
+#~ msgstr "印度尼西亚语"
+
+#~ msgid "Italian"
+#~ msgstr "意大利语"
+
+#~ msgid "Japanese"
+#~ msgstr "日语"
+
+#~ msgid "Korean"
+#~ msgstr "朝鲜语"
+
+#~ msgid "Malay"
+#~ msgstr "马来语"
+
 #~ msgid "Occitan"
 #~ msgstr "奥克西顿语"
 
+#~ msgid "Persian"
+#~ msgstr "波斯语"
+
+#~ msgid "Polish"
+#~ msgstr "波兰语"
+
+#~ msgid "Portuguese"
+#~ msgstr "葡萄要语"
+
 #~ msgid "Punjabi"
 #~ msgstr "旁遮普语"
+
+#~ msgid "Romanian"
+#~ msgstr "罗马尼亚语"
+
+#~ msgid "Serbian"
+#~ msgstr "塞尔维亚语"
+
+#~ msgid "Slovak"
+#~ msgstr "斯洛伐克语"
+
+#~ msgid "Slovenian"
+#~ msgstr "斯洛文尼亚语"
+
+#~ msgid "Spanish"
+#~ msgstr "西班牙语"
+
+#~ msgid "Swedish"
+#~ msgstr "瑞典语"
+
+#~ msgid "Turkish"
+#~ msgstr "土耳其语"
 
 #~ msgid "Access filter module"
 #~ msgstr "访问滤镜模块"
@@ -26461,6 +26038,393 @@ msgstr "媒体管理器列表"
 
 #~ msgid "Cancelled"
 #~ msgstr "已被取消"
+
+#~ msgid "Afar"
+#~ msgstr "阿法尔语"
+
+#~ msgid "Abkhazian"
+#~ msgstr "阿布哈齐亚语"
+
+#~ msgid "Afrikaans"
+#~ msgstr "阿非利堪斯语"
+
+#~ msgid "Albanian"
+#~ msgstr "阿尔巴尼亚语"
+
+#~ msgid "Amharic"
+#~ msgstr "阿姆哈拉语"
+
+#~ msgid "Armenian"
+#~ msgstr "亚美尼亚语"
+
+#~ msgid "Assamese"
+#~ msgstr "阿萨姆语"
+
+#~ msgid "Avestan"
+#~ msgstr "阿维斯陀语"
+
+#~ msgid "Aymara"
+#~ msgstr "艾马拉语"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "阿塞拜疆语"
+
+#~ msgid "Bashkir"
+#~ msgstr "巴什基尔语"
+
+#~ msgid "Basque"
+#~ msgstr "巴斯克语"
+
+#~ msgid "Belarusian"
+#~ msgstr "白俄罗斯语"
+
+#~ msgid "Bihari"
+#~ msgstr "比哈里语"
+
+#~ msgid "Bislama"
+#~ msgstr "比斯拉马语"
+
+#~ msgid "Bosnian"
+#~ msgstr "波斯尼亚语"
+
+#~ msgid "Breton"
+#~ msgstr "布列塔尼语"
+
+#~ msgid "Burmese"
+#~ msgstr "缅甸语"
+
+#~ msgid "Chamorro"
+#~ msgstr "夏莫罗语"
+
+#~ msgid "Chechen"
+#~ msgstr "车臣语"
+
+#~ msgid "Chinese"
+#~ msgstr "中文"
+
+#~ msgid "Church Slavic"
+#~ msgstr "教会斯拉夫语"
+
+#~ msgid "Chuvash"
+#~ msgstr "楚瓦什语"
+
+#~ msgid "Cornish"
+#~ msgstr "康沃尔语"
+
+#~ msgid "Corsican"
+#~ msgstr "科西嘉语"
+
+#~ msgid "Dzongkha"
+#~ msgstr "宗卡语"
+
+#~ msgid "English"
+#~ msgstr "英语"
+
+#~ msgid "Estonian"
+#~ msgstr "爱沙尼亚语"
+
+#~ msgid "Faroese"
+#~ msgstr "法罗语"
+
+#~ msgid "Fijian"
+#~ msgstr "斐济语"
+
+#~ msgid "Frisian"
+#~ msgstr "弗里斯兰语"
+
+#~ msgid "Gaelic (Scots)"
+#~ msgstr "盖尔语 (苏格兰)"
+
+#~ msgid "Irish"
+#~ msgstr "爱尔兰语"
+
+#~ msgid "Gallegan"
+#~ msgstr "加利西亚语"
+
+#~ msgid "Manx"
+#~ msgstr "马恩岛语"
+
+#~ msgid "Greek, Modern ()"
+#~ msgstr "希腊语, 现代 ()"
+
+#~ msgid "Guarani"
+#~ msgstr "瓜拉尼语"
+
+#~ msgid "Gujarati"
+#~ msgstr "古吉拉特语"
+
+#~ msgid "Herero"
+#~ msgstr "赫雷罗语"
+
+#~ msgid "Hindi"
+#~ msgstr "印地语"
+
+#~ msgid "Hiri Motu"
+#~ msgstr "莫图土语"
+
+#~ msgid "Icelandic"
+#~ msgstr "冰岛语"
+
+#~ msgid "Inuktitut"
+#~ msgstr "伊努伊特语"
+
+#~ msgid "Interlingua"
+#~ msgstr "语际语"
+
+#~ msgid "Inupiaq"
+#~ msgstr "伊努皮克语"
+
+#~ msgid "Javanese"
+#~ msgstr "爪哇语"
+
+#~ msgid "Kalaallisut (Greenlandic)"
+#~ msgstr "格陵兰因纽特语 (格陵兰语)"
+
+#~ msgid "Kannada"
+#~ msgstr "卡纳达语"
+
+#~ msgid "Kashmiri"
+#~ msgstr "克什米尔语"
+
+#~ msgid "Khmer"
+#~ msgstr "高棉语"
+
+#~ msgid "Kikuyu"
+#~ msgstr "基库尤语"
+
+#~ msgid "Kinyarwanda"
+#~ msgstr "金亚瓦达语"
+
+#~ msgid "Kirghiz"
+#~ msgstr "吉尔吉斯语"
+
+#~ msgid "Komi"
+#~ msgstr "科米语"
+
+#~ msgid "Kuanyama"
+#~ msgstr "贡耶玛语"
+
+#~ msgid "Kurdish"
+#~ msgstr "库尔德语"
+
+#~ msgid "Lao"
+#~ msgstr "老挝语"
+
+#~ msgid "Latin"
+#~ msgstr "拉丁语"
+
+#~ msgid "Latvian"
+#~ msgstr "拉脱维亚语"
+
+#~ msgid "Lingala"
+#~ msgstr "林加拉语"
+
+#~ msgid "Lithuanian"
+#~ msgstr "立陶宛语"
+
+#~ msgid "Letzeburgesch"
+#~ msgstr "卢森堡语"
+
+#~ msgid "Macedonian"
+#~ msgstr "马其顿语"
+
+#~ msgid "Marshall"
+#~ msgstr "马绍尔语"
+
+#~ msgid "Malayalam"
+#~ msgstr "马拉雅拉姆语"
+
+#~ msgid "Maori"
+#~ msgstr "毛利语"
+
+#~ msgid "Marathi"
+#~ msgstr "马拉地语"
+
+#~ msgid "Malagasy"
+#~ msgstr "马达加斯加语"
+
+#~ msgid "Maltese"
+#~ msgstr "马耳他语"
+
+#~ msgid "Moldavian"
+#~ msgstr "摩尔达维亚语"
+
+#~ msgid "Mongolian"
+#~ msgstr "蒙古语"
+
+#~ msgid "Nauru"
+#~ msgstr "瑙鲁语"
+
+#~ msgid "Navajo"
+#~ msgstr "纳瓦霍语"
+
+#~ msgid "Ndebele, South"
+#~ msgstr "恩德贝勒语, 南方"
+
+#~ msgid "Ndebele, North"
+#~ msgstr "恩德贝勒语, 北方"
+
+#~ msgid "Ndonga"
+#~ msgstr "恩同加语"
+
+#~ msgid "Nepali"
+#~ msgstr "尼泊尔语"
+
+#~ msgid "Norwegian"
+#~ msgstr "挪威语"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "挪威尼诺斯克语"
+
+#~ msgid "Norwegian Bokmaal"
+#~ msgstr "挪威博克马尔语"
+
+#~ msgid "Chichewa; Nyanja"
+#~ msgstr "尼扬扎语"
+
+#~ msgid "Occitan (post 1500); Provencal"
+#~ msgstr "奥克西顿语 (前 1500); 普罗旺斯语"
+
+#~ msgid "Oriya"
+#~ msgstr "奥里雅语"
+
+#~ msgid "Oromo"
+#~ msgstr "库西特语"
+
+#~ msgid "Ossetian; Ossetic"
+#~ msgstr "奥塞梯语"
+
+#~ msgid "Panjabi"
+#~ msgstr "旁遮普语"
+
+#~ msgid "Pali"
+#~ msgstr "巴利语"
+
+#~ msgid "Pushto"
+#~ msgstr "普图什语"
+
+#~ msgid "Quechua"
+#~ msgstr "盖丘亚语"
+
+#~ msgid "Raeto-Romance"
+#~ msgstr "罗曼斯方言"
+
+#~ msgid "Rundi"
+#~ msgstr "隆迪语"
+
+#~ msgid "Sango"
+#~ msgstr "桑戈语"
+
+#~ msgid "Croatian"
+#~ msgstr "克罗地亚语"
+
+#~ msgid "Sinhalese"
+#~ msgstr "僧伽罗语"
+
+#~ msgid "Northern Sami"
+#~ msgstr "北萨米语"
+
+#~ msgid "Samoan"
+#~ msgstr "萨摩亚语"
+
+#~ msgid "Shona"
+#~ msgstr "绍那语"
+
+#~ msgid "Sindhi"
+#~ msgstr "信德语"
+
+#~ msgid "Somali"
+#~ msgstr "索马里语"
+
+#~ msgid "Sotho, Southern"
+#~ msgstr "索托语, 南方"
+
+#~ msgid "Sardinian"
+#~ msgstr "撒丁语"
+
+#~ msgid "Swati"
+#~ msgstr "斯瓦特语"
+
+#~ msgid "Sundanese"
+#~ msgstr "巽他语"
+
+#~ msgid "Swahili"
+#~ msgstr "班图语"
+
+#~ msgid "Tahitian"
+#~ msgstr "塔希提语"
+
+#~ msgid "Tamil"
+#~ msgstr "泰米尔语"
+
+#~ msgid "Tatar"
+#~ msgstr "鞑靼语"
+
+#~ msgid "Telugu"
+#~ msgstr "泰卢固语"
+
+#~ msgid "Tajik"
+#~ msgstr "塔吉克语"
+
+#~ msgid "Tagalog"
+#~ msgstr "他加禄语"
+
+#~ msgid "Thai"
+#~ msgstr "泰语"
+
+#~ msgid "Tibetan"
+#~ msgstr "藏语"
+
+#~ msgid "Tigrinya"
+#~ msgstr "提格里尼亚语"
+
+#~ msgid "Tonga (Tonga Islands)"
+#~ msgstr "汤加语 (汤加群岛)"
+
+#~ msgid "Tswana"
+#~ msgstr "茨瓦纳语"
+
+#~ msgid "Tsonga"
+#~ msgstr "聪加语"
+
+#~ msgid "Turkmen"
+#~ msgstr "土库曼语"
+
+#~ msgid "Twi"
+#~ msgstr "契维语"
+
+#~ msgid "Uighur"
+#~ msgstr "维吾尔语"
+
+#~ msgid "Urdu"
+#~ msgstr "乌尔都语"
+
+#~ msgid "Uzbek"
+#~ msgstr "乌孜别克语 "
+
+#~ msgid "Volapuk"
+#~ msgstr "沃拉普克语"
+
+#~ msgid "Welsh"
+#~ msgstr "威尔士语"
+
+#~ msgid "Wolof"
+#~ msgstr "沃洛夫语"
+
+#~ msgid "Xhosa"
+#~ msgstr "科萨语"
+
+#~ msgid "Yiddish"
+#~ msgstr "依地语"
+
+#~ msgid "Yoruba"
+#~ msgstr "约鲁巴语"
+
+#~ msgid "Zhuang"
+#~ msgstr "壮语"
+
+#~ msgid "Zulu"
+#~ msgstr "祖鲁语"
 
 #~ msgid "QAM constellation points [16, 32, 64, 128, 256]"
 #~ msgstr "QAM 星点 [16, 32, 64, 128, 256]"
