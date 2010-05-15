@@ -109,10 +109,9 @@ static void DisplayTitleOnOSD( vout_thread_t *p_vout );
 
 /* Minimum number of direct pictures the video output will accept without
  * creating additional pictures in system memory */
-#ifdef OPTIMIZE_MEMORY
-#   define VOUT_MIN_DIRECT_PICTURES        (VOUT_MAX_PICTURES/2)
-#else
-#   define VOUT_MIN_DIRECT_PICTURES        (3*VOUT_MAX_PICTURES/4)
+#define VOUT_MIN_DIRECT_PICTURES 23
+#if VOUT_MIN_DIRECT_PICTURES > VOUT_MAX_PICTURES
+#   error "VOUT_MAX_PICTURES is incomatible with VOUT_MIN_DIRECT_PICTURES"
 #endif
 
 /*****************************************************************************
