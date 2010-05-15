@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-10 23:46+0100\n"
-"PO-Revision-Date: 2010-05-10 00:57-0300\n"
+"POT-Creation-Date: 2010-05-16 00:20+0100\n"
+"PO-Revision-Date: 2010-05-14 08:48-0300\n"
 "Last-Translator: Sidney Doria <ssdoria@gmail.com>\n"
 "Language-Team: Brazilian Portuguese\n"
 "MIME-Version: 1.0\n"
@@ -93,7 +93,7 @@ msgid "General audio settings"
 msgstr "Configurações gerais de áudio"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:481
 msgid "Filters"
 msgstr "Filtros"
 
@@ -802,7 +802,7 @@ msgstr "O número máximo de filtros (%d) foi atingido."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1686 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Desabilitar"
 
@@ -1076,22 +1076,22 @@ msgstr "Exibir resolução"
 msgid "Frame rate"
 msgstr "Taxa de quadros"
 
-#: src/input/input.c:2479
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "A entrada não pode ser aberta"
 
-#: src/input/input.c:2480
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "O VLC não é capaz de abrir o MRL '%s'. Verifique o registro de erros para "
 "maiores detalhes."
 
-#: src/input/input.c:2599
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "Não foi possível reconhecer o formato da entrada"
 
-#: src/input/input.c:2600
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -2109,13 +2109,13 @@ msgstr ""
 "O padrão é 3000ms (3 segundos)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1962 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Desentrelaçamento"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1978
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Modo desentrelaçar"
@@ -4867,7 +4867,7 @@ msgstr "Instalar"
 msgid "Undefined"
 msgstr "Não Definido"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1674 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Pós processamento"
@@ -11404,19 +11404,22 @@ msgstr ""
 "manipular valores maiores que os predefinidos"
 
 #: modules/codec/x264.c:385 modules/codec/x264.c:386
-#, fuzzy
 msgid "HRD-timing information"
-msgstr "Imprimir informações sobre a versão"
+msgstr "Informações temporais do HRD"
 
 #: modules/codec/x264.c:388
 msgid ""
 "Tune the settings for a particular type of source or situation. Overridden "
 "by user settings."
 msgstr ""
+"Ajusta as configurações para um tipo particular de fonte ou situação. Este "
+"valor é sobrescrito pelas configurações do usuário."
 
 #: modules/codec/x264.c:390
 msgid "Use preset as default settings. Overridden by user settings."
 msgstr ""
+"Usa o ajuste predefinido como padrão de configuração. Este valor é "
+"sobreposto pelas configurações do usuário."
 
 #: modules/codec/x264.c:395
 msgid "dia"
@@ -24059,11 +24062,18 @@ msgstr "X window"
 msgid "X11 video window (XCB)"
 msgstr "Janela de vídeo (XCB) X11"
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr ""
+msgstr "Reprodutor de midias VLC"
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
