@@ -673,7 +673,7 @@ vlc_module_begin ()
     add_string( SOUT_CFG_PREFIX "stats", "x264_2pass.log", NULL, STATS_TEXT,
                 STATS_LONGTEXT, false )
 
-#if X264_BUILD >= 93
+#if X264_BUILD >= 86
     add_string( SOUT_CFG_PREFIX "preset", NULL , NULL, PRESET_TEXT , PRESET_TEXT, false )
         change_string_list( x264_preset_names, x264_preset_names, 0 );
     add_string( SOUT_CFG_PREFIX "tune", NULL , NULL, TUNE_TEXT, TUNE_TEXT, false )
@@ -763,7 +763,7 @@ static int  Open ( vlc_object_t *p_this )
     p_sys->psz_stat_name = NULL;
 
     x264_param_default( &p_sys->param );
-#if X264_BUILD >= 93
+#if X264_BUILD >= 86
     char *psz_preset = var_GetString( p_enc, SOUT_CFG_PREFIX  "preset" );
     char *psz_tune = var_GetString( p_enc, SOUT_CFG_PREFIX  "tune" );
     if( *psz_preset == '\0' )
