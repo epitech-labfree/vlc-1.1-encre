@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Slovak translation for VLC Media Player\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-05 22:40+0100\n"
-"PO-Revision-Date: 2010-05-05 11:58+0100\n"
+"POT-Creation-Date: 2010-05-16 00:20+0100\n"
+"PO-Revision-Date: 2010-05-16 12:33+0100\n"
 "Last-Translator: Marian Hikanik <podnety-at-mojepreklady.net>\n"
 "Language-Team: Marián Hikaník (controlled by Pavel Kříž)\n"
 "MIME-Version: 1.0\n"
@@ -94,7 +94,7 @@ msgid "General audio settings"
 msgstr "Všeobecné nastavenia zvuku"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:481
 msgid "Filters"
 msgstr "Filtre"
 
@@ -805,7 +805,7 @@ msgstr "Bol dosiahnutý maximálny počet (%d) filtrov."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1686 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Zablokovať"
 
@@ -1079,22 +1079,22 @@ msgstr "Rozlíšenie obrazovky"
 msgid "Frame rate"
 msgstr "Rýchlosť snímkovania"
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "Zadaný vstup sa nedá otvoriť"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "Program VLC nemôže otvoriť adresu MRL  '%s'. Podrobnejšie informácie nájdete "
 "v súbore so záznamom."
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "Program nedokáže rozpoznať vstupný formát"
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -2123,13 +2123,13 @@ msgstr ""
 "Predvolená hodnota je 3000 ms (3 sek.)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1962 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Rozkladať"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1978
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Režim rozkladania"
@@ -4940,7 +4940,7 @@ msgstr "Nainštalovať"
 msgid "Undefined"
 msgstr "Nedefinované"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1674 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Dodatočné spracovávanie"
@@ -6246,11 +6246,11 @@ msgstr "Vstup HTTP"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "Autentifikácia HTTP"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr "Prosím zadajte platné meno používateľa a heslo pre realm %s."
@@ -9128,7 +9128,7 @@ msgstr ""
 "Kvantizačný faktor I snímok, v porovnaní s P snímkami (hodnota 1.0 napríklad "
 "znamená, že I aj P snímky budú mať rovnakú škálu q)."
 
-#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Redukcia šumu"
@@ -9402,7 +9402,7 @@ msgstr "Predfiltrovanie"
 msgid "Enable adaptive prefiltering"
 msgstr "Zapnúť adaptívne predfiltrovanie"
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "žiaden"
 
@@ -9652,7 +9652,7 @@ msgstr "Súradnica Y kódovaných titulkov"
 msgid "DVB subtitles decoder"
 msgstr "Dekodér DVB titulkov"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "Titulky DVB"
 
@@ -10538,11 +10538,11 @@ msgstr "Dekodér textu titulkov"
 #: modules/codec/subtitles/subsdec.c:296
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "CP1252"
+msgstr "CP1250"
 
 #: modules/codec/subtitles/subsusf.c:52
 msgid "USFSubs"
-msgstr "USFPods"
+msgstr "USFSubs"
 
 #: modules/codec/subtitles/subsusf.c:53
 msgid "USF subtitles decoder"
@@ -10731,11 +10731,11 @@ msgstr "Dekodér zvuku Vorbis"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr "Zvukový dekodér s pevným bodom pre formát WMA v1/v2"
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "Maximálna veľkosť GOP"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10744,11 +10744,11 @@ msgstr ""
 "môžete ušetriť zopár bitov a zlepšiť kvalitu pri danom dátovom toku, avšak "
 "bude to na úkor presnosti pri vyhľadávaní."
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "Minimálna veľkosť GOP"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10760,11 +10760,11 @@ msgid ""
 "frames, but do not start a new GOP."
 msgstr "Nastaví minimálny interval medzi jednotlivými ID-R snímkami."
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "Agresivita zvláštnych I-snímok"
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10782,19 +10782,19 @@ msgstr ""
 "scén, čo však môže spôsobiť vznik škaredých artefaktov pri kódovaní. "
 "Povolený rozsah hodnôt je 1-100."
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "Počet B snímok medzi snímkami I a P."
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr "Počet nepretržitých B-snímok medzi snímkami I a P. (1-16)"
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "Adaptívne rozhodovanie o B-snímkach"
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
@@ -10802,11 +10802,11 @@ msgstr ""
 "Vynútiť si použitie zadaného počtu nepretržitých B-snímkov okrem snímkov, "
 "ktoré sa vyskytujú pred I-snímkami. Povolený rozsah je od 0 po 2."
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "Vplyv použitia B-snímok"
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
@@ -10815,11 +10815,11 @@ msgstr ""
 "hodnotu, použije sa viac B-snímok, ak zadáte nejakú zápornú hodnotu, počet B-"
 "snímok sa zníži."
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr "Ponechať niektoré B-snímky ako referenčné"
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10836,7 +10836,7 @@ msgstr ""
 " - normálne: nie je striktne určené (avšak je nekompatibilné s formátom Blu-"
 "ray)\n"
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10846,11 +10846,11 @@ msgstr ""
 "Zachováva stred 2+ konzekutívnych B-snímok ako referencie a príslušným "
 "spôsobom mení usporiadanie snímok."
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10858,11 +10858,11 @@ msgstr ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Kódovanie a dekódovanie "
 "sa síce trochu spomalí, ale dátový tok sa zmenší o 10-15 %."
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "Počet referenčných snímok"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10872,21 +10872,21 @@ msgstr ""
 "voľba je najefektívnejšia pri animáciach. Niektoré dekodéry nie sú schopné "
 "rozoznávať vysoké hodnoty ref. snímok. Zadávajte hodnoty z rozsahu 1 - 16."
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "Filter pre preskakovanie slučiek"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr ""
 "Touto voľbou deaktivujete filtrovanie slučiek (pozor, pravdepodobne sa zníži "
 "kvalita videa)."
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "Parametre AlphaC0 a Beta. Parametre zadajte v poradí alpha:beta."
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10894,11 +10894,11 @@ msgstr ""
 "Parametre AlphaC0 a Beta pre filter slučiek. Parametre by mali byť z rozsahu "
 "-6 až 6. Hodnota -6 = jemné filtrovanie, 6 = dôkladné filtrovanie."
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "Úroveň H.264"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
@@ -10909,72 +10909,72 @@ msgstr ""
 "ostatnými nastaveniami kódovania. Hodnoty, ktoré zadáte, musia byť v rozsahu "
 "od 1 do 5.1 (hodnoty od 10 do 51 sú tiež povolené)."
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 msgid "H.264 profile"
 msgstr "Profil H.264"
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 "Zadajte profil H.264, ktorého limity majú prednosť pred ostatnými "
 "nastaveniami"
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "Rozkladový režim"
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr "Čistý rozkladový režim"
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr "Použiť periodické obnovovanie na intra-blokoch"
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr "Použiť periodické obnovovanie na intra-blokoch namiesto IDR snímok"
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
 msgstr "Použiť kontrolu rýchlosti mb-tree"
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr "Môžete vypnúť používanie vetvy makro-blokov pri kontrole rýchlosti"
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 msgid "Force number of slices per frame"
 msgstr "Vynútiť si počet výrezov na jednu snímku"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 "Vynútiť si obdĺžnikové výstričky. Funkcii sú nadradené iné voľby pre "
 "výstrižky"
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr "Obmedziť veľkosť každého výrezu v bytoch"
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 "Nastaví maximálnu veľkosť výrezu v bytoch, vrátane parametra NAL overhead"
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr "Obmedziť veľkosť každého výrezu v makro-blokoch"
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr "Nastaví maximálny počet makro-blokov na výrez"
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "Nastaviť kvantizačný parameter"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10985,69 +10985,69 @@ msgstr ""
 "Môžete však zadať aj inú hodnotu, tá však musí byť v rozsahu 0 (bezstratové) "
 "- 51."
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "Variabilný tok dát s dôrazom na kvalitu"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr "Jednoprechodový VBR režim s dôrazom na kvalitu. Od 0 do 51."
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "Minimálna hodnota kvantizácie"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr "Minimálna hodnota kvantizácie. Zadávajte hodnotu v rozsahu 15-35."
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "Maximálna hodnota kvantizácie"
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr "Maximálna hodnota kvantizácie."
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "Max. krok pre nastavenie parametrov kvantizéra"
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr "Maximálny krok medzi jednotlivými snímkami."
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "Tolerovať odchýlku v dátovom toku"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr "Povolená odchýlka v priemernom dátovom toku (v kb/s)."
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "Max. lokálny dátový tok"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr "Tu môžete nastaviť maximálny lokálny dátový tok v kb/s."
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "Vyrovnávacia pamäť VBV"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr ""
 "Priemerná perióda, počas ktorej sa používa maximálny dátový tok (v "
 "kilobitoch)."
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "Počiatočné obsadenie vyrovnávacej pamäte pre VBV"
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
@@ -11055,11 +11055,11 @@ msgstr ""
 "Nastaví počiatočné obsadenie vyrovnávacej pamäte. Môžete zadávať hodnoty v "
 "rozsahu od 0.0 do 1.0."
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr "Ako distribučné bity AQ"
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -11073,11 +11073,11 @@ msgstr ""
 " - 2: používať premennú log(var)^2 namiesto log(var a p okúsiť sa o "
 "prispôsobenie intenzity pri jednotlivých snímkach"
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "Intenzita AQ"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -11090,39 +11090,39 @@ msgstr ""
 " - 0.5: veľmi mierne posudzovanie AQ\n"
 " - 1.5: prísne posudzovanie AQ"
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "Kvantizačný faktor medzi snímkami I a P"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr ""
 "Kvantizačný faktor medzi snímkami I a P. Môžete zadávať hodnoty v rozsahu "
 "1.0 - 2.0."
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "Kvantizačný faktor medzi snímkami P a B"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr ""
 "Kvantizačný faktor medzi snímkami P a B. Môžete zadávať hodnoty v rozsahu "
 "1.0 - 2.0."
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "Rozdiel kvantizačných parametrov medzi režimami chroma a luma"
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr "Rozdiel kvantizačných parametrov medzi režimami chroma a luma."
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "Kontrola rýchlosti "
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -11134,21 +11134,21 @@ msgstr ""
 "- 2: posledný prechod, neprepisovať hodnoty v štatistickom súbore\n"
 "- 3: N-tý prechod, prepísať hodnoty v štatistickom súbore\n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "Kompresia krivky kvantizačného parametra"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr ""
 "Kompresia krivky kvantizačného parametra. Môžete zadávať hodnoty v rozsahu "
 "0.0 (CBR) -  1.0 (QCP)."
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "Redukovať výkyvy v kvantizačných parametroch"
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
@@ -11156,7 +11156,7 @@ msgstr ""
 "Týmto môžete zredukovať výkyvy v kvantizačných parametroch ešte predtým, že "
 "sa skomprimuje krivka. "
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
@@ -11164,11 +11164,11 @@ msgstr ""
 "Týmto môžete zredukovať výkyvy v kvantizačných parametroch po kompresií "
 "krivky."
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "Partície, brané do úvahy"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -11187,19 +11187,19 @@ msgstr ""
 " - all   : i4x4,p8x8,(i8x8),b8x8,p4x4   (všetky)\n"
 "(p4x4 vyžaduje p8x8. i8x8 vyžaduje 8x8dct)."
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "Režim predpovedania Direct MV"
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr "Režim predpovedania Direct MV."
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "Veľkosť priamej predpovede"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -11209,19 +11209,19 @@ msgstr ""
 " -  1: 8x8\n"
 " - -1: najmenšia možná hodnota zodpovedajúca nastavenej úrovni\n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "Vážená predpoveď výskytu B-snímok"
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "Vážená predpoveď výskytu B-snímok."
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 msgid "Weighted prediction for P-frames"
 msgstr "Vážená predpoveď výskytu P-snímok"
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
@@ -11231,11 +11231,11 @@ msgstr ""
 " - 1: Blind offset\n"
 " - 2: Analýza Smart\n"
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "Metóda odhadovania pohybu podľa celých pixelov"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -11252,11 +11252,11 @@ msgstr ""
 "- tesa: extrémne podrobné vyhľadávanie (extrémne pomalé, určené hlavne na "
 "testovanie).\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "Maximálny rozsah pre hľadanie pohybových vektorov"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -11268,20 +11268,20 @@ msgstr ""
 "pohybu odporúčame nastaviť hodnotu z rozsahu od 24-32. Celkový možný rozsah "
 "je 0-64."
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "Maximálna dĺžka vektora pohybu"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr "Minimálna dĺžka vektora pohybu v pixeloch: Hodnota -1 = automaticky."
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr "Minimálna veľkosť miesta medzi jednotlivými vláknami"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
@@ -11289,12 +11289,12 @@ msgstr ""
 "Minimálny odstup medzi vláknami vo vyrovnávacej pamäti. -1 = automaticky, "
 "podľa počtu vlákien."
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr ""
 "Prísnosť psycho-vizuálnej optimalizácie, predvolená hodnota je \"1.0:0.0\""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
@@ -11303,11 +11303,11 @@ msgstr ""
 "parameter ovláda, či sa pri psychovizuálne optimalizácii využíva efekt "
 "Trellis. V predvolenom nastavení je táto funkcia vyputá "
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr "Odhadovanie pohybu subpixelov a rozhodovanie o kvalite partícií"
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
@@ -11317,21 +11317,21 @@ msgstr ""
 "procese odhadovania pohybu. Menšia hodnota = rýchlejšie, vyššia hodnota = "
 "lepšia kvalita. Povolený rozsah je od 1 do 9. "
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "RD-režim pri rozhodovaní o B-snímkach."
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
 "RD-režim pri rozhodovaní o B-snímkach. Táto funkcia vyžaduje komponent "
 "subme6 (alebo novší)."
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "O referenčných snímkach rozhodovať na základe partície"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -11339,37 +11339,37 @@ msgstr ""
 "Umožňuje nastaviť referenčnú snímku v každej partícií s veľkosťou 8x8 alebo "
 "16x8. "
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "Aplikovať efekt chroma aj pri odhadovaní pohybu"
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr ""
 "Používať formát Chroma ME pri subpixeloch a pri rozhodovaní o P-snímkach."
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "Spoločne optimalizovať MV v B-snímkach"
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr "Spojiť obojsmerné čistenie pohybu. "
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr "Adaptívna veľkosť transformácie"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr ""
 "Rozhodovanie založené na SATD (používa sa pri transformácií blokov 8x8)."
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "Kvantizácia Trellis RD"
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -11383,19 +11383,19 @@ msgstr ""
 " - 2: aktívna pri všetkých režimoch\n"
 "Toto nastavenie vyžaduje CABAC."
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "Včasná detekcia preskočenia pri P-snímkach"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr "Včasná detekcia preskočenia pri P-snímkach."
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr "Hraničný koeficient pri P-snímkach"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
@@ -11403,71 +11403,71 @@ msgstr ""
 "Hraničný koeficient pri P-snímkach. Eliminujú sa bloky dct, obsahujúce len "
 "malý koeficient."
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 msgid "Use Psy-optimizations"
 msgstr "Použiť optimalizácie Psy"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr "Použiť všetky vizuálne optimalizácie, ktoré môžu zhoršiť PSNR a SSIM"
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
 msgstr ""
 "Redukcia šumu na Dct-doméne. Sem môžete zadávať hodnoty v rozsahu 10 - 1000."
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "Neaktívna zóna pri kvantizácií typu Inter luma"
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Tu môžete nastaviť veľkosť neaktívnej zóny, ktorá sa bude používať pri "
 "kvantizácií typu Inter luma. Zadajte hodnotu v rozsahu od 0 do 32."
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "Neaktívna zóna pri kvantizácií typu Intra luma"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Tu môžete nastaviť veľkosť neaktívnej zóny, ktorá sa bude používať pri "
 "kvantizácií typu Inter luma. Zadajte hodnotu v rozsahu od 0 do 32."
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr "Nedeterministické optimalizácie pri použití viacerých vlákien"
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr ""
 "Mierne vylepšiť kvalitu SMP, aj na úkor počtu možných opakovaných prehratí."
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "Optimalizácie procesora"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr "Použiť assemblovacie optimalizácie pre procesor."
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "Názov dvojsmerného štatistického súboru "
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr "Názov súboru so štatistikou obojsmerného filtra pre enkódovanie."
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "Vykalkulovanie PSNR"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
@@ -11475,11 +11475,11 @@ msgstr ""
 "Vykalkukovať a zobraziť štatistiku pre PSNR. Táto voľba nemá žiaden vplyv na "
 "kvalitu kódovania."
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "Vykalkulovať SMB"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
@@ -11487,28 +11487,28 @@ msgstr ""
 "Vykalkulovať a zobraziť štatistiku pre SSIM. Táto voľba nemá žiaden vplyv na "
 "kvalitu kódovania"
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "Tichý režim"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "Tichý režim. "
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Štatistiky"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr "Zobrazovať štatistiky pre každú snímku."
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "Identifikačné čísla SPS a PPS"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
@@ -11516,19 +11516,19 @@ msgstr ""
 "Nastaviť identifikačné čísla SPS a PPS - tieto čísla umožňujú zreťazenie "
 "streamov s rozdielnymi nastaveniami."
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "Oddeľovače prístupových bodov"
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr "Generovať oddeľovače prístupových bodov pre NAL jednotky."
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr "Počet snímok používaných pri snímkach tohto typu v okolí"
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
@@ -11538,55 +11538,73 @@ msgstr ""
 "je nižšia ako je predvolená hodnota kodeku x264, pretože nemuxovateľný "
 "výstup nepodporuje vyššie hodnoty tak dobre ako túto hodnotu."
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+msgid "HRD-timing information"
+msgstr "zobraziť informácie o časovaní HRD"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+"Ladenie nastavení pre určitý typ zdroja alebo určitú situáciu. Nastavenia "
+"budú ignorované pri nastaveniach zadaných používateľom."
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+"Použiť prednastavenie ako predvolené nastavenia. Táto voľba bude ignorovaná "
+"pri zadaní nastavení používateľom."
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
 msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "rýchlo"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "normálne"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "pomaly"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "všetky"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "Priestorový efekt"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "dočasný"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "automaticky"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "Enkodér H.264/MPEG4 AVC (x264)"
 
@@ -12914,11 +12932,11 @@ msgstr "Port HTTP tunelu"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "Port použitý pre tunelovanie RTSP/RTP protokolu cez HTTP protokol."
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "Autentifikácia RTSP"
 
-#: modules/demux/live555.cpp:606
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr "Prosím zadajte platné meno používateľa a heslo."
 
@@ -13627,19 +13645,19 @@ msgstr "Teletext: plánovaný program"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "Teletextové titulky: sluchovo postihnutí"
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr "DVB titulky: sluchovo postihnutí"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "čistiace efekty"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "sluchovo postihnutí"
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "komentár pre zrakovo postihnutých"
 
@@ -24310,11 +24328,18 @@ msgstr "X window"
 msgid "X11 video window (XCB)"
 msgstr "Okno s videom X11 (XCB)"
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "VLC media player"
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -24361,11 +24386,11 @@ msgstr "XVideo"
 msgid "XVideo output (XCB)"
 msgstr "Výstup XVideo (XCB)"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 msgid "Video acceleration not available"
 msgstr "Akcelerácia videa nie je dostupná"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
@@ -26428,21 +26453,6 @@ msgstr "Zoznam správcov médií"
 
 #~ msgid "Zulu"
 #~ msgstr "Zulu"
-
-#~ msgid "HRD-timing information"
-#~ msgstr "zobraziť informácie o časovaní HRD"
-
-#~ msgid ""
-#~ "Tune the settings for a particular type of source or situation. "
-#~ "Overridden by user settings."
-#~ msgstr ""
-#~ "Ladenie nastavení pre určitý typ zdroja alebo určitú situáciu. Nastavenia "
-#~ "budú ignorované pri nastaveniach zadaných používateľom."
-
-#~ msgid "Use preset as default settings. Overridden by user settings."
-#~ msgstr ""
-#~ "Použiť prednastavenie ako predvolené nastavenia. Táto voľba bude "
-#~ "ignorovaná pri zadaní nastavení používateľom."
 
 #~ msgid "Privacy and Network Policies"
 #~ msgstr "Pravidlá pre súkromie a sieť"
