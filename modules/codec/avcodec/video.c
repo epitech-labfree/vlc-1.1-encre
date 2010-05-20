@@ -541,6 +541,7 @@ picture_t *DecodeVideo( decoder_t *p_dec, block_t **pp_block )
         int i_used, b_gotpicture;
         picture_t *p_pic;
 
+        p_sys->p_ff_pic->pts = p_sys->input_pts;
         i_used = avcodec_decode_video( p_sys->p_context, p_sys->p_ff_pic,
                                        &b_gotpicture,
                                        p_block->i_buffer <= 0 && p_sys->b_flush ? NULL : p_block->p_buffer, p_block->i_buffer );
