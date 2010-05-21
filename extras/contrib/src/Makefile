@@ -909,6 +909,35 @@ CLEAN_FILE += .faad
 CLEAN_PKG += faad2
 DISTCLEAN_PKG += faad2-$(FAAD2_VERSION).tar.gz
 
+
+# ***************************************************************************
+# libvp8
+# ***************************************************************************
+
+libvpx-$(VPX_VERSION).tar.bz2:
+	$(WGET) $(VPX_URL)
+
+vpx: libvpx-$(VPX_VERSION).tar.bz2
+	$(EXTRACT_BZ2)
+	patch -p0 < Patches/libvpx-cross.patch
+
+ifdef HAVE_WIN32
+VPX_TARGET=x86-win32-gcc
+else
+VPX_TARGET=FIXME
+endif
+
+.vpx: vpx
+	(cd $<; ./configure --target=$(VPX_TARGET) --disable-install-bins --disable-install-srcs --disable-install-libs --disable-examples && XCC=$(CC) XNM=$(NM) XSTRIP=$(STRIP) make && make install)
+	(cd $<; cp vp8/*.h vpx_codec/*.h vpx_port/*.h $(PREFIX)/include) # Of course, why the hell would one expect it to be listed or in make install?
+	rm $(PREFIX)/include/config.h
+	(cd $<; $(RANLIB) libvpx.a && cp libvpx.a $(PREFIX)/lib) # Of course, why the hell would one expect it to be listed or in make install?
+	touch $@
+
+CLEAN_FILE += .vpx
+CLEAN_PKG += vpx
+DISTCLEAN_PKG += libvpx-$(VPX_VERSION).tar.bz2
+
 # ***************************************************************************
 # lame
 # ***************************************************************************
@@ -1032,7 +1061,7 @@ ffmpeg: .dshow_headers
 else
 ffmpeg: 
 endif
-	$(SVN) co $(FFMPEG_SVN) ffmpeg -r22960
+	$(SVN) co $(FFMPEG_SVN) ffmpeg
 ifdef HAVE_ISA_THUMB
 	patch -p0 < Patches/ffmpeg-avcodec-no-thumb.patch
 endif
@@ -1903,50 +1932,10 @@ CLEAN_PKG += libopendaap
 DISTCLEAN_PKG += libopendaap-$(DAAP_VERSION).tar.bz2
 
 # ***************************************************************************
-# glib
-# ***************************************************************************
-
-glib-$(GLIB_VERSION).tar.bz2:
-	$(WGET) $(GLIB_URL)
-
-glib: glib-$(GLIB_VERSION).tar.bz2
-	$(EXTRACT_BZ2)
-	(cd $@; patch -p0 < ../Patches/glib-remove-gtkdoc.patch)
-ifdef HAVE_DARWIN_64
-	(cd $@; patch -p0 < ../Patches/glib-Darwin64.patch)
-endif
-
-.glib: glib
-	(cd $<; sh autogen.sh --prefix=$(PREFIX) --host=$(HOST) && make && make install)
-	touch $@
-
-CLEAN_FILE += .glib
-CLEAN_PKG += glib
-DISTCLEAN_PKG += glib-$(GLIB_VERSION).tar.gz
-
-# ***************************************************************************
-# libIDL
-# ***************************************************************************
-
-libIDL-$(LIBIDL_VERSION).tar.bz2:
-	$(WGET) $(LIBIDL_URL)
-
-libIDL: libIDL-$(LIBIDL_VERSION).tar.bz2
-	$(EXTRACT_BZ2)
-
-.IDL: libIDL
-	(cd $<; ./configure --prefix=$(PREFIX) --host=$(HOST) && make && make install )
-	touch $@
-
-CLEAN_FILE += .IDL
-CLEAN_PKG += libIDL
-DISTCLEAN_PKG += libIDL-$(LIBIDL_VERSION).tar.gz
-
-# ***************************************************************************
 # Gecko SDK
 # ***************************************************************************
 
-gecko-sdk: 
+gecko-sdk:
 	$(SVN) co $(NPAPI_HEADERS_SVN_URL) -r $(NPAPI_HEADERS_SVN_REVISION) gecko-sdk/include
 
 .gecko: gecko-sdk
@@ -1958,60 +1947,7 @@ gecko-sdk:
 
 CLEAN_FILE += .gecko
 CLEAN_PKG += gecko-sdk
-DISTCLEAN_PKG += xulrunner-1.9.2.en-US.mac-i386.sdk.tar.bz2
-
-# ***************************************************************************
-# Gecko SDK win32
-# ***************************************************************************
-
-xulrunner-1.9.2.en-US.win32.sdk.zip:
-	$(WGET) $(GECKO_SDK_WIN32_URL)
-
-libIDL-0.6.3-win32-bin.zip:
-	$(WGET) $(LIBIDL_WIN32_BIN_URL)
-
-glib-19990228.zip:
-	$(WGET) $(GLIB_WIN32_BIN_URL)
-
-.gecko-win32: xulrunner-1.9.2.en-US.win32.sdk.zip libIDL-0.6.3-win32-bin.zip glib-19990228.zip
-	unzip xulrunner-1.9.2.en-US.win32.sdk.zip
-	rm -rf $(PREFIX)/gecko-sdk
-	mv xulrunner-sdk $(PREFIX)/gecko-sdk
-	unzip -j libIDL-0.6.3-win32-bin.zip libIDL-0.6.3-win32-bin/libIDL-0.6.dll -d $(PREFIX)/gecko-sdk/bin
-	unzip glib-19990228.zip glib-1.2.dll -d $(PREFIX)/gecko-sdk/bin
-	chmod a+x $(PREFIX)/gecko-sdk/bin/*
-	touch $@
-
-CLEAN_FILE += .gecko-win32
-CLEAN_PKG += gecko-sdk-win32
-DISTCLEAN_PKG += xulrunner-1.9.2.en-US.win32.sdk.zip libIDL-0.6.3-win32-bin.zip glib-19990228.zip
-
-# ***************************************************************************
-# mozilla-macosx
-#
-# Note that this dependency needs to be compiled against the 10.4u SDK using
-# using GCC-4.0. Using newer releases of one of these won't lead to a 
-# successful compilation! Adapt the respective variables in ../config.mak!
-# ***************************************************************************
-
-firefox-$(MOZILLA_VERSION)-source.tar.bz2:
-	$(WGET) $(MOZILLA_URL)
-
-mozilla: firefox-$(MOZILLA_VERSION)-source.tar.bz2
-	$(EXTRACT_BZ2)
-	(cd $@; patch -p0 < ../Patches/firefox-darwin.patch)
-
-.mozilla-macosx: mozilla .glib .IDL
-	ifneq($(SDK_TARGET),"10.4")
-	echo "Compiling the mozilla target requires the 10.4 SDK!"
-	exit -1
-	endif
-	(cd $<; ./configure --prefix=$(PREFIX)/gecko-sdk-new --enable-default-toolkit=cairo-cocoa --enable-standalone-modules=xpcom,plugin  --enable-application=xulrunner && make && make install)
-	touch $@
-
-CLEAN_FILE += .mozilla-macosx
-CLEAN_PKG += mozilla
-DISTCLEAN_PKG += firefox-source-$(MOZILLA_VERSION).tar.bz2
+DISTCLEAN_PKG += gecko-sdk
 
 # ***************************************************************************
 # libjpeg
@@ -2414,28 +2350,24 @@ DISTCLEAN_PKG += fluidsynth-$(FLUID_VERSION).tar.gz
 # liboil
 # ***************************************************************************
 
-liboil-$(OIL_VERSION).tar.gz:
-	$(WGET) $(OIL_URL)
+orc-$(ORC_VERSION).tar.gz:
+	$(WGET) $(ORC_URL)
 
-liboil: liboil-$(OIL_VERSION).tar.gz
+orc: orc-$(ORC_VERSION).tar.gz
 	$(EXTRACT_GZ)
-	patch -d liboil -p1 < Patches/liboil-noshared.patch
-	patch -d liboil -p1 < Patches/liboil-win64.patch
-	patch -d liboil -p1 < Patches/liboil-Xcompile.patch
-	(cd $@; autoreconf)
 
-.liboil: liboil
+.orc: orc
 ifdef HAVE_DARWIN_OS
 	(cd $<; $(HOSTCC) ./configure $(HOSTCONF) --prefix=$(PREFIX) CFLAGS="$(CFLAGS)")
 else
-	(cd $<; $(HOSTCC) ./configure $(HOSTCONF) --prefix=$(PREFIX) CFLAGS="$(CFLAGS) -O2")
+	(cd $<; $(HOSTCC) ./configure $(HOSTCONF) --prefix=$(PREFIX))
 endif
 	(cd $<; make && make install)
 	touch $@
 
-CLEAN_FILE += .liboil
-CLEAN_PKG += liboil
-DISTCLEAN_PKG += liboil-$(OIL_VERSION).tar.gz
+CLEAN_FILE += .orc
+CLEAN_PKG += orc
+DISTCLEAN_PKG += orc-$(ORC_VERSION).tar.gz
 
 # ***************************************************************************
 # Schroedinger library
@@ -2449,8 +2381,14 @@ schroedinger: schroedinger-$(SCHROED_VERSION).tar.gz
 	patch -p0 < Patches/schroedinger-notests.patch
 	(cd $@; autoreconf -iv)
 
-.schroedinger: schroedinger .liboil
-	(cd $<; $(HOSTCC) ./configure $(HOSTCONF) --with-thread=none --disable-gtk-doc --prefix=$(PREFIX) CFLAGS="$(CFLAGS) -O3" && make && make install)
+ifdef HAVE_WIN32
+ORCC="wine $(PREFIX)/bin/orcc.exe"
+else
+ORCC="orcc"
+endif
+
+.schroedinger: schroedinger .orc
+	(cd $<; $(HOSTCC) ./configure $(HOSTCONF) --with-thread=none --disable-gtk-doc --prefix=$(PREFIX) CFLAGS="$(CFLAGS) -O3" && make ORCC=$(ORCC) && make install)
 	touch $@
 
 CLEAN_FILE += .schroedinger
