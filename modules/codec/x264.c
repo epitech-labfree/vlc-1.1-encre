@@ -1173,11 +1173,17 @@ static int  Open ( vlc_object_t *p_this )
 #if X264_BUILD >= 79
             p_sys->param.analyse.i_weighted_pred = X264_WEIGHTP_NONE;
 #endif
+#if X264_BUILD >= 78
+            p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_NONE;
+#endif
         }
         else if (!strcasecmp( psz_val, "main" ) )
         {
             msg_Dbg( p_enc, "Limiting to main-profile");
             p_sys->param.analyse.b_transform_8x8 = 0;
+#if X264_BUILD >= 78
+            p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_NONE;
+#endif
         }
         /* high profile don't restrict stuff*/
     }
