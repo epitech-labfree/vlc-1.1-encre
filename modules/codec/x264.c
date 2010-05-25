@@ -445,7 +445,11 @@ vlc_module_begin ()
                  B_BIAS_LONGTEXT, false )
         change_integer_range( -100, 100 )
 
-#if X264_BUILD >= 78
+#if X264_BUILD >= 87
+    add_string( SOUT_CFG_PREFIX "bpyramid", "normal", NULL, BPYRAMID_TEXT,
+              BPYRAMID_LONGTEXT, false )
+        change_string_list( bpyramid_list, bpyramid_list, 0 );
+#elif X264_BUILD >= 78
     add_string( SOUT_CFG_PREFIX "bpyramid", "none", NULL, BPYRAMID_TEXT,
               BPYRAMID_LONGTEXT, false )
         change_string_list( bpyramid_list, bpyramid_list, 0 );
@@ -930,16 +934,19 @@ static int  Open ( vlc_object_t *p_this )
 
 #if X264_BUILD >= 78
     psz_val = var_GetString( p_enc, SOUT_CFG_PREFIX "bpyramid" );
-    if( strcmp( psz_val, "none" ) )
+    if( !strcmp( psz_val, "normal" ) )
     {
-       if ( !strcmp( psz_val, "strict" ) )
-       {
-          p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_STRICT;
-       } else if ( !strcmp( psz_val, "normal" ) )
-       {
-          p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_NORMAL;
-       }
+        p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_NORMAL;
     }
+    else if ( !strcmp( psz_val, "strict" ) )
+    {
+        p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_STRICT;
+    }
+    else if ( !strcmp( psz_val, "none" ) )
+    {
+        p_sys->param.i_bframe_pyramid = X264_B_PYRAMID_NONE;
+    }
+
     free( psz_val );
 #else
     p_sys->param.b_bframe_pyramid = var_GetBool( p_enc, SOUT_CFG_PREFIX "bpyramid" );
