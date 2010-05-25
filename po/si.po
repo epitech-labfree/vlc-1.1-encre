@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.4-rc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-20 19:18+0100\n"
-"PO-Revision-Date: 2010-05-20 14:00+0530\n"
+"POT-Creation-Date: 2010-05-25 20:31+0100\n"
+"PO-Revision-Date: 2010-05-23 22:39+0200\n"
 "Last-Translator: Ajith Manjula (uthmax) <uthmax.sms@gmail.com>\n"
 "Language-Team: Sinhala <uthmax.sms@gmail.com>\n"
 "Language: si\n"
@@ -95,7 +95,7 @@ msgid "General audio settings"
 msgstr "සාමාන්‍ය ශ්‍රව්‍ය සිටුවම්"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:481
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "පෙරහන්"
 
@@ -390,7 +390,7 @@ msgstr ""
 
 #: include/vlc_config_cat.h:205
 msgid "Packetizer modules settings"
-msgstr ""
+msgstr "පැකැට්ටුකරණ මොඩියුල සිටුවම්"
 
 #: include/vlc_config_cat.h:209
 msgid "Encoders settings"
@@ -398,7 +398,7 @@ msgstr "ආකේතක සිටුවම්"
 
 #: include/vlc_config_cat.h:211
 msgid "These are general settings for video/audio/subtitles encoding modules."
-msgstr ""
+msgstr "මේවා වීඩියෝ/ශ්‍රව්‍ය/උපසිරැසි කේතීකරණ මොඩියුල සඳහා සාමාන්‍ය සිටුවම්ය."
 
 #: include/vlc_config_cat.h:214
 msgid "Dialog providers settings"
@@ -475,7 +475,7 @@ msgstr "පණිවුඩ"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "නියමිත කාලයකට පනින්න"
+msgstr "නියමිත කාලයකට යන්න"
 
 #: include/vlc_intf_strings.h:59 modules/gui/qt4/menus.cpp:664
 msgid "&Bookmarks"
@@ -739,8 +739,11 @@ msgstr ""
 "දීමෙන්, VLC සඳහා ඇඳුම් (skins) නිර්මාණය කිරීමෙන්, ප්‍රලේඛන සහ ලිපි පරිවර්තනය කිරීමෙන්, පරීක්‍ෂා "
 "කිරීමෙන් සහ කේතනය කිරීමෙන්. එපමණක්ම නොවෙයි. ඔබට පුළුවන් හැකියාවක් ඇත්නම් යම් කිසි ආධාරයක් හෝ "
 "ද්‍රව්‍යමය දැ අපට උදව්වක් ලෙස ලබා දීමට. ඒ වාගේම, ඔබ සැමටම පුළුවන් VLC මාධ්‍ය ධාවකය <b>අන් "
-"අයටත් හඳුන්වා දීමෙන් සහ භාවිතා කිරීමට අනුබල දීමෙන්</b> අප වෙත අනුග්‍රහය දක්වන්නට.<p>ස්තූතියි෴</"
-"p><p>සිංහල පරිවර්තනය <b>අජිත් මංජුල (uthmax)<b> විසිනි.</p></p></body></html>"
+"අයටත් හඳුන්වා දීමෙන් සහ භාවිතා කිරීමට අනුබල දීමෙන්</b> අප වෙත අනුග්‍රහය දක්වන්නට.<p><b>සිංහල "
+"අතුරුමුහුණත හා සම්බන්ධ ගැටළු:<b></p><p>ඔබගේ සිංහල අතුරු මුහුණතෙහි අකුරු අතර අනවශ්‍ය ලෙස හිස් ඉඩ "
+"පවතින්නේ ද? එසේ නම් පහත දැක්වෙන ෆොන්ට ඉවත් කර නැවත වරක් පරීක්‍ෂා කර බලන්න. මෙම ෆොන්ට වල "
+"ඇති යම් දෝෂ සහගත තත්වයක් නිසා සමහර අකුරු අතර අනවශ්‍ය පරිදි පරතරයක් ඇති විය හැකියි. "
+"Bhashitha, Dinamina UniWeb</p><p></p><p>ස්තූතියි෴</p></p></body></html>"
 
 #: src/audio_output/filters.c:166 src/audio_output/filters.c:213
 #: src/audio_output/filters.c:236
@@ -755,7 +758,7 @@ msgstr ""
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1686 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "අක්‍රිය"
 
@@ -1110,7 +1113,7 @@ msgstr "කේතාංකනය කරන ලද්දේ"
 
 #: src/input/meta.c:66
 msgid "Artwork URL"
-msgstr ""
+msgstr "කලාකෘතියෙහි URL"
 
 #: src/input/meta.c:67
 msgid "Track ID"
@@ -1315,6 +1318,8 @@ msgid ""
 "\n"
 "Press the RETURN key to continue...\n"
 msgstr ""
+"\n"
+"ඉදිරියට යාම සඳහා RETURN යතුර තද කරන්න...\n"
 
 #: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
@@ -1349,6 +1354,9 @@ msgid ""
 "select the main interface, additional interface modules, and define various "
 "related options."
 msgstr ""
+"VLC මගින් භාවිතා කරනු ලබන අතුරු මුහුණත් හැඩගැස්වීමට මෙම විකල්ප ඔබට ඉඩදෙයි. ඔබට පුළුවන් "
+"තෝරාගැනීමට ප්‍රධාන අතුරුමුහුණත, අමතර අතුරුමුහුණත් මොඩියුල සහ මේ හා සම්බන්ධ බොහෝ විකල්ප ගැන "
+"නිර්වචනය කිරීම‍ට."
 
 #: src/libvlc-module.c:172
 msgid "Interface module"
@@ -1374,7 +1382,7 @@ msgstr ""
 
 #: src/libvlc-module.c:187
 msgid "You can select control interfaces for VLC."
-msgstr ""
+msgstr "VLC මාධ්‍ය ධාවකය සඳහා පාලක අතුරුමුහුණත් තෝරා ගැනීමට ඔබ‍ට හැකියි."
 
 #: src/libvlc-module.c:189
 msgid "Verbosity (0,1,2)"
@@ -1385,10 +1393,12 @@ msgid ""
 "This is the verbosity level (0=only errors and standard messages, "
 "1=warnings, 2=debug)."
 msgstr ""
+"මෙය වාග්බාහුල්‍ය මට්ටමයි. (0=දෝෂ පණිවුඩ සහ සම්මත පණිවුඩ පමණයි, 1=අවවාදාත්මක පණිවුඩ, "
+"2=නිදොසන්න)."
 
 #: src/libvlc-module.c:194
 msgid "Choose which objects should print debug message"
-msgstr ""
+msgstr "කුමන වස්තු සඳහා නිදොසන්න පණිවුඩ මුද්‍රණය විය යුතුදැයි තෝරන්න"
 
 #: src/libvlc-module.c:197
 msgid ""
@@ -1406,21 +1416,23 @@ msgstr "නිසොල්මන්ව සිටින්න"
 
 #: src/libvlc-module.c:206
 msgid "Turn off all warning and information messages."
-msgstr ""
+msgstr "සියලුම අවවාදාත්මක පණිවුඩ සහ තොරතුරු පෙන්වීම අත්හිටුවන්න."
 
 #: src/libvlc-module.c:208
 msgid "Default stream"
-msgstr ""
+msgstr "පෙරනිමි දහරාව"
 
 #: src/libvlc-module.c:210
 msgid "This stream will always be opened at VLC startup."
-msgstr ""
+msgstr "VLC ආරම්භ‍ වන සෑම අවස්ථාවකදීම මෙම දහරාව විවෘත වනු ඇත."
 
 #: src/libvlc-module.c:213
 msgid ""
 "You can manually select a language for the interface. The system language is "
 "auto-detected if \"auto\" is specified here."
 msgstr ""
+"මෙහි දි ඔබට හැකියි අතුරුමුහුණත සඳහා වන භාෂාව තෝරා ගැනීම‍ට. මෙම ස්ථානයේ \"ස්වයංසිද්ධ\" ලෙස "
+"ඇති විට පරිගණකයේ පද්ධති පෙරනිමි භාෂාව අතුරුමුහුණත සඳහා තෝරා ගනු ඇත."
 
 #: src/libvlc-module.c:217
 msgid "Color messages"
@@ -1469,6 +1481,8 @@ msgid ""
 "This is the audio output method used by VLC. The default behavior is to "
 "automatically select the best method available."
 msgstr ""
+"මෙය VLC විසින් භාවිතා කරනු ලබන ශ්‍රව්‍ය ප්‍රතිදාන ක්‍රමයයි. පෙරනිමි හැසිරීම වනුයේ ලබාගත හැකි හොඳම "
+"ක්‍රමය ස්වයංක්‍රීයව තෝරා ගැනීමයි."
 
 #: src/libvlc-module.c:252 modules/stream_out/display.c:41
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:404
@@ -1530,6 +1544,8 @@ msgid ""
 "You can force the audio output frequency here. Common values are -1 "
 "(default), 48000, 44100, 32000, 22050, 16000, 11025, 8000."
 msgstr ""
+"මෙහි දී ඔබට හැකියි ශ්‍රව්‍ය ප්‍රතිදාන සංඛ්‍යාතය බලාත්මක කිරීමට. පොදු අගයයන් වනුයේ -1 (පෙරනිමි), "
+"48000, 44100, 32000, 22050, 16000, 11025, 8000."
 
 #: src/libvlc-module.c:283
 msgid "High quality audio resampling"
@@ -1554,7 +1570,7 @@ msgstr ""
 
 #: src/libvlc-module.c:295
 msgid "Audio output channels mode"
-msgstr ""
+msgstr "ශ්‍රව්‍ය ප්‍රතිදාන නාලිකා ප්‍රකාරය"
 
 #: src/libvlc-module.c:297
 msgid ""
@@ -1566,7 +1582,7 @@ msgstr ""
 #: src/libvlc-module.c:301 modules/gui/macosx/simple_prefs.m:237
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
-msgstr ""
+msgstr "ලබාගත හැකි විට S/PDIF භාවිතා කරන්න"
 
 #: src/libvlc-module.c:303
 msgid ""
@@ -1675,6 +1691,8 @@ msgid ""
 "This is the the video output method used by VLC. The default behavior is to "
 "automatically select the best method available."
 msgstr ""
+"මෙය VLC විසින් භාවිතා කරනු ලබන වීඩියෝ ප්‍රතිදාන ක්‍රමයයි. පෙරනිමි හැසිරීම වනුයේ ලබාගත හැකි හොඳම "
+"ක්‍රමය ස්වයංක්‍රීයව තෝරා ගැනීමයි."
 
 #: src/libvlc-module.c:375 modules/stream_out/display.c:43
 #: linux/modules/gui/qt4/ui/sprefs_video.h:309
@@ -1906,7 +1924,7 @@ msgstr ""
 
 #: src/libvlc-module.c:457
 msgid "Show the video title for n milliseconds, default is 5000 ms (5 sec.)"
-msgstr ""
+msgstr "වීඩියෝ මාතෘකාව මිලිතත්පර n ක් පෙන්වන්න. පෙරනිමි වන්නේ මිලිතත්පර 5000 කි. (තත්පර 5)"
 
 #: src/libvlc-module.c:459
 msgid "Position of video title"
@@ -1914,7 +1932,7 @@ msgstr "වීඩි‍යෝ මාතෘකාවේ ස්ථානය"
 
 #: src/libvlc-module.c:461
 msgid "Place on video where to display the title (default bottom center)."
-msgstr ""
+msgstr "වීඩියෝව මත මාතෘකාව දර්ශනය විය යුතු ස්ථානය (පෙරනිමිය වන්නේ පහළ මැද ය)"
 
 #: src/libvlc-module.c:463
 msgid "Hide cursor and fullscreen controller after x milliseconds"
@@ -1925,15 +1943,17 @@ msgid ""
 "Hide mouse cursor and fullscreen controller after n milliseconds, default is "
 "3000 ms (3 sec.)"
 msgstr ""
+"මිලිතත්පර n කට පසුව මූසික කර්සරය සහ පුන්තිර පාලක සඟවන්න, පෙරනිමිය වන්නේ මිලිතත්පර 3000 කි. "
+"(තත්පර 3)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1962 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "සුමට කිරීම"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1978
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr ""
@@ -2211,10 +2231,11 @@ msgid ""
 "When using the PVR input (or a very irregular source), you should set this "
 "to 10000."
 msgstr ""
+"PVR ආදානයක් (හෝ ඉතා අක්‍රමවත් මූලයක්) භාවිතා කරන විට ඔබ විසින් මෙය 10000 ට සකස් කළ යුතුයි."
 
 #: src/libvlc-module.c:635
 msgid "Clock synchronisation"
-msgstr ""
+msgstr "ඔරලෝසු සමමුහුර්ථකරණය"
 
 #: src/libvlc-module.c:637
 msgid ""
@@ -2399,7 +2420,7 @@ msgstr "ආරම්භක වේලාව"
 
 #: src/libvlc-module.c:735
 msgid "The stream will start at this position (in seconds)."
-msgstr ""
+msgstr "දහරාව මෙම ස්ථානයේ සිට ආරම්භ වනු ඇත (තත්පර වලින්)."
 
 #: src/libvlc-module.c:737
 msgid "Stop time"
@@ -2431,7 +2452,7 @@ msgstr "ධාවන වේගය"
 
 #: src/libvlc-module.c:751
 msgid "This defines the playback speed (nominal speed is 1.0)."
-msgstr ""
+msgstr "ධාවන වේගය මේ මගින් නියම කරනු ලබයි (සාමාන්‍ය වේගය වන්නේ 1.0)."
 
 #: src/libvlc-module.c:753
 msgid "Input list"
@@ -2453,10 +2474,13 @@ msgid ""
 "is experimental, not all formats are supported. Use a '#' separated list of "
 "inputs."
 msgstr ""
+"එකම අවස්ථාවේ දී ආදාන බොහෝ ගණනක් මගින් ධාවනය කිරීමට මෙය ඔබට ඉඩ දෙනු ඇත. මෙම පහසුකම "
+"තවමත් පරීක්‍ෂණාත්මක මට්ට‍මේ පවතී, සියලුම හැඩතලයන් සඳහා සහාය නොදක්වයි. Use a '#' separated "
+"list of inputs."
 
 #: src/libvlc-module.c:764
 msgid "Bookmarks list for a stream"
-msgstr ""
+msgstr "දහරාව සඳහා පොත් සළකුණු ලැයිස්තුව"
 
 #: src/libvlc-module.c:766
 msgid ""
@@ -2464,6 +2488,9 @@ msgid ""
 "\"{name=bookmark-name,time=optional-time-offset,bytes=optional-byte-offset},"
 "{...}\""
 msgstr ""
+"දහරාව සඳහා ඔබ කැමති ලෙස පොත් සළකුණු ලැයිස්තුවක් ලබා දීමට මේ ආකාරයට ඔබට හැකියි. "
+"\"{name=bookmark-name,time=optional-time-offset,bytes=optional-byte-offset},"
+"{...}\""
 
 #: src/libvlc-module.c:770 linux/modules/gui/qt4/ui/sprefs_input.h:316
 msgid "Record directory or filename"
@@ -2475,7 +2502,7 @@ msgstr "රෙකෝඩ් කළ ඩිරෙක්ටරිය හෝ ‍ග�
 
 #: src/libvlc-module.c:774
 msgid "Prefer native stream recording"
-msgstr ""
+msgstr "නිසඟ දහරා පටිගත කිරීමේ ආකාරයට වඩාත් කැමතියි"
 
 #: src/libvlc-module.c:776
 msgid ""
@@ -2518,14 +2545,16 @@ msgid ""
 "You can use this option to place the subtitles under the movie, instead of "
 "over the movie. Try several positions."
 msgstr ""
+"චිත්‍රපටයේ ඉහළින් උපසිරැසි පෙන්වීම වෙනුවට, චිත්‍රපටය යටින් උපසිරැසි පෙන්වන ලෙස ස්ථානගත කිරීමට මෙම "
+"විකල්පය මගින් ඔබට පුළුවන. වෙනත් බොහෝ ස්ථාන සඳහාත් උත්සාහ කර බලන්න."
 
 #: src/libvlc-module.c:801
 msgid "Enable sub-pictures"
-msgstr ""
+msgstr "උප-අනුරූ සබල කරන්න"
 
 #: src/libvlc-module.c:803
 msgid "You can completely disable the sub-picture processing."
-msgstr ""
+msgstr "උප-අනුරූ සැකසීම සම්පූර්ණයෙන්ම අහෝසි කිරීමට මෙයින් ඔබට හැකියි."
 
 #: src/libvlc-module.c:805 src/libvlc-module.c:1758
 #: modules/gui/macosx/simple_prefs.m:286
@@ -2561,6 +2590,8 @@ msgid ""
 "This adds so-called \"subpicture filters\". These filters overlay some "
 "images or text over the video (like a logo, arbitrary text, ...)."
 msgstr ""
+"මෙම එක් කිරීමට කියනු ලබන්නේ \"උප-අනුරූ පෙරහන්\". මෙම පෙරහන් මගින් ඔබට හැකියි එක් කිරීමට සමහර "
+"පිංතූර ‍හෝ පෙළ වීඩියෝවට ඉහළින් (ලෝගෝ, අභිමතානුකූල පෙළ, ... ආදිය)"
 
 #: src/libvlc-module.c:819
 msgid "Autodetect subtitle files"
@@ -2571,6 +2602,8 @@ msgid ""
 "Automatically detect a subtitle file, if no subtitle filename is specified "
 "(based on the filename of the movie)."
 msgstr ""
+"ස්වයංව උපසිරැසි ගොනුවක් සොයා අනාවරණය කරගනී, එසේ නොවන්නේ නම් උපසිරැසි ගොනුවේ ගොනු නාමය "
+"වෙනස් වී තිබිය හැකියි. (චිත්‍රපටයේ ගොනු නාමයටම අනුකූල විය යුතුයි)."
 
 #: src/libvlc-module.c:824
 msgid "Subtitle autodetection fuzziness"
@@ -2589,13 +2622,15 @@ msgstr ""
 
 #: src/libvlc-module.c:834
 msgid "Subtitle autodetection paths"
-msgstr ""
+msgstr "උපසිරැසි ස්වයංව සොයා දැනගන්නා පෙත්"
 
 #: src/libvlc-module.c:836
 msgid ""
 "Look for a subtitle file in those paths too, if your subtitle file was not "
 "found in the current directory."
 msgstr ""
+"වත්මන් ඩිරෙක්ටරිය තුළ ඹබගේ උපසිරැසි ගොනුව සොයා ගැනීමට නොහැකි නම්, උපසිරැසි ගොනුව ඇත්දැයි මෙම "
+"පෙත් වලද බලන්න."
 
 #: src/libvlc-module.c:839
 msgid "Use subtitle file"
@@ -2606,6 +2641,8 @@ msgid ""
 "Load this subtitle file. To be used when autodetect cannot detect your "
 "subtitle file."
 msgstr ""
+"මෙම උපසිරැසි ගොනුව ප්‍රවේශනය කරන්න. මෙය භාවිතා වන්නේ ඔබේ උපසිරැසි ‍ගොනුව ස්වයංව සොයා "
+"ගැනීමට නොහැකි නිසා."
 
 #: src/libvlc-module.c:844
 msgid "DVD device"
@@ -2641,19 +2678,19 @@ msgstr "මෙය භාවිතයට ගනු ලබන පෙරනිම�
 
 #: src/libvlc-module.c:862
 msgid "Force IPv6"
-msgstr ""
+msgstr "IPv6 බලාත්මක කරන්න"
 
 #: src/libvlc-module.c:864
 msgid "IPv6 will be used by default for all connections."
-msgstr ""
+msgstr "සෑම සම්බන්ධතාවයකටම පෙරනිමිය වශයෙන් IPv6 භාවිතා කරනු ඇත."
 
 #: src/libvlc-module.c:866
 msgid "Force IPv4"
-msgstr ""
+msgstr "IPv4 බලාත්මක කරන්න"
 
 #: src/libvlc-module.c:868
 msgid "IPv4 will be used by default for all connections."
-msgstr ""
+msgstr "සෑම සම්බන්ධතාවයකටම පෙරනිමිය වශයෙන් IPv4 භාවිතා කරනු ඇත."
 
 #: src/libvlc-module.c:870
 msgid "TCP connection timeout"
@@ -2675,11 +2712,11 @@ msgstr ""
 
 #: src/libvlc-module.c:879
 msgid "SOCKS user name"
-msgstr ""
+msgstr "SOCKS පරිශීලක නාමය"
 
 #: src/libvlc-module.c:881
 msgid "User name to be used for connection to the SOCKS proxy."
-msgstr ""
+msgstr "SOCKS ප්‍රොක්සියට සම්බන්ධ වීම සඳහා භාවිතා කරනු ලබන පරිශීලක නාමය."
 
 #: src/libvlc-module.c:883
 msgid "SOCKS password"
@@ -2687,71 +2724,71 @@ msgstr "SOCKS රහස්පදය"
 
 #: src/libvlc-module.c:885
 msgid "Password to be used for connection to the SOCKS proxy."
-msgstr ""
+msgstr "SOCKS ප්‍රොක්සියට සම්බන්ධ වීම සඳහා භාවිතා කරනු ලබන මුරපදය."
 
 #: src/libvlc-module.c:887
 msgid "Title metadata"
-msgstr ""
+msgstr "මාතෘකා පාර-දත්ත"
 
 #: src/libvlc-module.c:889
 msgid "Allows you to specify a \"title\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"මාතෘකා\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:891
 msgid "Author metadata"
-msgstr ""
+msgstr "කර්තෘ පාර-දත්ත"
 
 #: src/libvlc-module.c:893
 msgid "Allows you to specify an \"author\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"කර්තෘ\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:895
 msgid "Artist metadata"
-msgstr ""
+msgstr "කලාකරු පාර-දත්ත"
 
 #: src/libvlc-module.c:897
 msgid "Allows you to specify an \"artist\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"කලාකරු\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:899
 msgid "Genre metadata"
-msgstr ""
+msgstr "වර්ග (Genre) පාර-දත්ත"
 
 #: src/libvlc-module.c:901
 msgid "Allows you to specify a \"genre\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"වර්ග\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:903
 msgid "Copyright metadata"
-msgstr ""
+msgstr "ප්‍රකාශන අයිතියේ පාර-දත්ත"
 
 #: src/libvlc-module.c:905
 msgid "Allows you to specify a \"copyright\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"ප්‍රකාශන අයිතියේ\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:907
 msgid "Description metadata"
-msgstr ""
+msgstr "විස්තර පාර-දත්ත"
 
 #: src/libvlc-module.c:909
 msgid "Allows you to specify a \"description\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"විස්තර\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:911
 msgid "Date metadata"
-msgstr ""
+msgstr "දින පාර-දත්ත"
 
 #: src/libvlc-module.c:913
 msgid "Allows you to specify a \"date\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"දින\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:915
 msgid "URL metadata"
-msgstr ""
+msgstr "URL පාර-දත්ත"
 
 #: src/libvlc-module.c:917
 msgid "Allows you to specify a \"url\" metadata for an input."
-msgstr ""
+msgstr "ආදානය සඳහා  \"url\"  පාර-දත්ත විශේෂයෙන් සඳහන් කිරීමට මෙය ඔබට ඉඩදෙයි."
 
 #: src/libvlc-module.c:921
 msgid ""
@@ -2762,7 +2799,7 @@ msgstr ""
 
 #: src/libvlc-module.c:925
 msgid "Preferred decoders list"
-msgstr ""
+msgstr "වඩා කැමති විකේතක ලැයිස්තුව"
 
 #: src/libvlc-module.c:927
 msgid ""
@@ -2773,7 +2810,7 @@ msgstr ""
 
 #: src/libvlc-module.c:932
 msgid "Preferred encoders list"
-msgstr ""
+msgstr "වඩා කැමති ආකේතක ලැයිස්තුව"
 
 #: src/libvlc-module.c:934
 msgid ""
@@ -2825,7 +2862,7 @@ msgstr ""
 
 #: src/libvlc-module.c:965
 msgid "Enable video stream output"
-msgstr ""
+msgstr "වීඩියෝ දහරා ප්‍රතිදානය සබල කරන්න"
 
 #: src/libvlc-module.c:967
 msgid ""
@@ -2835,7 +2872,7 @@ msgstr ""
 
 #: src/libvlc-module.c:970
 msgid "Enable audio stream output"
-msgstr ""
+msgstr "ශ්‍රව්‍ය දහරා ප්‍රතිදානය සබල කරන්න"
 
 #: src/libvlc-module.c:972
 msgid ""
@@ -2845,7 +2882,7 @@ msgstr ""
 
 #: src/libvlc-module.c:975
 msgid "Enable SPU stream output"
-msgstr ""
+msgstr "SPU දහරා ප්‍රතිදානය සබල කරන්න"
 
 #: src/libvlc-module.c:977
 msgid ""
@@ -2855,7 +2892,7 @@ msgstr ""
 
 #: src/libvlc-module.c:980
 msgid "Keep stream output open"
-msgstr ""
+msgstr "දහරා ප්‍රතිදානය විවෘතව තබන්න"
 
 #: src/libvlc-module.c:982
 msgid ""
@@ -2876,7 +2913,7 @@ msgstr ""
 
 #: src/libvlc-module.c:991
 msgid "Preferred packetizer list"
-msgstr ""
+msgstr "වඩාත්ම කැමති පැකැට්ටුකරණ ලැයිස්තුව"
 
 #: src/libvlc-module.c:993
 msgid ""
@@ -2885,7 +2922,7 @@ msgstr ""
 
 #: src/libvlc-module.c:996
 msgid "Mux module"
-msgstr ""
+msgstr "Mux මොඩියුලය"
 
 #: src/libvlc-module.c:998
 msgid "This is a legacy entry to let you configure mux modules"
@@ -2893,7 +2930,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1000
 msgid "Access output module"
-msgstr ""
+msgstr "ප්‍රතිදාන මොඩියුල ප්‍රවේශය"
 
 #: src/libvlc-module.c:1002
 msgid "This is a legacy entry to let you configure access output modules"
@@ -2911,7 +2948,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1010
 msgid "SAP announcement interval"
-msgstr ""
+msgstr "SAP ප්‍රකාශන කාලාන්තරය"
 
 #: src/libvlc-module.c:1012
 msgid ""
@@ -2927,123 +2964,133 @@ msgstr ""
 
 #: src/libvlc-module.c:1024
 msgid "Enable CPU MMX support"
-msgstr ""
+msgstr "CPU MMX සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1026
 msgid ""
 "If your processor supports the MMX instructions set, VLC can take advantage "
 "of them."
-msgstr ""
+msgstr "ඔබගේ ප්‍රොසෙසරය MMX උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1029
 msgid "Enable CPU 3D Now! support"
-msgstr ""
+msgstr "CPU 3D Now! සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1031
 msgid ""
 "If your processor supports the 3D Now! instructions set, VLC can take "
 "advantage of them."
 msgstr ""
+"ඔබගේ ප්‍රොසෙසරය 3D Now! උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1034
 msgid "Enable CPU MMX EXT support"
-msgstr ""
+msgstr "CPU MMX EXT සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1036
 msgid ""
 "If your processor supports the MMX EXT instructions set, VLC can take "
 "advantage of them."
 msgstr ""
+"ඔබගේ ප්‍රොසෙසරය MMX EXT උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1039
 msgid "Enable CPU SSE support"
-msgstr ""
+msgstr "CPU SSE සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1041
 msgid ""
 "If your processor supports the SSE instructions set, VLC can take advantage "
 "of them."
-msgstr ""
+msgstr "ඔබගේ ප්‍රොසෙසරය SSE උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1044
 msgid "Enable CPU SSE2 support"
-msgstr ""
+msgstr "CPU SSE2 සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1046
 msgid ""
 "If your processor supports the SSE2 instructions set, VLC can take advantage "
 "of them."
-msgstr ""
+msgstr "ඔබගේ ප්‍රොසෙසරය SSE2 උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1049
 msgid "Enable CPU SSE3 support"
-msgstr ""
+msgstr "CPU SSE3 සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1051
 msgid ""
 "If your processor supports the SSE3 instructions set, VLC can take advantage "
 "of them."
-msgstr ""
+msgstr "ඔබගේ ප්‍රොසෙසරය SSE3 උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1054
 msgid "Enable CPU SSSE3 support"
-msgstr ""
+msgstr "CPU SSSE3 සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1056
 msgid ""
 "If your processor supports the SSSE3 instructions set, VLC can take "
 "advantage of them."
-msgstr ""
+msgstr "ඔබගේ ප්‍රොසෙසරය SSSE3 උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1059
 msgid "Enable CPU SSE4.1 support"
-msgstr ""
+msgstr "CPU SSE4.1 සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1061
 msgid ""
 "If your processor supports the SSE4.1 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
+"ඔබගේ ප්‍රොසෙසරය SSE4.1 උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1064
 msgid "Enable CPU SSE4.2 support"
-msgstr ""
+msgstr "CPU SSE4.2 සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1066
 msgid ""
 "If your processor supports the SSE4.2 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
+"ඔබගේ ප්‍රොසෙසරය SSE4.2 උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1069
 msgid "Enable CPU AltiVec support"
-msgstr ""
+msgstr "CPU AltiVec සහාය සබල කරන්න"
 
 #: src/libvlc-module.c:1071
 msgid ""
 "If your processor supports the AltiVec instructions set, VLC can take "
 "advantage of them."
 msgstr ""
+"ඔබගේ ප්‍රොසෙසරය AltiVec උපදේශන කුලකයට සහාය දක්වන්නේ නම්, VLC හට වාසිදායක වනු ඇත."
 
 #: src/libvlc-module.c:1076
 msgid ""
 "These options allow you to select default modules. Leave these alone unless "
 "you really know what you are doing."
 msgstr ""
+"මෙම විකල්ප මගින්, ‍පෙරනිමි මොඩියුල තෝරා ගැනීමට ඔබට ඉඩදෙනු ලබයි. ඔබ කරන්නට යන්නේ කුමක් දැයි හරි "
+"ආකාරව නොදන්නේ නම් මෙම සැකසුම් වෙනස් කිරීමෙන් වළකින්න."
 
 #: src/libvlc-module.c:1079
 msgid "Memory copy module"
-msgstr ""
+msgstr "මතක පිටපත් මොඩියුලය"
 
 #: src/libvlc-module.c:1081
 msgid ""
 "You can select which memory copy module you want to use. By default VLC will "
 "select the fastest one supported by your hardware."
 msgstr ""
+"ඔබට හැකියි‍ තෝරා ගැනීම‍ට ඔබ භාවිතා කළ යුත්තේ කුමන මතක පිටපත් මොඩියුලයද යන්න. පෙරනිමිය ලෙස "
+"VLC විසින් ඔබගේ දෘඩාංග වලට අනුව වඩාත්ම වේගවත් එක වන්නේ කුමක් දැයි සොයා බලා එය තෝරා ගනු "
+"ඇත."
 
 #: src/libvlc-module.c:1084
 msgid "Access module"
-msgstr ""
+msgstr "ප්‍රවේශ මොඩියුලය"
 
 #: src/libvlc-module.c:1086
 msgid ""
@@ -3054,7 +3101,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1090
 msgid "Stream filter module"
-msgstr ""
+msgstr "දහරා පෙරන මොඩියුලය"
 
 #: src/libvlc-module.c:1092
 msgid "Stream filters are used to modify the stream that is being read. "
@@ -3062,7 +3109,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1094
 msgid "Demux module"
-msgstr ""
+msgstr "Demux මොඩියුලය"
 
 #: src/libvlc-module.c:1096
 msgid ""
@@ -3086,7 +3133,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1109
 msgid "Adjust VLC priority"
-msgstr ""
+msgstr "VLC ප්‍රමුඛතා සීරුමාරු කරන්න"
 
 #: src/libvlc-module.c:1111
 msgid ""
@@ -3097,7 +3144,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1115
 msgid "(Experimental) Don't do caching at the access level."
-msgstr ""
+msgstr "(පරීක්‍ෂණාත්මක) ප්‍රවේශ මට්ටමේ දී හැඹිලිගත කිරීමෙන් (caching) වළකින්න."
 
 #: src/libvlc-module.c:1117
 msgid ""
@@ -3106,7 +3153,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1120
 msgid "Modules search path"
-msgstr ""
+msgstr "මොඩියුල සෙවුම් පෙත"
 
 #: src/libvlc-module.c:1122
 msgid ""
@@ -3116,7 +3163,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1125
 msgid "Data search path"
-msgstr ""
+msgstr "දත්ත සෙවුම් පෙත"
 
 #: src/libvlc-module.c:1127
 msgid "Override the default data/share search path."
@@ -3124,15 +3171,15 @@ msgstr ""
 
 #: src/libvlc-module.c:1129
 msgid "VLM configuration file"
-msgstr ""
+msgstr "VLM වින්‍යාසගත ගොනුව"
 
 #: src/libvlc-module.c:1131
 msgid "Read a VLM configuration file as soon as VLM is started."
-msgstr ""
+msgstr "VLM ආරම්භ වන්නේ නම්, VLM වින්‍යාසගත ගොනුවක් කියවන්න."
 
 #: src/libvlc-module.c:1133
 msgid "Use a plugins cache"
-msgstr ""
+msgstr "පේණු මෘදුකාංග හැඹිලියක් (cache) භාවිතා කරන්න"
 
 #: src/libvlc-module.c:1135
 msgid "Use a plugins cache which will greatly improve the startup time of VLC."
@@ -3140,11 +3187,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1137
 msgid "Locally collect statistics"
-msgstr ""
+msgstr "ප්‍රාදේශීය වශයෙන් එක්රැස් කළ සංඛ්‍යාලේඛන දත්ත "
 
 #: src/libvlc-module.c:1139
 msgid "Collect miscellaneous local statistics about the playing media."
-msgstr ""
+msgstr "ධාවනය වන්නා වූ මාධ්‍ය ගැන විවිධ වූ සංකීර්ණ ප්‍රාදේශීය සංඛ්‍යාලේඛන දත්ත එක්රැස් කරන්න."
 
 #: src/libvlc-module.c:1141
 msgid "Run as daemon process"
@@ -3156,7 +3203,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1145
 msgid "Write process id to file"
-msgstr ""
+msgstr "ක්‍රියාවලි හැඳුනුම ගොනුවකට ලියන්න"
 
 #: src/libvlc-module.c:1147
 msgid "Writes process id into specified file."
@@ -3164,11 +3211,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1149
 msgid "Log to file"
-msgstr ""
+msgstr "ලොගය ගොනුවකට"
 
 #: src/libvlc-module.c:1151
 msgid "Log all VLC messages to a text file."
-msgstr ""
+msgstr "සියලුම VLC පණිවුඩ ලොග ‍පෙළ ගොනුවකට."
 
 #: src/libvlc-module.c:1153
 msgid "Log to syslog"
@@ -3180,7 +3227,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1157
 msgid "Allow only one running instance"
-msgstr ""
+msgstr "එක් ධාවන නිදර්ශනයකට පමණක් ඉඩ දෙන්න"
 
 #: src/libvlc-module.c:1160
 msgid ""
@@ -3289,11 +3336,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1231
 msgid "Play files randomly forever"
-msgstr ""
+msgstr "සදහ‍ටම ගොනු සසම්භාවී ලෙස ධාවනය කරන්න"
 
 #: src/libvlc-module.c:1233
 msgid "VLC will randomly play files in the playlist until interrupted."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුව විච්ඡින්න වන තුරු VLC විසින් ගොනු අහඹු ලෙස ධාවනය කරනු ඇත."
 
 #: src/libvlc-module.c:1235
 msgid "Repeat all"
@@ -3301,11 +3348,11 @@ msgstr "සියල්ල යළි යළිත්"
 
 #: src/libvlc-module.c:1237
 msgid "VLC will keep playing the playlist indefinitely."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුව අනියත ලෙස ධාවනය කිරීමට VLC විසින් තබාගනු ඇත."
 
 #: src/libvlc-module.c:1239
 msgid "Repeat current item"
-msgstr ""
+msgstr "වත්මන් අයිතමය පුනරාවර්තනය කරන්න"
 
 #: src/libvlc-module.c:1241
 msgid "VLC will keep playing the current playlist item."
@@ -3313,19 +3360,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1243
 msgid "Play and stop"
-msgstr ""
+msgstr "ධාවනය සහ නවතන්න"
 
 #: src/libvlc-module.c:1245
 msgid "Stop the playlist after each played playlist item."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුවෙහි සෑම අයිතමයක්ම ධාවනය කළ පසු ධාවන ලැයිස්තුව නවතන්න."
 
 #: src/libvlc-module.c:1247
 msgid "Play and exit"
-msgstr ""
+msgstr "ධාවනය සහ ඉවත්වන්න"
 
 #: src/libvlc-module.c:1249
 msgid "Exit if there are no more items in the playlist."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුවෙහි තවත් අයිතම ඉතිරිව නොමැති නම් ඉවත්වන්න."
 
 #: src/libvlc-module.c:1251
 msgid "Play and pause"
@@ -3337,17 +3384,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1255
 msgid "Use media library"
-msgstr ""
+msgstr "මාධ්‍ය පුස්තකාලය භාවිතා කරන්න"
 
 #: src/libvlc-module.c:1257
 msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
+"ඔබ විසින් VLC ආරම්භ කරන සෑම අවස්ථාවක දී ම මාධ්‍ය පුස්තකාලය ස්වයංක්‍රීයව සුරැකෙනු ඇත සහ නැවත "
+"ප්‍රවේශනය කරනු ඇත."
 
 #: src/libvlc-module.c:1260
 msgid "Display playlist tree"
-msgstr ""
+msgstr "ධාවන ලැයිස්තු රුක දර්ශනය කරන්න"
 
 #: src/libvlc-module.c:1262
 msgid ""
@@ -3392,19 +3441,19 @@ msgstr ""
 
 #: src/libvlc-module.c:1280
 msgid "Pause only"
-msgstr ""
+msgstr "විරාමය පමණයි"
 
 #: src/libvlc-module.c:1281
 msgid "Select the hotkey to use to pause."
-msgstr ""
+msgstr "විරාමය සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1282
 msgid "Play only"
-msgstr ""
+msgstr "ධාවනය පමණයි"
 
 #: src/libvlc-module.c:1283
 msgid "Select the hotkey to use to play."
-msgstr ""
+msgstr "ධාවනය සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1284 modules/gui/macosx/controls.m:1010
 #: modules/gui/macosx/intf.m:648 modules/gui/qt4/components/controller.hpp:105
@@ -3414,7 +3463,7 @@ msgstr "වේගයෙන්"
 
 #: src/libvlc-module.c:1285 src/libvlc-module.c:1291
 msgid "Select the hotkey to use for fast forward playback."
-msgstr ""
+msgstr "වේගයෙන් ධාවනය කිරීම සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1286 modules/gui/macosx/controls.m:1011
 #: modules/gui/macosx/intf.m:649 modules/gui/qt4/components/controller.hpp:105
@@ -3424,16 +3473,16 @@ msgstr "සෙමින්"
 
 #: src/libvlc-module.c:1287 src/libvlc-module.c:1293
 msgid "Select the hotkey to use for slow motion playback."
-msgstr ""
+msgstr "සෙමින් ධාවනය කිරීම සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1288 modules/gui/macosx/controls.m:1012
 #: modules/gui/macosx/intf.m:650
 msgid "Normal rate"
-msgstr ""
+msgstr "සාමාන්‍ය අනුපාතය"
 
 #: src/libvlc-module.c:1289
 msgid "Select the hotkey to set the playback rate back to normal."
-msgstr ""
+msgstr "ධාවන වේගය යළි සාමාන්‍ය තත්වයට පත් කිරීම සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1290 modules/gui/qt4/menus.cpp:811
 msgid "Faster (fine)"
@@ -3458,7 +3507,7 @@ msgstr "ඊළඟ"
 
 #: src/libvlc-module.c:1295
 msgid "Select the hotkey to use to skip to the next item in the playlist."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුවේ ඊළඟ අයිතමය මගහැරීම සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1296 modules/control/hotkeys.c:702
 #: modules/gui/macosx/about.m:188 modules/gui/macosx/controls.m:1031
@@ -3472,7 +3521,7 @@ msgstr "කළින්"
 
 #: src/libvlc-module.c:1297
 msgid "Select the hotkey to use to skip to the previous item in the playlist."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුවේ පෙර අයිතමය මගහැරීම සඳහා භාවිතා කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1298 modules/gui/macosx/controls.m:1023
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:602
@@ -3484,7 +3533,7 @@ msgstr "නවතන්න"
 
 #: src/libvlc-module.c:1299
 msgid "Select the hotkey to stop playback."
-msgstr ""
+msgstr "ධාවනය නැවැත්වීම සඳහා භාවිතා කිරීමට කෙටි යතුර ‍තෝරන්න."
 
 #: src/libvlc-module.c:1300 modules/gui/fbosd.c:127 modules/gui/fbosd.c:195
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
@@ -3496,111 +3545,111 @@ msgstr "ස්ථානය"
 
 #: src/libvlc-module.c:1301
 msgid "Select the hotkey to display the position."
-msgstr ""
+msgstr "ස්ථානය සන්දර්ශනය කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1303
 msgid "Very short backwards jump"
-msgstr ""
+msgstr "ඉතාමත් කෙටි ආපසු පැනුම"
 
 #: src/libvlc-module.c:1305
 msgid "Select the hotkey to make a very short backwards jump."
-msgstr ""
+msgstr "ඉතාමත් කෙටි ආපසු පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1306
 msgid "Short backwards jump"
-msgstr ""
+msgstr "කෙටි ආපසු පැනුම"
 
 #: src/libvlc-module.c:1308
 msgid "Select the hotkey to make a short backwards jump."
-msgstr ""
+msgstr "කෙටි ආපසු පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1309
 msgid "Medium backwards jump"
-msgstr ""
+msgstr "මධ්‍යම ආපසු පැනුම"
 
 #: src/libvlc-module.c:1311
 msgid "Select the hotkey to make a medium backwards jump."
-msgstr ""
+msgstr "මධ්‍යම ආපසු පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1312
 msgid "Long backwards jump"
-msgstr ""
+msgstr "දිගු ආපසු පැනුම"
 
 #: src/libvlc-module.c:1314
 msgid "Select the hotkey to make a long backwards jump."
-msgstr ""
+msgstr "දිගු ආපසු පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1316
 msgid "Very short forward jump"
-msgstr ""
+msgstr "ඉතාමත් කෙටි ඉදිරි පැනුම"
 
 #: src/libvlc-module.c:1318
 msgid "Select the hotkey to make a very short forward jump."
-msgstr ""
+msgstr "ඉතාමත් කෙටි ඉදිරි පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1319
 msgid "Short forward jump"
-msgstr ""
+msgstr "කෙටි ඉදිරි පැනුම"
 
 #: src/libvlc-module.c:1321
 msgid "Select the hotkey to make a short forward jump."
-msgstr ""
+msgstr "කෙටි ඉදිරි පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1322
 msgid "Medium forward jump"
-msgstr ""
+msgstr "මධ්‍යම ඉදිරි පැනුම"
 
 #: src/libvlc-module.c:1324
 msgid "Select the hotkey to make a medium forward jump."
-msgstr ""
+msgstr "මධ්‍යම ඉදිරි පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1325
 msgid "Long forward jump"
-msgstr ""
+msgstr "දිගු ඉදිරි පැනුම"
 
 #: src/libvlc-module.c:1327
 msgid "Select the hotkey to make a long forward jump."
-msgstr ""
+msgstr "දිගු ඉදිරි පැනුමක් සිදු කිරීමට කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1328 modules/control/hotkeys.c:713
 msgid "Next frame"
-msgstr ""
+msgstr "ඊළඟ රාමුව"
 
 #: src/libvlc-module.c:1330
 msgid "Select the hotkey to got to the next video frame."
-msgstr ""
+msgstr "ඊළඟ වීඩියෝ රාමුවට අල්ලාගැනීම සඳහා කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1332
 msgid "Very short jump length"
-msgstr ""
+msgstr "ඉතා කෙටි පැනුම් කාල ප්‍රමාණය"
 
 #: src/libvlc-module.c:1333
 msgid "Very short jump length, in seconds."
-msgstr ""
+msgstr "ඉතා කෙටි පැනුම් කාල ප්‍රමාණය, තත්පර වලින්"
 
 #: src/libvlc-module.c:1334
 msgid "Short jump length"
-msgstr ""
+msgstr "කෙටි පැනුම් කාල ප්‍රමාණය"
 
 #: src/libvlc-module.c:1335
 msgid "Short jump length, in seconds."
-msgstr ""
+msgstr "කෙටි පැනුම් කාල ප්‍රමාණය, තත්පර වලින්"
 
 #: src/libvlc-module.c:1336
 msgid "Medium jump length"
-msgstr ""
+msgstr "මධ්‍යම පැනුම් කාල ප්‍රමාණය"
 
 #: src/libvlc-module.c:1337
 msgid "Medium jump length, in seconds."
-msgstr ""
+msgstr "මධ්‍යම පැනුම් කාල ප්‍රමාණය, තත්පර වලින්"
 
 #: src/libvlc-module.c:1338
 msgid "Long jump length"
-msgstr ""
+msgstr "දිගු පැනුම් කාල ප්‍රමාණය"
 
 #: src/libvlc-module.c:1339
 msgid "Long jump length, in seconds."
-msgstr ""
+msgstr "දිගු පැනුම් කාල ප්‍රමාණය, තත්පර වලින්"
 
 #: src/libvlc-module.c:1341 modules/control/hotkeys.c:179
 #: modules/gui/qt4/components/controller.hpp:108
@@ -3611,59 +3660,59 @@ msgstr "පිටවෙන්න"
 
 #: src/libvlc-module.c:1342
 msgid "Select the hotkey to quit the application."
-msgstr ""
+msgstr "යෙදුම තුළින් ඉවත් වීම සඳහා කෙටි යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1343
 msgid "Navigate up"
-msgstr ""
+msgstr "ඉහළට සංචාලනය කරන්න"
 
 #: src/libvlc-module.c:1344
 msgid "Select the key to move the selector up in DVD menus."
-msgstr ""
+msgstr "ඩීවීඩී මෙනු වල වරණය ඉහළට චලනය කිරීම සඳහා යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1345
 msgid "Navigate down"
-msgstr ""
+msgstr "පහළ‍ට සංචාලනය කරන්න"
 
 #: src/libvlc-module.c:1346
 msgid "Select the key to move the selector down in DVD menus."
-msgstr ""
+msgstr "ඩීවීඩී මෙනු වල වරණය පහළට චලනය කිරීම සඳහා යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1347
 msgid "Navigate left"
-msgstr ""
+msgstr "වමට සංචාලනය කරන්න"
 
 #: src/libvlc-module.c:1348
 msgid "Select the key to move the selector left in DVD menus."
-msgstr ""
+msgstr "ඩීවීඩී මෙනු වල වරණය වමට චලනය කිරීම සඳහා යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1349
 msgid "Navigate right"
-msgstr ""
+msgstr "දකුණට සංචාලනය කරන්න"
 
 #: src/libvlc-module.c:1350
 msgid "Select the key to move the selector right in DVD menus."
-msgstr ""
+msgstr "ඩීවීඩී මෙනු වල වරණය දකුණට චලනය කිරීම සඳහා යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1351
 msgid "Activate"
-msgstr ""
+msgstr "සක්‍රිය කිරීම"
 
 #: src/libvlc-module.c:1352
 msgid "Select the key to activate selected item in DVD menus."
-msgstr ""
+msgstr "ඩීවීඩී මෙනු වල තෝරන ලද අයිතමය සක්‍රීය කිරීම සඳහා යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1353
 msgid "Go to the DVD menu"
-msgstr ""
+msgstr "ඩීවීඩී මෙනුව වෙත යන්න"
 
 #: src/libvlc-module.c:1354
 msgid "Select the key to take you to the DVD menu"
-msgstr ""
+msgstr "ඩීවීඩී මෙනුව ලබා ගැනීම සඳහා යතුර තෝරන්න."
 
 #: src/libvlc-module.c:1355
 msgid "Select previous DVD title"
-msgstr ""
+msgstr "පෙර DVD මාතෘකාව තෝරන්න"
 
 #: src/libvlc-module.c:1356
 msgid "Select the key to choose the previous title from the DVD"
@@ -4163,7 +4212,7 @@ msgstr "උප අනුරූ"
 #: modules/demux/subtitle.c:73 linux/modules/gui/qt4/ui/profiles.h:495
 #: linux/modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
-msgstr ""
+msgstr "උපසිරැසි"
 
 #: src/libvlc-module.c:1785 modules/stream_out/transcode/transcode.c:115
 msgid "Overlays"
@@ -4308,7 +4357,7 @@ msgstr ""
 
 #: src/misc/update.c:585
 msgid "Saving file failed"
-msgstr ""
+msgstr "ගොනුව සුරැකීමට නොහැකිවිය"
 
 #: src/misc/update.c:586
 #, c-format
@@ -4327,7 +4376,7 @@ msgid "Downloading ..."
 msgstr ""
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:652 modules/demux/avi/avi.c:2353
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4419,7 +4468,7 @@ msgstr ""
 msgid "Undefined"
 msgstr ""
 
-#: src/video_output/video_output.c:1674 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr ""
@@ -5166,7 +5215,7 @@ msgstr "වින්‍යාසගත කිරිම"
 #: modules/access/dshow/dshow.cpp:459 modules/access/dshow/dshow.cpp:533
 #: modules/access/dshow/dshow.cpp:968 modules/access/dshow/dshow.cpp:1021
 msgid "Capture failed"
-msgstr ""
+msgstr "ග්‍රහණය අසමත් විය"
 
 #: modules/access/dshow/dshow.cpp:460
 msgid "No video or audio device selected."
@@ -5175,11 +5224,15 @@ msgstr ""
 #: modules/access/dshow/dshow.cpp:534
 msgid "VLC cannot open ANY capture device.Check the error log for details."
 msgstr ""
+"VLC හට කිසිදු ග්‍රහණ උපාංගයක් විවෘත කිරීමට නොහැකි විය. වැඩි විස්තර සඳහා ලොග් සටහන පරීක්‍ෂා "
+"කරන්න."
 
 #: modules/access/dshow/dshow.cpp:969
 #, c-format
 msgid "VLC cannot use the device \"%s\", because its type is not supported."
 msgstr ""
+"VLC හට උපාංගය භාවිතා කිරීමට නොහැකි විය. \"%s\", මක්නිසාද යත්, මෙම වර්ගය සඳහා සහාය "
+"නොදක්වන බැවියි."
 
 #: modules/access/dshow/dshow.cpp:1022
 #, c-format
@@ -5344,12 +5397,12 @@ msgstr ""
 msgid "DVDnav Input"
 msgstr ""
 
-#: modules/access/dvdnav.c:317 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr ""
 
-#: modules/access/dvdnav.c:318
+#: modules/access/dvdnav.c:326
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
@@ -5636,7 +5689,7 @@ msgstr ""
 
 #: modules/access/jack.c:67
 msgid "Auto Connection"
-msgstr ""
+msgstr "ස්වයං සම්බන්ධය"
 
 #: modules/access/jack.c:69
 msgid "Automatically connect VLC input ports to available output ports."
@@ -5660,7 +5713,7 @@ msgstr ""
 
 #: modules/access/mmap.c:53
 msgid "MMap"
-msgstr ""
+msgstr "MMap"
 
 #: modules/access/mmap.c:54
 msgid "Memory-mapped file input"
@@ -5683,7 +5736,7 @@ msgstr ""
 
 #: modules/access/mms/mms.c:59
 msgid "Maximum bitrate"
-msgstr ""
+msgstr "උපරිම බිටු අනුපාතය"
 
 #: modules/access/mms/mms.c:61
 msgid "Select the stream with the maximum bitrate under that limit."
@@ -5716,11 +5769,11 @@ msgstr ""
 
 #: modules/access/mtp.c:69
 msgid "MTP input"
-msgstr ""
+msgstr "MTP ආදානය"
 
 #: modules/access/mtp.c:70
 msgid "MTP"
-msgstr ""
+msgstr "MTP"
 
 #: modules/access/oss.c:72
 msgid ""
@@ -5729,11 +5782,11 @@ msgstr ""
 
 #: modules/access/oss.c:80
 msgid "OSS"
-msgstr ""
+msgstr "OSS"
 
 #: modules/access/oss.c:81
 msgid "OSS input"
-msgstr ""
+msgstr "OSS ආදානය"
 
 #: modules/access/pvr.c:61
 msgid ""
@@ -5743,19 +5796,19 @@ msgstr ""
 
 #: modules/access/pvr.c:64 modules/services_discovery/udev.c:484
 msgid "Device"
-msgstr ""
+msgstr "ආම්පන්නය"
 
 #: modules/access/pvr.c:65
 msgid "PVR video device"
-msgstr ""
+msgstr "PVR වීඩියෝ ආම්පන්නය"
 
 #: modules/access/pvr.c:67
 msgid "Radio device"
-msgstr ""
+msgstr "රේඩියෝ ආම්පන්නය"
 
 #: modules/access/pvr.c:68
 msgid "PVR radio device"
-msgstr ""
+msgstr "PVR රේඩියෝ ආම්පන්නය"
 
 #: modules/access/pvr.c:70 modules/access/v4l.c:96
 #: modules/gui/qt4/components/open_panels.cpp:785
@@ -5772,7 +5825,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:95 modules/video_output/vmem.c:42
 #: linux/modules/gui/qt4/ui/profiles.h:479
 msgid "Width"
-msgstr ""
+msgstr "පළල"
 
 #: modules/access/pvr.c:75
 msgid "Width of the stream to capture (-1 for autodetection)."
@@ -5783,7 +5836,7 @@ msgstr ""
 #: modules/video_filter/mosaic.c:93 modules/video_output/vmem.c:45
 #: linux/modules/gui/qt4/ui/profiles.h:482
 msgid "Height"
-msgstr ""
+msgstr "උස"
 
 #: modules/access/pvr.c:79
 msgid "Height of the stream to capture (-1 for autodetection)."
@@ -5793,7 +5846,7 @@ msgstr ""
 #: modules/gui/qt4/components/open_panels.cpp:792
 #: modules/gui/qt4/components/open_panels.cpp:892
 msgid "Frequency"
-msgstr ""
+msgstr "සංඛ්‍යාතය"
 
 #: modules/access/pvr.c:83 modules/access/v4l.c:91
 msgid "Frequency to capture (in kHz), if applicable."
@@ -5862,7 +5915,7 @@ msgstr ""
 
 #: modules/access/pvr.c:112 modules/access/v4l.c:92
 msgid "Channel"
-msgstr ""
+msgstr "නාලිකාව"
 
 #: modules/access/pvr.c:113
 msgid ""
@@ -5871,31 +5924,31 @@ msgstr ""
 
 #: modules/access/pvr.c:119 modules/access/v4l.c:142
 msgid "Automatic"
-msgstr ""
+msgstr "ස්වයංසිද්ධ"
 
 #: modules/access/pvr.c:119 modules/access/v4l.c:142
 msgid "SECAM"
-msgstr ""
+msgstr "SECAM"
 
 #: modules/access/pvr.c:119 modules/access/v4l.c:142
 msgid "PAL"
-msgstr ""
+msgstr "PAL"
 
 #: modules/access/pvr.c:119 modules/access/v4l.c:142
 msgid "NTSC"
-msgstr ""
+msgstr "NTSC"
 
 #: modules/access/pvr.c:122
 msgid "vbr"
-msgstr ""
+msgstr "vbr"
 
 #: modules/access/pvr.c:122
 msgid "cbr"
-msgstr ""
+msgstr "cbr"
 
 #: modules/access/pvr.c:127
 msgid "PVR"
-msgstr ""
+msgstr "PVR"
 
 #: modules/access/pvr.c:128
 msgid "IVTV MPEG Encoding cards input"
@@ -5907,7 +5960,7 @@ msgstr ""
 
 #: modules/access/qtcapture.m:225
 msgid "No Input device found"
-msgstr ""
+msgstr "ආදාන උපාංගයක් සොයා ගැනීමට නැත"
 
 #: modules/access/qtcapture.m:226
 msgid ""
@@ -5942,11 +5995,11 @@ msgstr ""
 
 #: modules/access/rtmp/access.c:62
 msgid "RTMP input"
-msgstr ""
+msgstr "RTMP ආදානය"
 
 #: modules/access/rtmp/access.c:63 modules/access_output/rtmp.c:56
 msgid "RTMP"
-msgstr ""
+msgstr "RTMP"
 
 #: modules/access/rtp/rtp.c:44
 msgid "RTP de-jitter buffer length (msec)"
@@ -7349,7 +7402,7 @@ msgstr ""
 
 #: modules/audio_filter/converter/a52tospdif.c:51
 msgid "Audio filter for A/52->S/PDIF encapsulation"
-msgstr ""
+msgstr "A/52->S/PDIF සංක්ෂිප්තය සඳහා ශ්‍රව්‍ය පෙරනය"
 
 #: modules/audio_filter/converter/dtstofloat32.c:75
 msgid "DTS dynamic range compression"
@@ -7361,7 +7414,7 @@ msgstr ""
 
 #: modules/audio_filter/converter/dtstospdif.c:65
 msgid "Audio filter for DTS->S/PDIF encapsulation"
-msgstr ""
+msgstr "Audio filter for DTS->S/PDIF සංක්ෂිප්තය සඳහා ශ්‍රව්‍ය පෙරනය"
 
 #: modules/audio_filter/converter/fixed.c:46
 msgid "Fixed point audio format conversions"
@@ -8691,15 +8744,15 @@ msgstr ""
 
 #: modules/codec/dvbsub.c:118
 msgid "DVB subtitles decoder"
-msgstr ""
+msgstr "DVB උපසිරැසි විකේතකය"
 
 #: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
-msgstr ""
+msgstr "DVB උපසිරැසි"
 
 #: modules/codec/dvbsub.c:132
 msgid "DVB subtitles encoder"
-msgstr ""
+msgstr "DVB උපසිරැසි ආකේතකය"
 
 #: modules/codec/faad.c:45
 msgid "AAC audio decoder (using libfaad2)"
@@ -8711,7 +8764,7 @@ msgstr ""
 
 #: modules/codec/fake.c:52 modules/gui/fbosd.c:109
 msgid "Image file"
-msgstr ""
+msgstr "අනුරූ ගොනුව"
 
 #: modules/codec/fake.c:54
 msgid "Path of the image file for fake input."
@@ -8719,37 +8772,37 @@ msgstr ""
 
 #: modules/codec/fake.c:55
 msgid "Reload image file"
-msgstr ""
+msgstr "අනුරූ ගොනුව නැවත ප්‍රවේශනය කරන්න"
 
 #: modules/codec/fake.c:57
 msgid "Reload image file every n seconds."
-msgstr ""
+msgstr "අනුරූ ගොනුව සෑම මිනිත්තු n ටම වරක් නැවත ප්‍රවේශනය කරන්න."
 
 #: modules/codec/fake.c:60 modules/stream_out/mosaic_bridge.c:111
 #: modules/stream_out/transcode/transcode.c:68
 msgid "Output video width."
-msgstr ""
+msgstr "ප්‍රතිදාන වීඩියෝ පළල."
 
 #: modules/codec/fake.c:63 modules/stream_out/mosaic_bridge.c:114
 #: modules/stream_out/transcode/transcode.c:71
 msgid "Output video height."
-msgstr ""
+msgstr "ප්‍රතිදාන වීඩියෝ උස."
 
 #: modules/codec/fake.c:64 modules/video_filter/mosaic.c:135
 msgid "Keep aspect ratio"
-msgstr ""
+msgstr "දර්ශන අනුපාතය තබාගන්න"
 
 #: modules/codec/fake.c:66
 msgid "Consider width and height as maximum values."
-msgstr ""
+msgstr "උස සහ පළල උපරිම අගයන්ට පත් කරන්න."
 
 #: modules/codec/fake.c:67
 msgid "Background aspect ratio"
-msgstr ""
+msgstr "පසුබිමෙහි දර්ශන අනුපාතය"
 
 #: modules/codec/fake.c:69
 msgid "Aspect ratio of the image file (4:3, 16:9). Default is square pixels."
-msgstr ""
+msgstr "අනුරූ ගොනුවෙහි දර්ශන අනුපාතය (4:3, 16:9). පෙරනිමිය වන්නේ හතරැස් පික්සෙලය."
 
 #: modules/codec/fake.c:70 modules/stream_out/transcode/transcode.c:60
 msgid "Deinterlace video"
@@ -11473,11 +11526,11 @@ msgstr "කිසිවිටෙක තිර කරන්න එපා"
 msgid "AVI demuxer"
 msgstr ""
 
-#: modules/demux/avi/avi.c:648
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr ""
 
-#: modules/demux/avi/avi.c:649
+#: modules/demux/avi/avi.c:652
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -11485,15 +11538,15 @@ msgid ""
 "This might take a long time."
 msgstr ""
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "අලුත්වැඩියා කරන්න"
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "අලුත්වැඩියා කරන්න එපා!"
 
-#: modules/demux/avi/avi.c:2352
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr ""
 
@@ -14438,11 +14491,11 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:359
 msgid "From"
-msgstr ""
+msgstr "සිට"
 
 #: modules/gui/macosx/wizard.m:360
 msgid "To"
-msgstr ""
+msgstr "දක්වා"
 
 #: modules/gui/macosx/wizard.m:364
 msgid "This page allows to select how the input stream will be sent."
@@ -14451,7 +14504,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:366 modules/gui/macosx/wizard.m:427
 #: modules/gui/qt4/dialogs/convert.cpp:55 modules/stream_out/rtp.c:74
 msgid "Destination"
-msgstr ""
+msgstr "ගමනාන්තය"
 
 #: modules/gui/macosx/wizard.m:367 modules/gui/macosx/wizard.m:439
 msgid "Streaming method"
@@ -14502,7 +14555,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:392
 msgid "Encapsulation format"
-msgstr ""
+msgstr "සංක්ෂිප්තයේ හැඩතලය"
 
 #: modules/gui/macosx/wizard.m:393
 msgid ""
@@ -14768,17 +14821,17 @@ msgid " Source   : %s"
 msgstr "මූලය   : %s"
 
 #: modules/gui/ncurses.c:1506
-#, c-format
+#, fuzzy, c-format
 msgid " State    : Playing %s"
-msgstr "තත්වය    : ධාවනය වෙමින් %sතත්පර"
+msgstr "තත්වය    : ධාවනය වෙමින් %s"
 
 #: modules/gui/ncurses.c:1510
-#, c-format
+#, fuzzy, c-format
 msgid " State    : Opening/Connecting %s"
-msgstr "තත්වය    : ව්වෘත වෙමින්/සම්බන්ධ වෙමින් %sතත්පර"
+msgstr "තත්වය    : ව්වෘත වෙමින්/සම්බන්ධ වෙමින් %s"
 
 #: modules/gui/ncurses.c:1514
-#, c-format
+#, fuzzy, c-format
 msgid " State    : Paused %s"
 msgstr "තත්වය    : විරාමය %sතත්පර"
 
@@ -15553,7 +15606,7 @@ msgstr ""
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:99
 #, fuzzy
 msgid "Change playlistview"
-msgstr "ධාවන ලැයිස්තුව පෙන්වන්න"
+msgstr "ධාවන ලැයිස්තුව සුරකින්න"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:344
 msgid "Select File"
@@ -15716,7 +15769,7 @@ msgstr "මූලය:"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:58
 msgid "Type:"
-msgstr ""
+msgstr "වර්ගය:"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:93
 msgid "This module writes the transcoded stream to a file."
@@ -15724,12 +15777,12 @@ msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:96
 msgid "Filename"
-msgstr ""
+msgstr "ගොනු නාමය"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:128
 #: modules/gui/qt4/dialogs/convert.cpp:111
 msgid "Save file..."
-msgstr ""
+msgstr "ගොනුව සුරකින්න..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:129
 #: modules/gui/qt4/dialogs/convert.cpp:113
@@ -15743,7 +15796,7 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:145
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:242
 msgid "Path"
-msgstr ""
+msgstr "පෙත"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:193
 msgid ""
@@ -15772,7 +15825,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:402
 msgid "Mount Point"
-msgstr ""
+msgstr "නැංවුම් ස්ථානය (Mount Point)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:403
 msgid "Login:pass"
@@ -15792,11 +15845,11 @@ msgstr "නව පොත් සළකුණක් තනන්න"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:46
 msgid "Delete the selected item"
-msgstr ""
+msgstr "තෝරන ලද අයිතමය මකා දමන්න"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:48
 msgid "Delete all the bookmarks"
-msgstr ""
+msgstr "පොත් සළකුණු සියල්ල මකා දමන්න"
 
 #: modules/gui/qt4/dialogs/bookmarks.cpp:53
 #: modules/gui/qt4/dialogs/errors.cpp:47
@@ -15822,7 +15875,7 @@ msgstr "හරවන්න"
 #: modules/gui/qt4/dialogs/convert.cpp:58
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:411
 msgid "Destination file:"
-msgstr ""
+msgstr "ගමනාන්ත ‍ගොනුව:"
 
 #: modules/gui/qt4/dialogs/convert.cpp:66
 msgid "Browse"
@@ -15830,7 +15883,7 @@ msgstr "පිරික්සන්න"
 
 #: modules/gui/qt4/dialogs/convert.cpp:71
 msgid "Display the output"
-msgstr ""
+msgstr "ප්‍රතිදානය දර්ශනය කරන්න"
 
 #: modules/gui/qt4/dialogs/convert.cpp:72
 msgid "This display the resulting media, but can slow things down."
@@ -15842,7 +15895,7 @@ msgstr "සිටුවම්"
 
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
-msgstr ""
+msgstr "අරඹන්න"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -15879,7 +15932,7 @@ msgstr "සමමුහුර්ථකරණය"
 
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
-msgstr ""
+msgstr "v4l2 පාලක"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -16216,6 +16269,10 @@ msgid ""
 "You should start by checking that source matches what you want your input to "
 "be and then press the \"Next\" button to continue.\n"
 msgstr ""
+"This dialog will allow you to stream or convert your media for use locally, "
+"on your private network, or on the Internet.\n"
+"You should start by checking that source matches what you want your input to "
+"be and then press the \"ඊළඟ\" button to continue.\n"
 
 #: modules/gui/qt4/dialogs/sout.cpp:55
 msgid ""
@@ -16388,19 +16445,19 @@ msgstr "VLM වින්‍යාසය විවෘත කරන්න..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:533
 msgid "Broadcast: "
-msgstr ""
+msgstr "විකාශනය: "
 
 #: modules/gui/qt4/dialogs/vlm.cpp:601
 msgid "Schedule: "
-msgstr ""
+msgstr "වැඩසටහන් ලැයිස්තුව: "
 
 #: modules/gui/qt4/dialogs/vlm.cpp:623
 msgid "VOD: "
-msgstr ""
+msgstr "VOD: "
 
 #: modules/gui/qt4/dialogs_provider.cpp:64
 msgid "Open Directory"
-msgstr ""
+msgstr "ඩිරෙක්ටරියක් විවෘත කරන්න"
 
 #: modules/gui/qt4/dialogs_provider.cpp:65
 msgid "Open Folder"
@@ -16408,23 +16465,23 @@ msgstr "ෆෝල්ඩරයක් විවෘත කරන්න"
 
 #: modules/gui/qt4/dialogs_provider.cpp:538
 msgid "Open playlist..."
-msgstr ""
+msgstr "ධාවන ලැයිස්තුව විවෘත කරන්න..."
 
 #: modules/gui/qt4/dialogs_provider.cpp:553
 msgid "XSPF playlist (*.xspf)"
-msgstr ""
+msgstr "XSPF ධාවන ලැයිස්තුව (*.xspf)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:554
 msgid "M3U8 playlist (*.m3u)"
-msgstr ""
+msgstr "M3U8 ධාවන ලැයිස්තුව (*.m3u)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:555
 msgid "M3U playlist (*.m3u)"
-msgstr ""
+msgstr "M3U ධාවන ලැයිස්තුව (*.m3u)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:556
 msgid "HTML playlist (*.html)"
-msgstr ""
+msgstr "HTML ධාවන ලැයිස්තුව (*.html)"
 
 #: modules/gui/qt4/dialogs_provider.cpp:568
 msgid "Save playlist as..."
@@ -16440,15 +16497,15 @@ msgstr "මාධ්‍ය ගොනු"
 
 #: modules/gui/qt4/dialogs_provider.hpp:61
 msgid "Subtitles Files"
-msgstr ""
+msgstr "උපසිරැසි ගොනු"
 
 #: modules/gui/qt4/dialogs_provider.hpp:66
 msgid "All Files"
-msgstr ""
+msgstr "සියලුම ගොනු"
 
 #: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
-msgstr ""
+msgstr "ධාවකය සඳහා පාලක මෙනු"
 
 #: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
@@ -16548,7 +16605,7 @@ msgstr "ධාවන ලැයිස්තුව"
 
 #: modules/gui/qt4/menus.cpp:450
 msgid "Ctrl+L"
-msgstr ""
+msgstr "Ctrl+L"
 
 #: modules/gui/qt4/menus.cpp:458
 msgid "Mi&nimal View"
@@ -16556,7 +16613,7 @@ msgstr "සරල පෙනුම"
 
 #: modules/gui/qt4/menus.cpp:459
 msgid "Ctrl+H"
-msgstr ""
+msgstr "Ctrl+H"
 
 #: modules/gui/qt4/menus.cpp:467
 msgid "&Fullscreen Interface"
@@ -16572,7 +16629,7 @@ msgstr "ඈඳුනු ධාවන ලැයිස්තුව"
 
 #: modules/gui/qt4/menus.cpp:496
 msgid "Visualizations selector"
-msgstr ""
+msgstr "දෘෂ්ඨිකල්පන තෝරනය"
 
 #: modules/gui/qt4/menus.cpp:503
 msgid "Customi&ze Interface..."
@@ -16616,7 +16673,7 @@ msgstr "DirectX බිතුපත"
 
 #: modules/gui/qt4/menus.cpp:625
 msgid "Direct3D Desktop mode"
-msgstr ""
+msgstr "Direct3D වැඩතල ප්‍රකාරය"
 
 #: modules/gui/qt4/menus.cpp:627
 msgid "Sna&pshot"
@@ -16949,7 +17006,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/dialogs.cpp:214
 msgid "Open playlist"
-msgstr ""
+msgstr "ධාවන ලැයිස්තුව විවෘත කරන්න"
 
 #: modules/gui/skins2/src/dialogs.cpp:215
 msgid "Playlist Files|"
@@ -16957,7 +17014,7 @@ msgstr ""
 
 #: modules/gui/skins2/src/dialogs.cpp:223
 msgid "Save playlist"
-msgstr ""
+msgstr "ධාවන ලැයිස්තුව සුරකින්න"
 
 #: modules/gui/skins2/src/dialogs.cpp:223
 msgid "XSPF playlist|*.xspf|M3U file|*.m3u|HTML playlist|*.html"
@@ -17681,7 +17738,7 @@ msgstr ""
 
 #: modules/misc/logger.c:169
 msgid "Log filename"
-msgstr ""
+msgstr "ලොග් සටහනේ ගොනු නාමය"
 
 #: modules/misc/logger.c:169
 msgid "Specify the log filename."
@@ -19117,7 +19174,7 @@ msgstr ""
 
 #: modules/stream_out/standard.c:51
 msgid "Output destination"
-msgstr ""
+msgstr "ප්‍රතිදානයේ ගමනාන්තය"
 
 #: modules/stream_out/standard.c:53
 msgid ""
@@ -22766,7 +22823,7 @@ msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:468
 msgid "Encapsulation"
-msgstr ""
+msgstr "සංක්ෂිප්තය"
 
 #: linux/modules/gui/qt4/ui/profiles.h:472
 #: linux/modules/gui/qt4/ui/profiles.h:491
@@ -22786,6 +22843,8 @@ msgid ""
 "You just need to fill one of the three following parameters, VLC will "
 "autodetect the other using the original aspect ratio"
 msgstr ""
+"ඔබ විසින් පහතින් දැක්වෙන පරාමිතීන්ගෙන් අවම වශයෙන් එකක් හෝ පිරවිය යුතුයි, VLC විසින් සම්මත දර්ශන "
+"අනුපාතයට අනුව ස්වයංක්‍රීයව අනෙකුත් පරාමිතීන් සම්පූර්ණ කර ගනු ඇත."
 
 #: linux/modules/gui/qt4/ui/profiles.h:480
 #: linux/modules/gui/qt4/ui/profiles.h:483
@@ -22794,7 +22853,7 @@ msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:485
 msgid "Keep original video track"
-msgstr ""
+msgstr "ප්‍රකෘති වීඩියෝ පථය තබාගන්න"
 
 #: linux/modules/gui/qt4/ui/profiles.h:486
 msgid "Video codec"
@@ -22802,11 +22861,11 @@ msgstr "වීඩි‍යෝ කොඩෙක"
 
 #: linux/modules/gui/qt4/ui/profiles.h:488
 msgid "Keep original audio track"
-msgstr ""
+msgstr "ප්‍රකෘති ශ්‍රව්‍ය පථය තබාගන්න"
 
 #: linux/modules/gui/qt4/ui/profiles.h:493
 msgid "Sample Rate"
-msgstr ""
+msgstr "සාම්පල අනුපාතය"
 
 #: linux/modules/gui/qt4/ui/profiles.h:494
 msgid "Audio codec"
@@ -22864,7 +22923,7 @@ msgstr "ආරම්භයේ දී සැමවිටම ශ්‍රව්‍
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:408
 msgid " %"
-msgstr ""
+msgstr " %"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:409
 #: linux/modules/gui/qt4/ui/sprefs_video.h:313
@@ -23093,7 +23152,7 @@ msgstr "ෆොන්ට වර්ණය"
 #: linux/modules/gui/qt4/ui/video_effects.h:1117
 #: linux/modules/gui/qt4/ui/video_effects.h:1119
 msgid " px"
-msgstr ""
+msgstr " px"
 
 #: linux/modules/gui/qt4/ui/sprefs_video.h:314
 msgid "Accelerated video output (Overlay)"
@@ -23125,7 +23184,7 @@ msgstr "ඩිරෙක්ටරිය"
 
 #: linux/modules/gui/qt4/ui/sprefs_video.h:329
 msgid "vlc-snap"
-msgstr ""
+msgstr "vlc-snap"
 
 #: linux/modules/gui/qt4/ui/streampanel.h:172
 msgid "Stuff"
@@ -23416,11 +23475,23 @@ msgstr "මාධ්‍ය කළමණාකරණ ලැයිස්තුව"
 #~ msgid "Category"
 #~ msgstr "ප්‍රවර්ගය"
 
+#~ msgid "Unknown"
+#~ msgstr "නොදන්නා"
+
 #~ msgid "Data"
 #~ msgstr "දත්ත"
 
 #~ msgid "Display aspect ratio"
 #~ msgstr "දර්ශන අනුපාතය දර්ශනය කරන්න"
+
+#~ msgid "Get function"
+#~ msgstr "ශ්‍රීතය ලබාගන්න"
+
+#~ msgid "Release function"
+#~ msgstr "ශ්‍රීතය නිදහස් කරන්න"
+
+#~ msgid "Memory input"
+#~ msgstr "මතක ආදානය"
 
 #~ msgid "My Computer"
 #~ msgstr "පරිගණකය"
