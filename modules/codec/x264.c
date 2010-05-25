@@ -608,7 +608,7 @@ vlc_module_begin ()
 
     add_obsolete_bool( SOUT_CFG_PREFIX "bime" )
 
-    add_bool( SOUT_CFG_PREFIX "8x8dct", false, NULL, TRANSFORM_8X8DCT_TEXT,
+    add_bool( SOUT_CFG_PREFIX "8x8dct", true, NULL, TRANSFORM_8X8DCT_TEXT,
               TRANSFORM_8X8DCT_LONGTEXT, false )
 
     add_integer( SOUT_CFG_PREFIX "trellis", 1, NULL, TRELLIS_TEXT,
@@ -1109,7 +1109,7 @@ static int  Open ( vlc_object_t *p_this )
     }
     free( psz_val );
 
-    if( var_GetBool( p_enc, SOUT_CFG_PREFIX "8x8dct" ) )
+    if( !var_GetBool( p_enc, SOUT_CFG_PREFIX "8x8dct" ) )
        p_sys->param.analyse.b_transform_8x8 = var_GetBool( p_enc,
                                     SOUT_CFG_PREFIX "8x8dct" );
 
