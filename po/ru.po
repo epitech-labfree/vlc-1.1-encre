@@ -12,17 +12,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-30 00:36+0100\n"
+"POT-Creation-Date: 2010-05-28 00:21+0100\n"
 "PO-Revision-Date: 2009-10-18 09:30+0500\n"
 "Last-Translator: Roustam Ghizdatov <rustahm@gmail.com>\n"
 "Language-Team: Russian <translators@videolan.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Russian\n"
 "X-Generator: Lokalize 0.2\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
 #: include/vlc_common.h:916
@@ -81,7 +82,7 @@ msgstr "Настройки интерфейсов управления VLC"
 msgid "Hotkeys settings"
 msgstr "Настройка горячих клавиш"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2840 src/input/es_out.c:2880
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -102,7 +103,7 @@ msgid "General audio settings"
 msgstr "Основные настройки аудио"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "Фильтры"
 
@@ -136,7 +137,7 @@ msgstr "Прочее"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Прочие настройки и модули аудио."
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2843 src/input/es_out.c:2927
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -823,7 +824,7 @@ msgstr "Достигнуто максимальное количество фи�
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "отключить"
 
@@ -948,9 +949,9 @@ msgid "decoder"
 msgstr "Декодеры"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
-#: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
-#: modules/codec/avcodec/encoder.c:251 modules/codec/avcodec/encoder.c:650
-#: modules/codec/avcodec/encoder.c:659 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
+#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Ошибка вещания/перекодирования"
@@ -1002,65 +1003,65 @@ msgstr "Зашифровано"
 msgid "Yes"
 msgstr "Да"
 
-#: src/input/es_out.c:2002
+#: src/input/es_out.c:2007
 #, c-format
 msgid "Closed captions %u"
 msgstr "Скрытые титры %u"
 
-#: src/input/es_out.c:2830
+#: src/input/es_out.c:2835
 #, c-format
 msgid "Stream %d"
 msgstr "Поток %d"
 
-#: src/input/es_out.c:2846 src/input/es_out.c:2954
+#: src/input/es_out.c:2851 src/input/es_out.c:2959
 msgid "Subtitle"
 msgstr "Субтитры"
 
-#: src/input/es_out.c:2854 src/input/es_out.c:2880 src/input/es_out.c:2927
-#: src/input/es_out.c:2954 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
+#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "Тип"
 
-#: src/input/es_out.c:2857
+#: src/input/es_out.c:2862
 msgid "Original ID"
 msgstr "Идентификатор оригинала"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2867
+#: src/input/es_out.c:2869 src/input/es_out.c:2872
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
 #: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "Кодек"
 
-#: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Язык"
 
-#: src/input/es_out.c:2874 src/input/meta.c:57
+#: src/input/es_out.c:2879 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "Описание"
 
-#: src/input/es_out.c:2883 src/input/es_out.c:2886
+#: src/input/es_out.c:2888 src/input/es_out.c:2891
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "Каналы"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 msgid "Sample rate"
 msgstr "Частота дискретизации"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 #, c-format
 msgid "%u Hz"
 msgstr "%u Гц"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2906
 msgid "Bits per sample"
 msgstr "Бит"
 
-#: src/input/es_out.c:2906 modules/access/pvr.c:96
+#: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:471
@@ -1068,52 +1069,52 @@ msgstr "Бит"
 msgid "Bitrate"
 msgstr "Битрейт"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 #, c-format
 msgid "%u kb/s"
 msgstr "%u кб/сек"
 
-#: src/input/es_out.c:2918
+#: src/input/es_out.c:2923
 msgid "Track replay gain"
 msgstr "Replay Gain дорожки"
 
-#: src/input/es_out.c:2920
+#: src/input/es_out.c:2925
 msgid "Album replay gain"
 msgstr "Replay Gain альбома"
 
-#: src/input/es_out.c:2921
+#: src/input/es_out.c:2926
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f дБ"
 
-#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "Разрешение"
 
-#: src/input/es_out.c:2935
+#: src/input/es_out.c:2940
 msgid "Display resolution"
 msgstr "Разрешение монитора"
 
-#: src/input/es_out.c:2945 src/input/es_out.c:2948
+#: src/input/es_out.c:2950 src/input/es_out.c:2953
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "Частота кадров"
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "Этот источник не открывается"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "VLC не может открыть MRL '%s'. Ищите более подробную информацию в лог-файле."
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "VLC не может определить формат входных данных."
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1247,7 +1248,7 @@ msgstr "Следующая глава"
 msgid "Previous chapter"
 msgstr "Предыдущая глава"
 
-#: src/input/vlm.c:605 src/input/vlm.c:973
+#: src/input/vlm.c:611 src/input/vlm.c:969
 #, c-format
 msgid "Media: %s"
 msgstr "Поток: %s"
@@ -1431,24 +1432,24 @@ msgstr ""
 "\n"
 "Для продолжения нажмите ВВОД\n"
 
-#: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
+#: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Увеличение"
 
-#: src/libvlc.h:174 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
+#: src/libvlc.h:176 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "1:4 Четверть"
 
-#: src/libvlc.h:175 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
+#: src/libvlc.h:177 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "1:2 Половина"
 
-#: src/libvlc.h:176 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
+#: src/libvlc.h:178 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "1:1 Оригинал"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
+#: src/libvlc.h:179 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "2:1 Двойной"
 
@@ -1822,7 +1823,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:382
 msgid "None"
 msgstr "нет"
 
@@ -2131,13 +2132,13 @@ msgstr ""
 "миллисекунд, по умолчанию 3000 мс (3 сек)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Устранение чересстрочности"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Режим устранения чересстрочности"
@@ -4791,7 +4792,7 @@ msgid "Downloading ..."
 msgstr "Скачивание ..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:643 modules/demux/avi/avi.c:2337
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4894,7 +4895,7 @@ msgstr "Индустриальный"
 msgid "Undefined"
 msgstr "Неопределенное"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Пост-обработка"
@@ -5604,8 +5605,8 @@ msgid ""
 msgstr ""
 "Выбрать источник для ввода видео (композитный вход, s-video или приёмник). "
 "Так как эти настройки индивидуальны для каждого оборудования, необходимо "
-"найти их в разделе \"Настройка устройства\" и использовать те цифры здесь. -"
-"1 означает, что настройки останутся прежние."
+"найти их в разделе \"Настройка устройства\" и использовать те цифры здесь. "
+"-1 означает, что настройки останутся прежние."
 
 #: modules/access/dshow/dshow.cpp:150
 msgid "Audio input pin"
@@ -5881,12 +5882,12 @@ msgstr "DVD с меню"
 msgid "DVDnav Input"
 msgstr "Ввод DVDnav"
 
-#: modules/access/dvdnav.c:312 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr "Воспроизведение не удалось"
 
-#: modules/access/dvdnav.c:313
+#: modules/access/dvdnav.c:326
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
@@ -6168,11 +6169,11 @@ msgstr "Ввод с HTTP"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "HTTP-авторизация"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr ""
@@ -7442,7 +7443,7 @@ msgstr "Диск"
 msgid "VCD Format"
 msgstr "Формат VCD"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:298
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
 msgid "Application"
 msgstr "Приложение"
 
@@ -8096,8 +8097,8 @@ msgstr "Усиление частот"
 #, fuzzy
 msgid ""
 "Don't use presets, but manually specified bands. You need to provide 10 "
-"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 -"
-"2 0 2\"."
+"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
+"-2 0 2\"."
 msgstr ""
 "Не использовать предустановки, а вручную настроить частоты. Необходимо "
 "указать 10 значений в диапазоне от -20 дБ до 20 дБ, разделенных запятыми, "
@@ -8292,7 +8293,7 @@ msgstr "Усиление частоты 3 (дБ)"
 msgid "Freq 3 Q"
 msgstr "Q частоты 3"
 
-#: modules/audio_filter/resampler/bandlimited.c:93
+#: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
 msgstr "Передискретизация с узкополосной интерполяцией"
 
@@ -8625,14 +8626,14 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:799
-#: modules/gui/qt4/main_interface.cpp:803
-#: modules/gui/qt4/main_interface.cpp:843
-#: modules/gui/qt4/main_interface.cpp:845
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:930
-#: modules/gui/qt4/main_interface.cpp:937
-#: modules/gui/qt4/main_interface.cpp:960
+#: modules/gui/qt4/main_interface.cpp:808
+#: modules/gui/qt4/main_interface.cpp:812
+#: modules/gui/qt4/main_interface.cpp:852
+#: modules/gui/qt4/main_interface.cpp:854
+#: modules/gui/qt4/main_interface.cpp:922
+#: modules/gui/qt4/main_interface.cpp:939
+#: modules/gui/qt4/main_interface.cpp:946
+#: modules/gui/qt4/main_interface.cpp:969
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "Медиа-проигрыватель VLC"
@@ -8774,15 +8775,15 @@ msgstr "Аудио/видео кодировшие FFmpeg"
 msgid "FFmpeg deinterlace video filter"
 msgstr "Видео-фильтр FFmpeg для устранения чересстрочности"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
 msgstr "Прямой рендеринг"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:76
 msgid "Error resilience"
 msgstr "Устойчивость к ошибкам"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:78
 #, fuzzy
 msgid ""
 "FFmpeg can do error resilience.\n"
@@ -8796,11 +8797,11 @@ msgstr ""
 "MPEG-4 от Microsoft) это может вызвать множество ошибок. Возможные значение "
 "- от 0 до 4 (0 отключает любое изменение)."
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
 msgstr "Обход ошибок"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:85
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -8810,8 +8811,8 @@ msgid ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"This must be the sum of the values. For example, to fix \"ac vlc\" and \"ump4"
-"\", enter 40."
+"This must be the sum of the values. For example, to fix \"ac vlc\" and "
+"\"ump4\", enter 40."
 msgstr ""
 "Попытаться обойти некоторые ошибки:\n"
 "1  автоопределение\n"
@@ -8823,12 +8824,12 @@ msgstr ""
 "64 цветность QpelВы должны ввести сумму необходимых значений. К примеру, "
 "чтобы исправить \"ac vlc\" и \"ump4\", введите 40."
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:198
+#: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "Ускорить"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -8837,22 +8838,22 @@ msgstr ""
 "времени. Это может быть полезно с медленным CPU, но может давать испорченную "
 "картину."
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
 msgstr "Расшир. возможности по управлению скоростью"
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 "Использование недокументированных возможностей по увеличению скорости. Более "
 "быстрый, но и более подверженный ошибкам."
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:106
 msgid "Skip frame (default=0)"
 msgstr "Пропускать кадры (по умолчанию 0)"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:108
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8860,11 +8861,11 @@ msgstr ""
 "Принудительный пропуск кадров для ускорения декодирования (-1=нет, 0=по "
 "умолчанию, 1=B-кадры, 2=P-кадры, 3=B+P-кадры, 4=все кадры)."
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
 msgstr "Пропустить ИДКП (по умолчанию=0)"
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8873,20 +8874,20 @@ msgstr ""
 "ускорения декодирования типов кадров (-1=нет, 0=по умолчанию, 1=B-кадры, 2=P-"
 "кадры, 3=B+P-кадры, 4=все кадры)."
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Debug mask"
 msgstr "Маска для отладки"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:117
 #, fuzzy
 msgid "Set FFmpeg debug mask"
 msgstr "Укажите маску для отладки ffmpeg"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:120
 msgid "Visualize motion vectors"
 msgstr "Показывать векторы движения"
 
-#: modules/codec/avcodec/avcodec.h:121
+#: modules/codec/avcodec/avcodec.h:122
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -8903,11 +8904,11 @@ msgstr ""
 "4 - показывать обратно предсказанные векоры движения B-кадров\n"
 "Чтобы показать все векторы, укажите значение 7."
 
-#: modules/codec/avcodec/avcodec.h:128
+#: modules/codec/avcodec/avcodec.h:129
 msgid "Low resolution decoding"
 msgstr "Декодирование с низким разрешением"
 
-#: modules/codec/avcodec/avcodec.h:129
+#: modules/codec/avcodec/avcodec.h:130
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
@@ -8915,11 +8916,11 @@ msgstr ""
 "Декодировать только вариант видео с низким разрешением. Это требует меньше "
 "ресурсов."
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "Не устранять блочность при декодировании с H.264"
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:134
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -8928,71 +8929,71 @@ msgstr ""
 "ухудшению качества изображения, но и к большому приросту производительности "
 "для потоков с высоким разрешением."
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:138
 #, fuzzy
 msgid "Hardware decoding"
 msgstr "Чересстрочное кодирование"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:145
+#: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
 msgstr "Частота ключевых кадров"
 
-#: modules/codec/avcodec/avcodec.h:146
+#: modules/codec/avcodec/avcodec.h:147
 msgid "Number of frames that will be coded for one key frame."
 msgstr "Число кадров, которые будут закодированы от одного ключевого кадра."
 
-#: modules/codec/avcodec/avcodec.h:149
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of B frames"
 msgstr "Частота B-кадров"
 
-#: modules/codec/avcodec/avcodec.h:150
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr ""
 "Число B-кадров, которые будут закодированы между двумя референсными кадрами."
 
-#: modules/codec/avcodec/avcodec.h:153
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
 msgstr "Допустимое отклонение битрейта видео"
 
-#: modules/codec/avcodec/avcodec.h:154
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "Допустимое отклонение битрейта видео в кбит/сек."
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
 msgstr "Чересстрочное кодирование"
 
-#: modules/codec/avcodec/avcodec.h:157
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr ""
 "Задействовать специальный алгоритм для кадров с чересстрочной развёрткой."
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
 msgstr "Чересстрочная оценка движения"
 
-#: modules/codec/avcodec/avcodec.h:161
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 "Включить чересстрочные алгоритмы оценки движения. Требует более мощного CPU."
 
-#: modules/codec/avcodec/avcodec.h:164
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
 msgstr "Оценка пре-движения"
 
-#: modules/codec/avcodec/avcodec.h:165
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "Включить алгоритм оценки пре-движения"
 
-#: modules/codec/avcodec/avcodec.h:168
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
 msgstr "Размер буфера контроля частоты"
 
-#: modules/codec/avcodec/avcodec.h:169
+#: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -9000,19 +9001,19 @@ msgstr ""
 "Размер буфера контроля частоты (в килобайтах). Большие значения буфера "
 "позволяют лучше контролировать частоту, но вызывают большую задержку потока."
 
-#: modules/codec/avcodec/avcodec.h:173
+#: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
 msgstr "Эффективность буфера контроля частоты"
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
 msgstr "Эффективность буфера контроля частоты."
 
-#: modules/codec/avcodec/avcodec.h:177
+#: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
 msgstr "Фактор квантования I-кадров"
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:180
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -9020,12 +9021,12 @@ msgstr ""
 "Фактор квантования I-кадров, в сравнении с P-кадрами (например при 1.0 "
 "масштаб квантования I и P-кадров будет одинаковым)"
 
-#: modules/codec/avcodec/avcodec.h:182 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Уменьшение шума"
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -9033,11 +9034,11 @@ msgstr ""
 "Включить алгоритм простого уменьшения шума для уменьшения длительности "
 "кодирования и битрейта за счет менее качественных кадров."
 
-#: modules/codec/avcodec/avcodec.h:187
+#: modules/codec/avcodec/avcodec.h:188
 msgid "MPEG4 quantization matrix"
 msgstr "Матрица квантования MPEG4"
 
-#: modules/codec/avcodec/avcodec.h:188
+#: modules/codec/avcodec/avcodec.h:189
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -9047,11 +9048,11 @@ msgstr ""
 "дает лучшее изображение, однако оставляет несовместимость со стандартными "
 "декодерами MPEG2."
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
 msgstr "Уровень качества"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:195
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
@@ -9059,7 +9060,7 @@ msgstr ""
 "Уровень качества для кодирования векторов движения (это может существенно "
 "замедлить процесс кодирования)."
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:200
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -9070,36 +9071,36 @@ msgstr ""
 "сохранять скорость кодирования. Он выключает квантование trellis, затем rate "
 "distortion и поднимает значение шумоподавления, чтобы уменьшить загрузку."
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:206
 msgid "Minimum video quantizer scale"
 msgstr "Минимальный коэффициент квантования"
 
-#: modules/codec/avcodec/avcodec.h:206
+#: modules/codec/avcodec/avcodec.h:207
 msgid "Minimum video quantizer scale."
 msgstr "Минимальное значение качественности макроблока."
 
-#: modules/codec/avcodec/avcodec.h:209
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Maximum video quantizer scale"
 msgstr "Максимальный коэффициент квантования"
 
-#: modules/codec/avcodec/avcodec.h:210
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Maximum video quantizer scale."
 msgstr "Максимальное значение качественности макроблока."
 
-#: modules/codec/avcodec/avcodec.h:213
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
 msgstr "Квантование trellis"
 
-#: modules/codec/avcodec/avcodec.h:214
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr ""
 "Включить квантование trellis (rate distortion для коэффициентов макроблока)."
 
-#: modules/codec/avcodec/avcodec.h:217
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
 msgstr "Фиксированный коэффициент квантования"
 
-#: modules/codec/avcodec/avcodec.h:218
+#: modules/codec/avcodec/avcodec.h:219
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
@@ -9107,42 +9108,42 @@ msgstr ""
 "Фиксированное значение качественности макроблока для кодирования в режиме "
 "VBR (допустимые значения: от 0.01 до 255.0)."
 
-#: modules/codec/avcodec/avcodec.h:221
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
 msgstr "Строгое следование стандартам"
 
-#: modules/codec/avcodec/avcodec.h:222
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ""
 "Включить строгое следование стандартом при кодировании (допустимые значения: "
 "-1, 0, 1)."
 
-#: modules/codec/avcodec/avcodec.h:225
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
 msgstr "Коррекция ярких участков"
 
-#: modules/codec/avcodec/avcodec.h:226
+#: modules/codec/avcodec/avcodec.h:227
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr ""
 "Увеличивает коэффициент квантования для очень ярких макроблоков (по-"
 "умолчанию: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:229
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Darkness masking"
 msgstr "Коррекция темных участков"
 
-#: modules/codec/avcodec/avcodec.h:230
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr ""
 "Увеличивает коэффициент квантования для очень темных макроблоков (по-"
 "умолчанию: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:233
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Motion masking"
 msgstr "Коррекция движения"
 
-#: modules/codec/avcodec/avcodec.h:234
+#: modules/codec/avcodec/avcodec.h:235
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
@@ -9150,11 +9151,11 @@ msgstr ""
 "Увеличивает коэффициент квантования для макроблоков с высокой скоростью "
 "движения (по-умолчанию: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:237
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
 msgstr "Коррекция краев"
 
-#: modules/codec/avcodec/avcodec.h:238
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
@@ -9162,11 +9163,11 @@ msgstr ""
 "Увеличивает коэффициент квантования для макроблоков на краю кадра (по-"
 "умолчанию: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:241
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
 msgstr "Коррекция яркости"
 
-#: modules/codec/avcodec/avcodec.h:242
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -9174,11 +9175,11 @@ msgstr ""
 "Коррекция яркости макроблоков, если PSNR не слишком сильно меняется (по-"
 "умолчанию: 0.0). Стандарт H.264 рекомендует значение -4."
 
-#: modules/codec/avcodec/avcodec.h:246
+#: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
 msgstr "Коррекция цветности"
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:248
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -9186,11 +9187,11 @@ msgstr ""
 "Коррекция цветности макроблоков, если PSNR не слишком сильно меняется (по-"
 "умолчанию: 0.0). Стандарт H.264 рекомендует значение -4."
 
-#: modules/codec/avcodec/avcodec.h:251
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Specify AAC audio profile to use"
 msgstr "Используемый аудио-профиль ACC"
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
@@ -9200,17 +9201,17 @@ msgstr ""
 "потока. Имеющиеся варианты: основной, низкий, SSR (не поддерживается) и LTP "
 "(по умолчанию - main (основной))"
 
-#: modules/codec/avcodec/encoder.c:222
+#: modules/codec/avcodec/encoder.c:225
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr "\"%s\" не является видео-кодировщиком."
 
-#: modules/codec/avcodec/encoder.c:230
+#: modules/codec/avcodec/encoder.c:233
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr "\"%s\" не является аудио-кодировщиком."
 
-#: modules/codec/avcodec/encoder.c:256
+#: modules/codec/avcodec/encoder.c:259
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -9228,7 +9229,7 @@ msgstr ""
 "Это не ошибка медиа-проигрывателя VLC.\n"
 "Не обращайтесь к участникам проекта VideoLAN с этим вопросом.\n"
 
-#: modules/codec/avcodec/encoder.c:651 modules/codec/avcodec/encoder.c:660
+#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
 msgid "VLC could not open the encoder."
 msgstr "VLC не может открыть этот кодировщик."
 
@@ -9290,7 +9291,7 @@ msgstr "Предварительный фильтр"
 msgid "Enable adaptive prefiltering"
 msgstr "Включить адаптивное предвар. фильтрование"
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "нет"
 
@@ -9533,7 +9534,7 @@ msgstr "Координата Y при кодировании субтитров"
 msgid "DVB subtitles decoder"
 msgstr "Декодировщик субтитров DVB"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "Субтитры DVB"
 
@@ -10572,11 +10573,11 @@ msgstr "Аудио кодировщик Vorbis"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr ""
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "Максимальный размер GOP"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10584,11 +10585,11 @@ msgstr ""
 "Максимальный интервал между IDR-кадрами. Большие значения экономят биты, что "
 "увеличивает качество заданного битрейта за счет точности поиска."
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "Минимальный размер GOP"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10608,11 +10609,11 @@ msgstr ""
 "Если возникает смена сцены в этом интервале, то I-кадр будет вставлен, не "
 "начиная новую GOP."
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "Плотность дополнительных I-кадров"
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10630,19 +10631,19 @@ msgstr ""
 "смены сцены, при этом I-кадры будут вставляться только через определенный "
 "ключевой интервал, что возможно приведет к искажениям. (1-100)"
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "B-кадры между I и P-кадрами"
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr "Число B-кадров между I и P-кадрами (от 1 до 16)."
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "Адаптивное размещение B-кадров"
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
@@ -10650,11 +10651,11 @@ msgstr ""
 "Принудительно использовать указанное количество последовательных B-кадров, "
 "исключая, возможно, случай перед I-кадром. Диапазон от 0 до 2."
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "Плотность B-кадров"
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
@@ -10662,11 +10663,11 @@ msgstr ""
 "Плотность вставки B-кадров. При положительных значениях будет вставляться "
 "больше B-кадров, при отрицательных - меньше."
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr "Использовать некоторые B-кадры как референсные"
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 #, fuzzy
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
@@ -10680,7 +10681,7 @@ msgstr ""
 "кадров. Помечает середину из 2-х и больше последовательных B-кадров как "
 "референсный кадр и формирует кадр соответсвующе."
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10690,11 +10691,11 @@ msgstr ""
 "кадров. Помечает середину из 2-х и больше последовательных B-кадров как "
 "референсный кадр и формирует кадр соответсвующе."
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10703,11 +10704,11 @@ msgstr ""
 "замедляет процесс кодирования и декодирования, но позволяет сохранить 10-15% "
 "битрейта."
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "Количество референсных кадров"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10718,21 +10719,21 @@ msgstr ""
 "Некоторые декодеры не могут обрабатывать большие значения этого параметра. "
 "От 1 до 16."
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "Пропускать фильтр устранения блочности"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr ""
 "Отключить фильтр устранения блочности изобрачения (деблокинга). Приводит к "
 "снижению качества."
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "AlphaC0 и Beta фильтра устранения блочности, alpha:beta"
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10741,11 +10742,11 @@ msgstr ""
 "от -6 до 6 как для параметра alpha, так и для beta. -6 - лёгкий фильтр, 6 - "
 "сильный."
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "Уровень H.264"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
@@ -10755,70 +10756,70 @@ msgstr ""
 "применяются принудительно; пользователь должен выбрать уровень, совместимый "
 "с остальными опциями кодирования. Диапазон от 1 до 5.1 (или от 10 до 51)"
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 #, fuzzy
 msgid "H.264 profile"
 msgstr "Уровень H.264"
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "Режим чересстрочной развёртки"
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr "Режим полной чересстрочной развёртки."
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr ""
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr ""
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 #, fuzzy
 msgid "Use mb-tree ratecontrol"
 msgstr "Строгий контроль частоты кадров"
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 #, fuzzy
 msgid "Force number of slices per frame"
 msgstr "Число блоков за одну операцию чтения"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr ""
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr ""
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr ""
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "Коэффициент квантования"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10827,77 +10828,77 @@ msgstr ""
 "но больший битрейт. От 0 до 51 (26 - по-умолчанию, 0 означает сжатие без "
 "потерь)."
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "Режим VBR с фиксированным качеством"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr "1-проходный режим VBR с фиксированным качеством. Значение от 0 до 51"
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "Минимальный коэффициент квантования (QP)"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr "Минимальный коэффициент квантования, обычно в интервале от 15 до 35."
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "Максимальный коэффициент квантования (QP)"
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr "Максимальный коэффициент квантования."
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "Максимальный шаг изменения QP"
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr "Максимальный шаг изменения коэффициента квантования между кадрами."
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "Среднее допустимое отклонение битрейта"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr "Среднее допустимое отклонение битрейта (в кбит/сек)."
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "Максимальный локальный битрейт"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr "Максимальный локальный битрейт в кбит/сек"
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "Буфер VBV"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr "Средний период для максимального локального битрейта (в кбитах)."
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "Начальная заполненность буфера VBV"
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr "Начальная заполненность буфера VBV, в диапазоне от 0.0 до 1.0."
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr "Как АК распределяет биты"
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -10911,11 +10912,11 @@ msgstr ""
 " - 2: Использовать log(var)^2 вместо log(var) и пытаться адаптировать силу "
 "на кадр"
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "Интенсивность АК"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -10927,39 +10928,39 @@ msgstr ""
 " - 0,5: слабое АК\n"
 " - 1,5: сильное АК"
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "Множитель QP между I и P"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr ""
 "Множитель коэффициента квантования между I и P-кадрами, в диапазоне от 1.0 "
 "до 2.0."
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "Множитель QP между P и B"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr ""
 "Множитель коэффициента квантования между P и B-кадрами, в диапазоне от 1.0 "
 "до 2.0."
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "Разница QP между цветностью и яркостью"
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr "Разница коэффициента квантования между цветностью и яркостью."
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "Контроль скорости для нескольких проходов"
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -10971,19 +10972,19 @@ msgstr ""
 " - 2: Последний проход не переписывает файл статистики\n"
 " - 3: N-й проход переписывает файл статистики\n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "Сжатие кривой QP"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr "Коэффициент сжатия кривой квантования (от 0.0=CBR до 1.0=QCP)"
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "Уменьшать колебания в QP"
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
@@ -10991,7 +10992,7 @@ msgstr ""
 "Уменьшать колебания в коэффициентах квантования перед сжатием кривой. "
 "Временно уменьшает сложность."
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
@@ -10999,11 +11000,11 @@ msgstr ""
 "Уменьшать колебания в коэффициентах квантования после сжатия кривой. "
 "Временно уменьшает сложность."
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "Работа с макроблоками"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -11021,19 +11022,19 @@ msgstr ""
 " - все       : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 требует p8x8. i8x8 требует 8x8dct)."
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "Режим прямого предсказания вектора движения"
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr "Режим прямого предсказания вектора движения."
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "Размер для прямого предсказания"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -11042,31 +11043,31 @@ msgstr ""
 "Размер для прямого предсказания: 0 - 4x4, 1 - 8x8, -1 - минимально возможный "
 "в соответствии с уровнем\n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "Взвешенное предсказание для B-кадров"
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "Взвешенное предсказание для B-кадров."
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 #, fuzzy
 msgid "Weighted prediction for P-frames"
 msgstr "Взвешенное предсказание для B-кадров"
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "Целочисленный пиксельный метод оценки движения"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -11081,11 +11082,11 @@ msgstr ""
 "медленный, в основном для тестирования); tesa - исчерпывающий поиск Адамара "
 "(очень медленный, в основном для тестирования)\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "Максимальный диапазон поиска векторов движения"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -11096,22 +11097,22 @@ msgstr ""
 "части метража. Для последовательностей с быстрым движением могут подойти "
 "значения между 24 и 32. Диапазон от 0 до 64."
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "Максимальная длина вектора движения"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
 "Максимальная длина вектора движения в пикселах. -1 - автоматически, в "
 "зависимости от уровня."
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr "Минимальное буферное пространство между потоками"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
@@ -11119,21 +11120,21 @@ msgstr ""
 "Минимальное буферное пространство между потоками. -1 - определять "
 "автоматически, в зависимости от количества потоков."
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr ""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
 msgstr ""
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr "Субпиксельная оценка движения и качество макроблоков"
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
@@ -11143,19 +11144,19 @@ msgstr ""
 "принятия решений при оценке движения (меньше - быстрее, больше - "
 "качественнее). Диапазон от 1 до 9."
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "Режим rate distortion (RD) для B-кадров"
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr "Режим rate distortion (RD) для B-кадров. Требует subme 6 или выше."
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "Выбор референсных кадров на основе макроблоков"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -11163,35 +11164,35 @@ msgstr ""
 "Позволяет каждому из 8x8 или 16x8 макроблоку независимо выбирать референсный "
 "кадр вместо одного референсного кадра на каждый макроблок."
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "Цветность при оценке движения"
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr "Игнорировать цветность при оценке движения для субпикселей в P-кадрах"
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "Оптимизация обоих видов векторов движения в B-кадрах"
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr "Общая двунаправленная обработка движения."
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr "Адаптивная пространственная трансформация"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr "Метод SATD для трансформации 8x8 во внутренних MB."
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "Квантование trellis RD"
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -11205,19 +11206,19 @@ msgstr ""
 " - 2: включено на всех стадиях\n"
 "Требуется CABAC."
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "Раннее определение пропущенных P-кадров"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr "Раннее определение пропущенных P-кадров."
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr "Задание порога коэффициента на P-кадрах"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
@@ -11225,16 +11226,16 @@ msgstr ""
 "Задание порога коэффициента на P-кадрах. Удаляет блоки дискретного "
 "косинусного преобразования, содержащие только малый одиночный коэффициент."
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 #, fuzzy
 msgid "Use Psy-optimizations"
 msgstr "Оптимизация CPU"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
@@ -11242,57 +11243,57 @@ msgstr ""
 "Шумоподавление в домене DCT. Адаптивная псевдомертвая зона. Диапазон от 10 "
 "до 1000."
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "Мёртвая зона временного квантования яркости"
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Указать размер мёртвой зоны временного квантования яркости. Диапазон от 0 до "
 "32."
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "Мёртвая зона пространственного квантования яркости"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Указать размер мёртвой зоны пространственного квантования яркости. Диапазон "
 "от 0 до 32."
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr "Недетерминированные оптимизации при поточности"
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr ""
 "Несколько улучшает качество симметричной многопроцессорной обработки за счёт "
 "повторяемости."
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "Оптимизация CPU"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr "Использовать ассемблерную оптимизацию CPU"
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "Название файла статистики 2-го прохода"
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr "Название файла статистики 2-го прохода при многопроходном кодировании."
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "Вычисление PSNR"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
@@ -11300,11 +11301,11 @@ msgstr ""
 "Расчитать и напечатать статистику пикового отношения сигнала к шуму. Не "
 "оказывает влияния на реальное качество кодирования."
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "Вычисление SSIM"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
@@ -11312,28 +11313,28 @@ msgstr ""
 "Расчитать и напечатать статистику структурного сходства. Не оказывает "
 "влияния на реальное качество кодирования."
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "Тихий режим"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "Тихий режим"
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Статистика"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr "Показывать статистику каждого кадра."
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "Идентификационные номера НПП и НПИ"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
@@ -11342,76 +11343,91 @@ msgstr ""
 "набора параметров изображения для возможности последовательного соединения "
 "потоков с разными параметрами."
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "Разделители пакетов доступа"
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr ""
 "Генерировать разделители пакетов доступа для пакетов уровня сетевой "
 "абстракции (NAL)."
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr ""
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
 "yet"
 msgstr ""
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+#, fuzzy
+msgid "HRD-timing information"
+msgstr "показать информацию о версии"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
 msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "быстрый"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "обычный"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "медленный"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "все"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "пространственный"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "временной"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "автоматический"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "Кодировщик AVC H.264/MPEG4 (x264)"
 
@@ -12482,19 +12498,19 @@ msgstr "Мультиплексор FFmpeg"
 msgid "Force use of ffmpeg muxer."
 msgstr "Принудительно использовать мультиплексор FFmpeg."
 
-#: modules/demux/avi/avi.c:49
+#: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
 msgstr "Принудительно включить \"слоеный\" режим"
 
-#: modules/demux/avi/avi.c:50
+#: modules/demux/avi/avi.c:51
 msgid "Force interleaved method."
 msgstr "Принудительно включить \"слоеный\" режим воспроизведения."
 
-#: modules/demux/avi/avi.c:52
+#: modules/demux/avi/avi.c:53
 msgid "Force index creation"
 msgstr "Принудительно пересоздать индексы"
 
-#: modules/demux/avi/avi.c:54
+#: modules/demux/avi/avi.c:55
 msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
@@ -12502,28 +12518,28 @@ msgstr ""
 "Создать индексы AVI-файла заново. Используйте этот параметр, если ваш файл "
 "поврежден или неполный (невозможна прокрутка)."
 
-#: modules/demux/avi/avi.c:62
+#: modules/demux/avi/avi.c:63
 #, fuzzy
 msgid "Ask for action"
 msgstr " Информация"
 
-#: modules/demux/avi/avi.c:63
+#: modules/demux/avi/avi.c:64
 msgid "Always fix"
 msgstr "всегда исправлять"
 
-#: modules/demux/avi/avi.c:64
+#: modules/demux/avi/avi.c:65
 msgid "Never fix"
 msgstr "никогда не исправлять"
 
-#: modules/demux/avi/avi.c:68
+#: modules/demux/avi/avi.c:69
 msgid "AVI demuxer"
 msgstr "Демультиплексор AVI"
 
-#: modules/demux/avi/avi.c:639
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr "Индексация AVI"
 
-#: modules/demux/avi/avi.c:640
+#: modules/demux/avi/avi.c:652
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12535,15 +12551,15 @@ msgstr ""
 "\n"
 "Это может занять много времени."
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "Исправление"
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "Не исправлять"
 
-#: modules/demux/avi/avi.c:2336
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr "Исправление индекса AVI ..."
 
@@ -12735,11 +12751,11 @@ msgstr "Порт туннеля HTTP"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "Порт для туннелирования RTSP/RTP по HTTP."
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "RTSP-авторизация"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr "Пожалуйста, введите правильные имя и пароль пользователя."
 
@@ -12907,11 +12923,11 @@ msgstr "Уровень surround"
 msgid "Surround delay (ms)"
 msgstr "Задержка surround (мс)"
 
-#: modules/demux/mp4/mp4.c:54
+#: modules/demux/mp4/mp4.c:55
 msgid "MP4 stream demuxer"
 msgstr "Демультиплексор потока MP4"
 
-#: modules/demux/mp4/mp4.c:55
+#: modules/demux/mp4/mp4.c:56
 msgid "MP4"
 msgstr "MP4"
 
@@ -13444,19 +13460,19 @@ msgstr "Телетекст: программа передач"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "Субтитры телетекста: для людей с нарушением слуха"
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr "Субтитры DVB: для людей с нарушением слуха"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "очистить эффекты"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "с нарушением слуха"
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "комментарий для людей с нарушением зрения"
 
@@ -13751,6 +13767,7 @@ msgstr "Время"
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
 #: modules/gui/qt4/components/open_panels.cpp:1264
 #: modules/gui/qt4/components/preferences_widgets.cpp:1421
+#: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
 msgstr "OK"
 
@@ -15068,7 +15085,7 @@ msgid "Subtitles & OSD"
 msgstr "Субтитры и индикация"
 
 #: modules/gui/macosx/simple_prefs.m:192
-#: modules/gui/qt4/components/simple_preferences.cpp:618
+#: modules/gui/qt4/components/simple_preferences.cpp:619
 msgid "Subtitles & On Screen Display Settings"
 msgstr "Настройки субтитров и экранной индикации"
 
@@ -16643,11 +16660,11 @@ msgstr "Воспроизвести"
 msgid "buffers"
 msgstr "Буфер"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:380
 msgid "Current visualization"
 msgstr "Текущая визуализация"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:419
 #, fuzzy
 msgid ""
 "Current playback speed: %1\n"
@@ -16656,20 +16673,20 @@ msgstr ""
 "Текущая скорость воспроизведения.\n"
 "Нажать кнопкой мыши для изменения"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:490
 msgid "Revert to normal play speed"
 msgstr "Возврат к нормальной скорости воспроизведения"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:564
 msgid "Download cover art"
 msgstr "Скачать обложку"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:606
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Кликните, чтобы переключить пройденное/оставшееся время"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:608
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "Щелкните дважды, чтобы получить информацию о медиа-файле"
@@ -16941,35 +16958,39 @@ msgstr ""
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr "Интерфейс VLC для оболочек. Скачать другие оболочки можно с"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:548
+#: modules/gui/qt4/components/simple_preferences.cpp:524
+msgid "VLC skins website"
+msgstr ""
+
+#: modules/gui/qt4/components/simple_preferences.cpp:549
 #, fuzzy
 msgid "System's default"
 msgstr "Системный Id"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:646
+#: modules/gui/qt4/components/simple_preferences.cpp:647
 msgid "Configure Hotkeys"
 msgstr "Конфигурация горячих клавиш"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:910
+#: modules/gui/qt4/components/simple_preferences.cpp:911
 #: modules/gui/qt4/dialogs_provider.hpp:51
 msgid "Audio Files"
 msgstr "аудио-файлы"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:911
+#: modules/gui/qt4/components/simple_preferences.cpp:912
 #: modules/gui/qt4/dialogs_provider.hpp:46
 msgid "Video Files"
 msgstr "видео-файлы"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:912
+#: modules/gui/qt4/components/simple_preferences.cpp:913
 #: modules/gui/qt4/dialogs_provider.hpp:56
 msgid "Playlist Files"
 msgstr "файлы плейлистов"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:964
+#: modules/gui/qt4/components/simple_preferences.cpp:965
 msgid "&Apply"
 msgstr "Применить"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:965
+#: modules/gui/qt4/components/simple_preferences.cpp:966
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
@@ -17160,7 +17181,7 @@ msgid "Errors"
 msgstr "Ошибки"
 
 #: modules/gui/qt4/dialogs/errors.cpp:48
-#: modules/gui/qt4/dialogs/messages.cpp:184 modules/gui/qt4/menus.cpp:1507
+#: modules/gui/qt4/dialogs/messages.cpp:188 modules/gui/qt4/menus.cpp:1507
 msgid "&Clear"
 msgstr "&Очистить"
 
@@ -17191,6 +17212,47 @@ msgstr "Синхронизация"
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
 msgstr "Настройки v4l2"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:61
+msgid "Privacy and Network Policies"
+msgstr "Политика конфиденциальности"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:69
+msgid "Privacy and Network Warning"
+msgstr "Предупреждение о конфиденциальности в сети"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:72
+#, fuzzy
+msgid ""
+"<p><i>VideoLAN</i> prefers when applications request authorization before "
+"accessing Internet.</p>\n"
+"<p><b>VLC media player</b> can get information from the Internet in order to "
+"get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
+"<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
+"even anonymously, about your usage.</p>\n"
+msgstr ""
+"<p><i>Команде VideoLAN</i> не нравится, когда приложение выходит в сеть без "
+"разрешения.</p>\n"
+" <p><i>Медиа-проигрыватель VLC</i> может находить в Интернете ограниченную "
+"информацию, чтобы получить обложку CD или проверить наличие обновлений.</p>\n"
+"<p><i>Медиа-проигрыватель VLC</i> <b>НИКОГДА НЕ</b> отправляет и <b>НЕ</b> "
+"собирает <b>НИКАКУЮ</b> информацию, даже анонимно, о ваших действиях.</p>\n"
+"<p>Следует выбрать один из следующих вариантов. Вариант по умолчанию "
+"практически не использует доступ к сети.</p>\n"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:83
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "Параметры"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:90
+msgid "Allow fetching media information from Internet"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:95
+msgid "Check for updates"
+msgstr "Проверить обновления"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -17358,24 +17420,24 @@ msgstr "Все показанные журналы сохраняются в ф�
 msgid "Verbosity Level"
 msgstr "Уровень детальности сообщений"
 
-#: modules/gui/qt4/dialogs/messages.cpp:128
+#: modules/gui/qt4/dialogs/messages.cpp:132
 #, fuzzy
 msgid "Message filter"
 msgstr "Фильтр \"Сцены\""
 
-#: modules/gui/qt4/dialogs/messages.cpp:173
+#: modules/gui/qt4/dialogs/messages.cpp:177
 msgid "&Update"
 msgstr "О&бновить"
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:288
 msgid "Save log file as..."
 msgstr "Сохранить файл журнала как..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:292
+#: modules/gui/qt4/dialogs/messages.cpp:290
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr "Тексты / журналы (*.log *.txt);; Все (*.*)"
 
-#: modules/gui/qt4/dialogs/messages.cpp:299
+#: modules/gui/qt4/dialogs/messages.cpp:297
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -17775,11 +17837,11 @@ msgstr "Файлы субтитров"
 msgid "All Files"
 msgstr "все файлы"
 
-#: modules/gui/qt4/main_interface.cpp:914
+#: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
 msgstr "Меню управления для проигрывателя"
 
-#: modules/gui/qt4/main_interface.cpp:957
+#: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
 msgstr "Приостановлено"
 
@@ -21598,11 +21660,11 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid ""
 "for devices with more than five channels / zones write down here for each "
-"channel the zone number to show and seperate the values with , or ; and use -"
-"1 to not use some channels. For the classic AtmoLight the sequence 4,3,1,0,2 "
-"would set the default channel/zone mapping. Having only two zones on top, "
-"and one zone on left and right and no summary zone the mapping for classic "
-"AtmoLight would be -1,3,2,1,0"
+"channel the zone number to show and seperate the values with , or ; and use "
+"-1 to not use some channels. For the classic AtmoLight the sequence "
+"4,3,1,0,2 would set the default channel/zone mapping. Having only two zones "
+"on top, and one zone on left and right and no summary zone the mapping for "
+"classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:333
@@ -22456,8 +22518,8 @@ msgid ""
 "position (in %), $R = rate, $S = audio sample rate (in kHz), $T = time, $U = "
 "publisher, $V = volume, $_ = new line) "
 msgstr ""
-"Отображать текст маркизы. (Имеющиеся строковые параметры: Время: %Y = год, %"
-"m = месяц, %d = день, %H = час, %M = минута, %S = секунда, ... Мета-данные: "
+"Отображать текст маркизы. (Имеющиеся строковые параметры: Время: %Y = год, "
+"%m = месяц, %d = день, %H = час, %M = минута, %S = секунда, ... Мета-данные: "
 "$a = исполнитель, $b = альбом, $c = авторское право, $d = описание, $e = кто "
 "закодировал, $g = жанр, $l = язык, $n = № дорожки, $p = сейчас играет, $r = "
 "рейтинг, $s = язык субтитров, $t = заглавие, $u = URL, $A = дата, $B = аудио-"
@@ -24043,11 +24105,18 @@ msgstr "XCB-окно"
 msgid "X11 video window (XCB)"
 msgstr ""
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr ""
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -24097,17 +24166,17 @@ msgstr "Клиент VideoLAN"
 msgid "XVideo output (XCB)"
 msgstr "Метод вывода видео"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 #, fuzzy
 msgid "Video acceleration not available"
 msgstr "Настройки видео не сохранены"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
-"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x%"
-"<PRIu32>.\n"
+"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+"%<PRIu32>.\n"
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
@@ -24447,11 +24516,6 @@ msgstr "Выбрать тип устройства захвата"
 #: linux/modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "Выбор устройства"
-
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
-msgid "Options"
-msgstr "Параметры"
 
 #: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
@@ -26548,34 +26612,6 @@ msgstr "Список медиа-менеджера"
 #~ msgid "Select a directory..."
 #~ msgstr "Выбрать директорию ..."
 
-#~ msgid "Privacy and Network Policies"
-#~ msgstr "Политика конфиденциальности"
-
-#~ msgid "Privacy and Network Warning"
-#~ msgstr "Предупреждение о конфиденциальности в сети"
-
-#~ msgid ""
-#~ "<p>The <i>VideoLAN Team</i> doesn't like when an application goes online "
-#~ "without authorization.</p>\n"
-#~ " <p><i>VLC media player</i> can retreive limited information from the "
-#~ "Internet in order to get CD covers or to check for available updates.</"
-#~ "p>\n"
-#~ "<p><i>VLC media player</i> <b>DOES NOT</b> send or collect <b>ANY</b> "
-#~ "information, even anonymously, about your usage.</p>\n"
-#~ "<p>Therefore please select from the following options, the default being "
-#~ "almost no access to the web.</p>\n"
-#~ msgstr ""
-#~ "<p><i>Команде VideoLAN</i> не нравится, когда приложение выходит в сеть "
-#~ "без разрешения.</p>\n"
-#~ " <p><i>Медиа-проигрыватель VLC</i> может находить в Интернете "
-#~ "ограниченную информацию, чтобы получить обложку CD или проверить наличие "
-#~ "обновлений.</p>\n"
-#~ "<p><i>Медиа-проигрыватель VLC</i> <b>НИКОГДА НЕ</b> отправляет и <b>НЕ</"
-#~ "b> собирает <b>НИКАКУЮ</b> информацию, даже анонимно, о ваших действиях.</"
-#~ "p>\n"
-#~ "<p>Следует выбрать один из следующих вариантов. Вариант по умолчанию "
-#~ "практически не использует доступ к сети.</p>\n"
-
 #~ msgid "Classic look"
 #~ msgstr "стандартный вид"
 
@@ -28539,9 +28575,6 @@ msgstr "Список медиа-менеджера"
 #~ msgid "Updates"
 #~ msgstr "Обновления"
 
-#~ msgid "Check for updates"
-#~ msgstr "Проверить обновления"
-
 #~ msgid "Load Configuration"
 #~ msgstr "Загрузить конфигурацию"
 
@@ -30042,8 +30075,8 @@ msgstr "Список медиа-менеджера"
 #~ "Time format string (%Y = year, %m = month, %d = day, %H = hour, %M = "
 #~ "minute, %S = second)."
 #~ msgstr ""
-#~ "Формат времени ((%Y = год, %m = месяц, %d = день, %H = час, %M = минута, %"
-#~ "S = секунда).)"
+#~ "Формат времени ((%Y = год, %m = месяц, %d = день, %H = час, %M = минута, "
+#~ "%S = секунда).)"
 
 #~ msgid "X offset, from the left screen edge"
 #~ msgstr "Смещение по X, от левого края"

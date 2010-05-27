@@ -7,15 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-30 00:36+0100\n"
+"POT-Creation-Date: 2010-05-28 00:21+0100\n"
 "PO-Revision-Date: 2009-09-19 16:53+0100\n"
 "Last-Translator: Dominko Aždajić <domazd@mail.ru>\n"
 "Language-Team: Croatian\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
 
@@ -76,7 +77,7 @@ msgstr "Postavke upravljačkih sučelja VLC-a"
 msgid "Hotkeys settings"
 msgstr "Postavke tipkovnih prečica"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2840 src/input/es_out.c:2880
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -97,7 +98,7 @@ msgid "General audio settings"
 msgstr "Opće postavke zvuka"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "Filtri"
 
@@ -131,7 +132,7 @@ msgstr "Razno"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Razne zvukovne postavke i moduli."
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2843 src/input/es_out.c:2927
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -822,7 +823,7 @@ msgstr "Dosegnut je maksimalni broj filtara (%d)."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Isključiti"
 
@@ -947,9 +948,9 @@ msgid "decoder"
 msgstr "Dekôderi"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
-#: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
-#: modules/codec/avcodec/encoder.c:251 modules/codec/avcodec/encoder.c:650
-#: modules/codec/avcodec/encoder.c:659 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
+#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Strujanje / prekodiranje nije uspjelo"
@@ -1001,65 +1002,65 @@ msgstr "Ispremiješano"
 msgid "Yes"
 msgstr "Da"
 
-#: src/input/es_out.c:2002
+#: src/input/es_out.c:2007
 #, c-format
 msgid "Closed captions %u"
 msgstr "Zatvoreni natpisi %u"
 
-#: src/input/es_out.c:2830
+#: src/input/es_out.c:2835
 #, c-format
 msgid "Stream %d"
 msgstr "Strujanje %d"
 
-#: src/input/es_out.c:2846 src/input/es_out.c:2954
+#: src/input/es_out.c:2851 src/input/es_out.c:2959
 msgid "Subtitle"
 msgstr "Podnaslov"
 
-#: src/input/es_out.c:2854 src/input/es_out.c:2880 src/input/es_out.c:2927
-#: src/input/es_out.c:2954 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
+#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "Vrsta"
 
-#: src/input/es_out.c:2857
+#: src/input/es_out.c:2862
 msgid "Original ID"
 msgstr "Izvorni ID"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2867
+#: src/input/es_out.c:2869 src/input/es_out.c:2872
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
 #: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "Kôdek"
 
-#: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Jezik"
 
-#: src/input/es_out.c:2874 src/input/meta.c:57
+#: src/input/es_out.c:2879 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "Opis"
 
-#: src/input/es_out.c:2883 src/input/es_out.c:2886
+#: src/input/es_out.c:2888 src/input/es_out.c:2891
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "Kanali"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 msgid "Sample rate"
 msgstr "Stopa uzorkovanja"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2906
 msgid "Bits per sample"
 msgstr "Bita po uzorku"
 
-#: src/input/es_out.c:2906 modules/access/pvr.c:96
+#: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:471
@@ -1067,52 +1068,52 @@ msgstr "Bita po uzorku"
 msgid "Bitrate"
 msgstr "Stopa protoka"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/s"
 
-#: src/input/es_out.c:2918
+#: src/input/es_out.c:2923
 msgid "Track replay gain"
 msgstr "Pojačavanje opetovanog izvođenja traga"
 
-#: src/input/es_out.c:2920
+#: src/input/es_out.c:2925
 msgid "Album replay gain"
 msgstr "Pojačavanje opetovanog izvođenja albuma"
 
-#: src/input/es_out.c:2921
+#: src/input/es_out.c:2926
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "Razlučivost"
 
-#: src/input/es_out.c:2935
+#: src/input/es_out.c:2940
 msgid "Display resolution"
 msgstr "Razlučivost prikaza."
 
-#: src/input/es_out.c:2945 src/input/es_out.c:2948
+#: src/input/es_out.c:2950 src/input/es_out.c:2953
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "Stopa protoka kadrova."
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "Vaš ulazni sadržaj ne može biti otvoren."
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "VLC nije u stanju otvoriti MRL '%s'. Za pojedinosti pogledajte zapisnik."
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "VLC ne može prepoznati ulazni format."
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1244,7 +1245,7 @@ msgstr "Slijedeće poglavlje"
 msgid "Previous chapter"
 msgstr "Prethodno poglavlje"
 
-#: src/input/vlm.c:605 src/input/vlm.c:973
+#: src/input/vlm.c:611 src/input/vlm.c:969
 #, c-format
 msgid "Media: %s"
 msgstr "Mediji: %s"
@@ -1426,24 +1427,24 @@ msgstr ""
 "\n"
 "Za nastaviti stisnite tipku RETURN...\n"
 
-#: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
+#: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Povećavanje"
 
-#: src/libvlc.h:174 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
+#: src/libvlc.h:176 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "1:4 Četvrtina"
 
-#: src/libvlc.h:175 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
+#: src/libvlc.h:177 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "1:2 Polovica"
 
-#: src/libvlc.h:176 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
+#: src/libvlc.h:178 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "1:1 Izvornik"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
+#: src/libvlc.h:179 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "2:1 Dvostruko"
 
@@ -1826,7 +1827,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:382
 msgid "None"
 msgstr "Nikakav"
 
@@ -2139,13 +2140,13 @@ msgstr ""
 "milisekundi. Polazno je 3000 ms (tj. 3 sekunde)."
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Raspletanje"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Način raspletanja"
@@ -4846,7 +4847,7 @@ msgid "Downloading ..."
 msgstr "Preuzima se..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:643 modules/demux/avi/avi.c:2337
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4950,7 +4951,7 @@ msgstr "Industrial"
 msgid "Undefined"
 msgstr "Neodređeno"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Završna obrada"
@@ -5953,12 +5954,12 @@ msgstr "DVD s izbornicima"
 msgid "DVDnav Input"
 msgstr "Ulaz DVDnav (s podrškom izbornika)"
 
-#: modules/access/dvdnav.c:312 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr "Izvođenje nije uspjelo."
 
-#: modules/access/dvdnav.c:313
+#: modules/access/dvdnav.c:326
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
@@ -5996,8 +5997,8 @@ msgid ""
 "EyeTV program number, or use 0 for last channel, -1 for S-Video input, -2 "
 "for Composite input"
 msgstr ""
-"Broj programa EyeTV ili upotrijebiti 0 za zadnji kanal, -1 za ulaz S-Video, -"
-"2 za ulaz Composite"
+"Broj programa EyeTV ili upotrijebiti 0 za zadnji kanal, -1 za ulaz S-Video, "
+"-2 za ulaz Composite"
 
 #: modules/access/eyetv.m:63
 msgid ""
@@ -6251,11 +6252,11 @@ msgstr "Ulaz putem HTTP-a"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "Ovjeravanje HTTP-poslužitelja"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr "Unesite molim valjano prijavno ime i lozinku za %s."
@@ -7548,7 +7549,7 @@ msgstr "Disk"
 msgid "VCD Format"
 msgstr "Format VCD"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:298
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
 msgid "Application"
 msgstr "Aplikacija"
 
@@ -8209,8 +8210,8 @@ msgstr "Pojačavanje pojaseva"
 #, fuzzy
 msgid ""
 "Don't use presets, but manually specified bands. You need to provide 10 "
-"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 -"
-"2 0 2\"."
+"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
+"-2 0 2\"."
 msgstr ""
 "Nemojte koristiti predloške, već ručno određivane pojaseve. Trebate navesti "
 "10 vrijednosti između -20dB i 20dB, razdvojene razmacima, primjerice \"0 2 4 "
@@ -8406,7 +8407,7 @@ msgstr "Pojačavanje frekvencije 3 (dB)"
 msgid "Freq 3 Q"
 msgstr "Freq 3 Q"
 
-#: modules/audio_filter/resampler/bandlimited.c:93
+#: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
 msgstr ""
 "Zvukovni filtar interpolacijskog preuzorkovanja ograničene pojasne širine"
@@ -8741,14 +8742,14 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:799
-#: modules/gui/qt4/main_interface.cpp:803
-#: modules/gui/qt4/main_interface.cpp:843
-#: modules/gui/qt4/main_interface.cpp:845
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:930
-#: modules/gui/qt4/main_interface.cpp:937
-#: modules/gui/qt4/main_interface.cpp:960
+#: modules/gui/qt4/main_interface.cpp:808
+#: modules/gui/qt4/main_interface.cpp:812
+#: modules/gui/qt4/main_interface.cpp:852
+#: modules/gui/qt4/main_interface.cpp:854
+#: modules/gui/qt4/main_interface.cpp:922
+#: modules/gui/qt4/main_interface.cpp:939
+#: modules/gui/qt4/main_interface.cpp:946
+#: modules/gui/qt4/main_interface.cpp:969
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "Medijski izvođač VLC"
@@ -8891,15 +8892,15 @@ msgstr "Kôder zvuka/slike FFmpeg"
 msgid "FFmpeg deinterlace video filter"
 msgstr "Filtar raspleta video slike FFmpeg"
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
 msgstr "Izravno oblikovanje prikaza"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:76
 msgid "Error resilience"
 msgstr "Otpornost na pogreške"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:78
 #, fuzzy
 msgid ""
 "FFmpeg can do error resilience.\n"
@@ -8913,11 +8914,11 @@ msgstr ""
 "Važeći raspon vrijednosti je od 0 do 4 (0 isključuje svaku otpornost na "
 "pogreške)."
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
 msgstr "Zaobići pogreške"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:85
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -8927,8 +8928,8 @@ msgid ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"This must be the sum of the values. For example, to fix \"ac vlc\" and \"ump4"
-"\", enter 40."
+"This must be the sum of the values. For example, to fix \"ac vlc\" and "
+"\"ump4\", enter 40."
 msgstr ""
 "Pokušati popraviti neke od pogreški:\n"
 "1  autom. prepoznavanje\n"
@@ -8938,15 +8939,15 @@ msgstr ""
 "16 bez oblaganja\n"
 "32 ac vlc\n"
 "64 obrazac boje Qpel-a.\n"
-"To mora biti zbroj vrijednosti. Primjerice, za popravak \"ac vlc\" i \"ump4"
-"\", unesite 40."
+"To mora biti zbroj vrijednosti. Primjerice, za popravak \"ac vlc\" i "
+"\"ump4\", unesite 40."
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:198
+#: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "Požuriti"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -8955,22 +8956,22 @@ msgstr ""
 "dovoljno vremena. To je korisno kod sporijih procesora ali može proizvoditi "
 "izobličene slike."
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
 msgstr "Dopustiti brzinske varke"
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 "Dopuštanje varki nesukladnih tehničkim smjernicama programa, sa svrhom "
 "ubrzavanja rada programa. Brže ali sklono pogreškama."
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:106
 msgid "Skip frame (default=0)"
 msgstr "Preskočiti kadar (polazno=0)"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:108
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
@@ -8978,33 +8979,33 @@ msgstr ""
 "Nametnuti preskakanje kadrova za ubrzavanje dekodiranja (-1=Nikakvo, "
 "0=Polazno, 1=B-kadrova, 2=P-kadrova, 3=B+P kadrova, 4=Svih kadrova)."
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
 msgstr "Preskočiti idct (polazno=0)"
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
-"Nametnuti preskakanje IDCT-a za ubrzavanje dekodiranja za vrste kadrova (-"
-"1=Nikakvo, 0=Polazno, 1=B-kadrova, 2=P-kadrova, 3=B+P kadrova, 4=Svih "
+"Nametnuti preskakanje IDCT-a za ubrzavanje dekodiranja za vrste kadrova "
+"(-1=Nikakvo, 0=Polazno, 1=B-kadrova, 2=P-kadrova, 3=B+P kadrova, 4=Svih "
 "kadrova)."
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Debug mask"
 msgstr "Maska debuga"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:117
 #, fuzzy
 msgid "Set FFmpeg debug mask"
 msgstr "Postavite masku debuga za ffmpeg"
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:120
 msgid "Visualize motion vectors"
 msgstr "Vektori vizualizacije pokreta"
 
-#: modules/codec/avcodec/avcodec.h:121
+#: modules/codec/avcodec/avcodec.h:122
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -9020,11 +9021,11 @@ msgstr ""
 "4 - pokazati unatrag predviđene VP kadrova B\n"
 "Za pokazivanje svih vektora vrijednost bi trebala biti 7."
 
-#: modules/codec/avcodec/avcodec.h:128
+#: modules/codec/avcodec/avcodec.h:129
 msgid "Low resolution decoding"
 msgstr "Dekodiranje niske razlučivosti"
 
-#: modules/codec/avcodec/avcodec.h:129
+#: modules/codec/avcodec/avcodec.h:130
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
@@ -9032,11 +9033,11 @@ msgstr ""
 "Dekodiranje samo nisko razlučive inačice video snimke. To iziskuje manju "
 "procesorsku snagu."
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "Preskočiti petlju filtra za dekodiranje H.264"
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:134
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -9045,70 +9046,70 @@ msgstr ""
 "kakvoću. Unatoč tomu, to ipak daje veliko ubrzanje strujanjima visoke "
 "određenosti."
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:138
 #, fuzzy
 msgid "Hardware decoding"
 msgstr "Propleteno kodiranje"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:145
+#: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
 msgstr "Omjer ključnih kadrova"
 
-#: modules/codec/avcodec/avcodec.h:146
+#: modules/codec/avcodec/avcodec.h:147
 msgid "Number of frames that will be coded for one key frame."
 msgstr "Broj kadrova koji će biti kodirani za jedan ključni kadar."
 
-#: modules/codec/avcodec/avcodec.h:149
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of B frames"
 msgstr "Omjer sličîca B"
 
-#: modules/codec/avcodec/avcodec.h:150
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr "Broj B-kadrova koji će biti kodirani između dva referentna kadra"
 
-#: modules/codec/avcodec/avcodec.h:153
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
 msgstr "Izdržljivost protoka video slike"
 
-#: modules/codec/avcodec/avcodec.h:154
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance in kbit/s."
 msgstr "Izdržljivost protoka podataka video slike u kbit/s."
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
 msgstr "Propleteno kodiranje"
 
-#: modules/codec/avcodec/avcodec.h:157
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr "Uključivanje namjenskih algoritama za propletene kadrove."
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
 msgstr "Procjena propletenog kretanja"
 
-#: modules/codec/avcodec/avcodec.h:161
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 "Uključiti algoritme predviđanja propletenog kretanja. To iziskuje više "
 "procesorske snage."
 
-#: modules/codec/avcodec/avcodec.h:164
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
 msgstr "Predviđanje pred-kretanja"
 
-#: modules/codec/avcodec/avcodec.h:165
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable the pre-motion estimation algorithm."
 msgstr "Uključiti algoritam predviđanja pred-kretanja."
 
-#: modules/codec/avcodec/avcodec.h:168
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
 msgstr "Veličina međuspremnika za nadzor"
 
-#: modules/codec/avcodec/avcodec.h:169
+#: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -9117,19 +9118,19 @@ msgstr ""
 "kilobajtima). Veći međuspremnik će dopuštati bolje upravljanje protokom, ali "
 "će uzrokovati zaostajanje u strujanju."
 
-#: modules/codec/avcodec/avcodec.h:173
+#: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
 msgstr "Agresivnost međuspremnika za nadzor"
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
 msgstr "Agresivnost međuspremnika za nadzor stope protoka."
 
-#: modules/codec/avcodec/avcodec.h:177
+#: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
 msgstr "Kvantizacijski čimbenik I"
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:180
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -9137,12 +9138,12 @@ msgstr ""
 "Čimbenik kvantizacije kadrova I, uspoređeno s kadrovima P (primjerice 1.0 => "
 "ista qscale i za I i za P kadrove)."
 
-#: modules/codec/avcodec/avcodec.h:182 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Smanjivanje šuma"
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -9150,11 +9151,11 @@ msgstr ""
 "Omogućiti jednostavniji algoritam smanjenja šuma, da bi se snizili trajanje "
 "kodiranja i stopa protoka, po cijeni niže kakvoće kadrova."
 
-#: modules/codec/avcodec/avcodec.h:187
+#: modules/codec/avcodec/avcodec.h:188
 msgid "MPEG4 quantization matrix"
 msgstr "Kvantizacijska matrica MPEG4"
 
-#: modules/codec/avcodec/avcodec.h:188
+#: modules/codec/avcodec/avcodec.h:189
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -9164,11 +9165,11 @@ msgstr ""
 "boljim izgledom slike, kojoj još uvijek preostaje spojivost sa standardnim "
 "dekôderima MPEG2."
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
 msgstr "Stupanj kakvoće"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:195
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
@@ -9176,7 +9177,7 @@ msgstr ""
 "Stupanj kakvoće kodiranja vektora pokreta (to može vrlo jako usporiti "
 "kodiranje)."
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:200
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -9188,36 +9189,36 @@ msgstr ""
 "podešavanje stope čimbenika pokreta (hq) te podići prag smanjivanja šuma, "
 "sve to da bi se olakšala zadaća kôdera."
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:206
 msgid "Minimum video quantizer scale"
 msgstr "Minimum stupnjevanja kvantizatora slike"
 
-#: modules/codec/avcodec/avcodec.h:206
+#: modules/codec/avcodec/avcodec.h:207
 msgid "Minimum video quantizer scale."
 msgstr "Minimum stupnjevanja kvantizatora video slike."
 
-#: modules/codec/avcodec/avcodec.h:209
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Maximum video quantizer scale"
 msgstr "Maksimum stupnjevanja kvantizatora slike"
 
-#: modules/codec/avcodec/avcodec.h:210
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Maximum video quantizer scale."
 msgstr "Maksimum stupnjevanja kvantizatora video slike"
 
-#: modules/codec/avcodec/avcodec.h:213
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
 msgstr "Kvantizacija rešetke"
 
-#: modules/codec/avcodec/avcodec.h:214
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr ""
 "Omogućiti kvantizaciju rešetke (podešavanje stope za koeficijente blokova)."
 
-#: modules/codec/avcodec/avcodec.h:217
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
 msgstr "Uglavljeno stupnjevanje kvantizatora"
 
-#: modules/codec/avcodec/avcodec.h:218
+#: modules/codec/avcodec/avcodec.h:219
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
@@ -9225,38 +9226,38 @@ msgstr ""
 "Uglavljeno stupnjevanje kvantizatora video slike za kodiranje VBR-a "
 "(prihvatljive vrijednosti: 0.01 do 255.0)."
 
-#: modules/codec/avcodec/avcodec.h:221
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
 msgstr "Stroga sukladnost sa standardima"
 
-#: modules/codec/avcodec/avcodec.h:222
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ""
 "Pri kodiranju nametnuti strogo poštivanje standarda (prihvatljive "
 "vrijednosti: -1, 0, 1)."
 
-#: modules/codec/avcodec/avcodec.h:225
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
 msgstr "Maskiranje osvijetljenosti"
 
-#: modules/codec/avcodec/avcodec.h:226
+#: modules/codec/avcodec/avcodec.h:227
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr "Podignuti kvantizator za vrlo svijetle makroblokove (polazno: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:229
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Darkness masking"
 msgstr "Maskiranje zatamnjenosti"
 
-#: modules/codec/avcodec/avcodec.h:230
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr "Podignuti kvantizator za vrlo tamne makroblokove (polazno: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:233
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Motion masking"
 msgstr "Maskiranje pokreta"
 
-#: modules/codec/avcodec/avcodec.h:234
+#: modules/codec/avcodec/avcodec.h:235
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
@@ -9264,22 +9265,22 @@ msgstr ""
 "Podignuti kvantizator za makroblokove s visokom privremenom složenošću "
 "(polazno: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:237
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
 msgstr "Maskiranje rubova"
 
-#: modules/codec/avcodec/avcodec.h:238
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
 "Podignuti kvantizator za makroblokove na rubovima kadrova (polazno: 0.0)."
 
-#: modules/codec/avcodec/avcodec.h:241
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
 msgstr "Odstranjivanje osvijetljenosti"
 
-#: modules/codec/avcodec/avcodec.h:242
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -9287,11 +9288,11 @@ msgstr ""
 "Odstranjuje osvijetljenost blokova ukoliko PSNR nije jako izmijenjen "
 "(polazno: 0.0). Specifikacija H264 preporuča -4."
 
-#: modules/codec/avcodec/avcodec.h:246
+#: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
 msgstr "Odstranjivanje obrasca boje"
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:248
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -9299,11 +9300,11 @@ msgstr ""
 "Odstranjuje obrazac boje blokova ukoliko PSNR nije jako izmijenjen (polazno: "
 "0.0). Specifikacija H264 preporuča 7."
 
-#: modules/codec/avcodec/avcodec.h:251
+#: modules/codec/avcodec/avcodec.h:252
 msgid "Specify AAC audio profile to use"
 msgstr "Odredite profil zvuka AAC za uporabu"
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
@@ -9313,17 +9314,17 @@ msgstr ""
 "podataka. Prihvaćaju se slijedeće mogućnosti: main, low, ssr (nije "
 "podržavano) i ltp (polazno: main)"
 
-#: modules/codec/avcodec/encoder.c:222
+#: modules/codec/avcodec/encoder.c:225
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr "\"%s\" nije kôder video slike."
 
-#: modules/codec/avcodec/encoder.c:230
+#: modules/codec/avcodec/encoder.c:233
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr "\"%s\" nije kôder zvuka."
 
-#: modules/codec/avcodec/encoder.c:256
+#: modules/codec/avcodec/encoder.c:259
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -9341,7 +9342,7 @@ msgstr ""
 "Ovdje se ne radi o nekakvoj pogrešci unutar medijskog izvođača VLC.\n"
 "Stoga se u svezi s ovim pitanjem nemojte obraćati projektu The VideoLAN.\n"
 
-#: modules/codec/avcodec/encoder.c:651 modules/codec/avcodec/encoder.c:660
+#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
 msgid "VLC could not open the encoder."
 msgstr "VLC nije mogao otvoriti kôder."
 
@@ -9401,7 +9402,7 @@ msgstr "Pred-filtar"
 msgid "Enable adaptive prefiltering"
 msgstr "Omogućiti prilagodljivo pred-filtriranje"
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "ništa"
 
@@ -9652,7 +9653,7 @@ msgstr "Smjernica Y kodiranog podnaslova"
 msgid "DVB subtitles decoder"
 msgstr "Dekôder podnaslova DVB-a"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "Podnaslovi DVB-a"
 
@@ -10724,11 +10725,11 @@ msgstr "Kôder zvuka Vorbis"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr "Dekoder zvuka WMA v1/v2 s uglavljenim zarezom"
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "Maksimalna velićina GOP-a"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10737,11 +10738,11 @@ msgstr ""
 "bitove, poboljšavajući tako kakvoću dotične stope protoka nauštrb pomnosti "
 "pretraživanja."
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "Minimum veličine GOP-a"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10761,11 +10762,11 @@ msgstr ""
 "Ukoliko se unutar ovog razdoblja pojave rezovi scene, oni su još uvijek "
 "kodirani kao I-kadrovi, ali ne započinju novi GOP."
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "Dodatna agresivnost I-kadrova"
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10784,20 +10785,20 @@ msgstr ""
 "kadrovi ubacuju samo kod svakog keyint-kadra, što zacijelo dovodi do ružnih "
 "artefakata kodiranja. Raspon: 1-100."
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "B-kadrovi između I i P"
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr ""
 "Broj redoslijednih B-kadrova između I i P-kadrova. Raspon je od 1 do 16."
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "Prilagodiva odluka kadrova B"
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
@@ -10805,11 +10806,11 @@ msgstr ""
 "Nametnuti uporabu određenog broja uzastopnih B-kadrova, s mogućom iznimkom "
 "prije nekog I-kadra. Raspon 0 do 2."
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "Utjecati (upliv) na uporabu B-kadrova"
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
@@ -10817,11 +10818,11 @@ msgstr ""
 "Upliv na izbor korištenja B-kadrova. Pozitivne vrijednosti uzroče više B-"
 "kadrova, negativne vrijednosti uzroče manje B-Kadrova."
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr "Neke B-kadrove zadržati kao smjernice"
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 #, fuzzy
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
@@ -10835,7 +10836,7 @@ msgstr ""
 "kadrova. Zadržava sredinu više od dvaju uzastopnih B-kadrova kao referencu i "
 "preraspoređuje kadrove na odgovarajući način."
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10845,11 +10846,11 @@ msgstr ""
 "kadrova. Zadržava sredinu više od dvaju uzastopnih B-kadrova kao referencu i "
 "preraspoređuje kadrove na odgovarajući način."
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10857,11 +10858,11 @@ msgstr ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Neznatno usporava "
 "kodiranje i dekodiranje, ali bi trebao prištedjeti 10 do 15% stope protoka."
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "Broj referentnih kadrova"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10872,19 +10873,19 @@ msgstr ""
 "radnje. Neki dekoderi nisu u stanju raditi s velikim vrijednostima "
 "referentnih kadrova. Raspon iznosi od 1 do 16."
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "Preskočiti filtar petlje"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr "Deaktiviranje filtra za oslobađanje petlje (snižava kakvoću)."
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "Filtar petlje AlfaC0 i parametri Beta alpha:beta"
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10892,11 +10893,11 @@ msgstr ""
 "Filtar petlje AlfaC0 i parametri Beta. Raspon je od -6 do 6 za parametre i "
 "alfa i beta. -6 označava lagani filtar, 6 označava strogi."
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "Razina H.264"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
@@ -10907,69 +10908,69 @@ msgstr ""
 "spojivu s ostalim mogućnostima kodiranja. Raspon je od 1 do 5.1 (dopušteno "
 "je i od 10 do 51)."
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 #, fuzzy
 msgid "H.264 profile"
 msgstr "Razina H.264"
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "Način propletanja"
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr "Čisto propleteni način."
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr ""
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr ""
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 #, fuzzy
 msgid "Force number of slices per frame"
 msgstr "Broj blokova po pristupu CD-u"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr ""
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr ""
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr ""
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "Postavljanje QP"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10978,69 +10979,69 @@ msgstr ""
 "vjernost ali i više stope protoka. 26 je dobra polazna vrijednost. Raspon je "
 "od 0 (bez gubitaka) do 51."
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "VBR temeljen na kakvoći"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr "Jednopojasni VBR, zasnovan na kakvoći. Raspon je od 0 do 51."
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "Min. QP"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr ""
 "Parametarski minimum kvantizatora. Čini se da je koristan raspon od 15 do 35."
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "Maks. QP"
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr "Parametarski maksimum kvantizatora."
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "Maks. korak QP"
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr "Maksimalna dužina koraka QP između kadrova."
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "Tolerancija prosjeka stope protoka"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr "Dopušteno odstupanje od prosjeka stope protoka (u kilobitima/s)."
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "Maks. stopa mjesnog protoka"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr "Postavlja maksimum stope mjesnog protoka (u kilobitima/s)."
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "Međuspremnik VBV-a"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr ""
 "Iznos periodičnog prosjeka maksimalne stope mjesnog protoka (u kilobitima)."
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "Početna popunjenost međuspremnika VBV-a"
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
@@ -11048,11 +11049,11 @@ msgstr ""
 "Postavlja početnu popunjenost međuspremnika kao dio veličine međuspremnika. "
 "Raspon je od 0.0 do 1.0."
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr "Način na koji AK raspačava bitove"
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -11066,11 +11067,11 @@ msgstr ""
 " - 2: Koristi log(var)^2 umjesto log(var) i pokušava prilagoditi jačinu po "
 "kadru"
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "Jakost AQ"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -11082,35 +11083,35 @@ msgstr ""
 " - 0.5: slabi AQ\n"
 " - 1.5: jaki AQ"
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "Čimbenik QP između I i P"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr "Čimbenik QP između kadrova I i P. Raspon se kreće od 1.0 do 2.0."
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "Čimbenik QP između P i B"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr "Čimbenik QP između kadrova P i B. Raspon iznosi od 1.0 do 2.0."
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "Razlika QP između obrasca boje i rasvijetljenosti"
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr "Razlika QP između obrasca boje i rasvijetljenosti."
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "Višeprolazni nadzor stope"
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -11122,19 +11123,19 @@ msgstr ""
 " - 2: Zadnji prolaz, ne nadomješta datoteku statistika\n"
 " - 3: N-ti prolaz, nadomješta datoteku statistika\n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "Sažimanje krivine QP"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr "Sažimanje krivine QP. Raspon je od 0.0 (CBR) do 1.0 (QCP)."
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "Smanjiti kolebanja u QP"
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
@@ -11142,7 +11143,7 @@ msgstr ""
 "Ovim se smanjuju kolebanja u QP prije sažimanja krivine. Privremeno "
 "raspršuje složenost."
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
@@ -11150,11 +11151,11 @@ msgstr ""
 "Ovim se smanjuju kolebanja u QP nakon sažimanja krivine. Privremeno "
 "raspršuje složenost."
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "Particije koje treba uzeti u obzir"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -11172,19 +11173,19 @@ msgstr ""
 " - sve   : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 iziskuje p8x8. i8x8 iziskuje 8x8dct)."
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "Način izravnog predviđanja VP"
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr "Način izravnog predviđanja vektora pokreta."
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "Veličina izravnog predviđanja"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -11194,31 +11195,31 @@ msgstr ""
 " -  1: 8x8\n"
 " - -1: najmanja moguća sukladno razini\n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "Težinsko predviđanje za B-kadrove"
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "Težinsko predviđanje za B-kadrove."
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 #, fuzzy
 msgid "Weighted prediction for P-frames"
 msgstr "Težinsko predviđanje za B-kadrove"
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "Način procjene kretanja cjelobrojnih pixela"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -11235,11 +11236,11 @@ msgstr ""
 " - tesa: Hadamardovo opsežno traženje (krajnje sporo, prvenstveno za "
 "provjere)\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "Maksimum raspona traženja vektora kretanja"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -11249,22 +11250,22 @@ msgstr ""
 "Polazno 16 je dobro za većinu aplikacija, sekvence s puno kretanja bi mogle "
 "profitirati od postavki između 24 i 32. Raspon iznosi 0 do 64."
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "Maksimum dužine vektora pokreta"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
 "Maksimum dužine vektora kretanja u pixelima. -1 je automatski, zasnovano na "
 "razini."
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr "Minimum odbojničkog prostora između dretvi"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
@@ -11272,21 +11273,21 @@ msgstr ""
 "Minimum odbojničkog prostora između dretvi. -1 je automatski, zasnovano na "
 "broju dretvi."
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr ""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
 msgstr ""
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr "Procjena kretanja podpixela i kakvoća particijskog odlučivanja "
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
@@ -11296,21 +11297,21 @@ msgstr ""
 "proces odlučivanja o procjeni kretanja  (niže = brže i više = bolja "
 "kakvoća). Raspon je 1 do 9."
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "Na RD-u temeljen način odlučivanja za B-kadrove"
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
 "Na RD-u temeljen način odlučivanja za B-kadrove. To iziskuje subme 6 (ili "
 "više)."
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "Reference odlučivanja na osnovu po particiji"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -11318,36 +11319,36 @@ msgstr ""
 "Dopušta svakoj 8x8 ili 16x8 particiji neovisno odabrati svoj vlastiti "
 "referentni kadar, kao suprotnost samo jednoj referenci po makrobloku."
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "Obrazac boje u procjeni kretanja"
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr ""
 "Obrazac boje u procjeni kretanja za subpel i način odlučivanja u kadrovima P."
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "Zajedničko poboljšavanje obadva vektora kratanja u kadrovima B"
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr "Zajedničko poboljšavanje dvosmjernog kretanja."
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr "Prilagodljiva veličina prostorne pretvorbe"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr "Na SATD-u temeljena odluka o pretvorbi 8x8 u među-MB-ovima."
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "Kvantizacija trellisa RD"
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -11361,19 +11362,19 @@ msgstr ""
 " - 2: uključeno kod svih načina odlučivanja\n"
 "Ovo iziskuje CABAC."
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "Rano prepoznavanje SKIP na P-kadrovima"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr "Rano otkrivanje preskakanja na P-kadrovima."
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr "Koeficijent ograničavanja kadrova P"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
@@ -11381,16 +11382,16 @@ msgstr ""
 "Koeficijent ograničavanja kadrova P. Izlučuju se blokovi dct-a, koji sadrže "
 "samo mali jednostavni koeficijent."
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 #, fuzzy
 msgid "Use Psy-optimizations"
 msgstr "Procesorska poboljšanja"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
@@ -11398,56 +11399,56 @@ msgstr ""
 "Smanjivanje šuma u području DCT-a. Prilagodljivi lažno nedjelatni pojas. 10 "
 "do 1000 se čini uporabljivim rasponom."
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "Mrtvo među-područje kvantizacije osvijetljenosti"
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Postavljanje veličine mrtvog među-područja kvantizacije osvijetljenosti. "
 "Raspon iznosi 0 do 32."
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "Unutarnje mrtvo područje kvantizacije osvijetljenosti"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Postavljanje veličine unutarnjeg mrtvog područja kvantizacije "
 "osvijetljenosti. Raspon iznosi 0 do 32."
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr "Ne-determinističke optimizacije ako je dretvano"
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr "Lagano poboljšanje kakvoće SMP-a, na račun sposobnosti opetovanja."
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "Procesorska poboljšanja"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr "Za procesor koristiti assemblirana poboljšanja."
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "Naziv datoteke za datoteku dvoprolaznih statistika"
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr ""
 "Naziv datoteke za datoteku dvoprolaznih statistika višeprolaznog kodiranja."
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "Proračunavanja PSNR-a"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
@@ -11455,11 +11456,11 @@ msgstr ""
 "Izračunajte i ispišite statistike PSNR-a. Ovo nema učinka na stvarnu kakvoću "
 "kodiranja."
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "Izračunavanje SSIM-a"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
@@ -11467,28 +11468,28 @@ msgstr ""
 "Izračunajte i ispišite statistike SSIM-a. Ovo nema učinka na stvarnu kakvoću "
 "kodiranja."
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "Tihi način"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "Tihi način rada."
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Statistike"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr "Ispisivati statistike za svaki kadar."
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "Identifikacijski brojevi SPS-a i PPS-a"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
@@ -11496,74 +11497,89 @@ msgstr ""
 "Navedite identifikacijske brojeve za SPS i PPS da bi se dopustilo "
 "ulančavanje strujanja s različitim postavkama."
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "Razdjelnici pristupne jedinice"
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr "Generirati razdjelnik jediničnog pristupa jedinica NAL."
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr ""
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
 "yet"
 msgstr ""
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+#, fuzzy
+msgid "HRD-timing information"
+msgstr "ispis informacija o inačici"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
 msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "brzo"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "uobičajeno"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "polako"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "sve"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "prostorno"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "vremensko"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "automatski"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "Kôder H.264/MPEG4 AVC (x264)"
 
@@ -12639,19 +12655,19 @@ msgstr "Multiplekser Ffmpeg"
 msgid "Force use of ffmpeg muxer."
 msgstr "Nametnuti uporabu multipleksera ffmpeg."
 
-#: modules/demux/avi/avi.c:49
+#: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
 msgstr "Nametnuti postupak umetanja"
 
-#: modules/demux/avi/avi.c:50
+#: modules/demux/avi/avi.c:51
 msgid "Force interleaved method."
 msgstr "Nametnuti postupak umetanja."
 
-#: modules/demux/avi/avi.c:52
+#: modules/demux/avi/avi.c:53
 msgid "Force index creation"
 msgstr "Nametnuti stvaranje kazala"
 
-#: modules/demux/avi/avi.c:54
+#: modules/demux/avi/avi.c:55
 msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
@@ -12659,28 +12675,28 @@ msgstr ""
 "Ponovno napraviti kazalo za datoteku AVI. Ovo koristite ako je Vaša datoteka "
 "AVI oštećena ili nepotpuna (nije pretraživa)."
 
-#: modules/demux/avi/avi.c:62
+#: modules/demux/avi/avi.c:63
 #, fuzzy
 msgid "Ask for action"
 msgstr "Informacija"
 
-#: modules/demux/avi/avi.c:63
+#: modules/demux/avi/avi.c:64
 msgid "Always fix"
 msgstr "Uvijek popravljati"
 
-#: modules/demux/avi/avi.c:64
+#: modules/demux/avi/avi.c:65
 msgid "Never fix"
 msgstr "Nikada ne popravljati"
 
-#: modules/demux/avi/avi.c:68
+#: modules/demux/avi/avi.c:69
 msgid "AVI demuxer"
 msgstr "Demultiplekser AVI"
 
-#: modules/demux/avi/avi.c:639
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr "Kazalo AVI-a"
 
-#: modules/demux/avi/avi.c:640
+#: modules/demux/avi/avi.c:652
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12692,15 +12708,15 @@ msgstr ""
 "\n"
 "To može potrajati dugo vremena."
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "Popraviti"
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "Ne popravljati"
 
-#: modules/demux/avi/avi.c:2336
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr "Popravlja se kazalo AVI-a..."
 
@@ -12893,11 +12909,11 @@ msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr ""
 "Port koji će se koristiti za tunelski prolaz RTSP-a i RTP-a putem HTTP-a."
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "Ovjeravanje RTSP-a"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr "Unesite molim valjano prijavno ime i zaporku."
 
@@ -13068,11 +13084,11 @@ msgstr "Stupanj učinka Surround"
 msgid "Surround delay (ms)"
 msgstr "Zaostajanje učinka Suround (ms)"
 
-#: modules/demux/mp4/mp4.c:54
+#: modules/demux/mp4/mp4.c:55
 msgid "MP4 stream demuxer"
 msgstr "Demultiplekser strujanja MP4"
 
-#: modules/demux/mp4/mp4.c:55
+#: modules/demux/mp4/mp4.c:56
 msgid "MP4"
 msgstr "MP4"
 
@@ -13603,19 +13619,19 @@ msgstr "Teletekst: raspored programa"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "Podnaslovi teleteksta: slušanje je pogoršano"
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr "Podnaslovi DVB-a: slušanje je pogoršan"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "ukloniti učinke"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "slušanje je pogoršano"
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "komentar je vizualno pogoršan"
 
@@ -13910,6 +13926,7 @@ msgstr "Vrijeme"
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
 #: modules/gui/qt4/components/open_panels.cpp:1264
 #: modules/gui/qt4/components/preferences_widgets.cpp:1421
+#: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
 msgstr "U redu"
 
@@ -15242,7 +15259,7 @@ msgid "Subtitles & OSD"
 msgstr "Podnaslovi & OSD"
 
 #: modules/gui/macosx/simple_prefs.m:192
-#: modules/gui/qt4/components/simple_preferences.cpp:618
+#: modules/gui/qt4/components/simple_preferences.cpp:619
 msgid "Subtitles & On Screen Display Settings"
 msgstr "Postavke podnaslova i prikaza u tekućem prikazu (OSD)"
 
@@ -16844,11 +16861,11 @@ msgstr "Izvedba"
 msgid "buffers"
 msgstr "Izgubljeno blokova"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:380
 msgid "Current visualization"
 msgstr "Tekuća vizualizacija"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:419
 #, fuzzy
 msgid ""
 "Current playback speed: %1\n"
@@ -16857,20 +16874,20 @@ msgstr ""
 "Tekuća brzina izvođenja.\n"
 "Kliknite za podešavanje"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:490
 msgid "Revert to normal play speed"
 msgstr "Povratak na uobičajenu brzinu izvođenja"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:564
 msgid "Download cover art"
 msgstr "Preuzeti omotne slike albuma"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:606
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Sklopka između proteklog i preostalog vremena"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:608
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "Dvoklik za dobivanje podataka o mediju"
@@ -17142,35 +17159,39 @@ msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
 "Ovo je VLC-ovo presvlačivo sučelje. Dodatne presvlake možete preuzeti na"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:548
+#: modules/gui/qt4/components/simple_preferences.cpp:524
+msgid "VLC skins website"
+msgstr ""
+
+#: modules/gui/qt4/components/simple_preferences.cpp:549
 #, fuzzy
 msgid "System's default"
 msgstr "ID sustava"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:646
+#: modules/gui/qt4/components/simple_preferences.cpp:647
 msgid "Configure Hotkeys"
 msgstr "Prilagodba vrelih tipki"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:910
+#: modules/gui/qt4/components/simple_preferences.cpp:911
 #: modules/gui/qt4/dialogs_provider.hpp:51
 msgid "Audio Files"
 msgstr "Datoteke zvuka"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:911
+#: modules/gui/qt4/components/simple_preferences.cpp:912
 #: modules/gui/qt4/dialogs_provider.hpp:46
 msgid "Video Files"
 msgstr "Video datoteke"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:912
+#: modules/gui/qt4/components/simple_preferences.cpp:913
 #: modules/gui/qt4/dialogs_provider.hpp:56
 msgid "Playlist Files"
 msgstr "Datoteke spiska izvođenja"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:964
+#: modules/gui/qt4/components/simple_preferences.cpp:965
 msgid "&Apply"
 msgstr "&Primijeniti"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:965
+#: modules/gui/qt4/components/simple_preferences.cpp:966
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
@@ -17363,7 +17384,7 @@ msgid "Errors"
 msgstr "Pogreške"
 
 #: modules/gui/qt4/dialogs/errors.cpp:48
-#: modules/gui/qt4/dialogs/messages.cpp:184 modules/gui/qt4/menus.cpp:1507
+#: modules/gui/qt4/dialogs/messages.cpp:188 modules/gui/qt4/menus.cpp:1507
 msgid "&Clear"
 msgstr "&Očistiti"
 
@@ -17394,6 +17415,49 @@ msgstr "Usklađivanje"
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
 msgstr "Nadzori v4l2"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:61
+msgid "Privacy and Network Policies"
+msgstr "Smjernice povjerljivosti i mrežnog prometa"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:69
+msgid "Privacy and Network Warning"
+msgstr "Upozorenje glede povjerljivosti i mrežnog prometa"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:72
+#, fuzzy
+msgid ""
+"<p><i>VideoLAN</i> prefers when applications request authorization before "
+"accessing Internet.</p>\n"
+"<p><b>VLC media player</b> can get information from the Internet in order to "
+"get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
+"<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
+"even anonymously, about your usage.</p>\n"
+msgstr ""
+"<p><i>Teamu VideoLAN-a</i> se ne sviđa kada neka aplikacija bez dopuštenja "
+"uspostavlja mrežne veze.</p>\n"
+"<p><i>Medijski izođač VLC</i> može s Interneta dobavljati ograničene podatke "
+"u svrhu nabavke omotnih slika CD-a ili provjere raspoloživosti dogradnji.</"
+"p>\n"
+"<p><i>Medijski izođač VLC</i> <b>NIKADA</b> ne šalje i ne skuplja "
+"<b>NIKAKVE</b> podatke, pa ni anonimno, o Vašim navikama.</p>\n"
+"<p>Stoga molim izaberite neku od slijedećih mogućnosti, pri čemu ona polazna "
+"skoro nikada ne pristupa mreži.</p>\n"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:83
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "Mogućnosti"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:90
+msgid "Allow fetching media information from Internet"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:95
+#, fuzzy
+msgid "Check for updates"
+msgstr "Provjeriti mogućnost dogradnje"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -17562,24 +17626,24 @@ msgstr "Sve prikazane zapisnike pohraniti u datoteku"
 msgid "Verbosity Level"
 msgstr "Razina rječitosti"
 
-#: modules/gui/qt4/dialogs/messages.cpp:128
+#: modules/gui/qt4/dialogs/messages.cpp:132
 #, fuzzy
 msgid "Message filter"
 msgstr "Filtar scene"
 
-#: modules/gui/qt4/dialogs/messages.cpp:173
+#: modules/gui/qt4/dialogs/messages.cpp:177
 msgid "&Update"
 msgstr "&Dograditi"
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:288
 msgid "Save log file as..."
 msgstr "Zapisničku datoteku pohraniti kao..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:292
+#: modules/gui/qt4/dialogs/messages.cpp:290
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr "Tekstovi / zapisnici (*.log *.txt);; Sve (*.*) "
 
-#: modules/gui/qt4/dialogs/messages.cpp:299
+#: modules/gui/qt4/dialogs/messages.cpp:297
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -17989,11 +18053,11 @@ msgstr "Datoteke podnaslova"
 msgid "All Files"
 msgstr "Sve datoteke"
 
-#: modules/gui/qt4/main_interface.cpp:914
+#: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
 msgstr "Izbornik upravljanja za izvođački program"
 
-#: modules/gui/qt4/main_interface.cpp:957
+#: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
 msgstr "Stanka"
 
@@ -21886,11 +21950,11 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid ""
 "for devices with more than five channels / zones write down here for each "
-"channel the zone number to show and seperate the values with , or ; and use -"
-"1 to not use some channels. For the classic AtmoLight the sequence 4,3,1,0,2 "
-"would set the default channel/zone mapping. Having only two zones on top, "
-"and one zone on left and right and no summary zone the mapping for classic "
-"AtmoLight would be -1,3,2,1,0"
+"channel the zone number to show and seperate the values with , or ; and use "
+"-1 to not use some channels. For the classic AtmoLight the sequence "
+"4,3,1,0,2 would set the default channel/zone mapping. Having only two zones "
+"on top, and one zone on left and right and no summary zone the mapping for "
+"classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:333
@@ -24350,11 +24414,18 @@ msgstr "Okno XCB-a"
 msgid "X11 video window (XCB)"
 msgstr ""
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr ""
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -24406,17 +24477,17 @@ msgstr "Slika"
 msgid "XVideo output (XCB)"
 msgstr "Spona izlaza slike"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 #, fuzzy
 msgid "Video acceleration not available"
 msgstr "Postavke video slike nisu pohranjene"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
-"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x%"
-"<PRIu32>.\n"
+"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+"%<PRIu32>.\n"
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
@@ -24761,11 +24832,6 @@ msgstr "Odaberite vrstu uređaja za zahvaćanje"
 #: linux/modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "Izbor uređaja"
-
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
-msgid "Options"
-msgstr "Mogućnosti"
 
 #: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
@@ -26577,9 +26643,6 @@ msgstr "Spisak medijskog upravitelja"
 #~ "Provjera raspoloživosti dogradnji nije bila uključena u gradnju ove "
 #~ "inačice."
 
-#~ msgid "Check for Updates"
-#~ msgstr "Provjeriti mogućnost dogradnje"
-
 #~ msgid "Download now"
 #~ msgstr "Preuzeti odmah"
 
@@ -26920,33 +26983,6 @@ msgstr "Spisak medijskog upravitelja"
 
 #~ msgid "Video Port"
 #~ msgstr "Port video slike"
-
-#~ msgid "Privacy and Network Policies"
-#~ msgstr "Smjernice povjerljivosti i mrežnog prometa"
-
-#~ msgid "Privacy and Network Warning"
-#~ msgstr "Upozorenje glede povjerljivosti i mrežnog prometa"
-
-#~ msgid ""
-#~ "<p>The <i>VideoLAN Team</i> doesn't like when an application goes online "
-#~ "without authorization.</p>\n"
-#~ " <p><i>VLC media player</i> can retreive limited information from the "
-#~ "Internet in order to get CD covers or to check for available updates.</"
-#~ "p>\n"
-#~ "<p><i>VLC media player</i> <b>DOES NOT</b> send or collect <b>ANY</b> "
-#~ "information, even anonymously, about your usage.</p>\n"
-#~ "<p>Therefore please select from the following options, the default being "
-#~ "almost no access to the web.</p>\n"
-#~ msgstr ""
-#~ "<p><i>Teamu VideoLAN-a</i> se ne sviđa kada neka aplikacija bez "
-#~ "dopuštenja uspostavlja mrežne veze.</p>\n"
-#~ "<p><i>Medijski izođač VLC</i> može s Interneta dobavljati ograničene "
-#~ "podatke u svrhu nabavke omotnih slika CD-a ili provjere raspoloživosti "
-#~ "dogradnji.</p>\n"
-#~ "<p><i>Medijski izođač VLC</i> <b>NIKADA</b> ne šalje i ne skuplja "
-#~ "<b>NIKAKVE</b> podatke, pa ni anonimno, o Vašim navikama.</p>\n"
-#~ "<p>Stoga molim izaberite neku od slijedećih mogućnosti, pri čemu ona "
-#~ "polazna skoro nikada ne pristupa mreži.</p>\n"
 
 #~ msgid "Classic look"
 #~ msgstr "Klasični prikaz"

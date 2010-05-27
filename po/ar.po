@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-04-30 00:36+0100\n"
+"POT-Creation-Date: 2010-05-28 00:21+0100\n"
 "PO-Revision-Date: 2009-09-15 17:57+0300\n"
 "Last-Translator: Osama Khalid <osamak.wfm@gmail.com>\n"
 "Language-Team: Arabic <>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -76,7 +77,7 @@ msgstr "إعدادات واجهات التحكم بVLC"
 msgid "Hotkeys settings"
 msgstr "إعدادات المفاتيح الساخنة"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2840 src/input/es_out.c:2880
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -97,7 +98,7 @@ msgid "General audio settings"
 msgstr "إعدادات الصوت العامّة"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "مُرشّحات"
 
@@ -131,7 +132,7 @@ msgstr "متفرّقات"
 msgid "Miscellaneous audio settings and modules."
 msgstr "إعدادات ووحدات الصوت المتفرّقة"
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2843 src/input/es_out.c:2927
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -811,7 +812,7 @@ msgstr ".تمّ التوصل إليه (%d) أقصى عدد المُرشحات"
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "تعطيل"
 
@@ -938,9 +939,9 @@ msgid "decoder"
 msgstr "أجهزة فك الرموز"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
-#: modules/codec/avcodec/encoder.c:221 modules/codec/avcodec/encoder.c:229
-#: modules/codec/avcodec/encoder.c:251 modules/codec/avcodec/encoder.c:650
-#: modules/codec/avcodec/encoder.c:659 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
+#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Streaming / Transcoding فشل "
@@ -994,66 +995,66 @@ msgstr "سلّم"
 msgid "Yes"
 msgstr "نعم"
 
-#: src/input/es_out.c:2002
+#: src/input/es_out.c:2007
 #, fuzzy, c-format
 msgid "Closed captions %u"
 msgstr "CMM كاشف الرموز للتعليقات "
 
-#: src/input/es_out.c:2830
+#: src/input/es_out.c:2835
 #, c-format
 msgid "Stream %d"
 msgstr "تيار %d"
 
-#: src/input/es_out.c:2846 src/input/es_out.c:2954
+#: src/input/es_out.c:2851 src/input/es_out.c:2959
 msgid "Subtitle"
 msgstr "الترجمة"
 
-#: src/input/es_out.c:2854 src/input/es_out.c:2880 src/input/es_out.c:2927
-#: src/input/es_out.c:2954 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
+#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "نوع"
 
-#: src/input/es_out.c:2857
+#: src/input/es_out.c:2862
 #, fuzzy
 msgid "Original ID"
 msgstr "الصوت الأصلي "
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2867
+#: src/input/es_out.c:2869 src/input/es_out.c:2872
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
 #: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "كوديك"
 
-#: src/input/es_out.c:2871 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "اللغة"
 
-#: src/input/es_out.c:2874 src/input/meta.c:57
+#: src/input/es_out.c:2879 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "الوصف"
 
-#: src/input/es_out.c:2883 src/input/es_out.c:2886
+#: src/input/es_out.c:2888 src/input/es_out.c:2891
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "القنوات"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 msgid "Sample rate"
 msgstr "  نسبة نموذجية"
 
-#: src/input/es_out.c:2891
+#: src/input/es_out.c:2896
 #, fuzzy, c-format
 msgid "%u Hz"
 msgstr "%d Hz"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2906
 msgid "Bits per sample"
 msgstr "بِت لكلّ عيّنة "
 
-#: src/input/es_out.c:2906 modules/access/pvr.c:96
+#: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:471
@@ -1061,53 +1062,53 @@ msgstr "بِت لكلّ عيّنة "
 msgid "Bitrate"
 msgstr "معدل البت"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 #, fuzzy, c-format
 msgid "%u kb/s"
 msgstr "%d Hz"
 
-#: src/input/es_out.c:2918
+#: src/input/es_out.c:2923
 #, fuzzy
 msgid "Track replay gain"
 msgstr "تيار افتراضي"
 
-#: src/input/es_out.c:2920
+#: src/input/es_out.c:2925
 #, fuzzy
 msgid "Album replay gain"
 msgstr "تيار افتراضي"
 
-#: src/input/es_out.c:2921
+#: src/input/es_out.c:2926
 #, c-format
 msgid "%.2f dB"
 msgstr ""
 
-#: src/input/es_out.c:2930 linux/modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "دقة الشاشة"
 
-#: src/input/es_out.c:2935
+#: src/input/es_out.c:2940
 msgid "Display resolution"
 msgstr "دقة العرض"
 
-#: src/input/es_out.c:2945 src/input/es_out.c:2948
+#: src/input/es_out.c:2950 src/input/es_out.c:2953
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "تدفق الصور"
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "دخلكم لا يمكن فتحه"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ".فحص سجل للاطلاع على التفاصيل. '%s'  MRL غير قادر على فتح  VLC "
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "لم يستطع VLC التعرف على نسق الدخل."
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, fuzzy, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1239,7 +1240,7 @@ msgstr "الفصل التالي"
 msgid "Previous chapter"
 msgstr "الفصل السابق "
 
-#: src/input/vlm.c:605 src/input/vlm.c:973
+#: src/input/vlm.c:611 src/input/vlm.c:969
 #, c-format
 msgid "Media: %s"
 msgstr "وسائط: %s"
@@ -1380,24 +1381,24 @@ msgstr ""
 "\n"
 "... إضغط على دخول للمواصلة\n"
 
-#: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
+#: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "قرّب"
 
-#: src/libvlc.h:174 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
+#: src/libvlc.h:176 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "1:4 الربع"
 
-#: src/libvlc.h:175 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
+#: src/libvlc.h:177 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "1:2 النصف"
 
-#: src/libvlc.h:176 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
+#: src/libvlc.h:178 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "1:1 الأصلي"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
+#: src/libvlc.h:179 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "2:1 مزدوج"
 
@@ -1760,7 +1761,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:382
 msgid "None"
 msgstr "لا شيء"
 
@@ -1871,8 +1872,8 @@ msgid ""
 "centered (0=center, 1=left, 2=right, 4=top, 8=bottom, you can also use "
 "combinations of these values, like 6=4+2 meaning top-right)."
 msgstr ""
-"إجبار الوضع الخطي للفديو في النافذة، فرضًا (0):سيكون محورها ( المركز=0 "
-"،اليسار=1 ،اليمين = 2 ، اعلى=4 ، 8 اسفل=8 ، يمكنك ايضا استخدام مزيج من هذه "
+"إجبار الوضع الخطي للفديو في النافذة، فرضًا (0):سيكون محورها ( المركز=0 ،"
+"اليسار=1 ،اليمين = 2 ، اعلى=4 ، 8 اسفل=8 ، يمكنك ايضا استخدام مزيج من هذه "
 "القيم ، مثل 6 = 4 +2 يعنى أعلى اليمين )"
 
 #: src/libvlc-module.c:412 src/libvlc-module.c:493
@@ -2057,13 +2058,13 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "الغاء التشويش"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "نمط الغاء التشويش"
@@ -2288,8 +2289,8 @@ msgid ""
 "incorrectly sets height to 1088 lines. You should only disable this option "
 "if your video has a non-standard format requiring all 1088 lines."
 msgstr ""
-".شكل شرائط فيديو حتى لو كسرت آلة التشفير خطأ يحدد طول الخطوط الى 1088 HDTV-"
-"1080 وهذا يتيح التعامل السليم\n"
+".شكل شرائط فيديو حتى لو كسرت آلة التشفير خطأ يحدد طول الخطوط الى 1088 "
+"HDTV-1080 وهذا يتيح التعامل السليم\n"
 ".عليك فقط تعطيل هذا الخيار اذا كان جوابكم فيديو غير موحد يلزم جميع خطوط 1088"
 
 #: src/libvlc-module.c:591
@@ -4655,7 +4656,7 @@ msgid "Downloading ..."
 msgstr "التنزيل..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:643 modules/demux/avi/avi.c:2337
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4753,7 +4754,7 @@ msgstr "صناعي"
 msgid "Undefined"
 msgstr "غير معرف"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "نوعية بعد المعالجة"
@@ -5733,12 +5734,12 @@ msgstr "DVD بقوائم"
 msgid "DVDnav Input"
 msgstr "مدخل DVDnav"
 
-#: modules/access/dvdnav.c:312 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr "فشل اعادة التشغيل "
 
-#: modules/access/dvdnav.c:313
+#: modules/access/dvdnav.c:326
 #, fuzzy
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
@@ -6017,11 +6018,11 @@ msgstr "مدخل HTTP"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "استيثاق HTTP"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, fuzzy, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr ".يرجى إدخال  إسم دخول وكلمة السرصالحين "
@@ -7273,7 +7274,7 @@ msgstr "القرص"
 msgid "VCD Format"
 msgstr "نسق VCD"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:298
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
 msgid "Application"
 msgstr "تطبيق"
 
@@ -7922,8 +7923,8 @@ msgstr "مكسب النطاقات"
 #, fuzzy
 msgid ""
 "Don't use presets, but manually specified bands. You need to provide 10 "
-"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 -"
-"2 0 2\"."
+"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
+"-2 0 2\"."
 msgstr ""
 "20db  -20db لا تستخدم التجهيزات المسبقه ، ولكن  نطاقات يدوية محددة انت في "
 "حاجة الى توفير 10 قيم بين\n"
@@ -8121,7 +8122,7 @@ msgstr "(Db) كسب التردد 3 "
 msgid "Freq 3 Q"
 msgstr "Q التردد 3  "
 
-#: modules/audio_filter/resampler/bandlimited.c:93
+#: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
 msgstr "مُرشح  الصوت لآخذ العينات بالزيادة  في النطاق المختصر  "
 
@@ -8450,14 +8451,14 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:799
-#: modules/gui/qt4/main_interface.cpp:803
-#: modules/gui/qt4/main_interface.cpp:843
-#: modules/gui/qt4/main_interface.cpp:845
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:930
-#: modules/gui/qt4/main_interface.cpp:937
-#: modules/gui/qt4/main_interface.cpp:960
+#: modules/gui/qt4/main_interface.cpp:808
+#: modules/gui/qt4/main_interface.cpp:812
+#: modules/gui/qt4/main_interface.cpp:852
+#: modules/gui/qt4/main_interface.cpp:854
+#: modules/gui/qt4/main_interface.cpp:922
+#: modules/gui/qt4/main_interface.cpp:939
+#: modules/gui/qt4/main_interface.cpp:946
+#: modules/gui/qt4/main_interface.cpp:969
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "مشغل الوسائط VLC"
@@ -8600,15 +8601,15 @@ msgstr " سمعي /مرمز فديو FFmpeg "
 msgid "FFmpeg deinterlace video filter"
 msgstr "FFmpeg deinterlace مرشح الفيديو "
 
-#: modules/codec/avcodec/avcodec.h:71 modules/codec/avcodec/avcodec.h:73
+#: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
 msgstr "تصيير مباشر"
 
-#: modules/codec/avcodec/avcodec.h:75
+#: modules/codec/avcodec/avcodec.h:76
 msgid "Error resilience"
 msgstr "خطأ المرونة"
 
-#: modules/codec/avcodec/avcodec.h:77
+#: modules/codec/avcodec/avcodec.h:78
 #, fuzzy
 msgid ""
 "FFmpeg can do error resilience.\n"
@@ -8621,11 +8622,11 @@ msgstr ""
 "يمكنه انتاج  العديد من الأخطاء   (M$ من آلة التشفير ISO MPEG - مثل 4 )\n"
 ".(القيم الصحيحة تتراوح بين 4 و0 (0 يعطل كل أخطاء مرونة"
 
-#: modules/codec/avcodec/avcodec.h:82
+#: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
 msgstr " حلّ الخلل"
 
-#: modules/codec/avcodec/avcodec.h:84
+#: modules/codec/avcodec/avcodec.h:85
 msgid ""
 "Try to fix some bugs:\n"
 "1  autodetect\n"
@@ -8635,8 +8636,8 @@ msgid ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"This must be the sum of the values. For example, to fix \"ac vlc\" and \"ump4"
-"\", enter 40."
+"This must be the sum of the values. For example, to fix \"ac vlc\" and "
+"\"ump4\", enter 40."
 msgstr ""
 ":محاولة لتحديد بعض العلل\n"
 "1  autodetect\n"
@@ -8649,12 +8650,12 @@ msgstr ""
 "،   هكذا يجب ان يكون مجموع قيم.على سبيل المثال، \n"
 " to fix \"ac vlc\" and \"ump4\", enter 40."
 
-#: modules/codec/avcodec/avcodec.h:95 modules/codec/avcodec/avcodec.h:198
+#: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
 msgstr "نسرع"
 
-#: modules/codec/avcodec/avcodec.h:97
+#: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
@@ -8664,50 +8665,50 @@ msgstr ""
 "ومن المفيد مع وحدة المعالجه المركزية منخفض الطاقة لكنها يمكن ان تنتج صورا "
 "مشوهه."
 
-#: modules/codec/avcodec/avcodec.h:101
+#: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:103
+#: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:105
+#: modules/codec/avcodec/avcodec.h:106
 #, fuzzy
 msgid "Skip frame (default=0)"
 msgstr "تجاهل اطارات"
 
-#: modules/codec/avcodec/avcodec.h:107
+#: modules/codec/avcodec/avcodec.h:108
 msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:110
+#: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:112
+#: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:115
+#: modules/codec/avcodec/avcodec.h:116
 msgid "Debug mask"
 msgstr "قناع التنقيح"
 
-#: modules/codec/avcodec/avcodec.h:116
+#: modules/codec/avcodec/avcodec.h:117
 #, fuzzy
 msgid "Set FFmpeg debug mask"
 msgstr "ffmpeg أضبط قناع التنقيح ل "
 
-#: modules/codec/avcodec/avcodec.h:119
+#: modules/codec/avcodec/avcodec.h:120
 msgid "Visualize motion vectors"
 msgstr " اعرض أشعة الحركة"
 
-#: modules/codec/avcodec/avcodec.h:121
+#: modules/codec/avcodec/avcodec.h:122
 msgid ""
 "You can overlay the motion vectors (arrows showing how the images move) on "
 "the image. This value is a mask, based on these values:\n"
@@ -8723,21 +8724,21 @@ msgstr ""
 "3.B framesل  MVs  تصور  تنبأ آلي خلف  .  \n"
 ".لرؤية جميع الأشعة القيمة تجب أن تكون 7"
 
-#: modules/codec/avcodec/avcodec.h:128
+#: modules/codec/avcodec/avcodec.h:129
 msgid "Low resolution decoding"
 msgstr "كشف الرموز بميز ضعيف"
 
-#: modules/codec/avcodec/avcodec.h:129
+#: modules/codec/avcodec/avcodec.h:130
 msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
 msgstr "لا يشفر سوى النسخ الضعيفة من هذا الشريط. ويتطلب هذا اقل التجهيزيات"
 
-#: modules/codec/avcodec/avcodec.h:132 modules/gui/macosx/simple_prefs.m:262
+#: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
 msgstr "H.264 لا مرشح الدورة لفك الترميز "
 
-#: modules/codec/avcodec/avcodec.h:133
+#: modules/codec/avcodec/avcodec.h:134
 msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
@@ -8745,70 +8746,70 @@ msgstr ""
 ". لا تستعمل مرشح الدورة ، له فعل سلبي على الجودة، لكن سرّع التدفق ذو الجودة "
 "العالية"
 
-#: modules/codec/avcodec/avcodec.h:137
+#: modules/codec/avcodec/avcodec.h:138
 #, fuzzy
 msgid "Hardware decoding"
 msgstr "ترميز مشابك"
 
-#: modules/codec/avcodec/avcodec.h:138
+#: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
 msgstr ""
 
-#: modules/codec/avcodec/avcodec.h:145
+#: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
 msgstr "نسبة الإطارات الرئيسية"
 
-#: modules/codec/avcodec/avcodec.h:146
+#: modules/codec/avcodec/avcodec.h:147
 msgid "Number of frames that will be coded for one key frame."
 msgstr ".عدد الإطارات المشفرة للإطار المفتاح واحد"
 
-#: modules/codec/avcodec/avcodec.h:149
+#: modules/codec/avcodec/avcodec.h:150
 msgid "Ratio of B frames"
 msgstr "B نسبة الإطارات "
 
-#: modules/codec/avcodec/avcodec.h:150
+#: modules/codec/avcodec/avcodec.h:151
 msgid "Number of B frames that will be coded between two reference frames."
 msgstr ".عدد الإطارات المشفرة بين إطارين مرجعيين"
 
-#: modules/codec/avcodec/avcodec.h:153
+#: modules/codec/avcodec/avcodec.h:154
 msgid "Video bitrate tolerance"
 msgstr "الإستجابة لتدفق الفديو"
 
-#: modules/codec/avcodec/avcodec.h:154
+#: modules/codec/avcodec/avcodec.h:155
 msgid "Video bitrate tolerance in kbit/s."
 msgstr ".الإستجابة على معدل بت الفديو ب كلو بت/ثا"
 
-#: modules/codec/avcodec/avcodec.h:156
+#: modules/codec/avcodec/avcodec.h:157
 msgid "Interlaced encoding"
 msgstr "ترميز مشابك"
 
-#: modules/codec/avcodec/avcodec.h:157
+#: modules/codec/avcodec/avcodec.h:158
 msgid "Enable dedicated algorithms for interlaced frames."
 msgstr ".إستعمل قواعد محددة للإطارات المشابكة"
 
-#: modules/codec/avcodec/avcodec.h:160
+#: modules/codec/avcodec/avcodec.h:161
 msgid "Interlaced motion estimation"
 msgstr "تقدير الحركة المشابكة"
 
-#: modules/codec/avcodec/avcodec.h:161
+#: modules/codec/avcodec/avcodec.h:162
 msgid "Enable interlaced motion estimation algorithms. This requires more CPU."
 msgstr ""
 ".يمكن تقدير الخوارزميات المتداخله الاقتراح. وهذا يتطلب المزيد من وحدة "
 "المعالجه المركزية"
 
-#: modules/codec/avcodec/avcodec.h:164
+#: modules/codec/avcodec/avcodec.h:165
 msgid "Pre-motion estimation"
 msgstr "التقدير الأولي للحركة"
 
-#: modules/codec/avcodec/avcodec.h:165
+#: modules/codec/avcodec/avcodec.h:166
 msgid "Enable the pre-motion estimation algorithm."
 msgstr ".تمكين قبل الاقتراح تقدير الخوارزميه"
 
-#: modules/codec/avcodec/avcodec.h:168
+#: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
 msgstr "حجم صوان مراقبة التدفق"
 
-#: modules/codec/avcodec/avcodec.h:169
+#: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
@@ -8816,19 +8817,19 @@ msgstr ""
 ".(معدل حجم سيطرة الصوان (بالكيلو بايت\n"
 ".عازلة سيتيح تحسين المراقبة ، ولكن سيسبب  تأخير في التدفق"
 
-#: modules/codec/avcodec/avcodec.h:173
+#: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
 msgstr "قدرة مراقبة التدفق"
 
-#: modules/codec/avcodec/avcodec.h:174
+#: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
 msgstr ".قدرة مراقبة التدفق"
 
-#: modules/codec/avcodec/avcodec.h:177
+#: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
 msgstr "I quantization عامل "
 
-#: modules/codec/avcodec/avcodec.h:179
+#: modules/codec/avcodec/avcodec.h:180
 msgid ""
 "Quantization factor of I frames, compared with P frames (for instance 1.0 => "
 "same qscale for I and P frames)."
@@ -8836,12 +8837,12 @@ msgstr ""
 " على سبيل المثال,P-FRAMES مقارنة مع ,I-FRAMES التقسيم  الكمي لعامل\n"
 ".FRAMES I و P  <= 1.0 لنفس النطاق "
 
-#: modules/codec/avcodec/avcodec.h:182 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "تقليل التشويش"
 
-#: modules/codec/avcodec/avcodec.h:183
+#: modules/codec/avcodec/avcodec.h:184
 msgid ""
 "Enable a simple noise reduction algorithm to lower the encoding length and "
 "bitrate, at the expense of lower quality frames."
@@ -8849,11 +8850,11 @@ msgstr ""
 ".يمكن خفض ضوضاء الخوارزمية بخفض التشفير طولي ومعدل البت,على حساب تدني نوعية "
 "الاطر"
 
-#: modules/codec/avcodec/avcodec.h:187
+#: modules/codec/avcodec/avcodec.h:188
 msgid "MPEG4 quantization matrix"
 msgstr " MPEG4 مصفوفة التقسيمإلى كميّات ل "
 
-#: modules/codec/avcodec/avcodec.h:188
+#: modules/codec/avcodec/avcodec.h:189
 msgid ""
 "Use the MPEG4 quantization matrix for MPEG2 encoding. This generally yields "
 "a better looking picture, while still retaining the compatibility with "
@@ -8862,17 +8863,17 @@ msgstr ""
 ". MPEG2 عادة هذه افضل صورة ,بينما لا نزال نحتفظ التوافق مع معاير المشفر . "
 "MPEG2 من المشفر MPEG4 استخدام مصفوفه التقسيم"
 
-#: modules/codec/avcodec/avcodec.h:193
+#: modules/codec/avcodec/avcodec.h:194
 msgid "Quality level"
 msgstr "مستوى الجودة"
 
-#: modules/codec/avcodec/avcodec.h:194
+#: modules/codec/avcodec/avcodec.h:195
 msgid ""
 "Quality level for the encoding of motions vectors (this can slow down the "
 "encoding very much)."
 msgstr ".(مستوى الجوده لتشفير الاقتراحات ناقلات (وهذا يمكن ان تبطئ التشفير"
 
-#: modules/codec/avcodec/avcodec.h:199
+#: modules/codec/avcodec/avcodec.h:200
 msgid ""
 "The encoder can make on-the-fly quality tradeoffs if your CPU can't keep up "
 "with the encoding rate. It will disable trellis quantization, then the rate "
@@ -8884,83 +8885,83 @@ msgstr ""
 "وسوف يعجز تعريشه التقسيم الى كميات فان معدل تشويه نواقل الحركة القيادة "
 "العامة) ، ورفع الحد الادنى الى مستوى الضوضاء تخفيف آلة التشفير مهمة )"
 
-#: modules/codec/avcodec/avcodec.h:205
+#: modules/codec/avcodec/avcodec.h:206
 msgid "Minimum video quantizer scale"
 msgstr "أدنى سلم لتقسيم الفديو إلى كميات صغيرة"
 
-#: modules/codec/avcodec/avcodec.h:206
+#: modules/codec/avcodec/avcodec.h:207
 msgid "Minimum video quantizer scale."
 msgstr "أدنى سلم لتقسيم الفديو إلى كميات صغيرة."
 
-#: modules/codec/avcodec/avcodec.h:209
+#: modules/codec/avcodec/avcodec.h:210
 msgid "Maximum video quantizer scale"
 msgstr "أقصى سلم لتقسيم الفديو إلى كميات صغيرة"
 
-#: modules/codec/avcodec/avcodec.h:210
+#: modules/codec/avcodec/avcodec.h:211
 msgid "Maximum video quantizer scale."
 msgstr "أقصى سلم لتقسيم الفديو إلى كميات صغيرة."
 
-#: modules/codec/avcodec/avcodec.h:213
+#: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
 msgstr "Trellis التقسيم إلى كميّات صغيرة  ل   "
 
-#: modules/codec/avcodec/avcodec.h:214
+#: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
 msgstr ""
 " ( تشويه معدّل البت لمعاملات الكتل) trellis شغِّل التقسيم إلى كميّات صغيرة  ل  "
 
-#: modules/codec/avcodec/avcodec.h:217
+#: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
 msgstr " تحديد سلم التقسيم إلى كميّات صغيرة "
 
-#: modules/codec/avcodec/avcodec.h:218
+#: modules/codec/avcodec/avcodec.h:219
 msgid ""
 "A fixed video quantizer scale for VBR encoding (accepted values: 0.01 to "
 "255.0)."
 msgstr ""
 ".(سلم التقسيم إلى كميّات صغيرة ثابت للترميز (القيم المقبولة من0.01 إلى 255.0"
 
-#: modules/codec/avcodec/avcodec.h:221
+#: modules/codec/avcodec/avcodec.h:222
 msgid "Strict standard compliance"
 msgstr "إلتزام صارم للمعايير"
 
-#: modules/codec/avcodec/avcodec.h:222
+#: modules/codec/avcodec/avcodec.h:223
 msgid ""
 "Force a strict standard compliance when encoding (accepted values: -1, 0, 1)."
 msgstr ".(أجبر الإلتزام صارم للمعايير عند الترميز (القيم المقبولة: -1، 0، 1"
 
-#: modules/codec/avcodec/avcodec.h:225
+#: modules/codec/avcodec/avcodec.h:226
 msgid "Luminance masking"
 msgstr "إخفاء الإضاءة"
 
-#: modules/codec/avcodec/avcodec.h:226
+#: modules/codec/avcodec/avcodec.h:227
 msgid "Raise the quantizer for very bright macroblocks (default: 0.0)."
 msgstr ".(رفع التقسيم إلى كميّات صغيرة للماكرو كتل المضيئة جداً( إفتراضياً:0.0"
 
-#: modules/codec/avcodec/avcodec.h:229
+#: modules/codec/avcodec/avcodec.h:230
 msgid "Darkness masking"
 msgstr "إخفاء الظلام"
 
-#: modules/codec/avcodec/avcodec.h:230
+#: modules/codec/avcodec/avcodec.h:231
 msgid "Raise the quantizer for very dark macroblocks (default: 0.0)."
 msgstr ".(رفع التقسيم إلى كميّات صغيرة للماكرو كتل المظلمة جداً( إفتراضياً:0.0"
 
-#: modules/codec/avcodec/avcodec.h:233
+#: modules/codec/avcodec/avcodec.h:234
 msgid "Motion masking"
 msgstr "إخفاء الحركة"
 
-#: modules/codec/avcodec/avcodec.h:234
+#: modules/codec/avcodec/avcodec.h:235
 msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
 msgstr ""
 ".(رفع التقسيم إلى كميّات صغيرة للماكرو كتل التي تشكل حركة مهمة( إفتراضياً:0.0"
 
-#: modules/codec/avcodec/avcodec.h:237
+#: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
 msgstr "إخفاء الحدود "
 
-#: modules/codec/avcodec/avcodec.h:238
+#: modules/codec/avcodec/avcodec.h:239
 msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
@@ -8968,11 +8969,11 @@ msgstr ""
 ".(المقسم الى كميات صغيرة من اجل رفع الكتلال الصغيرة في حدود الاطار"
 "(فرضًا :0.0 )"
 
-#: modules/codec/avcodec/avcodec.h:241
+#: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
 msgstr "إزالة الإضاءة "
 
-#: modules/codec/avcodec/avcodec.h:242
+#: modules/codec/avcodec/avcodec.h:243
 msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
@@ -8980,11 +8981,11 @@ msgstr ""
 ".4-توصي المواصفات H264.(ليس هناك تغيير(فرضًا :0.0  PSNR  يزيل  الكتل  المضيئة "
 "عندما"
 
-#: modules/codec/avcodec/avcodec.h:246
+#: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
 msgstr "Chrominance إزالة "
 
-#: modules/codec/avcodec/avcodec.h:247
+#: modules/codec/avcodec/avcodec.h:248
 msgid ""
 "Eliminates chrominance blocks when the PSNR isn't much changed (default: "
 "0.0). The H264 specification recommends 7."
@@ -8992,29 +8993,29 @@ msgstr ""
 ".توصي المواصفات 7 H264.(ليس هناك تغيير(فرضًا :0.0  PSNR  يزيل  الكتل  المُظلمة "
 "عندما"
 
-#: modules/codec/avcodec/avcodec.h:251
+#: modules/codec/avcodec/avcodec.h:252
 #, fuzzy
 msgid "Specify AAC audio profile to use"
 msgstr "يحدد ديينتيرلاكي نموذج الإستخدام."
 
-#: modules/codec/avcodec/avcodec.h:252
+#: modules/codec/avcodec/avcodec.h:253
 msgid ""
 "Specify the AAC audio profile to use for encoding the audio bitstream. It "
 "takes the following options: main, low, ssr (not supported) and ltp "
 "(default: main)"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:222
+#: modules/codec/avcodec/encoder.c:225
 #, c-format
 msgid "\"%s\" is no video encoder."
 msgstr ".\"%s\" لا يوجد كاشف رموز للفديو"
 
-#: modules/codec/avcodec/encoder.c:230
+#: modules/codec/avcodec/encoder.c:233
 #, c-format
 msgid "\"%s\" is no audio encoder."
 msgstr ".\"%s\" لا يوجد كاشف رموز سمعي"
 
-#: modules/codec/avcodec/encoder.c:256
+#: modules/codec/avcodec/encoder.c:259
 #, c-format
 msgid ""
 "It seems your FFMPEG (libavcodec) installation lacks the following encoder:\n"
@@ -9025,7 +9026,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:651 modules/codec/avcodec/encoder.c:660
+#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
 msgid "VLC could not open the encoder."
 msgstr "لم يستطع VLC فتح المُرمّز."
 
@@ -9089,7 +9090,7 @@ msgstr "أرجواني"
 msgid "Enable adaptive prefiltering"
 msgstr "تمكين / تعطيل أداء الصوت."
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "لا شيئ "
 
@@ -9347,7 +9348,7 @@ msgstr " للعنوان الثانوي المرمّز Y موقع "
 msgid "DVB subtitles decoder"
 msgstr "كاشف الرموز للعناوين الثانوية DVB"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 #, fuzzy
 msgid "DVB subtitles"
 msgstr "العناوين الفرعية "
@@ -10409,11 +10410,11 @@ msgstr "المرمز السمعي Vorbis"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr ""
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "GOP الحجم الأقصى ل "
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10421,11 +10422,11 @@ msgstr ""
 "وبالتالي تحسين نوعية نظرا لمعدل البت في تكلفة البحث بدقة.  اكبر القيم لحفظ "
 "البتت  . IDR-frames مجموعات القصوى الفاصله بين"
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "GOP الحجم الأدنى ل "
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10444,11 +10445,11 @@ msgstr ""
 ".GOP لكن لا تبداء من جديد, I-framesاذا يبدو المشهد التخفيضات فى هذا الفترة ، "
 "فانها ما زالت على شكل رموز ف "
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "العدوانيI-frames  خارج "
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10466,30 +10467,30 @@ msgstr ""
 ".من الأطر، وربما يؤدي الىالتشفير القبيح . مجموعة 1 الى 100 keyint هي عبارة "
 "عن  I-frame  لذا فان , scene-cut  يعطل  -1"
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "P و I بين B  الإطارات "
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr ".(من 1 إلى 16 ) P  و I  المتتالية بين B  عدد الإطارات   "
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "B إستعمال تكيفي لإطارات "
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 #, fuzzy
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
 msgstr ".I- لاستخدامهاالا ربما قبل اطر  ،B-اجبار عدد محدد من متتالية اطر"
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "B إستعمال إطارات "
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
@@ -10497,11 +10498,11 @@ msgstr ""
 ".B-اطر القيم السلبيه تسبب اقل  أطر,B-لقيم الايجابية سبب العديد من الأطر ,B-"
 "الانحياز الى خيار استخدام أطر "
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr " للإشارات  B ترك بعض الإطارات "
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 #, fuzzy
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
@@ -10515,7 +10516,7 @@ msgstr ""
 "  يبقى  الوسط من +2 \n"
 ".متتالية فاطر مرجعيه ، والمخزن الاطار المناسب"
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10525,11 +10526,11 @@ msgstr ""
 "  يبقى  الوسط من +2 \n"
 ".متتالية فاطر مرجعيه ، والمخزن الاطار المناسب"
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10537,11 +10538,11 @@ msgstr ""
 " CABAC (Context-Adaptive Binary Arithmetic Coding).\n"
 ".بقليل يبطئ تشفير وفك ، ولكن يجب انقاذ 10 الى 15 ٪ معدل البت"
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "عدد الإطارات المرجعيّة"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10551,19 +10552,19 @@ msgstr ""
 "التنبؤ. هذا  فعال في انيمي ، لكن لايوجد فرق معتبر للمشاهد الحيّة. بعض أجهزة "
 "فك الرموز غير قادرين على التعامل مع  القيم المرتفعة"
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "تخطى مرشح الحلقة"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr ".بطّل مرشح الدورة. هذا ينقص الجودة"
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "وبيتا  ، البارامترات  الفا : بيتا C0 الداره مرشح الفا "
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10571,11 +10572,11 @@ msgstr ""
 ".والبارامترات بيتا .مجموعة -6 الى 6 لكل البارامترات الفا و بيتا. -6  يعني "
 "بالضوء مرشح ، 6 يعني قوية  C0  الداره مرشح الفا "
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "H.264 المستوى  "
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
@@ -10585,70 +10586,70 @@ msgstr ""
 ".مستويات لا تنفذ ؛ انه يصل الى المستعمل لاختيار مستوى يتوافق مع بقية "
 "الخيارات التشفير. مجموعة 1 الى 5.1) من 10 الى 51 كما سمحت) "
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 #, fuzzy
 msgid "H.264 profile"
 msgstr "H.264 المستوى  "
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "طريقة المشابكه "
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr ".طريقة المشابكه نقيه "
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr ""
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr ""
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 #, fuzzy
 msgid "Use mb-tree ratecontrol"
 msgstr "مراقبة صارمة للتدفق"
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 #, fuzzy
 msgid "Force number of slices per frame"
 msgstr "CD عدد الكتل المعدة  للقراءة في كل مرة على"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr ""
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr ""
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr ""
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "اضبط QP"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10657,78 +10658,78 @@ msgstr ""
 "الاخلاص ، ولكن أعلى بيترات.القيمه 26  هى التقصير جيدا .مجموعة 0 (بلا خسائر) "
 "51."
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "VBR بالنوعيّة"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr ".من 0 إلى 51 .VBR نوعية المرور على اساس "
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr " QP الأدنى"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr ""
 ".أدنى بارامتر للمقسم الى كميات صغيرة. 15 الى 35 ويبدو ان هناك مجموعة جيدة"
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "الأعلى QP "
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr ".اقصى  بارامتر للمقسم الى كميات صغيرة"
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "QP أعلى خطوة "
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr ".بين إطارين QP  أقصى خطوة "
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "متوسط الإستجابة على معدل البت"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr ".( يسمح الفرق في متوسط معدل البت  (في كيلوبايت / ثا"
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "أعلى معدّل بت محليّ"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr ".(مجموعات كحد اقصى معدل البت المحلية (في كيلوبايت / ثا"
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "صِوان VBV"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr ".(متوسط مدة اقصاها المحلية معدل البت (في كيلوبايت "
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "VBV شغل إبتدائي للصِوان "
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr ".هذا يعِّد شغل الصوان الأولي ككسر بحجم الصوان"
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr ""
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -10737,12 +10738,12 @@ msgid ""
 "frame"
 msgstr ""
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 #, fuzzy
 msgid "Strength of AQ"
 msgstr "طريقة  الدَفق "
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -10750,35 +10751,35 @@ msgid ""
 " - 1.5: strong AQ"
 msgstr ""
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "P و I بين QP العامل "
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr ".المدى 1.0 إلى 2.0  P و I بين QP العامل "
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "B و P بين QP العامل "
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr ".المدى 1.0 إلى 2.0  B و P بين QP العامل "
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "بين كروماولما QP الفرق "
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr ".QP الفرق بين كروما و لما "
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "Multipass ratecontrol"
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -10790,35 +10791,35 @@ msgstr ""
 "-2 : آخر اصدار ، عدم إعادة كتابة  ملف  احصائيات \n"
 "-3 : تمريرة من الجلي ، إعادة كتابة  ملف  احصائيات \n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "QP منحني الضغط "
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr ".(QCP) إلى 1.0(CBR)  من 0.0 QP منحني الضغط"
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "QP  نقص التقلّب في "
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
 msgstr "وهذا يقلل من التقلبات فيQP  قبل منحني الضغط. زمانيا يطمس التعقيد."
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
 msgstr ".بعد منحني الضغط. يطمس كمومات زمنيا QP في fluctations وهذا يقلل  "
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "حواجز للإعتبار"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -10835,19 +10836,19 @@ msgstr ""
 " -الكلّ  :i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 requires p8x8. i8x8 requires 8x8dct)."
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "MV نمط التوقع لأشعة "
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr ".MV نمط التوقع لأشعة الترقب المباشر "
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "حجم الترقب المباشر"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -10857,31 +10858,31 @@ msgstr ""
 " -  1: 8x8\n"
 " - -1: الأصغر بالإمكان وفقاً للمستوى \n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "B التوقع الموزون للإطارات "
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "B التوقع الموزون للإطارات "
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 #, fuzzy
 msgid "Weighted prediction for P-frames"
 msgstr "B التوقع الموزون للإطارات "
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
 " - 2: Smart analysis\n"
 msgstr ""
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "طريقة تقدير الحركة"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 #, fuzzy
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
@@ -10896,11 +10897,11 @@ msgstr ""
 " - umh:تفاوت متعددة سداسي البحث (افضل لكن ابطأ) \n"
 " - esa:بحث شامل (بطيءه للغاية ، وبصورة رئيسية لاختبار)\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "أقصى مسافة بحث"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -10910,43 +10911,43 @@ msgstr ""
 "لمعظم الأفلام ،وارتفاع الطلب سلاسل قد تستفيد من الاوضاع بين 24 و 32.  مجموعة "
 "من 0 الى 64"
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "الإنتقال الأقصى لشعاع الطول"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
 "اقصى طول  حركة الاقتراح في عناصر الصور. -1 تلقائيا ، استنادا الى المستوى"
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 #, fuzzy
 msgid "Minimum buffer space between threads"
 msgstr "تصغير عدد من المؤشرات"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 #, fuzzy
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr "تصغير عدد من المؤشرات"
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr ""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
 msgstr ""
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr "وتقدير النوعيه  ، Subpixel  اقتراح قرار التقسيم"
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 #, fuzzy
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
@@ -10956,21 +10957,21 @@ msgstr ""
 ".هذا المعلم ضوابط الجوده مقابل السرعه المبادلات المشاركة في عملية اتخاذ "
 "القرار الاقتراح تقدير (اقل = أسرع وأعلى = افضل نوعية) . مجموعة 1 الى 7"
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "B-frames قرار ب RD نمط  اساس   "
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
 "6  subme يتطلب هذا .B-الطريقة الثالثة يقوم مقرر لأطر RD\n"
 ".(او اكثر) "
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "تقرير المراجع على اساس التقسيم الواحد"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -10978,35 +10979,35 @@ msgstr ""
 ".macroblock يسمح كل 16*8  او 16*8 التقسيم على نحو مستقل في اختيار الاطار "
 "المرجعي ، في مقابل واحد فقط لكل المرجع "
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "إغفال كروما في تقدير الحركة "
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr ".P-frames واسطة قرار في ME  subpel كروما   "
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "B-frames في MVs   معا الامثل  "
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr ".مشترك ثنائي الاتجاه اقتراح التنقيح"
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr " حجم التحويل المكيف الملائم"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr ". inter-MBs مقرر8 *8  لاستلام تحويل فيما بين    SATD-based"
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "تعريشه RD  التقسيم الى كميات"
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -11020,19 +11021,19 @@ msgstr ""
 " -2: على طريقة تمكن جميع القرارات\n"
 ".This requires CABAC."
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "كشفSKIP مبكر على إطارات P"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr ".كشفSKIP مبكر على إطارات P"
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr ".P-على الأطر   thresholding  معامل"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
@@ -11040,16 +11041,16 @@ msgstr ""
 ".P-على الأطر   thresholding  معامل\n"
 ".القضاء الائتماني كتل صغيرة لا تحوي سوى على احد المعاملات"
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 #, fuzzy
 msgid "Use Psy-optimizations"
 msgstr "تحقيق الأمثلية CPU"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
@@ -11058,162 +11059,177 @@ msgstr ""
 "من 10 إلى 1000. pseudo-deadzone التكيفيه \n"
 "يبدو انها مجموعة مفيدة."
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "التقسيم لمى الى كميات منطقة ميتة "
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr "حدد حجم المشتركة التقسيم  لمى الى كميات منطقة ميتة. 0 مجموعة الى 32. "
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "التقسيم لمى الى كميات داخل منطقة ميتة"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr "حجم مجموعة من داخل التقسيم الى كميات ديادزوني بجروح. 0 مجموعة الى 32. "
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr ""
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr ""
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "تحقيق الأمثلية CPU"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr ".إستعمال التحسينات CPU مُجمِّع"
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "لتمرير إسم الملف 2 الملف احصائيات"
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr ".لتمرير إسم الملف 2 الملف احصائيات التشفير المتعددة المرور"
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "الحساب PSNR"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
 msgstr ".احصائيات. وهذا لا يؤثر على نوعية التشفير الفعلي PSNR  حساب  وطبع "
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "الحساب SSIM"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
 msgstr ".احصائيات. وهذا لا يؤثر على نوعية التشفير الفعلي SSIM  حساب  وطبع "
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "نمط هادئ"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "نمط هادئ"
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "إحصائيات"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr ".إعرض الإحصائيات لكل إطار"
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "SPS وPPS ID  ارقام "
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr ".مجموعة SPS  و PPS  للسماح لإلساق اعداد الجداول مع بيئات مختلفة"
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "وصول وحدة علامات البداية او النهاية "
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr ".وصول وحدة توليد ديليميتير NAL الوحدات"
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr ""
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
 "yet"
 msgstr ""
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+#, fuzzy
+msgid "HRD-timing information"
+msgstr "نسخة مطبوعة للمعلوات"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 #, fuzzy
 msgid "tesa"
 msgstr "esa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "سريع"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "عادي"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "بطيئ"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "جميع"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "مكاني"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "زمني"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "آلي"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 #, fuzzy
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "(H.264/MPEG4 AVC  آلة التشفير (بإستخدامالمكتبه x264 "
@@ -12364,19 +12380,19 @@ msgstr "Ffmpeg mux"
 msgid "Force use of ffmpeg muxer."
 msgstr "ffmpeg muxer أجبر إستعمال  "
 
-#: modules/demux/avi/avi.c:49
+#: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
 msgstr "اسلوب القوة بين- الاجازه "
 
-#: modules/demux/avi/avi.c:50
+#: modules/demux/avi/avi.c:51
 msgid "Force interleaved method."
 msgstr "طريقة قوة المدخل"
 
-#: modules/demux/avi/avi.c:52
+#: modules/demux/avi/avi.c:53
 msgid "Force index creation"
 msgstr "انشاء قوة الفهرس"
 
-#: modules/demux/avi/avi.c:54
+#: modules/demux/avi/avi.c:55
 msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
@@ -12384,28 +12400,28 @@ msgstr ""
 " متضرر أو ناقص AVI استعمال هذا إذا كان الملف .AVIإعادة  تكوين الفهرس من أجل "
 "الملف"
 
-#: modules/demux/avi/avi.c:62
+#: modules/demux/avi/avi.c:63
 #, fuzzy
 msgid "Ask for action"
 msgstr " معلومات "
 
-#: modules/demux/avi/avi.c:63
+#: modules/demux/avi/avi.c:64
 msgid "Always fix"
 msgstr "أصلح دائمًا"
 
-#: modules/demux/avi/avi.c:64
+#: modules/demux/avi/avi.c:65
 msgid "Never fix"
 msgstr "لا تصلح أبدًا"
 
-#: modules/demux/avi/avi.c:68
+#: modules/demux/avi/avi.c:69
 msgid "AVI demuxer"
 msgstr "AVI demuxer"
 
-#: modules/demux/avi/avi.c:639
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr "AVI الفهرس"
 
-#: modules/demux/avi/avi.c:640
+#: modules/demux/avi/avi.c:652
 #, fuzzy
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
@@ -12416,15 +12432,15 @@ msgstr ""
 " معطوب،لا يمكن التنقل داخله  AVIهذا الملف \n"
 "? (تريد المحاولة للتصليح (وهذا يمكن ان يستغرق وقتا طويلا "
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "التصليح"
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "لا للتصليح"
 
-#: modules/demux/avi/avi.c:2336
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr "...AVI تثبيث الفهرس "
 
@@ -12628,11 +12644,11 @@ msgstr " منفذ النفق HTTP"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "HTTP  انتهى RTSP/RTP  منفذ استعماله لحفر نفق لـ  "
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "توثيق RTSP"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr ".يرجى إدخال  إسم دخول وكلمة السرصالحين "
 
@@ -12801,11 +12817,11 @@ msgstr "محاصرته مستوى "
 msgid "Surround delay (ms)"
 msgstr "(محاصرته التأخير (م/ثا"
 
-#: modules/demux/mp4/mp4.c:54
+#: modules/demux/mp4/mp4.c:55
 msgid "MP4 stream demuxer"
 msgstr "انساب  MP4 demuxer‎ "
 
-#: modules/demux/mp4/mp4.c:55
+#: modules/demux/mp4/mp4.c:56
 msgid "MP4"
 msgstr "MP4"
 
@@ -13343,20 +13359,20 @@ msgstr "فك تشفير نص الترجمة"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "تالف السمع 16:9 "
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 #, fuzzy
 msgid "DVB subtitles: hearing impaired"
 msgstr "تالف السمع  4:3"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr " مُؤَثرالتنظيف"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "تالف السمع 16:9 "
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "التعليق إعاقة بصريه "
 
@@ -13646,6 +13662,7 @@ msgstr "الوقت"
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
 #: modules/gui/qt4/components/open_panels.cpp:1264
 #: modules/gui/qt4/components/preferences_widgets.cpp:1421
+#: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
 msgstr "نعم"
 
@@ -14975,7 +14992,7 @@ msgid "Subtitles & OSD"
 msgstr "الترجمة/OSD"
 
 #: modules/gui/macosx/simple_prefs.m:192
-#: modules/gui/qt4/components/simple_preferences.cpp:618
+#: modules/gui/qt4/components/simple_preferences.cpp:619
 #, fuzzy
 msgid "Subtitles & On Screen Display Settings"
 msgstr "إعدادات العناوين الثانوية"
@@ -16598,12 +16615,12 @@ msgstr "شغّل"
 msgid "buffers"
 msgstr "صِوان VBV"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:380
 #, fuzzy
 msgid "Current visualization"
 msgstr "مؤثرات بصرية للصوت"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:419
 #, fuzzy
 msgid ""
 "Current playback speed: %1\n"
@@ -16612,21 +16629,21 @@ msgstr ""
 "سرعة التشغيل الحالية.\n"
 "انقر للتسوية"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:490
 msgid "Revert to normal play speed"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:564
 #, fuzzy
 msgid "Download cover art"
 msgstr "ينزل الآن"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:606
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "بدّل بين الوقت المنقضي والباقي"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:608
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "انقر مزدوجًا لتحصل على معلومات الوسيط"
@@ -16909,37 +16926,41 @@ msgstr ""
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
 
-#: modules/gui/qt4/components/simple_preferences.cpp:548
+#: modules/gui/qt4/components/simple_preferences.cpp:524
+msgid "VLC skins website"
+msgstr ""
+
+#: modules/gui/qt4/components/simple_preferences.cpp:549
 #, fuzzy
 msgid "System's default"
 msgstr "مميّز النظام"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:646
+#: modules/gui/qt4/components/simple_preferences.cpp:647
 msgid "Configure Hotkeys"
 msgstr "اضبط المفاتيح الساخنة"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:910
+#: modules/gui/qt4/components/simple_preferences.cpp:911
 #: modules/gui/qt4/dialogs_provider.hpp:51
 #, fuzzy
 msgid "Audio Files"
 msgstr "مُرشحات الصوت"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:911
+#: modules/gui/qt4/components/simple_preferences.cpp:912
 #: modules/gui/qt4/dialogs_provider.hpp:46
 msgid "Video Files"
 msgstr "ملفات الفيديو"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:912
+#: modules/gui/qt4/components/simple_preferences.cpp:913
 #: modules/gui/qt4/dialogs_provider.hpp:56
 msgid "Playlist Files"
 msgstr "ملفات قائمة التشغيل"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:964
+#: modules/gui/qt4/components/simple_preferences.cpp:965
 #, fuzzy
 msgid "&Apply"
 msgstr "تطبيق"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:965
+#: modules/gui/qt4/components/simple_preferences.cpp:966
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
@@ -17151,7 +17172,7 @@ msgid "Errors"
 msgstr "الاخطاء"
 
 #: modules/gui/qt4/dialogs/errors.cpp:48
-#: modules/gui/qt4/dialogs/messages.cpp:184 modules/gui/qt4/menus.cpp:1507
+#: modules/gui/qt4/dialogs/messages.cpp:188 modules/gui/qt4/menus.cpp:1507
 msgid "&Clear"
 msgstr "ام&سح"
 
@@ -17186,6 +17207,46 @@ msgstr "مزامنة الساعة"
 #, fuzzy
 msgid "v4l2 controls"
 msgstr "جهاز التحكم"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:61
+msgid "Privacy and Network Policies"
+msgstr "الخصوصية وسياسات الشبكة"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:69
+msgid "Privacy and Network Warning"
+msgstr "الخصوصية وتحذيرات الشبكة"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:72
+#, fuzzy
+msgid ""
+"<p><i>VideoLAN</i> prefers when applications request authorization before "
+"accessing Internet.</p>\n"
+"<p><b>VLC media player</b> can get information from the Internet in order to "
+"get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
+"<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
+"even anonymously, about your usage.</p>\n"
+msgstr ""
+"<p>لا يحب <i>فريق VideoLAN</i> أن يتصل التطبيق بالإنترنت بدون اذن.</p>\n"
+" <p>يمكن ل<i>مشغل الوسائط VLC</i> جلب معلومات محدودة من الإنترنت للحصول على "
+"أغلفة الاسطوانة أو للاتماس التحديثات.</p>\n"
+"<p><b>لا يرسل ولا يجمع</b> <i>مشغل الوسائط VLC</i> <b>أي</b> معلومات، ولا "
+"حتى بشكل مجهول عن استخدامك.</p>\n"
+"<p>ولذلك اختر رجاءً من الخيارات التالية، وسوف يكون الخيار المبدئي أقرب ما "
+"يكون إلى انعدام الوصول إلى الوِب.</p>\n"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:83
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "خيارات"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:90
+msgid "Allow fetching media information from Internet"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:95
+msgid "Check for updates"
+msgstr "إختيار للتحديث"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -17353,24 +17414,24 @@ msgstr "يحفظ كل السجلات المعروضة إلى ملف"
 msgid "Verbosity Level"
 msgstr "(الإسهاب(0,1,2   "
 
-#: modules/gui/qt4/dialogs/messages.cpp:128
+#: modules/gui/qt4/dialogs/messages.cpp:132
 #, fuzzy
 msgid "Message filter"
 msgstr "فمُرشحات الدخول"
 
-#: modules/gui/qt4/dialogs/messages.cpp:173
+#: modules/gui/qt4/dialogs/messages.cpp:177
 msgid "&Update"
 msgstr "ح&دّث"
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:288
 msgid "Save log file as..."
 msgstr "احفظ ملف السجل كـ..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:292
+#: modules/gui/qt4/dialogs/messages.cpp:290
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr ""
 
-#: modules/gui/qt4/dialogs/messages.cpp:299
+#: modules/gui/qt4/dialogs/messages.cpp:297
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -17779,11 +17840,11 @@ msgstr "ملفات ترجمة"
 msgid "All Files"
 msgstr "كل الملفات"
 
-#: modules/gui/qt4/main_interface.cpp:914
+#: modules/gui/qt4/main_interface.cpp:923
 msgid "Control menu for the player"
 msgstr "قائمة التحكم بالمشغل"
 
-#: modules/gui/qt4/main_interface.cpp:957
+#: modules/gui/qt4/main_interface.cpp:966
 msgid "Paused"
 msgstr "مُلبث"
 
@@ -19716,8 +19777,8 @@ msgid ""
 "enhances the efficiency of the shaping algorithm, since I frames are usually "
 "the biggest frames in the stream."
 msgstr ""
-"، اذا تمكن وتشكيل محدد TS موكير ستضع الحدود في نهاية أي صور.وفي تلك الحاله "
-"،تشكيل المده التي قدمها المستخدم اسوأ حالة استخدامها عندما لا توفر الاطار "
+"، اذا تمكن وتشكيل محدد TS موكير ستضع الحدود في نهاية أي صور.وفي تلك الحاله ،"
+"تشكيل المده التي قدمها المستخدم اسوأ حالة استخدامها عندما لا توفر الاطار "
 "المرجعي. هذا يعزز الكفاءه في تشكيل الخوارزميه ، ولما كنت عادة اطر اطر أكبر "
 "في التيار. "
 
@@ -19752,9 +19813,9 @@ msgid ""
 "the data in the stream, compared to the PCRs. This allows for some buffering "
 "inside the client decoder."
 msgstr ""
-"تأخير DTS (شفره الوقت الطوابع) PTS و (العرض الوقت طوابع) للبيانات في الجدول "
-"، بالمقارنة مع الهيءه العامة للاستشعار. وهذا يسمح لبعض العملاء داخل العازله "
-"للترميز. "
+"تأخير DTS (شفره الوقت الطوابع) PTS و (العرض الوقت طوابع) للبيانات في "
+"الجدول ، بالمقارنة مع الهيءه العامة للاستشعار. وهذا يسمح لبعض العملاء داخل "
+"العازله للترميز. "
 
 #: modules/mux/mpeg/ts.c:164
 msgid "Crypt audio"
@@ -21576,11 +21637,11 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid ""
 "for devices with more than five channels / zones write down here for each "
-"channel the zone number to show and seperate the values with , or ; and use -"
-"1 to not use some channels. For the classic AtmoLight the sequence 4,3,1,0,2 "
-"would set the default channel/zone mapping. Having only two zones on top, "
-"and one zone on left and right and no summary zone the mapping for classic "
-"AtmoLight would be -1,3,2,1,0"
+"channel the zone number to show and seperate the values with , or ; and use "
+"-1 to not use some channels. For the classic AtmoLight the sequence "
+"4,3,1,0,2 would set the default channel/zone mapping. Having only two zones "
+"on top, and one zone on left and right and no summary zone the mapping for "
+"classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:333
@@ -21780,8 +21841,8 @@ msgid ""
 "default)."
 msgstr ""
 "هذا الواقع المعروف ايضا بإسم \"الشاشة الخضراء \" او \"مفتاح كروما\" تمزج  \" "
-"اجزاء الازرق\" من مقدمة من صور الفسيفساء على خلفية ( مثل عروض توقع وهيثر )"
-"،يمكنك إختيارشينخوا \"مفتاح \" لمزج الألوان (الأزرق افتراضياً)"
+"اجزاء الازرق\" من مقدمة من صور الفسيفساء على خلفية ( مثل عروض توقع وهيثر )،"
+"يمكنك إختيارشينخوا \"مفتاح \" لمزج الألوان (الأزرق افتراضياً)"
 
 #: modules/video_filter/bluescreen.c:42
 msgid "Bluescreen U value"
@@ -24016,11 +24077,18 @@ msgstr "اغلاق النافذة"
 msgid "X11 video window (XCB)"
 msgstr ""
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr ""
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -24069,17 +24137,17 @@ msgstr "الفيديو"
 msgid "XVideo output (XCB)"
 msgstr "دبوس خرج للفديو"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 #, fuzzy
 msgid "Video acceleration not available"
 msgstr "لم تُحفظ إعدادات الفيديو"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
-"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x%"
-"<PRIu32>.\n"
+"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+"%<PRIu32>.\n"
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
@@ -24427,11 +24495,6 @@ msgstr "اختر نوع جهاز الالتقاط"
 #: linux/modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "اختيار الجهاز"
-
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
-msgid "Options"
-msgstr "خيارات"
 
 #: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
@@ -26500,31 +26563,6 @@ msgstr "معلومات ميتا"
 #~ msgid "Select a directory..."
 #~ msgstr "اختر دليلًا..."
 
-#~ msgid "Privacy and Network Policies"
-#~ msgstr "الخصوصية وسياسات الشبكة"
-
-#~ msgid "Privacy and Network Warning"
-#~ msgstr "الخصوصية وتحذيرات الشبكة"
-
-#~ msgid ""
-#~ "<p>The <i>VideoLAN Team</i> doesn't like when an application goes online "
-#~ "without authorization.</p>\n"
-#~ " <p><i>VLC media player</i> can retreive limited information from the "
-#~ "Internet in order to get CD covers or to check for available updates.</"
-#~ "p>\n"
-#~ "<p><i>VLC media player</i> <b>DOES NOT</b> send or collect <b>ANY</b> "
-#~ "information, even anonymously, about your usage.</p>\n"
-#~ "<p>Therefore please select from the following options, the default being "
-#~ "almost no access to the web.</p>\n"
-#~ msgstr ""
-#~ "<p>لا يحب <i>فريق VideoLAN</i> أن يتصل التطبيق بالإنترنت بدون اذن.</p>\n"
-#~ " <p>يمكن ل<i>مشغل الوسائط VLC</i> جلب معلومات محدودة من الإنترنت للحصول "
-#~ "على أغلفة الاسطوانة أو للاتماس التحديثات.</p>\n"
-#~ "<p><b>لا يرسل ولا يجمع</b> <i>مشغل الوسائط VLC</i> <b>أي</b> معلومات، ولا "
-#~ "حتى بشكل مجهول عن استخدامك.</p>\n"
-#~ "<p>ولذلك اختر رجاءً من الخيارات التالية، وسوف يكون الخيار المبدئي أقرب ما "
-#~ "يكون إلى انعدام الوصول إلى الوِب.</p>\n"
-
 #~ msgid "Select play mode"
 #~ msgstr "اختر وضع التشغيل"
 
@@ -28394,9 +28432,6 @@ msgstr "معلومات ميتا"
 
 #~ msgid "Updates"
 #~ msgstr "تحديث"
-
-#~ msgid "Check for updates"
-#~ msgstr "إختيار للتحديث"
 
 #~ msgid "Load Configuration"
 #~ msgstr "حمل التشكيل "

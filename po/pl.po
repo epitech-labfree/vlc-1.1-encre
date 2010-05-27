@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: VLC 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-20 19:18+0100\n"
+"POT-Creation-Date: 2010-05-28 00:21+0100\n"
 "PO-Revision-Date: 2010-05-19 19:56+0100\n"
 "Last-Translator: Michał Trzebiatowski <hippie_1968@hotmail.com>\n"
 "Language-Team: Polish\n"
@@ -97,7 +97,7 @@ msgid "General audio settings"
 msgstr "Ogólne ustawienia dźwięku"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:481
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "Filtry"
 
@@ -800,7 +800,7 @@ msgstr "Została osiągnięta maksymalna liczba filtrów (%d)."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1686 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Wyłącz"
 
@@ -1403,24 +1403,24 @@ msgstr ""
 "\n"
 "Naciśnij klawisz ENTER aby kontynuować...\n"
 
-#: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
+#: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Powiększenie obrazu"
 
-#: src/libvlc.h:174 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
+#: src/libvlc.h:176 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "1:4 Ćwiartka"
 
-#: src/libvlc.h:175 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
+#: src/libvlc.h:177 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "1:2 Połówka"
 
-#: src/libvlc.h:176 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
+#: src/libvlc.h:178 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "1:1 Oryginalny"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
+#: src/libvlc.h:179 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "2:1 Podwójny"
 
@@ -2104,13 +2104,13 @@ msgstr ""
 "to 3000 ms (3 sek.)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1962 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Usuwanie przeplotu"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1978
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Tryb antyprzeplotowy"
@@ -4734,7 +4734,7 @@ msgid "Downloading ..."
 msgstr "Pobieranie ..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:652 modules/demux/avi/avi.c:2353
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4838,7 +4838,7 @@ msgstr "Zainstaluj"
 msgid "Undefined"
 msgstr "Nieokreślone"
 
-#: src/video_output/video_output.c:1674 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Po przetwarzanie"
@@ -5825,12 +5825,12 @@ msgstr "DVD z menu"
 msgid "DVDnav Input"
 msgstr "Wejście DVDnav"
 
-#: modules/access/dvdnav.c:317 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr "Niepowodzenie odtwarzania"
 
-#: modules/access/dvdnav.c:318
+#: modules/access/dvdnav.c:326
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
@@ -12496,11 +12496,11 @@ msgstr "Nigdy nie naprawiaj"
 msgid "AVI demuxer"
 msgstr "AVI demuxer"
 
-#: modules/demux/avi/avi.c:648
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr "Indeks AVI"
 
-#: modules/demux/avi/avi.c:649
+#: modules/demux/avi/avi.c:652
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12512,15 +12512,15 @@ msgstr ""
 "\n"
 "Może to zająć sporo czasu."
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "Napraw"
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "Nie naprawiaj"
 
-#: modules/demux/avi/avi.c:2352
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr "Naprawiam Indeks AVI..."
 
@@ -13723,6 +13723,7 @@ msgstr "Czas"
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
 #: modules/gui/qt4/components/open_panels.cpp:1264
 #: modules/gui/qt4/components/preferences_widgets.cpp:1421
+#: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
 msgstr "OK"
 
@@ -15049,7 +15050,7 @@ msgid "Subtitles & OSD"
 msgstr "Napisy i OSD"
 
 #: modules/gui/macosx/simple_prefs.m:192
-#: modules/gui/qt4/components/simple_preferences.cpp:618
+#: modules/gui/qt4/components/simple_preferences.cpp:619
 msgid "Subtitles & On Screen Display Settings"
 msgstr "Ustawienia napisów i informacji na ekranie (OSD)"
 
@@ -16898,34 +16899,38 @@ msgstr ""
 "To jest interfejs VLC któremu można zmieniać skóry. Można pobrać inne skóry "
 "na"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:548
+#: modules/gui/qt4/components/simple_preferences.cpp:524
+msgid "VLC skins website"
+msgstr ""
+
+#: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
 msgstr "Domyślny systemowy"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:646
+#: modules/gui/qt4/components/simple_preferences.cpp:647
 msgid "Configure Hotkeys"
 msgstr "Ustaw skróty klawiszowe"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:910
+#: modules/gui/qt4/components/simple_preferences.cpp:911
 #: modules/gui/qt4/dialogs_provider.hpp:51
 msgid "Audio Files"
 msgstr "Pliki audio"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:911
+#: modules/gui/qt4/components/simple_preferences.cpp:912
 #: modules/gui/qt4/dialogs_provider.hpp:46
 msgid "Video Files"
 msgstr "Pliki wideo"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:912
+#: modules/gui/qt4/components/simple_preferences.cpp:913
 #: modules/gui/qt4/dialogs_provider.hpp:56
 msgid "Playlist Files"
 msgstr "Pliki listy odtwarzania"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:964
+#: modules/gui/qt4/components/simple_preferences.cpp:965
 msgid "&Apply"
 msgstr "&Zastosuj"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:965
+#: modules/gui/qt4/components/simple_preferences.cpp:966
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
@@ -17149,6 +17154,44 @@ msgstr "Synchronizacja"
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
 msgstr "kontrole v4l2"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:61
+msgid "Privacy and Network Policies"
+msgstr "Polityka sieci i prywatności"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:69
+msgid "Privacy and Network Warning"
+msgstr "Ochrona prywatności i ostrzenie sieci"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:72
+msgid ""
+"<p><i>VideoLAN</i> prefers when applications request authorization before "
+"accessing Internet.</p>\n"
+"<p><b>VLC media player</b> can get information from the Internet in order to "
+"get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
+"<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
+"even anonymously, about your usage.</p>\n"
+msgstr ""
+"<p><i>Zespól VideoLAN</i> uważna, że aplikacja nie powinna łączyć się z "
+"internetem bez zezwolenia.</p>\n"
+"<p><b>VLC media player</b> może żądać danych z internetu, aby uzyskać "
+"<b>informacje pliku</b> lub sprawdzić dostępne <b>aktualizacje</b>.</p>\n"
+"<p><i>VLC media player</i> <b>nie</b> wysyła lub pobiera żądnych informacji, "
+"nawet anonimowo, o twoim używaniu.</p>\n"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:83
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "Opcje"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:90
+msgid "Allow fetching media information from Internet"
+msgstr "Pozwól na pobieranie informacji o multimediach z Internetu"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:95
+msgid "Check for updates"
+msgstr "Sprawdź uaktualnienia"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -24363,11 +24406,6 @@ msgstr "Wybierz typ urządzenia do przechwytywania"
 msgid "Device Selection"
 msgstr "Wybór urządzenia"
 
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
-msgid "Options"
-msgstr "Opcje"
-
 #: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
 msgstr "Dostęp do zaawansowanych opcji, aby dostosować urządzenie"
@@ -25930,34 +25968,6 @@ msgstr "Lista Media Managera"
 
 #~ msgid "Internet"
 #~ msgstr "Internet"
-
-#~ msgid "Privacy and Network Policies"
-#~ msgstr "Polityka sieci i prywatności"
-
-#~ msgid "Privacy and Network Warning"
-#~ msgstr "Ochrona prywatności i ostrzenie sieci"
-
-#~ msgid ""
-#~ "<p><i>VideoLAN</i> prefers when applications request authorization before "
-#~ "accessing Internet.</p>\n"
-#~ "<p><b>VLC media player</b> can get information from the Internet in order "
-#~ "to get <b>media informations</b> or to check for available <b>updates</b>."
-#~ "</p>\n"
-#~ "<p><i>VLC media player</i> <b>doesn't</b> send or collect any "
-#~ "information, even anonymously, about your usage.</p>\n"
-#~ msgstr ""
-#~ "<p><i>Zespól VideoLAN</i> uważna, że aplikacja nie powinna łączyć się z "
-#~ "internetem bez zezwolenia.</p>\n"
-#~ "<p><b>VLC media player</b> może żądać danych z internetu, aby uzyskać "
-#~ "<b>informacje pliku</b> lub sprawdzić dostępne <b>aktualizacje</b>.</p>\n"
-#~ "<p><i>VLC media player</i> <b>nie</b> wysyła lub pobiera żądnych "
-#~ "informacji, nawet anonimowo, o twoim używaniu.</p>\n"
-
-#~ msgid "Allow fetching media information from Internet"
-#~ msgstr "Pozwól na pobieranie informacji o multimediach z Internetu"
-
-#~ msgid "Check for updates"
-#~ msgstr "Sprawdź uaktualnienia"
 
 #~ msgid "SQLite database module"
 #~ msgstr "Moduł bazy danych SQLite"

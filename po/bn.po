@@ -14,10 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-05 22:40+0100\n"
+"POT-Creation-Date: 2010-05-28 00:21+0100\n"
 "PO-Revision-Date: 2010-05-05 19:21+0600\n"
 "Last-Translator: Sadia Afroz <sadia@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -98,7 +99,7 @@ msgid "General audio settings"
 msgstr "সাধারণ অডিও সেটিংসমূহ"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "পরিশোধক"
 
@@ -792,7 +793,7 @@ msgstr "পরিশোধকের সর্বোচ্চ সংখ্যা�
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "নিষ্ক্রিয় করা হবে"
 
@@ -1066,20 +1067,20 @@ msgstr "প্রদর্শনের রেজল্যুশন"
 msgid "Frame rate"
 msgstr "ফ্রেমের রেট"
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "আপনার ইনপুট খোলা যাচ্ছে না"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "VLC '%s' MRL খুলতে ব্যর্থ। বিস্তারিত তথ্যের জন্য লগ পরীক্ষা করুন।"
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "VLC ইনপুটের ফরম্যাট চিনতে পারছে না"
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1388,24 +1389,24 @@ msgstr ""
 "\n"
 "চালিয়ে যাওয়ার জন্য রিটার্ন কী চাপুন...\n"
 
-#: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
+#: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "বড় আকারে প্রদর্শন"
 
-#: src/libvlc.h:174 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
+#: src/libvlc.h:176 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "১:৪ চার ভাগের একভাগ"
 
-#: src/libvlc.h:175 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
+#: src/libvlc.h:177 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "১:২ অর্ধেক"
 
-#: src/libvlc.h:176 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
+#: src/libvlc.h:178 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "১:১ আসল"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
+#: src/libvlc.h:179 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "২:১ দ্বিগুন"
 
@@ -1776,7 +1777,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:375
+#: modules/gui/qt4/components/interface_widgets.cpp:382
 msgid "None"
 msgstr "কোনটি না"
 
@@ -2078,13 +2079,13 @@ msgstr ""
 "পূর্বনির্ধারিত হলো ৩০০০ মিলিসেকেন্ড (৩ সেকেন্ড)"
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "ডিইন্টারলেস"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "ডিইন্টারলেস মোড"
@@ -2571,8 +2572,8 @@ msgid ""
 "language)."
 msgstr ""
 "আপনি অডিও ট্র্যাকের জন্য যে ভাষা ব্যবহার করতে চান (কমা দ্বারা পৃথককৃত, দুই বা তিন "
-"অক্ষরের দেশের কোড, অন্য ভাষায় ফলব্যাক এড়াতে আপনি \"কোনটি না\" ব্যবহার করতে পারেন)"
-"।"
+"অক্ষরের দেশের কোড, অন্য ভাষায় ফলব্যাক এড়াতে আপনি \"কোনটি না\" ব্যবহার করতে "
+"পারেন)।"
 
 #: src/libvlc-module.c:715
 msgid "Subtitle language"
@@ -3010,9 +3011,9 @@ msgid ""
 "(decompression methods). Only advanced users should alter this option as it "
 "can break playback of all your streams."
 msgstr ""
-"এই অপশন ব্যবহার করে VLC-র কোডেক নির্বাচন পদ্ধতি পরিবর্তন করা যায় (ডিকম্প্রেশন মেথড)"
-"। শুধুমাত্র অভিজ্ঞ ব্যবহারকারীদের এই অপশনটি পরিবর্তন করা উচিত, কারণ এটি আপনার সকল "
-"স্ট্রীমের প্লেব্যাক ভঙ্গ করতে পারে।"
+"এই অপশন ব্যবহার করে VLC-র কোডেক নির্বাচন পদ্ধতি পরিবর্তন করা যায় (ডিকম্প্রেশন "
+"মেথড)। শুধুমাত্র অভিজ্ঞ ব্যবহারকারীদের এই অপশনটি পরিবর্তন করা উচিত, কারণ এটি আপনার "
+"সকল স্ট্রীমের প্লেব্যাক ভঙ্গ করতে পারে।"
 
 #: src/libvlc-module.c:925
 msgid "Preferred decoders list"
@@ -4693,7 +4694,7 @@ msgid "Downloading ..."
 msgstr "ডাউনলোড করা হচ্ছে ..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:643 modules/demux/avi/avi.c:2337
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4799,7 +4800,7 @@ msgstr "ইনস্টল করা"
 msgid "Undefined"
 msgstr "অনির্ধারিত"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "পরবর্তী প্রসেসিং"
@@ -5459,8 +5460,8 @@ msgstr "টিউনার টিভি চ্যানেল"
 #: modules/access/dshow/dshow.cpp:135
 msgid "Set the TV channel the tuner will set to (0 means default)."
 msgstr ""
-"টিউনার যে টিভি চ্যানেলে নির্ধারিত হবে সেটি নির্ধারণ করা হবে (0 মানে পূর্বনির্ধারিত)"
-"।"
+"টিউনার যে টিভি চ্যানেলে নির্ধারিত হবে সেটি নির্ধারণ করা হবে (0 মানে "
+"পূর্বনির্ধারিত)।"
 
 #: modules/access/dshow/dshow.cpp:137
 msgid "Tuner country code"
@@ -5769,12 +5770,12 @@ msgstr "মেনুসহ DVD"
 msgid "DVDnav Input"
 msgstr "DVDnav ইনপুট"
 
-#: modules/access/dvdnav.c:312 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr "প্লেব্যাক ব্যর্থতা"
 
-#: modules/access/dvdnav.c:313
+#: modules/access/dvdnav.c:326
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
@@ -6057,11 +6058,11 @@ msgstr "HTTP ইনপুট"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "HTTP প্রমাণীকরণ"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr "অনুগ্রহ করে %s এলাকার জন্য একটি বৈধ লগইন নাম এবং পাসওয়ার্ড দিন।"
@@ -6925,14 +6926,14 @@ msgstr "ইনপুট/আউটপুট মেথড (READ, MMAP, USERPTR)।
 #: modules/access/v4l2.c:91
 msgid "Force width (-1 for autodetect, 0 for driver default)."
 msgstr ""
-"প্রস্থ আরোপ করা হবে (-1 হলো স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের জন্য)"
-"।"
+"প্রস্থ আরোপ করা হবে (-1 হলো স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের "
+"জন্য)।"
 
 #: modules/access/v4l2.c:94
 msgid "Force height (-1 for autodetect, 0 for driver default)."
 msgstr ""
-"উচ্চতা আরোপ করা হবে (-1 হল স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের জন্য)"
-"।"
+"উচ্চতা আরোপ করা হবে (-1 হল স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের "
+"জন্য)।"
 
 #: modules/access/v4l2.c:96
 msgid "Framerate to capture, if applicable (0 for autodetect)."
@@ -7521,8 +7522,8 @@ msgstr "Mime"
 #: modules/access_output/http.c:72
 msgid "MIME returned by the server (autodetected if not specified)."
 msgstr ""
-"সার্ভার দ্বারা ফেরত পাঠানো MIME (উল্লেখ করা না থাকলে স্বয়ংক্রিয়ভাবে সনাক্ত করা হবে)"
-"।"
+"সার্ভার দ্বারা ফেরত পাঠানো MIME (উল্লেখ করা না থাকলে স্বয়ংক্রিয়ভাবে সনাক্ত করা "
+"হবে)।"
 
 #: modules/access_output/http.c:75
 msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
@@ -7958,8 +7959,8 @@ msgstr "ব্যান্ডের গেইন"
 #: modules/audio_filter/equalizer.c:63
 msgid ""
 "Don't use presets, but manually specified bands. You need to provide 10 "
-"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 -"
-"2 0 2\"."
+"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
+"-2 0 2\"."
 msgstr ""
 "নিজ হাতে উল্লিখিত ব্যান্ড ছাড়া প্রিসেট ব্যবহার করা হবে না। আপনাকে -20dB এবং 20dB "
 "মধ্যে ১০টি মান প্রদান করতে হবে, স্পেস দ্বারা পৃথক করে, যেমন \"0 2 4 2 0 -2 -4 -2 "
@@ -8663,13 +8664,13 @@ msgid ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"This must be the sum of the values. For example, to fix \"ac vlc\" and \"ump4"
-"\", enter 40."
+"This must be the sum of the values. For example, to fix \"ac vlc\" and "
+"\"ump4\", enter 40."
 msgstr ""
-"কিছু ত্রুটি সনাক্ত করার চেষ্টা করা হবে:\\n1  স্বয়ংক্রিয়ভাবে সনাক্ত\\n2  পুরনো msmpeg4"
-"\\n4  xvid ইন্টারলেসড\\n8  ump4 \\n16 কোনো প্যাডিং নয়\\n32 ac vlc\\n64 Qpel "
-"ক্রোমা।\\nএটি মানসমূহের যোগফল হতে হবে। উদাহরণস্বরূপ, \"ac vlc\" এবং \"ump4\" ঠিক "
-"করার জন্য 40 প্রবেশ করাতে হবে।"
+"কিছু ত্রুটি সনাক্ত করার চেষ্টা করা হবে:\\n1  স্বয়ংক্রিয়ভাবে সনাক্ত\\n2  পুরনো "
+"msmpeg4\\n4  xvid ইন্টারলেসড\\n8  ump4 \\n16 কোনো প্যাডিং নয়\\n32 ac vlc\\n64 "
+"Qpel ক্রোমা।\\nএটি মানসমূহের যোগফল হতে হবে। উদাহরণস্বরূপ, \"ac vlc\" এবং "
+"\"ump4\" ঠিক করার জন্য 40 প্রবেশ করাতে হবে।"
 
 #: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
@@ -8856,7 +8857,7 @@ msgstr ""
 "I ফ্রেমের কোয়ান্টাইজেশন ফ্যাক্টর, P ফ্রেমের সাথে তুলনা করে (উদাহরণস্বরূপ 1.0 => I "
 "এবং P ফ্রেমের জন্য একই qscale)।"
 
-#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "নয়েজ রিডাকশন"
@@ -9119,7 +9120,7 @@ msgstr "পূর্বপরিশোধক"
 msgid "Enable adaptive prefiltering"
 msgstr "অ্যাডাপ্টিভ পূর্বপরিশোধন সক্রিয় করা হবে"
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "কোনটি না"
 
@@ -9367,7 +9368,7 @@ msgstr "এনকোড করা সাবটাইটেলের Y স্থ�
 msgid "DVB subtitles decoder"
 msgstr "DVB সাবটাইটেল ডিকোডার"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "DVB সাবটাইটেল"
 
@@ -10422,11 +10423,11 @@ msgstr "Vorbis অডিও এনকোডার"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr "WMA v1/v2 fixed point অডিও ডিকোডার"
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "সর্বোচ্চ GOP আকার"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10434,11 +10435,11 @@ msgstr ""
 "IDR-ফ্রেমের মধ্যে সর্বোচ্চ বিরতি নির্ধারণ করে। বড় মানগুলি বিট রক্ষা করে, ফলে একটি "
 "প্রদত্ত বিটরেটের গুনমান বৃদ্ধি করে কিন্তু এতে অবস্থানের নির্ভূলতা কমতে পারে।"
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "সর্বনিম্ন GOP আকার"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10457,11 +10458,11 @@ msgstr ""
 "যদি বিরতির মধ্যে সিনকাট থাকে, তাহলেও তাদেরকে I-ফ্রেম হিসেবে এনকোড করা হয়, কিন্তু "
 "কোনো নতুন GOP শুরু করা হয়না।"
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "অতিরিক্ত I-ফ্রেম অ্যাগ্রিসিভিটি"
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10478,19 +10479,19 @@ msgstr ""
 "শনাক্তকরণ নিষ্ক্রিয় করে, ফলে I-ফ্রেমগুলো শুধুমাত্র অন্য কীইন্ট ফ্রেমে প্রবেশ করানো হয়, "
 "যেটির ফলাফল সম্ভবত আগলি এনকোডিং আর্টিফ্যাক্ট। সীমা ১ থেকে ১০০।"
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "I এবং P এর মধ্যে B-ফ্রেম"
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr "I এবং P ফ্রেমের মধ্যে ধারাবাহিক B-ফ্রেমের সংখ্যা। সীমা ১ থেকে ১৬।"
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "অ্যাডাপ্টিভ B-ফ্রেম সিদ্ধান্ত"
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
@@ -10498,11 +10499,11 @@ msgstr ""
 "উল্লেখিত সংখ্যক ধারাবহিক B-ফ্রেম ব্যবহার করতে বাধ্য করা হবে, সম্ভবত একটি I-ফ্রেমের "
 "পূর্ব ব্যতীত। সীমা ০ থেকে ২।"
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "B-ফ্রেম ব্যবহার করতে প্রভাবিত করা হবে"
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
@@ -10510,12 +10511,12 @@ msgstr ""
 "পছন্দটিকে B-ফ্রেম ব্যবহার করতে প্রভাবিত করা হবে। ধনাত্মক মানসমূহ আরো B-ফ্রেম কার্যকর "
 "করবে, ঋনাত্মক মানসমূহ কম B-ফ্রেম কার্যকর করবে।"
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr "রেফারেন্স হিসেবে কিছু B-ফ্রেম রাখা হবে"
 
 # Translated by sadia
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10531,7 +10532,7 @@ msgstr ""
 " - কঠোর: কঠোরভাবে স্তরকৃত পিরামিড\n"
 " - সাধারণ: কঠোর-নয় (ব্লু-রে সুসংগত নয়)\n"
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10541,11 +10542,11 @@ msgstr ""
 "রেফারেন্স হিসেবে পরপর দুটির বেশি B-ফ্রেমের মধ্যবর্তী অংশটি নির্ধারণ করে, এবং ফ্রেম "
 "সঠিকভাবে পুনরায় ক্রম করে।"
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10553,11 +10554,11 @@ msgstr ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding)। এনকোডিং এবং ডিকোডিং "
 "সামান্য ধীর করে দেয়, কিন্তু ১০ থেকে ১৫% বিটরেট সংরক্ষন করে।"
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "রেফারেন্স ফ্রেমের সংখ্যা"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10567,19 +10568,19 @@ msgstr ""
 "অ্যাকশন সোর্স ম্যাটেরিয়ালে সামান্য পরিবর্তন ঘটায়। কিছু ডিকোডার বড় ফ্রেমরেফ মানের "
 "সাথে কাজ করতে ব্যর্থ হয়। সীমা ১ থেকে ১৬।"
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "পুনরাবৃত্তি পরিশোধক অগ্রাহ্য করা হবে"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr "ডিব্লকিং পুনরাবৃত্তি পরিশোধক নিষ্ক্রিয় করা হবে (গুনমান কমায়)।"
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "পুনরাবৃত্তি পরিশোধক AlphaC0 এবং Beta প্যরামিটার alpha:beta"
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10588,89 +10589,89 @@ msgstr ""
 "প্যারামিটারের জন্য -৬ হতে ৬ পর্যন্ত সীমা। -৬ মানে হালকা পরিশোধক, ৬ মানে দৃঢ় "
 "পরিশোধক।"
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "H.264 স্তর"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 msgstr ""
-"H.264 স্তর উল্লেখ করা হবে (স্ট্যান্ডার্ডের Annex A দ্বারা যেভাবে নির্ধারন করা হয়েছে)"
-"। স্তরগুলো কার্যকর করা হয় না; ব্যবহারকারী তার ইচ্ছেমতো এনকোডিংএর অবশিষ্ট অপশনসমূহের "
-"সাথে সামঞ্জস্যপূর্ণ একটি স্তর নির্বাচন করতে পারে। সীমা ১ থেকে ৫.১ পর্যন্ত (১০ থেকে "
-"৫১ ও গ্রহনযোগ্য)।"
+"H.264 স্তর উল্লেখ করা হবে (স্ট্যান্ডার্ডের Annex A দ্বারা যেভাবে নির্ধারন করা "
+"হয়েছে)। স্তরগুলো কার্যকর করা হয় না; ব্যবহারকারী তার ইচ্ছেমতো এনকোডিংএর অবশিষ্ট "
+"অপশনসমূহের সাথে সামঞ্জস্যপূর্ণ একটি স্তর নির্বাচন করতে পারে। সীমা ১ থেকে ৫.১ পর্যন্ত "
+"(১০ থেকে ৫১ ও গ্রহনযোগ্য)।"
 
 # Translated by sadia
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 msgid "H.264 profile"
 msgstr "H.264 প্রোফাইল"
 
 # Translated by sadia
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 "H.264 প্রোফাইল সুনির্দিষ্টভাবে উল্লেখ করা হবে যাতে অন্যান্য সেটিংসমূহের উপর সীমা "
 "নির্ধারণ কার্যকর করা হয়"
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "ইন্টারলেসড মোড"
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr "বিশুদ্ধ-ইন্টারলেসড মোড।"
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr "পর্যায়বৃত্ত ইনট্রা রিফ্রেশ ব্যবহার"
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr "IDR ফ্রেমের পরিবর্তে পর্যায়বৃত্ত ইনট্রা রিফ্রেশ ব্যবহার"
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
 msgstr "mb-tree রেটকন্ট্রোল ব্যবহার"
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr "আপনি রেটকন্ট্রোলে Macroblock-tree'র ব্যবহার নিষ্ক্রিয় করতে পারেন"
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 msgid "Force number of slices per frame"
 msgstr "প্রতি ফ্রেমে স্লাইসের ফোর্স সংখ্যা"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 "আয়তক্ষেত্রাকার স্লাইসের জন্য জোর করা হবে এবং অন্যান্য স্লাইস করার অপশনগুলো উপেক্ষা "
 "করা হবে"
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr "প্রতিটি স্লাইসের আকারের সীমা বাইটে নির্ধারিত"
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 "বাইটে স্লাইসের সর্বোচ্চ আকার নির্ধারণ করে, আকারে NAL ওভারহেড অন্তর্ভুক্ত করা হয়"
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr "প্রতিটি স্লাইসের আকারের সীমা ম্যাক্রোব্লকে নির্ধারিত"
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr "প্রতিটি স্লাইসে ম্যাক্রোব্লকের সর্বোচ্চ সংখ্যা নির্ধারণ করে"
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "QP নির্ধারণ করা হবে"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10679,67 +10680,67 @@ msgstr ""
 "বিশ্বস্ততা বহন করে, কিন্তু উচ্চ বিটরেট থাকে। ২৬ একটি ভালো পূর্বনির্ধারিত মান। সীমা ০ "
 "(ক্ষতিহীন) থেকে ৫১ পর্যন্ত।"
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "গুনমানের উপর ভিত্তিকৃত VBR"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr "১-পাস গুনমানের উপর ভিত্তিকৃত VBR। সীমা ০ থেকে ৫১।"
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "সর্বোনিম্ন QP"
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr "সর্বনিম্ন কোয়ান্টাইজার প্যারামিটার। ১৫ থেকে ৩৫ একটি সুবিধাজনক সীমা।"
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "সর্বোচ্চ QP"
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr "সর্বোচ্চ কোয়ান্টাইজার প্যারামিটার।"
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "সর্বোচ্চ QP ধাপ"
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr "ফ্রেমগুলোর অন্তর্বর্তী সর্বোচ্চ QP ধাপ"
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "গড় বিটরেট সহিষ্ণুতা"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr "গড় বিটরেটে অনুমোদিত ভ্যারিয়েন্স (কিলোবিট/সেকেন্ড)।"
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "সর্বোচ্চ স্থানীয় বিটরেট"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr "সর্বোচ্চ স্থানীয় বিটরেট নির্ধারণ করে (কিলোবিট/সেকেন্ডে)।"
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "VBV বাফার"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr "সর্বোচ্চ স্থানীয় বিটরেটের জন্য গড় সময়কাল (কিলোবিট)।"
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "প্রারম্ভিক VBV বাফার অকুপেন্সি"
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
@@ -10747,12 +10748,12 @@ msgstr ""
 "প্রারম্ভিক বাফার অকুপেন্সি বাফার আকারের একটি ফ্র্যাকশন হিসেবে সেট করে। সীমা ০.০ "
 "থেকে ১.০ পর্যন্ত।"
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr "কিভাবে AQ বিটগুলো সাজায়"
 
 # Translated by sadia
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -10764,11 +10765,11 @@ msgstr ""
 "১: বর্তমানে পূর্বনির্ধারিত x264 মোড\\n - ২: log(var)-র পরিবর্তে log(var)^2 ব্যবহার "
 "করা হয় এবং প্রতিটি ফ্রেমের ক্ষমতার সাথে খাপ খাওয়ানোর চেষ্টা করা হয় "
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "AQ শক্তি"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -10780,35 +10781,35 @@ msgstr ""
 " - ০.৫: দূর্বল AQ\n"
 " - ১.৫: দৃঢ় AQ"
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "I এবং P এর মধ্যে QP ফ্যাক্টর"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr "I এবং P এর মধ্যে QP ফ্যাক্টর। সীমা ১.০ থেকে ২.০।"
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "P এবং B এর মধ্যে QP ফ্যাক্টর"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr "P এবং B এর মধ্যে QP ফ্যাক্টর। সীমা ১.০ থেকে ২.০।"
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "ক্রোমা এবং লুমা এর মধ্যে QP ফ্যাক্টর এর পার্থক্য"
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr "ক্রোমা এবং লুমা এর মধ্যে QP ফ্যাক্টর এর পার্থক্য।"
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "মাল্টিপাস রেট কন্ট্রোল"
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -10820,35 +10821,35 @@ msgstr ""
 "-২: শেষ পাস, পরিসংখ্যান ফাইল উপরিলেখন করে না\n"
 "-৩: N তম পাস, পরিসংখ্যান ফাইল উপরিলেখন করে\n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "QP কার্ভ কম্প্রেশন"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr "QP কার্ভ কম্প্রেশন। সীমা ০.০ (CBR) থেকে ১.০ (QCP)।"
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "QP এর ফ্ল্যাকচুয়েশন হ্রাস করা হবে"
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
 msgstr "এটি কার্ভ সংকোচনের পূর্বে QP-এর ফ্লাকচুয়েশন কমায়। সাময়িকভাবে জটিলতা কমায়।"
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
 msgstr "এটি কার্ভ সংকোচনের পর QP-এর ফ্লাকচুয়েশন কমায়। সাময়িকভাবে জটিলতা কমায়।"
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "যেসব পার্টিশন বিবেচনা করা হবে"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -10866,19 +10867,19 @@ msgstr ""
 " - সকল   : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p8x8 এর প্রয়োজন p4x4। 8x8dct এর প্রয়োজন i8x8)।"
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "সরাসরি MV প্রেডিকশন মোড"
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr "সরাসরি MV প্রেডিকশন মোড।"
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "সরাসরি MV প্রেডিকশন আকার"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -10888,19 +10889,19 @@ msgstr ""
 " -  1: ৮x৮\n"
 " - -1: স্তর অনুযায়ী সম্ভাব্য সর্বনিম্ন\n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "B-ফ্রেমের জন্য ওয়েইটেড অনুমান"
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "B-ফ্রেমের জন্য ওয়েইটেড অনুমান।"
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 msgid "Weighted prediction for P-frames"
 msgstr "P-ফ্রেমের জন্য ওয়েইটেড অনুমান"
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
@@ -10910,11 +10911,11 @@ msgstr ""
 " - 1: ব্লাইন্ড অফসেট\n"
 " - 2: পরিচ্ছন্ন বিশ্লেষণ\n"
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "ইন্টিজার পিক্সেল গতি এস্টিমেশন পদ্ধতি"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -10930,11 +10931,11 @@ msgstr ""
 " - tesa: hadamard exhaustive অনুসন্ধান (অত্যন্ত ধীরগতিসম্পন্ন, প্রাথমিকভাবে "
 "পরীক্ষণের জন্য)\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "সর্বোচ্চ গতি ভেক্টর অনুসন্ধান সীমা"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -10945,31 +10946,31 @@ msgstr ""
 "সিকুয়েন্সগুলোর জন্য ২৪ থেকে ৩২ এর মধ্যে নির্ধারণ করলে ভালো ফল পাওয়া যেতে পারে। "
 "সীমা ০ থেকে ৬৪।"
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "সর্বোচ্চ গতি ভেক্টর দৈর্ঘ্য"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr "সর্বোচ্চ গতি ভেক্টর দৈর্ঘ্য (পিক্সেলে)। -১ হল স্বয়ংক্রিয়, স্তরের উপর ভিত্তি করে।"
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr "থ্রেডের মধ্যবর্তী সর্বনিম্ন বাফার স্পেস"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr ""
 "থ্রেডের মধ্যবর্তী সর্বনিম্ন বাফার স্পেস। -১ হল স্বয়ংক্রিয়, থ্রেড সংখ্যার উপর ভিত্তি করে।"
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr "psychovisual অপটিমাইজেশনের ক্ষমতা, পূর্বনির্ধারিত মান \"1.0:0.0\""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
@@ -10977,11 +10978,11 @@ msgstr ""
 "প্রথম প্যারামিটার কন্ট্রোলসমূহ যদি RD অন থাকে (subme>=6) অথবা অফসেকেন্ড প্যারামিটার "
 "কন্ট্রোলসমূহ যদি psychovisual অপটিমাইজেশনে Trellis ব্যবহৃত হয়, পূর্বনির্ধারিত মান বন্ধ"
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr "উপপিক্সেল গতি এস্টিমেশন এবং পার্টিশন সিদ্ধান্ত গুনমান"
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
@@ -10991,20 +10992,20 @@ msgstr ""
 "প্রক্রিয়ায় অন্তর্ভুক্ত আছে (নিম্নতর = দ্রততর এবং উচ্চতর = ভালো গুনমান)। ১ থেকে ৯ পর্যন্ত "
 "সীমা।"
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "B-ফ্রেমের জন্য RD এর উপর ভিত্তিকৃত সিদ্ধান্ত মোড"
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
 "B-ফ্রেমের জন্য RD এর উপর ভিত্তিকৃত সিদ্ধান্ত মোড। এটি জন্য সাবমি ৬ (বা উচ্চ) প্রয়োজন।"
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "প্রতি পার্টিশনের ওপর ভিত্তি করে রেফারেন্সের সিদ্ধান্ত নিন"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -11012,35 +11013,35 @@ msgstr ""
 "প্রতিটি ৮x৮ বা ১৬x৮ পার্টিশনকে স্বাধীনভাবে একটি রেফারেন্স ফ্রেম নির্বাচন করতে দেয়, "
 "প্রতি ম্যাক্রোব্লকে শুধুমাত্র একটি রেফারেন্সের বিপরীতে।"
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "গতি এস্টিমেশনের ক্রোমা"
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr "সাবপেলের জন্য ক্রোমা ME এবং P-ফ্রেমে মোড সিদ্ধান্ত।"
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "B-ফ্রেমে উভয় MV যুক্তভাবে সেরা-অনুকূল করা হবে"
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr "যুক্ত দ্বিমুখী গতি রিফাইনমেন্ট।"
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr "অ্যাডাপ্টিভ স্পেশাল রুপান্তর আকার"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr "ইন্টার-মেগাবাইটসমূহে ৮x৮ রুপান্তরের জন্য SATD-ভিত্তিক সিদ্ধান্ত।"
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "ট্রেলিস RD কোয়ান্টাইজেশন"
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -11054,19 +11055,19 @@ msgstr ""
 " - ২: সকল মোড সিদ্ধান্তে সক্রিয়\n"
 "এটির CABAC প্রয়োজন।"
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "P-ফ্রেমের প্রারম্ভিক SKIP শনাক্তকরন"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr "P-ফ্রেমের প্রারম্ভিক SKIP শনাক্তকরন।"
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr "P-ফ্রেমের কোয়েফিসিয়েন্ট থ্রেশহোল্ডিং"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
@@ -11074,17 +11075,17 @@ msgstr ""
 "P-ফ্রেমের কোয়েফিসিয়েন্ট থ্রেশহোল্ডিং। শুধুমাত্র ছোট একটি কোয়েফিসিয়েন্ট ধারনকারী dct "
 "ব্লক বাদ দিন।"
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 msgid "Use Psy-optimizations"
 msgstr "Psy-অপটিমাইজেশন ব্যবহার করুন"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
 "সব দৃষ্টিনির্ভর অপটিমাইজেশন ব্যবহার করা হবে যা PSNR এবং SSIM উভয়ের অবস্থা আরও "
 "খারাপ করবে"
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
@@ -11092,51 +11093,51 @@ msgstr ""
 "Dct-ডোমেইন নয়েজ হ্রাসকরণ। অ্যাডাপ্টিভ সিউডো-ডেডজোন। ১০ থেকে ১০০০ একটি কার্যকর "
 "সীমা।"
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "ইন্টার লুমা কোয়ান্টাইজেশন ডেডজোন"
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr "ইন্টার লুমা কোয়ান্টাইজেশন ডেডজোনের আকার। সীমা 0 থেকে ৩২।"
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "ইন্ট্রা লুমা কোয়ান্টাইজেশন ডেডজোন"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr "ইন্ট্রা লুমা কোয়ান্টাইজেশন ডেডজোনের আকার। সীমা 0 থেকে ৩২।"
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr "থ্রেড করার সময় নন-ডিটারমিনিস্টিক অপটিমাইজেশন"
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr "SMP এর গুনমানের অল্প উন্নতি, রিপিট্যাবিলিটির বিনিময়ে।"
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "CPU অপটিমাইজেশন"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr "অ্যাসেম্বলার CPU অপটিমাইজেশন ব্যবহার করা হবে।"
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "২ পাস পরিসংখ্যান ফাইলের নাম"
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr "মাল্টিপাস এনকোডিং এর জন্য ২ পাস পরিসংখ্যান ফাইলের নাম।"
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "PSNR হিসাব"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
@@ -11144,11 +11145,11 @@ msgstr ""
 "PSNR পরিসংখ্যান হিসাব করা হবে এবং মুদ্রণ করা হবে। আসল এনকোডিং গুনমানের ওপর এটির "
 "কোনো প্রভাব নেই।"
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "SSIM হিসাব"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
@@ -11156,47 +11157,47 @@ msgstr ""
 "SSIM পরিসংখ্যান হিসাব করা হবে এবং মুদ্রণ করা হবে। আসল এনকোডিং গুনমানের ওপর এটির "
 "কোনো প্রভাব নেই।"
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "নিঃশব্দ মোড"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "নিঃশব্দ মোড।"
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr "প্রতি ফ্রেমের জন্য পরিসংখ্যান মুদ্রণ করা হবে।"
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "SPS এবং PPS আইডি নম্বরসমূহ"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr ""
 "পৃথক সেটিংএর সাথে স্ট্রীম যোগ করার জন্য SPS এবং PPS আইডি নম্বর নির্ধারণ করা হবে।"
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "এক্সেস একক ডেলিমিটারসমূহ"
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr "এক্সেস একক ডেলিমিটার NAL একক তৈরি করা হবে।"
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr "ফ্রেম টাইপ লুকঅ্যাহেড-এ ব্যবহারের জন্য ফ্রেম কাউন্ট করা হবে  "
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
@@ -11206,55 +11207,70 @@ msgstr ""
 "ডিফল্ট x264-এর কম কারণ আনমাক্সেবল আউটপুট আগের মত বড় ধরনের মান নিয়ন্ত্রণ করতে পারে "
 "না "
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+#, fuzzy
+msgid "HRD-timing information"
+msgstr "সংস্করণ তথ্য মুদ্রণ করা হবে"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
 msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "দ্রুত"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "সাধারন"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "ধীর"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "সকল"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "spatial"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "ক্ষনস্থায়ী"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "স্বয়ংক্রীয়"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "H.264/MPEG4 AVC এনকোডার (x264)"
 
@@ -12303,19 +12319,19 @@ msgstr "Ffmpeg মাক্স"
 msgid "Force use of ffmpeg muxer."
 msgstr "ffmpeg মাক্সারের ব্যবহার কার্যকর করা হবে।"
 
-#: modules/demux/avi/avi.c:49
+#: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
 msgstr "ইন্টারলিভ পদ্ধতি কার্যকর করা হবে"
 
-#: modules/demux/avi/avi.c:50
+#: modules/demux/avi/avi.c:51
 msgid "Force interleaved method."
 msgstr "ইন্টারলিভ পদ্ধতি কার্যকর করা হবে।"
 
-#: modules/demux/avi/avi.c:52
+#: modules/demux/avi/avi.c:53
 msgid "Force index creation"
 msgstr "সূচি তৈরি কার্যকর করা হবে"
 
-#: modules/demux/avi/avi.c:54
+#: modules/demux/avi/avi.c:55
 msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
@@ -12323,27 +12339,27 @@ msgstr ""
 "AVI ফাইলের জন্য একটি সূচী তৈরি করা হবে। আপনার AVI ফাইলটি নষ্ট হয়ে গেলে বা "
 "অসম্পূর্ণ থাকলে (খোঁজার যোগ্য নয়) এটি ব্যবহকরা হবেরুন।"
 
-#: modules/demux/avi/avi.c:62
+#: modules/demux/avi/avi.c:63
 msgid "Ask for action"
 msgstr "কাজের জন্য জিজ্ঞাসা করা হবে"
 
-#: modules/demux/avi/avi.c:63
+#: modules/demux/avi/avi.c:64
 msgid "Always fix"
 msgstr "সবসময় মেরামত করা হবে"
 
-#: modules/demux/avi/avi.c:64
+#: modules/demux/avi/avi.c:65
 msgid "Never fix"
 msgstr "কখনো মেরামত করবেন না"
 
-#: modules/demux/avi/avi.c:68
+#: modules/demux/avi/avi.c:69
 msgid "AVI demuxer"
 msgstr "AVI ডিমাক্সার"
 
-#: modules/demux/avi/avi.c:639
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr "AVI ইনডেক্স"
 
-#: modules/demux/avi/avi.c:640
+#: modules/demux/avi/avi.c:652
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12355,15 +12371,15 @@ msgstr ""
 "\n"
 "এতে অনেক সময় লাগতে পারে।"
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "ঠিক করা হবে"
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "ঠিক করা হবে না"
 
-#: modules/demux/avi/avi.c:2336
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr "AVI ইনডেক্স মেরামত করা হচ্ছে..."
 
@@ -12558,11 +12574,11 @@ msgstr "HTTP টানেল পোর্ট"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "HTTP এর উপর RTSP/RTP টানেল করার জন্য যে পোর্ট ব্যবহার করা হবে।"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "RTSP প্রমাণীকরণ"
 
-#: modules/demux/live555.cpp:606
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr "অনুগ্রহ করে একটি বৈধ লগইন নাম এবং পাসওয়ার্ড দিন।"
 
@@ -12729,11 +12745,11 @@ msgstr "পারিপার্শ্বিক স্তর"
 msgid "Surround delay (ms)"
 msgstr "পারিপার্শ্বিক বিলম্ব (মিলিসেকেন্ড)"
 
-#: modules/demux/mp4/mp4.c:54
+#: modules/demux/mp4/mp4.c:55
 msgid "MP4 stream demuxer"
 msgstr "MP4 স্ট্রীম ডিমাক্সার"
 
-#: modules/demux/mp4/mp4.c:55
+#: modules/demux/mp4/mp4.c:56
 msgid "MP4"
 msgstr "MP4"
 
@@ -13131,8 +13147,8 @@ msgstr "দ্রুত udp স্ট্রীমিং"
 #: modules/demux/ts.c:122
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
 msgstr ""
-"udp এর মাধ্যমে উল্লেখিত আইপি:পোর্ট এ TS প্রেরন করে (নিশ্চিত হয়ে নিন আপনি কি করছেন)"
-"।"
+"udp এর মাধ্যমে উল্লেখিত আইপি:পোর্ট এ TS প্রেরন করে (নিশ্চিত হয়ে নিন আপনি কি "
+"করছেন)।"
 
 #: modules/demux/ts.c:124
 msgid "MTU for out mode"
@@ -13259,19 +13275,19 @@ msgstr "টেলিটেক্সট: প্রোগ্রাম সময়স
 msgid "Teletext subtitles: hearing impaired"
 msgstr "টেলিটেক্সট সাবটাইটেল: বধির"
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr "DVB সাবটাইটেল: বধির"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "পরিস্কার আবহ"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "বধির"
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "অন্ধ ব্যক্তিদের জন্য ধারাবিবরনী"
 
@@ -13556,6 +13572,7 @@ msgstr "সময়"
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
 #: modules/gui/qt4/components/open_panels.cpp:1264
 #: modules/gui/qt4/components/preferences_widgets.cpp:1421
+#: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
 msgstr "ঠিক আছে"
 
@@ -14886,7 +14903,7 @@ msgid "Subtitles & OSD"
 msgstr "সাবটাইটেল & OSD"
 
 #: modules/gui/macosx/simple_prefs.m:192
-#: modules/gui/qt4/components/simple_preferences.cpp:618
+#: modules/gui/qt4/components/simple_preferences.cpp:619
 msgid "Subtitles & On Screen Display Settings"
 msgstr "সাবটাইটেল & পর্দায় প্রদর্শিত সেটিং"
 
@@ -16467,11 +16484,11 @@ msgstr "চালানো"
 msgid "buffers"
 msgstr "বাফার"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:373
+#: modules/gui/qt4/components/interface_widgets.cpp:380
 msgid "Current visualization"
 msgstr "বর্তমান দৃশ্যায়ণ"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:412
+#: modules/gui/qt4/components/interface_widgets.cpp:419
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16479,19 +16496,19 @@ msgstr ""
 "বর্তমান প্লে-ব্যাকের গতি: %1\n"
 "সমন্বয় করতে ক্লিক করা হবে"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:483
+#: modules/gui/qt4/components/interface_widgets.cpp:490
 msgid "Revert to normal play speed"
 msgstr "সাধারন চালানোর গতি পূর্বাবস্থায় ফিরিয়ে আনুন"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:557
+#: modules/gui/qt4/components/interface_widgets.cpp:564
 msgid "Download cover art"
 msgstr "প্রচ্ছদ চিত্র ডাউনলোড করা হবে"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:599
+#: modules/gui/qt4/components/interface_widgets.cpp:606
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "অতিবাহিত এবং অবশিষ্ট সময়ের মধ্যে টগল করতে ক্লিক করুন"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:601
+#: modules/gui/qt4/components/interface_widgets.cpp:608
 msgid "Double click to jump to a chosen time position"
 msgstr "পছন্দনীয় সময় অবস্থানে যেতে ডাবল ক্লিক করুন"
 
@@ -16746,34 +16763,38 @@ msgstr ""
 "এটি VLC এর স্কিন ব্যবহারযোগ্য ইন্টারফেস।  আপনি অন্যান্য স্কিন এখান থেকে ডাউনলোড "
 "করতে পারেন "
 
-#: modules/gui/qt4/components/simple_preferences.cpp:548
+#: modules/gui/qt4/components/simple_preferences.cpp:524
+msgid "VLC skins website"
+msgstr ""
+
+#: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
 msgstr "সিস্টেমের ডিফল্ট"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:646
+#: modules/gui/qt4/components/simple_preferences.cpp:647
 msgid "Configure Hotkeys"
 msgstr "হট-কী কনফিগার করা হবে"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:910
+#: modules/gui/qt4/components/simple_preferences.cpp:911
 #: modules/gui/qt4/dialogs_provider.hpp:51
 msgid "Audio Files"
 msgstr "অডিও ফাইল"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:911
+#: modules/gui/qt4/components/simple_preferences.cpp:912
 #: modules/gui/qt4/dialogs_provider.hpp:46
 msgid "Video Files"
 msgstr "ভিডিও ফাইল"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:912
+#: modules/gui/qt4/components/simple_preferences.cpp:913
 #: modules/gui/qt4/dialogs_provider.hpp:56
 msgid "Playlist Files"
 msgstr "প্লে-লিস্টের ফাইল"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:964
+#: modules/gui/qt4/components/simple_preferences.cpp:965
 msgid "&Apply"
 msgstr "প্রয়োগ করা হবে (&A)"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:965
+#: modules/gui/qt4/components/simple_preferences.cpp:966
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
@@ -16998,6 +17019,41 @@ msgstr "সিনক্রোনাইজেশন"
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
 msgstr "v4l2 কন্ট্রোল"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:61
+#, fuzzy
+msgid "Privacy and Network Policies"
+msgstr "গোপনতা/নেটওয়ার্কের তথ্য আদান প্রদান"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:69
+#, fuzzy
+msgid "Privacy and Network Warning"
+msgstr "গোপনতা/নেটওয়ার্কের তথ্য আদান প্রদান"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:72
+msgid ""
+"<p><i>VideoLAN</i> prefers when applications request authorization before "
+"accessing Internet.</p>\n"
+"<p><b>VLC media player</b> can get information from the Internet in order to "
+"get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
+"<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
+"even anonymously, about your usage.</p>\n"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:83
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "অপশন"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:90
+msgid "Allow fetching media information from Internet"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:95
+#, fuzzy
+msgid "Check for updates"
+msgstr "হালনাগাদ আছে কিনা পরীক্ষা করা হবে... (&U)"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -19563,8 +19619,8 @@ msgstr "CSA কী"
 msgid ""
 "CSA encryption key. This must be a 16 char string (8 hexadecimal bytes)."
 msgstr ""
-"CSA এনক্রিপশন কী। এটিকে অবশ্যই ১৬ ক্যারেক্টার স্ট্রিং হতে হবে (৮ হেক্সাডেসিমাল বাইট)"
-"।"
+"CSA এনক্রিপশন কী। এটিকে অবশ্যই ১৬ ক্যারেক্টার স্ট্রিং হতে হবে (৮ হেক্সাডেসিমাল "
+"বাইট)।"
 
 #: modules/mux/mpeg/ts.c:177
 msgid "CSA Key in use"
@@ -21346,11 +21402,11 @@ msgstr "চ্যানেল / জোনভিত্তিক নির্দ�
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid ""
 "for devices with more than five channels / zones write down here for each "
-"channel the zone number to show and seperate the values with , or ; and use -"
-"1 to not use some channels. For the classic AtmoLight the sequence 4,3,1,0,2 "
-"would set the default channel/zone mapping. Having only two zones on top, "
-"and one zone on left and right and no summary zone the mapping for classic "
-"AtmoLight would be -1,3,2,1,0"
+"channel the zone number to show and seperate the values with , or ; and use "
+"-1 to not use some channels. For the classic AtmoLight the sequence "
+"4,3,1,0,2 would set the default channel/zone mapping. Having only two zones "
+"on top, and one zone on left and right and no summary zone the mapping for "
+"classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 "যেসব ডিভাইসে পাঁচটির অধিক চ্যানেল / জোন রয়েছে, প্রতিটি চ্যানেলে যে জোন নম্বর "
 "প্রদর্শন করতে হবে তা এখানে লিখুন এবং মানগুলো , বা ; দিয়ে আলাদা করুন এবং কোনো "
@@ -23738,11 +23794,18 @@ msgstr "X উইন্ডো"
 msgid "X11 video window (XCB)"
 msgstr "X11 ভিডিও উইন্ডো (XCB)"
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr ""
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -23788,16 +23851,16 @@ msgstr "XVideo"
 msgid "XVideo output (XCB)"
 msgstr "XVideo আউটপুট (XCB)"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 msgid "Video acceleration not available"
 msgstr "ভিডিও এক্সিলারেশন নেই"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
-"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x%"
-"<PRIu32>.\n"
+"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+"%<PRIu32>.\n"
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
@@ -24137,11 +24200,6 @@ msgstr "ক্যাপচার ডিভাইসের ধরন নির্
 #: linux/modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "ডিভাইস নির্বাচন"
-
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
-msgid "Options"
-msgstr "অপশন"
 
 #: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"

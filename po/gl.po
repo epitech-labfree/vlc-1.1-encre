@@ -9,14 +9,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0-git\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-04 00:28+0100\n"
+"POT-Creation-Date: 2010-05-28 00:21+0100\n"
 "PO-Revision-Date: 2010-04-14 21:37+0200\n"
 "Last-Translator: Gonçalo Cordeiro <gzcordeiro@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
+"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: WordForge 0.7 RC1\n"
 
@@ -96,7 +96,7 @@ msgid "General audio settings"
 msgstr "Configuracións xerais de audio"
 
 #: include/vlc_config_cat.h:57 include/vlc_config_cat.h:79
-#: src/video_output/video_output.c:482
+#: src/video_output/video_output.c:493
 msgid "Filters"
 msgstr "Filtros"
 
@@ -817,7 +817,7 @@ msgstr "Alcanzouse o número máximo de filtros (%d)."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
 #: src/input/es_out.c:931 src/libvlc-module.c:653
-#: src/video_output/video_output.c:1687 modules/video_filter/postproc.c:230
+#: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Desactivar"
 
@@ -1092,22 +1092,22 @@ msgstr "Resolución da visualización"
 msgid "Frame rate"
 msgstr "Taxa de fotogramas"
 
-#: src/input/input.c:2473
+#: src/input/input.c:2478
 msgid "Your input can't be opened"
 msgstr "Non se pode abrir a súa entrada"
 
-#: src/input/input.c:2474
+#: src/input/input.c:2479
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "O VLC non é quen de abrir o MRL '%s'. Verifique o ficheiro de rexistro para "
 "máis detalles."
 
-#: src/input/input.c:2593
+#: src/input/input.c:2598
 msgid "VLC can't recognize the input's format"
 msgstr "O VLC non recoñece o formato de entrada"
 
-#: src/input/input.c:2594
+#: src/input/input.c:2599
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1421,24 +1421,24 @@ msgstr ""
 "\n"
 "Prema a tecla RETORNO para continuar...\n"
 
-#: src/libvlc.h:173 src/libvlc-module.c:1462 src/libvlc-module.c:1463
+#: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
 #: src/libvlc-module.c:2635 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Ampliar"
 
-#: src/libvlc.h:174 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
+#: src/libvlc.h:176 src/libvlc-module.c:1382 src/video_output/vout_intf.c:88
 msgid "1:4 Quarter"
 msgstr "1:4 Un cuarto"
 
-#: src/libvlc.h:175 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
+#: src/libvlc.h:177 src/libvlc-module.c:1383 src/video_output/vout_intf.c:89
 msgid "1:2 Half"
 msgstr "1:2 A metade"
 
-#: src/libvlc.h:176 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
+#: src/libvlc.h:178 src/libvlc-module.c:1384 src/video_output/vout_intf.c:90
 msgid "1:1 Original"
 msgstr "1:1 Orixinal"
 
-#: src/libvlc.h:177 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
+#: src/libvlc.h:179 src/libvlc-module.c:1385 src/video_output/vout_intf.c:91
 msgid "2:1 Double"
 msgstr "2:1 O dobre"
 
@@ -1821,7 +1821,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:359
+#: modules/gui/qt4/components/interface_widgets.cpp:382
 msgid "None"
 msgstr "Ningún"
 
@@ -2132,13 +2132,13 @@ msgstr ""
 "milisegundos, a opción predeterminada é 3000 ms (3 s)."
 
 #: src/libvlc-module.c:469 src/libvlc-module.c:471
-#: src/video_output/video_output.c:1963 modules/gui/macosx/intf.m:699
+#: src/video_output/video_output.c:1974 modules/gui/macosx/intf.m:699
 #: modules/gui/macosx/intf.m:700 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
 msgstr "Desentrelazar"
 
-#: src/libvlc-module.c:479 src/video_output/video_output.c:1979
+#: src/libvlc-module.c:479 src/video_output/video_output.c:1990
 #: modules/video_filter/deinterlace.c:118
 msgid "Deinterlace mode"
 msgstr "Modo de desentrelazado"
@@ -4812,7 +4812,7 @@ msgid "Downloading ..."
 msgstr "Descargando..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:643 modules/demux/avi/avi.c:2337
+#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -4915,7 +4915,7 @@ msgstr "Instalar"
 msgid "Undefined"
 msgstr "Sen definir"
 
-#: src/video_output/video_output.c:1675 modules/gui/macosx/intf.m:701
+#: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
 msgstr "Procesamento posterior"
@@ -5917,12 +5917,12 @@ msgstr "DVD con menús"
 msgid "DVDnav Input"
 msgstr "Entrada DVDnav"
 
-#: modules/access/dvdnav.c:312 modules/access/dvdread.c:205
+#: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
 #: modules/access/dvdread.c:465 modules/access/dvdread.c:527
 msgid "Playback failure"
 msgstr "Fallo ao reproducir"
 
-#: modules/access/dvdnav.c:313
+#: modules/access/dvdnav.c:326
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
@@ -6215,11 +6215,11 @@ msgstr "Entrada HTTP"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:538
+#: modules/access/http.c:539
 msgid "HTTP authentication"
 msgstr "Autenticación HTTP"
 
-#: modules/access/http.c:539
+#: modules/access/http.c:540
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr ""
@@ -8181,8 +8181,8 @@ msgstr "Ganancia das bandas"
 #: modules/audio_filter/equalizer.c:63
 msgid ""
 "Don't use presets, but manually specified bands. You need to provide 10 "
-"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 -"
-"2 0 2\"."
+"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
+"-2 0 2\"."
 msgstr ""
 "Non usar as preconfiguracións; especificar as bandas de forma manual. Ten "
 "que proporcionar 10 valores entre -20dB e 20dB separados por espazos, por "
@@ -8894,8 +8894,8 @@ msgid ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"This must be the sum of the values. For example, to fix \"ac vlc\" and \"ump4"
-"\", enter 40."
+"This must be the sum of the values. For example, to fix \"ac vlc\" and "
+"\"ump4\", enter 40."
 msgstr ""
 "Tentar fixar os erros:\n"
 "1  detección automática\n"
@@ -8942,8 +8942,8 @@ msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
-"Forzar a salta fotogramas para facer máis rápida a descodificación (-"
-"1=Ningún, 0=Predeterminado, 1=fotogramas B, 2=fotogramas P, 3=fotogramas B"
+"Forzar a salta fotogramas para facer máis rápida a descodificación "
+"(-1=Ningún, 0=Predeterminado, 1=fotogramas B, 2=fotogramas P, 3=fotogramas B"
 "+P , 4=todos os fotogramas)."
 
 #: modules/codec/avcodec/avcodec.h:111
@@ -9104,7 +9104,7 @@ msgstr ""
 "Factor de cuantización de fotogramas I, comparado cos fotogramas P (por "
 "exemplo 1.0 => mesma escala de cuantización para os fotogramas I e P)."
 
-#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:334
+#: modules/codec/avcodec/avcodec.h:183 modules/codec/x264.c:335
 #: modules/demux/mod.c:78
 msgid "Noise reduction"
 msgstr "Redución de ruídos"
@@ -9373,7 +9373,7 @@ msgstr "Filtrar previamente"
 msgid "Enable adaptive prefiltering"
 msgstr "Activar o filtrado previo adaptable"
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:400 modules/codec/x264.c:405
+#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
 msgid "none"
 msgstr "ningún"
 
@@ -9631,7 +9631,7 @@ msgstr "Coordenada Y do subtítulo codificado"
 msgid "DVB subtitles decoder"
 msgstr "Descodificador de subtítulos DVB"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3491 modules/demux/ts.c:3549
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3493 modules/demux/ts.c:3551
 msgid "DVB subtitles"
 msgstr "Subtítulos DVB"
 
@@ -10710,11 +10710,11 @@ msgstr "Codificador de audio Vorbis"
 msgid "WMA v1/v2 fixed point audio decoder"
 msgstr "Descodificador de audio WMA v1/v2 de punto fixo"
 
-#: modules/codec/x264.c:54
+#: modules/codec/x264.c:55
 msgid "Maximum GOP size"
 msgstr "Tamaño GOP máximo"
 
-#: modules/codec/x264.c:55
+#: modules/codec/x264.c:56
 msgid ""
 "Sets maximum interval between IDR-frames.Larger values save bits, thus "
 "improving quality for a given bitrate at the cost of seeking precision."
@@ -10723,11 +10723,11 @@ msgstr ""
 "aforran bits, polo que melloran a calidade para unha taxa de bits dada a "
 "custo de buscar precisión."
 
-#: modules/codec/x264.c:59
+#: modules/codec/x264.c:60
 msgid "Minimum GOP size"
 msgstr "Tamaño GOP mínimo"
 
-#: modules/codec/x264.c:60
+#: modules/codec/x264.c:61
 msgid ""
 "Sets minimum interval between IDR-frames. In H.264, I-frames do not "
 "necessarily bound a closed GOP because it is allowable for a P-frame to be "
@@ -10747,11 +10747,11 @@ msgstr ""
 "Se aparece un corte na escena dentro deste intervalo, aínda están "
 "codificados como fotogramas I, pero non comezan como un GOP novo."
 
-#: modules/codec/x264.c:69
+#: modules/codec/x264.c:70
 msgid "Extra I-frames aggressivity"
 msgstr "Agresividade de fotogramas I extra"
 
-#: modules/codec/x264.c:70
+#: modules/codec/x264.c:71
 msgid ""
 "Scene-cut detection. Controls how aggressively to insert extra I-frames. "
 "With small values of scenecut, the codec often has to force an I-frame when "
@@ -10771,20 +10771,20 @@ msgstr ""
 "keyint, o que probabelmente leva á codificación de artefactos feos. "
 "Intervalo de 1 a 100."
 
-#: modules/codec/x264.c:81
+#: modules/codec/x264.c:82
 msgid "B-frames between I and P"
 msgstr "Fotogramas B entre I e P"
 
-#: modules/codec/x264.c:82
+#: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr ""
 "Número de fotogramas B consecutivos entre os I e P. Intervalo de 1 a 16."
 
-#: modules/codec/x264.c:85
+#: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
 msgstr "Decisión de fotogramas B adaptábel"
 
-#: modules/codec/x264.c:86
+#: modules/codec/x264.c:87
 msgid ""
 "Force the specified number of consecutive B-frames to be used, except "
 "possibly before an I-frame.Range 0 to 2."
@@ -10792,11 +10792,11 @@ msgstr ""
 "Forzar o uso o número de fotogramas B consecutivos especificado, excepto "
 "posibelmente despois dun fotograma I. Intervalo de 0 a 2."
 
-#: modules/codec/x264.c:90
+#: modules/codec/x264.c:91
 msgid "Influence (bias) B-frames usage"
 msgstr "Influenciar o uso de fotogramas B"
 
-#: modules/codec/x264.c:91
+#: modules/codec/x264.c:92
 msgid ""
 "Bias the choice to use B-frames. Positive values cause more B-frames, "
 "negative values cause less B-frames."
@@ -10804,11 +10804,11 @@ msgstr ""
 "Predispor a escoller o uso de fotogramas B. Os valores positivos causan máis "
 "fotogramas B e os negativos menos."
 
-#: modules/codec/x264.c:95
+#: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
 msgstr "Manter algúns fotogramas B como referencia"
 
-#: modules/codec/x264.c:97
+#: modules/codec/x264.c:98
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10824,7 +10824,7 @@ msgstr ""
 " - estrito: Pirámide xerárquica estrita\n"
 " - normal: Non estrito (non é compatíbel con Blu-ray)\n"
 
-#: modules/codec/x264.c:105
+#: modules/codec/x264.c:106
 msgid ""
 "Allows B-frames to be used as references for predicting other frames. Keeps "
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
@@ -10834,11 +10834,11 @@ msgstr ""
 "fotogramas. Mantén o medio de dous fotogramas B consecutivos 2+ como "
 "referencia e reordena o fotograma adecuadamente."
 
-#: modules/codec/x264.c:110
+#: modules/codec/x264.c:111
 msgid "CABAC"
 msgstr "CABAC"
 
-#: modules/codec/x264.c:111
+#: modules/codec/x264.c:112
 msgid ""
 "CABAC (Context-Adaptive Binary Arithmetic Coding). Slightly slows down "
 "encoding and decoding, but should save 10 to 15% bitrate."
@@ -10847,11 +10847,11 @@ msgstr ""
 "máis lenta a codificación e descodificación, mais aforra do 10% ao 15% da "
 "taxa de bits."
 
-#: modules/codec/x264.c:115
+#: modules/codec/x264.c:116
 msgid "Number of reference frames"
 msgstr "Número de fotogramas de referencia"
 
-#: modules/codec/x264.c:116
+#: modules/codec/x264.c:117
 msgid ""
 "Number of previous frames used as predictors. This is effective in Anime, "
 "but seems to make little difference in live-action source material. Some "
@@ -10862,19 +10862,19 @@ msgstr ""
 "real. Algúns descodificadores non son capaces de manexar uns valores de "
 "referencia de fotogramas moi grandes. Intervalo de 1 a 16."
 
-#: modules/codec/x264.c:121
+#: modules/codec/x264.c:122
 msgid "Skip loop filter"
 msgstr "Saltar o filtro bucle"
 
-#: modules/codec/x264.c:122
+#: modules/codec/x264.c:123
 msgid "Deactivate the deblocking loop filter (decreases quality)."
 msgstr "Desactivar o filtro de bucle de desbloqueo (diminúe a calidade)."
 
-#: modules/codec/x264.c:124
+#: modules/codec/x264.c:125
 msgid "Loop filter AlphaC0 and Beta parameters alpha:beta"
 msgstr "Parámetros AlphaC0 e Beta do filtro de bucle alpha:beta"
 
-#: modules/codec/x264.c:125
+#: modules/codec/x264.c:126
 msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
@@ -10882,11 +10882,11 @@ msgstr ""
 "Parámetros AlphaC0 e Beta do filtro de bucle. Intervalo de -6 a 6 para os "
 "dous parámetros alfa e beta. -6 indica un filtro feble, 6 indica forte."
 
-#: modules/codec/x264.c:129
+#: modules/codec/x264.c:130
 msgid "H.264 level"
 msgstr "Nivel H.264"
 
-#: modules/codec/x264.c:130
+#: modules/codec/x264.c:131
 msgid ""
 "Specify H.264 level (as defined by Annex A of the standard). Levels are not "
 "enforced; it's up to the user to select a level compatible with the rest of "
@@ -10897,75 +10897,75 @@ msgstr ""
 "compatíbel co resto das opcións de codificación. Intervalo 1 de 5.1 (10 para "
 "51 tamén está permitido)."
 
-#: modules/codec/x264.c:135
+#: modules/codec/x264.c:136
 msgid "H.264 profile"
 msgstr "Perfil H.264"
 
-#: modules/codec/x264.c:136
+#: modules/codec/x264.c:137
 msgid "Specify H.264 profile which limits are enforced overother settings"
 msgstr ""
 "Especificar o perfil H.264 cuxos límites son forzados sobre outras "
 "configuracións"
 
-#: modules/codec/x264.c:142
+#: modules/codec/x264.c:143
 msgid "Interlaced mode"
 msgstr "Modo entrelazado"
 
-#: modules/codec/x264.c:143
+#: modules/codec/x264.c:144
 msgid "Pure-interlaced mode."
 msgstr "Modo entrelazado puro."
 
-#: modules/codec/x264.c:145
+#: modules/codec/x264.c:146
 msgid "Use Periodic Intra Refresh"
 msgstr "Usar a Actualización periódica interna"
 
-#: modules/codec/x264.c:146
+#: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
 msgstr "Usar a Actualización periódica interna en vez dos fotogramas IDR"
 
-#: modules/codec/x264.c:148
+#: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
 msgstr "Usar a taxa de control mb-tree"
 
-#: modules/codec/x264.c:149
+#: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
 "Pode desactivar o uso da árbore de macrobloques (Macroblock-tree) na taxa de "
 "control"
 
-#: modules/codec/x264.c:151
+#: modules/codec/x264.c:152
 msgid "Force number of slices per frame"
 msgstr "Forzar o número de fragmentos por fotograma"
 
-#: modules/codec/x264.c:152
+#: modules/codec/x264.c:153
 msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 "Forza fragmentos rectangulares e é ignorada por outras opcións de "
 "fragmentación"
 
-#: modules/codec/x264.c:154
+#: modules/codec/x264.c:155
 msgid "Limit the size of each slice in bytes"
 msgstr "Limita o tamaño de cada fragmento en bytes"
 
-#: modules/codec/x264.c:155
+#: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 "Define un número máximo de fragmentos en bytes. Inclúe a transparencia NAL "
 "en tamaño"
 
-#: modules/codec/x264.c:157
+#: modules/codec/x264.c:158
 msgid "Limit the size of each slice in macroblocks"
 msgstr "Limitar o tamaño de cada fragmento en macrobloques"
 
-#: modules/codec/x264.c:158
+#: modules/codec/x264.c:159
 msgid "Sets a maximum number of macroblocks per slice"
 msgstr "Define un número máximo de macrobloques por fragmento"
 
-#: modules/codec/x264.c:161
+#: modules/codec/x264.c:162
 msgid "Set QP"
 msgstr "Definir QP"
 
-#: modules/codec/x264.c:162
+#: modules/codec/x264.c:163
 msgid ""
 "This selects the quantizer to use. Lower values result in better fidelity, "
 "but higher bitrates. 26 is a good default value. Range 0 (lossless) to 51."
@@ -10974,68 +10974,68 @@ msgstr ""
 "mellor fidelidade, pero máis taxas de bits. Un bo valor predeterminado é 26. "
 "Intervalo de 0 (sen perdas) a 51."
 
-#: modules/codec/x264.c:166
+#: modules/codec/x264.c:167
 msgid "Quality-based VBR"
 msgstr "VBR baseado na calidade"
 
-#: modules/codec/x264.c:167
+#: modules/codec/x264.c:168
 msgid "1-pass Quality-based VBR. Range 0 to 51."
 msgstr "VBR baseado en calidade dun paso. Intervalo de 0 a 51."
 
-#: modules/codec/x264.c:169
+#: modules/codec/x264.c:170
 msgid "Min QP"
 msgstr "QP mín."
 
-#: modules/codec/x264.c:170
+#: modules/codec/x264.c:171
 msgid "Minimum quantizer parameter. 15 to 35 seems to be a useful range."
 msgstr ""
 "Parámetro de cuantizador mínimo. De 15 a 35 parece ser un intervalo útil."
 
-#: modules/codec/x264.c:173
+#: modules/codec/x264.c:174
 msgid "Max QP"
 msgstr "QP máx."
 
-#: modules/codec/x264.c:174
+#: modules/codec/x264.c:175
 msgid "Maximum quantizer parameter."
 msgstr "Parámetro cuantizador máximo."
 
-#: modules/codec/x264.c:176
+#: modules/codec/x264.c:177
 msgid "Max QP step"
 msgstr "Paso QP máximo"
 
-#: modules/codec/x264.c:177
+#: modules/codec/x264.c:178
 msgid "Max QP step between frames."
 msgstr "Paso QP máximo entre fotogramas."
 
-#: modules/codec/x264.c:179
+#: modules/codec/x264.c:180
 msgid "Average bitrate tolerance"
 msgstr "Tolerancia de taxa de bits media"
 
-#: modules/codec/x264.c:180
+#: modules/codec/x264.c:181
 msgid "Allowed variance in average bitrate (in kbits/s)."
 msgstr "Varianza permitida na taxa de bits media (en kbits/s)."
 
-#: modules/codec/x264.c:183
+#: modules/codec/x264.c:184
 msgid "Max local bitrate"
 msgstr "Taxa de bits local máxima"
 
-#: modules/codec/x264.c:184
+#: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
 msgstr "Define a taxa de bits local máxima (en kbits/s)."
 
-#: modules/codec/x264.c:186
+#: modules/codec/x264.c:187
 msgid "VBV buffer"
 msgstr "Búfer VBV"
 
-#: modules/codec/x264.c:187
+#: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
 msgstr "Media de período para a taxa de bits local máxima (en kbits)."
 
-#: modules/codec/x264.c:190
+#: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
 msgstr "Ocupación do búfer VBV inicial"
 
-#: modules/codec/x264.c:191
+#: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
@@ -11043,11 +11043,11 @@ msgstr ""
 "Define a ocupación do búfer inicial como fracción do tamaño do búfer. "
 "Intervalo de 0.0 a 1.0."
 
-#: modules/codec/x264.c:194
+#: modules/codec/x264.c:195
 msgid "How AQ distributes bits"
 msgstr "Como o AQ distribúe os bits"
 
-#: modules/codec/x264.c:195
+#: modules/codec/x264.c:196
 msgid ""
 "Defines bitdistribution mode for AQ, default 1\n"
 " - 0: Disabled\n"
@@ -11061,11 +11061,11 @@ msgstr ""
 " - 1: Modo predeterminado actual x264\n"
 " - 2: usa log(var)^2 en vez de log(var) e tenta adaptar a forza por fotograma"
 
-#: modules/codec/x264.c:200
+#: modules/codec/x264.c:201
 msgid "Strength of AQ"
 msgstr "Forza de AQ"
 
-#: modules/codec/x264.c:201
+#: modules/codec/x264.c:202
 msgid ""
 "Strength to reduce blocking and blurring in flat\n"
 "and textured areas, default 1.0 recommented to be between 0..2\n"
@@ -11078,35 +11078,35 @@ msgstr ""
 " - 0.5: AQ feble\n"
 " - 1.5: AQ forte"
 
-#: modules/codec/x264.c:207
+#: modules/codec/x264.c:208
 msgid "QP factor between I and P"
 msgstr "Factor QP entre I e P"
 
-#: modules/codec/x264.c:208
+#: modules/codec/x264.c:209
 msgid "QP factor between I and P. Range 1.0 to 2.0."
 msgstr "Factor QP entre I e P. Intervalo de 1.0 a 2.0."
 
-#: modules/codec/x264.c:211
+#: modules/codec/x264.c:212
 msgid "QP factor between P and B"
 msgstr "Factor QP entre P e B"
 
-#: modules/codec/x264.c:212
+#: modules/codec/x264.c:213
 msgid "QP factor between P and B. Range 1.0 to 2.0."
 msgstr "Factor QP entre P e B. Intervalo de 1.0 a 2.0."
 
-#: modules/codec/x264.c:214
+#: modules/codec/x264.c:215
 msgid "QP difference between chroma and luma"
 msgstr "Diferencia QP entre crominancia e luminancia"
 
-#: modules/codec/x264.c:215
+#: modules/codec/x264.c:216
 msgid "QP difference between chroma and luma."
 msgstr "Diferencia QP entre crominancia e luminancia."
 
-#: modules/codec/x264.c:217
+#: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
 msgstr "Control de velocidade multipaso"
 
-#: modules/codec/x264.c:218
+#: modules/codec/x264.c:219
 msgid ""
 "Multipass ratecontrol:\n"
 " - 1: First pass, creates stats file\n"
@@ -11118,19 +11118,19 @@ msgstr ""
 " - 2: Último paso, non sobrescribe o ficheiro de estados\n"
 " - 3: Enésimo paso, sobrescribe o ficheiro de estados\n"
 
-#: modules/codec/x264.c:223
+#: modules/codec/x264.c:224
 msgid "QP curve compression"
 msgstr "Compresión de curva QP"
 
-#: modules/codec/x264.c:224
+#: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
 msgstr "Compresión de curva QP. Intervalo 0.0 (CBR) a 1.0 (QCP)."
 
-#: modules/codec/x264.c:226 modules/codec/x264.c:230
+#: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
 msgstr "Reducir as flutuacións en QP"
 
-#: modules/codec/x264.c:227
+#: modules/codec/x264.c:228
 msgid ""
 "This reduces the fluctuations in QP before curve compression. Temporally "
 "blurs complexity."
@@ -11138,7 +11138,7 @@ msgstr ""
 "Isto reduce as flutuacións de QP antes da compresión de curva. Desenfoca "
 "temporalmente a complexidade."
 
-#: modules/codec/x264.c:231
+#: modules/codec/x264.c:232
 msgid ""
 "This reduces the fluctations in QP after curve compression. Temporally blurs "
 "quants."
@@ -11146,11 +11146,11 @@ msgstr ""
 "Isto reduce as flutuacións en QP despois da curva de compresión. Desenfoca "
 "temporalmente as cuantizacións."
 
-#: modules/codec/x264.c:236
+#: modules/codec/x264.c:237
 msgid "Partitions to consider"
 msgstr "Particións que hai que considerar"
 
-#: modules/codec/x264.c:237
+#: modules/codec/x264.c:238
 msgid ""
 "Partitions to consider in analyse mode: \n"
 " - none  : \n"
@@ -11168,19 +11168,19 @@ msgstr ""
 " - todas   : i4x4,p8x8,(i8x8),b8x8,p4x4\n"
 "(p4x4 require p8x8. i8x8 require 8x8dct)."
 
-#: modules/codec/x264.c:245
+#: modules/codec/x264.c:246
 msgid "Direct MV prediction mode"
 msgstr "Modo de predición MV directa"
 
-#: modules/codec/x264.c:246
+#: modules/codec/x264.c:247
 msgid "Direct MV prediction mode."
 msgstr "Modo de predición MV directa."
 
-#: modules/codec/x264.c:248
+#: modules/codec/x264.c:249
 msgid "Direct prediction size"
 msgstr "Tamaño de predición directa"
 
-#: modules/codec/x264.c:249
+#: modules/codec/x264.c:250
 msgid ""
 "Direct prediction size:  -  0: 4x4\n"
 " -  1: 8x8\n"
@@ -11190,19 +11190,19 @@ msgstr ""
 " -  1: 8x8\n"
 " - -1: o máis pequeno posíbel de acordo co nivel\n"
 
-#: modules/codec/x264.c:254
+#: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
 msgstr "Predición ponderada para fotogramas B"
 
-#: modules/codec/x264.c:255
+#: modules/codec/x264.c:256
 msgid "Weighted prediction for B-frames."
 msgstr "Predición ponderada para fotogramas B."
 
-#: modules/codec/x264.c:257
+#: modules/codec/x264.c:258
 msgid "Weighted prediction for P-frames"
 msgstr "Predición ponderada para fotogramas P"
 
-#: modules/codec/x264.c:258
+#: modules/codec/x264.c:259
 msgid ""
 " Weighted prediction for P-frames:  - 0: Disabled\n"
 " - 1: Blind offset\n"
@@ -11212,11 +11212,11 @@ msgstr ""
 " - 1: Desprazamento oculto\n"
 " - 2: Análise intelixente\n"
 
-#: modules/codec/x264.c:263
+#: modules/codec/x264.c:264
 msgid "Integer pixel motion estimation method"
 msgstr "Método de estimación de movemento do enteiro de píxeles"
 
-#: modules/codec/x264.c:264
+#: modules/codec/x264.c:265
 msgid ""
 "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
 "(fast)\n"
@@ -11234,11 +11234,11 @@ msgstr ""
 " - tesa: busca exhaustiva hadamard (extremadamente lenta, fundamentalmente "
 "para verificar)\n"
 
-#: modules/codec/x264.c:271
+#: modules/codec/x264.c:272
 msgid "Maximum motion vector search range"
 msgstr "Intervalo máximo de busca de vectores de movemento"
 
-#: modules/codec/x264.c:272
+#: modules/codec/x264.c:273
 msgid ""
 "Maximum distance to search for motion estimation, measured from predicted "
 "position(s). Default of 16 is good for most footage, high motion sequences "
@@ -11249,22 +11249,22 @@ msgstr ""
 "secuencias, secuencias de movemento altas podería beneficiarse das "
 "definicións entre 24 e 32. Intervalo de 0 a 64."
 
-#: modules/codec/x264.c:277
+#: modules/codec/x264.c:278
 msgid "Maximum motion vector length"
 msgstr "Lonxitude máxima de vector de movemento"
 
-#: modules/codec/x264.c:278
+#: modules/codec/x264.c:279
 msgid ""
 "Maximum motion vector length in pixels. -1 is automatic, based on level."
 msgstr ""
 "Lonxitude máxima de vector de movemento en píxeles. -1 é automática, baseada "
 "no nivel."
 
-#: modules/codec/x264.c:281
+#: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
 msgstr "Espazo máximo do búfer entre fíos"
 
-#: modules/codec/x264.c:282
+#: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
@@ -11272,11 +11272,11 @@ msgstr ""
 "Espazo mínimo do búfer entre fíos. -1 é automático, baseado no número de "
 "fíos."
 
-#: modules/codec/x264.c:285
+#: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
 msgstr "Forza da optimización psicovisual; a predeterminada é \"1.0:0.0\""
 
-#: modules/codec/x264.c:286
+#: modules/codec/x264.c:287
 msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
@@ -11285,12 +11285,12 @@ msgstr ""
 "parámetro controla se se está a usar Trellis para a optimización "
 "psicovisual; o predeterminado é \"desactivado\""
 
-#: modules/codec/x264.c:290
+#: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
 msgstr ""
 "Estimación do movemento en subpíxeles e calidade da decisión de partición"
 
-#: modules/codec/x264.c:292
+#: modules/codec/x264.c:293
 msgid ""
 "This parameter controls quality versus speed tradeoffs involved in the "
 "motion estimation decision process (lower = quicker and higher = better "
@@ -11300,21 +11300,21 @@ msgstr ""
 "relacionados co proceso de decisión de estimación de movemento (máis lento = "
 "máis rápido máis alto = mellor calidade). Intervalo de 1 a 9."
 
-#: modules/codec/x264.c:296
+#: modules/codec/x264.c:297
 msgid "RD based mode decision for B-frames"
 msgstr "Decisión de modo baseado en RD para fotogramas B"
 
-#: modules/codec/x264.c:297
+#: modules/codec/x264.c:298
 msgid "RD based mode decision for B-frames. This requires subme 6 (or higher)."
 msgstr ""
 "Decisión de modo baseado en RD para fotogramas B. Isto require subme 6 (ou "
 "superior)."
 
-#: modules/codec/x264.c:300
+#: modules/codec/x264.c:301
 msgid "Decide references on a per partition basis"
 msgstr "Decidir as referencias por partición"
 
-#: modules/codec/x264.c:301
+#: modules/codec/x264.c:302
 msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
@@ -11323,35 +11323,35 @@ msgstr ""
 "fotograma de referencia, en contraposición a só unha referencia por "
 "macrobloque."
 
-#: modules/codec/x264.c:305
+#: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
 msgstr "Crominancia para a estimación de movemento"
 
-#: modules/codec/x264.c:306
+#: modules/codec/x264.c:307
 msgid "Chroma ME for subpel and mode decision in P-frames."
 msgstr "Crominancia ME para subpel e decisión de modo en fotogramas P."
 
-#: modules/codec/x264.c:309
+#: modules/codec/x264.c:310
 msgid "Jointly optimize both MVs in B-frames"
 msgstr "Optimizar de forma conxunta os MV nos fotogramas B"
 
-#: modules/codec/x264.c:310
+#: modules/codec/x264.c:311
 msgid "Joint bidirectional motion refinement."
 msgstr "Mellora do movemento bidireccional conxunto."
 
-#: modules/codec/x264.c:312
+#: modules/codec/x264.c:313
 msgid "Adaptive spatial transform size"
 msgstr "Tamaño de transformación espacial adaptábel"
 
-#: modules/codec/x264.c:314
+#: modules/codec/x264.c:315
 msgid "SATD-based decision for 8x8 transform in inter-MBs."
 msgstr "Decisión baseada en SATD para a transformación 8x8 en inter-MB."
 
-#: modules/codec/x264.c:316
+#: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
 msgstr "Cuantización RD \"trellis\""
 
-#: modules/codec/x264.c:317
+#: modules/codec/x264.c:318
 msgid ""
 "Trellis RD quantization: \n"
 " - 0: disabled\n"
@@ -11365,19 +11365,19 @@ msgstr ""
 " - 2: activado en todas as decisións de modos\n"
 "Isto require CABAC."
 
-#: modules/codec/x264.c:323
+#: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
 msgstr "Detección SKIP precoz en fotogramas P"
 
-#: modules/codec/x264.c:324
+#: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
 msgstr "Detección SKIP precoz en fotogramas P."
 
-#: modules/codec/x264.c:326
+#: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
 msgstr "Limiar de coeficiente en fotogramas P"
 
-#: modules/codec/x264.c:327
+#: modules/codec/x264.c:328
 msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
@@ -11385,17 +11385,17 @@ msgstr ""
 "Limiar de coeficiente en fotogramas P. Eliminar os bloques DCT que conteñen "
 "só un coeficiente único pequeno."
 
-#: modules/codec/x264.c:330
+#: modules/codec/x264.c:331
 msgid "Use Psy-optimizations"
 msgstr "Usar as optimizacións Psy"
 
-#: modules/codec/x264.c:331
+#: modules/codec/x264.c:332
 msgid "Use all visual optimizations that can worsen both PSNR and SSIM"
 msgstr ""
 "Usar todas as optimizacións visuais que poden facer empeorar tanto PSNR como "
 "SSIM"
 
-#: modules/codec/x264.c:335
+#: modules/codec/x264.c:336
 msgid ""
 "Dct-domain noise reduction. Adaptive pseudo-deadzone. 10 to 1000 seems to be "
 "a useful range."
@@ -11403,57 +11403,57 @@ msgstr ""
 "Redución de ruído en dominio DCT. Pseudozona morta adaptábel. De 10 a 1000 "
 "parece ser un intervalo útil."
 
-#: modules/codec/x264.c:338
+#: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
 msgstr "Zona morta de cuantización interluminancia"
 
-#: modules/codec/x264.c:339
+#: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Definir o tamaño da zona morta de cuantización interluminancia. Intervalo de "
 "0 a 32."
 
-#: modules/codec/x264.c:342
+#: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
 msgstr "Zona morta de cuantización intraluminancia"
 
-#: modules/codec/x264.c:343
+#: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
 "Definir o tamaño da zona morta de cuantización intraluminancia. Intervalo de "
 "0 a 32."
 
-#: modules/codec/x264.c:348
+#: modules/codec/x264.c:349
 msgid "Non-deterministic optimizations when threaded"
 msgstr "Optimizacións non determinantes cando se execute en fíos"
 
-#: modules/codec/x264.c:349
+#: modules/codec/x264.c:350
 msgid "Slightly improve quality of SMP, at the cost of repeatability."
 msgstr "Mellora un pouco a calidade de SMP a custo de repeticións."
 
-#: modules/codec/x264.c:352
+#: modules/codec/x264.c:353
 msgid "CPU optimizations"
 msgstr "Optimizacións CPU"
 
-#: modules/codec/x264.c:353
+#: modules/codec/x264.c:354
 msgid "Use assembler CPU optimizations."
 msgstr "Usar as optimizacións do ensamblador de CPU."
 
-#: modules/codec/x264.c:355
+#: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
 msgstr "Nome de ficheiro para o ficheiro de estados do segundo paso"
 
-#: modules/codec/x264.c:356
+#: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
 msgstr ""
 "Nome de ficheiro para 2 pasos de ficheiro de estados para a codificación "
 "multipasos."
 
-#: modules/codec/x264.c:358
+#: modules/codec/x264.c:359
 msgid "PSNR computation"
 msgstr "Computación PSNR"
 
-#: modules/codec/x264.c:359
+#: modules/codec/x264.c:360
 msgid ""
 "Compute and print PSNR stats. This has no effect on the actual encoding "
 "quality."
@@ -11461,11 +11461,11 @@ msgstr ""
 "Calcular e imprimir os estados PSNR. Isto non ten influencia na calidade de "
 "codificación real."
 
-#: modules/codec/x264.c:362
+#: modules/codec/x264.c:363
 msgid "SSIM computation"
 msgstr "Cálculo SSIM"
 
-#: modules/codec/x264.c:363
+#: modules/codec/x264.c:364
 msgid ""
 "Compute and print SSIM stats. This has no effect on the actual encoding "
 "quality."
@@ -11473,28 +11473,28 @@ msgstr ""
 "Calcula e imprime os estados SSIM. Isto non inflúe na calidade de "
 "codificación real."
 
-#: modules/codec/x264.c:366
+#: modules/codec/x264.c:367
 msgid "Quiet mode"
 msgstr "Modo silencioso"
 
-#: modules/codec/x264.c:367
+#: modules/codec/x264.c:368
 msgid "Quiet mode."
 msgstr "Modo silencioso."
 
-#: modules/codec/x264.c:369 modules/gui/macosx/playlistinfo.m:82
+#: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Estatísticas"
 
-#: modules/codec/x264.c:370
+#: modules/codec/x264.c:371
 msgid "Print stats for each frame."
 msgstr "Imprimir estados para cada fotograma."
 
-#: modules/codec/x264.c:372
+#: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
 msgstr "Números de ID de SPS e PPS"
 
-#: modules/codec/x264.c:373
+#: modules/codec/x264.c:374
 msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
@@ -11502,19 +11502,19 @@ msgstr ""
 "Definir os números de ID de SPS e PPS para permitir a concatenación de "
 "fluxos con diferentes configuracións."
 
-#: modules/codec/x264.c:376
+#: modules/codec/x264.c:377
 msgid "Access unit delimiters"
 msgstr "Delimitadores de unidade de acceso"
 
-#: modules/codec/x264.c:377
+#: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
 msgstr "Xera unidades NAL delimitadoras de unidade de acceso."
 
-#: modules/codec/x264.c:379
+#: modules/codec/x264.c:380
 msgid "Framecount to use on frametype lookahead"
 msgstr "A conta de fotogramas para usar na busca de tipo de fotograma"
 
-#: modules/codec/x264.c:380
+#: modules/codec/x264.c:381
 msgid ""
 "Framecount to use on frametype lookahead. Currently default is lower than "
 "x264 default because unmuxable outputdoesn't handle larger values that well "
@@ -11524,55 +11524,70 @@ msgstr ""
 "predeterminado actualmente é menor que o predeterminado en x264, porque a "
 "saída non demultiplexábel aínda non manexa tan ben valores maiores"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:385 modules/codec/x264.c:386
+#, fuzzy
+msgid "HRD-timing information"
+msgstr "imprimir a información da versión"
+
+#: modules/codec/x264.c:388
+msgid ""
+"Tune the settings for a particular type of source or situation. Overridden "
+"by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:390
+msgid "Use preset as default settings. Overridden by user settings."
+msgstr ""
+
+#: modules/codec/x264.c:395
 msgid "dia"
 msgstr "dia"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "hex"
 msgstr "hex"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "umh"
 msgstr "umh"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "esa"
 msgstr "esa"
 
-#: modules/codec/x264.c:387
+#: modules/codec/x264.c:395
 msgid "tesa"
 msgstr "tesa"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "fast"
 msgstr "rápido"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "normal"
 msgstr "normal"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "slow"
 msgstr "lento"
 
-#: modules/codec/x264.c:400
+#: modules/codec/x264.c:408
 msgid "all"
 msgstr "todos"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "spatial"
 msgstr "espacial"
 
-#: modules/codec/x264.c:405
+#: modules/codec/x264.c:413
 msgid "temporal"
 msgstr "temporal"
 
-#: modules/codec/x264.c:405 modules/video_filter/mosaic.c:167
+#: modules/codec/x264.c:413 modules/video_filter/mosaic.c:167
 msgid "auto"
 msgstr "automático"
 
-#: modules/codec/x264.c:408
+#: modules/codec/x264.c:416
 msgid "H.264/MPEG4 AVC encoder (x264)"
 msgstr "Codificador H.264/MPEG4 AVC (x264)"
 
@@ -12641,19 +12656,19 @@ msgstr "Multiplexor FFmpeg"
 msgid "Force use of ffmpeg muxer."
 msgstr "Forzar o uso do multiplexor FFmpeg."
 
-#: modules/demux/avi/avi.c:49
+#: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
 msgstr "Forzar o método intercalado"
 
-#: modules/demux/avi/avi.c:50
+#: modules/demux/avi/avi.c:51
 msgid "Force interleaved method."
 msgstr "Forzar o método intercalado."
 
-#: modules/demux/avi/avi.c:52
+#: modules/demux/avi/avi.c:53
 msgid "Force index creation"
 msgstr "Forzar a creación do índice"
 
-#: modules/demux/avi/avi.c:54
+#: modules/demux/avi/avi.c:55
 msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
@@ -12661,27 +12676,27 @@ msgstr ""
 "Recrear un índice para o ficheiro AVI. Use este se o ficheiro AVI está "
 "danado ou incompleto (non se pode buscar)."
 
-#: modules/demux/avi/avi.c:62
+#: modules/demux/avi/avi.c:63
 msgid "Ask for action"
 msgstr "Preguntar pola acción"
 
-#: modules/demux/avi/avi.c:63
+#: modules/demux/avi/avi.c:64
 msgid "Always fix"
 msgstr "Fixar sempre"
 
-#: modules/demux/avi/avi.c:64
+#: modules/demux/avi/avi.c:65
 msgid "Never fix"
 msgstr "Non fixar nunca"
 
-#: modules/demux/avi/avi.c:68
+#: modules/demux/avi/avi.c:69
 msgid "AVI demuxer"
 msgstr "Demultiplexor AVI"
 
-#: modules/demux/avi/avi.c:639
+#: modules/demux/avi/avi.c:651
 msgid "AVI Index"
 msgstr "Índice AVI"
 
-#: modules/demux/avi/avi.c:640
+#: modules/demux/avi/avi.c:652
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12693,15 +12708,15 @@ msgstr ""
 "\n"
 "Isto pode levar muito tempo."
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Repair"
 msgstr "Reparar"
 
-#: modules/demux/avi/avi.c:643
+#: modules/demux/avi/avi.c:655
 msgid "Don't repair"
 msgstr "Non reparar"
 
-#: modules/demux/avi/avi.c:2336
+#: modules/demux/avi/avi.c:2355
 msgid "Fixing AVI Index..."
 msgstr "Fixando o índice AVI..."
 
@@ -12898,11 +12913,11 @@ msgstr "Porto do túnel HTTP"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "Porto que hai que usar para facer o túnel RTSP/RTP sobre HTTP."
 
-#: modules/demux/live555.cpp:604
+#: modules/demux/live555.cpp:602
 msgid "RTSP authentication"
 msgstr "Autenticación RTSP"
 
-#: modules/demux/live555.cpp:605
+#: modules/demux/live555.cpp:603
 msgid "Please enter a valid login name and a password."
 msgstr "Introduza un nome de rexistro válido e un contrasinal."
 
@@ -13072,11 +13087,11 @@ msgstr "Nivel de son envolvente"
 msgid "Surround delay (ms)"
 msgstr "Atraso de son envolvente (ms)"
 
-#: modules/demux/mp4/mp4.c:54
+#: modules/demux/mp4/mp4.c:55
 msgid "MP4 stream demuxer"
 msgstr "Demultiplexor de fluxo MP4"
 
-#: modules/demux/mp4/mp4.c:55
+#: modules/demux/mp4/mp4.c:56
 msgid "MP4"
 msgstr "MP4"
 
@@ -13610,19 +13625,19 @@ msgstr "Teletexto: organizar os programas"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "Subtítulos de texto: persoas con discapacidades auditivas"
 
-#: modules/demux/ts.c:3556
+#: modules/demux/ts.c:3558
 msgid "DVB subtitles: hearing impaired"
 msgstr "Subtítulos de DVB: persoas con discapacidades auditivas"
 
-#: modules/demux/ts.c:3848 modules/demux/ts.c:3890
+#: modules/demux/ts.c:3850 modules/demux/ts.c:3892
 msgid "clean effects"
 msgstr "limpar efectos"
 
-#: modules/demux/ts.c:3852 modules/demux/ts.c:3894
+#: modules/demux/ts.c:3854 modules/demux/ts.c:3896
 msgid "hearing impaired"
 msgstr "persoas con discapacidades auditivas"
 
-#: modules/demux/ts.c:3856 modules/demux/ts.c:3898
+#: modules/demux/ts.c:3858 modules/demux/ts.c:3900
 msgid "visual impaired commentary"
 msgstr "comentario para persoas con discapacidades visuais"
 
@@ -13920,6 +13935,7 @@ msgstr "Tempo"
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
 #: modules/gui/qt4/components/open_panels.cpp:1264
 #: modules/gui/qt4/components/preferences_widgets.cpp:1421
+#: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
 msgstr "Aceptar"
 
@@ -15253,7 +15269,7 @@ msgid "Subtitles & OSD"
 msgstr "Subtítulos e OSD"
 
 #: modules/gui/macosx/simple_prefs.m:192
-#: modules/gui/qt4/components/simple_preferences.cpp:618
+#: modules/gui/qt4/components/simple_preferences.cpp:619
 msgid "Subtitles & On Screen Display Settings"
 msgstr "Configuracións de subtítulos e OSD"
 
@@ -16833,11 +16849,11 @@ msgstr "Reproducidos"
 msgid "buffers"
 msgstr "búferes"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:357
+#: modules/gui/qt4/components/interface_widgets.cpp:380
 msgid "Current visualization"
 msgstr "Visualización actual"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:396
+#: modules/gui/qt4/components/interface_widgets.cpp:419
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16845,19 +16861,19 @@ msgstr ""
 "Velocidade de reprodución actual: %1\n"
 "Prema para axustar"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:467
+#: modules/gui/qt4/components/interface_widgets.cpp:490
 msgid "Revert to normal play speed"
 msgstr "Retomar a velocidade de reprodución normal"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:541
+#: modules/gui/qt4/components/interface_widgets.cpp:564
 msgid "Download cover art"
 msgstr "Descargar a portada"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:583
+#: modules/gui/qt4/components/interface_widgets.cpp:606
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Prema para cambiar entre o tempo transcorrido e o restante"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:585
+#: modules/gui/qt4/components/interface_widgets.cpp:608
 msgid "Double click to jump to a chosen time position"
 msgstr "Faga duplo clic para ir á posición de tempo escollida"
 
@@ -17113,34 +17129,38 @@ msgstr ""
 "Esta é a interface do VLC á que lle pode cambiar a aparencia. Pode descargar "
 "outros ficheiros de aparencia en"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:548
+#: modules/gui/qt4/components/simple_preferences.cpp:524
+msgid "VLC skins website"
+msgstr ""
+
+#: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
 msgstr "Predeterminado do sistema"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:646
+#: modules/gui/qt4/components/simple_preferences.cpp:647
 msgid "Configure Hotkeys"
 msgstr "Configurar teclas rápidas"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:910
+#: modules/gui/qt4/components/simple_preferences.cpp:911
 #: modules/gui/qt4/dialogs_provider.hpp:51
 msgid "Audio Files"
 msgstr "Ficheiros de audio"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:911
+#: modules/gui/qt4/components/simple_preferences.cpp:912
 #: modules/gui/qt4/dialogs_provider.hpp:46
 msgid "Video Files"
 msgstr "Ficheiros de vídeo"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:912
+#: modules/gui/qt4/components/simple_preferences.cpp:913
 #: modules/gui/qt4/dialogs_provider.hpp:56
 msgid "Playlist Files"
 msgstr "Ficheiros de listas de reprodución"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:964
+#: modules/gui/qt4/components/simple_preferences.cpp:965
 msgid "&Apply"
 msgstr "&Aplicar"
 
-#: modules/gui/qt4/components/simple_preferences.cpp:965
+#: modules/gui/qt4/components/simple_preferences.cpp:966
 #: modules/gui/qt4/dialogs/convert.cpp:96
 #: modules/gui/qt4/dialogs/gototime.cpp:49
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
@@ -17361,6 +17381,41 @@ msgstr "Sincronización"
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
 msgstr "Controis v4l2"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:61
+#, fuzzy
+msgid "Privacy and Network Policies"
+msgstr "Privacidade / interacción de redes"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:69
+#, fuzzy
+msgid "Privacy and Network Warning"
+msgstr "Privacidade / interacción de redes"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:72
+msgid ""
+"<p><i>VideoLAN</i> prefers when applications request authorization before "
+"accessing Internet.</p>\n"
+"<p><b>VLC media player</b> can get information from the Internet in order to "
+"get <b>media informations</b> or to check for available <b>updates</b>.</p>\n"
+"<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
+"even anonymously, about your usage.</p>\n"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:83
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
+msgid "Options"
+msgstr "Opción"
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:90
+msgid "Allow fetching media information from Internet"
+msgstr ""
+
+#: modules/gui/qt4/dialogs/firstrun.cpp:95
+#, fuzzy
+msgid "Check for updates"
+msgstr "Comprobar act&ualizacións..."
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -21769,19 +21824,19 @@ msgstr "Asignación de canle e zona"
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid ""
 "for devices with more than five channels / zones write down here for each "
-"channel the zone number to show and seperate the values with , or ; and use -"
-"1 to not use some channels. For the classic AtmoLight the sequence 4,3,1,0,2 "
-"would set the default channel/zone mapping. Having only two zones on top, "
-"and one zone on left and right and no summary zone the mapping for classic "
-"AtmoLight would be -1,3,2,1,0"
+"channel the zone number to show and seperate the values with , or ; and use "
+"-1 to not use some channels. For the classic AtmoLight the sequence "
+"4,3,1,0,2 would set the default channel/zone mapping. Having only two zones "
+"on top, and one zone on left and right and no summary zone the mapping for "
+"classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 "para os dispositivos con máis de cinco canles ou zonas escriba para cada "
 "canle o número de zonas para mostrar; separe os valores con -,- ou -;- e use "
 "-1 para non usar algunhas canles. Para o AtmoLight clásico a secuencia "
 "4,3,1,0,2 debería definir o mapeamento da canle ou zona predeterminada. Se "
 "ten só dúas zonas na parte superior e unha zona á esquerda e dereita e non "
-"ten unha zona de resumo, o mapeamento do AtmoLight clásico debería ser -"
-"1,3,2,1,0"
+"ten unha zona de resumo, o mapeamento do AtmoLight clásico debería ser "
+"-1,3,2,1,0"
 
 #: modules/video_filter/atmo/atmo.cpp:333
 msgid "Zone 0: Top gradient"
@@ -24230,11 +24285,18 @@ msgstr "Xanela X"
 msgid "X11 video window (XCB)"
 msgstr "Xanela de vídeo X11 (XCB)"
 
-#: modules/video_output/xcb/window.c:289
+#. xgettext: This is a plain ASCII spelling of "VLC media player"
+#. for the ICCCM window name. This must be pure ASCII.
+#. The limitation is partially with ICCCM and partially with VLC.
+#. For Latin script languages, you may need to strip accents.
+#. For other scripts, you will need to transliterate into Latin.
+#: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "Reprodutor multimedia VLC"
 
+#. xgettext: This is a plain ASCII spelling of "VLC"
+#. for the ICCCM window name. This must be pure ASCII.
 #: modules/video_output/xcb/window.c:293
 msgctxt "ASCII"
 msgid "VLC"
@@ -24280,22 +24342,22 @@ msgstr "XVideo"
 msgid "XVideo output (XCB)"
 msgstr " Saída XVideo (XCB)"
 
-#: modules/video_output/xcb/xvideo.c:273
+#: modules/video_output/xcb/xvideo.c:274
 msgid "Video acceleration not available"
 msgstr "A aceleración de vídeo non está dispoñíbel"
 
-#: modules/video_output/xcb/xvideo.c:274
+#: modules/video_output/xcb/xvideo.c:275
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
-"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x%"
-"<PRIu32>.\n"
+"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+"%<PRIu32>.\n"
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
 "O seu controlador de aceleración de saída de vídeo non é compatíbel coa "
-"solución requirida: %ux%u píxeles. A resolución máxima compatíbel é %"
-"<PRIu32>x%<PRIu32>.\n"
+"solución requirida: %ux%u píxeles. A resolución máxima compatíbel é "
+"%<PRIu32>x%<PRIu32>.\n"
 "A aceleración de saída de vídeo será desactivada. Porén, a renderización de "
 "vídeos cunha resolución de masiado grande pode causar unha forte degradación "
 "do rendemento."
@@ -24646,11 +24708,6 @@ msgstr "Seleccione o tipo de dispositivo de captura"
 #: linux/modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "Selección de dispositivo"
-
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
-msgid "Options"
-msgstr "Opción"
 
 #: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
