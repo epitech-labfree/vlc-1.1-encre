@@ -3,13 +3,13 @@
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the vlc package.
 #
-# Mindaugas Baranauskas <embar@users.berlios.de>, 2010.
+# Mindaugas Baranauskas <embar@users.berlios.de>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: vlc-lt-trunk\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-28 00:21+0100\n"
-"PO-Revision-Date: 2010-05-01 00:48+0300\n"
+"POT-Creation-Date: 2010-05-29 00:43+0100\n"
+"PO-Revision-Date: 2010-05-28 21:27+0300\n"
 "Last-Translator: Mindaugas Baranauskas <embar@users.berlios.de>\n"
 "Language-Team: Lithuanian <kde-i18n-doc@kde.org>\n"
 "Language: lt\n"
@@ -924,8 +924,8 @@ msgstr "iškodavimas"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
-#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:678
+#: modules/codec/avcodec/encoder.c:687 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Srauto siuntimo ar perkodavimo klaida"
@@ -4703,7 +4703,7 @@ msgid "Downloading ..."
 msgstr "Atsiunčiama ..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
+#: modules/demux/avi/avi.c:656 modules/demux/avi/avi.c:2358
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -8942,7 +8942,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
+#: modules/codec/avcodec/encoder.c:679 modules/codec/avcodec/encoder.c:688
 msgid "VLC could not open the encoder."
 msgstr "VLC negali atverti įkodavimo priemonės."
 
@@ -10933,9 +10933,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/x264.c:385 modules/codec/x264.c:386
-#, fuzzy
 msgid "HRD-timing information"
-msgstr "spausdinti informaciją apie versiją"
+msgstr ""
 
 #: modules/codec/x264.c:388
 msgid ""
@@ -12059,11 +12058,11 @@ msgstr "Niekada netaisyti"
 msgid "AVI demuxer"
 msgstr "AVI išpynimo metodas"
 
-#: modules/demux/avi/avi.c:651
+#: modules/demux/avi/avi.c:652
 msgid "AVI Index"
 msgstr "AVI turinys"
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:653
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12075,15 +12074,15 @@ msgstr ""
 "\n"
 "Tai gali ilgai užtrukti."
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Repair"
 msgstr "Taisyti"
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Don't repair"
 msgstr "Netaisyti"
 
-#: modules/demux/avi/avi.c:2355
+#: modules/demux/avi/avi.c:2357
 msgid "Fixing AVI Index..."
 msgstr "Taisomas AVI turinys..."
 
@@ -16297,7 +16296,7 @@ msgstr "Tai VLC sąsaja su keičiamais apipavidalinimais, kurių galite rasti"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:524
 msgid "VLC skins website"
-msgstr ""
+msgstr "VLC apipavidalinimų svetainėje"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
@@ -16555,7 +16554,6 @@ msgid "Privacy and Network Warning"
 msgstr "Privatumo ir tinklo įspėjimai"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
-#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -16564,14 +16562,13 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
-"<p><i>VideoLAN komanda</i> nenorėtų, kad programa jungtųsi prie tinklo be "
-"patvirtinimo.</p>\n"
-" <p><i>VLC grotuvas</i> gali gauti ribotą informaciją iš interneto, "
-"atsisiųsdama CD viršelius arba tikrindama prieinamus atnaujinimus.</p>\n"
-"<p><i>VLC grotuvas</i> <b>NIEKADA</b> nesiunčia ir nerenka <b>JOKIOS</b> "
-"informacijos, nebent anonimiškai apie jūsų naudojimąsi.</p>\n"
-"<p>Prašytume nustatyti sekančias parinktis; numatytuoju atveju nėra "
-"leidžiama jungtis prie interneto.</p>\n"
+"<p><i>VideoLAN</i> norėtų, kad programa jungtųsi prie tinklo tik gavusi "
+"leidimą.</p>\n"
+" <p><b>VLC grotuvas</b> gali parsisiųsti informaciją iš žiniatinklio, "
+"siekdamasparsisiųsti <b>kūrinių informaciją</b> arba tikrindamas, ar yra "
+"<b>atnaujinimų</b>.</p>\n"
+"<p><i>VLC grotuvas</i> <b>nesiunčia</b> ir nerenka informacijos, nebent "
+"anonimiškai apie jūsų naudojimąsi.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: linux/modules/gui/qt4/ui/open_capture.h:103
@@ -16581,12 +16578,11 @@ msgstr "Parinktys"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:90
 msgid "Allow fetching media information from Internet"
-msgstr ""
+msgstr "Leisti gauti informaciją iš žiniatinklio"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
-msgstr "Tikrinti, ar yra atna&ujinimų..."
+msgstr "Tikrinti, ar yra atnaujinimų"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
