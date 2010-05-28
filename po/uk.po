@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-28 00:21+0100\n"
-"PO-Revision-Date: 2010-04-15 23:51+0300\n"
+"POT-Creation-Date: 2010-05-29 00:43+0100\n"
+"PO-Revision-Date: 2010-05-28 10:26+0300\n"
 "Last-Translator: Oleksandr Natalenko <pfactum@gmail.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
 "Language: uk\n"
@@ -920,8 +920,8 @@ msgstr "декодер"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
-#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:678
+#: modules/codec/avcodec/encoder.c:687 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Помилка потокового виводу чи перекодування"
@@ -1452,7 +1452,6 @@ msgid "Extra interface modules"
 msgstr "Додаткові модулі інтерфейсу"
 
 #: src/libvlc-module.c:180
-#, fuzzy
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
@@ -1461,8 +1460,7 @@ msgid ""
 msgstr ""
 "Ви можете обрати «додаткові інтерфейси» для VLC. Вони будуть запущені у фоні "
 "як доповнення до інтерфейсу за змовчуванням. Модулі в списку розділяються "
-"комами (звичайні значення - «rc» (віддалене керування), \"http\", \"gestures"
-"\"…)"
+"комами (звичайні значення - «rc» (віддалене керування), «http», «gestures» …)"
 
 #: src/libvlc-module.c:187
 msgid "You can select control interfaces for VLC."
@@ -3661,13 +3659,12 @@ msgid "Services discovery modules"
 msgstr "Модулі пошуку служб"
 
 #: src/libvlc-module.c:1228
-#, fuzzy
 msgid ""
 "Specifies the services discovery modules to load, separated by colons. "
 "Typical values are sap, hal, ..."
 msgstr ""
 "Список завантажуваних модулів пошуку служб через двокрапку. Звичайні "
-"значення: sap, hal…"
+"значення: sap, hal, …"
 
 #: src/libvlc-module.c:1231
 msgid "Play files randomly forever"
@@ -4735,7 +4732,7 @@ msgid "Downloading ..."
 msgstr "Завантаження…"
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
+#: modules/demux/avi/avi.c:656 modules/demux/avi/avi.c:2358
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -9108,7 +9105,7 @@ msgstr ""
 "Це не внутрішня помилка медіаплеєру VLC.\n"
 "Не зв’язуйтеся з проектом VideoLAN з приводу цієї проблеми.\n"
 
-#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
+#: modules/codec/avcodec/encoder.c:679 modules/codec/avcodec/encoder.c:688
 msgid "VLC could not open the encoder."
 msgstr "VLC не зміг відкрити кодер."
 
@@ -11284,19 +11281,22 @@ msgstr ""
 "не сприймає вищі значення"
 
 #: modules/codec/x264.c:385 modules/codec/x264.c:386
-#, fuzzy
 msgid "HRD-timing information"
-msgstr "показати інформацію про версію"
+msgstr "Інформація про HRD-таймінги"
 
 #: modules/codec/x264.c:388
 msgid ""
 "Tune the settings for a particular type of source or situation. Overridden "
 "by user settings."
 msgstr ""
+"Підберіть налаштування для певного типу джерела чи ситуації. Перекриваються "
+"налаштуваннями користувача."
 
 #: modules/codec/x264.c:390
 msgid "Use preset as default settings. Overridden by user settings."
 msgstr ""
+"Використовувати попереднє налаштування як налаштування за змовчуванням. "
+"Перекривається налаштуваннями користувача."
 
 #: modules/codec/x264.c:395
 msgid "dia"
@@ -12441,11 +12441,11 @@ msgstr "Ніколи не виправляти"
 msgid "AVI demuxer"
 msgstr "Демультиплексор AVI"
 
-#: modules/demux/avi/avi.c:651
+#: modules/demux/avi/avi.c:652
 msgid "AVI Index"
 msgstr "Індексація AVI"
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:653
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12457,15 +12457,15 @@ msgstr ""
 "\n"
 "Це може тривати досить довго."
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Repair"
 msgstr "Виправити"
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Don't repair"
 msgstr "Не виправляти"
 
-#: modules/demux/avi/avi.c:2355
+#: modules/demux/avi/avi.c:2357
 msgid "Fixing AVI Index..."
 msgstr "Виправлення індексу AVI…"
 
@@ -16680,9 +16680,8 @@ msgid "Advanced Options"
 msgstr "Додаткові параметри"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:54
-#, fuzzy
 msgid "Media Browser"
-msgstr " Огляд "
+msgstr "Медіапереглядач"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
@@ -16757,9 +16756,8 @@ msgid "List View"
 msgstr "Перегляд списку"
 
 #: modules/gui/qt4/components/playlist/standardpanel.cpp:99
-#, fuzzy
 msgid "Change playlistview"
-msgstr "Зберегти список відтворення"
+msgstr "Змінити вигляд списку відтворення"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:344
 msgid "Select File"
@@ -16846,7 +16844,7 @@ msgstr "Це змінний інтерфейс VLC. Ви можете заван
 
 #: modules/gui/qt4/components/simple_preferences.cpp:524
 msgid "VLC skins website"
-msgstr ""
+msgstr "Веб-сайт обкладинок VLC"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
@@ -17104,7 +17102,6 @@ msgid "Privacy and Network Warning"
 msgstr "Попередження приватності та мережі"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
-#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -17113,14 +17110,13 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
-"<p><i>Команда VideoLAN</i> не любить, якщо програма виходить онлайн без "
-"авторизації.</p>\n"
-" <p><i>Медіаплеєр VLC</i> може отримувати обмежжену інформацію з Інтернету, "
-"аби отримати обкладинки CD або перевірити доступні поновлення.</p>\n"
-"<p><i>Медіаплеєр VLC</i> <b>НЕ</b> надсилає чи збирає <b>БУДЬ-ЯКУ</b> "
-"інформацію, навіть анонімно, про Ваше використання.</p>\n"
-"<p>Тому, будь ласка, оберіть із наступних налаштувань, щоб за змовчуванням "
-"майже небуло доступу до вебу.</p>\n"
+"<p><i>VideoLAN</i> любить, якщо програми питають про авторизацію перед "
+"виходом у Інтернет.</p>\n"
+" <p><b>Медіаплеєр VLC</b> може отримувати інформацію з Інтернету, аби "
+"отримати <b>медіаінформацію</b> або перевірити доступні <b>поновлення</b>.</"
+"p>\n"
+"<p><i>Медіаплеєр VLC</i> <b>не</b> надсилає чи збирає будь-яку інформацію, "
+"навіть анонімно, про Ваше використання.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: linux/modules/gui/qt4/ui/open_capture.h:103
@@ -17130,10 +17126,9 @@ msgstr "Параметри"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:90
 msgid "Allow fetching media information from Internet"
-msgstr ""
+msgstr "Дозволити отримувати медіаінформацію з Інтернету"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
 msgstr "Перевірити оновлення"
 
@@ -18102,9 +18097,8 @@ msgstr ""
 "з композитним розширенням."
 
 #: modules/gui/qt4/qt4.cpp:109
-#, fuzzy
 msgid "Fullscreen controller opacity between 0.1 and 1"
-msgstr "Прозорість керування прозорістю вікна між 0.1 та 1"
+msgstr "Прозорість елементу керування повноекранного режиму між 0.1 та 1"
 
 #: modules/gui/qt4/qt4.cpp:110
 msgid ""
@@ -18796,7 +18790,6 @@ msgid "Font family for the font you want to use"
 msgstr "Родина шрифту, який ви хочете використовувати"
 
 #: modules/misc/freetype.c:97
-#, fuzzy
 msgid "Fontfile for the font you want to use"
 msgstr "Ім'я файлу шрифту, який ви бажаєте використовувати"
 
@@ -20779,13 +20772,12 @@ msgid "Maximum output video height."
 msgstr "Максимальна висота виводу відео."
 
 #: modules/stream_out/transcode/transcode.c:80
-#, fuzzy
 msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
-"Відеофільтри застосовуються до відеопотоку після накладення шарів. Ви "
-"повинні ввести список фільтрів через кому."
+"Відеофільтри застосовуються до відеопотоку після накладення шарів. Ви можете "
+"ввести список фільтрів через кому."
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -20838,13 +20830,12 @@ msgid "Audio filter"
 msgstr "Аудіофільтр"
 
 #: modules/stream_out/transcode/transcode.c:104
-#, fuzzy
 msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
 "Аудіофільтри застосовуються до аудіопотоків після накладення конвертуючих "
-"фільтрів. Ви повинні ввести список фільтрів через кому."
+"фільтрів. Ви можете ввести список фільтрів через кому."
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
@@ -20867,7 +20858,6 @@ msgid "This is the subtitles codec that will be used."
 msgstr "Використовуваний кодек субтитрів."
 
 #: modules/stream_out/transcode/transcode.c:117
-#, fuzzy
 msgid ""
 "This allows you to add overlays (also known as \"subpictures\" on the "
 "transcoded video stream. The subpictures produced by the filters will be "
@@ -20876,7 +20866,7 @@ msgid ""
 msgstr ""
 "Цей параметр дозволяє додавати шари (знані як «підмалюнки» на перекодованому "
 "відеопотоці) до відеопотоку. Шари, отримані з фільтрів накладаються прямо на "
-"відео. Модулі шарів вказуються через кому"
+"відео. Ви можете вказати список модулів підмалюнків через кому"
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -21074,7 +21064,6 @@ msgstr ""
 "пристрій у дії."
 
 #: modules/video_filter/atmo/atmo.cpp:135
-#, fuzzy
 msgid "Device type"
 msgstr "Тип пристрою"
 
@@ -23138,7 +23127,6 @@ msgid "VNC Port"
 msgstr "Порт VNC"
 
 #: modules/video_filter/remoteosd.c:80
-#, fuzzy
 msgid "VNC portnumber."
 msgstr "Номер порту VNC."
 
@@ -23920,7 +23908,7 @@ msgstr "Відеовікно X11 (XCB)"
 #: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr ""
+msgstr "Медіаплеєр VLC"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
@@ -24393,9 +24381,8 @@ msgid "Network Protocol"
 msgstr "Мережевий протокол"
 
 #: linux/modules/gui/qt4/ui/open_net.h:93
-#, fuzzy
 msgid "Please enter a network URL:"
-msgstr "Будь ласка, введіть ім’я нового профілю."
+msgstr "Будь ласка, введіть мережевий URL:"
 
 #: linux/modules/gui/qt4/ui/open_net.h:95
 msgid "Enter the URL of the network stream here."
@@ -24426,6 +24413,28 @@ msgid ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 msgstr ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:8pt; font-"
+"weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.example.com/stream.avi</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtp://@1234</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">rtsp://server.example.org:8080/test.sdp</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
+"#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 
 #: linux/modules/gui/qt4/ui/profiles.h:456
 msgid "MPEG-TS"
@@ -24996,7 +25005,6 @@ msgid "Brightness (%)"
 msgstr "Яскравість (%)"
 
 #: linux/modules/gui/qt4/ui/video_effects.h:1157
-#, fuzzy
 msgid "Darknesslimit"
 msgstr "Ліміт темноти"
 
