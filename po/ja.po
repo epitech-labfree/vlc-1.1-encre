@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-28 00:21+0100\n"
-"PO-Revision-Date: 2010-05-02 10:43+0900\n"
+"POT-Creation-Date: 2010-05-29 00:43+0100\n"
+"PO-Revision-Date: 2010-05-29 11:58+0900\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: VideoLAN's Translators <translators@videolan.org>\n"
 "Language: \n"
@@ -925,8 +925,8 @@ msgstr "デコーダー"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
-#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:678
+#: modules/codec/avcodec/encoder.c:687 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "ストリーミング/トランスコーディングに失敗しました"
@@ -4698,7 +4698,7 @@ msgid "Downloading ..."
 msgstr "ダウンロードしています..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
+#: modules/demux/avi/avi.c:656 modules/demux/avi/avi.c:2358
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -9066,7 +9066,7 @@ msgstr ""
 "これは、VLCメディアプレイヤーのエラーではありません。\n"
 "VideoLANプロジェクトにこの問題について問い合せないでください。\n"
 
-#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
+#: modules/codec/avcodec/encoder.c:679 modules/codec/avcodec/encoder.c:688
 msgid "VLC could not open the encoder."
 msgstr "VLCはエンコーダーを開くことができませんでした。"
 
@@ -11219,19 +11219,22 @@ msgstr ""
 "りも低く設定されています。"
 
 #: modules/codec/x264.c:385 modules/codec/x264.c:386
-#, fuzzy
 msgid "HRD-timing information"
-msgstr "バージョン情報の表示"
+msgstr "HRDタイミング情報"
 
 #: modules/codec/x264.c:388
 msgid ""
 "Tune the settings for a particular type of source or situation. Overridden "
 "by user settings."
 msgstr ""
+"特定のタイプのソースや状況について設定をチューニングします。ユーザー設定によ"
+"り上書きされます。"
 
 #: modules/codec/x264.c:390
 msgid "Use preset as default settings. Overridden by user settings."
 msgstr ""
+"プリセットをデフォルトの設定として使用します。ユーザー設定により上書きされま"
+"す。"
 
 #: modules/codec/x264.c:395
 msgid "dia"
@@ -12372,11 +12375,11 @@ msgstr "常に修正しない"
 msgid "AVI demuxer"
 msgstr "AVIデマルチプレクサ"
 
-#: modules/demux/avi/avi.c:651
+#: modules/demux/avi/avi.c:652
 msgid "AVI Index"
 msgstr "AVIインデックス"
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:653
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -12388,15 +12391,15 @@ msgstr ""
 "\n"
 "修正を行うにはおそらく時間がかかります。"
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Repair"
 msgstr "修復する"
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Don't repair"
 msgstr "修復しない"
 
-#: modules/demux/avi/avi.c:2355
+#: modules/demux/avi/avi.c:2357
 msgid "Fixing AVI Index..."
 msgstr "AVIインデックスを修正しています..."
 
@@ -15055,7 +15058,7 @@ msgstr "バックグラウンド実行時のメディアキーによる再生制
 
 #: modules/gui/macosx/simple_prefs.m:274
 msgid "Automatically check for updates"
-msgstr "自動的に更新を確認"
+msgstr "自動的にアップデートを確認"
 
 #: modules/gui/macosx/simple_prefs.m:278
 msgid "Default Encoding"
@@ -16778,7 +16781,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:524
 msgid "VLC skins website"
-msgstr ""
+msgstr "VLCスキンのWebサイト"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
@@ -17042,14 +17045,12 @@ msgid "v4l2 controls"
 msgstr "v412制御"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:61
-#, fuzzy
 msgid "Privacy and Network Policies"
-msgstr "プライバシー / ネットワークのインタラクション"
+msgstr "プライバシーとネットワークポリシー"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:69
-#, fuzzy
 msgid "Privacy and Network Warning"
-msgstr "プライバシー / ネットワークのインタラクション"
+msgstr "プライバシーとネットワークの警告"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
 msgid ""
@@ -17060,6 +17061,13 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
+"<p><i>VideoLAN</i>はアプリケーションがインターネットにアクセスする前に許可を"
+"求めるようにします。</p>\n"
+"<p><b>VLCメディアプレイヤー</b>は<b>メディアの情報</b>を取得するためと、<b>"
+"アップデート</b>が利用可能かどうか確認するためにインターネットにアクセスしま"
+"す。</p>\n"
+"<p><i>VLCメディアプレイヤー</i>は利用者の使用状況について、たとえ匿名でもいか"
+"なる情報を送信したり、収集したり<b>することはありません。</b><p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: linux/modules/gui/qt4/ui/open_capture.h:103
@@ -17069,12 +17077,11 @@ msgstr "オプション"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:90
 msgid "Allow fetching media information from Internet"
-msgstr ""
+msgstr "メディアの情報をインターネットから取得します。"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
-msgstr "更新の確認 (&U)..."
+msgstr "アップデートの確認"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -17156,7 +17163,7 @@ msgstr "謝辞"
 
 #: modules/gui/qt4/dialogs/help.cpp:201
 msgid "VLC media player updates"
-msgstr "VLCメディアプレイヤーの更新"
+msgstr "VLCメディアプレイヤーのアップデート"
 
 #: modules/gui/qt4/dialogs/help.cpp:207
 msgid "&Recheck version"
@@ -17888,7 +17895,7 @@ msgstr "ヘルプ (&H)..."
 
 #: modules/gui/qt4/menus.cpp:753
 msgid "Check for &Updates..."
-msgstr "更新の確認 (&U)..."
+msgstr "アップデートの確認 (&U)..."
 
 #: modules/gui/qt4/menus.cpp:806
 msgid "&Faster"
@@ -23838,7 +23845,7 @@ msgstr "X11ビデオウィンドウ(XCB)"
 #: modules/video_output/xcb/window.c:288
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr ""
+msgstr "VLCメディアプレイヤー"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
