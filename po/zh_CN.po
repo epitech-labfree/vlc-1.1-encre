@@ -10,11 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-05-28 00:21+0100\n"
+"POT-Creation-Date: 2010-05-29 00:43+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dean Lee <xslidian@lidian.info>\n"
 "Language-Team: Simplified Chinese <xslidian+vlc@gmail.com>\n"
-"Language: \n"
+"Language: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -890,8 +890,8 @@ msgstr "解码器"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:656
-#: modules/codec/avcodec/encoder.c:665 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:678
+#: modules/codec/avcodec/encoder.c:687 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "流 / 编码转换失败"
@@ -4479,7 +4479,7 @@ msgid "Downloading ..."
 msgstr "正在下载..."
 
 #: src/misc/update.c:606 src/misc/update.c:736 modules/access/dvb/scan.c:327
-#: modules/demux/avi/avi.c:655 modules/demux/avi/avi.c:2356
+#: modules/demux/avi/avi.c:656 modules/demux/avi/avi.c:2358
 #: modules/gui/macosx/bookmarks.m:102 modules/gui/macosx/controls.m:60
 #: modules/gui/macosx/coredialogs.m:66 modules/gui/macosx/coredialogs.m:68
 #: modules/gui/macosx/coredialogs.m:186 modules/gui/macosx/open.m:176
@@ -8686,7 +8686,7 @@ msgstr ""
 "这不是一个 VLC media player 内部的错误。\n"
 "请不要向 VideoLAN 项目报告此问题。\n"
 
-#: modules/codec/avcodec/encoder.c:657 modules/codec/avcodec/encoder.c:666
+#: modules/codec/avcodec/encoder.c:679 modules/codec/avcodec/encoder.c:688
 msgid "VLC could not open the encoder."
 msgstr "VLC 无法打开编码器。"
 
@@ -9778,7 +9778,7 @@ msgstr "繁体中文 Unix (EUC-TW)"
 
 #: modules/codec/subtitles/subsdec.c:154
 msgid "Hong-Kong Supplementary (HKSCS)"
-msgstr "香港补充 (HKSCS)"
+msgstr "香港增补 (HKSCS)"
 
 #: modules/codec/subtitles/subsdec.c:156
 msgid "Vietnamese (VISCII)"
@@ -9818,7 +9818,7 @@ msgid ""
 "Some subtitle formats allow for text formatting. VLC partly implements this, "
 "but you can choose to disable all formatting."
 msgstr ""
-"某些字幕格式允许文本格式。VLC 将部分处理它，但是您可以选择关闭所有格式。"
+"有些字幕格式允许格式化文本。VLC 将部分处理它，但是您可以选择关闭所有格式。"
 
 #: modules/codec/subtitles/subsdec.c:203
 msgid "Text subtitles decoder"
@@ -9837,7 +9837,7 @@ msgstr "文本字幕解码器"
 #: modules/codec/subtitles/subsdec.c:296
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "CP950"
+msgstr "GB18030"
 
 #: modules/codec/subtitles/subsusf.c:52
 msgid "USFSubs"
@@ -10179,8 +10179,8 @@ msgid ""
 "enforced; it's up to the user to select a level compatible with the rest of "
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 msgstr ""
-"指定 H.264 等级 (由 AnnexA 定义标准)。等级不是强制的; 它将服从用户选择的其它"
-"编码选项。范围是 1 到 5.1 (10 到 51 也被允许)。"
+"指定 H.264 等级 (如 Annex A 标准所定)。等级不是强制的；而是取决于用户所选的与"
+"其它编码选项相兼容的等级。范围从 1 到 5.1 (10 到 51 也允许使用)。"
 
 #: modules/codec/x264.c:136
 msgid "H.264 profile"
@@ -10765,11 +10765,11 @@ msgstr "HRD 计时信息"
 msgid ""
 "Tune the settings for a particular type of source or situation. Overridden "
 "by user settings."
-msgstr ""
+msgstr "根据特定类型源或情况调整设置。将被用户设置覆盖。"
 
 #: modules/codec/x264.c:390
 msgid "Use preset as default settings. Overridden by user settings."
-msgstr ""
+msgstr "使用预设作为默认设置。将被用户设置覆盖。"
 
 #: modules/codec/x264.c:395
 msgid "dia"
@@ -11880,11 +11880,11 @@ msgstr "不修复"
 msgid "AVI demuxer"
 msgstr "AVI 去复用器"
 
-#: modules/demux/avi/avi.c:651
+#: modules/demux/avi/avi.c:652
 msgid "AVI Index"
 msgstr "AVI 缩影"
 
-#: modules/demux/avi/avi.c:652
+#: modules/demux/avi/avi.c:653
 msgid ""
 "This AVI file is broken. Seeking will not work correctly.\n"
 "Do you want to try to fix it?\n"
@@ -11896,15 +11896,15 @@ msgstr ""
 "\n"
 "这可能需要很长的时间。"
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Repair"
 msgstr "修复"
 
-#: modules/demux/avi/avi.c:655
+#: modules/demux/avi/avi.c:656
 msgid "Don't repair"
 msgstr "不修复"
 
-#: modules/demux/avi/avi.c:2355
+#: modules/demux/avi/avi.c:2357
 msgid "Fixing AVI Index..."
 msgstr "正在修复 AVI 索引..."
 
@@ -16133,7 +16133,7 @@ msgstr "这是 VLC 的外观化界面。您可以在此下载皮肤："
 
 #: modules/gui/qt4/components/simple_preferences.cpp:524
 msgid "VLC skins website"
-msgstr ""
+msgstr "VLC 外观网站"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
@@ -16391,7 +16391,6 @@ msgid "Privacy and Network Warning"
 msgstr "隐私与网络警告"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
-#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -16400,12 +16399,11 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
-"<p><i>VideoLAN 小组</i>不想让一个未经验证的程序访问网络。</p>\n"
-" <p><i>VLC media player</i>可以在 Internet 上请求受限制的信息，例如获取 CD 封"
-"面或查找可用的更新。</p>\n"
-"<p><i>VLC media player</i><b>不会</b>发送或收集<b>任意</b>的有关您使用情况的"
-"信息，无论是否匿名。</p>\n"
-"<p>因此请确认下列选项，默认存在的设置几乎不访问网络。</p>\n"
+"<p><i>VideoLAN</i>希望程序访问 Internet 之前得到您的许可。</p>\n"
+"<p><b>VLC media player</b> 可以从 Internet 获取 <b>媒体信息</b> 或者检查可用 "
+"<b>更新</b>。</p>\n"
+"<p><i>VLC media player</i> <b>不会</b> 发送或收集任何关于您使用的信息，更不用"
+"说匿名信息。</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: linux/modules/gui/qt4/ui/open_capture.h:103
@@ -16415,12 +16413,11 @@ msgstr "选项"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:90
 msgid "Allow fetching media information from Internet"
-msgstr ""
+msgstr "允许从 Internet 装取媒体信息"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
-msgstr "检测更新"
+msgstr "检查更新"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -18049,7 +18046,7 @@ msgstr "您要使用字体的字体集"
 
 #: modules/misc/freetype.c:97
 msgid "Fontfile for the font you want to use"
-msgstr "您要使用的字体的字体文件"
+msgstr "您所要使用字体的字体文件"
 
 #: modules/misc/freetype.c:100 modules/misc/win32text.c:60
 msgid "Font size in pixels"
@@ -20321,7 +20318,7 @@ msgstr "暂停时的色彩"
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
-msgstr "在用于暂停时的色彩 (在轻柔的光线下喝杯啤酒?)"
+msgstr "在用于暂停时的色彩 (亮得足够拿瓶啤酒?)"
 
 #: modules/video_filter/atmo/atmo.cpp:201
 msgid "Pause-Red"
@@ -23771,7 +23768,7 @@ msgstr "嵌入视频到界面中"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:399
 msgid " Systray popup when minimized"
-msgstr "最小化时弹出系统托盘图标"
+msgstr " 最小化时弹出系统托盘"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:400
 msgid "Show controls in full screen mode"
@@ -24131,11 +24128,515 @@ msgstr "循环"
 msgid "Media Manager List"
 msgstr "媒体管理器列表"
 
+#~ msgid "Afar"
+#~ msgstr "阿法尔语"
+
+#~ msgid "Abkhazian"
+#~ msgstr "阿布哈齐亚语"
+
+#~ msgid "Afrikaans"
+#~ msgstr "阿非利堪斯语"
+
+#~ msgid "Albanian"
+#~ msgstr "阿尔巴尼亚语"
+
+#~ msgid "Amharic"
+#~ msgstr "阿姆哈拉语"
+
+#~ msgid "Arabic"
+#~ msgstr "阿拉伯语"
+
+#~ msgid "Armenian"
+#~ msgstr "亚美尼亚语"
+
+#~ msgid "Assamese"
+#~ msgstr "阿萨姆语"
+
+#~ msgid "Avestan"
+#~ msgstr "阿维斯陀语"
+
+#~ msgid "Aymara"
+#~ msgstr "艾马拉语"
+
+#~ msgid "Azerbaijani"
+#~ msgstr "阿塞拜疆语"
+
+#~ msgid "Bashkir"
+#~ msgstr "巴什基尔语"
+
+#~ msgid "Basque"
+#~ msgstr "巴斯克语"
+
+#~ msgid "Belarusian"
+#~ msgstr "白俄罗斯语"
+
+#~ msgid "Bengali"
+#~ msgstr "孟加拉语"
+
+#~ msgid "Bihari"
+#~ msgstr "比哈里语"
+
+#~ msgid "Bislama"
+#~ msgstr "比斯拉马语"
+
+#~ msgid "Bosnian"
+#~ msgstr "波斯尼亚语"
+
+#~ msgid "Breton"
+#~ msgstr "布列塔尼语"
+
+#~ msgid "Bulgarian"
+#~ msgstr "保加利亚语"
+
+#~ msgid "Burmese"
+#~ msgstr "缅甸语"
+
+#~ msgid "Catalan"
+#~ msgstr "加泰罗尼亚语"
+
+#~ msgid "Chamorro"
+#~ msgstr "夏莫罗语"
+
+#~ msgid "Chechen"
+#~ msgstr "车臣语"
+
+#~ msgid "Chinese"
+#~ msgstr "中文"
+
+#~ msgid "Church Slavic"
+#~ msgstr "教会斯拉夫语"
+
+#~ msgid "Chuvash"
+#~ msgstr "楚瓦什语"
+
+#~ msgid "Cornish"
+#~ msgstr "康沃尔语"
+
+#~ msgid "Corsican"
+#~ msgstr "科西嘉语"
+
+#~ msgid "Czech"
+#~ msgstr "捷克语"
+
+#~ msgid "Danish"
+#~ msgstr "丹麦语"
+
+#~ msgid "Dutch"
+#~ msgstr "荷兰语"
+
+#~ msgid "Dzongkha"
+#~ msgstr "宗卡语"
+
+#~ msgid "English"
+#~ msgstr "英语"
+
+#~ msgid "Esperanto"
+#~ msgstr "世界语"
+
+#~ msgid "Estonian"
+#~ msgstr "爱沙尼亚语"
+
+#~ msgid "Faroese"
+#~ msgstr "法罗语"
+
+#~ msgid "Fijian"
+#~ msgstr "斐济语"
+
+#~ msgid "Finnish"
+#~ msgstr "芬兰语"
+
+#~ msgid "French"
+#~ msgstr "法语"
+
+#~ msgid "Frisian"
+#~ msgstr "弗里斯兰语"
+
+#~ msgid "Georgian"
+#~ msgstr "乔治亚语"
+
+#~ msgid "German"
+#~ msgstr "德语"
+
+#~ msgid "Gaelic (Scots)"
+#~ msgstr "盖尔语 (苏格兰)"
+
+#~ msgid "Irish"
+#~ msgstr "爱尔兰语"
+
+#~ msgid "Gallegan"
+#~ msgstr "加利西亚语"
+
+#~ msgid "Manx"
+#~ msgstr "马恩岛语"
+
+#~ msgid "Greek, Modern ()"
+#~ msgstr "希腊语, 现代 ()"
+
+#~ msgid "Guarani"
+#~ msgstr "瓜拉尼语"
+
+#~ msgid "Gujarati"
+#~ msgstr "古吉拉特语"
+
+#~ msgid "Hebrew"
+#~ msgstr "希伯来语"
+
+#~ msgid "Herero"
+#~ msgstr "赫雷罗语"
+
+#~ msgid "Hindi"
+#~ msgstr "印地语"
+
+#~ msgid "Hiri Motu"
+#~ msgstr "莫图土语"
+
+#~ msgid "Hungarian"
+#~ msgstr "匈牙利语"
+
+#~ msgid "Icelandic"
+#~ msgstr "冰岛语"
+
+#~ msgid "Inuktitut"
+#~ msgstr "伊努伊特语"
+
+#~ msgid "Interlingue"
+#~ msgstr "国际语"
+
+#~ msgid "Interlingua"
+#~ msgstr "语际语"
+
+#~ msgid "Indonesian"
+#~ msgstr "印度尼西亚语"
+
+#~ msgid "Inupiaq"
+#~ msgstr "伊努皮克语"
+
+#~ msgid "Italian"
+#~ msgstr "意大利语"
+
+#~ msgid "Javanese"
+#~ msgstr "爪哇语"
+
+#~ msgid "Japanese"
+#~ msgstr "日语"
+
+#~ msgid "Kalaallisut (Greenlandic)"
+#~ msgstr "格陵兰因纽特语 (格陵兰语)"
+
+#~ msgid "Kannada"
+#~ msgstr "卡纳达语"
+
+#~ msgid "Kashmiri"
+#~ msgstr "克什米尔语"
+
+#~ msgid "Kazakh"
+#~ msgstr "哈萨克语"
+
+#~ msgid "Khmer"
+#~ msgstr "高棉语"
+
+#~ msgid "Kikuyu"
+#~ msgstr "基库尤语"
+
+#~ msgid "Kinyarwanda"
+#~ msgstr "金亚瓦达语"
+
+#~ msgid "Kirghiz"
+#~ msgstr "吉尔吉斯语"
+
+#~ msgid "Komi"
+#~ msgstr "科米语"
+
+#~ msgid "Korean"
+#~ msgstr "朝鲜语"
+
+#~ msgid "Kuanyama"
+#~ msgstr "贡耶玛语"
+
+#~ msgid "Kurdish"
+#~ msgstr "库尔德语"
+
+#~ msgid "Lao"
+#~ msgstr "老挝语"
+
+#~ msgid "Latin"
+#~ msgstr "拉丁语"
+
+#~ msgid "Latvian"
+#~ msgstr "拉脱维亚语"
+
+#~ msgid "Lingala"
+#~ msgstr "林加拉语"
+
+#~ msgid "Lithuanian"
+#~ msgstr "立陶宛语"
+
+#~ msgid "Letzeburgesch"
+#~ msgstr "卢森堡语"
+
+#~ msgid "Macedonian"
+#~ msgstr "马其顿语"
+
+#~ msgid "Marshall"
+#~ msgstr "马绍尔语"
+
+#~ msgid "Malayalam"
+#~ msgstr "马拉雅拉姆语"
+
+#~ msgid "Maori"
+#~ msgstr "毛利语"
+
+#~ msgid "Marathi"
+#~ msgstr "马拉地语"
+
+#~ msgid "Malay"
+#~ msgstr "马来语"
+
+#~ msgid "Malagasy"
+#~ msgstr "马达加斯加语"
+
+#~ msgid "Maltese"
+#~ msgstr "马耳他语"
+
+#~ msgid "Moldavian"
+#~ msgstr "摩尔达维亚语"
+
+#~ msgid "Mongolian"
+#~ msgstr "蒙古语"
+
+#~ msgid "Nauru"
+#~ msgstr "瑙鲁语"
+
+#~ msgid "Navajo"
+#~ msgstr "纳瓦霍语"
+
+#~ msgid "Ndebele, South"
+#~ msgstr "恩德贝勒语, 南方"
+
+#~ msgid "Ndebele, North"
+#~ msgstr "恩德贝勒语, 北方"
+
+#~ msgid "Ndonga"
+#~ msgstr "恩同加语"
+
+#~ msgid "Nepali"
+#~ msgstr "尼泊尔语"
+
+#~ msgid "Norwegian"
+#~ msgstr "挪威语"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "挪威尼诺斯克语"
+
+#~ msgid "Norwegian Bokmaal"
+#~ msgstr "挪威博克马尔语"
+
+#~ msgid "Chichewa; Nyanja"
+#~ msgstr "尼扬扎语"
+
+#~ msgid "Occitan (post 1500); Provencal"
+#~ msgstr "奥克西顿语 (前 1500); 普罗旺斯语"
+
+#~ msgid "Oriya"
+#~ msgstr "奥里雅语"
+
+#~ msgid "Oromo"
+#~ msgstr "库西特语"
+
+#~ msgid "Ossetian; Ossetic"
+#~ msgstr "奥塞梯语"
+
+#~ msgid "Panjabi"
+#~ msgstr "旁遮普语"
+
+#~ msgid "Persian"
+#~ msgstr "波斯语"
+
+#~ msgid "Pali"
+#~ msgstr "巴利语"
+
+#~ msgid "Polish"
+#~ msgstr "波兰语"
+
+#~ msgid "Portuguese"
+#~ msgstr "葡萄要语"
+
+#~ msgid "Pushto"
+#~ msgstr "普图什语"
+
+#~ msgid "Quechua"
+#~ msgstr "盖丘亚语"
+
+#~ msgid "Original audio"
+#~ msgstr "原始音频"
+
+#~ msgid "Raeto-Romance"
+#~ msgstr "罗曼斯方言"
+
+#~ msgid "Romanian"
+#~ msgstr "罗马尼亚语"
+
+#~ msgid "Rundi"
+#~ msgstr "隆迪语"
+
+#~ msgid "Russian"
+#~ msgstr "俄语"
+
+#~ msgid "Sango"
+#~ msgstr "桑戈语"
+
+#~ msgid "Sanskrit"
+#~ msgstr "梵文"
+
+#~ msgid "Serbian"
+#~ msgstr "塞尔维亚语"
+
+#~ msgid "Croatian"
+#~ msgstr "克罗地亚语"
+
+#~ msgid "Sinhalese"
+#~ msgstr "僧伽罗语"
+
+#~ msgid "Slovak"
+#~ msgstr "斯洛伐克语"
+
+#~ msgid "Slovenian"
+#~ msgstr "斯洛文尼亚语"
+
+#~ msgid "Northern Sami"
+#~ msgstr "北萨米语"
+
+#~ msgid "Samoan"
+#~ msgstr "萨摩亚语"
+
+#~ msgid "Shona"
+#~ msgstr "绍那语"
+
+#~ msgid "Sindhi"
+#~ msgstr "信德语"
+
+#~ msgid "Somali"
+#~ msgstr "索马里语"
+
+#~ msgid "Sotho, Southern"
+#~ msgstr "索托语, 南方"
+
+#~ msgid "Spanish"
+#~ msgstr "西班牙语"
+
+#~ msgid "Sardinian"
+#~ msgstr "撒丁语"
+
+#~ msgid "Swati"
+#~ msgstr "斯瓦特语"
+
+#~ msgid "Sundanese"
+#~ msgstr "巽他语"
+
+#~ msgid "Swahili"
+#~ msgstr "班图语"
+
+#~ msgid "Swedish"
+#~ msgstr "瑞典语"
+
+#~ msgid "Tahitian"
+#~ msgstr "塔希提语"
+
+#~ msgid "Tamil"
+#~ msgstr "泰米尔语"
+
+#~ msgid "Tatar"
+#~ msgstr "鞑靼语"
+
+#~ msgid "Telugu"
+#~ msgstr "泰卢固语"
+
+#~ msgid "Tajik"
+#~ msgstr "塔吉克语"
+
+#~ msgid "Tagalog"
+#~ msgstr "他加禄语"
+
+#~ msgid "Thai"
+#~ msgstr "泰语"
+
+#~ msgid "Tibetan"
+#~ msgstr "藏语"
+
+#~ msgid "Tigrinya"
+#~ msgstr "提格里尼亚语"
+
+#~ msgid "Tonga (Tonga Islands)"
+#~ msgstr "汤加语 (汤加群岛)"
+
+#~ msgid "Tswana"
+#~ msgstr "茨瓦纳语"
+
+#~ msgid "Tsonga"
+#~ msgstr "聪加语"
+
+#~ msgid "Turkish"
+#~ msgstr "土耳其语"
+
+#~ msgid "Turkmen"
+#~ msgstr "土库曼语"
+
+#~ msgid "Twi"
+#~ msgstr "契维语"
+
+#~ msgid "Uighur"
+#~ msgstr "维吾尔语"
+
+#~ msgid "Ukrainian"
+#~ msgstr "乌克兰语"
+
+#~ msgid "Urdu"
+#~ msgstr "乌尔都语"
+
+#~ msgid "Uzbek"
+#~ msgstr "乌孜别克语 "
+
+#~ msgid "Vietnamese"
+#~ msgstr "越南语"
+
+#~ msgid "Volapuk"
+#~ msgstr "沃拉普克语"
+
+#~ msgid "Welsh"
+#~ msgstr "威尔士语"
+
+#~ msgid "Wolof"
+#~ msgstr "沃洛夫语"
+
+#~ msgid "Xhosa"
+#~ msgstr "科萨语"
+
+#~ msgid "Yiddish"
+#~ msgstr "依地语"
+
+#~ msgid "Yoruba"
+#~ msgstr "约鲁巴语"
+
+#~ msgid "Zhuang"
+#~ msgstr "壮语"
+
+#~ msgid "Zulu"
+#~ msgstr "祖鲁语"
+
+#~ msgid "Video splitter"
+#~ msgstr "视频分离器"
+
 #~ msgid "Attachment"
 #~ msgstr "附件"
 
 #~ msgid "Attachment input"
 #~ msgstr "附件输入"
+
+#~ msgid "Avio"
+#~ msgstr "Avio"
+
+#~ msgid "FFmpeg access"
+#~ msgstr "FFmpeg 访问"
 
 #~ msgid "Caching value for files, in milliseconds."
 #~ msgstr "文件的缓存值，以毫秒为单位。"
@@ -24264,6 +24765,12 @@ msgstr "媒体管理器列表"
 #~ msgid "Memory input"
 #~ msgstr "内存输入"
 
+#~ msgid "Synchronous writing"
+#~ msgstr "同期写入"
+
+#~ msgid "Open the file with synchronous writing."
+#~ msgstr "以同期写入模式打开文件。"
+
 #~ msgid "TCP address to use (default localhost)"
 #~ msgstr "要使用的 TCP 地址 (默认 localhost)"
 
@@ -24331,7 +24838,7 @@ msgstr "媒体管理器列表"
 #~ "进行警告提起的阈值。如果音频层级在此期间内低于此阈值则发送警告 (默认 "
 #~ "0.1)。"
 
-#~ msgid "Time between two alamr messages in ms (default 2000)"
+#~ msgid "Time between two alarm messages in ms (default 2000)"
 #~ msgstr "两条警告信息的间隔时间，以毫秒为单位 (默认 2000)"
 
 #~ msgid ""
@@ -24354,29 +24861,23 @@ msgstr "媒体管理器列表"
 #~ msgid "audiobargraph_a"
 #~ msgstr "audiobargraph_a"
 
-#~ msgid "My Computer"
-#~ msgstr "我的电脑"
+#~ msgid "Threads"
+#~ msgstr "线程"
 
-#~ msgid "Devices"
-#~ msgstr "设备"
-
-#~ msgid "Local Network"
-#~ msgstr "本地网络"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
-
-#~ msgid "Fullscreen controller opacity opacity between 0.1 and 1"
-#~ msgstr "全屏控制板的不透明度，从 0.1 到 1"
-
-#~ msgid "SessionManager"
-#~ msgstr "会话管理器"
+#~ msgid "Number of threads used for decoding, 0 meaning auto"
+#~ msgstr "用于解码的线程数量，0 表示自动决定"
 
 #~ msgid "SQLite database module"
 #~ msgstr "SQLite 数据库模块"
 
 #~ msgid "Flac audio packetizer"
 #~ msgstr "Flac 音频分包器"
+
+#~ msgid "MTP devices"
+#~ msgstr "MTP 设备"
+
+#~ msgid "MTP Device"
+#~ msgstr "MTP 设备"
 
 #~ msgid "Screen capture"
 #~ msgstr "屏幕捕获"
@@ -24386,9 +24887,6 @@ msgstr "媒体管理器列表"
 
 #~ msgid "Applications"
 #~ msgstr "应用程序"
-
-#~ msgid "Devicetype"
-#~ msgstr "设备类型"
 
 #~ msgid "Value of the audio channels levels"
 #~ msgstr "音频声道层级数值"
@@ -24485,8 +24983,74 @@ msgstr "媒体管理器列表"
 #~ msgid "Ball"
 #~ msgstr "球"
 
-#~ msgid "Time between two alarm messages in ms (default 2000)"
+#~ msgid "Radius"
+#~ msgstr "半径"
+
+#~ msgid "Radius in pixels"
+#~ msgstr "以像素为单位的半径大小"
+
+#~ msgid "Strength"
+#~ msgstr "强度"
+
+#~ msgid "Strength used to modify the value of a pixel"
+#~ msgstr "修改像素值所用的强度"
+
+#~ msgid "Gradfun video filter"
+#~ msgstr "Gradfun 视频滤镜"
+
+#~ msgid "Gradfun"
+#~ msgstr "Gradfun"
+
+#~ msgid "Variance"
+#~ msgstr "差量"
+
+#~ msgid "Variance of the gaussian noise"
+#~ msgstr "高斯噪点差量"
+
+#~ msgid "Minimal period"
+#~ msgstr "最小周期"
+
+#~ msgid "Minimal period of the noise grain in pixel"
+#~ msgstr "噪点颗粒的最小周期，以像素为单位。"
+
+#~ msgid "Maximal period"
+#~ msgstr "最大周期"
+
+#~ msgid "Maximal period of the noise grain in pixel"
+#~ msgstr "噪点颗粒的最大周期，以像素为单位。"
+
+#~ msgid "Adds filtered gaussian noise"
+#~ msgstr "添加经过滤的高斯噪点"
+
+#~ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
+#~ msgstr "Mac OS X OpenGL 视频输出 (需要 drawable-nsobject)"
+
+#~ msgid "Direct3D video output (XP)"
+#~ msgstr "Direct3D 视频输出 (XP)"
+
+#~ msgid "My Computer"
+#~ msgstr "我的电脑"
+
+#~ msgid "Devices"
+#~ msgstr "设备"
+
+#~ msgid "Local Network"
+#~ msgstr "本地网络"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Time between two alamr messages in ms (default 2000)"
 #~ msgstr "两条警告信息的间隔时间，以毫秒为单位 (默认 2000)"
+
+#~ msgid "Fullscreen controller opacity opacity between 0.1 and 1"
+#~ msgstr "全屏控制板的不透明度，从 0.1 到 1"
+
+#~ msgid "SessionManager"
+#~ msgstr "会话管理器"
+
+#~ msgid "Devicetype"
+#~ msgstr "设备类型"
 
 #~ msgid "Method used by libdvdcss for decryption"
 #~ msgstr "libdvdcss 用于解密的模式"
@@ -25001,9 +25565,6 @@ msgstr "媒体管理器列表"
 
 #~ msgid "Unknown command!"
 #~ msgstr "未知的命令!"
-
-#~ msgid "Threshold"
-#~ msgstr "阀值"
 
 #~ msgid "Height of the zone triggering the interface."
 #~ msgstr "界面中触发缩放的高度。"
@@ -25936,107 +26497,23 @@ msgstr "媒体管理器列表"
 #~ msgid "American English"
 #~ msgstr "美式英语"
 
-#~ msgid "Arabic"
-#~ msgstr "阿拉伯语"
-
-#~ msgid "Bengali"
-#~ msgstr "孟加拉语"
-
 #~ msgid "Brazilian Portuguese"
 #~ msgstr "巴西葡萄牙语"
 
 #~ msgid "British English"
 #~ msgstr "英式英语"
 
-#~ msgid "Bulgarian"
-#~ msgstr "保加利亚语"
-
-#~ msgid "Catalan"
-#~ msgstr "加泰罗尼亚语"
-
 #~ msgid "Chinese Traditional"
 #~ msgstr "繁体中文"
-
-#~ msgid "Czech"
-#~ msgstr "捷克语"
-
-#~ msgid "Danish"
-#~ msgstr "丹麦语"
-
-#~ msgid "Dutch"
-#~ msgstr "荷兰语"
-
-#~ msgid "Finnish"
-#~ msgstr "芬兰语"
-
-#~ msgid "French"
-#~ msgstr "法语"
 
 #~ msgid "Galician"
 #~ msgstr "加利西亚语"
 
-#~ msgid "Georgian"
-#~ msgstr "乔治亚语"
-
-#~ msgid "German"
-#~ msgstr "德语"
-
-#~ msgid "Hebrew"
-#~ msgstr "希伯来语"
-
-#~ msgid "Hungarian"
-#~ msgstr "匈牙利语"
-
-#~ msgid "Indonesian"
-#~ msgstr "印度尼西亚语"
-
-#~ msgid "Italian"
-#~ msgstr "意大利语"
-
-#~ msgid "Japanese"
-#~ msgstr "日语"
-
-#~ msgid "Korean"
-#~ msgstr "朝鲜语"
-
-#~ msgid "Malay"
-#~ msgstr "马来语"
-
 #~ msgid "Occitan"
 #~ msgstr "奥克西顿语"
 
-#~ msgid "Persian"
-#~ msgstr "波斯语"
-
-#~ msgid "Polish"
-#~ msgstr "波兰语"
-
-#~ msgid "Portuguese"
-#~ msgstr "葡萄要语"
-
 #~ msgid "Punjabi"
 #~ msgstr "旁遮普语"
-
-#~ msgid "Romanian"
-#~ msgstr "罗马尼亚语"
-
-#~ msgid "Serbian"
-#~ msgstr "塞尔维亚语"
-
-#~ msgid "Slovak"
-#~ msgstr "斯洛伐克语"
-
-#~ msgid "Slovenian"
-#~ msgstr "斯洛文尼亚语"
-
-#~ msgid "Spanish"
-#~ msgstr "西班牙语"
-
-#~ msgid "Swedish"
-#~ msgstr "瑞典语"
-
-#~ msgid "Turkish"
-#~ msgstr "土耳其语"
 
 #~ msgid "Access filter module"
 #~ msgstr "访问滤镜模块"
@@ -26052,393 +26529,6 @@ msgstr "媒体管理器列表"
 
 #~ msgid "Cancelled"
 #~ msgstr "已被取消"
-
-#~ msgid "Afar"
-#~ msgstr "阿法尔语"
-
-#~ msgid "Abkhazian"
-#~ msgstr "阿布哈齐亚语"
-
-#~ msgid "Afrikaans"
-#~ msgstr "阿非利堪斯语"
-
-#~ msgid "Albanian"
-#~ msgstr "阿尔巴尼亚语"
-
-#~ msgid "Amharic"
-#~ msgstr "阿姆哈拉语"
-
-#~ msgid "Armenian"
-#~ msgstr "亚美尼亚语"
-
-#~ msgid "Assamese"
-#~ msgstr "阿萨姆语"
-
-#~ msgid "Avestan"
-#~ msgstr "阿维斯陀语"
-
-#~ msgid "Aymara"
-#~ msgstr "艾马拉语"
-
-#~ msgid "Azerbaijani"
-#~ msgstr "阿塞拜疆语"
-
-#~ msgid "Bashkir"
-#~ msgstr "巴什基尔语"
-
-#~ msgid "Basque"
-#~ msgstr "巴斯克语"
-
-#~ msgid "Belarusian"
-#~ msgstr "白俄罗斯语"
-
-#~ msgid "Bihari"
-#~ msgstr "比哈里语"
-
-#~ msgid "Bislama"
-#~ msgstr "比斯拉马语"
-
-#~ msgid "Bosnian"
-#~ msgstr "波斯尼亚语"
-
-#~ msgid "Breton"
-#~ msgstr "布列塔尼语"
-
-#~ msgid "Burmese"
-#~ msgstr "缅甸语"
-
-#~ msgid "Chamorro"
-#~ msgstr "夏莫罗语"
-
-#~ msgid "Chechen"
-#~ msgstr "车臣语"
-
-#~ msgid "Chinese"
-#~ msgstr "中文"
-
-#~ msgid "Church Slavic"
-#~ msgstr "教会斯拉夫语"
-
-#~ msgid "Chuvash"
-#~ msgstr "楚瓦什语"
-
-#~ msgid "Cornish"
-#~ msgstr "康沃尔语"
-
-#~ msgid "Corsican"
-#~ msgstr "科西嘉语"
-
-#~ msgid "Dzongkha"
-#~ msgstr "宗卡语"
-
-#~ msgid "English"
-#~ msgstr "英语"
-
-#~ msgid "Estonian"
-#~ msgstr "爱沙尼亚语"
-
-#~ msgid "Faroese"
-#~ msgstr "法罗语"
-
-#~ msgid "Fijian"
-#~ msgstr "斐济语"
-
-#~ msgid "Frisian"
-#~ msgstr "弗里斯兰语"
-
-#~ msgid "Gaelic (Scots)"
-#~ msgstr "盖尔语 (苏格兰)"
-
-#~ msgid "Irish"
-#~ msgstr "爱尔兰语"
-
-#~ msgid "Gallegan"
-#~ msgstr "加利西亚语"
-
-#~ msgid "Manx"
-#~ msgstr "马恩岛语"
-
-#~ msgid "Greek, Modern ()"
-#~ msgstr "希腊语, 现代 ()"
-
-#~ msgid "Guarani"
-#~ msgstr "瓜拉尼语"
-
-#~ msgid "Gujarati"
-#~ msgstr "古吉拉特语"
-
-#~ msgid "Herero"
-#~ msgstr "赫雷罗语"
-
-#~ msgid "Hindi"
-#~ msgstr "印地语"
-
-#~ msgid "Hiri Motu"
-#~ msgstr "莫图土语"
-
-#~ msgid "Icelandic"
-#~ msgstr "冰岛语"
-
-#~ msgid "Inuktitut"
-#~ msgstr "伊努伊特语"
-
-#~ msgid "Interlingua"
-#~ msgstr "语际语"
-
-#~ msgid "Inupiaq"
-#~ msgstr "伊努皮克语"
-
-#~ msgid "Javanese"
-#~ msgstr "爪哇语"
-
-#~ msgid "Kalaallisut (Greenlandic)"
-#~ msgstr "格陵兰因纽特语 (格陵兰语)"
-
-#~ msgid "Kannada"
-#~ msgstr "卡纳达语"
-
-#~ msgid "Kashmiri"
-#~ msgstr "克什米尔语"
-
-#~ msgid "Khmer"
-#~ msgstr "高棉语"
-
-#~ msgid "Kikuyu"
-#~ msgstr "基库尤语"
-
-#~ msgid "Kinyarwanda"
-#~ msgstr "金亚瓦达语"
-
-#~ msgid "Kirghiz"
-#~ msgstr "吉尔吉斯语"
-
-#~ msgid "Komi"
-#~ msgstr "科米语"
-
-#~ msgid "Kuanyama"
-#~ msgstr "贡耶玛语"
-
-#~ msgid "Kurdish"
-#~ msgstr "库尔德语"
-
-#~ msgid "Lao"
-#~ msgstr "老挝语"
-
-#~ msgid "Latin"
-#~ msgstr "拉丁语"
-
-#~ msgid "Latvian"
-#~ msgstr "拉脱维亚语"
-
-#~ msgid "Lingala"
-#~ msgstr "林加拉语"
-
-#~ msgid "Lithuanian"
-#~ msgstr "立陶宛语"
-
-#~ msgid "Letzeburgesch"
-#~ msgstr "卢森堡语"
-
-#~ msgid "Macedonian"
-#~ msgstr "马其顿语"
-
-#~ msgid "Marshall"
-#~ msgstr "马绍尔语"
-
-#~ msgid "Malayalam"
-#~ msgstr "马拉雅拉姆语"
-
-#~ msgid "Maori"
-#~ msgstr "毛利语"
-
-#~ msgid "Marathi"
-#~ msgstr "马拉地语"
-
-#~ msgid "Malagasy"
-#~ msgstr "马达加斯加语"
-
-#~ msgid "Maltese"
-#~ msgstr "马耳他语"
-
-#~ msgid "Moldavian"
-#~ msgstr "摩尔达维亚语"
-
-#~ msgid "Mongolian"
-#~ msgstr "蒙古语"
-
-#~ msgid "Nauru"
-#~ msgstr "瑙鲁语"
-
-#~ msgid "Navajo"
-#~ msgstr "纳瓦霍语"
-
-#~ msgid "Ndebele, South"
-#~ msgstr "恩德贝勒语, 南方"
-
-#~ msgid "Ndebele, North"
-#~ msgstr "恩德贝勒语, 北方"
-
-#~ msgid "Ndonga"
-#~ msgstr "恩同加语"
-
-#~ msgid "Nepali"
-#~ msgstr "尼泊尔语"
-
-#~ msgid "Norwegian"
-#~ msgstr "挪威语"
-
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "挪威尼诺斯克语"
-
-#~ msgid "Norwegian Bokmaal"
-#~ msgstr "挪威博克马尔语"
-
-#~ msgid "Chichewa; Nyanja"
-#~ msgstr "尼扬扎语"
-
-#~ msgid "Occitan (post 1500); Provencal"
-#~ msgstr "奥克西顿语 (前 1500); 普罗旺斯语"
-
-#~ msgid "Oriya"
-#~ msgstr "奥里雅语"
-
-#~ msgid "Oromo"
-#~ msgstr "库西特语"
-
-#~ msgid "Ossetian; Ossetic"
-#~ msgstr "奥塞梯语"
-
-#~ msgid "Panjabi"
-#~ msgstr "旁遮普语"
-
-#~ msgid "Pali"
-#~ msgstr "巴利语"
-
-#~ msgid "Pushto"
-#~ msgstr "普图什语"
-
-#~ msgid "Quechua"
-#~ msgstr "盖丘亚语"
-
-#~ msgid "Raeto-Romance"
-#~ msgstr "罗曼斯方言"
-
-#~ msgid "Rundi"
-#~ msgstr "隆迪语"
-
-#~ msgid "Sango"
-#~ msgstr "桑戈语"
-
-#~ msgid "Croatian"
-#~ msgstr "克罗地亚语"
-
-#~ msgid "Sinhalese"
-#~ msgstr "僧伽罗语"
-
-#~ msgid "Northern Sami"
-#~ msgstr "北萨米语"
-
-#~ msgid "Samoan"
-#~ msgstr "萨摩亚语"
-
-#~ msgid "Shona"
-#~ msgstr "绍那语"
-
-#~ msgid "Sindhi"
-#~ msgstr "信德语"
-
-#~ msgid "Somali"
-#~ msgstr "索马里语"
-
-#~ msgid "Sotho, Southern"
-#~ msgstr "索托语, 南方"
-
-#~ msgid "Sardinian"
-#~ msgstr "撒丁语"
-
-#~ msgid "Swati"
-#~ msgstr "斯瓦特语"
-
-#~ msgid "Sundanese"
-#~ msgstr "巽他语"
-
-#~ msgid "Swahili"
-#~ msgstr "班图语"
-
-#~ msgid "Tahitian"
-#~ msgstr "塔希提语"
-
-#~ msgid "Tamil"
-#~ msgstr "泰米尔语"
-
-#~ msgid "Tatar"
-#~ msgstr "鞑靼语"
-
-#~ msgid "Telugu"
-#~ msgstr "泰卢固语"
-
-#~ msgid "Tajik"
-#~ msgstr "塔吉克语"
-
-#~ msgid "Tagalog"
-#~ msgstr "他加禄语"
-
-#~ msgid "Thai"
-#~ msgstr "泰语"
-
-#~ msgid "Tibetan"
-#~ msgstr "藏语"
-
-#~ msgid "Tigrinya"
-#~ msgstr "提格里尼亚语"
-
-#~ msgid "Tonga (Tonga Islands)"
-#~ msgstr "汤加语 (汤加群岛)"
-
-#~ msgid "Tswana"
-#~ msgstr "茨瓦纳语"
-
-#~ msgid "Tsonga"
-#~ msgstr "聪加语"
-
-#~ msgid "Turkmen"
-#~ msgstr "土库曼语"
-
-#~ msgid "Twi"
-#~ msgstr "契维语"
-
-#~ msgid "Uighur"
-#~ msgstr "维吾尔语"
-
-#~ msgid "Urdu"
-#~ msgstr "乌尔都语"
-
-#~ msgid "Uzbek"
-#~ msgstr "乌孜别克语 "
-
-#~ msgid "Volapuk"
-#~ msgstr "沃拉普克语"
-
-#~ msgid "Welsh"
-#~ msgstr "威尔士语"
-
-#~ msgid "Wolof"
-#~ msgstr "沃洛夫语"
-
-#~ msgid "Xhosa"
-#~ msgstr "科萨语"
-
-#~ msgid "Yiddish"
-#~ msgstr "依地语"
-
-#~ msgid "Yoruba"
-#~ msgstr "约鲁巴语"
-
-#~ msgid "Zhuang"
-#~ msgstr "壮语"
-
-#~ msgid "Zulu"
-#~ msgstr "祖鲁语"
 
 #~ msgid "QAM constellation points [16, 32, 64, 128, 256]"
 #~ msgstr "QAM 星点 [16, 32, 64, 128, 256]"
@@ -26726,7 +26816,7 @@ msgstr "媒体管理器列表"
 #~ msgstr "这将开启用于通过 SAP 宣告发现流的时间位移。"
 
 #~ msgid "Universal Plug'n'Play discovery ( Intel SDK )"
-#~ msgstr "全局插件'n'播放查找 ( Intel SDK )"
+#~ msgstr "全局即插即用发现 (Intel SDK)"
 
 #~ msgid ""
 #~ "This is the hop limit (also known as \"Time-To-Live\" or TTL) of the "
@@ -26764,28 +26854,28 @@ msgstr "媒体管理器列表"
 #~ msgstr "OpenGL 柱面半径"
 
 #~ msgid "Radius of the OpenGL cylinder effect, if enabled"
-#~ msgstr "OpenGL 柱面效果的半径,如果开启"
+#~ msgstr "OpenGL 柱面效果的半径，如果开启"
 
 #~ msgid "Point of view x-coordinate"
 #~ msgstr "视图的 x 坐标点"
 
 #~ msgid ""
 #~ "Point of view (X coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "立方体/圆柱效果的视图点 (X 坐标),如果开启。"
+#~ msgstr "立方体/圆柱效果的视图点 (X 坐标)，如果开启。"
 
 #~ msgid "Point of view y-coordinate"
 #~ msgstr "视图的 y 坐标"
 
 #~ msgid ""
 #~ "Point of view (Y coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "立方体/圆柱效果的视图点 (Y 坐标),如果开启。"
+#~ msgstr "立方体/圆柱效果的视图点 (Y 坐标)，如果开启。"
 
 #~ msgid "Point of view z-coordinate"
 #~ msgstr "视图点的 z 坐标"
 
 #~ msgid ""
 #~ "Point of view (Z coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "立方体/圆柱效果的视图点 (X 坐标),如果开启。"
+#~ msgstr "立方体/圆柱效果的视图点 (X 坐标)，如果开启。"
 
 #~ msgid "OpenGL cube rotation speed"
 #~ msgstr "OpenGL 立方体旋转速度"
@@ -26800,7 +26890,7 @@ msgstr "媒体管理器列表"
 #~ msgstr "波段号"
 
 #~ msgid "Number of bands used by spectrum analyzer, should be 20 or 80."
-#~ msgstr "光谱分析器使用的波段号,应该为 20 或 80。"
+#~ msgstr "光谱分析器使用的波段号，应为 20 或 80。"
 
 #~ msgid "Number of bands used by the spectrometer, from 20 to 80."
-#~ msgstr "光谱分析器使用的波段号,从 20 到 80。"
+#~ msgstr "光谱分析器使用的波段号，从 20 到 80。"
