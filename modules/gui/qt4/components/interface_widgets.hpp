@@ -46,14 +46,11 @@ class QPixmap;
 class QHBoxLayout;
 class QMenu;
 class QSlider;
-class ReparentableWidget;
 
 /******************** Video Widget ****************/
 class VideoWidget : public QFrame
 {
     Q_OBJECT
-friend class ReparentableWidget;
-
 public:
     VideoWidget( intf_thread_t * );
     virtual ~VideoWidget();
@@ -61,6 +58,7 @@ public:
     WId request( int *, int *, unsigned int *, unsigned int *, bool );
     void  release( void );
     int   control( void *, int, va_list );
+    void  sync( void );
 
 protected:
     virtual QPaintEngine *paintEngine() const
@@ -71,16 +69,13 @@ protected:
 private:
     intf_thread_t *p_intf;
 
-    QWidget *reparentable;
+    QWidget *stable;
     QLayout *layout;
-    virtual bool eventFilter ( QObject * watched, QEvent * event );
 signals:
-    void keyPressed( QKeyEvent * );
     void sizeChanged( int, int );
 
 public slots:
     void SetSizing( unsigned int, unsigned int );
-    void SetFullScreen( bool );
 };
 
 /******************** Background Widget ****************/
