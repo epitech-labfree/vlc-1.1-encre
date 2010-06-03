@@ -430,4 +430,12 @@ class vlc_mutex_locker
 };
 #endif
 
+enum {
+   VLC_MAX_MUTEX
+};
+
+VLC_EXPORT( void, vlc_global_mutex, ( unsigned, bool ) );
+#define vlc_global_lock( n ) vlc_global_mutex( n, true )
+#define vlc_global_unlock( n ) vlc_global_mutex( n, false )
+
 #endif /* !_VLC_THREADS_H */
