@@ -431,6 +431,8 @@ class vlc_mutex_locker
 #endif
 
 enum {
+   VLC_XLIB_MUTEX,
+   /* Insert new entry HERE */
    VLC_MAX_MUTEX
 };
 

@@ -239,6 +239,7 @@ void vlc_thread_cancel (vlc_object_t *obj)
 void vlc_global_mutex (unsigned n, bool acquire)
 {
     static vlc_mutex_t locks[] = {
+        VLC_STATIC_MUTEX,
     };
     assert (n < (sizeof (locks) / sizeof (locks[0])));
     vlc_mutex_t *lock = locks + n;
