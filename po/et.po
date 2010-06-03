@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-03 14:55+0200\n"
-"PO-Revision-Date: 2010-05-20 17:47+0300\n"
-"Last-Translator: Mattias Põldaru <mahfiaz gmail com>\n"
+"POT-Creation-Date: 2010-06-03 22:23+0100\n"
+"PO-Revision-Date: 2010-06-03 18:17+0300\n"
+"Last-Translator: mihkel <turakas gmail com>\n"
 "Language-Team: Estonian\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -85,7 +85,7 @@ msgstr "Kiirklahvide seadeid"
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:192
-#: modules/gui/qt4/ui/profiles.h:487
+#: linux/modules/gui/qt4/ui/profiles.h:487
 msgid "Audio"
 msgstr "Audio"
 
@@ -123,7 +123,7 @@ msgstr "Väljundmoodulid"
 msgid "General settings for audio output modules."
 msgstr "Audioväljundi moodulite üldised seaded."
 
-#: include/vlc_config_cat.h:66 src/libvlc-module.c:2039
+#: include/vlc_config_cat.h:66 src/libvlc-module.c:2042
 #: modules/stream_out/transcode/transcode.c:226
 msgid "Miscellaneous"
 msgstr "Mitmesugused"
@@ -140,7 +140,8 @@ msgstr "Mitmesugused audio seaded ja moodulid."
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
-#: modules/gui/qt4/ui/profiles.h:469 modules/gui/qt4/ui/sprefs_video.h:321
+#: linux/modules/gui/qt4/ui/profiles.h:469
+#: linux/modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "Video"
 
@@ -158,7 +159,7 @@ msgstr "Vali oma eelistatud videoväljund ja seadista see siin."
 
 #: include/vlc_config_cat.h:81
 msgid "Video filters are used to process the video stream."
-msgstr "Video filtreid kasutatakse video voogude töötlemiseks."
+msgstr "Video filtreid kasutatakse videovoogude töötlemiseks."
 
 #: include/vlc_config_cat.h:83
 msgid "Subtitles/OSD"
@@ -207,7 +208,7 @@ msgstr "Demultiplekser"
 
 #: include/vlc_config_cat.h:109
 msgid "Demuxers are used to separate audio and video streams."
-msgstr "Demultipleksereid kasutatakse audio ja video voogude eraldamiseks."
+msgstr "Demultipleksereid kasutatakse audio- ja videovoogude eraldamiseks."
 
 #: include/vlc_config_cat.h:111
 msgid "Video codecs"
@@ -241,7 +242,7 @@ msgstr "Üldine sisend"
 msgid "General input settings. Use with care..."
 msgstr "Üldised sisendite seaded. Kasuta ettevaatlikult..."
 
-#: include/vlc_config_cat.h:124 src/libvlc-module.c:1959
+#: include/vlc_config_cat.h:124 src/libvlc-module.c:1962
 msgid "Stream output"
 msgstr "Voogedastuse väljund"
 
@@ -280,8 +281,8 @@ msgid ""
 msgstr ""
 "Multiplekserid loovad kapseldatud formaadi, mida kasutatakse "
 "elementaarvoogude (audio, video, ...) kokkusulatamiseks. See seade lubab sul "
-"jõuga määrata üht spetsiifilist multiplekserit. Tõenäoliselt ei peaks sa "
-"seda tegema.\n"
+"jõuga määrata ühe kindla multiplekseri. Tõenäoliselt ei peaks sa seda "
+"tegema.\n"
 "Sa saad alati määrata vaikimisi parameetreid igale multiplekserile eraldi."
 
 #: include/vlc_config_cat.h:144
@@ -350,7 +351,7 @@ msgstr "VOD"
 msgid "VLC's implementation of Video On Demand"
 msgstr "VLC VOD (Video On Demand) teostus"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2105
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2108
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:608 modules/gui/qt4/components/controller.hpp:106
@@ -385,7 +386,7 @@ msgstr ""
 "Teenuste avastamise moodulid on rakendused, mis automaatselt lisavad kirjeid "
 "esitusloendisse."
 
-#: include/vlc_config_cat.h:186 src/libvlc-module.c:1906
+#: include/vlc_config_cat.h:186 src/libvlc-module.c:1909
 msgid "Advanced"
 msgstr "Edasijõudnutele"
 
@@ -409,7 +410,7 @@ msgstr "Täpsemad sätted"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:180
 #: modules/gui/macosx/open.m:459 modules/gui/macosx/simple_prefs.m:259
-#: modules/gui/qt4/ui/sprefs_input.h:318
+#: linux/modules/gui/qt4/ui/sprefs_input.h:318
 msgid "Network"
 msgstr "Võrk"
 
@@ -541,7 +542,7 @@ msgstr "&Programmist"
 #: modules/gui/macosx/intf.m:2013 modules/gui/macosx/intf.m:2014
 #: modules/gui/macosx/intf.m:2015 modules/gui/macosx/playlist.m:464
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:790
-#: modules/gui/qt4/ui/open.h:256
+#: linux/modules/gui/qt4/ui/open.h:256
 msgid "Play"
 msgstr "Esitamine"
 
@@ -683,7 +684,8 @@ msgstr ""
 "Suurenda osa video pildist. Saad valida, milline osa pildist peaks olema "
 "suurendatud."
 
-#: include/vlc_intf_strings.h:117 modules/gui/qt4/ui/video_effects.h:1141
+#: include/vlc_intf_strings.h:117
+#: linux/modules/gui/qt4/ui/video_effects.h:1141
 msgid "Waves"
 msgstr "Lained"
 
@@ -852,9 +854,10 @@ msgstr "Stereo"
 #: modules/control/gestures.c:97 modules/gui/fbosd.c:162
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1114
-#: modules/gui/qt4/ui/video_effects.h:1177
-#: modules/gui/qt4/ui/video_effects.h:1182
+#: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1114
+#: linux/modules/gui/qt4/ui/video_effects.h:1177
+#: linux/modules/gui/qt4/ui/video_effects.h:1182
 msgid "Left"
 msgstr "Vasak"
 
@@ -865,7 +868,8 @@ msgstr "Vasak"
 #: modules/control/gestures.c:97 modules/gui/fbosd.c:162
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1116
+#: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1116
 msgid "Right"
 msgstr "Parem"
 
@@ -930,7 +934,7 @@ msgstr "VLC ei suuda avada moodulit %s"
 
 #: src/input/decoder.c:431
 msgid "VLC could not open the decoder module."
-msgstr "VLC ei suuda avada dekoodri moodulit"
+msgstr "VLC ei suuda avada dekoodri moodulit."
 
 #: src/input/decoder.c:682
 msgid "No suitable decoder module"
@@ -994,14 +998,14 @@ msgid "Original ID"
 msgstr "Originaal ID"
 
 #: src/input/es_out.c:2869 src/input/es_out.c:2872
-#: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
-#: modules/gui/qt4/ui/profiles.h:489
+#: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:470
+#: linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "Koodek"
 
 #: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
-#: modules/gui/qt4/ui/sprefs_interface.h:386
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Keel"
 
@@ -1011,7 +1015,7 @@ msgid "Description"
 msgstr "Kirjeldus"
 
 #: src/input/es_out.c:2888 src/input/es_out.c:2891
-#: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
+#: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "Kanalid"
 
@@ -1031,7 +1035,8 @@ msgstr "Bitte diskreetide kohta"
 #: src/input/es_out.c:2911 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
-#: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
+#: linux/modules/gui/qt4/ui/profiles.h:471
+#: linux/modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "Bitikiirus"
 
@@ -1053,7 +1058,7 @@ msgstr "Albumi taasesituse tundlikkus"
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2935 modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2935 linux/modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "Eraldusvõime"
 
@@ -1090,7 +1095,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:663 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:348
 #: modules/gui/qt4/components/open_panels.cpp:372 modules/mux/asf.c:56
-#: modules/gui/qt4/ui/open_disk.h:302
+#: linux/modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
 msgstr "Pealkiri"
 
@@ -1128,7 +1133,7 @@ msgid "Setting"
 msgstr "Seade"
 
 #: src/input/meta.c:61 modules/gui/macosx/open.m:203
-#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:103
 msgid "URL"
 msgstr "URL"
 
@@ -1162,7 +1167,7 @@ msgstr "Programmid"
 
 #: src/input/var.c:192 modules/gui/macosx/intf.m:664
 #: modules/gui/macosx/intf.m:665 modules/gui/macosx/open.m:191
-#: modules/gui/qt4/ui/open_disk.h:303
+#: linux/modules/gui/qt4/ui/open_disk.h:303
 msgid "Chapter"
 msgstr "Peatükk"
 
@@ -1391,7 +1396,7 @@ msgstr ""
 "Vajuta ENTER, et jätkata...\n"
 
 #: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
-#: src/libvlc-module.c:2639 src/video_output/vout_intf.c:195
+#: src/libvlc-module.c:2642 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Suurendamine"
 
@@ -1485,7 +1490,7 @@ msgid ""
 "message."
 msgstr ""
 "See on ',' eraldatud string, iga objektil peab olema eesliide '+' või '-' "
-"lubamaks või keelamaks teda. Võtmesõna 'all' tähendab kõiki objekte. "
+"lubamaks või keelamaks seda. Võtmesõna 'all' tähendab kõiki objekte. "
 "Objektidele saab viidata nende tüübi või mooduli nime kaudu. Nimeliste "
 "objektide reeglid on eelistatud tüübi objektide üle. Märkus: sa pead siiski "
 "kasutama -vvv võtit, et näha silumise teateid. "
@@ -1575,7 +1580,7 @@ msgstr ""
 "automaatselt parim saadav meetod."
 
 #: src/libvlc-module.c:252 modules/stream_out/display.c:41
-#: modules/gui/qt4/ui/sprefs_audio.h:404
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:404
 msgid "Enable audio"
 msgstr "Audio lubatud"
 
@@ -1664,7 +1669,7 @@ msgid ""
 "can be handy if you notice a lag between the video and the audio."
 msgstr ""
 "See seab viivituse audio väljundile. Viivitus tuleb anda millisekundites. "
-"Mugav on teda kasutada siis, kui märkad viivitust audio ja video vahel."
+"Mugav on seda kasutada siis, kui märkad viivitust audio ja video vahel."
 
 #: src/libvlc-module.c:295
 msgid "Audio output channels mode"
@@ -1680,7 +1685,7 @@ msgstr ""
 "kasutada. (nt. kui riistvara ja esitatav audio voo seda toetavad)."
 
 #: src/libvlc-module.c:301 modules/gui/macosx/simple_prefs.m:237
-#: modules/gui/qt4/ui/sprefs_audio.h:413
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
 msgstr "Võimalusel S/PDIF-i kasutamine"
 
@@ -1693,7 +1698,7 @@ msgstr ""
 
 #: src/libvlc-module.c:306 modules/gui/macosx/simple_prefs.m:227
 msgid "Force detection of Dolby Surround"
-msgstr "Dolby ruumilise heli sunnitud avastamine"
+msgstr "Dolby ruumilise heli avastamise sundimine"
 
 #: src/libvlc-module.c:308
 msgid ""
@@ -1811,7 +1816,7 @@ msgstr ""
 "saadaolev meetod."
 
 #: src/libvlc-module.c:375 modules/stream_out/display.c:43
-#: modules/gui/qt4/ui/sprefs_video.h:309
+#: linux/modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
 msgstr "Video lubatud"
 
@@ -1918,9 +1923,10 @@ msgstr "Keskel"
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:162
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1112
-#: modules/gui/qt4/ui/video_effects.h:1178
-#: modules/gui/qt4/ui/video_effects.h:1181
+#: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1112
+#: linux/modules/gui/qt4/ui/video_effects.h:1178
+#: linux/modules/gui/qt4/ui/video_effects.h:1181
 msgid "Top"
 msgstr "Üleval"
 
@@ -1928,7 +1934,8 @@ msgstr "Üleval"
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:162
 #: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
 #: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1118
+#: modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1118
 msgid "Bottom"
 msgstr "All"
 
@@ -2025,7 +2032,8 @@ msgstr ""
 "renderdada videot otse). Vaikimisi üritab VLC seda kasutada."
 
 #: src/libvlc-module.c:442 src/video_output/vout_intf.c:344
-#: modules/gui/macosx/simple_prefs.m:295 modules/gui/qt4/ui/sprefs_video.h:312
+#: modules/gui/macosx/simple_prefs.m:295
+#: linux/modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "Alati pealmine"
 
@@ -2134,7 +2142,7 @@ msgstr ""
 "Tõkestab vooluhaldusteenuse igasuguse taasesitamise ajaks, vältimaks arvuti "
 "peatamist tegevusetuse tõttu."
 
-#: src/libvlc-module.c:503 modules/gui/qt4/ui/sprefs_video.h:316
+#: src/libvlc-module.c:503 linux/modules/gui/qt4/ui/sprefs_video.h:316
 msgid "Window decorations"
 msgstr "Akna dekoratsioonid"
 
@@ -2278,7 +2286,7 @@ msgid ""
 "Default value is 1.0 (original video size)."
 msgstr ""
 "Skaleerimise faktor, kui auto-skaleerimine on keelatud.\n"
-"Vaikimisi väärtus on 1.0 (originaalne video suurus)."
+"Vaikeväärtus on 1.0 (originaalne video suurus)."
 
 #: src/libvlc-module.c:574
 msgid "Custom crop ratios list"
@@ -2333,7 +2341,7 @@ msgstr ""
 "säilitada proportsioone."
 
 #: src/libvlc-module.c:597 modules/gui/macosx/simple_prefs.m:297
-#: modules/gui/qt4/ui/sprefs_video.h:315
+#: linux/modules/gui/qt4/ui/sprefs_video.h:315
 msgid "Skip frames"
 msgstr "Kaadrite vahelejätmine"
 
@@ -2396,7 +2404,7 @@ msgstr ""
 
 #: src/libvlc-module.c:630
 msgid "Clock reference average counter"
-msgstr ""
+msgstr "Kellviidatud keskmine loendur"
 
 #: src/libvlc-module.c:632
 msgid ""
@@ -2428,7 +2436,7 @@ msgid ""
 "considered valid and can be compensated (in milliseconds)"
 msgstr ""
 "See ütleb kella algoritmile, mis on maksimaalne sisendi hälve, mida peetakse "
-"veel kehtivaks ning mida on võimalik korvata (millisekundites)"
+"veel sobivaks ning mida on võimalik korvata (millisekundites)"
 
 #: src/libvlc-module.c:646 modules/control/netsync.c:72
 msgid "Network synchronisation"
@@ -2458,7 +2466,7 @@ msgstr "Vaikimisi"
 
 #: src/libvlc-module.c:653 modules/gui/macosx/equalizer.m:149
 #: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:354
-#: modules/gui/qt4/ui/equalizer.h:127 modules/gui/qt4/ui/vlm.h:290
+#: linux/modules/gui/qt4/ui/equalizer.h:127 linux/modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "Lubatud"
 
@@ -2503,7 +2511,7 @@ msgstr "Multicast väljundi liides"
 
 #: src/libvlc-module.c:674
 msgid "Default multicast interface. This overrides the routing table."
-msgstr "Vaikimisi multicast liides. See eirab ruutingu tabelit."
+msgstr "Vaikimisi multicast liides. See eirab marsruutimise tabelit."
 
 #: src/libvlc-module.c:676
 msgid "IPv4 multicast output interface address"
@@ -2513,7 +2521,8 @@ msgstr "IPv4 multicast väljundi liidese aadress"
 msgid ""
 "IPv4 address for the default multicast interface. This overrides the routing "
 "table."
-msgstr "Vaikimisi multicast liidese IPv4 aadress. See eirab ruutingu tabelit."
+msgstr ""
+"Vaikimisi multicast liidese IPv4 aadress. See eirab marsruutimise tabelit."
 
 #: src/libvlc-module.c:681
 msgid "DiffServ Code Point"
@@ -2545,7 +2554,7 @@ msgstr ""
 "Kasuta seda valikut, kui soovid lugeda mitme-programmi voogu (näiteks nagu "
 "DVB vood)"
 
-#: src/libvlc-module.c:700 modules/gui/qt4/ui/open_disk.h:305
+#: src/libvlc-module.c:700 linux/modules/gui/qt4/ui/open_disk.h:305
 msgid "Audio track"
 msgstr "Audiorada"
 
@@ -2553,7 +2562,7 @@ msgstr "Audiorada"
 msgid "Stream number of the audio track to use (from 0 to n)."
 msgstr "Kasutatava audio raja voo number (0-st kuni n-ni)."
 
-#: src/libvlc-module.c:705 modules/gui/qt4/ui/open_disk.h:306
+#: src/libvlc-module.c:705 linux/modules/gui/qt4/ui/open_disk.h:306
 msgid "Subtitles track"
 msgstr "Subtiitrite rada"
 
@@ -2661,6 +2670,8 @@ msgid ""
 "You can give a comma-separated list of inputs that will be concatenated "
 "together after the normal one."
 msgstr ""
+"Sa võid anda komaga eraldatud sisendite nimekirja, mis ühendatakse kokku "
+"pärast tavalist."
 
 #: src/libvlc-module.c:758
 msgid "Input slave (experimental)"
@@ -2689,7 +2700,7 @@ msgstr ""
 "Sa võid anda voogude järjehoidjate nimekirja vormindatuna {name=järjehoidja-"
 "nimi,time=valikuline-aja-nihe,bytes=valikuline-baidi-nihe}, {...}"
 
-#: src/libvlc-module.c:770 modules/gui/qt4/ui/sprefs_input.h:316
+#: src/libvlc-module.c:770 linux/modules/gui/qt4/ui/sprefs_input.h:316
 msgid "Record directory or filename"
 msgstr "Salvestamise kataloog või fail"
 
@@ -2741,7 +2752,7 @@ msgstr ""
 "filtrid siin ja seadista neid \"pildipealdiste filtrite\" moodulite "
 "sektsioonis. Sa võid määrata palju erinevaid pildipealdiste valikuid."
 
-#: src/libvlc-module.c:796 modules/gui/qt4/ui/sprefs_subtitles.h:213
+#: src/libvlc-module.c:796 linux/modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
 msgstr "Subtiitri asukoha kohendus"
 
@@ -2761,10 +2772,10 @@ msgstr "Pildipealdised lubatud"
 msgid "You can completely disable the sub-picture processing."
 msgstr "Sa saad täielikult keelata pildipealdiste töötlemise."
 
-#: src/libvlc-module.c:805 src/libvlc-module.c:1758
+#: src/libvlc-module.c:805 src/libvlc-module.c:1761
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
-#: modules/gui/qt4/ui/sprefs_subtitles.h:201
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:201
 msgid "On Screen Display"
 msgstr "OSD"
 
@@ -3088,7 +3099,7 @@ msgstr "Voogedastust samal ajal kuvatakse"
 
 #: src/libvlc-module.c:963
 msgid "Play locally the stream while streaming it."
-msgstr "Esita voog lokaalselt, kuni teda voogedastatakse."
+msgstr "Voogu esitatakse voogedastuse ajal lokaalselt."
 
 #: src/libvlc-module.c:965
 msgid "Enable video stream output"
@@ -3099,8 +3110,8 @@ msgid ""
 "Choose whether the video stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
-"Vali, kas video voog peaks ümbersuunatama voo väljundisse, kui see viimane "
-"on võimaldatud."
+"Vali, kas videovoog suunata ümber voo väljundisse, kui see viimane on "
+"võimaldatud."
 
 #: src/libvlc-module.c:970
 msgid "Enable audio stream output"
@@ -3111,8 +3122,8 @@ msgid ""
 "Choose whether the audio stream should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
-"Vali, kas audio voog peaks ümbersuunatama voo väljundisse, kui see viimane "
-"on võimaldatud."
+"Vali, kas audiovoog suunata ümber voo väljundisse, kui see viimane on "
+"võimaldatud."
 
 #: src/libvlc-module.c:975
 msgid "Enable SPU stream output"
@@ -3123,7 +3134,7 @@ msgid ""
 "Choose whether the SPU streams should be redirected to the stream output "
 "facility when this last one is enabled."
 msgstr ""
-"Vali, kas SPU voog peaks ümbersuunatama voo väljundisse, kui see viimane on "
+"Vali, kas SPU voog suunata ümber voo väljundisse, kui see viimane on "
 "võimaldatud."
 
 #: src/libvlc-module.c:980
@@ -3136,6 +3147,8 @@ msgid ""
 "playlist item (automatically insert the gather stream output if not "
 "specified)"
 msgstr ""
+"See lubab sul hoida unikaalse voo väljundi instantsi üle mitme esitusloendi "
+"kirje (automaatselt sisestab kogutud voo väljundi, kui pole määratud)"
 
 #: src/libvlc-module.c:986
 msgid "Stream output muxer caching (ms)"
@@ -3146,15 +3159,17 @@ msgid ""
 "This allow you to configure the initial caching amount for stream output  "
 "muxer. This value should be set in milliseconds."
 msgstr ""
+"See lubab sul seadistada voo väljundi mukseri esmase puhveri pikkuse "
+"millisekundites."
 
 #: src/libvlc-module.c:991
 msgid "Preferred packetizer list"
-msgstr "Eelistatud tükeldaja nimekiri"
+msgstr "Eelistatud tükeldajate nimekiri"
 
 #: src/libvlc-module.c:993
 msgid ""
 "This allows you to select the order in which VLC will choose its packetizers."
-msgstr "See lubab sul valida järjekorra, mille järgi VLC valib tükeldajaid."
+msgstr "Sellega saab valida järjekorra, mille järgi VLC valib tükeldajaid."
 
 #: src/libvlc-module.c:996
 msgid "Mux module"
@@ -3337,7 +3352,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1084
 msgid "Access module"
-msgstr "Juurdepääsu moodulid"
+msgstr "Juurdepääsumoodulid"
 
 #: src/libvlc-module.c:1086
 msgid ""
@@ -3345,6 +3360,9 @@ msgid ""
 "access is not automatically detected. You should not set this as a global "
 "option unless you really know what you are doing."
 msgstr ""
+"See lubab sul sundida juurepääsumoodulit. Võid seda kasutada, kui õige "
+"juurdepääs ei ole automaatselt tuvastatud. Sa ei tohiks seda seada, kui "
+"globaalset valikut, kui sa just täpselt tead, mida teed."
 
 #: src/libvlc-module.c:1090
 msgid "Stream filter module"
@@ -3352,11 +3370,11 @@ msgstr "Voo filtri moodul"
 
 #: src/libvlc-module.c:1092
 msgid "Stream filters are used to modify the stream that is being read. "
-msgstr ""
+msgstr "Voo filtreid kasutatakse lugema hakatava voo muutmiseks."
 
 #: src/libvlc-module.c:1094
 msgid "Demux module"
-msgstr "Demultipleksimise moodul"
+msgstr "Demuksimise moodul"
 
 #: src/libvlc-module.c:1096
 msgid ""
@@ -3365,6 +3383,10 @@ msgid ""
 "automatically detected. You should not set this as a global option unless "
 "you really know what you are doing."
 msgstr ""
+"Demultipleksereid kasutatakse \"elementaarvoogude\" (nagu audio- ja "
+"videovood) eraldamiseks. Sa võid seda kasutada, kui õige demukser ei ole "
+"automaatselt tuvastatud. Seda ei tohiks seada seda globaalseks valikuks, kui "
+"sa täpselt ei tea, mida teed.\""
 
 #: src/libvlc-module.c:1101
 msgid "Allow real-time priority"
@@ -3377,6 +3399,10 @@ msgid ""
 "however lock up your whole machine, or make it very very slow. You should "
 "only activate this if you know what you're doing."
 msgstr ""
+"Käivitades VLC reaalaja prioriteediga, lubab see palju täpsemat ajastust ja "
+"paremat tootlust, eriti sisu voogedastamisel. Paraku võib ta su masina "
+"lukustada või teha väga aeglaseks. Sa peaksid seda aktiveerima ainult juhul, "
+"kui tead täpselt, mida teed."
 
 #: src/libvlc-module.c:1109
 msgid "Adjust VLC priority"
@@ -3388,6 +3414,9 @@ msgid ""
 "You can use it to tune VLC priority against other programs, or against other "
 "VLC instances."
 msgstr ""
+"See valik lisab nihke (positiivse või negatiivse) VLC vaikeprioriteedile. Sa "
+"võid seda kasutada häälestamaks VLC prioriteeti teiste rakenduste või teiste "
+"VLC eksemplaride suhtes."
 
 #: src/libvlc-module.c:1115
 msgid "(Experimental) Don't do caching at the access level."
@@ -3396,7 +3425,7 @@ msgstr "(Eksperimentaalne) Ära puhverda juurdepääsu tasemel."
 #: src/libvlc-module.c:1117
 msgid ""
 "This option is useful if you want to lower the latency when reading a stream"
-msgstr ""
+msgstr "See valik on kasulik, kui soovid alandada voo lugemise latentsust."
 
 #: src/libvlc-module.c:1120
 msgid "Modules search path"
@@ -3407,6 +3436,8 @@ msgid ""
 "Additional path for VLC to look for its modules. You can add several paths "
 "by concatenating them using \" PATH_SEP \" as separator"
 msgstr ""
+"Lisa asukohad, kust VLC saab otsida mooduleid. Võid lisada mitu asukohta, "
+"kui kasutad \"PATH_SEP\" eraldajat."
 
 #: src/libvlc-module.c:1125
 msgid "Data search path"
@@ -3414,7 +3445,7 @@ msgstr "Andmete otsimise asukoht"
 
 #: src/libvlc-module.c:1127
 msgid "Override the default data/share search path."
-msgstr ""
+msgstr "Tühista vaikimisi andmete/jagamise otsimise asukoht."
 
 #: src/libvlc-module.c:1129
 msgid "VLM configuration file"
@@ -3504,7 +3535,7 @@ msgstr ""
 "failisirvijas sellel failil käivitatakse järjekordne VLC isend. See valik "
 "lubab sul seda faili esitada või järjekorda panna juba töötavas VLC "
 "eksemplaris. See valik nõuab ka töötavat D-Bus sessiooni teenust ja töötavat "
-"VLC-d, mis kasutab D-Bus juhtliidest."
+"VLC-d, mis kasutab D-Busi juhtliidest."
 
 #: src/libvlc-module.c:1176
 msgid "VLC is started from file association"
@@ -3687,7 +3718,7 @@ msgstr "Need sätted on globaalsed VLC klahviseosed e kiirklahvid."
 #: modules/gui/macosx/intf.m:685 modules/gui/macosx/intf.m:750
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/gui/qt4/ui/sprefs_video.h:311
+#: linux/modules/gui/qt4/ui/sprefs_video.h:311
 msgid "Fullscreen"
 msgstr "Täisekraanvaade"
 
@@ -3771,8 +3802,9 @@ msgstr "Pisut aeglasemalt"
 #: modules/gui/macosx/intf.m:746 modules/gui/macosx/wizard.m:309
 #: modules/gui/macosx/wizard.m:321 modules/gui/macosx/wizard.m:1623
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:321 modules/gui/qt4/ui/sout.h:327
-#: modules/gui/qt4/ui/sout.h:338 modules/gui/qt4/ui/streampanel.h:182
+#: modules/misc/notify/notify.c:321 linux/modules/gui/qt4/ui/sout.h:327
+#: linux/modules/gui/qt4/ui/sout.h:338
+#: linux/modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
 msgstr "Järgmine"
 
@@ -3785,8 +3817,8 @@ msgstr "Vali kiirklahv, mis hüppab esitusloendi järgmisele kirjele."
 #: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:599
 #: modules/gui/macosx/intf.m:651 modules/gui/macosx/intf.m:739
 #: modules/gui/macosx/intf.m:745 modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:319 modules/gui/qt4/ui/sout.h:337
-#: modules/gui/qt4/ui/sout.h:346
+#: modules/misc/notify/notify.c:319 linux/modules/gui/qt4/ui/sout.h:337
+#: linux/modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
 msgstr "Eelmine"
 
@@ -3798,7 +3830,7 @@ msgstr "Vali kiirklahv, mis hüppab esitusloendi eelmisele kirjele."
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:602
 #: modules/gui/macosx/intf.m:647 modules/gui/macosx/intf.m:737
 #: modules/gui/macosx/intf.m:744 modules/gui/qt4/components/controller.hpp:104
-#: modules/misc/notify/xosd.c:231 modules/gui/qt4/ui/streampanel.h:181
+#: modules/misc/notify/xosd.c:231 linux/modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
 msgstr "Peatamine"
 
@@ -3810,7 +3842,7 @@ msgstr "Vali kiirklahv, mis peatab taasesituse."
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:607
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
-#: modules/gui/qt4/ui/video_effects.h:1167
+#: linux/modules/gui/qt4/ui/video_effects.h:1167
 msgid "Position"
 msgstr "Asukoht"
 
@@ -4464,7 +4496,7 @@ msgstr "Heliseadme vahetamine"
 msgid "Cycle through available audio devices"
 msgstr "Saadaolevate heliseadmete vahel vahetamine"
 
-#: src/libvlc-module.c:1683 src/video_output/vout_intf.c:363
+#: src/libvlc-module.c:1686 src/video_output/vout_intf.c:363
 #: modules/gui/macosx/controls.m:494 modules/gui/macosx/controls.m:1086
 #: modules/gui/macosx/intf.m:687 modules/gui/macosx/intf.m:751
 #: modules/gui/qt4/components/controller.hpp:106
@@ -4472,96 +4504,96 @@ msgstr "Saadaolevate heliseadmete vahel vahetamine"
 msgid "Snapshot"
 msgstr "Kaadripilt"
 
-#: src/libvlc-module.c:1700
+#: src/libvlc-module.c:1703
 msgid "Window properties"
 msgstr "Akna omadused"
 
-#: src/libvlc-module.c:1759
+#: src/libvlc-module.c:1762
 msgid "Subpictures"
 msgstr "Pildipealdised"
 
-#: src/libvlc-module.c:1767 modules/codec/subtitles/subsdec.c:202
+#: src/libvlc-module.c:1770 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
-#: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
-#: modules/gui/qt4/ui/profiles.h:497
+#: modules/demux/subtitle.c:73 linux/modules/gui/qt4/ui/profiles.h:495
+#: linux/modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "Subtiitrid"
 
-#: src/libvlc-module.c:1785 modules/stream_out/transcode/transcode.c:115
+#: src/libvlc-module.c:1788 modules/stream_out/transcode/transcode.c:115
 msgid "Overlays"
 msgstr "Ülekate"
 
-#: src/libvlc-module.c:1793
+#: src/libvlc-module.c:1796
 msgid "Track settings"
 msgstr "Raja seadeid"
 
-#: src/libvlc-module.c:1823
+#: src/libvlc-module.c:1826
 msgid "Playback control"
 msgstr "Taasesituse kontroll"
 
-#: src/libvlc-module.c:1850
+#: src/libvlc-module.c:1853
 msgid "Default devices"
 msgstr "Vaikimisi seadmed"
 
-#: src/libvlc-module.c:1859
+#: src/libvlc-module.c:1862
 msgid "Network settings"
 msgstr "Võrgusätted"
 
-#: src/libvlc-module.c:1871
+#: src/libvlc-module.c:1874
 msgid "Socks proxy"
 msgstr "SOCKS proksi"
 
-#: src/libvlc-module.c:1880 modules/demux/kate_categories.c:47
+#: src/libvlc-module.c:1883 modules/demux/kate_categories.c:47
 msgid "Metadata"
 msgstr "Metaandmed"
 
-#: src/libvlc-module.c:1931
+#: src/libvlc-module.c:1934
 msgid "Decoders"
 msgstr "Dekoodrid"
 
-#: src/libvlc-module.c:1938 modules/access/v4l2.c:80
+#: src/libvlc-module.c:1941 modules/access/v4l2.c:80
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "Sisend"
 
-#: src/libvlc-module.c:1977
+#: src/libvlc-module.c:1980
 msgid "VLM"
 msgstr "VLM"
 
-#: src/libvlc-module.c:2009
+#: src/libvlc-module.c:2012
 msgid "CPU"
 msgstr "CPU"
 
-#: src/libvlc-module.c:2038
+#: src/libvlc-module.c:2041
 msgid "Special modules"
 msgstr "Spetsiaalsed moodulid"
 
-#: src/libvlc-module.c:2044 modules/gui/qt4/dialogs/plugins.cpp:66
+#: src/libvlc-module.c:2047 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
 msgstr "Pluginad"
 
-#: src/libvlc-module.c:2059
+#: src/libvlc-module.c:2062
 msgid "Performance options"
 msgstr "Jõudluse valikud"
 
-#: src/libvlc-module.c:2207
+#: src/libvlc-module.c:2210
 msgid "Hot keys"
 msgstr "Kiirklahvid"
 
-#: src/libvlc-module.c:2649
+#: src/libvlc-module.c:2652
 msgid "Jump sizes"
 msgstr "Hüppe suurused"
 
-#: src/libvlc-module.c:2726
+#: src/libvlc-module.c:2729
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 "trüki VLC abi (võib kombineerida koos --advanced ja --help-verbose võtmetega)"
 
-#: src/libvlc-module.c:2729
+#: src/libvlc-module.c:2732
 msgid "Exhaustive help for VLC and its modules"
 msgstr "Põhjalik abiteave VLC ja selle moodulite kohta"
 
-#: src/libvlc-module.c:2731
+#: src/libvlc-module.c:2734
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4569,19 +4601,19 @@ msgstr ""
 "kuva VLC ja kõikide tema moodulite abi (võib kombineerida koos --advanced ja "
 "--help-verbose parameetritega)"
 
-#: src/libvlc-module.c:2734
+#: src/libvlc-module.c:2737
 msgid "ask for extra verbosity when displaying help"
 msgstr "küsi ekstra jutukust abi kuvamisel"
 
-#: src/libvlc-module.c:2736
+#: src/libvlc-module.c:2739
 msgid "print a list of available modules"
 msgstr "kuva nimekiri saadavadest moodulitest"
 
-#: src/libvlc-module.c:2738
+#: src/libvlc-module.c:2741
 msgid "print a list of available modules with extra detail"
 msgstr "kuva nimekiri saadavatest moodulitest koos lisa detailidega"
 
-#: src/libvlc-module.c:2740
+#: src/libvlc-module.c:2743
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4589,27 +4621,28 @@ msgstr ""
 "kuva konkreetse mooduli abi (võib kombineerida koos --advanced ja --help-"
 "verbose parameetritega). Otseste vastete jaoks lisa moodulinimele eesliide =."
 
-#: src/libvlc-module.c:2744
+#: src/libvlc-module.c:2747
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr ""
+"ühtegi seadistuste valikut ei laaditud ega salvestatud seadistutste faili"
 
-#: src/libvlc-module.c:2746
+#: src/libvlc-module.c:2749
 msgid "reset the current config to the default values"
 msgstr "algväärtusta aktiivne konfiguratsioon"
 
-#: src/libvlc-module.c:2748
+#: src/libvlc-module.c:2751
 msgid "use alternate config file"
 msgstr "kasuta teist seadistusfaili"
 
-#: src/libvlc-module.c:2750
+#: src/libvlc-module.c:2753
 msgid "resets the current plugins cache"
 msgstr "algväärtusta aktiivne pluginate puhver"
 
-#: src/libvlc-module.c:2752
+#: src/libvlc-module.c:2755
 msgid "print version information"
 msgstr "prindi versiooni info"
 
-#: src/libvlc-module.c:2790
+#: src/libvlc-module.c:2793
 msgid "main program"
 msgstr "põhirakendus"
 
@@ -4698,6 +4731,8 @@ msgid ""
 "It was not possible to download a cryptographic signature for the downloaded "
 "file \"%s\". Thus, it was deleted."
 msgstr ""
+"Allalaaditud faili \"%s\" krüptograafilise allkirja allalaadimine nurjus, "
+"seetõttu fail kustutati."
 
 #: src/misc/update.c:673 src/misc/update.c:685
 msgid "Invalid signature"
@@ -4709,6 +4744,8 @@ msgid ""
 "The cryptographic signature for the downloaded file \"%s\" was invalid and "
 "could not be used to securely verify it. Thus, the file was deleted."
 msgstr ""
+"Allalaaditud faili \"%s\" krüptograafiline allkiri oli vigane ja seda polnud "
+"võimalik kasutata turvaliseks kontrolliks, seetõttu fail kustutati."
 
 #: src/misc/update.c:698
 msgid "File not verifiable"
@@ -4720,6 +4757,8 @@ msgid ""
 "It was not possible to securely verify the downloaded file \"%s\". Thus, it "
 "was deleted."
 msgstr ""
+"Allalaaditud faili \"%s\" turvaline kontrollimine nurjus, seetõttu fail "
+"kustutati."
 
 #: src/misc/update.c:710 src/misc/update.c:722
 msgid "File corrupted"
@@ -4761,7 +4800,8 @@ msgstr "Järeltöötlus"
 
 #: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:692
 #: modules/gui/macosx/intf.m:693 modules/video_filter/crop.c:107
-#: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1122
+#: modules/video_filter/croppadd.c:86
+#: linux/modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr "Kärpimine"
 
@@ -4814,13 +4854,12 @@ msgstr ""
 #: modules/access/v4l.c:77 modules/access/v4l2.c:182
 #: modules/access/vcd/vcd.c:46
 msgid "Caching value in ms"
-msgstr "Puhverdamise väärtus ms-des"
+msgstr "Puhvri pikkus ms-des"
 
 #: modules/access/alsa.c:77
 msgid ""
 "Caching value for Alsa captures. This value should be set in milliseconds."
-msgstr ""
-"Alsa hõivete puhverdamise väärtus. See väärtus tuleks anda millisekundites."
+msgstr "Alsa hõivepuhvri pikkus millisekundites."
 
 #: modules/access/alsa.c:81
 msgid ""
@@ -4828,9 +4867,9 @@ msgid ""
 "available, they will be listed in the vlc debug output. To select hw:0,1 , "
 "use alsa://hw:0,1 ."
 msgstr ""
-"Kasuta alsa:// avamaks vaikimisi audio sisend. Kui saadaval on mitu audio "
-"sisendit, siis nad on kirjas vlc silumise väljundis. Valimaks hw:0,1, kasuta "
-"alsa://hw:0,1."
+"Kasuta alsa:// avamaks vaikimisi audiosisendit. Kui saadaval on mitu "
+"audiosisendit, siis nad on kirjas vlc silumise väljundis. Valimaks hw:0,1, "
+"kasuta alsa://hw:0,1."
 
 #: modules/access/alsa.c:89
 msgid "Alsa"
@@ -4842,7 +4881,7 @@ msgstr "Alsa audio sisend"
 
 #: modules/access/bd/bd.c:54
 msgid "Caching value for BDs. This value should be set in milliseconds."
-msgstr "BD-e puhverdamise väärtus. See väärtus tuleks anda millisekundites."
+msgstr "BD-e puhvri pikkus millisekundites."
 
 #: modules/access/bd/bd.c:61
 msgid "BD"
@@ -4855,8 +4894,7 @@ msgstr "Blu-Ray ketta sisend"
 #: modules/access/bda/bda.c:48 modules/access/dvb/access.c:85
 msgid ""
 "Caching value for DVB streams. This value should be set in milliseconds."
-msgstr ""
-"DVB voogude puhverdamise väärtus. See väärtus tuleks anda millisekundites."
+msgstr "DVB voo puhvri pikkus millisekundites."
 
 #: modules/access/bda/bda.c:51 modules/access/dvb/access.c:88
 #: modules/gui/qt4/components/open_panels.cpp:928
@@ -4906,6 +4944,8 @@ msgid ""
 "Some DVB cards do not like to be probed for their capabilities, you can "
 "disable this feature if you experience some trouble."
 msgstr ""
+"Mõnele DVB-kaardile ei meeldi, kui selle võimalusi uuritakse. Kui esineb "
+"probleeme, võid selle keelata."
 
 #: modules/access/bda/bda.c:76 modules/access/dvb/access.c:103
 msgid "Budget mode"
@@ -4965,7 +5005,7 @@ msgstr "FEC=Forward Error Correction režiim [9=auto]."
 
 #: modules/access/bda/bda.c:102 modules/access/dvb/access.c:123
 msgid "Transponder symbol rate in kHz"
-msgstr ""
+msgstr "Transponderi sümboli kiirus kHz-des"
 
 #: modules/access/bda/bda.c:105 modules/access/dvb/access.c:126
 msgid "Antenna lnb_lof1 (kHz)"
@@ -5053,7 +5093,7 @@ msgstr "FEC kiirus"
 
 #: modules/access/bda/bda.c:134
 msgid "FEC rate includes DVB-T high priority stream FEC Rate"
-msgstr ""
+msgstr "FEC kiirus sisaldab DVB-T kõrgeprioriteedilist FEC kiiruse voogu"
 
 #: modules/access/bda/bda.c:138 modules/access/bda/bda.c:145
 msgid "1/2"
@@ -5077,7 +5117,7 @@ msgstr "7/8"
 
 #: modules/access/bda/bda.c:140 modules/access/dvb/access.c:143
 msgid "Terrestrial low priority stream code rate (FEC)"
-msgstr ""
+msgstr "Maine madala prioriteediga voo koodi kiirus (FEC)"
 
 #: modules/access/bda/bda.c:141
 msgid "Low Priority FEC Rate [Undefined,1/2,2/3,3/4,5/6,7/8]"
@@ -5085,11 +5125,11 @@ msgstr ""
 
 #: modules/access/bda/bda.c:147 modules/access/dvb/access.c:146
 msgid "Terrestrial bandwidth"
-msgstr ""
+msgstr "Maine ribalaius"
 
 #: modules/access/bda/bda.c:148 modules/access/dvb/access.c:147
 msgid "Terrestrial bandwidth [0=auto,6,7,8 in MHz]"
-msgstr ""
+msgstr "Maine ribalaius [0=auto,6,7,8 MHz]"
 
 #: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:978
 msgid "6 MHz"
@@ -5129,11 +5169,11 @@ msgstr "1/32"
 
 #: modules/access/bda/bda.c:159 modules/access/dvb/access.c:152
 msgid "Terrestrial transmission mode"
-msgstr ""
+msgstr "Maine edastusrežiim"
 
 #: modules/access/bda/bda.c:160
 msgid "Transmission mode [Undefined,2k,8k]"
-msgstr ""
+msgstr "Edastusrežiim [määramata,2k,8k]"
 
 #: modules/access/bda/bda.c:163
 msgid "2k"
@@ -5145,13 +5185,13 @@ msgstr "8k"
 
 #: modules/access/bda/bda.c:165 modules/access/dvb/access.c:155
 msgid "Terrestrial hierarchy mode"
-msgstr ""
+msgstr "Maine hierarhiline režiim"
 
 #: modules/access/bda/bda.c:166
 msgid "Hierarchy alpha value [Undefined,1,2,4]"
 msgstr ""
 
-#: modules/access/bda/bda.c:169 modules/gui/qt4/ui/streampanel.h:170
+#: modules/access/bda/bda.c:169 linux/modules/gui/qt4/ui/streampanel.h:170
 msgid "1"
 msgstr "1"
 
@@ -5169,23 +5209,23 @@ msgstr "Satelliidi asimuut"
 
 #: modules/access/bda/bda.c:173
 msgid "Satellite Azimuth in tenths of degree"
-msgstr "Satelliidi asimuut kraadi kümnendikes"
+msgstr "Satelliidi asimuut kümnendikkraadides"
 
 #: modules/access/bda/bda.c:174
 msgid "Satellite Elevation"
-msgstr "Satelliidi tõus"
+msgstr "Satelliidi nurkkõrgus"
 
 #: modules/access/bda/bda.c:175
 msgid "Satellite Elevation in tenths of degree"
-msgstr "Satelliidi tõus kraadi kümnendikes"
+msgstr "Satelliidi nurkkõrgus kümnendikkraadides"
 
 #: modules/access/bda/bda.c:176
 msgid "Satellite Longitude"
-msgstr "Satelliidi laiuskraad"
+msgstr "Satelliidi pikkuskraad"
 
 #: modules/access/bda/bda.c:178
 msgid "Satellite Longitude in 10ths of degree, -ve=West"
-msgstr "Sateliidi laiuskraad kraadi kümnendikes, -ve=Lääs"
+msgstr "Sateliidi pikkuskraad kümnendikkraadides, -ve=Lääs"
 
 #: modules/access/bda/bda.c:179
 msgid "Satellite Polarisation"
@@ -5247,11 +5287,11 @@ msgstr ""
 msgid ""
 "Default caching value for Audio CDs. This value should be set in "
 "milliseconds."
-msgstr ""
+msgstr "Vaikimisi audio-CD-de puhvri pikkus millisekundites."
 
 #: modules/access/cdda.c:67 modules/gui/macosx/open.m:198
 #: modules/gui/macosx/open.m:643 modules/gui/macosx/open.m:731
-#: modules/gui/qt4/ui/open_disk.h:293
+#: linux/modules/gui/qt4/ui/open_disk.h:293
 msgid "Audio CD"
 msgstr "Audio-CD"
 
@@ -5269,7 +5309,7 @@ msgstr "CDDB server"
 
 #: modules/access/cdda.c:88
 msgid "Address of the CDDB server to use."
-msgstr ""
+msgstr "Kasutatava CDDB serveri aadress."
 
 #: modules/access/cdda.c:89
 msgid "CDDB port"
@@ -5316,7 +5356,7 @@ msgstr "DSS"
 msgid ""
 "Caching value for DirectShow streams. This value should be set in "
 "milliseconds."
-msgstr "DirectShow voogude puhverdamise väärtus. Tuleks anda millisekundites."
+msgstr "DirectShow voo puhvri pikkus millisekundites."
 
 #: modules/access/dshow/dshow.cpp:103 modules/access/v4l.c:81
 #: modules/gui/qt4/components/open_panels.cpp:737
@@ -5329,6 +5369,8 @@ msgid ""
 "Name of the video device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used."
 msgstr ""
+"Videoseadme nimi, mida DirectShow plugin kasutab. Kui sa ei määra midagi, "
+"siis kasutatakse vaikeseadet."
 
 #: modules/access/dshow/dshow.cpp:108
 #: modules/gui/qt4/components/open_panels.cpp:743
@@ -5341,6 +5383,8 @@ msgid ""
 "Name of the audio device that will be used by the DirectShow plugin. If you "
 "don't specify anything, the default device will be used. "
 msgstr ""
+"Audioseadme nimi, mida DirectShow plugin kasutab. Kui sa ei määra midagi, "
+"siis kasutatakse vaikeseadet."
 
 #: modules/access/dshow/dshow.cpp:113
 #: modules/gui/qt4/components/open_panels.cpp:647
@@ -5357,23 +5401,27 @@ msgstr ""
 #: modules/access/dshow/dshow.cpp:118 modules/access/v4l.c:85
 #: modules/access/v4l2.c:74
 msgid "Video input chroma format"
-msgstr "Video sisendi värviformaadi vorming"
+msgstr "Videosisendi värviformaat"
 
 #: modules/access/dshow/dshow.cpp:120
 msgid ""
 "Force the DirectShow video input to use a specific chroma format (eg. I420 "
 "(default), RV24, etc.)"
 msgstr ""
+"Sunni DirectShow videosisend kasutama kindlat värviformaati (nt. I420 "
+"(vaikimisi), RV24, jne.)"
 
 #: modules/access/dshow/dshow.cpp:122
 msgid "Video input frame rate"
-msgstr "Video sisendi kaadrikiirus"
+msgstr "Videosisendi kaadrikiirus"
 
 #: modules/access/dshow/dshow.cpp:124
 msgid ""
 "Force the DirectShow video input to use a specific frame rate(eg. 0 means "
 "default, 25, 29.97, 50, 59.94, etc.)"
 msgstr ""
+"Sunni DirectShow videosisend kasutama kindlat kaadrikiirust (nt. 0 tähendab "
+"vaikimisi, 25, 29.97, 50, 59.94, jne.)"
 
 #: modules/access/dshow/dshow.cpp:126
 msgid "Device properties"
@@ -5382,7 +5430,7 @@ msgstr "Seadme omadused"
 #: modules/access/dshow/dshow.cpp:128
 msgid ""
 "Show the properties dialog of the selected device before starting the stream."
-msgstr ""
+msgstr "Valitud seadme omaduste dialoogi kuvamine enne voo alustamist."
 
 #: modules/access/dshow/dshow.cpp:130
 msgid "Tuner properties"
@@ -5390,11 +5438,11 @@ msgstr "Tuuneri omadused"
 
 #: modules/access/dshow/dshow.cpp:132
 msgid "Show the tuner properties [channel selection] page."
-msgstr ""
+msgstr "Tuuneri omaduste [kanali valik] lehe kuvamine."
 
 #: modules/access/dshow/dshow.cpp:133
 msgid "Tuner TV Channel"
-msgstr "Tuuneri TV kanal"
+msgstr "Tuuneri TV-kanal"
 
 #: modules/access/dshow/dshow.cpp:135
 msgid "Set the TV channel the tuner will set to (0 means default)."
@@ -5416,11 +5464,11 @@ msgstr "Tuuneri sisendi tüüp"
 
 #: modules/access/dshow/dshow.cpp:143
 msgid "Select the tuner input type (Cable/Antenna)."
-msgstr ""
+msgstr "Tuuneri sisendi tüübi valimine (kaabel/antenn)."
 
 #: modules/access/dshow/dshow.cpp:144
 msgid "Video input pin"
-msgstr ""
+msgstr "Videosisendi pistik"
 
 #: modules/access/dshow/dshow.cpp:146
 msgid ""
@@ -5429,49 +5477,57 @@ msgid ""
 "\"Device config\" area, and use those numbers here. -1 means that settings "
 "will not be changed."
 msgstr ""
+"Vali videosisend, nagu komposiit, s-video või tuuner. Kuna need seaded on "
+"riistvaraspetsiifilised, siis peaksid leidma head seaded \"Seadmete seadete"
+"\" alt ja kasutama neid numbreid siin. -1 tähendab, et neid seadeid ei "
+"muudeta."
 
 #: modules/access/dshow/dshow.cpp:150
 msgid "Audio input pin"
-msgstr ""
+msgstr "Audiosisendi pistik"
 
 #: modules/access/dshow/dshow.cpp:152
 msgid "Select the audio input source. See the \"video input\" option."
-msgstr ""
+msgstr "Audiosisendi valimine. Vaata \"videosisendi\" valikut."
 
 #: modules/access/dshow/dshow.cpp:153
 msgid "Video output pin"
-msgstr ""
+msgstr "Videoväljundi pistik"
 
 #: modules/access/dshow/dshow.cpp:155
 msgid "Select the video output type. See the \"video input\" option."
-msgstr ""
+msgstr "Videoväljundi tüübi valimine. Vaata \"videosisendi\" valikut."
 
 #: modules/access/dshow/dshow.cpp:156
 msgid "Audio output pin"
-msgstr ""
+msgstr "Audioväljundi pistik"
 
 #: modules/access/dshow/dshow.cpp:158
 msgid "Select the audio output type. See the \"video input\" option."
-msgstr ""
+msgstr "Audioväljundi tüübi valimine. Vaata \"videosisendi\" valikut."
 
 #: modules/access/dshow/dshow.cpp:160
 msgid "AM Tuner mode"
-msgstr "AM tuuneri režiim"
+msgstr "AM-tuuneri režiim"
 
 #: modules/access/dshow/dshow.cpp:162
 msgid ""
 "AM Tuner mode. Can be one of Default (0), TV (1),AM Radio (2), FM Radio (3) "
 "or DSS (4)."
 msgstr ""
+"AM-tuuneri režiim. Võib olla vaikimisi (0), TV (1), AM-raadio (2), FM-raadio "
+"(3) või DSS (4)."
 
 #: modules/access/dshow/dshow.cpp:165
 msgid "Number of audio channels"
-msgstr "Audio kanalite arv"
+msgstr "Audiokanalite arv"
 
 #: modules/access/dshow/dshow.cpp:167
 msgid ""
 "Select audio input format with the given number of audio channels (if non 0)"
 msgstr ""
+"Audiosisendi vormingu valimine koos antud audiokanalite arvuga (0, kui mitte "
+"ühtegi)"
 
 #: modules/access/dshow/dshow.cpp:169
 #: modules/stream_out/transcode/transcode.c:93
@@ -5481,6 +5537,8 @@ msgstr "Audio diskreetimissagedus"
 #: modules/access/dshow/dshow.cpp:171
 msgid "Select audio input format with the given sample rate (if non 0)"
 msgstr ""
+"Audiosisendi vormingu valimine koos antud diskreetimissagedusega (0, kui "
+"mitte ühtegi)"
 
 #: modules/access/dshow/dshow.cpp:173
 msgid "Audio bits per sample"
@@ -5489,6 +5547,8 @@ msgstr "Audio bitte diskreedi kohta"
 #: modules/access/dshow/dshow.cpp:175
 msgid "Select audio input format with the given bits/sample (if non 0)"
 msgstr ""
+"Audiosisendi vormingu valimine koos etteantud bittide arvuga diskreedi kohta "
+"(0, kui mitte ühtegi)"
 
 #: modules/access/dshow/dshow.cpp:187
 msgid "DirectShow"
@@ -5515,29 +5575,29 @@ msgstr "Hõive nurjus"
 
 #: modules/access/dshow/dshow.cpp:460
 msgid "No video or audio device selected."
-msgstr "Puudub video või audio seadme valik."
+msgstr "Video- või audioseadet pole valitud."
 
 #: modules/access/dshow/dshow.cpp:534
 msgid "VLC cannot open ANY capture device.Check the error log for details."
-msgstr ""
+msgstr "VLC ei suuda avada ühtegi hõiveseadet. Lähemalt vaata vigade logist."
 
 #: modules/access/dshow/dshow.cpp:969
 #, c-format
 msgid "VLC cannot use the device \"%s\", because its type is not supported."
-msgstr ""
+msgstr "VLC ei suuda kasutada seadet \"%s\", sest selle tüüp ei ole toetatud."
 
 #: modules/access/dshow/dshow.cpp:1022
 #, c-format
 msgid "The capture device \"%s\" does not support the required parameters."
-msgstr ""
+msgstr "Hõiveseade \"%s\" ei toeta nõutud parameetreid."
 
 #: modules/access/dv.c:61
 msgid "Caching value for DV streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "DV voo puhvri pikkus millisekundites."
 
 #: modules/access/dv.c:65
 msgid "Digital Video (Firewire/ieee1394)  input"
-msgstr "Digitaalvideo (Firewire/IEEE1394)  sisend"
+msgstr "Video (Firewire/IEEE1394) digitaalsisend"
 
 #: modules/access/dv.c:66
 msgid "DV"
@@ -5594,7 +5654,7 @@ msgstr "Sertifikaadi fail"
 
 #: modules/access/dvb/access.c:179
 msgid "HTTP interface x509 PEM certificate file (enables SSL)"
-msgstr ""
+msgstr "HTTP liidese x509 PEM sertifikaadifail (võimaldab SSLi)"
 
 #: modules/access/dvb/access.c:182 modules/access_output/http.c:77
 #: modules/control/http/http.c:60
@@ -5603,7 +5663,7 @@ msgstr "Privaatvõtme fail"
 
 #: modules/access/dvb/access.c:183
 msgid "HTTP interface x509 PEM private key file"
-msgstr ""
+msgstr "HTTP liidese x509 PEM privaatvõtme fail"
 
 #: modules/access/dvb/access.c:185 modules/access_output/http.c:81
 #: modules/control/http/http.c:62
@@ -5612,7 +5672,7 @@ msgstr "Juursertifikaadi (CA) fail"
 
 #: modules/access/dvb/access.c:186
 msgid "HTTP interface x509 PEM trusted root CA certificates file"
-msgstr ""
+msgstr "HTTP liidese x509 PEM usaldatud juursertifikaadi CA fail"
 
 #: modules/access/dvb/access.c:189 modules/access_output/http.c:86
 #: modules/control/http/http.c:65
@@ -5621,11 +5681,11 @@ msgstr "CRL fail"
 
 #: modules/access/dvb/access.c:190
 msgid "HTTP interface Certificates Revocation List file"
-msgstr ""
+msgstr "HTTP liidese sertifikaadi tühistusnimekirja fail"
 
 #: modules/access/dvb/access.c:194
 msgid "DVB input with v4l2 support"
-msgstr ""
+msgstr "DVB sisend koos v4l2 toega"
 
 #: modules/access/dvb/access.c:249
 msgid "HTTP server"
@@ -5633,22 +5693,24 @@ msgstr "HTTP server"
 
 #: modules/access/dvb/access.c:943
 msgid "Input syntax is deprecated"
-msgstr ""
+msgstr "Sisendi süntaks on iganenud"
 
 #: modules/access/dvb/access.c:944
 msgid ""
 "The given syntax is deprecated. Run \"vlc -p dvb\" to see an explanation of "
 "the new syntax."
 msgstr ""
+"Antud süntaks on iganenud. Käivita \"vlc -p dvb\", et näha uue süntaksi "
+"lühikirjeldust."
 
 #: modules/access/dvb/access.c:990
 msgid "Invalid polarization"
-msgstr ""
+msgstr "Vigane polarisatsioon"
 
 #: modules/access/dvb/access.c:991
 #, c-format
 msgid "The provided polarization \"%c\" is not valid."
-msgstr ""
+msgstr "Pakutud polarisatsioon \"%c\" ei ole sobiv."
 
 #: modules/access/dvb/scan.c:317
 #, c-format
@@ -5669,17 +5731,19 @@ msgstr "Vaikimisi DVD nurk"
 
 #: modules/access/dvdnav.c:74 modules/access/dvdread.c:76
 msgid "Caching value for DVDs. This value should be set in milliseconds."
-msgstr ""
+msgstr "DVD-de puhvri pikkus millisekundites."
 
 #: modules/access/dvdnav.c:76
 msgid "Start directly in menu"
-msgstr ""
+msgstr "Käivita koheselt menüü"
 
 #: modules/access/dvdnav.c:78
 msgid ""
 "Start the DVD directly in the main menu. This will try to skip all the "
 "useless warning introductions."
 msgstr ""
+"Käivita koheselt DVD peamine menüü. Üritatakse vahele jätta kõik kasutud "
+"hoitavad sissejuhatused."
 
 #: modules/access/dvdnav.c:87
 msgid "DVD with menus"
@@ -5698,6 +5762,8 @@ msgstr "Taasesituse tõrge"
 msgid ""
 "VLC cannot set the DVD's title. It possibly cannot decrypt the entire disc."
 msgstr ""
+"VLC ei suuda määrata DVD pealkirja. Tõenäoliselt ei suudeta tervet ketast "
+"dekrüpteerida."
 
 #: modules/access/dvdread.c:83
 msgid "DVD without menus"
@@ -5735,7 +5801,7 @@ msgstr ""
 #: modules/access/eyetv.m:63
 msgid ""
 "Caching value for EyeTV captures. This value should be set in milliseconds."
-msgstr ""
+msgstr "EyeTV hõivepuhvri pikkus millisekundites."
 
 #: modules/access/eyetv.m:68
 msgid "EyeTV input"
@@ -5744,7 +5810,7 @@ msgstr "EyeTV sisend"
 #: modules/access/fake.c:46
 msgid ""
 "Caching value for fake streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "Libavoo puhvri pikkus millisekundites."
 
 #: modules/access/fake.c:48 modules/access/pvr.c:85 modules/access/v4l.c:130
 #: modules/access/v4l2.c:95
@@ -5783,7 +5849,7 @@ msgstr "Liba"
 
 #: modules/access/fake.c:64
 msgid "Fake video input"
-msgstr "Liba video sisend"
+msgstr "Libavideosisend"
 
 #: modules/access/file.c:169 modules/access/file.c:302
 #: modules/access/mmap.c:228 modules/access/mtp.c:216 modules/access/mtp.c:304
@@ -5803,7 +5869,7 @@ msgstr "VLC ei suutnud faili lugeda."
 #: modules/access/ftp.c:60
 msgid ""
 "Caching value for FTP streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "FTP voo puhvri pikkus millisekundites."
 
 #: modules/access/ftp.c:62
 msgid "FTP user name"
@@ -5840,7 +5906,7 @@ msgstr "FTP üleslaadimise väljund"
 #: modules/access/ftp.c:139 modules/access/ftp.c:149 modules/access/ftp.c:214
 #: modules/access/ftp.c:223 modules/access/ftp.c:230
 msgid "Network interaction failed"
-msgstr "Võrgu interaktsioon nurjus"
+msgstr "Võrguühendus nurjus"
 
 #: modules/access/ftp.c:140
 msgid "VLC could not connect with the given server."
@@ -5860,13 +5926,12 @@ msgstr "Sinu parool lükati tagasi."
 
 #: modules/access/ftp.c:231
 msgid "Your connection attempt to the server was rejected."
-msgstr "Sinu katse serveriga ühendust saada, lükati tagasi."
+msgstr "Sinu katse serveriga ühendust saada lükati tagasi."
 
 #: modules/access/gnomevfs.c:50
 msgid ""
 "Caching value for GnomeVFS streams.This value should be set in milliseconds."
-msgstr ""
-"GnomeVFS-i voogude puhverdamise väärtus. See tuleks anda millisekundites."
+msgstr "GnomeVFS-i voo puhvri pikkus millisekundites."
 
 #: modules/access/gnomevfs.c:54
 msgid "GnomeVFS input"
@@ -5881,6 +5946,9 @@ msgid ""
 "HTTP proxy to be used It must be of the form http://[user@]myproxy.mydomain:"
 "myport/ ; if empty, the http_proxy environment variable will be tried."
 msgstr ""
+"Kasutatav HTTP proksi. Peab esinema kujul http://[kasutaja@]minuproksi."
+"minudomeen:port/; kui väli on tühi, üritatakse kasutada http_proxy "
+"keskonnamuutujat."
 
 #: modules/access/http.c:77
 msgid "HTTP proxy password"
@@ -5888,12 +5956,12 @@ msgstr "HTTP proksi parool"
 
 #: modules/access/http.c:79
 msgid "If your HTTP proxy requires a password, set it here."
-msgstr ""
+msgstr "Kui su HTTP proksi nõuab parooli, määra see siin."
 
 #: modules/access/http.c:83
 msgid ""
 "Caching value for HTTP streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "HTTP voo puhvri pikkus millisekundites."
 
 #: modules/access/http.c:86
 msgid "HTTP user agent"
@@ -5987,6 +6055,7 @@ msgstr "Automaatselt ühenda"
 #: modules/access/jack.c:69
 msgid "Automatically connect VLC input ports to available output ports."
 msgstr ""
+"Automaatselt ühenda VLC sisendite pordid saadavalolevate väljundi portidega."
 
 #: modules/access/jack.c:72
 msgid "JACK audio input"
@@ -6015,17 +6084,19 @@ msgstr ""
 #: modules/access/mms/mms.c:51
 msgid ""
 "Caching value for MMS streams. This value should be set in milliseconds."
-msgstr "MMS voogude puhvri väärtus. Peaks olema määratud millisekundites."
+msgstr "MMS voo puhvri pikkus millisekundites."
 
 #: modules/access/mms/mms.c:54
 msgid "Force selection of all streams"
-msgstr ""
+msgstr "Kõikide voogude valimise sundimine"
 
 #: modules/access/mms/mms.c:56
 msgid ""
 "MMS streams can contain several elementary streams, with different bitrates. "
 "You can choose to select all of them."
 msgstr ""
+"MMS vood võivad sisaldada mitmeid elementaarvoogusid erinevate "
+"bitikiirustega. Sa võid nad kõik valida."
 
 #: modules/access/mms/mms.c:59
 msgid "Maximum bitrate"
@@ -6033,7 +6104,7 @@ msgstr "Maksimaalne bitikiirus"
 
 #: modules/access/mms/mms.c:61
 msgid "Select the stream with the maximum bitrate under that limit."
-msgstr ""
+msgstr "Vali vood, millede maksimaalne bitikiirus jääb alla määratud limiidi."
 
 #: modules/access/mms/mms.c:65
 msgid ""
@@ -6041,6 +6112,9 @@ msgid ""
 "mydomain:myport/ ; if empty, the http_proxy environment variable will be "
 "tried."
 msgstr ""
+"Kasutatav HTTP proksi. Peab esinema kujul http://[kasutaja@]minuproksi."
+"minudomeen:port/; kui väli on tühi, üritatakse kasutada http_proxy "
+"keskonnamuutujat."
 
 #: modules/access/mms/mms.c:69
 msgid "TCP/UDP timeout (ms)"
@@ -6058,7 +6132,7 @@ msgstr "Microsoft Media Server (MMS) sisend"
 
 #: modules/access/mtp.c:65
 msgid "Caching value for files. This value should be set in milliseconds."
-msgstr ""
+msgstr "Failide puhvri pikkus millisekundites."
 
 #: modules/access/mtp.c:69
 msgid "MTP input"
@@ -6071,7 +6145,7 @@ msgstr "MTP"
 #: modules/access/oss.c:72
 msgid ""
 "Caching value for OSS captures. This value should be set in milliseconds."
-msgstr ""
+msgstr "OSS hõivepuhvri pikkus millisekundites."
 
 #: modules/access/oss.c:80
 msgid "OSS"
@@ -6085,7 +6159,7 @@ msgstr "OSS sisend"
 msgid ""
 "Default caching value for PVR streams. This value should be set in "
 "milliseconds."
-msgstr ""
+msgstr "PVR voo puhvri vaikepikkus millisekundites."
 
 #: modules/access/pvr.c:64 modules/services_discovery/udev.c:484
 msgid "Device"
@@ -6093,7 +6167,7 @@ msgstr "Seade"
 
 #: modules/access/pvr.c:65
 msgid "PVR video device"
-msgstr "PVR video seade"
+msgstr "PVR videoseade"
 
 #: modules/access/pvr.c:67
 msgid "Radio device"
@@ -6111,29 +6185,29 @@ msgstr "Norm"
 
 #: modules/access/pvr.c:71 modules/access/v4l.c:98
 msgid "Norm of the stream (Automatic, SECAM, PAL, or NTSC)."
-msgstr ""
+msgstr "Voo norm (automaatne, SECAM, PAL või NTSC)."
 
 #: modules/access/pvr.c:74 modules/access/v4l.c:102 modules/access/v4l2.c:89
 #: modules/codec/invmem.c:53 modules/demux/rawvid.c:48
 #: modules/video_filter/mosaic.c:95 modules/video_output/vmem.c:42
-#: modules/gui/qt4/ui/profiles.h:479
+#: linux/modules/gui/qt4/ui/profiles.h:479
 msgid "Width"
 msgstr "Laius"
 
 #: modules/access/pvr.c:75
 msgid "Width of the stream to capture (-1 for autodetection)."
-msgstr ""
+msgstr "Hõivatava voo laius (-1 automaattuvastus)."
 
 #: modules/access/pvr.c:78 modules/access/v4l.c:105 modules/access/v4l2.c:92
 #: modules/codec/invmem.c:56 modules/demux/rawvid.c:52
 #: modules/video_filter/mosaic.c:93 modules/video_output/vmem.c:45
-#: modules/gui/qt4/ui/profiles.h:482
+#: linux/modules/gui/qt4/ui/profiles.h:482
 msgid "Height"
 msgstr "Kõrgus"
 
 #: modules/access/pvr.c:79
 msgid "Height of the stream to capture (-1 for autodetection)."
-msgstr ""
+msgstr "Hõivatava voo kõrgus (-1 automaattuvastus)."
 
 #: modules/access/pvr.c:82 modules/access/v4l.c:89 modules/access/v4l2.c:197
 #: modules/gui/qt4/components/open_panels.cpp:792
@@ -6169,7 +6243,7 @@ msgstr ""
 
 #: modules/access/pvr.c:97
 msgid "Bitrate to use (-1 for default)."
-msgstr ""
+msgstr "Kasutatav bitikiirus (-1 vaikimisi)."
 
 #: modules/access/pvr.c:99
 msgid "Bitrate peak"
@@ -6177,7 +6251,7 @@ msgstr "Bitikiiruse tipp"
 
 #: modules/access/pvr.c:100
 msgid "Peak bitrate in VBR mode."
-msgstr ""
+msgstr "VBR režiimis bitikiiruse tipp."
 
 #: modules/access/pvr.c:102
 msgid "Bitrate mode"
@@ -6198,7 +6272,7 @@ msgstr ""
 #: modules/access/pvr.c:109 modules/access/v4l2.c:163
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
 #: modules/gui/macosx/intf.m:606 modules/gui/qt4/dialogs/toolbar.cpp:347
-#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:405
+#: modules/stream_out/raop.c:150 linux/modules/gui/qt4/ui/sprefs_audio.h:405
 msgid "Volume"
 msgstr "Helinivoo"
 
@@ -6260,11 +6334,13 @@ msgid ""
 "Your Mac does not seem to be equipped with a suitable input device. Please "
 "check your connectors and drivers."
 msgstr ""
+"Sinu Mac-il ei paista olevat vajalikku sisendseadet. Palun kontrolli "
+"ühenduspesi ja draivereid."
 
 #: modules/access/rtmp/access.c:45
 msgid ""
 "Caching value for RTMP streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "RTMP voo puhvri pikkus millisekundites."
 
 #: modules/access/rtmp/access.c:48
 msgid "Default SWF Referrer URL"
@@ -6314,7 +6390,7 @@ msgstr ""
 
 #: modules/access/rtp/rtp.c:53 modules/stream_out/rtp.c:142
 msgid "SRTP key (hexadecimal)"
-msgstr ""
+msgstr "SRTP võti (16nd-süsteemis)"
 
 #: modules/access/rtp/rtp.c:55
 msgid ""
@@ -6377,12 +6453,12 @@ msgstr "Real-Time Protocol (RTP) sisend"
 #: modules/access/rtsp/access.c:46 modules/access_output/udp.c:64
 #: modules/demux/live555.cpp:75 modules/stream_out/rtp.c:133
 msgid "Caching value (ms)"
-msgstr ""
+msgstr "Puhvri pikkus (ms)"
 
 #: modules/access/rtsp/access.c:48
 msgid ""
 "Caching value for RTSP streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "RTSP voo puhvri pikkus millisekundites."
 
 #: modules/access/rtsp/access.c:52 modules/access/rtsp/access.c:53
 msgid "Real RTSP"
@@ -6395,7 +6471,7 @@ msgstr "Ühendus ebaõnnestus"
 #: modules/access/rtsp/access.c:97
 #, c-format
 msgid "VLC could not connect to \"%s:%d\"."
-msgstr ""
+msgstr "VLC ei suuda ühenduda \"%s:%d\"."
 
 #: modules/access/rtsp/access.c:238
 msgid "Session failed"
@@ -6408,7 +6484,7 @@ msgstr ""
 #: modules/access/screen/screen.c:42 modules/access/screen/xcb.c:35
 msgid ""
 "Caching value for screen capture. This value should be set in milliseconds."
-msgstr ""
+msgstr "Ekraanihõive puhvri pikkus millisekundites."
 
 #: modules/access/screen/screen.c:46
 #: modules/gui/qt4/components/open_panels.cpp:1016
@@ -6476,7 +6552,7 @@ msgstr "Ekraan"
 
 #: modules/access/screen/xcb.c:40
 msgid "How many times the screen content should be refreshed per second."
-msgstr ""
+msgstr "Mitu korda sekundis peaks ekraani sisu värskendama."
 
 #: modules/access/screen/xcb.c:42
 msgid "Region left column"
@@ -6559,7 +6635,7 @@ msgstr ""
 #: modules/access/smb.c:63
 msgid ""
 "Caching value for SMB streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "SMB voo puhvri pikkus millisekundites."
 
 #: modules/access/smb.c:65
 msgid "SMB user name"
@@ -6588,7 +6664,7 @@ msgstr "SMB sisend"
 #: modules/access/tcp.c:43
 msgid ""
 "Caching value for TCP streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "TCP voo puhvri pikkus millisekundites."
 
 #: modules/access/tcp.c:50
 msgid "TCP"
@@ -6601,7 +6677,7 @@ msgstr "TCP sisend"
 #: modules/access/udp.c:51
 msgid ""
 "Caching value for UDP streams. This value should be set in milliseconds."
-msgstr ""
+msgstr "UDP voo puhvri pikkus millisekundites."
 
 #: modules/access/udp.c:58
 msgid "UDP"
@@ -6614,7 +6690,7 @@ msgstr "UDP sisend"
 #: modules/access/v4l.c:79
 msgid ""
 "Caching value for V4L captures. This value should be set in milliseconds."
-msgstr ""
+msgstr "V4L hõivepuhvri pikkus millisekundites."
 
 #: modules/access/v4l.c:83
 msgid ""
@@ -6639,56 +6715,58 @@ msgstr "Audio kanal"
 
 #: modules/access/v4l.c:101
 msgid "Audio Channel to use, if there are several audio inputs."
-msgstr "Audio kanal, mida kasutada, kui saadaval on mitu audio sisendit"
+msgstr "Audiokanal, mida kasutada, kui saadaval on mitu audiosisendit"
 
 #: modules/access/v4l.c:103
 msgid "Width of the stream to capture (-1 for autodetect)."
-msgstr ""
+msgstr "Hõivatava voo laius (-1 automaattuvastus)."
 
 #: modules/access/v4l.c:106
 msgid "Height of the stream to capture (-1 for autodetect)."
-msgstr ""
+msgstr "Hõivatava voo kõrgus (-1 automaattuvastus)."
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
 #: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:257
-#: modules/gui/qt4/ui/video_effects.h:1107
+#: linux/modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "Heledus"
 
 #: modules/access/v4l.c:110
 msgid "Brightness of the video input."
-msgstr ""
+msgstr "Videosisendi heledus."
 
 #: modules/access/v4l.c:111 modules/access/v4l2.c:117
-#: modules/gui/macosx/extended.m:101 modules/gui/qt4/ui/video_effects.h:1109
+#: modules/gui/macosx/extended.m:101
+#: linux/modules/gui/qt4/ui/video_effects.h:1109
 msgid "Hue"
 msgstr "Värvitoon"
 
 #: modules/access/v4l.c:113
 msgid "Hue of the video input."
-msgstr "Video sisendi värvitoon"
+msgstr "Videosisendi värvitoon"
 
 #: modules/access/v4l.c:114 modules/gui/fbosd.c:141
 #: modules/misc/notify/xosd.c:82 modules/video_filter/colorthres.c:54
 #: modules/video_filter/marq.c:123 modules/video_filter/rss.c:155
-#: modules/gui/qt4/ui/video_effects.h:1132
-#: modules/gui/qt4/ui/video_effects.h:1138
-#: modules/gui/qt4/ui/video_effects.h:1150
+#: linux/modules/gui/qt4/ui/video_effects.h:1132
+#: linux/modules/gui/qt4/ui/video_effects.h:1138
+#: linux/modules/gui/qt4/ui/video_effects.h:1150
 msgid "Color"
 msgstr "Värvus"
 
 #: modules/access/v4l.c:116
 msgid "Color of the video input."
-msgstr "Video sisendi värvus"
+msgstr "Videosisendi värvus"
 
 #: modules/access/v4l.c:117 modules/access/v4l2.c:111
-#: modules/gui/macosx/extended.m:99 modules/gui/qt4/ui/video_effects.h:1106
+#: modules/gui/macosx/extended.m:99
+#: linux/modules/gui/qt4/ui/video_effects.h:1106
 msgid "Contrast"
 msgstr "Kontrastsus"
 
 #: modules/access/v4l.c:119
 msgid "Contrast of the video input."
-msgstr ""
+msgstr "Videosisendi kontrastsus"
 
 #: modules/access/v4l.c:120 modules/access/v4l2.c:303
 msgid "Tuner"
@@ -6696,23 +6774,23 @@ msgstr "Tuuner"
 
 #: modules/access/v4l.c:121
 msgid "Tuner to use, if there are several ones."
-msgstr ""
+msgstr "Kasutatav tuuner, kui neid on mitu."
 
-#: modules/access/v4l.c:122 modules/gui/qt4/ui/profiles.h:466
+#: modules/access/v4l.c:122 linux/modules/gui/qt4/ui/profiles.h:466
 msgid "MJPEG"
 msgstr "MJPEG"
 
 #: modules/access/v4l.c:124
 msgid "Set this option if the capture device outputs MJPEG"
-msgstr ""
+msgstr "Märgi see valik, kui hõiveseadmest tuleb MJPEG"
 
 #: modules/access/v4l.c:125
 msgid "Decimation"
-msgstr ""
+msgstr "Detsimeerimine"
 
 #: modules/access/v4l.c:127
 msgid "Decimation level for MJPEG streams"
-msgstr ""
+msgstr "MJPEG voogude detsimeerimise tase"
 
 #: modules/access/v4l.c:128
 msgid "Quality"
@@ -6743,7 +6821,7 @@ msgstr "Standard"
 
 #: modules/access/v4l2.c:73
 msgid "Video standard (Default, SECAM, PAL, or NTSC)."
-msgstr "Video standard (Vaikimisi, SECAM, PAL, või NTSC)."
+msgstr "Video standard (vaikimisi, SECAM, PAL või NTSC)."
 
 #: modules/access/v4l2.c:76
 msgid ""
@@ -6752,7 +6830,7 @@ msgid ""
 "list: GREY, I240, RV16, RV15, RV24, RV32, YUY2, YUYV, UYVY, I41N, I422, "
 "I420, I411, I410, MJPG)"
 msgstr ""
-"Käsi Video4Linux2 video seadmel kasutada spetsiifilist värviformaadi "
+"Käsi Video4Linux2 videoseadmel kasutada spetsiifilist värviformaadi "
 "vormingut (nt. I420 või I422 raw piltide jaoks, MJPG M-JPEG pakitud sisend) "
 "(Täielik nimekiri: GREY, I240, RV16, RV15, RV24, RV32, YUY2, YUYV, UYVY, "
 "I41N, I422, I420, I411, I410, MJPG)"
@@ -6763,7 +6841,7 @@ msgstr ""
 
 #: modules/access/v4l2.c:83
 msgid "Audio input"
-msgstr "Audio sisend"
+msgstr "Audiosisend"
 
 #: modules/access/v4l2.c:85
 msgid "Audio input of the card to use (see debug)."
@@ -6779,15 +6857,15 @@ msgstr "IO meetod (READ, MMAP, USERPTR)."
 
 #: modules/access/v4l2.c:91
 msgid "Force width (-1 for autodetect, 0 for driver default)."
-msgstr ""
+msgstr "Sunni laius (-1 automaattuvastus, 0 draiveri vaikeväärtus)."
 
 #: modules/access/v4l2.c:94
 msgid "Force height (-1 for autodetect, 0 for driver default)."
-msgstr ""
+msgstr "Sunni kõrgus (-1 automaattuvastus, 0 draiveri vaikeväärtus)."
 
 #: modules/access/v4l2.c:96
 msgid "Framerate to capture, if applicable (0 for autodetect)."
-msgstr ""
+msgstr "Hõive kaadrikiirus (0 automaattuvastus)."
 
 #: modules/access/v4l2.c:100
 msgid "Use libv4l2"
@@ -6795,11 +6873,11 @@ msgstr "Kasuta libv4l2"
 
 #: modules/access/v4l2.c:102
 msgid "Force usage of the libv4l2 wrapper."
-msgstr ""
+msgstr "Libv4l2 kesta kasutamise sundimine."
 
 #: modules/access/v4l2.c:105
 msgid "Reset v4l2 controls"
-msgstr ""
+msgstr "Algväärtusta v4l2 juhtelemendid"
 
 #: modules/access/v4l2.c:107
 msgid "Reset controls to defaults provided by the v4l2 driver."
@@ -6807,25 +6885,25 @@ msgstr ""
 
 #: modules/access/v4l2.c:110
 msgid "Brightness of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi heledus (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:113
 msgid "Contrast of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi kontrast (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:114 modules/gui/macosx/extended.m:102
-#: modules/gui/qt4/ui/video_effects.h:1108
-#: modules/gui/qt4/ui/video_effects.h:1137
+#: linux/modules/gui/qt4/ui/video_effects.h:1108
+#: linux/modules/gui/qt4/ui/video_effects.h:1137
 msgid "Saturation"
 msgstr "Värviküllastus"
 
 #: modules/access/v4l2.c:116
 msgid "Saturation of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi värviküllastus (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:119
 msgid "Hue of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi toon (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:120
 msgid "Black level"
@@ -6833,7 +6911,7 @@ msgstr "Musta tase"
 
 #: modules/access/v4l2.c:122
 msgid "Black level of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi musta tase (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:123
 msgid "Auto white balance"
@@ -6844,10 +6922,12 @@ msgid ""
 "Automatically set the white balance of the video input (if supported by the "
 "v4l2 driver)."
 msgstr ""
+"Automaatselt määra videosisendi valge tasakaal (kui on toetatud v4l2 "
+"draiveri poolt)."
 
 #: modules/access/v4l2.c:127
 msgid "Do white balance"
-msgstr ""
+msgstr "Valge tasakaalustamine"
 
 #: modules/access/v4l2.c:129
 msgid ""
@@ -6861,7 +6941,7 @@ msgstr "Punase tasakaal"
 
 #: modules/access/v4l2.c:133
 msgid "Red balance of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi punase tasakaal (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:134
 msgid "Blue balance"
@@ -6869,16 +6949,16 @@ msgstr "Sinise tasakaal"
 
 #: modules/access/v4l2.c:136
 msgid "Blue balance of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi sinise tasakaal (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:137 modules/gui/macosx/extended.m:100
-#: modules/gui/qt4/ui/video_effects.h:1105
+#: linux/modules/gui/qt4/ui/video_effects.h:1105
 msgid "Gamma"
 msgstr "Gamma"
 
 #: modules/access/v4l2.c:139
 msgid "Gamma of the video input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Videosisendi gamma (kui on toetatud v4l2 draiveri poolt)"
 
 #: modules/access/v4l2.c:140
 msgid "Exposure"
@@ -6886,7 +6966,7 @@ msgstr "Säriaeg"
 
 #: modules/access/v4l2.c:142
 msgid "Exposure of the video input (if supported by the v4L2 driver)."
-msgstr ""
+msgstr "Videosisendi säriaeg (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:143
 msgid "Auto gain"
@@ -6952,7 +7032,7 @@ msgstr ""
 
 #: modules/access/v4l2.c:171
 msgid "Mute audio input (if supported by the v4l2 driver)."
-msgstr ""
+msgstr "Vaigista audiosisend (kui on v4l2 draiveri poolt toetatud)."
 
 #: modules/access/v4l2.c:172 modules/meta_engine/id3genres.h:69
 msgid "Bass"
@@ -6969,7 +7049,7 @@ msgstr "Kõrged toonid"
 #: modules/access/v4l2.c:177
 msgid "Treble level of the audio input (if supported by the v4l2 driver)."
 msgstr ""
-"Audio sisendi kõrgete toonide nivoo (kui on v4l2 draiveri poolt toetatud)."
+"Audiosisendi kõrgete toonide nivoo (kui on v4l2 draiveri poolt toetatud)."
 
 #: modules/access/v4l2.c:178
 msgid "Loudness"
@@ -6977,7 +7057,7 @@ msgstr "Valjus"
 
 #: modules/access/v4l2.c:180
 msgid "Loudness of the audio input (if supported by the v4l2 driver)."
-msgstr "Audio sisendi valjus (kui on v4l2 draiveri poolt toetatud)."
+msgstr "Audiosisendi valjus (kui on v4l2 draiveri poolt toetatud)."
 
 #: modules/access/v4l2.c:184
 msgid ""
@@ -7055,19 +7135,19 @@ msgstr "Mono"
 
 #: modules/access/v4l2.c:253
 msgid "Primary language (Analog TV tuners only)"
-msgstr ""
+msgstr "Esmane keel (ainult analoog-TV tuunerid)"
 
 #: modules/access/v4l2.c:254
 msgid "Secondary language (Analog TV tuners only)"
-msgstr ""
+msgstr "Sekundaarne keel (ainult analoog-TV tuunerid)"
 
 #: modules/access/v4l2.c:255
 msgid "Second audio program (Analog TV tuners only)"
-msgstr ""
+msgstr "Teine audioprogramm (ainult analoog-TV tuunerid)"
 
 #: modules/access/v4l2.c:256
 msgid "Primary language left, Secondary language right"
-msgstr ""
+msgstr "Esmane keel vasakul, sekundaarne keel paremal"
 
 #: modules/access/v4l2.c:272
 msgid "Video4Linux2"
@@ -7099,7 +7179,7 @@ msgstr ""
 
 #: modules/access/vcd/vcd.c:48
 msgid "Caching value for VCDs. This value should be set in milliseconds."
-msgstr ""
+msgstr "VCD-de puhvri pikkus millisekundites."
 
 #: modules/access/vcd/vcd.c:52 modules/gui/macosx/open.m:197
 #: modules/gui/macosx/open.m:637 modules/gui/macosx/open.m:723
@@ -7164,13 +7244,13 @@ msgstr ""
 
 #: modules/access/vcdx/info.c:71
 msgid "System Id"
-msgstr ""
+msgstr "Süsteemi id"
 
 #: modules/access/vcdx/info.c:73
 msgid "Entries"
 msgstr "Kirjed"
 
-#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:421
+#: modules/access/vcdx/info.c:75 linux/modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Tracks"
 msgstr "Rajad"
 
@@ -7184,7 +7264,7 @@ msgstr ""
 
 #: modules/access/vcdx/info.c:96
 msgid "Track size (in sectors)"
-msgstr ""
+msgstr "Raja suurus (sektorites)"
 
 #: modules/access/vcdx/info.c:106 modules/access/vcdx/info.c:109
 #: modules/access/vcdx/info.c:118 modules/access/vcdx/info.c:130
@@ -7197,15 +7277,15 @@ msgstr "lõpp"
 
 #: modules/access/vcdx/info.c:109
 msgid "play list"
-msgstr ""
+msgstr "esita loend"
 
 #: modules/access/vcdx/info.c:119
 msgid "extended selection list"
-msgstr ""
+msgstr "laiendatud valiku loend"
 
 #: modules/access/vcdx/info.c:119
 msgid "selection list"
-msgstr ""
+msgstr "valiku nimekiri"
 
 #: modules/access/vcdx/info.c:130
 msgid "unknown type"
@@ -7213,7 +7293,7 @@ msgstr "tundmatu tüüp"
 
 #: modules/access/vcdx/info.c:235 modules/access/vcdx/info.c:250
 msgid "List ID"
-msgstr ""
+msgstr "Loendi ID"
 
 #: modules/access/vcdx/vcd.c:85
 msgid "(Super) Video CD"
@@ -7225,11 +7305,11 @@ msgstr "Video CD (VCD 1.0, 1.1, 2.0, SVCD, HQVCD) sisend"
 
 #: modules/access/vcdx/vcd.c:87
 msgid "vcdx://[device-or-file][@{P,S,T}num]"
-msgstr "vcdx://[device-or-file][@{P,S,T}num]"
+msgstr "vcdx://[seade-või-fail][@{P,S,T}num]"
 
 #: modules/access/vcdx/vcd.c:96
 msgid "If nonzero, this gives additional debug information."
-msgstr ""
+msgstr "Kui mittenull, siis antakse täiendavat silumise infot."
 
 #: modules/access/vcdx/vcd.c:101 modules/access/vcdx/vcd.c:102
 msgid "Number of CD blocks to get in a single read."
@@ -7237,7 +7317,7 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:106
 msgid "Use playback control?"
-msgstr ""
+msgstr "Kasuta taasesituse kontrolli?"
 
 #: modules/access/vcdx/vcd.c:107
 msgid ""
@@ -7257,7 +7337,7 @@ msgstr ""
 
 #: modules/access/vcdx/vcd.c:119
 msgid "Show extended VCD info?"
-msgstr ""
+msgstr "Kuva laiendatud VCD infot?"
 
 #: modules/access/vcdx/vcd.c:120
 msgid ""
@@ -7279,7 +7359,7 @@ msgstr "Meedia Zipi sees"
 
 #: modules/access/zip/zipstream.c:39
 msgid "Path to the media in the Zip archive"
-msgstr "Teekond meediani zip arhiivis"
+msgstr "Meedia asukoht zip arhiivis"
 
 #: modules/access/zip/zipstream.c:48
 msgid "Zip files filter"
@@ -7291,7 +7371,7 @@ msgstr ""
 
 #: modules/access_output/dummy.c:45 modules/stream_out/dummy.c:51
 msgid "Dummy stream output"
-msgstr ""
+msgstr "Liba vooväljund"
 
 #: modules/access_output/dummy.c:46 modules/misc/dummy/dummy.c:63
 msgid "Dummy"
@@ -7307,7 +7387,7 @@ msgstr ""
 
 #: modules/access_output/file.c:68
 msgid "File stream output"
-msgstr ""
+msgstr "Faili vooväljund"
 
 #: modules/access_output/file.c:69 modules/audio_output/file.c:112
 #: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:451
@@ -7369,11 +7449,11 @@ msgstr ""
 
 #: modules/access_output/http.c:90
 msgid "Advertise with Bonjour"
-msgstr ""
+msgstr "Teavita Bonjour-iga"
 
 #: modules/access_output/http.c:91
 msgid "Advertise the stream with the Bonjour protocol."
-msgstr ""
+msgstr "Teavita voogu koos Bonjour protokolliga."
 
 #: modules/access_output/http.c:95
 msgid "HTTP stream output"
@@ -7407,7 +7487,7 @@ msgstr "Voo kirjeldus"
 
 #: modules/access_output/shout.c:68
 msgid "Description of the stream content or information about your channel."
-msgstr ""
+msgstr "Voo sisu või sinu kanali informatsiooni kirjeldus."
 
 #: modules/access_output/shout.c:71
 msgid "Stream MP3"
@@ -7426,7 +7506,7 @@ msgstr "Stiili kirjeldus"
 
 #: modules/access_output/shout.c:82
 msgid "Genre of the content. "
-msgstr ""
+msgstr "Sisu stiil. "
 
 #: modules/access_output/shout.c:84
 msgid "URL description"
@@ -7531,7 +7611,7 @@ msgstr ""
 
 #: modules/audio_filter/channel_mixer/headphone.c:61
 msgid "Distance between front left speaker and listener in meters."
-msgstr ""
+msgstr "Vahemaa esimese vasaku kõlari ja kuulaja vahel meetrites."
 
 #: modules/audio_filter/channel_mixer/headphone.c:63
 msgid "Compensate delay"
@@ -7597,15 +7677,15 @@ msgstr "Vasak eesmine"
 
 #: modules/audio_filter/channel_mixer/mono.c:108
 msgid "Audio filter for stereo to mono conversion"
-msgstr ""
+msgstr "Stereost monosse teisenduse audio filter"
 
 #: modules/audio_filter/channel_mixer/simple.c:44
 msgid "Audio filter for simple channel mixing"
-msgstr ""
+msgstr "Lihtne kanali miksimise audio filter"
 
 #: modules/audio_filter/channel_mixer/trivial.c:48
 msgid "Audio filter for trivial channel mixing"
-msgstr ""
+msgstr "Triviaalne kanali miksimise audio filter"
 
 #: modules/audio_filter/chorus_flanger.c:77
 msgid "Sound Delay"
@@ -7619,7 +7699,7 @@ msgstr "Viivitus"
 
 #: modules/audio_filter/chorus_flanger.c:79
 msgid "Add a delay effect to the sound"
-msgstr ""
+msgstr "Viivituse efekti lisamine helile"
 
 #: modules/audio_filter/chorus_flanger.c:83
 msgid "Delay time"
@@ -7631,7 +7711,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:85
 msgid "Sweep Depth"
-msgstr ""
+msgstr "Nihke sügavus"
 
 #: modules/audio_filter/chorus_flanger.c:86
 msgid ""
@@ -7641,7 +7721,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:88
 msgid "Sweep Rate"
-msgstr ""
+msgstr "Nihke kiirus"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Rate of change of sweep depth in milliseconds shift per second of play"
@@ -7669,7 +7749,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:96
 msgid "Level of input signal"
-msgstr ""
+msgstr "Sisendsignaali nivoo"
 
 #: modules/audio_filter/converter/a52tofloat32.c:82
 msgid "A/52 dynamic range compression"
@@ -8051,11 +8131,11 @@ msgstr "A/52 üle S/PDIF"
 
 #: modules/audio_output/alsa.c:351
 msgid "No Audio Device"
-msgstr "Audio seade puudub"
+msgstr "Audioseade puudub"
 
 #: modules/audio_output/alsa.c:352
 msgid "No audio device name was given. You might want to enter \"default\"."
-msgstr "Audio seadme nime ei antud. Sa võid proovida sisestada \"default\"."
+msgstr "Audioseadme nime ei antud. Sa võid proovida sisestada \"default\"."
 
 #: modules/audio_output/alsa.c:459 modules/audio_output/alsa.c:498
 #: modules/audio_output/alsa.c:510 modules/audio_output/auhal.c:269
@@ -8376,7 +8456,7 @@ msgstr "FFmpeg audio/video enkooder"
 
 #: modules/codec/avcodec/avcodec.c:212
 msgid "FFmpeg deinterlace video filter"
-msgstr ""
+msgstr "FFmpeg ülerealaotuse videofilter"
 
 #: modules/codec/avcodec/avcodec.h:72 modules/codec/avcodec/avcodec.h:74
 msgid "Direct rendering"
@@ -8441,20 +8521,20 @@ msgid ""
 "Force skipping of frames to speed up decoding (-1=None, 0=Default, 1=B-"
 "frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
-"Jõuga jäta kaadreid vahele, et kiirendada dekodeerimist (-1=Midagi, "
-"0=Vaikimisi, 1=B-kaadreid, 2=P-kaadreid, 3=B+P kaadreid, 4=kõik kaadrid)."
+"Kaadrite vahelejätmise sundimine, et kiirendada dekodeerimist (-1=puudub, "
+"0=vaikimisi, 1=B-kaadrid, 2=P-kaadrid, 3=B+P kaadrid, 4=kõik kaadrid)."
 
 #: modules/codec/avcodec/avcodec.h:111
 msgid "Skip idct (default=0)"
-msgstr "Jäta idct vahele (vaikimisi=0)"
+msgstr "idct vahelejätmine (vaikimisi=0)"
 
 #: modules/codec/avcodec/avcodec.h:113
 msgid ""
 "Force skipping of idct to speed up decoding for frame types(-1=None, "
 "0=Default, 1=B-frames, 2=P-frames, 3=B+P frames, 4=all frames)."
 msgstr ""
-"Jõuga jäta idct vahele, et kiirendada kaadri tüüpide dekodeerimist "
-"(-1=Midagi, 0=Vaikimisi, 1=B-kaadreid, 2=P-kaadrid, 3=B+P kaadrid, 4=kõik "
+"idct vahelejätmise sundimine, et kiirendada kaadritüüpide dekodeerimist "
+"(-1=puudub, 0=vaikimisi, 1=B-kaadrid, 2=P-kaadrid, 3=B+P kaadrid, 4=kõik "
 "kaadrid)"
 
 #: modules/codec/avcodec/avcodec.h:116
@@ -8491,7 +8571,7 @@ msgstr ""
 
 #: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
-msgstr "Jäta vahele korduste filter H.264 dekodeerimisel"
+msgstr "Korduste filtri vahelejätmine H.264 dekodeerimisel"
 
 #: modules/codec/avcodec/avcodec.h:134
 msgid ""
@@ -8641,7 +8721,7 @@ msgstr "Maksimaalne video kvantimise kordaja."
 
 #: modules/codec/avcodec/avcodec.h:214
 msgid "Trellis quantization"
-msgstr ""
+msgstr "Trellise kvantimine"
 
 #: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
@@ -9074,7 +9154,7 @@ msgstr "Pildifail"
 
 #: modules/codec/fake.c:54
 msgid "Path of the image file for fake input."
-msgstr "Teekond liba sisendi pildini."
+msgstr "Libasisendi pildi asukoht."
 
 #: modules/codec/fake.c:55
 msgid "Reload image file"
@@ -9137,7 +9217,7 @@ msgstr ""
 
 #: modules/codec/fake.c:89
 msgid "Fake video decoder"
-msgstr "Liba video dekooder"
+msgstr "Libavideo dekooder"
 
 #: modules/codec/flac.c:134
 msgid "Flac audio decoder"
@@ -9567,8 +9647,8 @@ msgid "MP3 fixed point audio encoder"
 msgstr ""
 
 #: modules/codec/speex.c:57 modules/codec/speex.c:800
-#: modules/gui/macosx/open.m:209 modules/gui/qt4/ui/sprefs_video.h:324
-#: modules/gui/qt4/ui/video_effects.h:1149
+#: modules/gui/macosx/open.m:209 linux/modules/gui/qt4/ui/sprefs_video.h:324
+#: linux/modules/gui/qt4/ui/video_effects.h:1149
 msgid "Mode"
 msgstr "Režiim"
 
@@ -9623,11 +9703,11 @@ msgstr ""
 
 #: modules/codec/speex.c:83
 msgid "Discontinuous Transmission"
-msgstr ""
+msgstr "Katkestustega edastus"
 
 #: modules/codec/speex.c:85
 msgid "Enable discontinuous transmission (DTX)."
-msgstr ""
+msgstr "Katkestustega edastuse lubamine (DTX)."
 
 #: modules/codec/speex.c:89
 msgid "Narrow-band (8kHz)"
@@ -10304,7 +10384,7 @@ msgstr ""
 
 #: modules/codec/x264.c:184
 msgid "Max local bitrate"
-msgstr ""
+msgstr "Maksimaalne kohalik bitikiirus"
 
 #: modules/codec/x264.c:185
 msgid "Sets a maximum local bitrate (in kbits/s)."
@@ -10395,7 +10475,7 @@ msgstr "QP kurvi tihendus"
 
 #: modules/codec/x264.c:225
 msgid "QP curve compression. Range 0.0 (CBR) to 1.0 (QCP)."
-msgstr ""
+msgstr "QP kurvi tihendus. Vahemikus 0.0 (CBR) kuni 1.0 (QCP)."
 
 #: modules/codec/x264.c:227 modules/codec/x264.c:231
 msgid "Reduce fluctuations in QP"
@@ -10578,7 +10658,7 @@ msgstr ""
 
 #: modules/codec/x264.c:317
 msgid "Trellis RD quantization"
-msgstr ""
+msgstr "Trellise RD-kvantimine"
 
 #: modules/codec/x264.c:318
 msgid ""
@@ -10690,13 +10770,13 @@ msgid "Quiet mode."
 msgstr "Vaikne režiim."
 
 #: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
-#: modules/gui/qt4/ui/streampanel.h:171
+#: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "Statistika"
 
 #: modules/codec/x264.c:371
 msgid "Print stats for each frame."
-msgstr ""
+msgstr "Kuva iga kaadri statistika."
 
 #: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
@@ -10728,9 +10808,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/x264.c:385 modules/codec/x264.c:386
-#, fuzzy
 msgid "HRD-timing information"
-msgstr "prindi versiooni info"
+msgstr "HRD-ajastuse informatsioon"
 
 #: modules/codec/x264.c:388
 msgid ""
@@ -10804,7 +10883,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:62
 msgid "Text is always opaque"
-msgstr ""
+msgstr "Tekst on alati läbipaistmatu"
 
 #: modules/codec/zvbi.c:63
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
@@ -10851,7 +10930,7 @@ msgstr "dbus"
 
 #: modules/control/dbus.c:137
 msgid "D-Bus control interface"
-msgstr ""
+msgstr "D-Busi kaudu juhtimise liides"
 
 #: modules/control/gestures.c:81
 msgid "Motion threshold (10-100)"
@@ -10925,12 +11004,12 @@ msgstr ""
 #: modules/control/hotkeys.c:374
 #, c-format
 msgid "Audio Device: %s"
-msgstr "Audio seade: %s"
+msgstr "Audioseade: %s"
 
 #: modules/control/hotkeys.c:471
 #, c-format
 msgid "Audio track: %s"
-msgstr "Audio rada: %s"
+msgstr "Audiorada: %s"
 
 #: modules/control/hotkeys.c:488 modules/control/hotkeys.c:512
 #, c-format
@@ -10955,9 +11034,10 @@ msgstr "Kärbi: %s"
 msgid "Zooming reset"
 msgstr "Algväärtusta suurendus"
 
+# ekraan täidetud?
 #: modules/control/hotkeys.c:587
 msgid "Scaled to screen"
-msgstr ""
+msgstr "Ekraanile skaleeritud"
 
 #: modules/control/hotkeys.c:590
 msgid "Original Size"
@@ -11031,7 +11111,7 @@ msgstr "Allika kataloog"
 
 #: modules/control/http/http.c:49
 msgid "Handlers"
-msgstr ""
+msgstr "Käsitsejad"
 
 #: modules/control/http/http.c:51
 msgid ""
@@ -11340,15 +11420,15 @@ msgstr "| status . . . . . . . . . . . aktiivse esitusloendi staatus"
 
 #: modules/control/rc.c:813
 msgid "| title [X]  . . . . . . set/get title in current item"
-msgstr "| title [X]  . . . . . . määra/hangi aktiivse kirje tiitel"
+msgstr "| title [X]  . . . . . . määra/hangi aktiivse kirje pealkiri"
 
 #: modules/control/rc.c:814
 msgid "| title_n  . . . . . . . .  next title in current item"
-msgstr "| title_n  . . . . . . . .  aktiivse kirje järgmine tiitel"
+msgstr "| title_n  . . . . . . . .  aktiivse kirje järgmine pealkiri"
 
 #: modules/control/rc.c:815
 msgid "| title_p  . . . . . .  previous title in current item"
-msgstr "| title_p  . . . . . .  aktiivse kirje eelmine tiitel"
+msgstr "| title_p  . . . . . .  aktiivse kirje eelmine pealkiri"
 
 #: modules/control/rc.c:816
 msgid "| chapter [X]  . . . . set/get chapter in current item"
@@ -11436,7 +11516,7 @@ msgstr "| voldown [X]  . . . . . .  langeta audio helinivood X astet"
 
 #: modules/control/rc.c:839
 msgid "| adev [X] . . . . . . . . . . .  set/get audio device"
-msgstr "| adev [X] . . . . . . . . . . .  määra/hangi audio seade"
+msgstr "| adev [X] . . . . . . . . . . .  määra/hangi audioseade"
 
 #: modules/control/rc.c:840
 msgid "| achan [X]. . . . . . . . . .  set/get audio channels"
@@ -11512,7 +11592,7 @@ msgstr "| @name marq-size # . . . . . . . . fondi suurus pikslites"
 
 #: modules/control/rc.c:863
 msgid "| @name logo-file STRING . . .the overlay file path/name"
-msgstr "| @name logo-file STRING . . .ülekatte faili teekond/nimi"
+msgstr "| @name logo-file STRING . . .ülekatte faili asukoht/nimi"
 
 #: modules/control/rc.c:864
 msgid "| @name logo-x X . . . . . . . . . . . .offset from left"
@@ -11636,12 +11716,12 @@ msgstr "+-[Saabuvad]"
 #: modules/control/rc.c:1871 modules/gui/ncurses.c:1975
 #, c-format
 msgid "| input bytes read : %8.0f KiB"
-msgstr "| loetud sisendi baite : %8.0f KiB"
+msgstr "| loetud sisendi baite    : %8.0f KiB"
 
 #: modules/control/rc.c:1873 modules/gui/ncurses.c:1978
 #, c-format
 msgid "| input bitrate    :   %6.0f kb/s"
-msgstr "| sisendi bitikiirus    :   %6.0f kb/s"
+msgstr "| sisendi bitikiirus      :   %6.0f kb/s"
 
 #: modules/control/rc.c:1875 modules/gui/ncurses.c:1980
 #, c-format
@@ -11651,17 +11731,17 @@ msgstr "| loetud demuksitud baite : %8.0f KiB"
 #: modules/control/rc.c:1877 modules/gui/ncurses.c:1983
 #, c-format
 msgid "| demux bitrate    :   %6.0f kb/s"
-msgstr "| demuksi bitikiirus    :   %6.0f kb/s"
+msgstr "| demuksi bitikiirus      :   %6.0f kb/s"
 
 #: modules/control/rc.c:1879
 #, c-format
 msgid "| demux corrupted  :    %5i"
-msgstr "| demuksitud vigaseid  :    %5i"
+msgstr "| demuksitud vigaseid     :    %5i"
 
 #: modules/control/rc.c:1881
 #, c-format
 msgid "| discontinuities  :    %5i"
-msgstr ""
+msgstr "| katkestusi              :    %5i"
 
 #: modules/control/rc.c:1885 modules/gui/ncurses.c:1993
 msgid "+-[Video Decoding]"
@@ -11670,17 +11750,17 @@ msgstr "+-[Video dekodeerimine]"
 #: modules/control/rc.c:1886 modules/gui/ncurses.c:1996
 #, c-format
 msgid "| video decoded    :    %5i"
-msgstr "| dekodeeritud video    :    %5i"
+msgstr "| dekodeeritud video :    %5i"
 
 #: modules/control/rc.c:1888 modules/gui/ncurses.c:1999
 #, c-format
 msgid "| frames displayed :    %5i"
-msgstr "| kuvatud kaadreid :    %5i"
+msgstr "| kuvatud kaadreid   :    %5i"
 
 #: modules/control/rc.c:1890 modules/gui/ncurses.c:2002
 #, c-format
 msgid "| frames lost      :    %5i"
-msgstr "| kaotatud kaadreid      :    %5i"
+msgstr "| kaotatud kaadreid  :    %5i"
 
 #: modules/control/rc.c:1894 modules/gui/ncurses.c:2012
 msgid "+-[Audio Decoding]"
@@ -11689,36 +11769,36 @@ msgstr "+-[Audio dekodeerimine]"
 #: modules/control/rc.c:1895 modules/gui/ncurses.c:2015
 #, c-format
 msgid "| audio decoded    :    %5i"
-msgstr "| dekodeeritud audio    :    %5i"
+msgstr "| dekodeeritud audio:    %5i"
 
 #: modules/control/rc.c:1897 modules/gui/ncurses.c:2018
 #, c-format
 msgid "| buffers played   :    %5i"
-msgstr "| esitatud puhvreid   :    %5i"
+msgstr "| esitatud puhvreid :    %5i"
 
 #: modules/control/rc.c:1899 modules/gui/ncurses.c:2021
 #, c-format
 msgid "| buffers lost     :    %5i"
-msgstr "| kaotatud puhvreid     :    %5i"
+msgstr "| kaotatud puhvreid :    %5i"
 
 #: modules/control/rc.c:1903 modules/gui/ncurses.c:2029
 msgid "+-[Streaming]"
-msgstr "+-[Voogedastan]"
+msgstr "+-[Voogedastus]"
 
 #: modules/control/rc.c:1904 modules/gui/ncurses.c:2032
 #, c-format
 msgid "| packets sent     :    %5i"
-msgstr "| saadetud pakette     :    %5i"
+msgstr "| saadetud pakette   :    %5i"
 
 #: modules/control/rc.c:1905 modules/gui/ncurses.c:2034
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
-msgstr "| saadetud baite       : %8.0f KiB"
+msgstr "| saadetud baite     : %8.0f KiB"
 
 #: modules/control/rc.c:1907
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
-msgstr "| saatmise bitikiirus  :   %6.0f kb/s"
+msgstr "| saatmise bitikiirus:   %6.0f kb/s"
 
 #: modules/control/signals.c:37
 msgid "Signals"
@@ -11882,7 +11962,7 @@ msgstr "Lisa olemasolevale failile"
 
 #: modules/demux/demuxdump.c:45
 msgid "If the file already exists, it will not be overwritten."
-msgstr ""
+msgstr "Kui fail on juba olemas, siis seda ei kirjutata üle."
 
 #: modules/demux/demuxdump.c:54
 msgid "File dumper"
@@ -12155,7 +12235,7 @@ msgstr "Megabassi režiim lubatud"
 
 #: modules/demux/mod.c:61
 msgid "Megabass mode level (from 0 to 100, default value is 0)."
-msgstr "Megabassi režiimi nivoo (0-st kuni 100-ni, vaikimisi väärtus on 0)."
+msgstr "Megabassi režiimi nivoo (0-st kuni 100-ni, vaikeväärtus on 0)."
 
 #: modules/demux/mod.c:63
 msgid ""
@@ -12165,7 +12245,7 @@ msgstr ""
 
 #: modules/demux/mod.c:66
 msgid "Surround effect level (from 0 to 100, default value is 0)."
-msgstr "Ruumilise heli efekti nivoo (0-st 100-ni, vaikimisi väärtus on 0)."
+msgstr "Ruumilise heli efekti nivoo (0-st 100-ni, vaikeväärtus on 0)."
 
 #: modules/demux/mod.c:68
 msgid "Surround delay, in ms. Usual values are from 5 to 40 ms."
@@ -12343,7 +12423,7 @@ msgstr "QuickTime Media Link importija"
 
 #: modules/demux/playlist/playlist.c:143
 msgid "Google Video Playlist importer"
-msgstr "Google Video Esitusloendi importija"
+msgstr "Google Video esitusloendi importija"
 
 #: modules/demux/playlist/playlist.c:149
 msgid "Dummy ifo demux"
@@ -12423,7 +12503,7 @@ msgstr "Audio kanalid"
 
 #: modules/demux/rawaud.c:47
 msgid "Audio channels in input stream. Numeric value >0. Default is 2."
-msgstr "Sisendi voo audio kanalid. Numbriline väärtus > 0. Vaikimisi on 2."
+msgstr "Sisendvoo audiokanalid. Numbriline väärtus > 0. Vaikimisi on 2."
 
 #: modules/demux/rawaud.c:49
 msgid "FOURCC code of raw input format"
@@ -12435,7 +12515,7 @@ msgstr ""
 
 #: modules/demux/rawaud.c:53
 msgid "Forces the audio language"
-msgstr ""
+msgstr "Sunnib audio keele"
 
 #: modules/demux/rawaud.c:54
 msgid ""
@@ -12464,11 +12544,11 @@ msgstr ""
 
 #: modules/demux/rawvid.c:49
 msgid "This specifies the width in pixels of the raw video stream."
-msgstr "See määrab raw video voo laiuse pikslites."
+msgstr "See määrab toorvideo voo laiuse pikslites."
 
 #: modules/demux/rawvid.c:53
 msgid "This specifies the height in pixels of the raw video stream."
-msgstr "See määrab raw video voo kõrguse pikslites."
+msgstr "See määrab toorvideo voo kõrguse pikslites."
 
 #: modules/demux/rawvid.c:56
 msgid "Force chroma (Use carefully)"
@@ -12516,7 +12596,7 @@ msgid ""
 "\", \"realtext\", \"dks\", \"subviewer1\",  and \"auto\" (meaning "
 "autodetection, this should always work)."
 msgstr ""
-"Jõuga subtiitrite vorming. Kehtivad väärtused on : \"microdvd\", \"subrip\", "
+"Jõuga subtiitrite vorming. Sobivad väärtused on : \"microdvd\", \"subrip\", "
 "\"subviewer\", \"ssa1\", \"ssa2-4\", \"ass\", \"vplayer\", \"sami\", "
 "\"dvdsubtitle\", \"mpl2\", \"aqt\", \"pjs\", \"mpsub\", \"jacosub\", \"psb"
 "\", \"realtext\", \"dks\", \"subviewer1\",  ja \"auto\" (tähendab "
@@ -12624,7 +12704,7 @@ msgstr ""
 
 #: modules/demux/ts.c:137
 msgid "CAPMT System ID"
-msgstr ""
+msgstr "CAPMT süsteemi ID"
 
 #: modules/demux/ts.c:138
 msgid "Only forward descriptors from this SysID to the CAM."
@@ -12670,7 +12750,7 @@ msgstr ""
 
 #: modules/demux/ts.c:158
 msgid "Separate sub-streams"
-msgstr ""
+msgstr "Eralda alamvood"
 
 #: modules/demux/ts.c:160
 msgid ""
@@ -12802,7 +12882,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:112
-#: modules/video_filter/marq.c:87 modules/gui/qt4/ui/video_effects.h:1168
+#: modules/video_filter/marq.c:87
+#: linux/modules/gui/qt4/ui/video_effects.h:1168
 msgid "Text"
 msgstr "Tekst"
 
@@ -12899,7 +12980,7 @@ msgstr "Kõik renderdatud pildid a tekst kuvatakse ülekatte kaadripuhvris."
 #: modules/misc/freetype.c:92 modules/misc/notify/xosd.c:80
 #: modules/misc/quartztext.c:80 modules/misc/win32text.c:58
 #: modules/video_filter/marq.c:164 modules/video_filter/rss.c:207
-#: modules/gui/qt4/ui/sprefs_subtitles.h:211
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:211
 msgid "Font"
 msgstr "Kiri"
 
@@ -12943,15 +13024,15 @@ msgid "Bookmarks"
 msgstr "Järjehoidjad"
 
 #: modules/gui/macosx/bookmarks.m:88
-#: modules/gui/qt4/ui/podcast_configuration.h:104
-#: modules/gui/qt4/ui/sout.h:331 modules/gui/qt4/ui/vlm.h:300
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:104
+#: linux/modules/gui/qt4/ui/sout.h:331 linux/modules/gui/qt4/ui/vlm.h:300
 msgid "Add"
 msgstr "Lisa"
 
 #: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:642
 #: modules/gui/macosx/simple_prefs.m:246
 #: modules/gui/qt4/components/preferences_widgets.cpp:1206
-#: modules/gui/qt4/dialogs/bookmarks.cpp:47 modules/gui/qt4/ui/vlm.h:301
+#: modules/gui/qt4/dialogs/bookmarks.cpp:47 linux/modules/gui/qt4/ui/vlm.h:301
 msgid "Clear"
 msgstr "Eemalda"
 
@@ -12964,7 +13045,7 @@ msgstr "Redigeeri"
 msgid "Extract"
 msgstr "Lahtipakkimine"
 
-#: modules/gui/macosx/bookmarks.m:92 modules/gui/qt4/ui/open_file.h:224
+#: modules/gui/macosx/bookmarks.m:92 linux/modules/gui/qt4/ui/open_file.h:224
 msgid "Remove"
 msgstr "Eemalda"
 
@@ -13131,7 +13212,7 @@ msgstr "Tagasikerimine"
 msgid "Fast Forward"
 msgstr "Edasikerimine"
 
-#: modules/gui/macosx/equalizer.m:146 modules/gui/qt4/ui/equalizer.h:128
+#: modules/gui/macosx/equalizer.m:146 linux/modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
 msgstr "2 käiguline"
 
@@ -13145,7 +13226,7 @@ msgstr ""
 "Ekvalaiseri lubamine. Sagedusi saab sättida käsitsi või kasutades "
 "eelseadistust."
 
-#: modules/gui/macosx/equalizer.m:152 modules/gui/qt4/ui/equalizer.h:130
+#: modules/gui/macosx/equalizer.m:152 linux/modules/gui/qt4/ui/equalizer.h:130
 msgid "Preamp"
 msgstr "Eelvõim"
 
@@ -13155,7 +13236,7 @@ msgstr "Laiendatud juhtelemendid"
 
 #: modules/gui/macosx/extended.m:69
 msgid "Shows more information about the available video filters."
-msgstr "Kuva rohkem infot saadavadest video filtridest."
+msgstr "Kuva rohkem infot saadavadest videofiltridest."
 
 #: modules/gui/macosx/extended.m:70 modules/video_filter/wave.c:54
 msgid "Wave"
@@ -13167,12 +13248,13 @@ msgstr "Virvendus"
 
 #: modules/gui/macosx/extended.m:72 modules/meta_engine/id3genres.h:95
 #: modules/video_filter/psychedelic.c:55
-#: modules/gui/qt4/ui/video_effects.h:1143
+#: linux/modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
 msgstr "Psühedeeliline"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
-#: modules/video_filter/gradient.c:82 modules/gui/qt4/ui/video_effects.h:1148
+#: modules/video_filter/gradient.c:82
+#: linux/modules/gui/qt4/ui/video_effects.h:1148
 msgid "Gradient"
 msgstr "Üleminek"
 
@@ -13204,7 +13286,8 @@ msgstr "Pildi lõikamine"
 msgid "Crops a defined part of the image"
 msgstr "Lõika määratud osa pildist"
 
-#: modules/gui/macosx/extended.m:83 modules/gui/qt4/ui/video_effects.h:1134
+#: modules/gui/macosx/extended.m:83
+#: linux/modules/gui/qt4/ui/video_effects.h:1134
 msgid "Invert colors"
 msgstr "Värvid vastupidi"
 
@@ -13238,7 +13321,7 @@ msgstr ""
 
 #: modules/gui/macosx/extended.m:92
 msgid "Headphone virtualization"
-msgstr ""
+msgstr "Kõrvaklapide virtualisatsioon"
 
 #: modules/gui/macosx/extended.m:93
 msgid "Imitates the effect of surround sound when using headphones."
@@ -13262,7 +13345,7 @@ msgstr "Kohanda pilti"
 
 #: modules/gui/macosx/extended.m:174 modules/gui/macosx/extended.m:239
 msgid "Video Filter"
-msgstr "Video filter"
+msgstr "Videofilter"
 
 #: modules/gui/macosx/extended.m:175 modules/gui/macosx/extended.m:237
 msgid "Audio Filter"
@@ -13270,7 +13353,7 @@ msgstr "Audiofilter"
 
 #: modules/gui/macosx/extended.m:517
 msgid "About the video filters"
-msgstr "Video filtridest"
+msgstr "Videofiltridest"
 
 #: modules/gui/macosx/extended.m:526
 msgid ""
@@ -13389,7 +13472,7 @@ msgstr "Heli vaiksemaks"
 #: modules/gui/macosx/intf.m:694 modules/gui/macosx/intf.m:695
 #: modules/gui/macosx/simple_prefs.m:291 modules/gui/macosx/vout.m:206
 msgid "Fullscreen Video Device"
-msgstr "Täisekraan video seade"
+msgstr "Täisekraan-videoseade"
 
 #: modules/gui/macosx/intf.m:704
 msgid "Transparent"
@@ -13561,7 +13644,7 @@ msgstr "VLC silumise Logi (%s).rtfd"
 
 #: modules/gui/macosx/macosx.m:53
 msgid "Video device"
-msgstr "Video seade"
+msgstr "Videoseade"
 
 #: modules/gui/macosx/macosx.m:54
 msgid ""
@@ -13710,10 +13793,13 @@ msgstr "Hõiva"
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:102
-#: modules/gui/qt4/ui/open.h:246 modules/gui/qt4/ui/open_disk.h:300
-#: modules/gui/qt4/ui/open_file.h:232 modules/gui/qt4/ui/sprefs_audio.h:412
-#: modules/gui/qt4/ui/sprefs_input.h:308 modules/gui/qt4/ui/sprefs_input.h:317
-#: modules/gui/qt4/ui/sprefs_video.h:326
+#: linux/modules/gui/qt4/ui/open.h:246
+#: linux/modules/gui/qt4/ui/open_disk.h:300
+#: linux/modules/gui/qt4/ui/open_file.h:232
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:412
+#: linux/modules/gui/qt4/ui/sprefs_input.h:308
+#: linux/modules/gui/qt4/ui/sprefs_input.h:317
+#: linux/modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
 msgstr "Sirvi..."
 
@@ -13727,7 +13813,7 @@ msgstr "Esita mõnda teist meediat sünkroonselt"
 
 #: modules/gui/macosx/open.m:186 modules/gui/macosx/simple_prefs.m:280
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:414
-#: modules/gui/qt4/ui/sprefs_interface.h:394
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:394
 msgid "Choose..."
 msgstr "Vali..."
 
@@ -13736,7 +13822,7 @@ msgstr "Vali..."
 msgid "Device name"
 msgstr "Seadme nimi"
 
-#: modules/gui/macosx/open.m:193 modules/gui/qt4/ui/open_disk.h:298
+#: modules/gui/macosx/open.m:193 linux/modules/gui/qt4/ui/open_disk.h:298
 msgid "No DVD menus"
 msgstr "Ilma DVD menüüta"
 
@@ -13745,7 +13831,8 @@ msgid "VIDEO_TS folder"
 msgstr "VIDEO_TS kataloog"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:739
-#: modules/services_discovery/udev.c:587 modules/gui/qt4/ui/open_disk.h:292
+#: modules/services_discovery/udev.c:587
+#: linux/modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
 
@@ -13880,7 +13967,8 @@ msgstr "FPS"
 msgid "Subtitles encoding"
 msgstr "Subtiitrite kodeering"
 
-#: modules/gui/macosx/open.m:316 modules/gui/qt4/ui/sprefs_subtitles.h:210
+#: modules/gui/macosx/open.m:316
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "Kirja suurus"
 
@@ -13897,7 +13985,7 @@ msgid "Subtitle File"
 msgstr "Subtiitrite fail"
 
 #: modules/gui/macosx/open.m:587 modules/gui/macosx/open.m:953
-#: modules/gui/macosx/open.m:1189 modules/gui/qt4/ui/open_file.h:217
+#: modules/gui/macosx/open.m:1189 linux/modules/gui/qt4/ui/open_file.h:217
 msgid "Open File"
 msgstr "Ava fail"
 
@@ -13963,7 +14051,7 @@ msgstr "Toorsisendi koopia"
 msgid "Encapsulation Method"
 msgstr "Kapselusmeetod"
 
-#: modules/gui/macosx/output.m:159 modules/gui/qt4/ui/sout.h:335
+#: modules/gui/macosx/output.m:159 linux/modules/gui/qt4/ui/sout.h:335
 msgid "Transcoding options"
 msgstr "Ümberkodeerimise valikud"
 
@@ -13972,7 +14060,7 @@ msgstr "Ümberkodeerimise valikud"
 msgid "Bitrate (kb/s)"
 msgstr "Bitikiirus (kb/s)"
 
-#: modules/gui/macosx/output.m:166 modules/gui/qt4/ui/profiles.h:478
+#: modules/gui/macosx/output.m:166 linux/modules/gui/qt4/ui/profiles.h:478
 msgid "Scale"
 msgstr "Skaleerimine"
 
@@ -13980,7 +14068,7 @@ msgstr "Skaleerimine"
 msgid "Stream Announcing"
 msgstr "Voost teatamine"
 
-#: modules/gui/macosx/output.m:181 modules/gui/qt4/ui/sout.h:342
+#: modules/gui/macosx/output.m:181 linux/modules/gui/qt4/ui/sout.h:342
 msgid "SAP announce"
 msgstr "SAP-teadustamine"
 
@@ -14011,7 +14099,7 @@ msgstr "Faili salvestamine"
 #: modules/gui/macosx/output.m:526 modules/gui/macosx/playlist.m:745
 #: modules/gui/macosx/prefs.m:203 modules/gui/macosx/simple_prefs.m:310
 #: modules/gui/qt4/components/sout/profile_selector.cpp:250
-#: modules/gui/qt4/ui/vlm.h:302
+#: linux/modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
 msgstr "Salvesta"
 
@@ -14032,8 +14120,8 @@ msgid "Save Playlist..."
 msgstr "Salvesta esitusloend..."
 
 #: modules/gui/macosx/playlist.m:465 modules/gui/qt4/dialogs/bookmarks.cpp:45
-#: modules/gui/qt4/ui/podcast_configuration.h:105
-#: modules/gui/qt4/ui/streampanel.h:173
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:105
+#: linux/modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
 msgstr "Kustuta"
 
@@ -14216,7 +14304,7 @@ msgid "Reset All"
 msgstr "Taasta kõik"
 
 #: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:306
-#: modules/gui/qt4/ui/video_effects.h:1111
+#: linux/modules/gui/qt4/ui/video_effects.h:1111
 msgid "Basic"
 msgstr "Peamine"
 
@@ -14279,7 +14367,8 @@ msgstr "Sisend & koodekid"
 msgid "Input & Codec settings"
 msgstr "Sisendite ja koodekite seaded"
 
-#: modules/gui/macosx/simple_prefs.m:228 modules/gui/qt4/ui/sprefs_audio.h:414
+#: modules/gui/macosx/simple_prefs.m:228
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:414
 msgid "Effects"
 msgstr "Efektid"
 
@@ -14291,7 +14380,8 @@ msgstr "Audio lubatud"
 msgid "General Audio"
 msgstr "Üldine audio"
 
-#: modules/gui/macosx/simple_prefs.m:231 modules/gui/qt4/ui/sprefs_audio.h:419
+#: modules/gui/macosx/simple_prefs.m:231
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
 msgstr "Kõrvaklappide ruumiheli efekt"
 
@@ -14340,7 +14430,7 @@ msgstr "AVI failide parandamine"
 msgid "Default Caching Level"
 msgstr "Vaikimisi puhverdamise tase"
 
-#: modules/gui/macosx/simple_prefs.m:254 modules/gui/qt4/ui/open.h:235
+#: modules/gui/macosx/simple_prefs.m:254 linux/modules/gui/qt4/ui/open.h:235
 msgid "Caching"
 msgstr "Puhverdamine"
 
@@ -14383,7 +14473,7 @@ msgid "Show Fullscreen Controller"
 msgstr "Kuva täisekraanil juhtpaneel"
 
 #: modules/gui/macosx/simple_prefs.m:270
-#: modules/gui/qt4/ui/sprefs_interface.h:376
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:376
 msgid "Privacy / Network Interaction"
 msgstr "Privaatsus / võrgusuhtlus"
 
@@ -14400,7 +14490,7 @@ msgid "Default Encoding"
 msgstr "Vaikimisi kodeering"
 
 #: modules/gui/macosx/simple_prefs.m:279
-#: modules/gui/qt4/ui/sprefs_subtitles.h:207
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:207
 msgid "Display Settings"
 msgstr "Kuva sätted"
 
@@ -14430,7 +14520,7 @@ msgstr "Mustad ekraanid täisekraanrežiimis"
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
-#: modules/gui/qt4/ui/sprefs_video.h:310
+#: linux/modules/gui/qt4/ui/sprefs_video.h:310
 msgid "Display"
 msgstr "Kuva"
 
@@ -14442,7 +14532,8 @@ msgstr "Video lubatud"
 msgid "Output module"
 msgstr "Väljundi moodul"
 
-#: modules/gui/macosx/simple_prefs.m:298 modules/gui/qt4/ui/sprefs_video.h:325
+#: modules/gui/macosx/simple_prefs.m:298
+#: linux/modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Video snapshots"
 msgstr "Video kaadripilt"
 
@@ -14450,15 +14541,18 @@ msgstr "Video kaadripilt"
 msgid "Folder"
 msgstr "Kaust"
 
-#: modules/gui/macosx/simple_prefs.m:301 modules/gui/qt4/ui/sprefs_video.h:330
+#: modules/gui/macosx/simple_prefs.m:301
+#: linux/modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Format"
 msgstr "Vorming"
 
-#: modules/gui/macosx/simple_prefs.m:302 modules/gui/qt4/ui/sprefs_video.h:328
+#: modules/gui/macosx/simple_prefs.m:302
+#: linux/modules/gui/qt4/ui/sprefs_video.h:328
 msgid "Prefix"
 msgstr "Eesliide"
 
-#: modules/gui/macosx/simple_prefs.m:303 modules/gui/qt4/ui/sprefs_video.h:331
+#: modules/gui/macosx/simple_prefs.m:303
+#: linux/modules/gui/qt4/ui/sprefs_video.h:331
 msgid "Sequential numbering"
 msgstr "Järjestnumbrid"
 
@@ -14631,6 +14725,7 @@ msgstr ""
 #: modules/gui/macosx/wizard.m:161 modules/gui/macosx/wizard.m:212
 msgid "Dummy codec (do not transcode, useable with all encapsulation formats)"
 msgstr ""
+"Liba koodek (ära transkodeeri, kasutatav koos kõigi kapselduste vormingutega)"
 
 #: modules/gui/macosx/wizard.m:180
 msgid ""
@@ -14673,7 +14768,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:206 modules/gui/macosx/wizard.m:209
 msgid "Uncompressed audio samples (useable with WAV)"
-msgstr ""
+msgstr "Pakkimata audio diskreedid (kasutatav koos WAV-ga)"
 
 #: modules/gui/macosx/wizard.m:234
 msgid "MPEG Program Stream"
@@ -14899,7 +14994,7 @@ msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
 
 #: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:1866
-#: modules/gui/qt4/ui/sout.h:344
+#: linux/modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
 msgstr "Time-To-Live (TTL)"
 
@@ -14996,7 +15091,7 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1090
 msgid "Select the directory to save to"
-msgstr ""
+msgstr "Vali kataloog, kuhu salvestada"
 
 #: modules/gui/macosx/wizard.m:1146
 msgid "No folder selected"
@@ -15062,11 +15157,11 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:1816
 msgid "Select your audio codec. Click one to get more information."
-msgstr ""
+msgstr "Vali audiokoodek. Klõpsa mõnel lisa info saamiseks."
 
 #: modules/gui/macosx/wizard.m:1833
 msgid "Select your video codec. Click one to get more information."
-msgstr ""
+msgstr "Vali videokoodek. Klõpsa mõnel lisa info saamiseks."
 
 #: modules/gui/macosx/wizard.m:1868
 msgid ""
@@ -15181,12 +15276,12 @@ msgstr "Pealkiri   : %d/%d"
 #: modules/gui/ncurses.c:1547
 #, c-format
 msgid " Chapter  : %d/%d"
-msgstr ""
+msgstr " Peatükk  : %d/%d"
 
 #: modules/gui/ncurses.c:1557
 #, c-format
 msgid " Source: <no current item> %s"
-msgstr ""
+msgstr " Allikas: <aktiivne kirje puudub> %s"
 
 #: modules/gui/ncurses.c:1559
 msgid " [ h for help ]"
@@ -15360,11 +15455,11 @@ msgstr "[Kastid]"
 
 #: modules/gui/ncurses.c:1651
 msgid "     <up>,<down>     Navigate through the box line by line"
-msgstr ""
+msgstr "     <up>,<down>     Navigeeri läbi kasti ridahaaval"
 
 #: modules/gui/ncurses.c:1652
 msgid "     <pgup>,<pgdown> Navigate through the box page by page"
-msgstr ""
+msgstr "     <pgup>,<pgdown> Navigeeri läbi kasti lehthaaval"
 
 #: modules/gui/ncurses.c:1657
 msgid "[Player]"
@@ -15696,7 +15791,7 @@ msgstr "Hüljatud (vigased)"
 
 #: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Dropped (discontinued)"
-msgstr ""
+msgstr "Hüljatud (katkestatud)"
 
 #: modules/gui/qt4/components/info_panels.cpp:524
 #: modules/gui/qt4/components/info_panels.cpp:537
@@ -15790,7 +15885,7 @@ msgid "File names:"
 msgstr "Failinimed:"
 
 #: modules/gui/qt4/components/open_panels.cpp:149
-#: modules/gui/qt4/ui/sprefs_interface.h:382
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:382
 msgid "Filter:"
 msgstr "Filter:"
 
@@ -15810,7 +15905,7 @@ msgstr "DVB tüüp:"
 #: modules/gui/qt4/components/open_panels.cpp:694
 #: modules/gui/qt4/components/open_panels.cpp:960
 msgid "Transponder symbol rate"
-msgstr ""
+msgstr "Transponderi sümboli kiirus"
 
 #: modules/gui/qt4/components/open_panels.cpp:703
 #: modules/gui/qt4/components/open_panels.cpp:969
@@ -16021,7 +16116,7 @@ msgstr "See on VLC rüütatud kasutajaliides. Teisi rüüsid saab allalaadida"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:524
 msgid "VLC skins website"
-msgstr ""
+msgstr "VLC rüüde veebileht"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
@@ -16095,7 +16190,7 @@ msgid "File/Folder"
 msgstr "Fail/kaust"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:46
-#: modules/gui/qt4/ui/sout.h:328
+#: linux/modules/gui/qt4/ui/sout.h:328
 msgid "Source"
 msgstr "Allikas"
 
@@ -16210,7 +16305,7 @@ msgid "Convert"
 msgstr "Teisendamine"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
-#: modules/gui/qt4/ui/sprefs_audio.h:411
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:411
 msgid "Destination file:"
 msgstr "Sihtfail:"
 
@@ -16280,7 +16375,6 @@ msgid "Privacy and Network Warning"
 msgstr "Privaatsuse ja võrgu hoiatus"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
-#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -16289,28 +16383,26 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
-"<p><i>VideoLAN</i> meeskonnale ei meeldi, kui rakendus kasutab võrku ilma "
-"kasutaja teadmata.</p>\n"
-"<p><i>VLC meediaesitaja</i> võib hankida piiratud koguses infot Internetist, "
-"et kontrollida uue versiooni olemasolu või CD kaanepilte leida.</p>\n"
-"<p><i>VLC meediaesitaja</i> <b>EI SAADA</b> ega kogu <b>MINGITKI</b> "
+"<p><i>VideoLAN</i> eelistab küsida enne luba, kui rakendus soovib internetti "
+"pääseda.</p>\n"
+"<p><b>VLC meediaesitaja</b> võib hankida informatsiooni internetist, et "
+"kontrollida <b>uuendusi</b> või hankida <b>meedia informatsiooni</b>.</p>\n"
+"<p><i>VLC meediaesitaja</i> <b>ei saada</b> ega kogu mingitki "
 "informatsiooni, ka anonüümselt, sinu kasutamisharjumuste kohta.</p>\n"
-"<p>Seega palun tee oma valik järgnevate võimaluste vahel. Vaikimisi ei "
-"kasutata Interneti peaaegu üldse.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
-#: modules/gui/qt4/ui/open_capture.h:103 modules/gui/qt4/ui/sout.h:347
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
 msgid "Options"
 msgstr "Valikud"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:90
 msgid "Allow fetching media information from Internet"
-msgstr ""
+msgstr "Meedia andmete internetist tirimise lubamine"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
-msgstr "Kontrolli uuendusi"
+msgstr "Uuenduste kontrollimine"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -16567,9 +16659,9 @@ msgid ""
 "or the path to a file on your computer,\n"
 "it will be automatically selected."
 msgstr ""
-"Kui sinu lõikepuhvris on kehtiv URL\n"
-"või teekond failini sinu arvutis,\n"
-"siis valitakse ta automaatselt."
+"Kui sinu lõikepuhvris on sobiv URL\n"
+"või faili asukoht sinu arvutis,\n"
+"siis valitakse see automaatselt."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:58
 msgid "Plugins and extensions"
@@ -16643,7 +16735,7 @@ msgstr "&Lähtesta eelistused"
 msgid "Are you sure you want to reset your VLC media player preferences?"
 msgstr "Kas oled kindel, et soovid algväärtustada VLC eelistused?"
 
-#: modules/gui/qt4/dialogs/sout.cpp:42 modules/gui/qt4/ui/sout.h:326
+#: modules/gui/qt4/dialogs/sout.cpp:42 linux/modules/gui/qt4/ui/sout.h:326
 msgid "Stream Output"
 msgstr "Voogedastuse väljund"
 
@@ -16741,7 +16833,8 @@ msgstr "Kustuta aktiivne profiil"
 msgid "Cl&ose"
 msgstr "Sul&ge"
 
-#: modules/gui/qt4/dialogs/toolbar.cpp:217 modules/gui/qt4/ui/profiles.h:455
+#: modules/gui/qt4/dialogs/toolbar.cpp:217
+#: linux/modules/gui/qt4/ui/profiles.h:455
 msgid "Profile Name"
 msgstr "Profiili nimi"
 
@@ -16806,7 +16899,7 @@ msgid "Repeat delay:"
 msgstr "Korda viivitust:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:112
-#: modules/gui/qt4/ui/sprefs_interface.h:379
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:379
 msgid " days"
 msgstr " päeva"
 
@@ -17443,7 +17536,7 @@ msgstr "Kasutatav rüü"
 
 #: modules/gui/skins2/src/skin_main.cpp:536
 msgid "Path to the skin to use."
-msgstr "Teekond kasutatava rüüni"
+msgstr "Kasutatava rüü asukoht"
 
 #: modules/gui/skins2/src/skin_main.cpp:537
 msgid "Config of last used skin"
@@ -17650,7 +17743,7 @@ msgid "Gospel"
 msgstr "Gospel"
 
 #: modules/meta_engine/id3genres.h:67 modules/video_filter/noise.c:52
-#: modules/gui/qt4/ui/video_effects.h:1144
+#: linux/modules/gui/qt4/ui/video_effects.h:1144
 msgid "Noise"
 msgstr "Müra"
 
@@ -17861,7 +17954,7 @@ msgstr ""
 
 #: modules/misc/dummy/dummy.c:42
 msgid "Dummy image chroma format"
-msgstr "Liba pildi värviformaat"
+msgstr "Libapildi värviformaat"
 
 #: modules/misc/dummy/dummy.c:44
 msgid ""
@@ -17896,7 +17989,7 @@ msgstr "Libaliides"
 
 #: modules/misc/dummy/dummy.c:73
 msgid "Dummy demux function"
-msgstr "Liba demuksi funktsioon"
+msgstr "Liba-demuksi funktsioon"
 
 #: modules/misc/dummy/dummy.c:78
 msgid "Dummy decoder"
@@ -17940,7 +18033,7 @@ msgstr ""
 
 #: modules/misc/dummy/dummy.c:115
 msgid "Dummy font renderer function"
-msgstr "Liba fondi renderdamise funktsioon"
+msgstr "Libafondi renderdamise funktsioon"
 
 #: modules/misc/dummy/dummy.c:119
 msgid "libc memcpy"
@@ -18087,7 +18180,7 @@ msgstr "GnuTLS server"
 
 #: modules/misc/inhibit.c:75
 msgid "Power Management Inhibitor"
-msgstr ""
+msgstr "Vooluhalduse tõkestaja"
 
 #: modules/misc/inhibit.c:168
 msgid "Playing some media."
@@ -18099,7 +18192,7 @@ msgstr "OSSO"
 
 #: modules/misc/inhibit/osso.c:41
 msgid "OSSO screen unblanking"
-msgstr ""
+msgstr "OSSO ekraani tühjendamise keelaja"
 
 #: modules/misc/inhibit/xdg.c:35
 msgid "XDG-screensaver"
@@ -18107,7 +18200,7 @@ msgstr "XDG-ekraanisäästja"
 
 #: modules/misc/inhibit/xdg.c:36
 msgid "XDG screen saver inhibition"
-msgstr ""
+msgstr "XDG ekraanisäästja tõkestamine"
 
 #: modules/misc/inhibit/xscreensaver.c:67
 msgid "X Screensaver disabler"
@@ -18193,9 +18286,8 @@ msgstr ""
 "{ <valik> = <väärtus>, ...}, ...'."
 
 #: modules/misc/lua/vlc.c:69
-#, fuzzy
 msgid "Directory index"
-msgstr "Sisendkataloog"
+msgstr "Kataloogi indeks"
 
 #: modules/misc/lua/vlc.c:70
 msgid "Allow to build directory index"
@@ -18210,9 +18302,8 @@ msgid "Interfaces implemented using lua scripts"
 msgstr "Kasutajaliides implementeeritud lua skriptidega"
 
 #: modules/misc/lua/vlc.c:91
-#, fuzzy
 msgid "Lua HTTP"
-msgstr "HTTP"
+msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:98
 msgid "Lua Meta Fetcher"
@@ -18917,7 +19008,7 @@ msgid "My Pictures"
 msgstr "Minu pildid"
 
 #: modules/services_discovery/podcast.c:58
-#: modules/gui/qt4/ui/podcast_configuration.h:102
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:102
 msgid "Podcast URLs list"
 msgstr "Podcastide URL-de nimekiri"
 
@@ -19320,7 +19411,7 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
-#: modules/gui/qt4/ui/video_effects.h:1176
+#: linux/modules/gui/qt4/ui/video_effects.h:1176
 msgid "Transparency"
 msgstr "Läbipaistvus"
 
@@ -19670,7 +19761,8 @@ msgstr ""
 msgid "Standard stream output"
 msgstr ""
 
-#: modules/stream_out/switcher.c:90 modules/gui/qt4/ui/sprefs_input.h:314
+#: modules/stream_out/switcher.c:90
+#: linux/modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "Failid"
 
@@ -19966,7 +20058,8 @@ msgstr "SSE2 teisendused"
 msgid "AltiVec conversions from "
 msgstr "AltiVec teisendused"
 
-#: modules/video_filter/adjust.c:64 modules/gui/qt4/ui/video_effects.h:1110
+#: modules/video_filter/adjust.c:64
+#: linux/modules/gui/qt4/ui/video_effects.h:1110
 msgid "Brightness threshold"
 msgstr "Heleduse lävi"
 
@@ -20020,7 +20113,8 @@ msgstr ""
 msgid "Image properties filter"
 msgstr ""
 
-#: modules/video_filter/adjust.c:81 modules/gui/qt4/ui/video_effects.h:1104
+#: modules/video_filter/adjust.c:81
+#: linux/modules/gui/qt4/ui/video_effects.h:1104
 msgid "Image adjust"
 msgstr "Pildi kohendamine"
 
@@ -20348,7 +20442,7 @@ msgid "Sat windowing"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:268
-#: modules/gui/qt4/ui/video_effects.h:1159
+#: linux/modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "Filtri kestus (ms)"
 
@@ -20516,8 +20610,8 @@ msgid "AtmoLight Filter"
 msgstr "AtmoLight filter"
 
 #: modules/video_filter/atmo/atmo.cpp:361
-#: modules/gui/qt4/ui/video_effects.h:1153
-#: modules/gui/qt4/ui/video_effects.h:1162
+#: linux/modules/gui/qt4/ui/video_effects.h:1153
+#: linux/modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
@@ -20741,7 +20835,8 @@ msgstr "Lõuendi video filter"
 msgid "Video filtering using a chain of video filter modules"
 msgstr ""
 
-#: modules/video_filter/clone.c:39 modules/gui/qt4/ui/video_effects.h:1173
+#: modules/video_filter/clone.c:39
+#: linux/modules/gui/qt4/ui/video_effects.h:1173
 msgid "Number of clones"
 msgstr "Kloonide arv"
 
@@ -20767,7 +20862,8 @@ msgstr ""
 msgid "Clone video filter"
 msgstr "Kloonimise video filter"
 
-#: modules/video_filter/clone.c:57 modules/gui/qt4/ui/video_effects.h:1172
+#: modules/video_filter/clone.c:57
+#: linux/modules/gui/qt4/ui/video_effects.h:1172
 msgid "Clone"
 msgstr "Kloonimine"
 
@@ -20788,7 +20884,7 @@ msgid "Color threshold filter"
 msgstr ""
 
 #: modules/video_filter/colorthres.c:70
-#: modules/gui/qt4/ui/video_effects.h:1135
+#: linux/modules/gui/qt4/ui/video_effects.h:1135
 msgid "Color threshold"
 msgstr "Värvi lävi"
 
@@ -21482,7 +21578,7 @@ msgid "The degree of blurring from 1 to 127."
 msgstr ""
 
 #: modules/video_filter/motionblur.c:59
-#: modules/gui/qt4/ui/video_effects.h:1146
+#: linux/modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "Liikumishägu"
 
@@ -21702,7 +21798,8 @@ msgstr ""
 msgid "Panoramix: wall with overlap video filter"
 msgstr ""
 
-#: modules/video_filter/panoramix.c:79 modules/gui/qt4/ui/video_effects.h:1169
+#: modules/video_filter/panoramix.c:79
+#: linux/modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
 msgstr "Panoramix"
 
@@ -22035,7 +22132,8 @@ msgstr "Nurk kraadides (0 kuni 359)"
 msgid "Rotate video filter"
 msgstr "Pööramise video filter"
 
-#: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1128
+#: modules/video_filter/rotate.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1128
 msgid "Rotate"
 msgstr "Pööramine"
 
@@ -22231,7 +22329,8 @@ msgstr ""
 msgid "Sharpen video filter"
 msgstr "Video teravustamise filter"
 
-#: modules/video_filter/sharpen.c:67 modules/gui/qt4/ui/video_effects.h:1102
+#: modules/video_filter/sharpen.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1102
 msgid "Sharpen"
 msgstr "Teravustamine"
 
@@ -22464,7 +22563,8 @@ msgstr "Direct3D videoväljund"
 msgid "Desktop"
 msgstr "Töölaud"
 
-#: modules/video_output/msw/directx.c:68 modules/gui/qt4/ui/sprefs_video.h:317
+#: modules/video_output/msw/directx.c:68
+#: linux/modules/gui/qt4/ui/sprefs_video.h:317
 msgid "Use hardware YUV->RGB conversions"
 msgstr "Riistvaralise YUV->RGB teisenduse kasutamine"
 
@@ -22983,170 +23083,174 @@ msgstr "Visualiseerija filter"
 msgid "Spectrum analyser"
 msgstr "Spektri analüsaator"
 
-#: modules/gui/qt4/ui/equalizer.h:126 modules/gui/qt4/ui/open_disk.h:290
-#: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:454
-#: modules/gui/qt4/ui/sprefs_audio.h:403 modules/gui/qt4/ui/sprefs_input.h:305
-#: modules/gui/qt4/ui/sprefs_interface.h:372
-#: modules/gui/qt4/ui/sprefs_subtitles.h:200
-#: modules/gui/qt4/ui/sprefs_video.h:308 modules/gui/qt4/ui/streampanel.h:168
-#: modules/gui/qt4/ui/v4l2.h:58
+#: linux/modules/gui/qt4/ui/equalizer.h:126
+#: linux/modules/gui/qt4/ui/open_disk.h:290
+#: linux/modules/gui/qt4/ui/open_net.h:91
+#: linux/modules/gui/qt4/ui/profiles.h:454
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:403
+#: linux/modules/gui/qt4/ui/sprefs_input.h:305
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:372
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:200
+#: linux/modules/gui/qt4/ui/sprefs_video.h:308
+#: linux/modules/gui/qt4/ui/streampanel.h:168
+#: linux/modules/gui/qt4/ui/v4l2.h:58
 msgid "Form"
 msgstr "Vorm"
 
-#: modules/gui/qt4/ui/equalizer.h:129
+#: linux/modules/gui/qt4/ui/equalizer.h:129
 msgid "Preset"
 msgstr "Eelseadistus"
 
-#: modules/gui/qt4/ui/open.h:230
-#: modules/gui/qt4/ui/podcast_configuration.h:101
+#: linux/modules/gui/qt4/ui/open.h:230
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:101
 msgid "Dialog"
 msgstr "Dialoog"
 
-#: modules/gui/qt4/ui/open.h:232
+#: linux/modules/gui/qt4/ui/open.h:232
 msgid "Show extended options"
 msgstr "Kuva laiendatud valikud"
 
-#: modules/gui/qt4/ui/open.h:234
+#: linux/modules/gui/qt4/ui/open.h:234
 msgid "Show &more options"
 msgstr "&Lisavalikute kuvamine"
 
-#: modules/gui/qt4/ui/open.h:237
+#: linux/modules/gui/qt4/ui/open.h:237
 msgid "Change the caching for the media"
 msgstr "Meediapuhvri pikkuse muutmine"
 
-#: modules/gui/qt4/ui/open.h:239
+#: linux/modules/gui/qt4/ui/open.h:239
 msgid " ms"
 msgstr " ms"
 
-#: modules/gui/qt4/ui/open.h:240
+#: linux/modules/gui/qt4/ui/open.h:240
 msgid "Start Time"
 msgstr "Alustamise koht"
 
-#: modules/gui/qt4/ui/open.h:241
+#: linux/modules/gui/qt4/ui/open.h:241
 msgid "Play another media synchronously (extra audio file, ...)"
 msgstr "Muu meediafaili esitamine sünkroonis (lisahelifail, ...)"
 
-#: modules/gui/qt4/ui/open.h:242
+#: linux/modules/gui/qt4/ui/open.h:242
 msgid "Extra media"
 msgstr "Lisameedia"
 
-#: modules/gui/qt4/ui/open.h:244
+#: linux/modules/gui/qt4/ui/open.h:244
 msgid "Select the file"
 msgstr "Vali fail"
 
-#: modules/gui/qt4/ui/open.h:247
+#: linux/modules/gui/qt4/ui/open.h:247
 msgid "MRL"
 msgstr "MRL"
 
-#: modules/gui/qt4/ui/open.h:249
+#: linux/modules/gui/qt4/ui/open.h:249
 msgid "Complete MRL for VLC internal"
 msgstr "Täielik MRL VLC sisetarbeks"
 
-#: modules/gui/qt4/ui/open.h:251
+#: linux/modules/gui/qt4/ui/open.h:251
 msgid "Edit Options"
 msgstr "Lisavalikud"
 
-#: modules/gui/qt4/ui/open.h:253
+#: linux/modules/gui/qt4/ui/open.h:253
 msgid "Change the start time for the media"
 msgstr "Hetke määramine, kust meedia käivitatakse"
 
-#: modules/gui/qt4/ui/open.h:255
+#: linux/modules/gui/qt4/ui/open.h:255
 msgid "s"
 msgstr " s"
 
-#: modules/gui/qt4/ui/open_capture.h:98
+#: linux/modules/gui/qt4/ui/open_capture.h:98
 msgid "Capture mode"
 msgstr "Hõiverežiim"
 
-#: modules/gui/qt4/ui/open_capture.h:100
+#: linux/modules/gui/qt4/ui/open_capture.h:100
 msgid "Select the capture device type"
 msgstr "Hõiveseadme tüübi valimine"
 
-#: modules/gui/qt4/ui/open_capture.h:102
+#: linux/modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "Seadme valimine"
 
-#: modules/gui/qt4/ui/open_capture.h:105
+#: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
 msgstr "Ligipääs lisavalikutele, et tuunida seadet"
 
-#: modules/gui/qt4/ui/open_capture.h:107
+#: linux/modules/gui/qt4/ui/open_capture.h:107
 msgid "Advanced options..."
 msgstr "Täpsemalt..."
 
-#: modules/gui/qt4/ui/open_disk.h:291
+#: linux/modules/gui/qt4/ui/open_disk.h:291
 msgid "Disc Selection"
 msgstr "Ketta valimine"
 
-#: modules/gui/qt4/ui/open_disk.h:294
+#: linux/modules/gui/qt4/ui/open_disk.h:294
 msgid "SVCD/VCD"
 msgstr "SVCD/VCD"
 
-#: modules/gui/qt4/ui/open_disk.h:296
+#: linux/modules/gui/qt4/ui/open_disk.h:296
 msgid "Disable DVD Menus (for compatibility)"
 msgstr "DVD menüüd keelatud (ühilduvuse jaoks)"
 
-#: modules/gui/qt4/ui/open_disk.h:299
+#: linux/modules/gui/qt4/ui/open_disk.h:299
 msgid "Disc device"
 msgstr "Kettaseade"
 
-#: modules/gui/qt4/ui/open_disk.h:301
+#: linux/modules/gui/qt4/ui/open_disk.h:301
 msgid "Starting Position"
 msgstr "Alustamise koht"
 
-#: modules/gui/qt4/ui/open_disk.h:304
+#: linux/modules/gui/qt4/ui/open_disk.h:304
 msgid "Audio and Subtitles"
 msgstr "Audio ja subtiitrid"
 
-#: modules/gui/qt4/ui/open_file.h:219
+#: linux/modules/gui/qt4/ui/open_file.h:219
 msgid "Choose one or more media file to open"
 msgstr "Avamiseks peab olema valitud vähemalt üks meediafail"
 
-#: modules/gui/qt4/ui/open_file.h:221
+#: linux/modules/gui/qt4/ui/open_file.h:221
 msgid "File Selection"
 msgstr "Faili valimine"
 
-#: modules/gui/qt4/ui/open_file.h:222
+#: linux/modules/gui/qt4/ui/open_file.h:222
 msgid "You can select local files with the following list and buttons."
 msgstr "Järgnevasse loetelusse võib lisada kohalikke faile."
 
-#: modules/gui/qt4/ui/open_file.h:223
+#: linux/modules/gui/qt4/ui/open_file.h:223
 msgid "Add..."
 msgstr "Lisa..."
 
-#: modules/gui/qt4/ui/open_file.h:226
+#: linux/modules/gui/qt4/ui/open_file.h:226
 msgid "Add a subtitles file"
 msgstr "Subtiitrite faili lisamine"
 
-#: modules/gui/qt4/ui/open_file.h:228
+#: linux/modules/gui/qt4/ui/open_file.h:228
 msgid "Use a sub&titles file"
 msgstr "Kasutatakse sub&tiitrite faili"
 
-#: modules/gui/qt4/ui/open_file.h:230
+#: linux/modules/gui/qt4/ui/open_file.h:230
 msgid "Select the subtitles file"
 msgstr "Vali subtiitrite fail"
 
-#: modules/gui/qt4/ui/open_file.h:233
+#: linux/modules/gui/qt4/ui/open_file.h:233
 msgid "Font size:"
 msgstr "Kirja suurus:"
 
-#: modules/gui/qt4/ui/open_file.h:234
+#: linux/modules/gui/qt4/ui/open_file.h:234
 msgid "Text alignment:"
 msgstr "Teksti joondus:"
 
-#: modules/gui/qt4/ui/open_net.h:92
+#: linux/modules/gui/qt4/ui/open_net.h:92
 msgid "Network Protocol"
 msgstr "Võrguprotokoll"
 
-#: modules/gui/qt4/ui/open_net.h:93
+#: linux/modules/gui/qt4/ui/open_net.h:93
 msgid "Please enter a network URL:"
 msgstr "Palun sisesta võrgu URL:"
 
-#: modules/gui/qt4/ui/open_net.h:95
+#: linux/modules/gui/qt4/ui/open_net.h:95
 msgid "Enter the URL of the network stream here."
 msgstr "Siia sisesta võrguvoo URL."
 
-#: modules/gui/qt4/ui/open_net.h:97
+#: linux/modules/gui/qt4/ui/open_net.h:97
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -23194,67 +23298,68 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 
-#: modules/gui/qt4/ui/profiles.h:456
+#: linux/modules/gui/qt4/ui/profiles.h:456
 msgid "MPEG-TS"
 msgstr "MPEG-TS"
 
-#: modules/gui/qt4/ui/profiles.h:457
+#: linux/modules/gui/qt4/ui/profiles.h:457
 msgid "MPEG-PS"
 msgstr "MPEG-PS"
 
-#: modules/gui/qt4/ui/profiles.h:458
+#: linux/modules/gui/qt4/ui/profiles.h:458
 msgid "WAV"
 msgstr "WAV"
 
-#: modules/gui/qt4/ui/profiles.h:459
+#: linux/modules/gui/qt4/ui/profiles.h:459
 msgid "ASF/WMV"
 msgstr "ASF/WMV"
 
-#: modules/gui/qt4/ui/profiles.h:460
+#: linux/modules/gui/qt4/ui/profiles.h:460
 msgid "Ogg/Ogm"
 msgstr "Ogg/Ogm"
 
-#: modules/gui/qt4/ui/profiles.h:461
+#: linux/modules/gui/qt4/ui/profiles.h:461
 msgid "RAW"
 msgstr "RAW"
 
-#: modules/gui/qt4/ui/profiles.h:462
+#: linux/modules/gui/qt4/ui/profiles.h:462
 msgid "MPEG 1"
 msgstr "MPEG 1"
 
-#: modules/gui/qt4/ui/profiles.h:463
+#: linux/modules/gui/qt4/ui/profiles.h:463
 msgid "FLV"
 msgstr "FLV"
 
-#: modules/gui/qt4/ui/profiles.h:464
+#: linux/modules/gui/qt4/ui/profiles.h:464
 msgid "AVI"
 msgstr "AVI"
 
-#: modules/gui/qt4/ui/profiles.h:465
+#: linux/modules/gui/qt4/ui/profiles.h:465
 msgid "MP4/MOV"
 msgstr "MP4/MOV"
 
-#: modules/gui/qt4/ui/profiles.h:467
+#: linux/modules/gui/qt4/ui/profiles.h:467
 msgid "MKV"
 msgstr "MKV"
 
-#: modules/gui/qt4/ui/profiles.h:468
+#: linux/modules/gui/qt4/ui/profiles.h:468
 msgid "Encapsulation"
 msgstr "Kapseldus"
 
-#: modules/gui/qt4/ui/profiles.h:472 modules/gui/qt4/ui/profiles.h:491
+#: linux/modules/gui/qt4/ui/profiles.h:472
+#: linux/modules/gui/qt4/ui/profiles.h:491
 msgid " kb/s"
 msgstr " kb/s"
 
-#: modules/gui/qt4/ui/profiles.h:473
+#: linux/modules/gui/qt4/ui/profiles.h:473
 msgid "Frame Rate"
 msgstr "Kaadrisagedus"
 
-#: modules/gui/qt4/ui/profiles.h:475
+#: linux/modules/gui/qt4/ui/profiles.h:475
 msgid " fps"
 msgstr " k/s"
 
-#: modules/gui/qt4/ui/profiles.h:477
+#: linux/modules/gui/qt4/ui/profiles.h:477
 msgid ""
 "You just need to fill one of the three following parameters, VLC will "
 "autodetect the other using the original aspect ratio"
@@ -23262,43 +23367,44 @@ msgstr ""
 "Määrata tuleb üks järgnevast kolmest parameetrist, ülejäänud määrab VLC "
 "algse kuvasuhte järgi"
 
-#: modules/gui/qt4/ui/profiles.h:480 modules/gui/qt4/ui/profiles.h:483
+#: linux/modules/gui/qt4/ui/profiles.h:480
+#: linux/modules/gui/qt4/ui/profiles.h:483
 msgid "00000; "
 msgstr "00000; "
 
-#: modules/gui/qt4/ui/profiles.h:485
+#: linux/modules/gui/qt4/ui/profiles.h:485
 msgid "Keep original video track"
 msgstr "Algne videorada säilitatakse"
 
-#: modules/gui/qt4/ui/profiles.h:486
+#: linux/modules/gui/qt4/ui/profiles.h:486
 msgid "Video codec"
 msgstr "Videokoodek"
 
-#: modules/gui/qt4/ui/profiles.h:488
+#: linux/modules/gui/qt4/ui/profiles.h:488
 msgid "Keep original audio track"
 msgstr "Algne audiorada säilitatakse"
 
-#: modules/gui/qt4/ui/profiles.h:493
+#: linux/modules/gui/qt4/ui/profiles.h:493
 msgid "Sample Rate"
 msgstr "Diskreetimissagedus"
 
-#: modules/gui/qt4/ui/profiles.h:494
+#: linux/modules/gui/qt4/ui/profiles.h:494
 msgid "Audio codec"
 msgstr "Audiokoodek"
 
-#: modules/gui/qt4/ui/profiles.h:496
+#: linux/modules/gui/qt4/ui/profiles.h:496
 msgid "Overlay subtitles on the video"
 msgstr "Subtiitrid lisatakse videovoo peale"
 
-#: modules/gui/qt4/ui/sout.h:329 modules/gui/qt4/ui/sout.h:339
+#: linux/modules/gui/qt4/ui/sout.h:329 linux/modules/gui/qt4/ui/sout.h:339
 msgid "Destinations"
 msgstr "Sihtkohad"
 
-#: modules/gui/qt4/ui/sout.h:330
+#: linux/modules/gui/qt4/ui/sout.h:330
 msgid "New destination"
 msgstr "Uus sihtkoht"
 
-#: modules/gui/qt4/ui/sout.h:332
+#: linux/modules/gui/qt4/ui/sout.h:332
 msgid ""
 "Add destinations following the streaming methods you need. Be sure to check "
 "with transcoding that the format is compatible with the method used."
@@ -23306,579 +23412,576 @@ msgstr ""
 "Lisa vajalikud voogude sihtkohad. Kontrolli, et ümberkodeerimise formaat "
 "ühildub sihtkohaga."
 
-#: modules/gui/qt4/ui/sout.h:333
+#: linux/modules/gui/qt4/ui/sout.h:333
 msgid "Display locally"
 msgstr "Kohapeal kuvamine"
 
-#: modules/gui/qt4/ui/sout.h:336
+#: linux/modules/gui/qt4/ui/sout.h:336
 msgid "Activate Transcoding"
 msgstr "Ümberkodeerimine"
 
-#: modules/gui/qt4/ui/sout.h:340
+#: linux/modules/gui/qt4/ui/sout.h:340
 msgid "Miscellaneous Options"
 msgstr "Mitmesugused valikud"
 
-#: modules/gui/qt4/ui/sout.h:341
+#: linux/modules/gui/qt4/ui/sout.h:341
 msgid "Stream all elementary streams"
 msgstr "Edastatakse kõik elementaarvood"
 
-#: modules/gui/qt4/ui/sout.h:343
+#: linux/modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
 msgstr "Grupi nimi"
 
-#: modules/gui/qt4/ui/sout.h:345
+#: linux/modules/gui/qt4/ui/sout.h:345
 msgid "Generated stream output string"
 msgstr "Genereeritud voo väljundi sõne"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:406
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:406
 msgid "Keep audio level between sessions"
 msgstr "Helivaljuse nivood säilitatakse sessioonide vahel"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:407
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:407
 msgid "Always reset audio start level to:"
 msgstr "Helinivoo tasemeks määratakse käivitamisel:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:408
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:408
 msgid " %"
 msgstr " %"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:409 modules/gui/qt4/ui/sprefs_video.h:313
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:409
+#: linux/modules/gui/qt4/ui/sprefs_video.h:313
 msgid "Output"
 msgstr "Väljund"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:410
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:410
 msgid "Output module:"
 msgstr "Väljundi moodul:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:415
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:415
 msgid "Dolby Surround:"
 msgstr "Dolby Surround:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:416
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:416
 msgid "Normalize volume to:"
 msgstr "Valjuse normaliseerimine:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:417
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:417
 msgid "Replay gain mode:"
 msgstr "Ühtlase valjuse režiim:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:418
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:418
 msgid "Visualization:"
 msgstr "Visualiseerimine:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:420
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:420
 msgid "Enable Time-Stretching audio"
 msgstr "Audio venitamine lubatud"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:422
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:422
 msgid "Preferred audio language:"
 msgstr "Audio eelistatud keel:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:423
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:423
 msgid "Password:"
 msgstr "Parool:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:424
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:424
 msgid "Username:"
 msgstr "Kasutajanimi:"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:425
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:425
 msgid "Submit played tracks stats to Last.fm"
 msgstr "Esitatud lugude andmed saadetakse Last.fm-i"
 
-#: modules/gui/qt4/ui/sprefs_input.h:306
+#: linux/modules/gui/qt4/ui/sprefs_input.h:306
 msgid "Optical drive"
 msgstr "Optiline seade"
 
-#: modules/gui/qt4/ui/sprefs_input.h:307
+#: linux/modules/gui/qt4/ui/sprefs_input.h:307
 msgid "Default optical device"
 msgstr "Vaikimisi optiline seade"
 
-#: modules/gui/qt4/ui/sprefs_input.h:309
+#: linux/modules/gui/qt4/ui/sprefs_input.h:309
 msgid "Codecs"
 msgstr "Koodekid"
 
-#: modules/gui/qt4/ui/sprefs_input.h:310
-#, fuzzy
+#: linux/modules/gui/qt4/ui/sprefs_input.h:310
 msgid "Skip H.264 in-loop deblocking filter"
-msgstr "Jäta korduste filter vahele"
+msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_input.h:311
+#: linux/modules/gui/qt4/ui/sprefs_input.h:311
 msgid "Video quality post-processing level"
 msgstr "Video kvaliteedi järeltöötluse tase"
 
-#: modules/gui/qt4/ui/sprefs_input.h:312
+#: linux/modules/gui/qt4/ui/sprefs_input.h:312
 msgid "Use GPU acceleration (experimental)"
 msgstr "Kasuta GPU kiirendust (eksperimentaalne)"
 
-#: modules/gui/qt4/ui/sprefs_input.h:313
+#: linux/modules/gui/qt4/ui/sprefs_input.h:313
 msgid "Use system codecs if available (better quality, but dangerous)"
 msgstr "Kasuta võimalusel süsteemseid koodekeid (parem kvaliteet, aga ohtlik)"
 
-#: modules/gui/qt4/ui/sprefs_input.h:315
+#: linux/modules/gui/qt4/ui/sprefs_input.h:315
 msgid "Damaged or incomplete AVI file"
 msgstr "Kahjustatud või puudulik AVI fail"
 
-#: modules/gui/qt4/ui/sprefs_input.h:319
+#: linux/modules/gui/qt4/ui/sprefs_input.h:319
 msgid "Default port (server mode)"
 msgstr "Vaikimisi port (serveri režiim)"
 
-#: modules/gui/qt4/ui/sprefs_input.h:320
+#: linux/modules/gui/qt4/ui/sprefs_input.h:320
 msgid "HTTP proxy URL"
 msgstr "HTTP proksi URL"
 
-#: modules/gui/qt4/ui/sprefs_input.h:321
+#: linux/modules/gui/qt4/ui/sprefs_input.h:321
 msgid "Default caching policy"
 msgstr "Vaikimisi puhverdamise reegel"
 
-#: modules/gui/qt4/ui/sprefs_input.h:322
+#: linux/modules/gui/qt4/ui/sprefs_input.h:322
 msgid "HTTP (default)"
 msgstr "HTTP (vaikimisi)"
 
-#: modules/gui/qt4/ui/sprefs_input.h:323
+#: linux/modules/gui/qt4/ui/sprefs_input.h:323
 msgid "RTP over RTSP (TCP)"
 msgstr "RTP üle RTSP (TCP)"
 
-#: modules/gui/qt4/ui/sprefs_input.h:324
+#: linux/modules/gui/qt4/ui/sprefs_input.h:324
 msgid "Live555 stream transport"
 msgstr "Live555 voo transport"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:373
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:373
 msgid "Instances"
 msgstr "Isendid"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:374
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:374
 msgid "Allow only one instance"
 msgstr "Lubatud ainult üks isend"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:375
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:375
 msgid "Enqueue files when in one instance mode"
 msgstr "Üksikrežiimis lisatakse failid ootejärjekorda"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:377
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:377
 msgid "Album art download policy:"
 msgstr "Kaanepiltide allalaadimise reegel:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:378
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:378
 msgid "Activate update notifier"
 msgstr "Aktiveeri uuenduste teataja"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:380
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:380
 msgid "Every "
 msgstr "Iga"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:381
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:381
 msgid "Save recently played items"
 msgstr "Hiljuti esitatud kirjed salvestatakse"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:384
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:384
 msgid "Separate words by | (without space)"
 msgstr "Eralda sõnad püstkriipsuga | (ilma tühikuta)"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:387
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:387
 msgid "Menus language:"
 msgstr "Menüüde keel:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:388
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:388
 msgid "File associations"
 msgstr "Failide seosed"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:389
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:389
 msgid "Set up associations..."
 msgstr "Määra seosed..."
 
-#: modules/gui/qt4/ui/sprefs_interface.h:390
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:390
 msgid "Look and feel"
 msgstr "Välimus ja käitumine"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:391
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:391
 msgid "Use custom skin"
 msgstr "Kohandatud rüü"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:393
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:393
 msgid "Skin resource file:"
 msgstr "Rüü fail:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:395
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:395
 msgid "Resize interface to video size"
 msgstr "Liidese suurus muudetakse video järgi"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:396
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:396
 msgid "Force window style:"
 msgstr "Aknastiili sundimine:"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:397
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:397
 msgid "Show systray icon"
 msgstr "Teateala ikooni kuvatakse"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:398
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:398
 msgid "Embed video in interface"
 msgstr "Video põimitud liidesesse"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:399
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:399
 msgid " Systray popup when minimized"
 msgstr "Minimeeritult on teatealal hüpikaken"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:400
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:400
 msgid "Show controls in full screen mode"
 msgstr "Täisekraanis kuvatakse juhtnuppe"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:401
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:401
 msgid "Minimal view mode (no toolbars)"
 msgstr "Minivaate režiim (tööriistaribata)"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:403
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:403
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr ""
 "See on VLC vaikimisi kasutajaliides, iseloomuliku välimuse ja tunnetusega."
 
-#: modules/gui/qt4/ui/sprefs_interface.h:405
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:405
 msgid "Use native style"
 msgstr "Loomulik stiil"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:202
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:202
 msgid "Enable On Screen Display (OSD)"
 msgstr "OSD lubatud"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:203
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:203
 msgid "Show media title on video start"
 msgstr "Video käivitamisel kuvatakse pealkirja"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:204
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:204
 msgid "Subtitles Language"
 msgstr "Subtiitrite keel"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:205
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:205
 msgid "Preferred subtitles language"
 msgstr "Subtiitrite eelistatud keel"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:206
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:206
 msgid "Default encoding"
 msgstr "Vaikimisi kodeering"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:208
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:208
 msgid "Effect"
 msgstr "Efekt"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:209
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:209
 msgid "Font color"
 msgstr "Kirja värv"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:212
-#: modules/gui/qt4/ui/video_effects.h:1113
-#: modules/gui/qt4/ui/video_effects.h:1115
-#: modules/gui/qt4/ui/video_effects.h:1117
-#: modules/gui/qt4/ui/video_effects.h:1119
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:212
+#: linux/modules/gui/qt4/ui/video_effects.h:1113
+#: linux/modules/gui/qt4/ui/video_effects.h:1115
+#: linux/modules/gui/qt4/ui/video_effects.h:1117
+#: linux/modules/gui/qt4/ui/video_effects.h:1119
 msgid " px"
 msgstr " px"
 
-#: modules/gui/qt4/ui/sprefs_video.h:314
+#: linux/modules/gui/qt4/ui/sprefs_video.h:314
 msgid "Accelerated video output (Overlay)"
 msgstr "Kiirendiga videoväljund (ülekate)"
 
-#: modules/gui/qt4/ui/sprefs_video.h:318
+#: linux/modules/gui/qt4/ui/sprefs_video.h:318
 msgid "DirectX"
 msgstr "DirectX"
 
-#: modules/gui/qt4/ui/sprefs_video.h:319
+#: linux/modules/gui/qt4/ui/sprefs_video.h:319
 msgid "Display device"
 msgstr "Kuvaseade"
 
-#: modules/gui/qt4/ui/sprefs_video.h:320
+#: linux/modules/gui/qt4/ui/sprefs_video.h:320
 msgid "Enable wallpaper mode"
 msgstr "Taustapildi režiim lubatud"
 
-#: modules/gui/qt4/ui/sprefs_video.h:322
+#: linux/modules/gui/qt4/ui/sprefs_video.h:322
 msgid "Deinterlacing"
 msgstr "Ülerealaotus"
 
-#: modules/gui/qt4/ui/sprefs_video.h:323
+#: linux/modules/gui/qt4/ui/sprefs_video.h:323
 msgid "Force Aspect Ratio"
 msgstr "Lukustatud külgede suhe"
 
-#: modules/gui/qt4/ui/sprefs_video.h:327
+#: linux/modules/gui/qt4/ui/sprefs_video.h:327
 msgid "Directory"
 msgstr "Kataloog"
 
-#: modules/gui/qt4/ui/sprefs_video.h:329
+#: linux/modules/gui/qt4/ui/sprefs_video.h:329
 msgid "vlc-snap"
 msgstr "vlc-snap"
 
-#: modules/gui/qt4/ui/streampanel.h:172
+#: linux/modules/gui/qt4/ui/streampanel.h:172
 msgid "Stuff"
 msgstr "Kraam"
 
-#: modules/gui/qt4/ui/streampanel.h:174
+#: linux/modules/gui/qt4/ui/streampanel.h:174
 msgid "Edit settings"
 msgstr "Redigeeri seadeid"
 
-#: modules/gui/qt4/ui/streampanel.h:175
+#: linux/modules/gui/qt4/ui/streampanel.h:175
 msgid "Control"
 msgstr "Juhtimine"
 
-#: modules/gui/qt4/ui/streampanel.h:176
+#: linux/modules/gui/qt4/ui/streampanel.h:176
 msgid "Run manually"
 msgstr "Käivita käsitsi"
 
-#: modules/gui/qt4/ui/streampanel.h:177
+#: linux/modules/gui/qt4/ui/streampanel.h:177
 msgid "Setup schedule"
 msgstr "Ajagraafiku seadistus"
 
-#: modules/gui/qt4/ui/streampanel.h:178
+#: linux/modules/gui/qt4/ui/streampanel.h:178
 msgid "Run on schedule"
 msgstr "Käivita graafiku alusel"
 
-#: modules/gui/qt4/ui/streampanel.h:179
+#: linux/modules/gui/qt4/ui/streampanel.h:179
 msgid "Status"
 msgstr "Olek"
 
-#: modules/gui/qt4/ui/streampanel.h:180
+#: linux/modules/gui/qt4/ui/streampanel.h:180
 msgid "P/P"
 msgstr "P/P"
 
-#: modules/gui/qt4/ui/streampanel.h:183
+#: linux/modules/gui/qt4/ui/streampanel.h:183
 msgid "Prev"
 msgstr "Eelm"
 
-#: modules/gui/qt4/ui/streampanel.h:184
+#: linux/modules/gui/qt4/ui/streampanel.h:184
 msgid "Add Input"
 msgstr "Lisa sisend"
 
-#: modules/gui/qt4/ui/streampanel.h:185
+#: linux/modules/gui/qt4/ui/streampanel.h:185
 msgid "Edit Input"
 msgstr "Redigeeri sisendit"
 
-#: modules/gui/qt4/ui/streampanel.h:186
+#: linux/modules/gui/qt4/ui/streampanel.h:186
 msgid "Clear List"
 msgstr "Puhasta nimekiri"
 
-#: modules/gui/qt4/ui/v4l2.h:59
+#: linux/modules/gui/qt4/ui/v4l2.h:59
 msgid "Refresh"
 msgstr "Värskenda"
 
-#: modules/gui/qt4/ui/v4l2.h:60
+#: linux/modules/gui/qt4/ui/v4l2.h:60
 msgid "No v4l2 instance found. Press the refresh button to try again."
 msgstr ""
 "Ühtegi v4l2 isendit ei leitud. Vajuta nupule värskenda, et uuesti proovida."
 
-#: modules/gui/qt4/ui/video_effects.h:1101
+#: linux/modules/gui/qt4/ui/video_effects.h:1101
 msgid "Transform"
 msgstr "Teisendamine"
 
-#: modules/gui/qt4/ui/video_effects.h:1103
+#: linux/modules/gui/qt4/ui/video_effects.h:1103
 msgid "Sigma"
 msgstr "Sigma"
 
-#: modules/gui/qt4/ui/video_effects.h:1120
+#: linux/modules/gui/qt4/ui/video_effects.h:1120
 msgid "Synchronize top and bottom"
 msgstr "Ülemine ja alumine koos"
 
-#: modules/gui/qt4/ui/video_effects.h:1121
+#: linux/modules/gui/qt4/ui/video_effects.h:1121
 msgid "Synchronize left and right"
 msgstr "Vasak ja parem koos"
 
-#: modules/gui/qt4/ui/video_effects.h:1123
+#: linux/modules/gui/qt4/ui/video_effects.h:1123
 msgid "Magnification/Zoom"
 msgstr "Suurendus"
 
-#: modules/gui/qt4/ui/video_effects.h:1124
+#: linux/modules/gui/qt4/ui/video_effects.h:1124
 msgid "Puzzle game"
 msgstr "Pusle mäng"
 
-#: modules/gui/qt4/ui/video_effects.h:1125
+#: linux/modules/gui/qt4/ui/video_effects.h:1125
 msgid "Black slot"
 msgstr "Must pesa"
 
-#: modules/gui/qt4/ui/video_effects.h:1126
-#: modules/gui/qt4/ui/video_effects.h:1165
-#: modules/gui/qt4/ui/video_effects.h:1171
+#: linux/modules/gui/qt4/ui/video_effects.h:1126
+#: linux/modules/gui/qt4/ui/video_effects.h:1165
+#: linux/modules/gui/qt4/ui/video_effects.h:1171
 msgid "Columns"
 msgstr "Veerge"
 
-#: modules/gui/qt4/ui/video_effects.h:1127
-#: modules/gui/qt4/ui/video_effects.h:1164
-#: modules/gui/qt4/ui/video_effects.h:1170
+#: linux/modules/gui/qt4/ui/video_effects.h:1127
+#: linux/modules/gui/qt4/ui/video_effects.h:1164
+#: linux/modules/gui/qt4/ui/video_effects.h:1170
 msgid "Rows"
 msgstr "Ridu"
 
-#: modules/gui/qt4/ui/video_effects.h:1129
+#: linux/modules/gui/qt4/ui/video_effects.h:1129
 msgid "Angle"
 msgstr "Nurk"
 
-#: modules/gui/qt4/ui/video_effects.h:1130
+#: linux/modules/gui/qt4/ui/video_effects.h:1130
 msgid "Geometry"
 msgstr "Geomeetria"
 
-#: modules/gui/qt4/ui/video_effects.h:1131
+#: linux/modules/gui/qt4/ui/video_effects.h:1131
 msgid "Color extraction"
 msgstr "Värvi eraldamine"
 
-#: modules/gui/qt4/ui/video_effects.h:1133
-#: modules/gui/qt4/ui/video_effects.h:1139
+#: linux/modules/gui/qt4/ui/video_effects.h:1133
+#: linux/modules/gui/qt4/ui/video_effects.h:1139
 msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
-#: modules/gui/qt4/ui/video_effects.h:1136
+#: linux/modules/gui/qt4/ui/video_effects.h:1136
 msgid "Similarity"
 msgstr "Sarnasus"
 
-#: modules/gui/qt4/ui/video_effects.h:1140
+#: linux/modules/gui/qt4/ui/video_effects.h:1140
 msgid "Color fun"
 msgstr "Lõbusad värvid"
 
-#: modules/gui/qt4/ui/video_effects.h:1142
+#: linux/modules/gui/qt4/ui/video_effects.h:1142
 msgid "Water effect"
 msgstr "Vee efekt"
 
-#: modules/gui/qt4/ui/video_effects.h:1145
+#: linux/modules/gui/qt4/ui/video_effects.h:1145
 msgid "Motion detect"
 msgstr "Liikumise tuvastamine"
 
-#: modules/gui/qt4/ui/video_effects.h:1147
+#: linux/modules/gui/qt4/ui/video_effects.h:1147
 msgid "Factor"
 msgstr "Tegur"
 
-#: modules/gui/qt4/ui/video_effects.h:1151
+#: linux/modules/gui/qt4/ui/video_effects.h:1151
 msgid "Cartoon"
 msgstr "Karikatuur"
 
-#: modules/gui/qt4/ui/video_effects.h:1152
+#: linux/modules/gui/qt4/ui/video_effects.h:1152
 msgid "Image modification"
 msgstr "Pildi muutmine"
 
-#: modules/gui/qt4/ui/video_effects.h:1154
-#, fuzzy
+#: linux/modules/gui/qt4/ui/video_effects.h:1154
 msgid "Edge weightning"
-msgstr "Servade kaal"
+msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1155
+#: linux/modules/gui/qt4/ui/video_effects.h:1155
 msgid "Output Color Filtermode"
 msgstr "Väljundi värvifiltri režiim"
 
-#: modules/gui/qt4/ui/video_effects.h:1156
+#: linux/modules/gui/qt4/ui/video_effects.h:1156
 msgid "Brightness (%)"
 msgstr "Heledus (%)"
 
-#: modules/gui/qt4/ui/video_effects.h:1157
+#: linux/modules/gui/qt4/ui/video_effects.h:1157
 msgid "Darknesslimit"
 msgstr "Tumeduse limiit"
 
-#: modules/gui/qt4/ui/video_effects.h:1158
-#, fuzzy
+#: linux/modules/gui/qt4/ui/video_effects.h:1158
 msgid "Mark analyzed Pixels"
-msgstr "Analüüsitud pikslite märkimine"
+msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1160
+#: linux/modules/gui/qt4/ui/video_effects.h:1160
 msgid "Filter threshold (%)"
 msgstr "Filtri lävi (%)"
 
-#: modules/gui/qt4/ui/video_effects.h:1161
-#, fuzzy
+#: linux/modules/gui/qt4/ui/video_effects.h:1161
 msgid "Filter smoothness (%)"
-msgstr "Filtri sujuvus (%)"
+msgstr "Filtri mahedus (%)"
 
-#: modules/gui/qt4/ui/video_effects.h:1163
+#: linux/modules/gui/qt4/ui/video_effects.h:1163
 msgid "Wall"
 msgstr "Sein"
 
-#: modules/gui/qt4/ui/video_effects.h:1166
+#: linux/modules/gui/qt4/ui/video_effects.h:1166
 msgid "Add text"
 msgstr "Lisa tekst"
 
-#: modules/gui/qt4/ui/video_effects.h:1174
+#: linux/modules/gui/qt4/ui/video_effects.h:1174
 msgid "Vout/Overlay"
 msgstr "Vout/ülekate"
 
-#: modules/gui/qt4/ui/video_effects.h:1175
+#: linux/modules/gui/qt4/ui/video_effects.h:1175
 msgid "Add logo"
 msgstr "Logo lisamine"
 
-#: modules/gui/qt4/ui/video_effects.h:1179
-#: modules/gui/qt4/ui/video_effects.h:1184
+#: linux/modules/gui/qt4/ui/video_effects.h:1179
+#: linux/modules/gui/qt4/ui/video_effects.h:1184
 msgid "Logo"
 msgstr "Logo"
 
-#: modules/gui/qt4/ui/video_effects.h:1180
+#: linux/modules/gui/qt4/ui/video_effects.h:1180
 msgid "Logo erase"
 msgstr "Logo kustutamine"
 
-#: modules/gui/qt4/ui/video_effects.h:1183
+#: linux/modules/gui/qt4/ui/video_effects.h:1183
 msgid "Mask"
 msgstr "Mask"
 
-#: modules/gui/qt4/ui/video_effects.h:1185
+#: linux/modules/gui/qt4/ui/video_effects.h:1185
 msgid "Subpicture filters"
 msgstr "Pildipealdise filtrid"
 
-#: modules/gui/qt4/ui/video_effects.h:1186
+#: linux/modules/gui/qt4/ui/video_effects.h:1186
 msgid "Video filters"
 msgstr "Videofiltrid"
 
-#: modules/gui/qt4/ui/video_effects.h:1187
+#: linux/modules/gui/qt4/ui/video_effects.h:1187
 msgid "Vout filters"
 msgstr "Vout filtrid"
 
-#: modules/gui/qt4/ui/video_effects.h:1188
+#: linux/modules/gui/qt4/ui/video_effects.h:1188
 msgid "Reset"
 msgstr "Lähtesta"
 
-#: modules/gui/qt4/ui/video_effects.h:1189
+#: linux/modules/gui/qt4/ui/video_effects.h:1189
 msgid "Update"
 msgstr "Uuenda"
 
-#: modules/gui/qt4/ui/video_effects.h:1190
+#: linux/modules/gui/qt4/ui/video_effects.h:1190
 msgid "Advanced video filter controls"
 msgstr "Muud videofiltrite sätted"
 
-#: modules/gui/qt4/ui/vlm.h:287
+#: linux/modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
 msgstr "VLM-i seadistused"
 
-#: modules/gui/qt4/ui/vlm.h:288
+#: linux/modules/gui/qt4/ui/vlm.h:288
 msgid "Media Manager Edition"
 msgstr "Meediahalduri väljaanne"
 
-#: modules/gui/qt4/ui/vlm.h:289
+#: linux/modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
 msgstr "Nimi:"
 
-#: modules/gui/qt4/ui/vlm.h:291
+#: linux/modules/gui/qt4/ui/vlm.h:291
 msgid "Input:"
 msgstr "Sisend:"
 
-#: modules/gui/qt4/ui/vlm.h:292
+#: linux/modules/gui/qt4/ui/vlm.h:292
 msgid "Select Input"
 msgstr "Sisendi valimine"
 
-#: modules/gui/qt4/ui/vlm.h:293
+#: linux/modules/gui/qt4/ui/vlm.h:293
 msgid "Output:"
 msgstr "Väljund:"
 
-#: modules/gui/qt4/ui/vlm.h:294
+#: linux/modules/gui/qt4/ui/vlm.h:294
 msgid "Select Output"
 msgstr "Väljundi valimine"
 
-#: modules/gui/qt4/ui/vlm.h:295
+#: linux/modules/gui/qt4/ui/vlm.h:295
 msgid "Time Control"
 msgstr "Aja juhtimine"
 
-#: modules/gui/qt4/ui/vlm.h:296
+#: linux/modules/gui/qt4/ui/vlm.h:296
 msgid "Mux Control"
 msgstr "Muksi juhtimine"
 
-#: modules/gui/qt4/ui/vlm.h:297
+#: linux/modules/gui/qt4/ui/vlm.h:297
 msgid "Muxer:"
 msgstr "Mukser:"
 
-#: modules/gui/qt4/ui/vlm.h:298
+#: linux/modules/gui/qt4/ui/vlm.h:298
 msgid "AAAA; "
 msgstr "AAAA; "
 
-#: modules/gui/qt4/ui/vlm.h:299
+#: linux/modules/gui/qt4/ui/vlm.h:299
 msgid "Loop"
 msgstr "Korduv"
 
-#: modules/gui/qt4/ui/vlm.h:303
+#: linux/modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Meediahalduri loend"
 
