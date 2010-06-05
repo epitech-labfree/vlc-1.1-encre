@@ -169,14 +169,14 @@ static int probe_luascript( vlc_object_t *p_this, const char * psz_filename,
 
     if( !lua_isfunction( L, -1 ) )
     {
-        msg_Warn( p_demux, "Error while runing script %s, "
+        msg_Warn( p_demux, "Error while running script %s, "
                   "function probe() not found", psz_filename );
         goto error;
     }
 
     if( lua_pcall( L, 0, 1, 0 ) )
     {
-        msg_Warn( p_demux, "Error while runing script %s, "
+        msg_Warn( p_demux, "Error while running script %s, "
                   "function probe(): %s", psz_filename,
                   lua_tostring( L, lua_gettop( L ) ) );
         goto error;
@@ -255,7 +255,7 @@ static int Demux( demux_t *p_demux )
 
     if( !lua_isfunction( L, -1 ) )
     {
-        msg_Warn( p_demux, "Error while runing script %s, "
+        msg_Warn( p_demux, "Error while running script %s, "
                   "function parse() not found", psz_filename );
         vlc_object_release( p_input_thread );
         return VLC_EGENERIC;
@@ -263,7 +263,7 @@ static int Demux( demux_t *p_demux )
 
     if( lua_pcall( L, 0, 1, 0 ) )
     {
-        msg_Warn( p_demux, "Error while runing script %s, "
+        msg_Warn( p_demux, "Error while running script %s, "
                   "function parse(): %s", psz_filename,
                   lua_tostring( L, lua_gettop( L ) ) );
         vlc_object_release( p_input_thread );
