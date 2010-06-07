@@ -297,7 +297,7 @@ int (*XSetIOErrorHandler (int (*handler) (Display *))) (Display *)
 
 void *dlopen (const char *path, int flag)
 {
-    if (strstr (path, "/gui_platform/libkde.so"))
+    if (path && strstr (path, "/gui_platform/libkde.so"))
         return NULL; /* Oh no, not that one! */
     return CALL(dlopen, path, flag);
 }
