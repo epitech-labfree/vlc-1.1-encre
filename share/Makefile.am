@@ -247,7 +247,6 @@ nobase_vlclib_DATA = \
 	lua/playlist/vimeo.luac \
 	lua/playlist/youtube.luac \
 	lua/playlist/youtube_homepage.luac \
-	lua/sd/appletrailers.luac \
 	lua/sd/fmc.luac \
 	lua/sd/freebox.luac \
 	lua/sd/frenchtv.luac \
@@ -314,7 +313,6 @@ EXTRA_DIST += \
 	lua/playlist/youtube.lua \
 	lua/playlist/youtube_homepage.lua \
 	lua/sd/README.txt \
-	lua/sd/appletrailers.lua \
 	lua/sd/fmc.lua \
 	lua/sd/freebox.lua \
 	lua/sd/frenchtv.lua \
