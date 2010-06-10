@@ -1078,7 +1078,7 @@ event_thread_t *EventThreadCreate( vout_display_t *vd)
     p_event->button_pressed = 0;
     p_event->psz_title = NULL;
     p_event->source = vd->source;
-    vout_display_PlacePicture(&p_event->place, &vd->source, vd->cfg, true);
+    vout_display_PlacePicture(&p_event->place, &vd->source, vd->cfg, false);
 
     _snprintf( p_event->class_main, sizeof(p_event->class_main)/sizeof(*p_event->class_main),
                _T("VLC MSW %p"), p_event );
