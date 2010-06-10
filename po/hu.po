@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc.hu\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-03 14:55+0200\n"
+"POT-Creation-Date: 2010-06-11 00:45+0200\n"
 "PO-Revision-Date: 2009-10-22 20:38+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
@@ -77,7 +77,7 @@ msgstr "A VLC kezelőfelületeinek beállításai"
 msgid "Hotkeys settings"
 msgstr "Gyorsbillentyűk beállításai"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2850 src/input/es_out.c:2890
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -123,7 +123,7 @@ msgstr "Kimeneti modulok"
 msgid "General settings for audio output modules."
 msgstr "A hangkimeneti modulok általános beállításai."
 
-#: include/vlc_config_cat.h:66 src/libvlc-module.c:2039
+#: include/vlc_config_cat.h:66 src/libvlc-module.c:2042
 #: modules/stream_out/transcode/transcode.c:226
 msgid "Miscellaneous"
 msgstr "Egyéb"
@@ -132,7 +132,7 @@ msgstr "Egyéb"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Egyéb hangbeállítások és modulok."
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2853 src/input/es_out.c:2937
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -247,7 +247,7 @@ msgstr "Általános bemenet"
 msgid "General input settings. Use with care..."
 msgstr "Általános bemeneti beállítások. Óvatosan használja."
 
-#: include/vlc_config_cat.h:124 src/libvlc-module.c:1959
+#: include/vlc_config_cat.h:124 src/libvlc-module.c:1962
 msgid "Stream output"
 msgstr "Műsorkimenet"
 
@@ -356,7 +356,7 @@ msgstr "VOD"
 msgid "VLC's implementation of Video On Demand"
 msgstr "A Video On Demand VLC-féle megvalósítása"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2105
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2108
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:608 modules/gui/qt4/components/controller.hpp:106
@@ -391,7 +391,7 @@ msgstr ""
 "A szolgáltatásfelismerési modulok automatikusan elemeket adnak hozzá a "
 "lejátszólistához."
 
-#: include/vlc_config_cat.h:186 src/libvlc-module.c:1906
+#: include/vlc_config_cat.h:186 src/libvlc-module.c:1909
 msgid "Advanced"
 msgstr "Speciális"
 
@@ -938,8 +938,8 @@ msgstr "Dekódolók"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:704
-#: modules/codec/avcodec/encoder.c:713 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
+#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "A műsorszórás/átkódolás meghiúsult"
@@ -991,116 +991,116 @@ msgstr "Kevert"
 msgid "Yes"
 msgstr "Igen"
 
-#: src/input/es_out.c:2007
+#: src/input/es_out.c:2012
 #, c-format
 msgid "Closed captions %u"
 msgstr "Zárt fejezetek %u"
 
-#: src/input/es_out.c:2835
+#: src/input/es_out.c:2840
 #, c-format
 msgid "Stream %d"
 msgstr "%d. műsor"
 
-#: src/input/es_out.c:2851 src/input/es_out.c:2959
+#: src/input/es_out.c:2856 src/input/es_out.c:2964
 msgid "Subtitle"
 msgstr "Felirat"
 
-#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
-#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2864 src/input/es_out.c:2890 src/input/es_out.c:2937
+#: src/input/es_out.c:2964 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "Típus"
 
-#: src/input/es_out.c:2862
+#: src/input/es_out.c:2867
 msgid "Original ID"
 msgstr "Eredeti azonosító"
 
-#: src/input/es_out.c:2869 src/input/es_out.c:2872
+#: src/input/es_out.c:2874 src/input/es_out.c:2877
 #: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
 #: modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "Kodek"
 
-#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2881 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Nyelv"
 
-#: src/input/es_out.c:2879 src/input/meta.c:57
+#: src/input/es_out.c:2884 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "Leírás"
 
-#: src/input/es_out.c:2888 src/input/es_out.c:2891
+#: src/input/es_out.c:2893 src/input/es_out.c:2896
 #: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "Csatornák"
 
-#: src/input/es_out.c:2896
+#: src/input/es_out.c:2901
 msgid "Sample rate"
 msgstr "Mintavételi frekvencia"
 
-#: src/input/es_out.c:2896
+#: src/input/es_out.c:2901
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 msgid "Bits per sample"
 msgstr "Bitek mintánként"
 
-#: src/input/es_out.c:2911 modules/access/pvr.c:96
+#: src/input/es_out.c:2916 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "Bitsebesség"
 
-#: src/input/es_out.c:2911
+#: src/input/es_out.c:2916
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/mp"
 
-#: src/input/es_out.c:2923
+#: src/input/es_out.c:2928
 msgid "Track replay gain"
 msgstr "Szám visszhangerősítése"
 
-#: src/input/es_out.c:2925
+#: src/input/es_out.c:2930
 msgid "Album replay gain"
 msgstr "Album visszhangerősítése"
 
-#: src/input/es_out.c:2926
+#: src/input/es_out.c:2931
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2935 modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2940 modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "Felbontás"
 
-#: src/input/es_out.c:2940
+#: src/input/es_out.c:2945
 msgid "Display resolution"
 msgstr "Képernyő felbontása"
 
-#: src/input/es_out.c:2950 src/input/es_out.c:2953
+#: src/input/es_out.c:2955 src/input/es_out.c:2958
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "Frissítési sebesség"
 
-#: src/input/input.c:2478
+#: src/input/input.c:2488
 msgid "Your input can't be opened"
 msgstr "A bemenet nem nyitható meg"
 
-#: src/input/input.c:2479
+#: src/input/input.c:2489
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "A VLC nem képes megnyitni a(z) „%s” MRL-t."
 
-#: src/input/input.c:2598
+#: src/input/input.c:2608
 msgid "VLC can't recognize the input's format"
 msgstr "A VLC nem ismerte fel a bemenet formátumát"
 
-#: src/input/input.c:2599
+#: src/input/input.c:2609
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1415,7 +1415,7 @@ msgstr ""
 "Nyomja meg az ENTER-t a folytatáshoz…\n"
 
 #: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
-#: src/libvlc-module.c:2639 src/video_output/vout_intf.c:195
+#: src/libvlc-module.c:2642 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Nagyítás"
 
@@ -1814,7 +1814,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:388
+#: modules/gui/qt4/components/interface_widgets.cpp:296
 msgid "None"
 msgstr "Semmi"
 
@@ -2821,7 +2821,7 @@ msgstr "Alképek engedélyezése"
 msgid "You can completely disable the sub-picture processing."
 msgstr "Teljesen letilthatja az alkép-feldolgozást."
 
-#: src/libvlc-module.c:805 src/libvlc-module.c:1758
+#: src/libvlc-module.c:805 src/libvlc-module.c:1761
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
 #: modules/gui/qt4/ui/sprefs_subtitles.h:201
@@ -4629,7 +4629,7 @@ msgstr "Körbelépkedés a hangeszközökön"
 msgid "Cycle through available audio devices"
 msgstr "Körbelépkedés az elérhető hangeszközökön"
 
-#: src/libvlc-module.c:1683 src/video_output/vout_intf.c:363
+#: src/libvlc-module.c:1686 src/video_output/vout_intf.c:363
 #: modules/gui/macosx/controls.m:494 modules/gui/macosx/controls.m:1086
 #: modules/gui/macosx/intf.m:687 modules/gui/macosx/intf.m:751
 #: modules/gui/qt4/components/controller.hpp:106
@@ -4637,97 +4637,97 @@ msgstr "Körbelépkedés az elérhető hangeszközökön"
 msgid "Snapshot"
 msgstr "Pillanatkép"
 
-#: src/libvlc-module.c:1700
+#: src/libvlc-module.c:1703
 msgid "Window properties"
 msgstr "Ablaktulajdonságok"
 
-#: src/libvlc-module.c:1759
+#: src/libvlc-module.c:1762
 msgid "Subpictures"
 msgstr "Alképek"
 
-#: src/libvlc-module.c:1767 modules/codec/subtitles/subsdec.c:202
+#: src/libvlc-module.c:1770 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
 #: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
 #: modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "Feliratok"
 
-#: src/libvlc-module.c:1785 modules/stream_out/transcode/transcode.c:115
+#: src/libvlc-module.c:1788 modules/stream_out/transcode/transcode.c:115
 msgid "Overlays"
 msgstr "Átfedések"
 
-#: src/libvlc-module.c:1793
+#: src/libvlc-module.c:1796
 msgid "Track settings"
 msgstr "Sávbeállítások"
 
-#: src/libvlc-module.c:1823
+#: src/libvlc-module.c:1826
 msgid "Playback control"
 msgstr "Visszajátszás vezérlése"
 
-#: src/libvlc-module.c:1850
+#: src/libvlc-module.c:1853
 msgid "Default devices"
 msgstr "Alapértelmezett eszközök"
 
-#: src/libvlc-module.c:1859
+#: src/libvlc-module.c:1862
 msgid "Network settings"
 msgstr "Hálózati beállításai"
 
-#: src/libvlc-module.c:1871
+#: src/libvlc-module.c:1874
 msgid "Socks proxy"
 msgstr "Socks proxy"
 
-#: src/libvlc-module.c:1880 modules/demux/kate_categories.c:47
+#: src/libvlc-module.c:1883 modules/demux/kate_categories.c:47
 msgid "Metadata"
 msgstr "Metaadatok"
 
-#: src/libvlc-module.c:1931
+#: src/libvlc-module.c:1934
 msgid "Decoders"
 msgstr "Dekódolók"
 
-#: src/libvlc-module.c:1938 modules/access/v4l2.c:80
+#: src/libvlc-module.c:1941 modules/access/v4l2.c:80
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "Bemenet"
 
-#: src/libvlc-module.c:1977
+#: src/libvlc-module.c:1980
 msgid "VLM"
 msgstr "VLM"
 
-#: src/libvlc-module.c:2009
+#: src/libvlc-module.c:2012
 msgid "CPU"
 msgstr "CPU"
 
-#: src/libvlc-module.c:2038
+#: src/libvlc-module.c:2041
 msgid "Special modules"
 msgstr "Speciális modulok"
 
-#: src/libvlc-module.c:2044 modules/gui/qt4/dialogs/plugins.cpp:66
+#: src/libvlc-module.c:2047 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
 msgstr "Bővítmények"
 
-#: src/libvlc-module.c:2059
+#: src/libvlc-module.c:2062
 msgid "Performance options"
 msgstr "Teljesítménybeállítások"
 
-#: src/libvlc-module.c:2207
+#: src/libvlc-module.c:2210
 msgid "Hot keys"
 msgstr "Gyorsbillentyűk"
 
-#: src/libvlc-module.c:2649
+#: src/libvlc-module.c:2652
 msgid "Jump sizes"
 msgstr "Ugrási méretek"
 
-#: src/libvlc-module.c:2726
+#: src/libvlc-module.c:2729
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 "A VLC súgójának kiírása (kombinálható az --advanced és a --help-verbose "
 "kapcsolókkal)"
 
-#: src/libvlc-module.c:2729
+#: src/libvlc-module.c:2732
 msgid "Exhaustive help for VLC and its modules"
 msgstr "Részletes súgó a VLC-hez és moduljaihoz"
 
-#: src/libvlc-module.c:2731
+#: src/libvlc-module.c:2734
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4735,19 +4735,19 @@ msgstr ""
 "A VLC súgójának és az összes moduljának kiírása (kombinálható az --advanced "
 "és a --help-verbose kapcsolókkal)"
 
-#: src/libvlc-module.c:2734
+#: src/libvlc-module.c:2737
 msgid "ask for extra verbosity when displaying help"
 msgstr "Rákérdezés az extra részletességre a súgó megjelenítésekor"
 
-#: src/libvlc-module.c:2736
+#: src/libvlc-module.c:2739
 msgid "print a list of available modules"
 msgstr "Elérhető modulok kilistázása"
 
-#: src/libvlc-module.c:2738
+#: src/libvlc-module.c:2741
 msgid "print a list of available modules with extra detail"
 msgstr "Az elérhető modulok kilistázása extra részletességgel"
 
-#: src/libvlc-module.c:2740
+#: src/libvlc-module.c:2743
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4756,28 +4756,28 @@ msgstr ""
 "verbose kapcsolókkal). Az = jellel kezdődő modulnév pontos illesztést "
 "eredményez."
 
-#: src/libvlc-module.c:2744
+#: src/libvlc-module.c:2747
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr ""
 "A konfigurációs beállítások nem lesznek sem betöltve, sem fájlba mentve"
 
-#: src/libvlc-module.c:2746
+#: src/libvlc-module.c:2749
 msgid "reset the current config to the default values"
 msgstr "Jelenlegi konfiguráció visszaállítása az alapértelmezett értékekre"
 
-#: src/libvlc-module.c:2748
+#: src/libvlc-module.c:2751
 msgid "use alternate config file"
 msgstr "Alternatív beállítófájl használata"
 
-#: src/libvlc-module.c:2750
+#: src/libvlc-module.c:2753
 msgid "resets the current plugins cache"
 msgstr "Aktuális bővítmény gyorsítótárának visszaállítása"
 
-#: src/libvlc-module.c:2752
+#: src/libvlc-module.c:2755
 msgid "print version information"
 msgstr "Verzióinformációk kiírása"
 
-#: src/libvlc-module.c:2790
+#: src/libvlc-module.c:2793
 msgid "main program"
 msgstr "Főprogram"
 
@@ -6999,7 +6999,7 @@ msgid "Height of the stream to capture (-1 for autodetect)."
 msgstr "A felveendő műsor magassága (-1 esetén automatikus)."
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
-#: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:257
+#: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:264
 #: modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "Fényerő"
@@ -8701,22 +8701,22 @@ msgstr "Portaudio hangkimenet"
 msgid "5.1"
 msgstr "5,1"
 
-#: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
+#: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:809
-#: modules/gui/qt4/main_interface.cpp:813
-#: modules/gui/qt4/main_interface.cpp:853
-#: modules/gui/qt4/main_interface.cpp:855
-#: modules/gui/qt4/main_interface.cpp:923
-#: modules/gui/qt4/main_interface.cpp:940
-#: modules/gui/qt4/main_interface.cpp:947
-#: modules/gui/qt4/main_interface.cpp:970
+#: modules/gui/qt4/main_interface.cpp:865
+#: modules/gui/qt4/main_interface.cpp:869
+#: modules/gui/qt4/main_interface.cpp:909
+#: modules/gui/qt4/main_interface.cpp:911
+#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:996
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1026
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "VLC médialejátszó"
 
-#: modules/audio_output/pulse.c:103
+#: modules/audio_output/pulse.c:104
 msgid "Pulseaudio audio output"
 msgstr "PulseAudio hangkimenet"
 
@@ -9306,7 +9306,7 @@ msgstr ""
 "Ez nem a VLC médialejátszó hibája.\n"
 "A problémával kapcsolatban ne kérje a VLC fejlesztők segítségét.\n"
 
-#: modules/codec/avcodec/encoder.c:705 modules/codec/avcodec/encoder.c:714
+#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
 msgid "VLC could not open the encoder."
 msgstr "A VLC nem tudta megnyitni a kódolót."
 
@@ -12551,11 +12551,11 @@ msgstr ""
 
 #: modules/control/telnet.c:77 modules/gui/macosx/open.m:200
 #: modules/gui/macosx/open.m:202 modules/gui/macosx/output.m:147
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:146
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:198
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:243
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:293
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:386
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:156
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:215
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:260
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:310
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:404
 #: modules/stream_out/rtp.c:112
 msgid "Port"
 msgstr "Port"
@@ -12873,11 +12873,11 @@ msgstr "HTTP alagútport"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "Az RTSP és RTP HTTP feletti alagutaztatásához használandó port."
 
-#: modules/demux/live555.cpp:602
+#: modules/demux/live555.cpp:603
 msgid "RTSP authentication"
 msgstr "RTSP hitelesítés"
 
-#: modules/demux/live555.cpp:603
+#: modules/demux/live555.cpp:604
 msgid "Please enter a valid login name and a password."
 msgstr "Adjon meg egy érvényes bejelentkezési nevet és jelszót."
 
@@ -13555,7 +13555,7 @@ msgstr ""
 
 #: modules/demux/ts.c:160
 msgid ""
-"Separate teletex/dvbs pages into independent ES. It can be usefull to turn "
+"Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
 
@@ -14723,10 +14723,10 @@ msgid "Protocol"
 msgstr "Protokoll"
 
 #: modules/gui/macosx/open.m:211 modules/gui/macosx/output.m:146
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:197
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:292
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:339
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:385
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:214
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:309
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:356
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:403
 msgid "Address"
 msgstr "Cím"
 
@@ -16149,7 +16149,7 @@ msgid ""
 "panel)."
 msgstr ""
 
-#: modules/gui/hildon/maemo.c:62
+#: modules/gui/hildon/maemo.c:63
 msgid "Maemo hildon interface"
 msgstr "Maemo hildon felület"
 
@@ -16810,11 +16810,11 @@ msgstr "Lejátszás"
 msgid "buffers"
 msgstr "Elveszett pufferek"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:386
+#: modules/gui/qt4/components/interface_widgets.cpp:294
 msgid "Current visualization"
 msgstr "Jelenlegi vizualizáció"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:425
+#: modules/gui/qt4/components/interface_widgets.cpp:333
 #, fuzzy
 msgid ""
 "Current playback speed: %1\n"
@@ -16823,20 +16823,20 @@ msgstr ""
 "Aktuális lejátszási sebesség.\n"
 "Kattintson a módosításhoz"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:496
+#: modules/gui/qt4/components/interface_widgets.cpp:404
 msgid "Revert to normal play speed"
 msgstr "Vissza normál lejátszási sebességre"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:570
+#: modules/gui/qt4/components/interface_widgets.cpp:478
 msgid "Download cover art"
 msgstr "Borító letöltése"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:613
+#: modules/gui/qt4/components/interface_widgets.cpp:521
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Váltás az eltelt és hátralévő idő között"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:615
+#: modules/gui/qt4/components/interface_widgets.cpp:523
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "Médiainformációkért kattintson duplán"
@@ -17166,11 +17166,11 @@ msgstr "Kijelölt profil eltávolítása"
 msgid "Create a new profile"
 msgstr "Új profil létrehozása"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:400
+#: modules/gui/qt4/components/sout/profile_selector.cpp:402
 msgid " Profile Name Missing"
 msgstr "A profil neve hiányzik"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:401
+#: modules/gui/qt4/components/sout/profile_selector.cpp:403
 msgid "You must set a name for the profile."
 msgstr "Meg kell adni a profil nevét."
 
@@ -17204,57 +17204,58 @@ msgstr "Ez a modul az átkódolt műsort fájlba menti."
 msgid "Filename"
 msgstr "Fájlnév"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:128
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:138
 #: modules/gui/qt4/dialogs/convert.cpp:111
 msgid "Save file..."
 msgstr "Fájl mentése…"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:129
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#, fuzzy
+msgid ""
+"Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 msgstr "Tárolók (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:141
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:151
 msgid "This module outputs the transcoded stream to a network via HTTP."
 msgstr "Ez a modul az átkódolt műsort HTTP felett kiküldi a hálózatra."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:145
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:242
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:155
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:259
 msgid "Path"
 msgstr "Útvonal"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:193
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:210
 msgid ""
 "This module outputs the transcoded stream to a network  via the mms protocol."
 msgstr "Ez a modul az átkódolt műsort MMS protokollon kiküldi a hálózatra."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:238
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:255
 #, fuzzy
 msgid "This module outputs the transcoded stream to a network via RTSP."
 msgstr "Ez a modul az átkódolt műsort RTP felett kiküldi a hálózatra."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:288
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:305
 msgid "This module outputs the transcoded stream to a network via UDP."
 msgstr "Ez a modul az átkódolt műsort UDP felett kiküldi a hálózatra."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:335
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:352
 msgid "This module outputs the transcoded stream to a network via RTP."
 msgstr "Ez a modul az átkódolt műsort RTP felett kiküldi a hálózatra."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:340
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:357
 #, fuzzy
 msgid "Base port"
 msgstr "CDDP port"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:381
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:399
 msgid "This module outputs the transcoded stream to an Icecast server."
 msgstr "Ez a modul az átkódolt műsort Icecast kiszolgálóra küldi ki."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:402
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:420
 msgid "Mount Point"
 msgstr "Csatolási pont"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:403
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:421
 msgid "Login:pass"
 msgstr "Felhasználónév:jelszó"
 
@@ -17323,6 +17324,10 @@ msgstr "Beállítások"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "In&dítás"
+
+#: modules/gui/qt4/dialogs/convert.cpp:113
+msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+msgstr "Tárolók (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -17993,11 +17998,11 @@ msgstr "Feliratfájlok"
 msgid "All Files"
 msgstr "Minden fájl"
 
-#: modules/gui/qt4/main_interface.cpp:924
+#: modules/gui/qt4/main_interface.cpp:980
 msgid "Control menu for the player"
 msgstr "A lejátszó menüjének vezérlése"
 
-#: modules/gui/qt4/main_interface.cpp:967
+#: modules/gui/qt4/main_interface.cpp:1023
 msgid "Paused"
 msgstr "Szüneteltetve"
 
@@ -21457,104 +21462,117 @@ msgid ""
 "delegate processing to the external process - with more options"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:152
+#: modules/video_filter/atmo/atmo.cpp:153
 msgid "AtmoWin Software"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:154
+#: modules/video_filter/atmo/atmo.cpp:155
 #, fuzzy
 msgid "Classic AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:155
+#: modules/video_filter/atmo/atmo.cpp:156
 #, fuzzy
 msgid "Quattro AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:156
+#: modules/video_filter/atmo/atmo.cpp:157
 msgid "DMX"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:157
+#: modules/video_filter/atmo/atmo.cpp:158
 #, fuzzy
 msgid "MoMoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:160
+#: modules/video_filter/atmo/atmo.cpp:159
+msgid "fnordlicht"
+msgstr ""
+
+#: modules/video_filter/atmo/atmo.cpp:162
 #, fuzzy
 msgid "Count of AtmoLight channels"
 msgstr "Kimeneti csatornák száma"
 
-#: modules/video_filter/atmo/atmo.cpp:161
+#: modules/video_filter/atmo/atmo.cpp:163
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:163
+#: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:164
+#: modules/video_filter/atmo/atmo.cpp:166
 msgid ""
 "Define here the DMX base address for each channel use , or ; to seperate the "
 "values"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:167
+#: modules/video_filter/atmo/atmo.cpp:169
 #, fuzzy
 msgid "Count of channels"
 msgstr "Csatornák száma"
 
-#: modules/video_filter/atmo/atmo.cpp:168
+#: modules/video_filter/atmo/atmo.cpp:170
 msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:178
+#: modules/video_filter/atmo/atmo.cpp:173
+#, fuzzy
+msgid "Count of fnordlicht's"
+msgstr "Csatornák száma"
+
+#: modules/video_filter/atmo/atmo.cpp:174
+msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
+msgstr ""
+
+#: modules/video_filter/atmo/atmo.cpp:185
 msgid "Save Debug Frames"
 msgstr "Hibakeresési képkockák mentése"
 
-#: modules/video_filter/atmo/atmo.cpp:179
+#: modules/video_filter/atmo/atmo.cpp:186
 msgid "Write every 128th miniframe to a folder."
 msgstr "Minden 128. mini képkocka mentése egy mappába."
 
-#: modules/video_filter/atmo/atmo.cpp:180
+#: modules/video_filter/atmo/atmo.cpp:187
 msgid "Debug Frame Folder"
 msgstr "Hibakeresési képkockák mappája"
 
-#: modules/video_filter/atmo/atmo.cpp:181
+#: modules/video_filter/atmo/atmo.cpp:188
 msgid "The path where the debugframes should be saved"
 msgstr "A hibakeresési képkockák mentési útvonala"
 
-#: modules/video_filter/atmo/atmo.cpp:185
+#: modules/video_filter/atmo/atmo.cpp:192
 msgid "Extracted Image Width"
 msgstr "Kinyert kép szélessége"
 
-#: modules/video_filter/atmo/atmo.cpp:186
+#: modules/video_filter/atmo/atmo.cpp:193
 msgid "The width of the mini image for further processing (64 is default)"
 msgstr ""
 "A további feldolgozásra szánt minikép szélessége (az alapértelmezés a 64)"
 
-#: modules/video_filter/atmo/atmo.cpp:189
+#: modules/video_filter/atmo/atmo.cpp:196
 msgid "Extracted Image Height"
 msgstr "Kinyert kép magassága"
 
-#: modules/video_filter/atmo/atmo.cpp:190
+#: modules/video_filter/atmo/atmo.cpp:197
 msgid "The height of the mini image for further processing (48 is default)"
 msgstr ""
 "A további feldolgozásra szánt minikép magassága (az alapértelmezés a 64)"
 
-#: modules/video_filter/atmo/atmo.cpp:193
+#: modules/video_filter/atmo/atmo.cpp:200
 msgid "Mark analyzed pixels"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:194
+#: modules/video_filter/atmo/atmo.cpp:201
 msgid "makes the sample grid visible on screen as white pixels"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:197
+#: modules/video_filter/atmo/atmo.cpp:204
 msgid "Color when paused"
 msgstr "Szüneteltetési szín"
 
-#: modules/video_filter/atmo/atmo.cpp:198
+#: modules/video_filter/atmo/atmo.cpp:205
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
@@ -21562,70 +21580,70 @@ msgstr ""
 "A videó megállításakor megjelenítendő szín beállítása (hasznos a következő "
 "sör beszerzéséhez)."
 
-#: modules/video_filter/atmo/atmo.cpp:201
+#: modules/video_filter/atmo/atmo.cpp:208
 msgid "Pause-Red"
 msgstr "Szüneteltetési vörös"
 
-#: modules/video_filter/atmo/atmo.cpp:202
+#: modules/video_filter/atmo/atmo.cpp:209
 msgid "Red component of the pause color"
 msgstr "A szüneteltetési szín vörös összetevője"
 
-#: modules/video_filter/atmo/atmo.cpp:203
+#: modules/video_filter/atmo/atmo.cpp:210
 msgid "Pause-Green"
 msgstr "Szüneteltetési zöld"
 
-#: modules/video_filter/atmo/atmo.cpp:204
+#: modules/video_filter/atmo/atmo.cpp:211
 msgid "Green component of the pause color"
 msgstr "A szüneteltetési szín zöld összetevője"
 
-#: modules/video_filter/atmo/atmo.cpp:205
+#: modules/video_filter/atmo/atmo.cpp:212
 msgid "Pause-Blue"
 msgstr "Szüneteltetési kék"
 
-#: modules/video_filter/atmo/atmo.cpp:206
+#: modules/video_filter/atmo/atmo.cpp:213
 msgid "Blue component of the pause color"
 msgstr "A szüneteltetési szín kék összetevője"
 
-#: modules/video_filter/atmo/atmo.cpp:207
+#: modules/video_filter/atmo/atmo.cpp:214
 msgid "Pause-Fadesteps"
 msgstr "Szüneteltetési átmenet lépései"
 
-#: modules/video_filter/atmo/atmo.cpp:208
+#: modules/video_filter/atmo/atmo.cpp:215
 msgid ""
 "Number of steps to change current color to pause color (each step takes 40ms)"
 msgstr ""
 "A jelenlegi színről a szüneteltetési színre váltás lépéseinek száma (egy "
 "lépés 40 ms hosszú)"
 
-#: modules/video_filter/atmo/atmo.cpp:211
+#: modules/video_filter/atmo/atmo.cpp:218
 msgid "End-Red"
 msgstr "Befejező vörös"
 
-#: modules/video_filter/atmo/atmo.cpp:212
+#: modules/video_filter/atmo/atmo.cpp:219
 msgid "Red component of the shutdown color"
 msgstr "A leállítási szín vörös összetevője"
 
-#: modules/video_filter/atmo/atmo.cpp:213
+#: modules/video_filter/atmo/atmo.cpp:220
 msgid "End-Green"
 msgstr "Befejező zöld"
 
-#: modules/video_filter/atmo/atmo.cpp:214
+#: modules/video_filter/atmo/atmo.cpp:221
 msgid "Green component of the shutdown color"
 msgstr "A leállítási szín zöld összetevője"
 
-#: modules/video_filter/atmo/atmo.cpp:215
+#: modules/video_filter/atmo/atmo.cpp:222
 msgid "End-Blue"
 msgstr "Befejező kék"
 
-#: modules/video_filter/atmo/atmo.cpp:216
+#: modules/video_filter/atmo/atmo.cpp:223
 msgid "Blue component of the shutdown color"
 msgstr "A leállítási szín kék összetevője"
 
-#: modules/video_filter/atmo/atmo.cpp:217
+#: modules/video_filter/atmo/atmo.cpp:224
 msgid "End-Fadesteps"
 msgstr "Befejező átmenet lépései"
 
-#: modules/video_filter/atmo/atmo.cpp:218
+#: modules/video_filter/atmo/atmo.cpp:225
 msgid ""
 "Number of steps to change current color to end color for dimming up the "
 "light in cinema style... (each step takes 40ms)"
@@ -21633,83 +21651,83 @@ msgstr ""
 "A jelenlegi színről a leállítási színre váltás lépéseinek száma, a fények "
 "mozihoz hasonló felerősítéséhez (egy lépés 40 ms hosszú)"
 
-#: modules/video_filter/atmo/atmo.cpp:222
+#: modules/video_filter/atmo/atmo.cpp:229
 #, fuzzy
 msgid "Number of zones on top"
 msgstr "Klónok száma"
 
-#: modules/video_filter/atmo/atmo.cpp:223
+#: modules/video_filter/atmo/atmo.cpp:230
 #, fuzzy
 msgid "Number of zones on the top of the screen"
 msgstr "A kép tetejéről levágandó képpontok száma."
 
-#: modules/video_filter/atmo/atmo.cpp:224
+#: modules/video_filter/atmo/atmo.cpp:231
 #, fuzzy
 msgid "Number of zones on bottom"
 msgstr "Klónok száma"
 
-#: modules/video_filter/atmo/atmo.cpp:225
+#: modules/video_filter/atmo/atmo.cpp:232
 #, fuzzy
 msgid "Number of zones on the bottom of the screen"
 msgstr "A kép aljáról levágandó képpontok száma."
 
-#: modules/video_filter/atmo/atmo.cpp:226
+#: modules/video_filter/atmo/atmo.cpp:233
 msgid "Zones on left / right side"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:227
+#: modules/video_filter/atmo/atmo.cpp:234
 msgid "left and right side having allways the same number of zones"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:229
+#: modules/video_filter/atmo/atmo.cpp:236
 msgid "Calculate a average zone"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:230
+#: modules/video_filter/atmo/atmo.cpp:237
 msgid ""
 "it contains the average of all pixels in the sample image (only useful for "
 "single channel AtmoLight)"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:235
+#: modules/video_filter/atmo/atmo.cpp:242
 msgid "Use Software White adjust"
 msgstr "Szoftveres fehérigazítás használata"
 
-#: modules/video_filter/atmo/atmo.cpp:236
+#: modules/video_filter/atmo/atmo.cpp:243
 msgid ""
 "Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr ""
 "A beépített illesztőprogram végezze a fehérigazítást vagy a LED csíkok?"
 
-#: modules/video_filter/atmo/atmo.cpp:238
+#: modules/video_filter/atmo/atmo.cpp:245
 msgid "White Red"
 msgstr "Fehér vöröse"
 
-#: modules/video_filter/atmo/atmo.cpp:239
+#: modules/video_filter/atmo/atmo.cpp:246
 msgid "Red value of a pure white on your LED stripes."
 msgstr "A LED csíkok tiszta fehér színének vörös értéke."
 
-#: modules/video_filter/atmo/atmo.cpp:241
+#: modules/video_filter/atmo/atmo.cpp:248
 msgid "White Green"
 msgstr "Fehér zöldje"
 
-#: modules/video_filter/atmo/atmo.cpp:242
+#: modules/video_filter/atmo/atmo.cpp:249
 msgid "Green value of a pure white on your LED stripes."
 msgstr "A LED csíkok tiszta fehér színének zöld értéke."
 
-#: modules/video_filter/atmo/atmo.cpp:244
+#: modules/video_filter/atmo/atmo.cpp:251
 msgid "White Blue"
 msgstr "Fehér kékje"
 
-#: modules/video_filter/atmo/atmo.cpp:245
+#: modules/video_filter/atmo/atmo.cpp:252
 msgid "Blue value of a pure white on your LED stripes."
 msgstr "A LED csíkok tiszta fehér színének kék értéke."
 
-#: modules/video_filter/atmo/atmo.cpp:248
+#: modules/video_filter/atmo/atmo.cpp:255
 msgid "Serial Port/Device"
 msgstr "Soros port/eszköz"
 
-#: modules/video_filter/atmo/atmo.cpp:249
+#: modules/video_filter/atmo/atmo.cpp:256
 msgid ""
 "Name of the serial port where the AtmoLight controller is attached to.\n"
 "On Windows usually something like COM1 or COM2. On Linux /dev/ttyS01 f.e."
@@ -21718,26 +21736,26 @@ msgstr ""
 "Windows rendszeren ez általában a COM1 vagy COM2, Linux rendszeren például /"
 "dev/ttyS01."
 
-#: modules/video_filter/atmo/atmo.cpp:254
+#: modules/video_filter/atmo/atmo.cpp:261
 msgid "Edge Weightning"
 msgstr "Szélek súlyozása"
 
-#: modules/video_filter/atmo/atmo.cpp:255
+#: modules/video_filter/atmo/atmo.cpp:262
 msgid ""
 "Increasing this value will result in color more depending on the border of "
 "the frame."
 msgstr ""
 "Ezen érték növelése a színt a képkocka szegélyétől jobban függővé teszi."
 
-#: modules/video_filter/atmo/atmo.cpp:258
+#: modules/video_filter/atmo/atmo.cpp:265
 msgid "Overall brightness of your LED stripes"
 msgstr "A LED csíkok általános fényereje"
 
-#: modules/video_filter/atmo/atmo.cpp:259
+#: modules/video_filter/atmo/atmo.cpp:266
 msgid "Darkness Limit"
 msgstr "Sötétségi limit"
 
-#: modules/video_filter/atmo/atmo.cpp:260
+#: modules/video_filter/atmo/atmo.cpp:267
 msgid ""
 "Pixels with a saturation lower than this will be ignored. Should be greater "
 "than one for letterboxed videos."
@@ -21745,74 +21763,74 @@ msgstr ""
 "Az ennél kisebb telítettségű képpontok figyelmen kívül maradnak. Egynél "
 "nagyobbnak kell lennie „postaláda” videók esetén."
 
-#: modules/video_filter/atmo/atmo.cpp:263
+#: modules/video_filter/atmo/atmo.cpp:270
 msgid "Hue windowing"
 msgstr "Árnyalatablak"
 
-#: modules/video_filter/atmo/atmo.cpp:264
-#: modules/video_filter/atmo/atmo.cpp:266
+#: modules/video_filter/atmo/atmo.cpp:271
+#: modules/video_filter/atmo/atmo.cpp:273
 msgid "Used for statistics."
 msgstr "Statisztikákhoz használatos."
 
-#: modules/video_filter/atmo/atmo.cpp:265
+#: modules/video_filter/atmo/atmo.cpp:272
 msgid "Sat windowing"
 msgstr "Telítettségablak"
 
-#: modules/video_filter/atmo/atmo.cpp:268
+#: modules/video_filter/atmo/atmo.cpp:275
 #: modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "Szűrés hossza (em)"
 
-#: modules/video_filter/atmo/atmo.cpp:269
+#: modules/video_filter/atmo/atmo.cpp:276
 msgid ""
 "Time it takes until a color is completely changed. This prevents flickering."
 msgstr ""
 "Egy szín teljes kicserélődéséig eltelő idő. Ez megakadályozza a villogást."
 
-#: modules/video_filter/atmo/atmo.cpp:271
+#: modules/video_filter/atmo/atmo.cpp:278
 msgid "Filter threshold"
 msgstr "Szűrési küszöb"
 
-#: modules/video_filter/atmo/atmo.cpp:272
+#: modules/video_filter/atmo/atmo.cpp:279
 msgid "How much a color has to be changed for an immediate color change."
 msgstr "Mennyire változik meg egy szín köztes színváltás esetén."
 
-#: modules/video_filter/atmo/atmo.cpp:274
+#: modules/video_filter/atmo/atmo.cpp:281
 msgid "Filter Smoothness (in %)"
 msgstr "Szűrés lágysága (százalékban)"
 
-#: modules/video_filter/atmo/atmo.cpp:275
+#: modules/video_filter/atmo/atmo.cpp:282
 msgid "Filter Smoothness"
 msgstr "Szűrés lágysága"
 
-#: modules/video_filter/atmo/atmo.cpp:277
+#: modules/video_filter/atmo/atmo.cpp:284
 #, fuzzy
 msgid "Output Color filter mode"
 msgstr "Videokimenet-szűrő modul"
 
-#: modules/video_filter/atmo/atmo.cpp:278
+#: modules/video_filter/atmo/atmo.cpp:285
 msgid ""
 "defines the how the output color should be calculated based on previous color"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:287
+#: modules/video_filter/atmo/atmo.cpp:294
 msgid "No Filtering"
 msgstr "Nincs szűrés"
 
-#: modules/video_filter/atmo/atmo.cpp:288
+#: modules/video_filter/atmo/atmo.cpp:295
 msgid "Combined"
 msgstr "Kombinált"
 
-#: modules/video_filter/atmo/atmo.cpp:289
+#: modules/video_filter/atmo/atmo.cpp:296
 msgid "Percent"
 msgstr "Százalék"
 
-#: modules/video_filter/atmo/atmo.cpp:292
+#: modules/video_filter/atmo/atmo.cpp:299
 #, fuzzy
 msgid "Frame delay (ms)"
 msgstr "Képkocka-késleltetés"
 
-#: modules/video_filter/atmo/atmo.cpp:293
+#: modules/video_filter/atmo/atmo.cpp:300
 msgid ""
 "Helps to get the video output and the light effects in sync. Values around "
 "20ms should do the trick."
@@ -21820,71 +21838,71 @@ msgstr ""
 "Segíti a videokimenet és fényhatások szinkronizálását. A 20 ezredmásodperc "
 "körüli értékek megfelelőek."
 
-#: modules/video_filter/atmo/atmo.cpp:298
+#: modules/video_filter/atmo/atmo.cpp:305
 #, fuzzy
 msgid "Channel 0: summary"
 msgstr "Csatornaösszegzés"
 
-#: modules/video_filter/atmo/atmo.cpp:299
+#: modules/video_filter/atmo/atmo.cpp:306
 #, fuzzy
 msgid "Channel 1: left"
 msgstr "Bal csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:300
+#: modules/video_filter/atmo/atmo.cpp:307
 #, fuzzy
 msgid "Channel 2: right"
 msgstr "Jobb csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:301
+#: modules/video_filter/atmo/atmo.cpp:308
 #, fuzzy
 msgid "Channel 3: top"
 msgstr "Felső csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:302
+#: modules/video_filter/atmo/atmo.cpp:309
 #, fuzzy
 msgid "Channel 4: bottom"
 msgstr "Alsó csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:304
+#: modules/video_filter/atmo/atmo.cpp:311
 #, fuzzy
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
 msgstr ""
 "Az X hardvercsatornát leképezi az Y logikai csatornára a hibás kábelezés "
 "javításához :-)"
 
-#: modules/video_filter/atmo/atmo.cpp:315
+#: modules/video_filter/atmo/atmo.cpp:322
 msgid "disabled"
 msgstr "letiltva"
 
-#: modules/video_filter/atmo/atmo.cpp:316
+#: modules/video_filter/atmo/atmo.cpp:323
 #, fuzzy
 msgid "Zone 4:summary"
 msgstr "Csatornaösszegzés"
 
-#: modules/video_filter/atmo/atmo.cpp:317
+#: modules/video_filter/atmo/atmo.cpp:324
 #, fuzzy
 msgid "Zone 3:left"
 msgstr "Bal csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:318
+#: modules/video_filter/atmo/atmo.cpp:325
 #, fuzzy
 msgid "Zone 1:right"
 msgstr "Jobb csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:319
+#: modules/video_filter/atmo/atmo.cpp:326
 msgid "Zone 0:top"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:320
+#: modules/video_filter/atmo/atmo.cpp:327
 #, fuzzy
 msgid "Zone 2:bottom"
 msgstr "Alsó csatorna"
 
-#: modules/video_filter/atmo/atmo.cpp:322
+#: modules/video_filter/atmo/atmo.cpp:329
 msgid "Channel / Zone Assignment"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:323
+#: modules/video_filter/atmo/atmo.cpp:330
 msgid ""
 "for devices with more than five channels / zones write down here for each "
 "channel the zone number to show and seperate the values with , or ; and use "
@@ -21894,55 +21912,55 @@ msgid ""
 "classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:333
+#: modules/video_filter/atmo/atmo.cpp:340
 #, fuzzy
 msgid "Zone 0: Top gradient"
 msgstr "Felső átmenet"
 
-#: modules/video_filter/atmo/atmo.cpp:334
+#: modules/video_filter/atmo/atmo.cpp:341
 #, fuzzy
 msgid "Zone 1: Right gradient"
 msgstr "Jobb átmenet"
 
-#: modules/video_filter/atmo/atmo.cpp:335
+#: modules/video_filter/atmo/atmo.cpp:342
 #, fuzzy
 msgid "Zone 2: Bottom gradient"
 msgstr "Alsó átmenet"
 
-#: modules/video_filter/atmo/atmo.cpp:336
+#: modules/video_filter/atmo/atmo.cpp:343
 #, fuzzy
 msgid "Zone 3: Left gradient"
 msgstr "Bal átmenet"
 
-#: modules/video_filter/atmo/atmo.cpp:337
+#: modules/video_filter/atmo/atmo.cpp:344
 #, fuzzy
 msgid "Zone 4: Summary gradient"
 msgstr "Átmenet összegzése"
 
-#: modules/video_filter/atmo/atmo.cpp:338
+#: modules/video_filter/atmo/atmo.cpp:345
 msgid ""
 "Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
 msgstr ""
 "Egy kis, 64x48 képpontos bitképet ad meg, amely szürkeskálás átmenetet "
 "tartalmaz"
 
-#: modules/video_filter/atmo/atmo.cpp:341
+#: modules/video_filter/atmo/atmo.cpp:348
 #, fuzzy
 msgid "Gradient bitmap searchpath"
 msgstr "Átmenet képtípusa"
 
-#: modules/video_filter/atmo/atmo.cpp:342
+#: modules/video_filter/atmo/atmo.cpp:349
 msgid ""
 "Now prefered option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:347
+#: modules/video_filter/atmo/atmo.cpp:354
 #, fuzzy
 msgid "Filename of AtmoWin*.exe"
 msgstr "Az AtmoWinA.exe fájl neve"
 
-#: modules/video_filter/atmo/atmo.cpp:348
+#: modules/video_filter/atmo/atmo.cpp:355
 msgid ""
 "if you want the AtmoLight control software to be launched by VLC, enter the "
 "complete path of AtmoWinA.exe here."
@@ -21950,55 +21968,60 @@ msgstr ""
 "Ha szeretné, hogy a VLC indítsa el az AtmoLight vezérlőszoftverét, akkor itt "
 "adja meg az AtmoWinA.exe teljes útvonalát."
 
-#: modules/video_filter/atmo/atmo.cpp:359
+#: modules/video_filter/atmo/atmo.cpp:366
 msgid "AtmoLight Filter"
 msgstr "AtmoLight szűrő"
 
-#: modules/video_filter/atmo/atmo.cpp:361
+#: modules/video_filter/atmo/atmo.cpp:368
 #: modules/gui/qt4/ui/video_effects.h:1153
 #: modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:368
+#: modules/video_filter/atmo/atmo.cpp:375
 msgid "Choose Devicetype and Connection"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:393
+#: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
 msgstr "A szoba megvilágítása szüneteltetéskor ezzel a színnel"
 
-#: modules/video_filter/atmo/atmo.cpp:409
+#: modules/video_filter/atmo/atmo.cpp:416
 msgid "Illuminate the room with this color on shutdown"
 msgstr "A szoba megvilágítása leállításkor ezzel a színnel"
 
-#: modules/video_filter/atmo/atmo.cpp:420
+#: modules/video_filter/atmo/atmo.cpp:427
 #, fuzzy
 msgid "DMX options"
 msgstr "Beállítások"
 
-#: modules/video_filter/atmo/atmo.cpp:426
+#: modules/video_filter/atmo/atmo.cpp:433
 #, fuzzy
 msgid "MoMoLight options"
 msgstr "Beállítások"
 
-#: modules/video_filter/atmo/atmo.cpp:468
+#: modules/video_filter/atmo/atmo.cpp:440
+#, fuzzy
+msgid "fnordlicht options"
+msgstr "Beállítások"
+
+#: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:484
+#: modules/video_filter/atmo/atmo.cpp:498
 msgid "Settings for the built-in Live Video Processor only"
 msgstr "Csak a beépített Élő videofeldolgozó beállításai"
 
-#: modules/video_filter/atmo/atmo.cpp:521
+#: modules/video_filter/atmo/atmo.cpp:535
 msgid "Change channel assignment (fixes wrong wiring)"
 msgstr "Csatornatársítás módosítása (kijavítja a rossz kábelezést)"
 
-#: modules/video_filter/atmo/atmo.cpp:554
+#: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
 msgstr "A LED csíkok fehér fényének módosítása"
 
-#: modules/video_filter/atmo/atmo.cpp:576
+#: modules/video_filter/atmo/atmo.cpp:590
 msgid "Change gradients"
 msgstr "Átmenetek módosítása"
 
@@ -24108,7 +24131,7 @@ msgstr ""
 msgid "Direct3D video output"
 msgstr "DirectX 3D videokimenet"
 
-#: modules/video_output/msw/direct3d.c:175
+#: modules/video_output/msw/direct3d.c:164
 #, fuzzy
 msgid "Desktop"
 msgstr "fent"
@@ -24178,7 +24201,7 @@ msgstr ""
 msgid "DirectX (DirectDraw) video output"
 msgstr "DirectX 3D videokimenet"
 
-#: modules/video_output/msw/directx.c:233
+#: modules/video_output/msw/directx.c:222
 msgid "Wallpaper"
 msgstr "Háttérkép"
 
@@ -24315,11 +24338,11 @@ msgstr "Videomemória-kimenet"
 msgid "Video memory"
 msgstr "Videomemória"
 
-#: modules/video_output/xcb/glx.c:50
+#: modules/video_output/xcb/glx.c:51
 msgid "GLX"
 msgstr ""
 
-#: modules/video_output/xcb/glx.c:51
+#: modules/video_output/xcb/glx.c:52
 #, fuzzy
 msgid "GLX video output (XCB)"
 msgstr "X11 videokimenet"

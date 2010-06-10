@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: km-010410\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-03 14:55+0200\n"
+"POT-Creation-Date: 2010-06-11 00:45+0200\n"
 "PO-Revision-Date: 2010-04-07 09:04+0700\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -75,7 +75,7 @@ msgstr "ការ​កំណត់​សម្រាប់​ចំណុច​
 msgid "Hotkeys settings"
 msgstr "ការ​កំណត់​គ្រាប់ចុច​រហ័ស"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2850 src/input/es_out.c:2890
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -121,7 +121,7 @@ msgstr "ម៉ូឌុល​បង្ហាញ"
 msgid "General settings for audio output modules."
 msgstr "ការ​កំណត់​ទូទៅ​សម្រាប់​ម៉ូឌុល​លទ្ធផល​អូឌីយ៉ូ ។"
 
-#: include/vlc_config_cat.h:66 src/libvlc-module.c:2039
+#: include/vlc_config_cat.h:66 src/libvlc-module.c:2042
 #: modules/stream_out/transcode/transcode.c:226
 msgid "Miscellaneous"
 msgstr "ផ្សេងៗ"
@@ -130,7 +130,7 @@ msgstr "ផ្សេងៗ"
 msgid "Miscellaneous audio settings and modules."
 msgstr "ម៉ូឌុល និង​ការ​កំណត់​អូឌីយ៉ូ​ផ្សេងៗ ។"
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2853 src/input/es_out.c:2937
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -239,7 +239,7 @@ msgstr "ការ​បញ្ចូល​ទូទៅ"
 msgid "General input settings. Use with care..."
 msgstr "កា​រកំណត់​បញ្ចូល​ទូទៅ ។ ប្រើ​ដោយ​ប្រុងប្រយ័ត្ន..."
 
-#: include/vlc_config_cat.h:124 src/libvlc-module.c:1959
+#: include/vlc_config_cat.h:124 src/libvlc-module.c:1962
 msgid "Stream output"
 msgstr "លទ្ធផល​ស្ទ្រីម"
 
@@ -341,7 +341,7 @@ msgstr "VOD"
 msgid "VLC's implementation of Video On Demand"
 msgstr "ការ​ប្រតិបត្តិ​របស់ VLC របស់​វីដេអូ​នៅពេល​ដែល​ត្រូវការ"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2105
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2108
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:608 modules/gui/qt4/components/controller.hpp:106
@@ -373,7 +373,7 @@ msgid ""
 "playlist."
 msgstr "ម៉ូឌុល​ការ​រុករក​សេវា គឺ​ងាយស្រួល​ត្រង់ថា​បន្ថែម​ធាតុ​ដោយ​ស្វ័យប្រវត្តិ​ទៅកាន់​បញ្ជី​ចាក់ ។"
 
-#: include/vlc_config_cat.h:186 src/libvlc-module.c:1906
+#: include/vlc_config_cat.h:186 src/libvlc-module.c:1909
 msgid "Advanced"
 msgstr "កម្រិត​ខ្ពស់"
 
@@ -897,8 +897,8 @@ msgstr "ឌិកូឌ័រ"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:704
-#: modules/codec/avcodec/encoder.c:713 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
+#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "បរាជ័យ​ក្នុងការ​ស្ទ្រីម / Transcoding"
@@ -950,116 +950,116 @@ msgstr "បាន​ច្របល់"
 msgid "Yes"
 msgstr "បាទ/ចាស"
 
-#: src/input/es_out.c:2007
+#: src/input/es_out.c:2012
 #, c-format
 msgid "Closed captions %u"
 msgstr "ចំណង​ជើង​ដែល​បា​បិទ %u"
 
-#: src/input/es_out.c:2835
+#: src/input/es_out.c:2840
 #, c-format
 msgid "Stream %d"
 msgstr "ស្ទ្រីម %d"
 
-#: src/input/es_out.c:2851 src/input/es_out.c:2959
+#: src/input/es_out.c:2856 src/input/es_out.c:2964
 msgid "Subtitle"
 msgstr "ចំណង​ជើង​រង"
 
-#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
-#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2864 src/input/es_out.c:2890 src/input/es_out.c:2937
+#: src/input/es_out.c:2964 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "ប្រភេទ"
 
-#: src/input/es_out.c:2862
+#: src/input/es_out.c:2867
 msgid "Original ID"
 msgstr "លេខ​សម្គាល់​ដើម"
 
-#: src/input/es_out.c:2869 src/input/es_out.c:2872
+#: src/input/es_out.c:2874 src/input/es_out.c:2877
 #: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
 #: modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "កូដិក"
 
-#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2881 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "ភាសា"
 
-#: src/input/es_out.c:2879 src/input/meta.c:57
+#: src/input/es_out.c:2884 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "សេចក្ដី​ពិពណ៌នា"
 
-#: src/input/es_out.c:2888 src/input/es_out.c:2891
+#: src/input/es_out.c:2893 src/input/es_out.c:2896
 #: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "ឆានែល"
 
-#: src/input/es_out.c:2896
+#: src/input/es_out.c:2901
 msgid "Sample rate"
 msgstr "អាត្រា​គំរូ"
 
-#: src/input/es_out.c:2896
+#: src/input/es_out.c:2901
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 msgid "Bits per sample"
 msgstr "ប៊ីត ក្នុង​មួយ​គំរូ"
 
-#: src/input/es_out.c:2911 modules/access/pvr.c:96
+#: src/input/es_out.c:2916 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "អត្រា​​ប៊ីត"
 
-#: src/input/es_out.c:2911
+#: src/input/es_out.c:2916
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/s"
 
-#: src/input/es_out.c:2923
+#: src/input/es_out.c:2928
 msgid "Track replay gain"
 msgstr "ចាក់​បទ​ម្ដង​ទៀត"
 
-#: src/input/es_out.c:2925
+#: src/input/es_out.c:2930
 msgid "Album replay gain"
 msgstr "ចាក់​អាល់ប៊ុម​ម្ដង​ទៀត"
 
-#: src/input/es_out.c:2926
+#: src/input/es_out.c:2931
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2935 modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2940 modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "គុណភាព​បង្ហាញ"
 
-#: src/input/es_out.c:2940
+#: src/input/es_out.c:2945
 msgid "Display resolution"
 msgstr "គុណភាព​បង្ហាញ"
 
-#: src/input/es_out.c:2950 src/input/es_out.c:2953
+#: src/input/es_out.c:2955 src/input/es_out.c:2958
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "អត្រា​ស៊ុម"
 
-#: src/input/input.c:2478
+#: src/input/input.c:2488
 msgid "Your input can't be opened"
 msgstr "មិនអាច​បើក​ព័ត៌មាន​បញ្ចូល​របស់​អ្នក​បានទេ"
 
-#: src/input/input.c:2479
+#: src/input/input.c:2489
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr "VLC មិនអាច​បើក MRL '%s' ។ ពិនិត្យ​មើល​កំណត់ហេតុ​សម្រាប់​សេចក្ដី​លម្អិត ។"
 
-#: src/input/input.c:2598
+#: src/input/input.c:2608
 msgid "VLC can't recognize the input's format"
 msgstr "VLC មិនអាច​​ទទួល​ស្គាល់​ទ្រង់ទ្រាយ​​របស់​ព័ត៌មាន​បញ្ចូល"
 
-#: src/input/input.c:2599
+#: src/input/input.c:2609
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1365,7 +1365,7 @@ msgstr ""
 "ចុច​គ្រាប់ចុច​ត្រឡប់ (RETURN) ដើម្បី​បន្ត...\n"
 
 #: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
-#: src/libvlc-module.c:2639 src/video_output/vout_intf.c:195
+#: src/libvlc-module.c:2642 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "ពង្រីក"
 
@@ -1742,7 +1742,7 @@ msgstr "វា​អនុញ្ញាត​ឲ្យ​បង្ហាញ​អ
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:388
+#: modules/gui/qt4/components/interface_widgets.cpp:296
 msgid "None"
 msgstr "គ្មាន"
 
@@ -2688,7 +2688,7 @@ msgstr "បើក​រូបភាព​រង"
 msgid "You can completely disable the sub-picture processing."
 msgstr "អ្នក​អាច​បិទ​ដំណើរការ​រូបភាព​រង​ទាំងស្រុង ។"
 
-#: src/libvlc-module.c:805 src/libvlc-module.c:1758
+#: src/libvlc-module.c:805 src/libvlc-module.c:1761
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
 #: modules/gui/qt4/ui/sprefs_subtitles.h:201
@@ -4378,7 +4378,7 @@ msgstr "រង្វិល​តាម​ឧបករណ៍​អូឌីយ៉
 msgid "Cycle through available audio devices"
 msgstr "រង្វិល​តាម​ឧបករណ៍​អូឌីយ៉ូ​ដែល​មាន"
 
-#: src/libvlc-module.c:1683 src/video_output/vout_intf.c:363
+#: src/libvlc-module.c:1686 src/video_output/vout_intf.c:363
 #: modules/gui/macosx/controls.m:494 modules/gui/macosx/controls.m:1086
 #: modules/gui/macosx/intf.m:687 modules/gui/macosx/intf.m:751
 #: modules/gui/qt4/components/controller.hpp:106
@@ -4386,114 +4386,114 @@ msgstr "រង្វិល​តាម​ឧបករណ៍​អូឌីយ៉
 msgid "Snapshot"
 msgstr "រូបភាព"
 
-#: src/libvlc-module.c:1700
+#: src/libvlc-module.c:1703
 msgid "Window properties"
 msgstr "លក្ខណៈសម្បត្តិ​បង្អួច"
 
-#: src/libvlc-module.c:1759
+#: src/libvlc-module.c:1762
 msgid "Subpictures"
 msgstr "រូបភាព​រង"
 
-#: src/libvlc-module.c:1767 modules/codec/subtitles/subsdec.c:202
+#: src/libvlc-module.c:1770 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
 #: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
 #: modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "ចំណង​ជើង​រង"
 
-#: src/libvlc-module.c:1785 modules/stream_out/transcode/transcode.c:115
+#: src/libvlc-module.c:1788 modules/stream_out/transcode/transcode.c:115
 msgid "Overlays"
 msgstr "ត្រួត​គ្នា"
 
-#: src/libvlc-module.c:1793
+#: src/libvlc-module.c:1796
 msgid "Track settings"
 msgstr "ការ​កំណត់​បទ"
 
-#: src/libvlc-module.c:1823
+#: src/libvlc-module.c:1826
 msgid "Playback control"
 msgstr "ការ​គ្រប់គ្រង​ការ​ចាក់​ឡើងវិញ"
 
-#: src/libvlc-module.c:1850
+#: src/libvlc-module.c:1853
 msgid "Default devices"
 msgstr "ឧបករណ៍​លំនាំដើម"
 
-#: src/libvlc-module.c:1859
+#: src/libvlc-module.c:1862
 msgid "Network settings"
 msgstr "ការ​កំណត់​បណ្ដាញ"
 
-#: src/libvlc-module.c:1871
+#: src/libvlc-module.c:1874
 msgid "Socks proxy"
 msgstr "ប្រូកស៊ី​របស់​រន្ធ"
 
-#: src/libvlc-module.c:1880 modules/demux/kate_categories.c:47
+#: src/libvlc-module.c:1883 modules/demux/kate_categories.c:47
 msgid "Metadata"
 msgstr "ទិន្នន័យ​មេតា"
 
-#: src/libvlc-module.c:1931
+#: src/libvlc-module.c:1934
 msgid "Decoders"
 msgstr "ឌិកូឌ័រ"
 
-#: src/libvlc-module.c:1938 modules/access/v4l2.c:80
+#: src/libvlc-module.c:1941 modules/access/v4l2.c:80
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "បញ្ចូល"
 
-#: src/libvlc-module.c:1977
+#: src/libvlc-module.c:1980
 msgid "VLM"
 msgstr "VLM"
 
-#: src/libvlc-module.c:2009
+#: src/libvlc-module.c:2012
 msgid "CPU"
 msgstr "ស៊ីភីយូ"
 
-#: src/libvlc-module.c:2038
+#: src/libvlc-module.c:2041
 msgid "Special modules"
 msgstr "ម៉ូឌុល​ពិសេស"
 
-#: src/libvlc-module.c:2044 modules/gui/qt4/dialogs/plugins.cpp:66
+#: src/libvlc-module.c:2047 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
 msgstr "កម្មវិធី​ជំនួយ"
 
-#: src/libvlc-module.c:2059
+#: src/libvlc-module.c:2062
 msgid "Performance options"
 msgstr "ជម្រើស​ដំណើរការ"
 
-#: src/libvlc-module.c:2207
+#: src/libvlc-module.c:2210
 msgid "Hot keys"
 msgstr "គ្រាប់ចុច​រហ័ស"
 
-#: src/libvlc-module.c:2649
+#: src/libvlc-module.c:2652
 msgid "Jump sizes"
 msgstr "ទំហំ​លោត"
 
-#: src/libvlc-module.c:2726
+#: src/libvlc-module.c:2729
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr "បោះពុម្ព​ជំនួយ​សម្រាប់ VLC (អាច​បន្សំ​ជាមួយ​នឹង --advanced និង --help-verbose)"
 
-#: src/libvlc-module.c:2729
+#: src/libvlc-module.c:2732
 msgid "Exhaustive help for VLC and its modules"
 msgstr "ជំនួយ​យ៉ាង​ច្បាស់លាស់​សម្រាប់ VLC និង​ម៉ូឌុល​របស់​វា"
 
-#: src/libvlc-module.c:2731
+#: src/libvlc-module.c:2734
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
 msgstr ""
 "បោះពុម្ព​ជំនួយ​សម្រាប់ VLC និង​ម៉ូឌុល​របស់​វា​ទាំងអស់ (អាច​បន្សំ​ជាមួយ --advanced និង --help-verbose)"
 
-#: src/libvlc-module.c:2734
+#: src/libvlc-module.c:2737
 msgid "ask for extra verbosity when displaying help"
 msgstr "សួរ​រក​ភាព​ស្រអាប់​បន្ថែម​នៅពេល​បង្ហាញ​ជំនួយ"
 
-#: src/libvlc-module.c:2736
+#: src/libvlc-module.c:2739
 msgid "print a list of available modules"
 msgstr "បោះពុម្ព​បញ្ជី​ម៉ូឌុល​ដែល​មាន"
 
-#: src/libvlc-module.c:2738
+#: src/libvlc-module.c:2741
 msgid "print a list of available modules with extra detail"
 msgstr "បោះពុម្ព​បញ្ជី​ម៉ូឌុល​ដែល​មាន រួម​ទាំង​សេចក្ដី​លម្អិត​បន្ថែម"
 
-#: src/libvlc-module.c:2740
+#: src/libvlc-module.c:2743
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4501,27 +4501,27 @@ msgstr ""
 "បោះពុម្ព​ជំនួយ​​លើ​ម៉ូឌុល​ជាក់លាក់ (អាច​ត្រូវ​បានផ្សំ​ជា​មួយ --advanced និង --help-verbose) ។ ដាក់​"
 "បុព្វបទ​ឈ្មោះ​ម៉ូឌុល​ជា​មួយ​នឹង = សម្រាប់ការ​ផ្គូផ្គង​ជាក់លាក់ ។"
 
-#: src/libvlc-module.c:2744
+#: src/libvlc-module.c:2747
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr "គ្មាន​ជម្រើស​កំណត់​រចនា​សម្ព័ន្ធ​ដែល​នឹង​ត្រូវ​បាន​ផ្ទុក ឬ​រក្សាទុក​ទៅកាន់​ឯកសារ​កំណត់​រចនា​សម្ព័ន្ធ​នោះ​ទេ"
 
-#: src/libvlc-module.c:2746
+#: src/libvlc-module.c:2749
 msgid "reset the current config to the default values"
 msgstr "កំណត់​ឯកសារ​កំណត់​រចនា​សម្ព័ន្ធ​បច្ចុប្បន្ន​ឡើងវិញ​ទៅ​កាន់​តម្លៃ​លំនាំដើម"
 
-#: src/libvlc-module.c:2748
+#: src/libvlc-module.c:2751
 msgid "use alternate config file"
 msgstr "ប្រើ​ឯកសារ​កំណត់​រចនា​សម្ព័ន្ធ​ឆ្លាស់"
 
-#: src/libvlc-module.c:2750
+#: src/libvlc-module.c:2753
 msgid "resets the current plugins cache"
 msgstr "កំណត់​ឃ្លាំង​កម្មវិធី​ជំនួយ​បច្ចុប្បន្ន​ឡើងវិញ"
 
-#: src/libvlc-module.c:2752
+#: src/libvlc-module.c:2755
 msgid "print version information"
 msgstr "ព័ត៌មាន​កំណែ​បោះពុម្ព"
 
-#: src/libvlc-module.c:2790
+#: src/libvlc-module.c:2793
 msgid "main program"
 msgstr "កម្មវិធី​គោល"
 
@@ -6614,7 +6614,7 @@ msgid "Height of the stream to capture (-1 for autodetect)."
 msgstr "កម្ពស់​របស់​ស្ទ្រីម​ដែល​ត្រូវ​ចាប់យក (-1 សម្រាប់​ការ​រកឃើញ​ស្វ័យប្រវត្តិ) ។"
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
-#: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:257
+#: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:264
 #: modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "ពន្លឺ"
@@ -8261,22 +8261,22 @@ msgstr "លទ្ធផល​អូឌីយ៉ូ PORTAUDIO"
 msgid "5.1"
 msgstr "5.1"
 
-#: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
+#: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:809
-#: modules/gui/qt4/main_interface.cpp:813
-#: modules/gui/qt4/main_interface.cpp:853
-#: modules/gui/qt4/main_interface.cpp:855
-#: modules/gui/qt4/main_interface.cpp:923
-#: modules/gui/qt4/main_interface.cpp:940
-#: modules/gui/qt4/main_interface.cpp:947
-#: modules/gui/qt4/main_interface.cpp:970
+#: modules/gui/qt4/main_interface.cpp:865
+#: modules/gui/qt4/main_interface.cpp:869
+#: modules/gui/qt4/main_interface.cpp:909
+#: modules/gui/qt4/main_interface.cpp:911
+#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:996
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1026
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "កម្មវិធី​ចាក់​មេឌៀ VLC"
 
-#: modules/audio_output/pulse.c:103
+#: modules/audio_output/pulse.c:104
 msgid "Pulseaudio audio output"
 msgstr "លទ្ធផល​អូឌីយ៉ូ Pulseaudio"
 
@@ -8837,7 +8837,7 @@ msgstr ""
 "វា​មិនមែន​ជា​កំហុស​នៅ​ក្នុង​កម្មវិធី​ចាក់​មេឌៀ VLC ។\n"
 "សូម​កុំ​ទាក់ទង​ទៅកាន់​គម្រោង VideoLAN នេះ អំពី​បញ្ហា​នេះ​អី ។\n"
 
-#: modules/codec/avcodec/encoder.c:705 modules/codec/avcodec/encoder.c:714
+#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
 msgid "VLC could not open the encoder."
 msgstr "VLC មិនអាច​បើក​អ៊ិនកូឌ័រ​បានទេ ។"
 
@@ -11976,11 +11976,11 @@ msgstr ""
 
 #: modules/control/telnet.c:77 modules/gui/macosx/open.m:200
 #: modules/gui/macosx/open.m:202 modules/gui/macosx/output.m:147
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:146
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:198
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:243
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:293
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:386
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:156
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:215
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:260
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:310
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:404
 #: modules/stream_out/rtp.c:112
 msgid "Port"
 msgstr "ច្រក"
@@ -12295,11 +12295,11 @@ msgstr "ច្រក HTTP tunnel"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "ច្រក​ដែល​ត្រូវ​ប្រើ​សម្រាប់ tunneling RTSP/RTP តាម HTTP ។"
 
-#: modules/demux/live555.cpp:602
+#: modules/demux/live555.cpp:603
 msgid "RTSP authentication"
 msgstr "ការ​ផ្ទៀង​ផ្ទាត់​ភាព​ត្រឹមត្រូវ RTSP"
 
-#: modules/demux/live555.cpp:603
+#: modules/demux/live555.cpp:604
 msgid "Please enter a valid login name and a password."
 msgstr "សូម​បញ្ចូល​ឈ្មោះ​ចូល និង​ពាក្យ​សម្ងាត់​ដែល​ត្រឹមត្រូវ ។"
 
@@ -12941,8 +12941,9 @@ msgid "Separate sub-streams"
 msgstr "បំបែក​ស្ទ្រី​ម​រង"
 
 #: modules/demux/ts.c:160
+#, fuzzy
 msgid ""
-"Separate teletex/dvbs pages into independent ES. It can be usefull to turn "
+"Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
 "បំបែក​ទំព័រ teletex/dvbs ទៅជា ES ឯករាជ្យ ។ វា​អាច​មាន​ប្រយោជន៍​ ដើម្បី​បិទ​ជម្រើស​នេះ នៅពេល​ប្រើ​"
@@ -14077,10 +14078,10 @@ msgid "Protocol"
 msgstr "ពិធីការ"
 
 #: modules/gui/macosx/open.m:211 modules/gui/macosx/output.m:146
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:197
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:292
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:339
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:385
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:214
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:309
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:356
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:403
 msgid "Address"
 msgstr "អាសយដ្ឋាន"
 
@@ -15449,7 +15450,7 @@ msgid ""
 "panel)."
 msgstr "កុំ​បង្ហាញ​ប្រអប់ ដែលមិន​ត្រូវការ​សកម្មភាព​របស់​អ្នក​ប្រើ (បន្ទះកំហុស​ធ្ងន់ធ្ងរ) ។"
 
-#: modules/gui/hildon/maemo.c:62
+#: modules/gui/hildon/maemo.c:63
 msgid "Maemo hildon interface"
 msgstr "ចំណុច​ប្រទាក់ Maemo hildon"
 
@@ -16089,11 +16090,11 @@ msgstr "បាន​ចាក់"
 msgid "buffers"
 msgstr "​សតិ​បណ្ដោះ​អាសន្ន"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:386
+#: modules/gui/qt4/components/interface_widgets.cpp:294
 msgid "Current visualization"
 msgstr "រូបភាព​មើល​ឃើញ​បច្ចុប្បន្ន"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:425
+#: modules/gui/qt4/components/interface_widgets.cpp:333
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16101,19 +16102,19 @@ msgstr ""
 "ល្បឿន​ចាក់​ឡើង​វិញ​បច្ចុប្បន្ន ៖ %1\n"
 "ចុច​ដើម្បី​កែសម្រួល"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:496
+#: modules/gui/qt4/components/interface_widgets.cpp:404
 msgid "Revert to normal play speed"
 msgstr "បញ្ច្រាស​ទៅ​ល្បឿន​ចាក់​ធម្មតា"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:570
+#: modules/gui/qt4/components/interface_widgets.cpp:478
 msgid "Download cover art"
 msgstr "ទាញយក​សិល្បៈ​គម្រប"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:613
+#: modules/gui/qt4/components/interface_widgets.cpp:521
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "ចុច​ដើម្បី​បិទ/បើក​រវាង​ពេលវេលា​កន្ល​ង​ផុត និង​នៅ​សល់"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:615
+#: modules/gui/qt4/components/interface_widgets.cpp:523
 msgid "Double click to jump to a chosen time position"
 msgstr "ចុច​ទ្វេដង ដើម្បីលោត​ទៅ​ទីតាំង​ពេលវេលា​ដែលបាន​ជ្រើស"
 
@@ -16427,11 +16428,11 @@ msgstr "លុប​ទម្រង់​ដែល​បានជ្រើស"
 msgid "Create a new profile"
 msgstr "បង្កើត​ទម្រង់​ថ្មី"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:400
+#: modules/gui/qt4/components/sout/profile_selector.cpp:402
 msgid " Profile Name Missing"
 msgstr " បាត់​ឈ្មោះ​ទម្រង់"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:401
+#: modules/gui/qt4/components/sout/profile_selector.cpp:403
 msgid "You must set a name for the profile."
 msgstr "អ្នក​ត្រូវ​តែ​កំណត់​ឈ្មោះ​សម្រាប់​ទម្រង់ ។"
 
@@ -16464,55 +16465,56 @@ msgstr "ម៉ូឌុល​នេះ​សរសេរ​ស្ទ្រីម
 msgid "Filename"
 msgstr "ឈ្មោះ​ឯកសារ"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:128
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:138
 #: modules/gui/qt4/dialogs/convert.cpp:111
 msgid "Save file..."
 msgstr "រក្សាទុក​ឯកសារ..."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:129
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#, fuzzy
+msgid ""
+"Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 msgstr "ឧបករណ៍​ផ្ទុក (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:141
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:151
 msgid "This module outputs the transcoded stream to a network via HTTP."
 msgstr "​ម៉ូឌុល​នេះ​​បញ្ចេញលទ្ធផល​ជា​ស្ទ្រីម​ដែល​បានបម្លែង​ទៅ​បណ្ដាញ​​តាមរយៈ HTTP ។"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:145
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:242
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:155
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:259
 msgid "Path"
 msgstr "ផ្លូវ"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:193
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:210
 msgid ""
 "This module outputs the transcoded stream to a network  via the mms protocol."
 msgstr "ម៉ូឌុល​នេះ​បញ្ចេញ​លទ្ធផល​ស្ទ្រីម​ដែល​បានបម្លែង​ទៅ​ជា​បណ្ដាញ​តាមរយៈ​ពិធីការ mms ។"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:238
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:255
 msgid "This module outputs the transcoded stream to a network via RTSP."
 msgstr "ម៉ូឌុល​នេះ​បង្ហាញលទ្ធផលស្ទ្រីម​ដែលបាន​បម្លែង​ទៅ​បណ្ដាញ​តាមរយៈ RTSP ។"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:288
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:305
 msgid "This module outputs the transcoded stream to a network via UDP."
 msgstr "ម៉ូឌុល​នេះ​បញ្ចេញ​លទ្ធផល​ជា​ស្ទ្រីម​ដែល​បានបម្លែង​ត្រឡប់​ទៅ​បណ្ដាញ​តាមរយៈ UDP ។"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:335
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:352
 msgid "This module outputs the transcoded stream to a network via RTP."
 msgstr "ម៉ូឌុល​នេះ​បញ្ចេញ​លទ្ធផល​ជា​ស្ទ្រីម​ដែល​បានបម្លែង​ទៅ​បណ្ដាញ​តាមរយៈ RTP ។"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:340
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:357
 msgid "Base port"
 msgstr "ច្រក​មូលដ្ឋាន"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:381
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:399
 msgid "This module outputs the transcoded stream to an Icecast server."
 msgstr "ម៉ូឌុល​នេះ​បញ្ចេញ​លទ្ធផល​ស្ទ្រីម​ដែល​បានបម្លែង​ទៅជា​ម៉ាស៊ីន​បម្រើ Icecast ។"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:402
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:420
 msgid "Mount Point"
 msgstr "ចំណុច​ម៉ោន"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:403
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:421
 msgid "Login:pass"
 msgstr "ចូល ៖ ពាក្យ​សម្ងាត់"
 
@@ -16581,6 +16583,10 @@ msgstr "ការ​កំណត់"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "ចាប់ផ្ដើម"
+
+#: modules/gui/qt4/dialogs/convert.cpp:113
+msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+msgstr "ឧបករណ៍​ផ្ទុក (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -17228,11 +17234,11 @@ msgstr "ឯកសារ​ចំណងជើង​រង"
 msgid "All Files"
 msgstr "ឯកសារ​ទាំង​អស់"
 
-#: modules/gui/qt4/main_interface.cpp:924
+#: modules/gui/qt4/main_interface.cpp:980
 msgid "Control menu for the player"
 msgstr "គ្រប់គ្រង​ម៉ឺនុយ​សម្រាប់​កម្មវិធី​ចាក់"
 
-#: modules/gui/qt4/main_interface.cpp:967
+#: modules/gui/qt4/main_interface.cpp:1023
 msgid "Paused"
 msgstr "បាន​ផ្អាក"
 
@@ -20540,164 +20546,178 @@ msgstr ""
 "ជ្រើស​ផ្នែក​រឹង​ដែល​ជា​ទី​ពេញចិត្ត​របស់​អ្នក​ពី​បញ្ជី ឬ​ជ្រើស​កម្មវិធី AtmoWin ដើម្បី​ផ្ដល់​ដំណើរការ​ទៅកាន់​"
 "ដំណើរការ​ខាង​ក្រៅ - មាន​ជម្រើស​ជា​ច្រើនទៀត"
 
-#: modules/video_filter/atmo/atmo.cpp:152
+#: modules/video_filter/atmo/atmo.cpp:153
 msgid "AtmoWin Software"
 msgstr "កម្មវិធី AtmoWin"
 
-#: modules/video_filter/atmo/atmo.cpp:154
+#: modules/video_filter/atmo/atmo.cpp:155
 msgid "Classic AtmoLight"
 msgstr "AtmoLight បូរាណ"
 
-#: modules/video_filter/atmo/atmo.cpp:155
+#: modules/video_filter/atmo/atmo.cpp:156
 msgid "Quattro AtmoLight"
 msgstr "Quattro AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:156
+#: modules/video_filter/atmo/atmo.cpp:157
 msgid "DMX"
 msgstr "DMX"
 
-#: modules/video_filter/atmo/atmo.cpp:157
+#: modules/video_filter/atmo/atmo.cpp:158
 msgid "MoMoLight"
 msgstr "MoMoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:160
+#: modules/video_filter/atmo/atmo.cpp:159
+msgid "fnordlicht"
+msgstr ""
+
+#: modules/video_filter/atmo/atmo.cpp:162
 msgid "Count of AtmoLight channels"
 msgstr "ចំនួន​ឆានែល AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:161
+#: modules/video_filter/atmo/atmo.cpp:163
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
 msgstr "តើ​មាន​ឆានែល AtmoLight ប៉ុន្មាន​ដែលគួរ​ត្រូវ​បាន​ប្រកួត​ប្រជែង​ជា​មួយ​នឹង​ឧបករណ៍ DMX"
 
-#: modules/video_filter/atmo/atmo.cpp:163
+#: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
 msgstr "អាសយដ្ឋាន DMX សម្រាប់​ឆានែល​នីមួយៗ"
 
-#: modules/video_filter/atmo/atmo.cpp:164
+#: modules/video_filter/atmo/atmo.cpp:166
 msgid ""
 "Define here the DMX base address for each channel use , or ; to seperate the "
 "values"
 msgstr "នៅ​ទីនេះ កំណត់​អាសយដ្ឋាន​គោល​របស់ DMX សម្រាប់​ការ​ប្រើ​ឆានែលនីមួយៗ ឬ​ដើម្បី​បំបែក​តម្លៃ"
 
-#: modules/video_filter/atmo/atmo.cpp:167
+#: modules/video_filter/atmo/atmo.cpp:169
 msgid "Count of channels"
 msgstr "ចំនួន​ឆានែល"
 
-#: modules/video_filter/atmo/atmo.cpp:168
+#: modules/video_filter/atmo/atmo.cpp:170
 msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
 msgstr "ដោយ​អាស្រ័យ​លើ​ផ្នែក​រឹង MoMoLight របស់​អ្នក​ ជ្រើស​​ឆានែល ៣ ឬ​ ៤"
 
-#: modules/video_filter/atmo/atmo.cpp:178
+#: modules/video_filter/atmo/atmo.cpp:173
+#, fuzzy
+msgid "Count of fnordlicht's"
+msgstr "ចំនួន​ឆានែល"
+
+#: modules/video_filter/atmo/atmo.cpp:174
+#, fuzzy
+msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
+msgstr "ដោយ​អាស្រ័យ​លើ​ផ្នែក​រឹង MoMoLight របស់​អ្នក​ ជ្រើស​​ឆានែល ៣ ឬ​ ៤"
+
+#: modules/video_filter/atmo/atmo.cpp:185
 msgid "Save Debug Frames"
 msgstr "រក្សាទុក​ស៊ុម​បំបាត់​កំហុស"
 
-#: modules/video_filter/atmo/atmo.cpp:179
+#: modules/video_filter/atmo/atmo.cpp:186
 msgid "Write every 128th miniframe to a folder."
 msgstr "សរសេរ​រាល់​ស៊ុម​តូចៗ​ទី ១២៨ ទៅកាន់​ថត​មួយ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:180
+#: modules/video_filter/atmo/atmo.cpp:187
 msgid "Debug Frame Folder"
 msgstr "ថត​ស៊ុម​បំបាត់​កំហុស"
 
-#: modules/video_filter/atmo/atmo.cpp:181
+#: modules/video_filter/atmo/atmo.cpp:188
 msgid "The path where the debugframes should be saved"
 msgstr "ផ្លូវ​ដែល​គួរតែ​ត្រូវ​រក្សាទុក​ស៊ុម​បំបាត់​កំហុស"
 
-#: modules/video_filter/atmo/atmo.cpp:185
+#: modules/video_filter/atmo/atmo.cpp:192
 msgid "Extracted Image Width"
 msgstr "ទទឹង​រូបភាព​ដែល​បាន​ស្រង់ចេញ"
 
-#: modules/video_filter/atmo/atmo.cpp:186
+#: modules/video_filter/atmo/atmo.cpp:193
 msgid "The width of the mini image for further processing (64 is default)"
 msgstr "ទទឹង​រូបភាព​តូច​សម្រាប់​ការ​ដំណើរការ​ពេលក្រោយ (លំនាំដើម​គឺ ៦៤)"
 
-#: modules/video_filter/atmo/atmo.cpp:189
+#: modules/video_filter/atmo/atmo.cpp:196
 msgid "Extracted Image Height"
 msgstr "កម្ពស់​រូបភាព​ដេល​បាន​ស្រង់ចេញ"
 
-#: modules/video_filter/atmo/atmo.cpp:190
+#: modules/video_filter/atmo/atmo.cpp:197
 msgid "The height of the mini image for further processing (48 is default)"
 msgstr "កម្ពស់​រូបភាព​តូចៗ​សម្រាប់​ការ​ដំណើរការ​នៅពេល​​ក្រោយ (ជា​លំនាំដើម​គឺ ៤៨)"
 
-#: modules/video_filter/atmo/atmo.cpp:193
+#: modules/video_filter/atmo/atmo.cpp:200
 msgid "Mark analyzed pixels"
 msgstr "សម្គាល់​ភីកសែល​ដែលបាន​វិភាគ"
 
-#: modules/video_filter/atmo/atmo.cpp:194
+#: modules/video_filter/atmo/atmo.cpp:201
 msgid "makes the sample grid visible on screen as white pixels"
 msgstr "ធ្វើ​ឲ្យ​ក្រឡាចត្រង្គ​គំរូ​មើលឃើញ​នៅ​លើ​អេក្រង់​មាន​ភីកសែលពណ៌ស"
 
-#: modules/video_filter/atmo/atmo.cpp:197
+#: modules/video_filter/atmo/atmo.cpp:204
 msgid "Color when paused"
 msgstr "ពណ៌​នៅពេល​ដែល​បាន​ផ្អាក"
 
-#: modules/video_filter/atmo/atmo.cpp:198
+#: modules/video_filter/atmo/atmo.cpp:205
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
 msgstr "កំណត់​ពណ៌​ដែល​ត្រូវ​បង្ហាញ ប្រសិន​បើ​អ្នក​ប្រើ​ផ្អាក​វីដេអូ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:201
+#: modules/video_filter/atmo/atmo.cpp:208
 msgid "Pause-Red"
 msgstr "ផ្អាក-ក្រហម"
 
-#: modules/video_filter/atmo/atmo.cpp:202
+#: modules/video_filter/atmo/atmo.cpp:209
 msgid "Red component of the pause color"
 msgstr "សមាសភាគ​ពណ៌​ក្រហម​នៃ​​ការ​ផ្អាក​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:203
+#: modules/video_filter/atmo/atmo.cpp:210
 msgid "Pause-Green"
 msgstr "ផ្អាក-បៃតង"
 
-#: modules/video_filter/atmo/atmo.cpp:204
+#: modules/video_filter/atmo/atmo.cpp:211
 msgid "Green component of the pause color"
 msgstr "សមាសភាគ​ពណ៌​បៃតង​នៃ​​ការ​ផ្អាក​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:205
+#: modules/video_filter/atmo/atmo.cpp:212
 msgid "Pause-Blue"
 msgstr "ផ្អាក-ពណ៌​ខៀវ"
 
-#: modules/video_filter/atmo/atmo.cpp:206
+#: modules/video_filter/atmo/atmo.cpp:213
 msgid "Blue component of the pause color"
 msgstr "សមាសភាគ​ពណ៌​ខៀវ​នៃ​​ការ​ផ្អាក​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:207
+#: modules/video_filter/atmo/atmo.cpp:214
 msgid "Pause-Fadesteps"
 msgstr "ផ្អាក-​ជំហាន​លេច​កាត់​បន្តិចម្ដង"
 
-#: modules/video_filter/atmo/atmo.cpp:208
+#: modules/video_filter/atmo/atmo.cpp:215
 msgid ""
 "Number of steps to change current color to pause color (each step takes 40ms)"
 msgstr "ចំនួន​ជំហាន​ក្នុង​ការ​ផ្លាស់ប្ដូរ​ពណ៌​បច្ចុប្បន្ន​ដើម្បី​ផ្អាក​ពណ៌ (ជំហាន​នីមួយៗ​ត្រូវ​ចំណាយ ៤០ មិ.វិ.)"
 
-#: modules/video_filter/atmo/atmo.cpp:211
+#: modules/video_filter/atmo/atmo.cpp:218
 msgid "End-Red"
 msgstr "ចុង-ក្រហម"
 
-#: modules/video_filter/atmo/atmo.cpp:212
+#: modules/video_filter/atmo/atmo.cpp:219
 msgid "Red component of the shutdown color"
 msgstr "សមាសភាគ​ពណ៌​ក្រហម​នៃ​ការ​បិទ​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:213
+#: modules/video_filter/atmo/atmo.cpp:220
 msgid "End-Green"
 msgstr "ចុង-បៃតង"
 
-#: modules/video_filter/atmo/atmo.cpp:214
+#: modules/video_filter/atmo/atmo.cpp:221
 msgid "Green component of the shutdown color"
 msgstr "សមាសភាគ​ពណ៌​បៃតង​នៃ​ការ​បិទ​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:215
+#: modules/video_filter/atmo/atmo.cpp:222
 msgid "End-Blue"
 msgstr "ចុង-ពណ៌​ខៀវ"
 
-#: modules/video_filter/atmo/atmo.cpp:216
+#: modules/video_filter/atmo/atmo.cpp:223
 msgid "Blue component of the shutdown color"
 msgstr "សមាសភាគ​ពណ៌​ខៀវ​នៃ​ការ​បិទ​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:217
+#: modules/video_filter/atmo/atmo.cpp:224
 msgid "End-Fadesteps"
 msgstr "ចុង-ជំហាន​លេចកាត់​បន្តិចម្ដង"
 
-#: modules/video_filter/atmo/atmo.cpp:218
+#: modules/video_filter/atmo/atmo.cpp:225
 msgid ""
 "Number of steps to change current color to end color for dimming up the "
 "light in cinema style... (each step takes 40ms)"
@@ -20705,78 +20725,78 @@ msgstr ""
 "ចំនួន​ជំហាន​ដែល​ត្រូវ​ផ្លាស់ប្ដូរ​ពណ៌​បច្ចុប្បន្ន​ទៅ​ចុង​បញ្ចប់​នៃ​ពណ៌​សម្រាប់​បន្ថែម​ពន្លឺ​នៅ​ក្នុង​រចនាប័ទ្ម​ភាពយន្ដ... "
 "(ជំហាន​នីមួយៗ​ចំណាយពេល ៤០ មិ.វិ.)"
 
-#: modules/video_filter/atmo/atmo.cpp:222
+#: modules/video_filter/atmo/atmo.cpp:229
 msgid "Number of zones on top"
 msgstr "ចំនួន​តំបន់​នៅ​ផ្នែកខាង​លើ"
 
-#: modules/video_filter/atmo/atmo.cpp:223
+#: modules/video_filter/atmo/atmo.cpp:230
 msgid "Number of zones on the top of the screen"
 msgstr "ចំនួន​តំបន់​នៅ​ផ្នែក​ខាង​លើ​អេក្រង់"
 
-#: modules/video_filter/atmo/atmo.cpp:224
+#: modules/video_filter/atmo/atmo.cpp:231
 msgid "Number of zones on bottom"
 msgstr "ចំនួន​តំបន់​នៅ​ផ្នែក​ខាង​ក្រោម"
 
-#: modules/video_filter/atmo/atmo.cpp:225
+#: modules/video_filter/atmo/atmo.cpp:232
 msgid "Number of zones on the bottom of the screen"
 msgstr "ចំនួន​តំបន់​នៅ​ផ្នែកខាង​ក្រោម​អេក្រង់"
 
-#: modules/video_filter/atmo/atmo.cpp:226
+#: modules/video_filter/atmo/atmo.cpp:233
 msgid "Zones on left / right side"
 msgstr "តំបន់​នៅ​​ផ្នែក​ខាង​ឆ្វេង / ស្ដាំ"
 
-#: modules/video_filter/atmo/atmo.cpp:227
+#: modules/video_filter/atmo/atmo.cpp:234
 msgid "left and right side having allways the same number of zones"
 msgstr "ផ្នែក​ខាង​ឆ្វេង និងស្ដាំ​តែងតែ​មាន​លេខ​តំបន់​ដូច​គ្នា​ជា​និច្ច"
 
-#: modules/video_filter/atmo/atmo.cpp:229
+#: modules/video_filter/atmo/atmo.cpp:236
 msgid "Calculate a average zone"
 msgstr "គណនា​តំបន់​មធ្យម"
 
-#: modules/video_filter/atmo/atmo.cpp:230
+#: modules/video_filter/atmo/atmo.cpp:237
 msgid ""
 "it contains the average of all pixels in the sample image (only useful for "
 "single channel AtmoLight)"
 msgstr "វា​មាន​ភីកសែលទាំងអស់​ជា​មធ្យម​នៅ​ក្នុង​រូបភាពគំរូ (មាន​ប្រយោជន៍​សម្រាប់តែ​ឆានែល​មួយ AtmoLight)"
 
-#: modules/video_filter/atmo/atmo.cpp:235
+#: modules/video_filter/atmo/atmo.cpp:242
 msgid "Use Software White adjust"
 msgstr "ប្រើ​ការ​លៃតម្រូវ​ពណ៌​ស​របស់​កម្មវិធី"
 
-#: modules/video_filter/atmo/atmo.cpp:236
+#: modules/video_filter/atmo/atmo.cpp:243
 msgid ""
 "Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr "តើ​កម្មវិធី​ជំនួយ​មាន​ស្រាប់​គួរតែ​ធ្វើ​ការ​លៃតម្រូវ​ពណ៌​ស ឬ​ក្រឡា​ឆ្នូត LED របស់​អ្នក? អនុសាសន៍ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:238
+#: modules/video_filter/atmo/atmo.cpp:245
 msgid "White Red"
 msgstr "ក្រហម​ស"
 
-#: modules/video_filter/atmo/atmo.cpp:239
+#: modules/video_filter/atmo/atmo.cpp:246
 msgid "Red value of a pure white on your LED stripes."
 msgstr "តម្លៃ​ក្រហម​នៃ​ពណ៌​សសុទ្ធ​នៅ​លើ​ក្រឡា​ឆ្នូត LED របស់​អ្នក ។"
 
-#: modules/video_filter/atmo/atmo.cpp:241
+#: modules/video_filter/atmo/atmo.cpp:248
 msgid "White Green"
 msgstr "បៃតង​ស"
 
-#: modules/video_filter/atmo/atmo.cpp:242
+#: modules/video_filter/atmo/atmo.cpp:249
 msgid "Green value of a pure white on your LED stripes."
 msgstr "តម្លៃ​ពណ៌​បៃតង​របស់​ពណ៌​ស​សុទ្ធ​នៅ​លើ​ក្រឡា​ឆ្នូត LED របស់​អ្នក ។"
 
-#: modules/video_filter/atmo/atmo.cpp:244
+#: modules/video_filter/atmo/atmo.cpp:251
 msgid "White Blue"
 msgstr "ខៀវ​ស"
 
-#: modules/video_filter/atmo/atmo.cpp:245
+#: modules/video_filter/atmo/atmo.cpp:252
 msgid "Blue value of a pure white on your LED stripes."
 msgstr "តម្លៃ​ពណ៌​ខៀវ​នៃ​ពណ៌​ស​សុទ្ធ​លើ​ក្រឡា​ឆ្នូត LED របស់​អ្នក ។"
 
-#: modules/video_filter/atmo/atmo.cpp:248
+#: modules/video_filter/atmo/atmo.cpp:255
 msgid "Serial Port/Device"
 msgstr "ច្រក/ឧបករណ៍​សៀរៀល"
 
-#: modules/video_filter/atmo/atmo.cpp:249
+#: modules/video_filter/atmo/atmo.cpp:256
 msgid ""
 "Name of the serial port where the AtmoLight controller is attached to.\n"
 "On Windows usually something like COM1 or COM2. On Linux /dev/ttyS01 f.e."
@@ -20784,25 +20804,25 @@ msgstr ""
 "ឈ្មោះ​ច្រក​សៀរៀល​ដែល​បាន​ភ្ជាប់​កម្មវិធី​គ្រប់គ្រង​ទៅ AtmoLight ។\n"
 "នៅ​លើ​វីនដូ ជាទូទៅ​គឺ​ដូចជា COM1 ឬ COM2 ។ នៅ​លើ​លីនុច​គឺ /dev/ttyS01 f.e ។"
 
-#: modules/video_filter/atmo/atmo.cpp:254
+#: modules/video_filter/atmo/atmo.cpp:261
 msgid "Edge Weightning"
 msgstr "បង្កើន​ទម្ងន់​គែម"
 
-#: modules/video_filter/atmo/atmo.cpp:255
+#: modules/video_filter/atmo/atmo.cpp:262
 msgid ""
 "Increasing this value will result in color more depending on the border of "
 "the frame."
 msgstr "ការ​បង្កើន​តម្លៃ​នេះ នឹង​បង្ហាញ​ជា​ពណ៌​ជា​ច្រើន ដោយ​អាស្រ័យ​លើ​ស៊ុម​របស់​ស៊ុម ។"
 
-#: modules/video_filter/atmo/atmo.cpp:258
+#: modules/video_filter/atmo/atmo.cpp:265
 msgid "Overall brightness of your LED stripes"
 msgstr "ភាព​ភ្លឺ​ទាំងមូល​របស់​ក្រឡា​ឆ្នូត LED របស់​អ្នក"
 
-#: modules/video_filter/atmo/atmo.cpp:259
+#: modules/video_filter/atmo/atmo.cpp:266
 msgid "Darkness Limit"
 msgstr "ដែន​កំណត់​ភាព​ខ្មៅ"
 
-#: modules/video_filter/atmo/atmo.cpp:260
+#: modules/video_filter/atmo/atmo.cpp:267
 msgid ""
 "Pixels with a saturation lower than this will be ignored. Should be greater "
 "than one for letterboxed videos."
@@ -20810,71 +20830,71 @@ msgstr ""
 "ភីកសែល​ដែល​មាន​តិត្ថិភាព​ទាបជាង​នេះ នឹង​ត្រូវបាន​មិនអើពើ ។ គួរតែ​ធំជាង​មួយ​សម្រាប់​វីដេអូ​ដែល​មាន​ប្រអប់​"
 "អត្ថបទ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:263
+#: modules/video_filter/atmo/atmo.cpp:270
 msgid "Hue windowing"
 msgstr "ការ​ដាក់​បង្អួច​ភាពលាំៗ​នៃ​ពណ៌"
 
-#: modules/video_filter/atmo/atmo.cpp:264
-#: modules/video_filter/atmo/atmo.cpp:266
+#: modules/video_filter/atmo/atmo.cpp:271
+#: modules/video_filter/atmo/atmo.cpp:273
 msgid "Used for statistics."
 msgstr "បាន​ប្រើ​សម្រាប់​ស្ថិតិ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:265
+#: modules/video_filter/atmo/atmo.cpp:272
 msgid "Sat windowing"
 msgstr "ការ​ដាក់​បង្អួច​ជា​តិត្ថិភាព"
 
-#: modules/video_filter/atmo/atmo.cpp:268
+#: modules/video_filter/atmo/atmo.cpp:275
 #: modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "ប្រវែង​តម្រង (មិ.វិ.)"
 
-#: modules/video_filter/atmo/atmo.cpp:269
+#: modules/video_filter/atmo/atmo.cpp:276
 msgid ""
 "Time it takes until a color is completely changed. This prevents flickering."
 msgstr "ពេលវេលា​ដែល​វា​ត្រូវ​ចំណាយ រហូត​ដល់​បាន​ផ្លាស់ប្ដូរ​ពណ៌​ទាំងស្រុង ។ វា​ការពារ​ពី​ការ​លោត​ភ្លឹបភ្លែត ។"
 
-#: modules/video_filter/atmo/atmo.cpp:271
+#: modules/video_filter/atmo/atmo.cpp:278
 msgid "Filter threshold"
 msgstr "កម្រិត​ពន្លឺ​តម្រង"
 
-#: modules/video_filter/atmo/atmo.cpp:272
+#: modules/video_filter/atmo/atmo.cpp:279
 msgid "How much a color has to be changed for an immediate color change."
 msgstr "ចំនួន​ពណ៌​ដែល​ត្រូវបាន​ប្ដូរ​សម្រាប់​ការ​ផ្លាស់ប្ដូរ​ពណ៌​មធ្យម ។"
 
-#: modules/video_filter/atmo/atmo.cpp:274
+#: modules/video_filter/atmo/atmo.cpp:281
 msgid "Filter Smoothness (in %)"
 msgstr "ភាព​រលោង​នៃ​តម្រង (គិតជា %)"
 
-#: modules/video_filter/atmo/atmo.cpp:275
+#: modules/video_filter/atmo/atmo.cpp:282
 msgid "Filter Smoothness"
 msgstr "ភាព​រលោង​នៃ​តម្រង"
 
-#: modules/video_filter/atmo/atmo.cpp:277
+#: modules/video_filter/atmo/atmo.cpp:284
 msgid "Output Color filter mode"
 msgstr "របៀប​ត្រង​ពណ៌​លទ្ធផល"
 
-#: modules/video_filter/atmo/atmo.cpp:278
+#: modules/video_filter/atmo/atmo.cpp:285
 msgid ""
 "defines the how the output color should be calculated based on previous color"
 msgstr "កំណត់​វិធីដែល​ពណ៌​​លទ្ធផល​គួរ​ត្រូវ​បាន​គណនា​ដោយ​មានមូលដ្ឋាន​លើ​ពណ៌​មុន"
 
-#: modules/video_filter/atmo/atmo.cpp:287
+#: modules/video_filter/atmo/atmo.cpp:294
 msgid "No Filtering"
 msgstr "គ្មាន​តម្រង"
 
-#: modules/video_filter/atmo/atmo.cpp:288
+#: modules/video_filter/atmo/atmo.cpp:295
 msgid "Combined"
 msgstr "បន្សំ​ចូលគ្នា"
 
-#: modules/video_filter/atmo/atmo.cpp:289
+#: modules/video_filter/atmo/atmo.cpp:296
 msgid "Percent"
 msgstr "ភាគរយ"
 
-#: modules/video_filter/atmo/atmo.cpp:292
+#: modules/video_filter/atmo/atmo.cpp:299
 msgid "Frame delay (ms)"
 msgstr "ពន្យារ​ស៊ុម (មិ.វិ.)"
 
-#: modules/video_filter/atmo/atmo.cpp:293
+#: modules/video_filter/atmo/atmo.cpp:300
 msgid ""
 "Helps to get the video output and the light effects in sync. Values around "
 "20ms should do the trick."
@@ -20882,59 +20902,59 @@ msgstr ""
 "ជំនួយ​ដែល​ត្រូវ​យក​លទ្ធផល​វីដេអូ និង​បែបផែន​ពន្លឺ​នៅ​ក្នុង​សមកាលកម្ម ។ តម្លៃ​ប្រហែល ២០ មិ.វិ. គួរតែ​ធ្វើ​"
 "បន្លំ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:298
+#: modules/video_filter/atmo/atmo.cpp:305
 msgid "Channel 0: summary"
 msgstr "ឆានែល ០ ៖ សេចក្ដី​សង្ខេប"
 
-#: modules/video_filter/atmo/atmo.cpp:299
+#: modules/video_filter/atmo/atmo.cpp:306
 msgid "Channel 1: left"
 msgstr "ឆានែល ១  ៖ ខាង​ឆ្វេង"
 
-#: modules/video_filter/atmo/atmo.cpp:300
+#: modules/video_filter/atmo/atmo.cpp:307
 msgid "Channel 2: right"
 msgstr "ឆានែល ២ ៖ ខាង​ស្ដាំ"
 
-#: modules/video_filter/atmo/atmo.cpp:301
+#: modules/video_filter/atmo/atmo.cpp:308
 msgid "Channel 3: top"
 msgstr "ឆានែល ៣ ៖ ផ្នែកខាង​លើ"
 
-#: modules/video_filter/atmo/atmo.cpp:302
+#: modules/video_filter/atmo/atmo.cpp:309
 msgid "Channel 4: bottom"
 msgstr "ឆានែល ៤ ៖ ផ្នែក​ខាង​ក្រោម"
 
-#: modules/video_filter/atmo/atmo.cpp:304
+#: modules/video_filter/atmo/atmo.cpp:311
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
 msgstr "ផ្គូផ្គង​ឆានែល​ផ្នែក​រឹង X ទៅ​នឹង​តំបន់​ឡូជីខល Y ដើម្បីកែ​ការ​ត​ដែល​មិន​ត្រឹមត្រូវ :-)"
 
-#: modules/video_filter/atmo/atmo.cpp:315
+#: modules/video_filter/atmo/atmo.cpp:322
 msgid "disabled"
 msgstr "បាន​បិទ"
 
-#: modules/video_filter/atmo/atmo.cpp:316
+#: modules/video_filter/atmo/atmo.cpp:323
 msgid "Zone 4:summary"
 msgstr "តំបន់ ៤ ​៖ សេចក្ដី​សង្ខេប"
 
-#: modules/video_filter/atmo/atmo.cpp:317
+#: modules/video_filter/atmo/atmo.cpp:324
 msgid "Zone 3:left"
 msgstr "តំបន់ ៣ ៖ ខាង​​ឆ្វេង"
 
-#: modules/video_filter/atmo/atmo.cpp:318
+#: modules/video_filter/atmo/atmo.cpp:325
 msgid "Zone 1:right"
 msgstr "តំបន់ ១ ៖ ខាង​ស្ដាំ"
 
-#: modules/video_filter/atmo/atmo.cpp:319
+#: modules/video_filter/atmo/atmo.cpp:326
 msgid "Zone 0:top"
 msgstr "តំបន់ 0:top"
 
-#: modules/video_filter/atmo/atmo.cpp:320
+#: modules/video_filter/atmo/atmo.cpp:327
 msgid "Zone 2:bottom"
 msgstr "តំបន់ ២ ៖ ផ្នែក​ខា​ងក្រោម"
 
-#: modules/video_filter/atmo/atmo.cpp:322
+#: modules/video_filter/atmo/atmo.cpp:329
 msgid "Channel / Zone Assignment"
 msgstr "ឆានែល / ការ​ផ្ដល់​តំបន់"
 
-#: modules/video_filter/atmo/atmo.cpp:323
+#: modules/video_filter/atmo/atmo.cpp:330
 msgid ""
 "for devices with more than five channels / zones write down here for each "
 "channel the zone number to show and seperate the values with , or ; and use "
@@ -20948,36 +20968,36 @@ msgstr ""
 "4,3,1,0,2 នឹង​កំណត់​ឆានែល​លំនាំដើម/ការ​ផ្គូផ្គង​តំបន់ ។ ដោយ​មាន​តែ​តំបន់​ពីរ​នៅ​ខាង​លើ និង​តំបន់​មួយ​នៅ​ខាង​"
 "ឆ្វេង និង​ស្ដាំ ហើយ​គ្មាន​តំបន់​សង្ខេប​ដែល​ផ្គូផ្គង​សម្រាប់ AtmoLight បូរាណ​ទេ នឹង​ក្លាយ​ជា -1,3,2,1,0"
 
-#: modules/video_filter/atmo/atmo.cpp:333
+#: modules/video_filter/atmo/atmo.cpp:340
 msgid "Zone 0: Top gradient"
 msgstr "តំបន់ ០ ៖ ជម្រាល​ផ្នែក​ខាង​លើ"
 
-#: modules/video_filter/atmo/atmo.cpp:334
+#: modules/video_filter/atmo/atmo.cpp:341
 msgid "Zone 1: Right gradient"
 msgstr "តំបន់ ១ ៖ ជម្រាល​ខាង​ស្ដាំ"
 
-#: modules/video_filter/atmo/atmo.cpp:335
+#: modules/video_filter/atmo/atmo.cpp:342
 msgid "Zone 2: Bottom gradient"
 msgstr "តំបន់ ២ ៖ ជម្រាល​ផ្នែក​ខាង​ក្រោម"
 
-#: modules/video_filter/atmo/atmo.cpp:336
+#: modules/video_filter/atmo/atmo.cpp:343
 msgid "Zone 3: Left gradient"
 msgstr "តំបន់ ៣ ៖ ជម្រាល​ខាង​​ឆ្វេង"
 
-#: modules/video_filter/atmo/atmo.cpp:337
+#: modules/video_filter/atmo/atmo.cpp:344
 msgid "Zone 4: Summary gradient"
 msgstr "តំបន់ ៤ ​៖ ជម្រាល​សេចក្ដី​សង្ខេប"
 
-#: modules/video_filter/atmo/atmo.cpp:338
+#: modules/video_filter/atmo/atmo.cpp:345
 msgid ""
 "Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
 msgstr "កំណត់​រូបភាព​តូចៗ ៦៤x៤៨ ភីកសែល ដែល​មាន​ជម្រាល​មាត្រដ្ឋាន​ប្រផេះ"
 
-#: modules/video_filter/atmo/atmo.cpp:341
+#: modules/video_filter/atmo/atmo.cpp:348
 msgid "Gradient bitmap searchpath"
 msgstr "ផ្លូវ​ស្វែងរក​ផែនទី​ប៊ីត​ជម្រាល"
 
-#: modules/video_filter/atmo/atmo.cpp:342
+#: modules/video_filter/atmo/atmo.cpp:349
 msgid ""
 "Now prefered option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
@@ -20985,11 +21005,11 @@ msgstr ""
 "ឥឡូវ​ជម្រើស​ដែល​ពេញចិត្ត​ត្រូវ​ផ្ដល់​ផែនទី​រូបភាព​ពណ៌​ជម្រាល ដាក់​ពួកវា​ជា zone_0.bmp zone_1.bmp ។ល។ "
 "ក្នុង​ថត​មួយ ហើយ​​ដាក់ឈ្មោះ​ថត​នៅ​ទីនេះ"
 
-#: modules/video_filter/atmo/atmo.cpp:347
+#: modules/video_filter/atmo/atmo.cpp:354
 msgid "Filename of AtmoWin*.exe"
 msgstr "ឈ្មោះ​ឯកសារ​របស់ AtmoWin*.exe"
 
-#: modules/video_filter/atmo/atmo.cpp:348
+#: modules/video_filter/atmo/atmo.cpp:355
 msgid ""
 "if you want the AtmoLight control software to be launched by VLC, enter the "
 "complete path of AtmoWinA.exe here."
@@ -20997,53 +21017,58 @@ msgstr ""
 "ប្រសិន​បើ​អ្នក​ចង់​ឲ្យ​ចាប់ផ្ដើម​កម្មវិធី​គ្រប់គ្រង AtmoLight ដោយ VLC គឺ​ត្រូវ​បញ្ចូល​ផ្លូវ​ពេញលេញ​របស់ "
 "AtmoWinA.exe នៅ​ទីនេះ ។"
 
-#: modules/video_filter/atmo/atmo.cpp:359
+#: modules/video_filter/atmo/atmo.cpp:366
 msgid "AtmoLight Filter"
 msgstr "តម្រង AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:361
+#: modules/video_filter/atmo/atmo.cpp:368
 #: modules/gui/qt4/ui/video_effects.h:1153
 #: modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:368
+#: modules/video_filter/atmo/atmo.cpp:375
 msgid "Choose Devicetype and Connection"
 msgstr "ជ្រើស​ប្រភេទ​ឧបករណ៍ និង​ការ​តភ្ជាប់"
 
-#: modules/video_filter/atmo/atmo.cpp:393
+#: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
 msgstr "តុបតែង​បន្ទប់​ដោយ​ពណ៌នេះ នៅពេល​ផ្អាក"
 
-#: modules/video_filter/atmo/atmo.cpp:409
+#: modules/video_filter/atmo/atmo.cpp:416
 msgid "Illuminate the room with this color on shutdown"
 msgstr "បំភ្លឺ​បន្ទប់​ដោយ​ប្រើ​ពណ៌​នេះ​នៅពេល​បិទ"
 
-#: modules/video_filter/atmo/atmo.cpp:420
+#: modules/video_filter/atmo/atmo.cpp:427
 msgid "DMX options"
 msgstr "ជម្រើស DMX"
 
-#: modules/video_filter/atmo/atmo.cpp:426
+#: modules/video_filter/atmo/atmo.cpp:433
 msgid "MoMoLight options"
 msgstr "ជម្រើស​ MoMoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:468
+#: modules/video_filter/atmo/atmo.cpp:440
+#, fuzzy
+msgid "fnordlicht options"
+msgstr "ជម្រើស​ MoMoLight"
+
+#: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
 msgstr "ប្លង់​តំបន់​សម្រាប់ Atmo ដែល​មាន​ជាប់​ជា​មួយ"
 
-#: modules/video_filter/atmo/atmo.cpp:484
+#: modules/video_filter/atmo/atmo.cpp:498
 msgid "Settings for the built-in Live Video Processor only"
 msgstr "ការ​កំណត់​សម្រាប់​តែ​កម្មវិធី​ជំនួយ​ប្រព័ន្ធ​ដំណើរការ​វីដេអូ​ផ្ទាល់"
 
-#: modules/video_filter/atmo/atmo.cpp:521
+#: modules/video_filter/atmo/atmo.cpp:535
 msgid "Change channel assignment (fixes wrong wiring)"
 msgstr "ផ្លាស់ប្ដូរ​​ការ​កំណត់​ឆានែល"
 
-#: modules/video_filter/atmo/atmo.cpp:554
+#: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
 msgstr "លៃតម្រូវ​ពន្លឺ​ពណ៌ស​ដល់​ឆ្នូត LED របស់​អ្នក"
 
-#: modules/video_filter/atmo/atmo.cpp:576
+#: modules/video_filter/atmo/atmo.cpp:590
 msgid "Change gradients"
 msgstr "ផ្លាស់ប្ដូរ​ជម្រាល"
 
@@ -23050,7 +23075,7 @@ msgstr "លទ្ធផល​វីដេអូ​ដែល​បានផ្ដ
 msgid "Direct3D video output"
 msgstr "លទ្ធផល​វីដេអូ Direct3D"
 
-#: modules/video_output/msw/direct3d.c:175
+#: modules/video_output/msw/direct3d.c:164
 msgid "Desktop"
 msgstr "ផ្ទៃតុ​"
 
@@ -23118,7 +23143,7 @@ msgstr ""
 msgid "DirectX (DirectDraw) video output"
 msgstr "លទ្ធផល​វីដេអូ DirectX (DirectDraw)"
 
-#: modules/video_output/msw/directx.c:233
+#: modules/video_output/msw/directx.c:222
 msgid "Wallpaper"
 msgstr "ផ្ទាំង​រូបភាព"
 
@@ -23249,11 +23274,11 @@ msgstr "លទ្ធផល​សតិ​វីដេអូ"
 msgid "Video memory"
 msgstr "សតិ​វីដេអូ"
 
-#: modules/video_output/xcb/glx.c:50
+#: modules/video_output/xcb/glx.c:51
 msgid "GLX"
 msgstr "GLX"
 
-#: modules/video_output/xcb/glx.c:51
+#: modules/video_output/xcb/glx.c:52
 msgid "GLX video output (XCB)"
 msgstr "លទ្ធផល​វីដេអូ GLX (XCB)"
 

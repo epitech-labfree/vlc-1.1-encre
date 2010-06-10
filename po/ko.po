@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc korean lang\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-03 14:55+0200\n"
+"POT-Creation-Date: 2010-06-11 00:45+0200\n"
 "PO-Revision-Date: 2010-03-03 09:03+0900\n"
 "Last-Translator: airplanez <airplanez@gmail.com>\n"
 "Language-Team: airplanez <airplanez@gmail.com>\n"
@@ -78,7 +78,7 @@ msgstr "VLC 제어 인터페이스 설정"
 msgid "Hotkeys settings"
 msgstr "단축키 설정"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2845 src/input/es_out.c:2885
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2850 src/input/es_out.c:2890
 #: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
 #: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
 #: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
@@ -124,7 +124,7 @@ msgstr "출력 모듈"
 msgid "General settings for audio output modules."
 msgstr "오디오 출력 모듈 일반 설정."
 
-#: include/vlc_config_cat.h:66 src/libvlc-module.c:2039
+#: include/vlc_config_cat.h:66 src/libvlc-module.c:2042
 #: modules/stream_out/transcode/transcode.c:226
 msgid "Miscellaneous"
 msgstr "기타"
@@ -133,7 +133,7 @@ msgstr "기타"
 msgid "Miscellaneous audio settings and modules."
 msgstr "기타 오디오 설정 및 모듈"
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2848 src/input/es_out.c:2932
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2853 src/input/es_out.c:2937
 #: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
 #: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
 #: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
@@ -245,7 +245,7 @@ msgstr "일반 입력"
 msgid "General input settings. Use with care..."
 msgstr "일반 입력 설정. 조심해서 사용하세요..."
 
-#: include/vlc_config_cat.h:124 src/libvlc-module.c:1959
+#: include/vlc_config_cat.h:124 src/libvlc-module.c:1962
 msgid "Stream output"
 msgstr "스트림 출력"
 
@@ -351,7 +351,7 @@ msgstr "VOD"
 msgid "VLC's implementation of Video On Demand"
 msgstr "VLC의 VOD (Video On Demand) 구현"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2105
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2108
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:608 modules/gui/qt4/components/controller.hpp:106
@@ -383,7 +383,7 @@ msgid ""
 "playlist."
 msgstr "서비스 검색 모듈은 재생목록에 항목을 자동으로 추가해 줍니다."
 
-#: include/vlc_config_cat.h:186 src/libvlc-module.c:1906
+#: include/vlc_config_cat.h:186 src/libvlc-module.c:1909
 msgid "Advanced"
 msgstr "고급"
 
@@ -927,8 +927,8 @@ msgstr "디코더"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:704
-#: modules/codec/avcodec/encoder.c:713 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
+#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "스트리밍 / 트랜스코딩 실패"
@@ -980,117 +980,117 @@ msgstr "섞임"
 msgid "Yes"
 msgstr "예"
 
-#: src/input/es_out.c:2007
+#: src/input/es_out.c:2012
 #, c-format
 msgid "Closed captions %u"
 msgstr "특수 자막 %u"
 
-#: src/input/es_out.c:2835
+#: src/input/es_out.c:2840
 #, c-format
 msgid "Stream %d"
 msgstr "스트림 %d"
 
-#: src/input/es_out.c:2851 src/input/es_out.c:2959
+#: src/input/es_out.c:2856 src/input/es_out.c:2964
 msgid "Subtitle"
 msgstr "자막"
 
-#: src/input/es_out.c:2859 src/input/es_out.c:2885 src/input/es_out.c:2932
-#: src/input/es_out.c:2959 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2864 src/input/es_out.c:2890 src/input/es_out.c:2937
+#: src/input/es_out.c:2964 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "타입"
 
-#: src/input/es_out.c:2862
+#: src/input/es_out.c:2867
 msgid "Original ID"
 msgstr "원본 ID"
 
-#: src/input/es_out.c:2869 src/input/es_out.c:2872
+#: src/input/es_out.c:2874 src/input/es_out.c:2877
 #: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
 #: modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "코덱"
 
-#: src/input/es_out.c:2876 src/input/meta.c:62 src/libvlc-module.c:212
+#: src/input/es_out.c:2881 src/input/meta.c:62 src/libvlc-module.c:212
 #: modules/gui/macosx/simple_prefs.m:269
 #: modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "언어"
 
-#: src/input/es_out.c:2879 src/input/meta.c:57
+#: src/input/es_out.c:2884 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "설명"
 
-#: src/input/es_out.c:2888 src/input/es_out.c:2891
+#: src/input/es_out.c:2893 src/input/es_out.c:2896
 #: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "채널"
 
-#: src/input/es_out.c:2896
+#: src/input/es_out.c:2901
 msgid "Sample rate"
 msgstr "샘플 레이트"
 
-#: src/input/es_out.c:2896
+#: src/input/es_out.c:2901
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2906
+#: src/input/es_out.c:2911
 msgid "Bits per sample"
 msgstr "비트/샘플"
 
-#: src/input/es_out.c:2911 modules/access/pvr.c:96
+#: src/input/es_out.c:2916 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "비트 레이트"
 
-#: src/input/es_out.c:2911
+#: src/input/es_out.c:2916
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/s"
 
-#: src/input/es_out.c:2923
+#: src/input/es_out.c:2928
 msgid "Track replay gain"
 msgstr "트랙 리플레이 게인"
 
-#: src/input/es_out.c:2925
+#: src/input/es_out.c:2930
 msgid "Album replay gain"
 msgstr "앨범 리플레이 게인"
 
-#: src/input/es_out.c:2926
+#: src/input/es_out.c:2931
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2935 modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2940 modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "해상도"
 
-#: src/input/es_out.c:2940
+#: src/input/es_out.c:2945
 msgid "Display resolution"
 msgstr "디스플레이 해상도"
 
-#: src/input/es_out.c:2950 src/input/es_out.c:2953
+#: src/input/es_out.c:2955 src/input/es_out.c:2958
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "프레임 레이트"
 
-#: src/input/input.c:2478
+#: src/input/input.c:2488
 msgid "Your input can't be opened"
 msgstr "입력을 열 수 없음"
 
-#: src/input/input.c:2479
+#: src/input/input.c:2489
 #, c-format
 msgid "VLC is unable to open the MRL '%s'. Check the log for details."
 msgstr ""
 "VLC에서 MRL '%s'을(를) 열 수 없습니다. 자세한 내용은 로그를 확인하세요."
 
-#: src/input/input.c:2598
+#: src/input/input.c:2608
 msgid "VLC can't recognize the input's format"
 msgstr "VLC에서 입력 형식을 인식할 수 없습니다."
 
-#: src/input/input.c:2599
+#: src/input/input.c:2609
 #, c-format
 msgid ""
 "The format of '%s' cannot be detected. Have a look at the log for details."
@@ -1402,7 +1402,7 @@ msgstr ""
 "계속하려면  Enter 키를 눌러 주세요...\n"
 
 #: src/libvlc.h:175 src/libvlc-module.c:1462 src/libvlc-module.c:1463
-#: src/libvlc-module.c:2639 src/video_output/vout_intf.c:195
+#: src/libvlc-module.c:2642 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "축소/확대"
 
@@ -1788,7 +1788,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:388
+#: modules/gui/qt4/components/interface_widgets.cpp:296
 msgid "None"
 msgstr "없음"
 
@@ -2721,7 +2721,7 @@ msgstr "자막 사용"
 msgid "You can completely disable the sub-picture processing."
 msgstr "완벽하게 자막 프로세싱을 사용안하게 할수 있습니다."
 
-#: src/libvlc-module.c:805 src/libvlc-module.c:1758
+#: src/libvlc-module.c:805 src/libvlc-module.c:1761
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
 #: modules/gui/qt4/ui/sprefs_subtitles.h:201
@@ -4390,7 +4390,7 @@ msgstr "오디오 장치 순환"
 msgid "Cycle through available audio devices"
 msgstr "사용가능한 오디오 장치 순환"
 
-#: src/libvlc-module.c:1683 src/video_output/vout_intf.c:363
+#: src/libvlc-module.c:1686 src/video_output/vout_intf.c:363
 #: modules/gui/macosx/controls.m:494 modules/gui/macosx/controls.m:1086
 #: modules/gui/macosx/intf.m:687 modules/gui/macosx/intf.m:751
 #: modules/gui/qt4/components/controller.hpp:106
@@ -4398,95 +4398,95 @@ msgstr "사용가능한 오디오 장치 순환"
 msgid "Snapshot"
 msgstr "스냅샷"
 
-#: src/libvlc-module.c:1700
+#: src/libvlc-module.c:1703
 msgid "Window properties"
 msgstr "창 속성"
 
-#: src/libvlc-module.c:1759
+#: src/libvlc-module.c:1762
 msgid "Subpictures"
 msgstr "부화면"
 
-#: src/libvlc-module.c:1767 modules/codec/subtitles/subsdec.c:202
+#: src/libvlc-module.c:1770 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
 #: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
 #: modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "자막"
 
-#: src/libvlc-module.c:1785 modules/stream_out/transcode/transcode.c:115
+#: src/libvlc-module.c:1788 modules/stream_out/transcode/transcode.c:115
 msgid "Overlays"
 msgstr "중첩"
 
-#: src/libvlc-module.c:1793
+#: src/libvlc-module.c:1796
 msgid "Track settings"
 msgstr "트랙 설정"
 
-#: src/libvlc-module.c:1823
+#: src/libvlc-module.c:1826
 msgid "Playback control"
 msgstr "재생 제어"
 
-#: src/libvlc-module.c:1850
+#: src/libvlc-module.c:1853
 msgid "Default devices"
 msgstr "기본 장치"
 
-#: src/libvlc-module.c:1859
+#: src/libvlc-module.c:1862
 msgid "Network settings"
 msgstr "네트워크 설정"
 
-#: src/libvlc-module.c:1871
+#: src/libvlc-module.c:1874
 msgid "Socks proxy"
 msgstr "Socks 프록시"
 
-#: src/libvlc-module.c:1880 modules/demux/kate_categories.c:47
+#: src/libvlc-module.c:1883 modules/demux/kate_categories.c:47
 msgid "Metadata"
 msgstr "메타데이터"
 
-#: src/libvlc-module.c:1931
+#: src/libvlc-module.c:1934
 msgid "Decoders"
 msgstr "디코더"
 
-#: src/libvlc-module.c:1938 modules/access/v4l2.c:80
+#: src/libvlc-module.c:1941 modules/access/v4l2.c:80
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "입력"
 
-#: src/libvlc-module.c:1977
+#: src/libvlc-module.c:1980
 msgid "VLM"
 msgstr "VLM"
 
-#: src/libvlc-module.c:2009
+#: src/libvlc-module.c:2012
 msgid "CPU"
 msgstr "CPU"
 
-#: src/libvlc-module.c:2038
+#: src/libvlc-module.c:2041
 msgid "Special modules"
 msgstr "특별 모듈"
 
-#: src/libvlc-module.c:2044 modules/gui/qt4/dialogs/plugins.cpp:66
+#: src/libvlc-module.c:2047 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
 msgstr "플러그인"
 
-#: src/libvlc-module.c:2059
+#: src/libvlc-module.c:2062
 msgid "Performance options"
 msgstr "성능 옵션"
 
-#: src/libvlc-module.c:2207
+#: src/libvlc-module.c:2210
 msgid "Hot keys"
 msgstr "단축키"
 
-#: src/libvlc-module.c:2649
+#: src/libvlc-module.c:2652
 msgid "Jump sizes"
 msgstr "건너뛰기 크기"
 
-#: src/libvlc-module.c:2726
+#: src/libvlc-module.c:2729
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr "VLC 도움말 인쇄 (--advanced 및 --help-verbose 와 조합할수 있습니다)"
 
-#: src/libvlc-module.c:2729
+#: src/libvlc-module.c:2732
 msgid "Exhaustive help for VLC and its modules"
 msgstr "VLC 상세 도움말 및 모듈"
 
-#: src/libvlc-module.c:2731
+#: src/libvlc-module.c:2734
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4494,19 +4494,19 @@ msgstr ""
 "VLC 도움말 및 모든 모듈 인쇄 (--advanced 및 --help-verbose 와 조합할수 있습니"
 "다)"
 
-#: src/libvlc-module.c:2734
+#: src/libvlc-module.c:2737
 msgid "ask for extra verbosity when displaying help"
 msgstr "도움말을 표시할때 추가 상세설명 묻기"
 
-#: src/libvlc-module.c:2736
+#: src/libvlc-module.c:2739
 msgid "print a list of available modules"
 msgstr "이용가능한 모듈 목록 인쇄"
 
-#: src/libvlc-module.c:2738
+#: src/libvlc-module.c:2741
 msgid "print a list of available modules with extra detail"
 msgstr "이용가능한 모듈의 목록을 상세 정보와 함께 출력"
 
-#: src/libvlc-module.c:2740
+#: src/libvlc-module.c:2743
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4514,27 +4514,27 @@ msgstr ""
 "지정한 모듈의 도움말 인쇄 (--advanced 및 --help-verbose 를 조합할수 있음). "
 "꼭 맞게하려면 모듈의 접두사를 = 로 하세요."
 
-#: src/libvlc-module.c:2744
+#: src/libvlc-module.c:2747
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr "설정 옵션이 읽어지지 않았거나 설정 파일에 저장되지 않았습니다"
 
-#: src/libvlc-module.c:2746
+#: src/libvlc-module.c:2749
 msgid "reset the current config to the default values"
 msgstr "현재의 설정값을 기본값으로 초기화"
 
-#: src/libvlc-module.c:2748
+#: src/libvlc-module.c:2751
 msgid "use alternate config file"
 msgstr "다른 설정 파일 사용"
 
-#: src/libvlc-module.c:2750
+#: src/libvlc-module.c:2753
 msgid "resets the current plugins cache"
 msgstr "현재 플러그인 캐시 초기화"
 
-#: src/libvlc-module.c:2752
+#: src/libvlc-module.c:2755
 msgid "print version information"
 msgstr "버전 정보 인쇄"
 
-#: src/libvlc-module.c:2790
+#: src/libvlc-module.c:2793
 msgid "main program"
 msgstr "메인 프로그램"
 
@@ -6618,7 +6618,7 @@ msgid "Height of the stream to capture (-1 for autodetect)."
 msgstr "캡쳐할 스트림의 높이 (자동인식은 -1)."
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
-#: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:257
+#: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:264
 #: modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "밝기"
@@ -8235,22 +8235,22 @@ msgstr "PORTAUDIO 오디오 출력"
 msgid "5.1"
 msgstr "5.1"
 
-#: modules/audio_output/pulse.c:65 modules/gui/macosx/embeddedwindow.m:76
+#: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:595 modules/gui/macosx/intf.m:596
 #: modules/gui/macosx/intf.m:1992 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:809
-#: modules/gui/qt4/main_interface.cpp:813
-#: modules/gui/qt4/main_interface.cpp:853
-#: modules/gui/qt4/main_interface.cpp:855
-#: modules/gui/qt4/main_interface.cpp:923
-#: modules/gui/qt4/main_interface.cpp:940
-#: modules/gui/qt4/main_interface.cpp:947
-#: modules/gui/qt4/main_interface.cpp:970
+#: modules/gui/qt4/main_interface.cpp:865
+#: modules/gui/qt4/main_interface.cpp:869
+#: modules/gui/qt4/main_interface.cpp:909
+#: modules/gui/qt4/main_interface.cpp:911
+#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:996
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1026
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "VLC 미디어 플레이어"
 
-#: modules/audio_output/pulse.c:103
+#: modules/audio_output/pulse.c:104
 msgid "Pulseaudio audio output"
 msgstr "Pulseaudio 오디오 출력"
 
@@ -8783,7 +8783,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:705 modules/codec/avcodec/encoder.c:714
+#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
 msgid "VLC could not open the encoder."
 msgstr "VLC 가 인코더를 열수 없습니다."
 
@@ -11830,11 +11830,11 @@ msgstr ""
 
 #: modules/control/telnet.c:77 modules/gui/macosx/open.m:200
 #: modules/gui/macosx/open.m:202 modules/gui/macosx/output.m:147
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:146
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:198
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:243
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:293
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:386
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:156
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:215
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:260
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:310
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:404
 #: modules/stream_out/rtp.c:112
 msgid "Port"
 msgstr "포트"
@@ -12146,11 +12146,11 @@ msgstr "HTTP 터널 포트"
 msgid "Port to use for tunneling the RTSP/RTP over HTTP."
 msgstr "HTTP 을 통한 RTSP/RTP 터널링에 사용할 포트."
 
-#: modules/demux/live555.cpp:602
+#: modules/demux/live555.cpp:603
 msgid "RTSP authentication"
 msgstr "RTSP 인증"
 
-#: modules/demux/live555.cpp:603
+#: modules/demux/live555.cpp:604
 msgid "Please enter a valid login name and a password."
 msgstr "정확한 로그인 이름 및 비밀번호를 입력하세요."
 
@@ -12790,7 +12790,7 @@ msgstr "스트림의 재생"
 
 #: modules/demux/ts.c:160
 msgid ""
-"Separate teletex/dvbs pages into independent ES. It can be usefull to turn "
+"Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
 
@@ -13910,10 +13910,10 @@ msgid "Protocol"
 msgstr "프로토콜"
 
 #: modules/gui/macosx/open.m:211 modules/gui/macosx/output.m:146
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:197
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:292
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:339
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:385
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:214
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:309
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:356
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:403
 msgid "Address"
 msgstr "주소"
 
@@ -15255,7 +15255,7 @@ msgid ""
 "panel)."
 msgstr ""
 
-#: modules/gui/hildon/maemo.c:62
+#: modules/gui/hildon/maemo.c:63
 msgid "Maemo hildon interface"
 msgstr "Maemo hildon 인터페이스"
 
@@ -15908,30 +15908,30 @@ msgstr "재생"
 msgid "buffers"
 msgstr "VBV 버퍼"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:386
+#: modules/gui/qt4/components/interface_widgets.cpp:294
 msgid "Current visualization"
 msgstr "현재 시각화"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:425
+#: modules/gui/qt4/components/interface_widgets.cpp:333
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:496
+#: modules/gui/qt4/components/interface_widgets.cpp:404
 msgid "Revert to normal play speed"
 msgstr "보통 재생 속도로 되돌림"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:570
+#: modules/gui/qt4/components/interface_widgets.cpp:478
 msgid "Download cover art"
 msgstr "커버 아트 다운로드"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:613
+#: modules/gui/qt4/components/interface_widgets.cpp:521
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "하나 순환과 전체 순환을 토글하려면 누르세요"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:615
+#: modules/gui/qt4/components/interface_widgets.cpp:523
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "미디어 정보를 얻으려면 더블 클릭하세요"
@@ -16259,11 +16259,11 @@ msgstr "선택된 프로파일 삭제"
 msgid "Create a new profile"
 msgstr "새 프로파일 만들기"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:400
+#: modules/gui/qt4/components/sout/profile_selector.cpp:402
 msgid " Profile Name Missing"
 msgstr " 프로파일 이름 없음"
 
-#: modules/gui/qt4/components/sout/profile_selector.cpp:401
+#: modules/gui/qt4/components/sout/profile_selector.cpp:403
 msgid "You must set a name for the profile."
 msgstr "프로파일 이름을 설정해야 합니다."
 
@@ -16297,57 +16297,58 @@ msgstr "이 모듈은 변환된 스트림을 파일에 씁니다."
 msgid "Filename"
 msgstr "파일명"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:128
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:138
 #: modules/gui/qt4/dialogs/convert.cpp:111
 msgid "Save file..."
 msgstr "파일 저장..."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:129
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#, fuzzy
+msgid ""
+"Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 msgstr "컨테이너 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:141
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:151
 msgid "This module outputs the transcoded stream to a network via HTTP."
 msgstr "이 모듈은 HTTP 를 통해 변환된 스트림을 네트워크로 출력합니다."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:145
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:242
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:155
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:259
 msgid "Path"
 msgstr "경로"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:193
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:210
 msgid ""
 "This module outputs the transcoded stream to a network  via the mms protocol."
 msgstr "이 모듈은 mms 프로토콜을 통해 변환된 스트림을 네트워크로 출력합니다."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:238
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:255
 #, fuzzy
 msgid "This module outputs the transcoded stream to a network via RTSP."
 msgstr "이 모듈은 RTP 를 통해 변환된 스트림을 네트워크로 출력합니다."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:288
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:305
 msgid "This module outputs the transcoded stream to a network via UDP."
 msgstr "이 모듈은 UDP 를 통해 변환된 스트림을 네트워크로 출력합니다."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:335
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:352
 msgid "This module outputs the transcoded stream to a network via RTP."
 msgstr "이 모듈은 RTP 를 통해 변환된 스트림을 네트워크로 출력합니다."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:340
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:357
 #, fuzzy
 msgid "Base port"
 msgstr "CDDB 포트"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:381
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:399
 msgid "This module outputs the transcoded stream to an Icecast server."
 msgstr "이 모듈은 변환된 스트림을 Icecast 서버로 출력합니다."
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:402
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:420
 msgid "Mount Point"
 msgstr "마운트 지점"
 
-#: modules/gui/qt4/components/sout/sout_widgets.cpp:403
+#: modules/gui/qt4/components/sout/sout_widgets.cpp:421
 msgid "Login:pass"
 msgstr "로그인:통과"
 
@@ -16416,6 +16417,10 @@ msgstr "설정"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "시작(&S)"
+
+#: modules/gui/qt4/dialogs/convert.cpp:113
+msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+msgstr "컨테이너 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -17059,11 +17064,11 @@ msgstr "자막 파일"
 msgid "All Files"
 msgstr "모든 파일"
 
-#: modules/gui/qt4/main_interface.cpp:924
+#: modules/gui/qt4/main_interface.cpp:980
 msgid "Control menu for the player"
 msgstr "플레이어 제어 메뉴"
 
-#: modules/gui/qt4/main_interface.cpp:967
+#: modules/gui/qt4/main_interface.cpp:1023
 msgid "Paused"
 msgstr "일시중지"
 
@@ -20294,169 +20299,182 @@ msgid ""
 "delegate processing to the external process - with more options"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:152
+#: modules/video_filter/atmo/atmo.cpp:153
 msgid "AtmoWin Software"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:154
+#: modules/video_filter/atmo/atmo.cpp:155
 #, fuzzy
 msgid "Classic AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:155
+#: modules/video_filter/atmo/atmo.cpp:156
 #, fuzzy
 msgid "Quattro AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:156
+#: modules/video_filter/atmo/atmo.cpp:157
 msgid "DMX"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:157
+#: modules/video_filter/atmo/atmo.cpp:158
 #, fuzzy
 msgid "MoMoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:160
+#: modules/video_filter/atmo/atmo.cpp:159
+msgid "fnordlicht"
+msgstr ""
+
+#: modules/video_filter/atmo/atmo.cpp:162
 #, fuzzy
 msgid "Count of AtmoLight channels"
 msgstr "출력 채널수"
 
-#: modules/video_filter/atmo/atmo.cpp:161
+#: modules/video_filter/atmo/atmo.cpp:163
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:163
+#: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:164
+#: modules/video_filter/atmo/atmo.cpp:166
 msgid ""
 "Define here the DMX base address for each channel use , or ; to seperate the "
 "values"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:167
+#: modules/video_filter/atmo/atmo.cpp:169
 #, fuzzy
 msgid "Count of channels"
 msgstr "채널수"
 
-#: modules/video_filter/atmo/atmo.cpp:168
+#: modules/video_filter/atmo/atmo.cpp:170
 msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:178
+#: modules/video_filter/atmo/atmo.cpp:173
+#, fuzzy
+msgid "Count of fnordlicht's"
+msgstr "채널수"
+
+#: modules/video_filter/atmo/atmo.cpp:174
+msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
+msgstr ""
+
+#: modules/video_filter/atmo/atmo.cpp:185
 msgid "Save Debug Frames"
 msgstr "디버그 프레임 저장"
 
-#: modules/video_filter/atmo/atmo.cpp:179
+#: modules/video_filter/atmo/atmo.cpp:186
 msgid "Write every 128th miniframe to a folder."
 msgstr "매 128번째 미니프레임 폴더에 쓰기."
 
-#: modules/video_filter/atmo/atmo.cpp:180
+#: modules/video_filter/atmo/atmo.cpp:187
 msgid "Debug Frame Folder"
 msgstr "디버그 프레임 폴더"
 
-#: modules/video_filter/atmo/atmo.cpp:181
+#: modules/video_filter/atmo/atmo.cpp:188
 msgid "The path where the debugframes should be saved"
 msgstr "디버그프레임이 저장될 경로"
 
-#: modules/video_filter/atmo/atmo.cpp:185
+#: modules/video_filter/atmo/atmo.cpp:192
 msgid "Extracted Image Width"
 msgstr "추출된 이미지 너비"
 
-#: modules/video_filter/atmo/atmo.cpp:186
+#: modules/video_filter/atmo/atmo.cpp:193
 msgid "The width of the mini image for further processing (64 is default)"
 msgstr "향후 처리시 작은 이미지 너비 (기본 64)"
 
-#: modules/video_filter/atmo/atmo.cpp:189
+#: modules/video_filter/atmo/atmo.cpp:196
 msgid "Extracted Image Height"
 msgstr "추출된 이미지 높이"
 
-#: modules/video_filter/atmo/atmo.cpp:190
+#: modules/video_filter/atmo/atmo.cpp:197
 msgid "The height of the mini image for further processing (48 is default)"
 msgstr "향후 처리시 작은 이미지 높이 (기본 48)"
 
-#: modules/video_filter/atmo/atmo.cpp:193
+#: modules/video_filter/atmo/atmo.cpp:200
 msgid "Mark analyzed pixels"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:194
+#: modules/video_filter/atmo/atmo.cpp:201
 msgid "makes the sample grid visible on screen as white pixels"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:197
+#: modules/video_filter/atmo/atmo.cpp:204
 msgid "Color when paused"
 msgstr "일시중지시 색깔"
 
-#: modules/video_filter/atmo/atmo.cpp:198
+#: modules/video_filter/atmo/atmo.cpp:205
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:201
+#: modules/video_filter/atmo/atmo.cpp:208
 msgid "Pause-Red"
 msgstr "일시중지-빨강"
 
-#: modules/video_filter/atmo/atmo.cpp:202
+#: modules/video_filter/atmo/atmo.cpp:209
 msgid "Red component of the pause color"
 msgstr "일시중지 색깔의 빨강 구성요소"
 
-#: modules/video_filter/atmo/atmo.cpp:203
+#: modules/video_filter/atmo/atmo.cpp:210
 msgid "Pause-Green"
 msgstr "일시중지-녹색"
 
-#: modules/video_filter/atmo/atmo.cpp:204
+#: modules/video_filter/atmo/atmo.cpp:211
 msgid "Green component of the pause color"
 msgstr "일시중지 색깔의 녹색 구성요소"
 
-#: modules/video_filter/atmo/atmo.cpp:205
+#: modules/video_filter/atmo/atmo.cpp:212
 msgid "Pause-Blue"
 msgstr "일시정지-파랑"
 
-#: modules/video_filter/atmo/atmo.cpp:206
+#: modules/video_filter/atmo/atmo.cpp:213
 msgid "Blue component of the pause color"
 msgstr "일시중지 색깔의 파랑 구성요소"
 
-#: modules/video_filter/atmo/atmo.cpp:207
+#: modules/video_filter/atmo/atmo.cpp:214
 msgid "Pause-Fadesteps"
 msgstr "일시중지-흐림단계"
 
-#: modules/video_filter/atmo/atmo.cpp:208
+#: modules/video_filter/atmo/atmo.cpp:215
 msgid ""
 "Number of steps to change current color to pause color (each step takes 40ms)"
 msgstr "현재 색깔을 일시중지 색깔로 변경하는 단계수 (각 단계는 40ms 걸림)"
 
-#: modules/video_filter/atmo/atmo.cpp:211
+#: modules/video_filter/atmo/atmo.cpp:218
 msgid "End-Red"
 msgstr "종료-빨강"
 
-#: modules/video_filter/atmo/atmo.cpp:212
+#: modules/video_filter/atmo/atmo.cpp:219
 msgid "Red component of the shutdown color"
 msgstr "종료 색깔의 빨강 구성요소"
 
-#: modules/video_filter/atmo/atmo.cpp:213
+#: modules/video_filter/atmo/atmo.cpp:220
 msgid "End-Green"
 msgstr "종료-녹색"
 
-#: modules/video_filter/atmo/atmo.cpp:214
+#: modules/video_filter/atmo/atmo.cpp:221
 msgid "Green component of the shutdown color"
 msgstr "종료 색깔의 녹색 구성요소"
 
-#: modules/video_filter/atmo/atmo.cpp:215
+#: modules/video_filter/atmo/atmo.cpp:222
 msgid "End-Blue"
 msgstr "종료-파랑"
 
-#: modules/video_filter/atmo/atmo.cpp:216
+#: modules/video_filter/atmo/atmo.cpp:223
 msgid "Blue component of the shutdown color"
 msgstr "종료 색깔의 파랑 구성요소"
 
-#: modules/video_filter/atmo/atmo.cpp:217
+#: modules/video_filter/atmo/atmo.cpp:224
 msgid "End-Fadesteps"
 msgstr "종료-흐림단계"
 
-#: modules/video_filter/atmo/atmo.cpp:218
+#: modules/video_filter/atmo/atmo.cpp:225
 msgid ""
 "Number of steps to change current color to end color for dimming up the "
 "light in cinema style... (each step takes 40ms)"
@@ -20464,245 +20482,245 @@ msgstr ""
 "영화 스타일에서 조명을 점차 강하게하기 위한 현재 색깔을 종료 색깔로 변경하는 "
 "단계수 (각 단계는 40ms 걸림)"
 
-#: modules/video_filter/atmo/atmo.cpp:222
+#: modules/video_filter/atmo/atmo.cpp:229
 #, fuzzy
 msgid "Number of zones on top"
 msgstr "복제할 수"
 
-#: modules/video_filter/atmo/atmo.cpp:223
+#: modules/video_filter/atmo/atmo.cpp:230
 #, fuzzy
 msgid "Number of zones on the top of the screen"
 msgstr "이미지의 상단에서 잘라낼 픽셀수."
 
-#: modules/video_filter/atmo/atmo.cpp:224
+#: modules/video_filter/atmo/atmo.cpp:231
 #, fuzzy
 msgid "Number of zones on bottom"
 msgstr "복제할 수"
 
-#: modules/video_filter/atmo/atmo.cpp:225
+#: modules/video_filter/atmo/atmo.cpp:232
 #, fuzzy
 msgid "Number of zones on the bottom of the screen"
 msgstr "이미지의 하단에서 잘라낼 픽셀수."
 
-#: modules/video_filter/atmo/atmo.cpp:226
+#: modules/video_filter/atmo/atmo.cpp:233
 msgid "Zones on left / right side"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:227
+#: modules/video_filter/atmo/atmo.cpp:234
 msgid "left and right side having allways the same number of zones"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:229
+#: modules/video_filter/atmo/atmo.cpp:236
 msgid "Calculate a average zone"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:230
+#: modules/video_filter/atmo/atmo.cpp:237
 msgid ""
 "it contains the average of all pixels in the sample image (only useful for "
 "single channel AtmoLight)"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:235
+#: modules/video_filter/atmo/atmo.cpp:242
 msgid "Use Software White adjust"
 msgstr "소프트웨어 화이트 조정 사용"
 
-#: modules/video_filter/atmo/atmo.cpp:236
+#: modules/video_filter/atmo/atmo.cpp:243
 msgid ""
 "Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr "화이트 조정 또는 LED 스트라이프를 내장 드라이버로 하시겠습니까? 추천."
 
-#: modules/video_filter/atmo/atmo.cpp:238
+#: modules/video_filter/atmo/atmo.cpp:245
 msgid "White Red"
 msgstr "밝은 빨강"
 
-#: modules/video_filter/atmo/atmo.cpp:239
+#: modules/video_filter/atmo/atmo.cpp:246
 msgid "Red value of a pure white on your LED stripes."
 msgstr "LED 스트라이프의 순수한 하양의 빨강 값."
 
-#: modules/video_filter/atmo/atmo.cpp:241
+#: modules/video_filter/atmo/atmo.cpp:248
 msgid "White Green"
 msgstr "밝은 녹색"
 
-#: modules/video_filter/atmo/atmo.cpp:242
+#: modules/video_filter/atmo/atmo.cpp:249
 msgid "Green value of a pure white on your LED stripes."
 msgstr "LED 스트라이프의 순수한 하양의 녹색 값."
 
-#: modules/video_filter/atmo/atmo.cpp:244
+#: modules/video_filter/atmo/atmo.cpp:251
 msgid "White Blue"
 msgstr "밝은 파랑"
 
-#: modules/video_filter/atmo/atmo.cpp:245
+#: modules/video_filter/atmo/atmo.cpp:252
 msgid "Blue value of a pure white on your LED stripes."
 msgstr "LED 스트라이프의 순수한 하양의 파랑 값."
 
-#: modules/video_filter/atmo/atmo.cpp:248
+#: modules/video_filter/atmo/atmo.cpp:255
 msgid "Serial Port/Device"
 msgstr "직렬 포트/장치"
 
-#: modules/video_filter/atmo/atmo.cpp:249
+#: modules/video_filter/atmo/atmo.cpp:256
 msgid ""
 "Name of the serial port where the AtmoLight controller is attached to.\n"
 "On Windows usually something like COM1 or COM2. On Linux /dev/ttyS01 f.e."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:254
+#: modules/video_filter/atmo/atmo.cpp:261
 msgid "Edge Weightning"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:255
+#: modules/video_filter/atmo/atmo.cpp:262
 msgid ""
 "Increasing this value will result in color more depending on the border of "
 "the frame."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:258
+#: modules/video_filter/atmo/atmo.cpp:265
 msgid "Overall brightness of your LED stripes"
 msgstr "LED 스트라이프의 전반적인 밝기"
 
-#: modules/video_filter/atmo/atmo.cpp:259
+#: modules/video_filter/atmo/atmo.cpp:266
 msgid "Darkness Limit"
 msgstr "어두움 제한"
 
-#: modules/video_filter/atmo/atmo.cpp:260
+#: modules/video_filter/atmo/atmo.cpp:267
 msgid ""
 "Pixels with a saturation lower than this will be ignored. Should be greater "
 "than one for letterboxed videos."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:263
+#: modules/video_filter/atmo/atmo.cpp:270
 msgid "Hue windowing"
 msgstr "색조 윈도잉"
 
-#: modules/video_filter/atmo/atmo.cpp:264
-#: modules/video_filter/atmo/atmo.cpp:266
+#: modules/video_filter/atmo/atmo.cpp:271
+#: modules/video_filter/atmo/atmo.cpp:273
 msgid "Used for statistics."
 msgstr "통계에 사용됨."
 
-#: modules/video_filter/atmo/atmo.cpp:265
+#: modules/video_filter/atmo/atmo.cpp:272
 msgid "Sat windowing"
 msgstr "채도 윈도잉"
 
-#: modules/video_filter/atmo/atmo.cpp:268
+#: modules/video_filter/atmo/atmo.cpp:275
 #: modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "필터 길이 (ms)"
 
-#: modules/video_filter/atmo/atmo.cpp:269
+#: modules/video_filter/atmo/atmo.cpp:276
 msgid ""
 "Time it takes until a color is completely changed. This prevents flickering."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:271
+#: modules/video_filter/atmo/atmo.cpp:278
 msgid "Filter threshold"
 msgstr "필터 한계값"
 
-#: modules/video_filter/atmo/atmo.cpp:272
+#: modules/video_filter/atmo/atmo.cpp:279
 msgid "How much a color has to be changed for an immediate color change."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:274
+#: modules/video_filter/atmo/atmo.cpp:281
 msgid "Filter Smoothness (in %)"
 msgstr "필터 부드러움 (%)"
 
-#: modules/video_filter/atmo/atmo.cpp:275
+#: modules/video_filter/atmo/atmo.cpp:282
 msgid "Filter Smoothness"
 msgstr "필터 부드러움"
 
-#: modules/video_filter/atmo/atmo.cpp:277
+#: modules/video_filter/atmo/atmo.cpp:284
 #, fuzzy
 msgid "Output Color filter mode"
 msgstr "영상 출력 필터 모듈"
 
-#: modules/video_filter/atmo/atmo.cpp:278
+#: modules/video_filter/atmo/atmo.cpp:285
 msgid ""
 "defines the how the output color should be calculated based on previous color"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:287
+#: modules/video_filter/atmo/atmo.cpp:294
 msgid "No Filtering"
 msgstr "필터링 없음"
 
-#: modules/video_filter/atmo/atmo.cpp:288
+#: modules/video_filter/atmo/atmo.cpp:295
 msgid "Combined"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:289
+#: modules/video_filter/atmo/atmo.cpp:296
 msgid "Percent"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:292
+#: modules/video_filter/atmo/atmo.cpp:299
 #, fuzzy
 msgid "Frame delay (ms)"
 msgstr "파일의 선택"
 
-#: modules/video_filter/atmo/atmo.cpp:293
+#: modules/video_filter/atmo/atmo.cpp:300
 msgid ""
 "Helps to get the video output and the light effects in sync. Values around "
 "20ms should do the trick."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:298
+#: modules/video_filter/atmo/atmo.cpp:305
 #, fuzzy
 msgid "Channel 0: summary"
 msgstr "채널 요약"
 
-#: modules/video_filter/atmo/atmo.cpp:299
+#: modules/video_filter/atmo/atmo.cpp:306
 #, fuzzy
 msgid "Channel 1: left"
 msgstr "왼쪽 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:300
+#: modules/video_filter/atmo/atmo.cpp:307
 #, fuzzy
 msgid "Channel 2: right"
 msgstr "오른쪽 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:301
+#: modules/video_filter/atmo/atmo.cpp:308
 #, fuzzy
 msgid "Channel 3: top"
 msgstr "상단 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:302
+#: modules/video_filter/atmo/atmo.cpp:309
 #, fuzzy
 msgid "Channel 4: bottom"
 msgstr "하단 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:304
+#: modules/video_filter/atmo/atmo.cpp:311
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:315
+#: modules/video_filter/atmo/atmo.cpp:322
 msgid "disabled"
 msgstr "사용안함"
 
-#: modules/video_filter/atmo/atmo.cpp:316
+#: modules/video_filter/atmo/atmo.cpp:323
 #, fuzzy
 msgid "Zone 4:summary"
 msgstr "채널 요약"
 
-#: modules/video_filter/atmo/atmo.cpp:317
+#: modules/video_filter/atmo/atmo.cpp:324
 #, fuzzy
 msgid "Zone 3:left"
 msgstr "왼쪽 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:318
+#: modules/video_filter/atmo/atmo.cpp:325
 #, fuzzy
 msgid "Zone 1:right"
 msgstr "오른쪽 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:319
+#: modules/video_filter/atmo/atmo.cpp:326
 msgid "Zone 0:top"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:320
+#: modules/video_filter/atmo/atmo.cpp:327
 #, fuzzy
 msgid "Zone 2:bottom"
 msgstr "하단 채널"
 
-#: modules/video_filter/atmo/atmo.cpp:322
+#: modules/video_filter/atmo/atmo.cpp:329
 msgid "Channel / Zone Assignment"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:323
+#: modules/video_filter/atmo/atmo.cpp:330
 msgid ""
 "for devices with more than five channels / zones write down here for each "
 "channel the zone number to show and seperate the values with , or ; and use "
@@ -20712,107 +20730,112 @@ msgid ""
 "classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:333
+#: modules/video_filter/atmo/atmo.cpp:340
 #, fuzzy
 msgid "Zone 0: Top gradient"
 msgstr "상단 기울기"
 
-#: modules/video_filter/atmo/atmo.cpp:334
+#: modules/video_filter/atmo/atmo.cpp:341
 #, fuzzy
 msgid "Zone 1: Right gradient"
 msgstr "오른쪽 기울기"
 
-#: modules/video_filter/atmo/atmo.cpp:335
+#: modules/video_filter/atmo/atmo.cpp:342
 #, fuzzy
 msgid "Zone 2: Bottom gradient"
 msgstr "하단 기울기"
 
-#: modules/video_filter/atmo/atmo.cpp:336
+#: modules/video_filter/atmo/atmo.cpp:343
 #, fuzzy
 msgid "Zone 3: Left gradient"
 msgstr "왼쪽 기울기"
 
-#: modules/video_filter/atmo/atmo.cpp:337
+#: modules/video_filter/atmo/atmo.cpp:344
 #, fuzzy
 msgid "Zone 4: Summary gradient"
 msgstr "기울기 요약"
 
-#: modules/video_filter/atmo/atmo.cpp:338
+#: modules/video_filter/atmo/atmo.cpp:345
 msgid ""
 "Defines a small bitmap with 64x48 pixels, containing a grayscale gradient"
 msgstr "회색조 기울기를 포함하는 64x48 픽셀의 작은 비트맵 정의"
 
-#: modules/video_filter/atmo/atmo.cpp:341
+#: modules/video_filter/atmo/atmo.cpp:348
 #, fuzzy
 msgid "Gradient bitmap searchpath"
 msgstr "기울기 이미지 타입"
 
-#: modules/video_filter/atmo/atmo.cpp:342
+#: modules/video_filter/atmo/atmo.cpp:349
 msgid ""
 "Now prefered option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:347
+#: modules/video_filter/atmo/atmo.cpp:354
 #, fuzzy
 msgid "Filename of AtmoWin*.exe"
 msgstr "AtmoWinA.exe 의 파일명"
 
-#: modules/video_filter/atmo/atmo.cpp:348
+#: modules/video_filter/atmo/atmo.cpp:355
 msgid ""
 "if you want the AtmoLight control software to be launched by VLC, enter the "
 "complete path of AtmoWinA.exe here."
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:359
+#: modules/video_filter/atmo/atmo.cpp:366
 msgid "AtmoLight Filter"
 msgstr "AtmoLight 필터"
 
-#: modules/video_filter/atmo/atmo.cpp:361
+#: modules/video_filter/atmo/atmo.cpp:368
 #: modules/gui/qt4/ui/video_effects.h:1153
 #: modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
-#: modules/video_filter/atmo/atmo.cpp:368
+#: modules/video_filter/atmo/atmo.cpp:375
 msgid "Choose Devicetype and Connection"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:393
+#: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
 msgstr "일시중지때 이 색깔로 실내를 조명"
 
-#: modules/video_filter/atmo/atmo.cpp:409
+#: modules/video_filter/atmo/atmo.cpp:416
 msgid "Illuminate the room with this color on shutdown"
 msgstr "종료때 이 색깔로 실내를 조명"
 
-#: modules/video_filter/atmo/atmo.cpp:420
+#: modules/video_filter/atmo/atmo.cpp:427
 #, fuzzy
 msgid "DMX options"
 msgstr "도움말 선택사항"
 
-#: modules/video_filter/atmo/atmo.cpp:426
+#: modules/video_filter/atmo/atmo.cpp:433
 #, fuzzy
 msgid "MoMoLight options"
 msgstr "지속 기간"
 
-#: modules/video_filter/atmo/atmo.cpp:468
+#: modules/video_filter/atmo/atmo.cpp:440
+#, fuzzy
+msgid "fnordlicht options"
+msgstr "지속 기간"
+
+#: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:484
+#: modules/video_filter/atmo/atmo.cpp:498
 msgid "Settings for the built-in Live Video Processor only"
 msgstr "내장 라이브 비디오 프로세서만을 위한 설정"
 
-#: modules/video_filter/atmo/atmo.cpp:521
+#: modules/video_filter/atmo/atmo.cpp:535
 msgid "Change channel assignment (fixes wrong wiring)"
 msgstr ""
 
-#: modules/video_filter/atmo/atmo.cpp:554
+#: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
 msgstr "LED 스트라이프의 하양 빛 조정"
 
-#: modules/video_filter/atmo/atmo.cpp:576
+#: modules/video_filter/atmo/atmo.cpp:590
 msgid "Change gradients"
 msgstr "기울기 변경"
 
@@ -22771,7 +22794,7 @@ msgstr ""
 msgid "Direct3D video output"
 msgstr "DirectX 3D 비디오 출력"
 
-#: modules/video_output/msw/direct3d.c:175
+#: modules/video_output/msw/direct3d.c:164
 #, fuzzy
 msgid "Desktop"
 msgstr "디스크·타입"
@@ -22836,7 +22859,7 @@ msgstr ""
 msgid "DirectX (DirectDraw) video output"
 msgstr "DirectX 3D 비디오 출력"
 
-#: modules/video_output/msw/directx.c:233
+#: modules/video_output/msw/directx.c:222
 msgid "Wallpaper"
 msgstr "바탕화면"
 
@@ -22966,11 +22989,11 @@ msgstr "비디오 메모리 출력"
 msgid "Video memory"
 msgstr "비디오 메모리"
 
-#: modules/video_output/xcb/glx.c:50
+#: modules/video_output/xcb/glx.c:51
 msgid "GLX"
 msgstr ""
 
-#: modules/video_output/xcb/glx.c:51
+#: modules/video_output/xcb/glx.c:52
 #, fuzzy
 msgid "GLX video output (XCB)"
 msgstr "X11 비디오 출력"
