@@ -714,7 +714,7 @@ struct encoder_sys_t
     x264_param_t    param;
 
 #if X264_BUILD >= 83
-    int  i_initial_delay;
+    int64_t  i_initial_delay;
 #else
     mtime_t         i_interpolated_dts;
 #endif
