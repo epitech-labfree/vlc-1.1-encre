@@ -247,7 +247,7 @@ static void CommonChangeThumbnailClip(vout_display_t *vd, bool show)
                                  &taskbl)) {
         taskbl->vt->HrInit(taskbl);
 
-        HWND hroot = GetAncestor(sys->hwnd,GA_ROOT);
+        HWND hroot = GetAncestor(sys->hwnd,GA_PARENT);
         RECT relative;
         if (show) {
             RECT video, parent;
