@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Slovak translation for VLC Media Player\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-11 00:45+0200\n"
+"POT-Creation-Date: 2010-06-16 03:28+0200\n"
 "PO-Revision-Date: 2010-05-16 12:33+0100\n"
 "Last-Translator: Marian Hikanik <podnety-at-mojepreklady.net>\n"
 "Language-Team: Marián Hikaník (controlled by Pavel Kříž)\n"
@@ -926,8 +926,8 @@ msgstr "dekodér"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
-#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:706
+#: modules/codec/avcodec/encoder.c:715 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Streamovanie a prekódovanie sa nepodarilo"
@@ -1813,7 +1813,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:296
+#: modules/gui/qt4/components/interface_widgets.cpp:295
 msgid "None"
 msgstr "Žiaden"
 
@@ -7734,7 +7734,7 @@ msgstr "Používateľské meno, ktoré je potrebné pre prístup k streamu."
 
 #: modules/access_output/http.c:68 modules/control/telnet.c:81
 #: modules/gui/macosx/coredialogs.m:65 modules/gui/macosx/simple_prefs.m:234
-#: modules/gui/qt4/dialogs/external.cpp:124 modules/misc/audioscrobbler.c:136
+#: modules/gui/qt4/dialogs/external.cpp:125 modules/misc/audioscrobbler.c:136
 #: modules/misc/notify/growl_udp.c:73 modules/stream_out/raop.c:154
 msgid "Password"
 msgstr "Heslo"
@@ -9330,7 +9330,7 @@ msgstr ""
 "Preto nie je potrebné, aby ste o tejto chybe informovali tím vývojárov "
 "projektu VideoLAN.\n"
 
-#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
+#: modules/codec/avcodec/encoder.c:707 modules/codec/avcodec/encoder.c:716
 msgid "VLC could not open the encoder."
 msgstr "Program VLC nemôže otvoriť enkodér."
 
@@ -14073,7 +14073,7 @@ msgid "Step Backward"
 msgstr "Krok dozadu"
 
 #: modules/gui/macosx/coredialogs.m:64 modules/gui/macosx/simple_prefs.m:235
-#: modules/gui/qt4/dialogs/external.cpp:119
+#: modules/gui/qt4/dialogs/external.cpp:120
 msgid "User name"
 msgstr "Meno používateľa"
 
@@ -16876,11 +16876,11 @@ msgstr "Prehrané"
 msgid "buffers"
 msgstr "vyr. pamätí"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:294
+#: modules/gui/qt4/components/interface_widgets.cpp:293
 msgid "Current visualization"
 msgstr "Aktuálna vizualizácia"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:333
+#: modules/gui/qt4/components/interface_widgets.cpp:332
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16888,19 +16888,19 @@ msgstr ""
 "Aktuálna rýchlosť prehrávania: %1\n"
 "Prispôsobenie vykonáte kliknutím"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:404
+#: modules/gui/qt4/components/interface_widgets.cpp:403
 msgid "Revert to normal play speed"
 msgstr "Vrátiť na normálnu rýchlosť prehrávania"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:478
+#: modules/gui/qt4/components/interface_widgets.cpp:477
 msgid "Download cover art"
 msgstr "Stiahnuť obal"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:521
+#: modules/gui/qt4/components/interface_widgets.cpp:520
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Kliknutím môžete prepnúť medzi uplynulým a zostávajúcim časom"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:523
+#: modules/gui/qt4/components/interface_widgets.cpp:522
 msgid "Double click to jump to a chosen time position"
 msgstr "Na preskočenie na určitú pozíciu, dvakrát kliknite"
 
@@ -17258,6 +17258,7 @@ msgid "Save file..."
 msgstr "Uložiť súbor..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#: modules/gui/qt4/dialogs/convert.cpp:113
 #, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
@@ -17379,10 +17380,6 @@ msgstr "Nastavenia"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "&Štart"
-
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-msgstr "Kontajnery (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -25601,6 +25598,11 @@ msgstr "Opakovanie"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Zoznam správcov médií"
+
+#~ msgid ""
+#~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#~ msgstr ""
+#~ "Kontajnery (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #~ msgid "Attachment"
 #~ msgstr "Príloha"

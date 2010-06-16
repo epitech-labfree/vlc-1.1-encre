@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-11 00:45+0200\n"
+"POT-Creation-Date: 2010-06-16 03:28+0200\n"
 "PO-Revision-Date: 2009-09-19 16:53+0100\n"
 "Last-Translator: Dominko Aždajić <domazd@mail.ru>\n"
 "Language-Team: Croatian\n"
@@ -945,8 +945,8 @@ msgstr "Dekôderi"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
-#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:706
+#: modules/codec/avcodec/encoder.c:715 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Strujanje / prekodiranje nije uspjelo"
@@ -1822,7 +1822,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:296
+#: modules/gui/qt4/components/interface_widgets.cpp:295
 msgid "None"
 msgstr "Nikakav"
 
@@ -7733,7 +7733,7 @@ msgstr "Korisničko ime koje će se iziskivati za pristup protoku strujanja."
 
 #: modules/access_output/http.c:68 modules/control/telnet.c:81
 #: modules/gui/macosx/coredialogs.m:65 modules/gui/macosx/simple_prefs.m:234
-#: modules/gui/qt4/dialogs/external.cpp:124 modules/misc/audioscrobbler.c:136
+#: modules/gui/qt4/dialogs/external.cpp:125 modules/misc/audioscrobbler.c:136
 #: modules/misc/notify/growl_udp.c:73 modules/stream_out/raop.c:154
 msgid "Password"
 msgstr "Lozinka"
@@ -9330,7 +9330,7 @@ msgstr ""
 "Ovdje se ne radi o nekakvoj pogrešci unutar medijskog izvođača VLC.\n"
 "Stoga se u svezi s ovim pitanjem nemojte obraćati projektu The VideoLAN.\n"
 
-#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
+#: modules/codec/avcodec/encoder.c:707 modules/codec/avcodec/encoder.c:716
 msgid "VLC could not open the encoder."
 msgstr "VLC nije mogao otvoriti kôder."
 
@@ -14036,7 +14036,7 @@ msgid "Step Backward"
 msgstr "Korak natrag"
 
 #: modules/gui/macosx/coredialogs.m:64 modules/gui/macosx/simple_prefs.m:235
-#: modules/gui/qt4/dialogs/external.cpp:119
+#: modules/gui/qt4/dialogs/external.cpp:120
 msgid "User name"
 msgstr "Korisničko ime"
 
@@ -16836,11 +16836,11 @@ msgstr "Izvedba"
 msgid "buffers"
 msgstr "Izgubljeno blokova"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:294
+#: modules/gui/qt4/components/interface_widgets.cpp:293
 msgid "Current visualization"
 msgstr "Tekuća vizualizacija"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:333
+#: modules/gui/qt4/components/interface_widgets.cpp:332
 #, fuzzy
 msgid ""
 "Current playback speed: %1\n"
@@ -16849,20 +16849,20 @@ msgstr ""
 "Tekuća brzina izvođenja.\n"
 "Kliknite za podešavanje"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:404
+#: modules/gui/qt4/components/interface_widgets.cpp:403
 msgid "Revert to normal play speed"
 msgstr "Povratak na uobičajenu brzinu izvođenja"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:478
+#: modules/gui/qt4/components/interface_widgets.cpp:477
 msgid "Download cover art"
 msgstr "Preuzeti omotne slike albuma"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:521
+#: modules/gui/qt4/components/interface_widgets.cpp:520
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Sklopka između proteklog i preostalog vremena"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:523
+#: modules/gui/qt4/components/interface_widgets.cpp:522
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "Dvoklik za dobivanje podataka o mediju"
@@ -17238,6 +17238,7 @@ msgid "Save file..."
 msgstr "Pohraniti datoteku..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#: modules/gui/qt4/dialogs/convert.cpp:113
 #, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
@@ -17354,10 +17355,6 @@ msgstr "Postavke"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "&Započeti"
-
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-msgstr "Spremnici (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -25670,6 +25667,11 @@ msgstr "Petlja"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Spisak medijskog upravitelja"
+
+#~ msgid ""
+#~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#~ msgstr ""
+#~ "Spremnici (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #, fuzzy
 #~ msgid "Devices"

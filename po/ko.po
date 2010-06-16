@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc korean lang\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-11 00:45+0200\n"
+"POT-Creation-Date: 2010-06-16 03:28+0200\n"
 "PO-Revision-Date: 2010-03-03 09:03+0900\n"
 "Last-Translator: airplanez <airplanez@gmail.com>\n"
 "Language-Team: airplanez <airplanez@gmail.com>\n"
@@ -927,8 +927,8 @@ msgstr "디코더"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
-#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:706
+#: modules/codec/avcodec/encoder.c:715 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "스트리밍 / 트랜스코딩 실패"
@@ -1788,7 +1788,7 @@ msgstr ""
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:296
+#: modules/gui/qt4/components/interface_widgets.cpp:295
 msgid "None"
 msgstr "없음"
 
@@ -7295,7 +7295,7 @@ msgstr "스트림에 접근하기위해 필요한 사용자명."
 
 #: modules/access_output/http.c:68 modules/control/telnet.c:81
 #: modules/gui/macosx/coredialogs.m:65 modules/gui/macosx/simple_prefs.m:234
-#: modules/gui/qt4/dialogs/external.cpp:124 modules/misc/audioscrobbler.c:136
+#: modules/gui/qt4/dialogs/external.cpp:125 modules/misc/audioscrobbler.c:136
 #: modules/misc/notify/growl_udp.c:73 modules/stream_out/raop.c:154
 msgid "Password"
 msgstr "비밀번호"
@@ -8783,7 +8783,7 @@ msgid ""
 "Do not contact the VideoLAN project about this issue.\n"
 msgstr ""
 
-#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
+#: modules/codec/avcodec/encoder.c:707 modules/codec/avcodec/encoder.c:716
 msgid "VLC could not open the encoder."
 msgstr "VLC 가 인코더를 열수 없습니다."
 
@@ -13226,7 +13226,7 @@ msgid "Step Backward"
 msgstr "한단계 뒤로"
 
 #: modules/gui/macosx/coredialogs.m:64 modules/gui/macosx/simple_prefs.m:235
-#: modules/gui/qt4/dialogs/external.cpp:119
+#: modules/gui/qt4/dialogs/external.cpp:120
 msgid "User name"
 msgstr "사용자명"
 
@@ -15908,30 +15908,30 @@ msgstr "재생"
 msgid "buffers"
 msgstr "VBV 버퍼"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:294
+#: modules/gui/qt4/components/interface_widgets.cpp:293
 msgid "Current visualization"
 msgstr "현재 시각화"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:333
+#: modules/gui/qt4/components/interface_widgets.cpp:332
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
 msgstr ""
 
-#: modules/gui/qt4/components/interface_widgets.cpp:404
+#: modules/gui/qt4/components/interface_widgets.cpp:403
 msgid "Revert to normal play speed"
 msgstr "보통 재생 속도로 되돌림"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:478
+#: modules/gui/qt4/components/interface_widgets.cpp:477
 msgid "Download cover art"
 msgstr "커버 아트 다운로드"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:521
+#: modules/gui/qt4/components/interface_widgets.cpp:520
 #, fuzzy
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "하나 순환과 전체 순환을 토글하려면 누르세요"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:523
+#: modules/gui/qt4/components/interface_widgets.cpp:522
 #, fuzzy
 msgid "Double click to jump to a chosen time position"
 msgstr "미디어 정보를 얻으려면 더블 클릭하세요"
@@ -16303,6 +16303,7 @@ msgid "Save file..."
 msgstr "파일 저장..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#: modules/gui/qt4/dialogs/convert.cpp:113
 #, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
@@ -16417,10 +16418,6 @@ msgstr "설정"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "시작(&S)"
-
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-msgstr "컨테이너 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -24260,6 +24257,11 @@ msgstr "순환"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "미디어 관리자 목록"
+
+#~ msgid ""
+#~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#~ msgstr ""
+#~ "컨테이너 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #~ msgid "Devices"
 #~ msgstr "장치"

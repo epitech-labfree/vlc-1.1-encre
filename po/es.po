@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-11 00:45+0200\n"
+"POT-Creation-Date: 2010-06-16 03:28+0200\n"
 "PO-Revision-Date: 2010-05-02 14:00+0100\n"
 "Last-Translator: pico.dev <pico.dev@gmail.com>\n"
 "Language-Team: \n"
@@ -929,8 +929,8 @@ msgstr "Decodificador"
 
 #: src/input/decoder.c:278 src/input/decoder.c:430
 #: modules/codec/avcodec/encoder.c:224 modules/codec/avcodec/encoder.c:232
-#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:707
-#: modules/codec/avcodec/encoder.c:716 modules/stream_out/es.c:363
+#: modules/codec/avcodec/encoder.c:254 modules/codec/avcodec/encoder.c:706
+#: modules/codec/avcodec/encoder.c:715 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
 msgstr "Falló emitiendo / transcodificando"
@@ -1800,7 +1800,7 @@ msgstr "Permite reproducir audio a menor o mayor velocidad sin afectar al tono"
 #: src/libvlc-module.c:356 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
 #: modules/codec/kate.c:203
-#: modules/gui/qt4/components/interface_widgets.cpp:296
+#: modules/gui/qt4/components/interface_widgets.cpp:295
 msgid "None"
 msgstr "Ninguno"
 
@@ -7586,7 +7586,7 @@ msgstr "Nombre de usuario que se solicita al acceder a la emisión."
 
 #: modules/access_output/http.c:68 modules/control/telnet.c:81
 #: modules/gui/macosx/coredialogs.m:65 modules/gui/macosx/simple_prefs.m:234
-#: modules/gui/qt4/dialogs/external.cpp:124 modules/misc/audioscrobbler.c:136
+#: modules/gui/qt4/dialogs/external.cpp:125 modules/misc/audioscrobbler.c:136
 #: modules/misc/notify/growl_udp.c:73 modules/stream_out/raop.c:154
 msgid "Password"
 msgstr "Contraseña"
@@ -9165,7 +9165,7 @@ msgstr ""
 "Esto no es un error en el reproductor multimedia VLC.\n"
 "No contacte con el proyecto VideoLAN sobre esta incidencia.\n"
 
-#: modules/codec/avcodec/encoder.c:708 modules/codec/avcodec/encoder.c:717
+#: modules/codec/avcodec/encoder.c:707 modules/codec/avcodec/encoder.c:716
 msgid "VLC could not open the encoder."
 msgstr "VLC no pudo abrir el codificador."
 
@@ -13841,7 +13841,7 @@ msgid "Step Backward"
 msgstr "Salto atrás"
 
 #: modules/gui/macosx/coredialogs.m:64 modules/gui/macosx/simple_prefs.m:235
-#: modules/gui/qt4/dialogs/external.cpp:119
+#: modules/gui/qt4/dialogs/external.cpp:120
 msgid "User name"
 msgstr "Nombre de usuario"
 
@@ -16612,11 +16612,11 @@ msgstr "Reproducidos"
 msgid "buffers"
 msgstr "buffers"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:294
+#: modules/gui/qt4/components/interface_widgets.cpp:293
 msgid "Current visualization"
 msgstr "Visualización actual"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:333
+#: modules/gui/qt4/components/interface_widgets.cpp:332
 msgid ""
 "Current playback speed: %1\n"
 "Click to adjust"
@@ -16624,19 +16624,19 @@ msgstr ""
 "Velocidad de reproducción actual: %1\n"
 "Clic para ajustar"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:404
+#: modules/gui/qt4/components/interface_widgets.cpp:403
 msgid "Revert to normal play speed"
 msgstr "Volver a velocidad normal de reproducción"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:478
+#: modules/gui/qt4/components/interface_widgets.cpp:477
 msgid "Download cover art"
 msgstr "Descargar arte de carátula"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:521
+#: modules/gui/qt4/components/interface_widgets.cpp:520
 msgid "Click to toggle between elapsed and remaining time"
 msgstr "Cambiar entre tiempo transcurrido y restante"
 
-#: modules/gui/qt4/components/interface_widgets.cpp:523
+#: modules/gui/qt4/components/interface_widgets.cpp:522
 msgid "Double click to jump to a chosen time position"
 msgstr "Doble clic para ir a la posición de tiempo seleccionada"
 
@@ -16992,6 +16992,7 @@ msgid "Save file..."
 msgstr "Guardar archivo..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
+#: modules/gui/qt4/dialogs/convert.cpp:113
 #, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
@@ -17110,11 +17111,6 @@ msgstr "Preferencias"
 #: modules/gui/qt4/dialogs/convert.cpp:95
 msgid "&Start"
 msgstr "&Iniciar"
-
-#: modules/gui/qt4/dialogs/convert.cpp:113
-msgid "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-msgstr ""
-"Contenedores (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #: modules/gui/qt4/dialogs/errors.cpp:40
 msgid "Errors"
@@ -25224,6 +25220,11 @@ msgstr "Bucle"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Lista del administrador multimedia"
+
+#~ msgid ""
+#~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#~ msgstr ""
+#~ "Contenedores (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 
 #~ msgid "Attachment"
 #~ msgstr "Adjunto"
