@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-16 03:28+0200\n"
+"POT-Creation-Date: 2010-06-18 00:41+0100\n"
 "PO-Revision-Date: 2006-11-27 21:50+0700\n"
 "Last-Translator: devleop5 <devleop5@datawiz.co.th>\n"
 "Language-Team: Thai <thailang@buraphalinux.org>\n"
@@ -73,14 +73,15 @@ msgid "Hotkeys settings"
 msgstr "การตั้งค่าฮอตคีย์"
 
 #: include/vlc_config_cat.h:52 src/input/es_out.c:2850 src/input/es_out.c:2890
-#: src/libvlc-module.c:1567 modules/gui/macosx/intf.m:667
-#: modules/gui/macosx/output.m:170 modules/gui/macosx/playlistinfo.m:114
-#: modules/gui/macosx/simple_prefs.m:184 modules/gui/macosx/wizard.m:380
+#: src/libvlc-module.c:1567 modules/access/imem.c:69
+#: modules/gui/macosx/intf.m:667 modules/gui/macosx/output.m:170
+#: modules/gui/macosx/playlistinfo.m:114 modules/gui/macosx/simple_prefs.m:184
+#: modules/gui/macosx/wizard.m:380
 #: modules/gui/qt4/components/info_panels.cpp:507
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:192
-#: modules/gui/qt4/ui/profiles.h:487
+#: linux/modules/gui/qt4/ui/profiles.h:494
 msgid "Audio"
 msgstr "เสียง"
 
@@ -130,14 +131,16 @@ msgid "Miscellaneous audio settings and modules."
 msgstr "การตั้งค่าเสียงและโมดูลเบ็ดเตล็ด"
 
 #: include/vlc_config_cat.h:70 src/input/es_out.c:2853 src/input/es_out.c:2937
-#: src/libvlc-module.c:1620 modules/gui/macosx/intf.m:680
-#: modules/gui/macosx/output.m:160 modules/gui/macosx/playlistinfo.m:103
-#: modules/gui/macosx/simple_prefs.m:188 modules/gui/macosx/wizard.m:381
+#: src/libvlc-module.c:1620 modules/access/imem.c:69
+#: modules/gui/macosx/intf.m:680 modules/gui/macosx/output.m:160
+#: modules/gui/macosx/playlistinfo.m:103 modules/gui/macosx/simple_prefs.m:188
+#: modules/gui/macosx/wizard.m:381
 #: modules/gui/qt4/components/info_panels.cpp:508
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
-#: modules/gui/qt4/ui/profiles.h:469 modules/gui/qt4/ui/sprefs_video.h:321
+#: linux/modules/gui/qt4/ui/profiles.h:476
+#: linux/modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "วิดีโอ"
 
@@ -377,7 +380,7 @@ msgstr "การตั้งค่าขั้นสูง"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:180
 #: modules/gui/macosx/open.m:459 modules/gui/macosx/simple_prefs.m:259
-#: modules/gui/qt4/ui/sprefs_input.h:318
+#: linux/modules/gui/qt4/ui/sprefs_input.h:318
 msgid "Network"
 msgstr "เครือข่าย"
 
@@ -512,7 +515,7 @@ msgstr "เกี่ยวกับ"
 #: modules/gui/macosx/intf.m:2013 modules/gui/macosx/intf.m:2014
 #: modules/gui/macosx/intf.m:2015 modules/gui/macosx/playlist.m:464
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:790
-#: modules/gui/qt4/ui/open.h:256
+#: linux/modules/gui/qt4/ui/open.h:256
 msgid "Play"
 msgstr "เล่น"
 
@@ -670,7 +673,8 @@ msgid ""
 "be magnified."
 msgstr ""
 
-#: include/vlc_intf_strings.h:117 modules/gui/qt4/ui/video_effects.h:1141
+#: include/vlc_intf_strings.h:117
+#: linux/modules/gui/qt4/ui/video_effects.h:1141
 #, fuzzy
 msgid "Waves"
 msgstr "บันทึก"
@@ -809,11 +813,12 @@ msgstr "สเตอริโอ"
 #: modules/audio_filter/channel_mixer/mono.c:95 modules/codec/dvbsub.c:102
 #: modules/codec/subtitles/subsdec.c:187 modules/codec/zvbi.c:78
 #: modules/control/gestures.c:97 modules/gui/fbosd.c:162
-#: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
-#: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1114
-#: modules/gui/qt4/ui/video_effects.h:1177
-#: modules/gui/qt4/ui/video_effects.h:1182
+#: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
+#: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
+#: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1114
+#: linux/modules/gui/qt4/ui/video_effects.h:1177
+#: linux/modules/gui/qt4/ui/video_effects.h:1182
 msgid "Left"
 msgstr "ซ้าย"
 
@@ -822,9 +827,10 @@ msgstr "ซ้าย"
 #: modules/audio_filter/channel_mixer/mono.c:95 modules/codec/dvbsub.c:102
 #: modules/codec/subtitles/subsdec.c:187 modules/codec/zvbi.c:78
 #: modules/control/gestures.c:97 modules/gui/fbosd.c:162
-#: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
-#: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1116
+#: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
+#: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
+#: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1116
 msgid "Right"
 msgstr "ขวา"
 
@@ -941,7 +947,7 @@ msgstr "CMML annotations decoder"
 msgid "Stream %d"
 msgstr "กระแสข้อมูล %d"
 
-#: src/input/es_out.c:2856 src/input/es_out.c:2964
+#: src/input/es_out.c:2856 src/input/es_out.c:2964 modules/access/imem.c:69
 msgid "Subtitle"
 msgstr "คำบรรยาย"
 
@@ -955,15 +961,15 @@ msgstr "ชนิด"
 msgid "Original ID"
 msgstr "เปิดใช้เสียง"
 
-#: src/input/es_out.c:2874 src/input/es_out.c:2877
-#: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
-#: modules/gui/qt4/ui/profiles.h:489
+#: src/input/es_out.c:2874 src/input/es_out.c:2877 modules/access/imem.c:72
+#: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:477
+#: linux/modules/gui/qt4/ui/profiles.h:496
 msgid "Codec"
 msgstr "Codec"
 
 #: src/input/es_out.c:2881 src/input/meta.c:62 src/libvlc-module.c:212
-#: modules/gui/macosx/simple_prefs.m:269
-#: modules/gui/qt4/ui/sprefs_interface.h:386
+#: modules/access/imem.c:76 modules/gui/macosx/simple_prefs.m:269
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "ภาษา"
 
@@ -973,11 +979,11 @@ msgid "Description"
 msgstr "คำอธิบาย"
 
 #: src/input/es_out.c:2893 src/input/es_out.c:2896
-#: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
+#: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:499
 msgid "Channels"
 msgstr "ช่อง"
 
-#: src/input/es_out.c:2901
+#: src/input/es_out.c:2901 modules/access/imem.c:80
 msgid "Sample rate"
 msgstr ""
 
@@ -993,7 +999,8 @@ msgstr ""
 #: src/input/es_out.c:2916 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
-#: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
+#: linux/modules/gui/qt4/ui/profiles.h:478
+#: linux/modules/gui/qt4/ui/profiles.h:497
 msgid "Bitrate"
 msgstr ""
 
@@ -1017,7 +1024,7 @@ msgstr "กระแสข้อมูลดีฟอล์ต"
 msgid "%.2f dB"
 msgstr ""
 
-#: src/input/es_out.c:2940 modules/gui/qt4/ui/profiles.h:476
+#: src/input/es_out.c:2940 linux/modules/gui/qt4/ui/profiles.h:483
 msgid "Resolution"
 msgstr ""
 
@@ -1025,7 +1032,7 @@ msgstr ""
 msgid "Display resolution"
 msgstr ""
 
-#: src/input/es_out.c:2955 src/input/es_out.c:2958
+#: src/input/es_out.c:2955 src/input/es_out.c:2958 modules/access/imem.c:98
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr ""
@@ -1053,7 +1060,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:663 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:348
 #: modules/gui/qt4/components/open_panels.cpp:372 modules/mux/asf.c:56
-#: modules/gui/qt4/ui/open_disk.h:302
+#: linux/modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
 msgstr "ชื่อเรื่อง"
 
@@ -1092,7 +1099,7 @@ msgid "Setting"
 msgstr "การตั้งค่า"
 
 #: src/input/meta.c:61 modules/gui/macosx/open.m:203
-#: modules/gui/qt4/ui/podcast_configuration.h:103
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:103
 msgid "URL"
 msgstr "URL"
 
@@ -1128,7 +1135,7 @@ msgstr "โปรแกรม"
 
 #: src/input/var.c:192 modules/gui/macosx/intf.m:664
 #: modules/gui/macosx/intf.m:665 modules/gui/macosx/open.m:191
-#: modules/gui/qt4/ui/open_disk.h:303
+#: linux/modules/gui/qt4/ui/open_disk.h:303
 msgid "Chapter"
 msgstr "ฉาก"
 
@@ -1480,7 +1487,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:252 modules/stream_out/display.c:41
-#: modules/gui/qt4/ui/sprefs_audio.h:404
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:404
 msgid "Enable audio"
 msgstr "เปิดใช้เสียง"
 
@@ -1570,7 +1577,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:301 modules/gui/macosx/simple_prefs.m:237
-#: modules/gui/qt4/ui/sprefs_audio.h:413
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
 msgstr "ใช้ S/PDIF เมื่อมีอยู่"
 
@@ -1688,7 +1695,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:375 modules/stream_out/display.c:43
-#: modules/gui/qt4/ui/sprefs_video.h:309
+#: linux/modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
 msgstr "เปิดใช้วิดีโอ"
 
@@ -1770,59 +1777,62 @@ msgstr ""
 #: src/libvlc-module.c:412 src/libvlc-module.c:493
 #: modules/audio_filter/channel_mixer/mono.c:95 modules/codec/dvbsub.c:102
 #: modules/codec/subtitles/subsdec.c:187 modules/codec/zvbi.c:78
-#: modules/gui/fbosd.c:162 modules/video_filter/logo.c:79
-#: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
-#: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
+#: modules/gui/fbosd.c:162 modules/video_filter/audiobargraph_v.c:74
+#: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
+#: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
+#: modules/video_filter/rss.c:174
 msgid "Center"
 msgstr "ตรงกลาง"
 
 #: src/libvlc-module.c:412 src/libvlc-module.c:493 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:162
-#: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
-#: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1112
-#: modules/gui/qt4/ui/video_effects.h:1178
-#: modules/gui/qt4/ui/video_effects.h:1181
+#: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
+#: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
+#: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1112
+#: linux/modules/gui/qt4/ui/video_effects.h:1178
+#: linux/modules/gui/qt4/ui/video_effects.h:1181
 msgid "Top"
 msgstr "บน"
 
 #: src/libvlc-module.c:412 src/libvlc-module.c:493 modules/codec/dvbsub.c:102
 #: modules/codec/zvbi.c:78 modules/gui/fbosd.c:162
-#: modules/video_filter/logo.c:79 modules/video_filter/marq.c:137
-#: modules/video_filter/mosaic.c:171 modules/video_filter/osdmenu.c:85
-#: modules/video_filter/rss.c:174 modules/gui/qt4/ui/video_effects.h:1118
+#: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
+#: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
+#: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
+#: linux/modules/gui/qt4/ui/video_effects.h:1118
 msgid "Bottom"
 msgstr "ล่าง"
 
 #: src/libvlc-module.c:413 src/libvlc-module.c:494 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
-#: modules/video_filter/logo.c:80 modules/video_filter/marq.c:138
-#: modules/video_filter/mosaic.c:172 modules/video_filter/osdmenu.c:86
-#: modules/video_filter/rss.c:175
+#: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
+#: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
+#: modules/video_filter/osdmenu.c:86 modules/video_filter/rss.c:175
 msgid "Top-Left"
 msgstr "บนซ้าย"
 
 #: src/libvlc-module.c:413 src/libvlc-module.c:494 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
-#: modules/video_filter/logo.c:80 modules/video_filter/marq.c:138
-#: modules/video_filter/mosaic.c:172 modules/video_filter/osdmenu.c:86
-#: modules/video_filter/rss.c:175
+#: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
+#: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
+#: modules/video_filter/osdmenu.c:86 modules/video_filter/rss.c:175
 msgid "Top-Right"
 msgstr "บนขวา"
 
 #: src/libvlc-module.c:413 src/libvlc-module.c:494 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
-#: modules/video_filter/logo.c:80 modules/video_filter/marq.c:138
-#: modules/video_filter/mosaic.c:172 modules/video_filter/osdmenu.c:86
-#: modules/video_filter/rss.c:175
+#: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
+#: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
+#: modules/video_filter/osdmenu.c:86 modules/video_filter/rss.c:175
 msgid "Bottom-Left"
 msgstr "ล่างซ้าย"
 
 #: src/libvlc-module.c:413 src/libvlc-module.c:494 modules/codec/dvbsub.c:103
 #: modules/codec/zvbi.c:79 modules/gui/fbosd.c:163
-#: modules/video_filter/logo.c:80 modules/video_filter/marq.c:138
-#: modules/video_filter/mosaic.c:172 modules/video_filter/osdmenu.c:86
-#: modules/video_filter/rss.c:175
+#: modules/video_filter/audiobargraph_v.c:75 modules/video_filter/logo.c:80
+#: modules/video_filter/marq.c:138 modules/video_filter/mosaic.c:172
+#: modules/video_filter/osdmenu.c:86 modules/video_filter/rss.c:175
 msgid "Bottom-Right"
 msgstr "ล่างขวา"
 
@@ -1882,7 +1892,8 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:442 src/video_output/vout_intf.c:344
-#: modules/gui/macosx/simple_prefs.m:295 modules/gui/qt4/ui/sprefs_video.h:312
+#: modules/gui/macosx/simple_prefs.m:295
+#: linux/modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "อยู่ข้างบนตลอด"
 
@@ -1991,7 +2002,7 @@ msgid ""
 "computer being suspended because of inactivity."
 msgstr ""
 
-#: src/libvlc-module.c:503 modules/gui/qt4/ui/sprefs_video.h:316
+#: src/libvlc-module.c:503 linux/modules/gui/qt4/ui/sprefs_video.h:316
 msgid "Window decorations"
 msgstr ""
 
@@ -2164,7 +2175,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:597 modules/gui/macosx/simple_prefs.m:297
-#: modules/gui/qt4/ui/sprefs_video.h:315
+#: linux/modules/gui/qt4/ui/sprefs_video.h:315
 msgid "Skip frames"
 msgstr ""
 
@@ -2274,7 +2285,7 @@ msgstr "ดีฟอล์ต"
 
 #: src/libvlc-module.c:653 modules/gui/macosx/equalizer.m:149
 #: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:354
-#: modules/gui/qt4/ui/equalizer.h:127 modules/gui/qt4/ui/vlm.h:290
+#: linux/modules/gui/qt4/ui/equalizer.h:127 linux/modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "เปิดใช้งาน"
 
@@ -2349,7 +2360,7 @@ msgid ""
 "(like DVB streams for example)."
 msgstr ""
 
-#: src/libvlc-module.c:700 modules/gui/qt4/ui/open_disk.h:305
+#: src/libvlc-module.c:700 linux/modules/gui/qt4/ui/open_disk.h:305
 msgid "Audio track"
 msgstr ""
 
@@ -2357,7 +2368,7 @@ msgstr ""
 msgid "Stream number of the audio track to use (from 0 to n)."
 msgstr ""
 
-#: src/libvlc-module.c:705 modules/gui/qt4/ui/open_disk.h:306
+#: src/libvlc-module.c:705 linux/modules/gui/qt4/ui/open_disk.h:306
 msgid "Subtitles track"
 msgstr ""
 
@@ -2485,7 +2496,7 @@ msgid ""
 "{...}\""
 msgstr ""
 
-#: src/libvlc-module.c:770 modules/gui/qt4/ui/sprefs_input.h:316
+#: src/libvlc-module.c:770 linux/modules/gui/qt4/ui/sprefs_input.h:316
 #, fuzzy
 msgid "Record directory or filename"
 msgstr "ไดเรกทรอรีต้นทาง"
@@ -2533,7 +2544,7 @@ msgid ""
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
 
-#: src/libvlc-module.c:796 modules/gui/qt4/ui/sprefs_subtitles.h:213
+#: src/libvlc-module.c:796 linux/modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
 msgstr ""
 
@@ -2551,10 +2562,10 @@ msgstr ""
 msgid "You can completely disable the sub-picture processing."
 msgstr ""
 
-#: src/libvlc-module.c:805 src/libvlc-module.c:1761
+#: src/libvlc-module.c:805 src/libvlc-module.c:1761 src/text/iso-639_def.h:143
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
-#: modules/gui/qt4/ui/sprefs_subtitles.h:201
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:201
 msgid "On Screen Display"
 msgstr "แสดงบนหน้าจอ"
 
@@ -3413,7 +3424,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:685 modules/gui/macosx/intf.m:750
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/gui/qt4/ui/sprefs_video.h:311
+#: linux/modules/gui/qt4/ui/sprefs_video.h:311
 msgid "Fullscreen"
 msgstr "เต็มจอ"
 
@@ -3497,14 +3508,15 @@ msgid "Slower (fine)"
 msgstr "ช้ากว่า"
 
 #: src/libvlc-module.c:1294 modules/control/hotkeys.c:696
-#: modules/gui/macosx/about.m:187 modules/gui/macosx/controls.m:1032
+#: modules/gui/macosx/about.m:193 modules/gui/macosx/controls.m:1032
 #: modules/gui/macosx/embeddedwindow.m:73 modules/gui/macosx/intf.m:604
 #: modules/gui/macosx/intf.m:652 modules/gui/macosx/intf.m:738
 #: modules/gui/macosx/intf.m:746 modules/gui/macosx/wizard.m:309
 #: modules/gui/macosx/wizard.m:321 modules/gui/macosx/wizard.m:1623
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:321 modules/gui/qt4/ui/sout.h:327
-#: modules/gui/qt4/ui/sout.h:338 modules/gui/qt4/ui/streampanel.h:182
+#: modules/misc/notify/notify.c:321 linux/modules/gui/qt4/ui/sout.h:327
+#: linux/modules/gui/qt4/ui/sout.h:338
+#: linux/modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
 msgstr "ถัดไป"
 
@@ -3513,12 +3525,12 @@ msgid "Select the hotkey to use to skip to the next item in the playlist."
 msgstr ""
 
 #: src/libvlc-module.c:1296 modules/control/hotkeys.c:702
-#: modules/gui/macosx/about.m:188 modules/gui/macosx/controls.m:1031
+#: modules/gui/macosx/about.m:194 modules/gui/macosx/controls.m:1031
 #: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:599
 #: modules/gui/macosx/intf.m:651 modules/gui/macosx/intf.m:739
 #: modules/gui/macosx/intf.m:745 modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:319 modules/gui/qt4/ui/sout.h:337
-#: modules/gui/qt4/ui/sout.h:346
+#: modules/misc/notify/notify.c:319 linux/modules/gui/qt4/ui/sout.h:337
+#: linux/modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
 msgstr "ก่อนหน้านี้"
 
@@ -3530,7 +3542,7 @@ msgstr ""
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:602
 #: modules/gui/macosx/intf.m:647 modules/gui/macosx/intf.m:737
 #: modules/gui/macosx/intf.m:744 modules/gui/qt4/components/controller.hpp:104
-#: modules/misc/notify/xosd.c:231 modules/gui/qt4/ui/streampanel.h:181
+#: modules/misc/notify/xosd.c:231 linux/modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
 msgstr "หยุด"
 
@@ -3542,7 +3554,7 @@ msgstr "เลือกปุ่มลัดที่ใช้หยุดกา
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:607
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
-#: modules/gui/qt4/ui/video_effects.h:1167
+#: linux/modules/gui/qt4/ui/video_effects.h:1167
 msgid "Position"
 msgstr "ตำแหน่ง"
 
@@ -4224,8 +4236,8 @@ msgstr "รูปภาพข้างใต้"
 
 #: src/libvlc-module.c:1770 modules/codec/subtitles/subsdec.c:202
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
-#: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
-#: modules/gui/qt4/ui/profiles.h:497
+#: modules/demux/subtitle.c:73 linux/modules/gui/qt4/ui/profiles.h:502
+#: linux/modules/gui/qt4/ui/profiles.h:504
 msgid "Subtitles"
 msgstr "คำบรรยาย"
 
@@ -4491,6 +4503,672 @@ msgstr "Industrial"
 msgid "Undefined"
 msgstr "ไม่ระบุ"
 
+#: src/text/iso-639_def.h:38
+msgid "Afar"
+msgstr "Afar"
+
+#: src/text/iso-639_def.h:39
+msgid "Abkhazian"
+msgstr "Abkhazian"
+
+#: src/text/iso-639_def.h:40
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: src/text/iso-639_def.h:41
+msgid "Albanian"
+msgstr "Albanian"
+
+#: src/text/iso-639_def.h:42
+msgid "Amharic"
+msgstr "Amharic"
+
+#: src/text/iso-639_def.h:43
+msgid "Arabic"
+msgstr "Arabic"
+
+#: src/text/iso-639_def.h:44
+msgid "Armenian"
+msgstr "Armenian"
+
+#: src/text/iso-639_def.h:45
+msgid "Assamese"
+msgstr "Assamese"
+
+#: src/text/iso-639_def.h:46
+msgid "Avestan"
+msgstr "Avestan"
+
+#: src/text/iso-639_def.h:47
+msgid "Aymara"
+msgstr "Aymara"
+
+#: src/text/iso-639_def.h:48
+msgid "Azerbaijani"
+msgstr "Azerbaijani"
+
+#: src/text/iso-639_def.h:49
+msgid "Bashkir"
+msgstr "Bashkir"
+
+#: src/text/iso-639_def.h:50
+msgid "Basque"
+msgstr "Basque"
+
+#: src/text/iso-639_def.h:51
+msgid "Belarusian"
+msgstr "Belarusian"
+
+#: src/text/iso-639_def.h:52
+msgid "Bengali"
+msgstr "Bengali"
+
+#: src/text/iso-639_def.h:53
+msgid "Bihari"
+msgstr "Bihari"
+
+#: src/text/iso-639_def.h:54
+msgid "Bislama"
+msgstr "Bislama"
+
+#: src/text/iso-639_def.h:55
+msgid "Bosnian"
+msgstr "Bosnian"
+
+#: src/text/iso-639_def.h:56
+msgid "Breton"
+msgstr "Breton"
+
+#: src/text/iso-639_def.h:57
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: src/text/iso-639_def.h:58
+msgid "Burmese"
+msgstr "Burmese"
+
+#: src/text/iso-639_def.h:59
+msgid "Catalan"
+msgstr "Catalan"
+
+#: src/text/iso-639_def.h:60
+msgid "Chamorro"
+msgstr "Chamorro"
+
+#: src/text/iso-639_def.h:61
+msgid "Chechen"
+msgstr "Chechen"
+
+#: src/text/iso-639_def.h:62
+msgid "Chinese"
+msgstr "Chinese"
+
+#: src/text/iso-639_def.h:63
+msgid "Church Slavic"
+msgstr "Church Slavic"
+
+#: src/text/iso-639_def.h:64
+msgid "Chuvash"
+msgstr "Chuvash"
+
+#: src/text/iso-639_def.h:65
+msgid "Cornish"
+msgstr "Cornish"
+
+#: src/text/iso-639_def.h:66
+msgid "Corsican"
+msgstr "Corsican"
+
+#: src/text/iso-639_def.h:67
+msgid "Czech"
+msgstr "Czech"
+
+#: src/text/iso-639_def.h:68
+msgid "Danish"
+msgstr "Danish"
+
+#: src/text/iso-639_def.h:69
+msgid "Dutch"
+msgstr "Dutch"
+
+#: src/text/iso-639_def.h:70
+msgid "Dzongkha"
+msgstr "Dzongkha"
+
+#: src/text/iso-639_def.h:71
+msgid "English"
+msgstr "English"
+
+#: src/text/iso-639_def.h:72
+#, fuzzy
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: src/text/iso-639_def.h:73
+msgid "Estonian"
+msgstr "Estonian"
+
+#: src/text/iso-639_def.h:74
+msgid "Faroese"
+msgstr "Faroese"
+
+#: src/text/iso-639_def.h:75
+msgid "Fijian"
+msgstr "Fijian"
+
+#: src/text/iso-639_def.h:76
+msgid "Finnish"
+msgstr "Finnish"
+
+#: src/text/iso-639_def.h:77
+msgid "French"
+msgstr "French"
+
+#: src/text/iso-639_def.h:78
+msgid "Frisian"
+msgstr "Frisian"
+
+#: src/text/iso-639_def.h:79
+msgid "Georgian"
+msgstr "Georgian"
+
+#: src/text/iso-639_def.h:80
+msgid "German"
+msgstr "German"
+
+#: src/text/iso-639_def.h:81
+msgid "Gaelic (Scots)"
+msgstr "Gaelic (Scots)"
+
+#: src/text/iso-639_def.h:82
+msgid "Irish"
+msgstr "Irish"
+
+#: src/text/iso-639_def.h:83
+msgid "Gallegan"
+msgstr "Gallegan"
+
+#: src/text/iso-639_def.h:84
+msgid "Manx"
+msgstr "Manx"
+
+#: src/text/iso-639_def.h:85
+msgid "Greek, Modern ()"
+msgstr "Greek, Modern ()"
+
+#: src/text/iso-639_def.h:86
+msgid "Guarani"
+msgstr "Guarani"
+
+#: src/text/iso-639_def.h:87
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: src/text/iso-639_def.h:88
+msgid "Hebrew"
+msgstr "Hebrew"
+
+#: src/text/iso-639_def.h:89
+msgid "Herero"
+msgstr "Herero"
+
+#: src/text/iso-639_def.h:90
+msgid "Hindi"
+msgstr "Hindi"
+
+#: src/text/iso-639_def.h:91
+msgid "Hiri Motu"
+msgstr "Hiri Motu"
+
+#: src/text/iso-639_def.h:92
+msgid "Hungarian"
+msgstr "Hungarian"
+
+#: src/text/iso-639_def.h:93
+msgid "Icelandic"
+msgstr "Icelandic"
+
+#: src/text/iso-639_def.h:94
+msgid "Inuktitut"
+msgstr "Inuktitut"
+
+#: src/text/iso-639_def.h:95
+#, fuzzy
+msgid "Interlingue"
+msgstr "Interlingua"
+
+#: src/text/iso-639_def.h:96
+msgid "Interlingua"
+msgstr "Interlingua"
+
+#: src/text/iso-639_def.h:97
+msgid "Indonesian"
+msgstr "Indonesian"
+
+#: src/text/iso-639_def.h:98
+msgid "Inupiaq"
+msgstr "Inupiaq"
+
+#: src/text/iso-639_def.h:99
+msgid "Italian"
+msgstr "Italian"
+
+#: src/text/iso-639_def.h:100
+msgid "Javanese"
+msgstr "Javanese"
+
+#: src/text/iso-639_def.h:101
+msgid "Japanese"
+msgstr "Japanese"
+
+#: src/text/iso-639_def.h:102
+msgid "Kalaallisut (Greenlandic)"
+msgstr "Kalaallisut (Greenlandic)"
+
+#: src/text/iso-639_def.h:103
+msgid "Kannada"
+msgstr "Kannada"
+
+#: src/text/iso-639_def.h:104
+msgid "Kashmiri"
+msgstr "Kashmiri"
+
+#: src/text/iso-639_def.h:105
+msgid "Kazakh"
+msgstr ""
+
+#: src/text/iso-639_def.h:106
+msgid "Khmer"
+msgstr "Khmer"
+
+#: src/text/iso-639_def.h:107
+msgid "Kikuyu"
+msgstr "Kikuyu"
+
+#: src/text/iso-639_def.h:108
+msgid "Kinyarwanda"
+msgstr "Kinyarwanda"
+
+#: src/text/iso-639_def.h:109
+msgid "Kirghiz"
+msgstr "Kirghiz"
+
+#: src/text/iso-639_def.h:110
+msgid "Komi"
+msgstr "Komi"
+
+#: src/text/iso-639_def.h:111
+msgid "Korean"
+msgstr "Korean"
+
+#: src/text/iso-639_def.h:112
+msgid "Kuanyama"
+msgstr "Kuanyama"
+
+#: src/text/iso-639_def.h:113
+msgid "Kurdish"
+msgstr "Kurdish"
+
+#: src/text/iso-639_def.h:114
+msgid "Lao"
+msgstr "Lao"
+
+#: src/text/iso-639_def.h:115
+msgid "Latin"
+msgstr "Latin"
+
+#: src/text/iso-639_def.h:116
+msgid "Latvian"
+msgstr "Latvian"
+
+#: src/text/iso-639_def.h:117
+msgid "Lingala"
+msgstr "Lingala"
+
+#: src/text/iso-639_def.h:118
+msgid "Lithuanian"
+msgstr "Lithuanian"
+
+#: src/text/iso-639_def.h:119
+msgid "Letzeburgesch"
+msgstr "Letzeburgesch"
+
+#: src/text/iso-639_def.h:120
+msgid "Macedonian"
+msgstr "Macedonian"
+
+#: src/text/iso-639_def.h:121
+msgid "Marshall"
+msgstr "Marshall"
+
+#: src/text/iso-639_def.h:122
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: src/text/iso-639_def.h:123
+msgid "Maori"
+msgstr "Maori"
+
+#: src/text/iso-639_def.h:124
+msgid "Marathi"
+msgstr "Marathi"
+
+#: src/text/iso-639_def.h:125
+msgid "Malay"
+msgstr "Malay"
+
+#: src/text/iso-639_def.h:126
+msgid "Malagasy"
+msgstr "Malagasy"
+
+#: src/text/iso-639_def.h:127
+msgid "Maltese"
+msgstr "Maltese"
+
+#: src/text/iso-639_def.h:128
+msgid "Moldavian"
+msgstr "Moldavian"
+
+#: src/text/iso-639_def.h:129
+msgid "Mongolian"
+msgstr "Mongolian"
+
+#: src/text/iso-639_def.h:130
+msgid "Nauru"
+msgstr "Nauru"
+
+#: src/text/iso-639_def.h:131
+msgid "Navajo"
+msgstr "Navajo"
+
+#: src/text/iso-639_def.h:132
+msgid "Ndebele, South"
+msgstr "Ndebele, South"
+
+#: src/text/iso-639_def.h:133
+msgid "Ndebele, North"
+msgstr "Ndebele, North"
+
+#: src/text/iso-639_def.h:134
+msgid "Ndonga"
+msgstr "Ndonga"
+
+#: src/text/iso-639_def.h:135
+msgid "Nepali"
+msgstr "Nepali"
+
+#: src/text/iso-639_def.h:136
+msgid "Norwegian"
+msgstr "Norwegian"
+
+#: src/text/iso-639_def.h:137
+msgid "Norwegian Nynorsk"
+msgstr "Norwegian Nynorsk"
+
+#: src/text/iso-639_def.h:138
+msgid "Norwegian Bokmaal"
+msgstr "Norwegian Bokmaal"
+
+#: src/text/iso-639_def.h:139
+msgid "Chichewa; Nyanja"
+msgstr "Chichewa; Nyanja"
+
+#: src/text/iso-639_def.h:140
+msgid "Occitan (post 1500); Provencal"
+msgstr "Occitan (post 1500); Provencal"
+
+#: src/text/iso-639_def.h:141
+msgid "Oriya"
+msgstr "Oriya"
+
+#: src/text/iso-639_def.h:142
+msgid "Oromo"
+msgstr "Oromo"
+
+#: src/text/iso-639_def.h:144
+msgid "Ossetian; Ossetic"
+msgstr "Ossetian; Ossetic"
+
+#: src/text/iso-639_def.h:145
+msgid "Panjabi"
+msgstr "Panjabi"
+
+#: src/text/iso-639_def.h:146
+msgid "Persian"
+msgstr "Persian"
+
+#: src/text/iso-639_def.h:147
+msgid "Pali"
+msgstr "Pali"
+
+#: src/text/iso-639_def.h:148
+msgid "Polish"
+msgstr "Polish"
+
+#: src/text/iso-639_def.h:149
+msgid "Portuguese"
+msgstr "Portuguese"
+
+#: src/text/iso-639_def.h:150
+msgid "Pushto"
+msgstr "Pushto"
+
+#: src/text/iso-639_def.h:151
+msgid "Quechua"
+msgstr "Quechua"
+
+#: src/text/iso-639_def.h:152
+#, fuzzy
+msgid "Original audio"
+msgstr "เปิดใช้เสียง"
+
+#: src/text/iso-639_def.h:153
+msgid "Raeto-Romance"
+msgstr "Raeto-Romance"
+
+#: src/text/iso-639_def.h:154
+msgid "Romanian"
+msgstr "Romanian"
+
+#: src/text/iso-639_def.h:155
+msgid "Rundi"
+msgstr "Rundi"
+
+#: src/text/iso-639_def.h:156
+#, fuzzy
+msgid "Russian"
+msgstr "Russian"
+
+#: src/text/iso-639_def.h:157
+msgid "Sango"
+msgstr "Sango"
+
+#: src/text/iso-639_def.h:158
+msgid "Sanskrit"
+msgstr ""
+
+#: src/text/iso-639_def.h:159
+msgid "Serbian"
+msgstr "Serbian"
+
+#: src/text/iso-639_def.h:160
+msgid "Croatian"
+msgstr "Croatian"
+
+#: src/text/iso-639_def.h:161
+msgid "Sinhalese"
+msgstr "Sinhalese"
+
+#: src/text/iso-639_def.h:162
+msgid "Slovak"
+msgstr "Slovak"
+
+#: src/text/iso-639_def.h:163
+msgid "Slovenian"
+msgstr "Slovenian"
+
+#: src/text/iso-639_def.h:164
+msgid "Northern Sami"
+msgstr "Northern Sami"
+
+#: src/text/iso-639_def.h:165
+msgid "Samoan"
+msgstr "Samoan"
+
+#: src/text/iso-639_def.h:166
+msgid "Shona"
+msgstr "Shona"
+
+#: src/text/iso-639_def.h:167
+msgid "Sindhi"
+msgstr "Sindhi"
+
+#: src/text/iso-639_def.h:168
+msgid "Somali"
+msgstr "Somali"
+
+#: src/text/iso-639_def.h:169
+msgid "Sotho, Southern"
+msgstr "Sotho, Southern"
+
+#: src/text/iso-639_def.h:170
+msgid "Spanish"
+msgstr "Spanish"
+
+#: src/text/iso-639_def.h:171
+msgid "Sardinian"
+msgstr "Sardinian"
+
+#: src/text/iso-639_def.h:172
+msgid "Swati"
+msgstr "Swati"
+
+#: src/text/iso-639_def.h:173
+msgid "Sundanese"
+msgstr "Sundanese"
+
+#: src/text/iso-639_def.h:174
+msgid "Swahili"
+msgstr "Swahili"
+
+#: src/text/iso-639_def.h:175
+msgid "Swedish"
+msgstr "Swedish"
+
+#: src/text/iso-639_def.h:176
+msgid "Tahitian"
+msgstr "Tahitian"
+
+#: src/text/iso-639_def.h:177
+msgid "Tamil"
+msgstr "Tamil"
+
+#: src/text/iso-639_def.h:178
+msgid "Tatar"
+msgstr "Tatar"
+
+#: src/text/iso-639_def.h:179
+msgid "Telugu"
+msgstr "Telugu"
+
+#: src/text/iso-639_def.h:180
+msgid "Tajik"
+msgstr "Tajik"
+
+#: src/text/iso-639_def.h:181
+msgid "Tagalog"
+msgstr "Tagalog"
+
+#: src/text/iso-639_def.h:182
+msgid "Thai"
+msgstr "Thai"
+
+#: src/text/iso-639_def.h:183
+msgid "Tibetan"
+msgstr "Tibetan"
+
+#: src/text/iso-639_def.h:184
+msgid "Tigrinya"
+msgstr "Tigrinya"
+
+#: src/text/iso-639_def.h:185
+msgid "Tonga (Tonga Islands)"
+msgstr "Tonga (Tonga Islands)"
+
+#: src/text/iso-639_def.h:186
+msgid "Tswana"
+msgstr "Tswana"
+
+#: src/text/iso-639_def.h:187
+msgid "Tsonga"
+msgstr "Tsonga"
+
+#: src/text/iso-639_def.h:188
+msgid "Turkish"
+msgstr "Turkish"
+
+#: src/text/iso-639_def.h:189
+msgid "Turkmen"
+msgstr "Turkmen"
+
+#: src/text/iso-639_def.h:190
+msgid "Twi"
+msgstr "Twi"
+
+#: src/text/iso-639_def.h:191
+msgid "Uighur"
+msgstr "Uighur"
+
+#: src/text/iso-639_def.h:192
+#, fuzzy
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: src/text/iso-639_def.h:193
+msgid "Urdu"
+msgstr "Urdu"
+
+#: src/text/iso-639_def.h:194
+msgid "Uzbek"
+msgstr "Uzbek"
+
+#: src/text/iso-639_def.h:195
+#, fuzzy
+msgid "Vietnamese"
+msgstr "Vietnamese"
+
+#: src/text/iso-639_def.h:196
+msgid "Volapuk"
+msgstr "Volapuk"
+
+#: src/text/iso-639_def.h:197
+msgid "Welsh"
+msgstr "Welsh"
+
+#: src/text/iso-639_def.h:198
+msgid "Wolof"
+msgstr "Wolof"
+
+#: src/text/iso-639_def.h:199
+msgid "Xhosa"
+msgstr "Xhosa"
+
+#: src/text/iso-639_def.h:200
+msgid "Yiddish"
+msgstr "Yiddish"
+
+#: src/text/iso-639_def.h:201
+msgid "Yoruba"
+msgstr "Yoruba"
+
+#: src/text/iso-639_def.h:202
+msgid "Zhuang"
+msgstr "Zhuang"
+
+#: src/text/iso-639_def.h:203
+msgid "Zulu"
+msgstr "Zulu"
+
 #: src/video_output/video_output.c:1686 modules/gui/macosx/intf.m:701
 #: modules/gui/macosx/intf.m:702 modules/video_filter/postproc.c:196
 msgid "Post processing"
@@ -4498,7 +5176,8 @@ msgstr ""
 
 #: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:692
 #: modules/gui/macosx/intf.m:693 modules/video_filter/crop.c:107
-#: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1122
+#: modules/video_filter/croppadd.c:86
+#: linux/modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr ""
 
@@ -4544,12 +5223,12 @@ msgstr ""
 #: modules/access/dvdread.c:74 modules/access/eyetv.m:61
 #: modules/access/fake.c:44 modules/access/ftp.c:58
 #: modules/access/gnomevfs.c:48 modules/access/http.c:81
-#: modules/access/jack.c:60 modules/access/mms/mms.c:49
-#: modules/access/mtp.c:63 modules/access/oss.c:70 modules/access/pvr.c:59
-#: modules/access/rtmp/access.c:43 modules/access/screen/screen.c:40
-#: modules/access/screen/xcb.c:33 modules/access/sftp.c:51
-#: modules/access/smb.c:61 modules/access/tcp.c:41 modules/access/udp.c:49
-#: modules/access/v4l.c:77 modules/access/v4l2.c:182
+#: modules/access/imem.c:49 modules/access/jack.c:60
+#: modules/access/mms/mms.c:49 modules/access/mtp.c:63 modules/access/oss.c:70
+#: modules/access/pvr.c:59 modules/access/rtmp/access.c:43
+#: modules/access/screen/screen.c:40 modules/access/screen/xcb.c:33
+#: modules/access/sftp.c:51 modules/access/smb.c:61 modules/access/tcp.c:41
+#: modules/access/udp.c:49 modules/access/v4l.c:77 modules/access/v4l2.c:182
 #: modules/access/vcd/vcd.c:46
 #, fuzzy
 msgid "Caching value in ms"
@@ -4577,6 +5256,23 @@ msgstr "อยู่ข้างบนตลอด"
 #, fuzzy
 msgid "Alsa audio capture input"
 msgstr "เอาต์พุตเสียง JACK "
+
+#: modules/access/attachment.c:44
+msgid "Attachment"
+msgstr ""
+
+#: modules/access/attachment.c:45
+msgid "Attachment input"
+msgstr ""
+
+#: modules/access/avio.h:34
+msgid "Avio"
+msgstr ""
+
+#: modules/access/avio.h:35
+#, fuzzy
+msgid "FFmpeg access"
+msgstr "FFmpeg muxer"
 
 #: modules/access/bd/bd.c:54
 #, fuzzy
@@ -4900,7 +5596,7 @@ msgstr ""
 msgid "Hierarchy alpha value [Undefined,1,2,4]"
 msgstr ""
 
-#: modules/access/bda/bda.c:169 modules/gui/qt4/ui/streampanel.h:170
+#: modules/access/bda/bda.c:169 linux/modules/gui/qt4/ui/streampanel.h:170
 msgid "1"
 msgstr ""
 
@@ -5005,7 +5701,7 @@ msgstr "ค่าแคชของดีวีดี ซึ่งกำหน�
 
 #: modules/access/cdda.c:67 modules/gui/macosx/open.m:198
 #: modules/gui/macosx/open.m:643 modules/gui/macosx/open.m:731
-#: modules/gui/qt4/ui/open_disk.h:293
+#: linux/modules/gui/qt4/ui/open_disk.h:293
 msgid "Audio CD"
 msgstr "Audio CD"
 
@@ -5544,7 +6240,8 @@ msgstr "ปกติ"
 msgid "Number of frames per second (eg. 24, 25, 29.97, 30)."
 msgstr "จำนวนเฟรมต่อวินาที (เช่น 24, 25, 29.97, 30)"
 
-#: modules/access/fake.c:51 modules/gui/qt4/components/playlist/sorting.h:49
+#: modules/access/fake.c:51 modules/access/imem.c:54
+#: modules/gui/qt4/components/playlist/sorting.h:49
 #: modules/stream_out/bridge.c:41 modules/stream_out/mosaic_bridge.c:105
 msgid "ID"
 msgstr "ID"
@@ -5592,6 +6289,89 @@ msgstr "โมดูลเอาต์พุตวิดีโอ"
 #, fuzzy
 msgid "VLC could not read the file."
 msgstr "โมดูลเอาต์พุตวิดีโอ"
+
+#: modules/access/fs.c:33 modules/access/rtsp/access.c:46
+#: modules/access_output/udp.c:64 modules/demux/live555.cpp:75
+#: modules/stream_out/rtp.c:133
+#, fuzzy
+msgid "Caching value (ms)"
+msgstr "ค่าแคชในไมโครวินาที"
+
+#: modules/access/fs.c:35
+#, fuzzy
+msgid "Caching value for files, in milliseconds."
+msgstr "ค่าแคชของดีวีดี ซึ่งกำหนดเป็นมิลลิวินาที"
+
+#: modules/access/fs.c:37
+#, fuzzy
+msgid "Extra network caching value (ms)"
+msgstr "ค่าแคชในไมโครวินาที"
+
+#: modules/access/fs.c:39
+#, fuzzy
+msgid "Supplementary caching value for remote files, in milliseconds."
+msgstr "ค่าแคชสำหรับกระแสข้อมูล TCP ค่านี้จะกำหนดเป็นมิลลิวินาที"
+
+#: modules/access/fs.c:41
+msgid "Subdirectory behavior"
+msgstr ""
+
+#: modules/access/fs.c:43
+msgid ""
+"Select whether subdirectories must be expanded.\n"
+"none: subdirectories do not appear in the playlist.\n"
+"collapse: subdirectories appear but are expanded on first play.\n"
+"expand: all subdirectories are expanded.\n"
+msgstr ""
+
+#: modules/access/fs.c:50 modules/codec/dirac.c:79 modules/codec/x264.c:408
+#: modules/codec/x264.c:413
+msgid "none"
+msgstr "ไม่มี"
+
+#: modules/access/fs.c:50
+msgid "collapse"
+msgstr "ย่อ"
+
+#: modules/access/fs.c:50
+msgid "expand"
+msgstr "ขยาย"
+
+#: modules/access/fs.c:52
+#, fuzzy
+msgid "Ignored extensions"
+msgstr "AAC extension"
+
+#: modules/access/fs.c:54
+msgid ""
+"Files with these extensions will not be added to playlist when opening a "
+"directory.\n"
+"This is useful if you add directories that contain playlist files for "
+"instance. Use a comma-separated list of extensions."
+msgstr ""
+
+#: modules/access/fs.c:60
+msgid "File input"
+msgstr "wa]Noeg-hk"
+
+#: modules/access/fs.c:61 modules/access_output/file.c:69
+#: modules/audio_output/file.c:112 modules/gui/macosx/open.m:178
+#: modules/gui/macosx/open.m:451 modules/gui/macosx/output.m:142
+#: modules/gui/macosx/output.m:230 modules/gui/macosx/output.m:369
+#: modules/gui/qt4/dialogs/plugins.cpp:525 modules/gui/qt4/dialogs/sout.cpp:74
+#: modules/gui/qt4/dialogs/sout.cpp:152
+msgid "File"
+msgstr "ไฟล์"
+
+#: modules/access/fs.c:78 linux/modules/gui/qt4/ui/sprefs_video.h:327
+#, fuzzy
+msgid "Directory"
+msgstr "ไดเรกทรอรี"
+
+#: modules/access/fs.c:79
+#, fuzzy
+msgid "Directory input"
+msgstr "DirectShow"
 
 #: modules/access/ftp.c:60
 #, fuzzy
@@ -5770,6 +6550,152 @@ msgstr ""
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr "กรุณาใส่ที่อยู่"
 
+#: modules/access/imem.c:51
+#, fuzzy
+msgid ""
+"Caching value for imem streams. This value should be set in milliseconds."
+msgstr "ค่าแคชสำหรับกระแสข้อมูล TCP ค่านี้จะกำหนดเป็นมิลลิวินาที"
+
+#: modules/access/imem.c:56
+#, fuzzy
+msgid "Set the ID of the elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:58
+msgid "Group"
+msgstr "กลุ่ม"
+
+#: modules/access/imem.c:60
+#, fuzzy
+msgid "Set the group of the elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:62
+#, fuzzy
+msgid "Category"
+msgstr "ฉาก"
+
+#: modules/access/imem.c:64
+#, fuzzy
+msgid "Set the category of the elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:69
+msgid "Unknown"
+msgstr "ไม่รู้จัก"
+
+#: modules/access/imem.c:69
+#, fuzzy
+msgid "Data"
+msgstr "วันที่"
+
+#: modules/access/imem.c:74
+#, fuzzy
+msgid "Set the codec of the elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:78
+msgid "Language of the elementary stream as described by ISO639"
+msgstr ""
+
+#: modules/access/imem.c:82
+#, fuzzy
+msgid "Sample rate of an audio elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:84
+#, fuzzy
+msgid "Channels count"
+msgstr "ช่อง"
+
+#: modules/access/imem.c:86
+#, fuzzy
+msgid "Channels count of an audio elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:88 modules/access/pvr.c:74 modules/access/v4l.c:102
+#: modules/access/v4l2.c:89 modules/codec/invmem.c:53
+#: modules/demux/rawvid.c:48 modules/video_filter/mosaic.c:95
+#: modules/video_output/vmem.c:42 linux/modules/gui/qt4/ui/profiles.h:486
+msgid "Width"
+msgstr "ความกว้าง"
+
+#: modules/access/imem.c:89
+#, fuzzy
+msgid "Width of video or subtitle elementary streams"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:91 modules/access/pvr.c:78 modules/access/v4l.c:105
+#: modules/access/v4l2.c:92 modules/codec/invmem.c:56
+#: modules/demux/rawvid.c:52 modules/video_filter/mosaic.c:93
+#: modules/video_output/vmem.c:45 linux/modules/gui/qt4/ui/profiles.h:489
+msgid "Height"
+msgstr "ความสูง"
+
+#: modules/access/imem.c:92
+#, fuzzy
+msgid "Height of video or subtitle elementary streams"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:94
+#, fuzzy
+msgid "Display aspect ratio"
+msgstr "แอสเป็กต์เรโช"
+
+#: modules/access/imem.c:96
+#, fuzzy
+msgid "Display aspect ratio of a video elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:100
+#, fuzzy
+msgid "Frame rate of a video elementary stream"
+msgstr "เลือกกระแสข้อมูล"
+
+#: modules/access/imem.c:102
+msgid "Callback cookie string"
+msgstr ""
+
+#: modules/access/imem.c:104
+#, fuzzy
+msgid "Text identifier for the callback functions"
+msgstr "ที่อยู่คอมพิวเตอร์ที่กระแสข้อมูลไป"
+
+#: modules/access/imem.c:106 modules/codec/invmem.c:67
+#: modules/video_output/vmem.c:63
+msgid "Callback data"
+msgstr ""
+
+#: modules/access/imem.c:108
+#, fuzzy
+msgid "Data for the get and release functions"
+msgstr "Dummy font renderer function"
+
+#: modules/access/imem.c:110
+#, fuzzy
+msgid "Get function"
+msgstr "Latin"
+
+#: modules/access/imem.c:112
+#, fuzzy
+msgid "Address of the get callback function"
+msgstr "ที่อยู่คอมพิวเตอร์ที่กระแสข้อมูลไป"
+
+#: modules/access/imem.c:114
+#, fuzzy
+msgid "Release function"
+msgstr "Dummy demux function"
+
+#: modules/access/imem.c:116
+#, fuzzy
+msgid "Address of the release callback function"
+msgstr "ที่อยู่คอมพิวเตอร์ที่กระแสข้อมูลไป"
+
+#: modules/access/imem.c:119 modules/access/imem.c:120
+#, fuzzy
+msgid "Memory input"
+msgstr "ไม่มีสิ่งนำเข้า"
+
 #: modules/access/jack.c:62
 msgid ""
 "Make VLC buffer audio data captured from jack for the specified length in "
@@ -5933,23 +6859,9 @@ msgstr "ปกติ"
 msgid "Norm of the stream (Automatic, SECAM, PAL, or NTSC)."
 msgstr ""
 
-#: modules/access/pvr.c:74 modules/access/v4l.c:102 modules/access/v4l2.c:89
-#: modules/codec/invmem.c:53 modules/demux/rawvid.c:48
-#: modules/video_filter/mosaic.c:95 modules/video_output/vmem.c:42
-#: modules/gui/qt4/ui/profiles.h:479
-msgid "Width"
-msgstr "ความกว้าง"
-
 #: modules/access/pvr.c:75
 msgid "Width of the stream to capture (-1 for autodetection)."
 msgstr ""
-
-#: modules/access/pvr.c:78 modules/access/v4l.c:105 modules/access/v4l2.c:92
-#: modules/codec/invmem.c:56 modules/demux/rawvid.c:52
-#: modules/video_filter/mosaic.c:93 modules/video_output/vmem.c:45
-#: modules/gui/qt4/ui/profiles.h:482
-msgid "Height"
-msgstr "ความสูง"
 
 #: modules/access/pvr.c:79
 msgid "Height of the stream to capture (-1 for autodetection)."
@@ -6022,7 +6934,7 @@ msgstr ""
 #: modules/access/pvr.c:109 modules/access/v4l2.c:163
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
 #: modules/gui/macosx/intf.m:606 modules/gui/qt4/dialogs/toolbar.cpp:347
-#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:405
+#: modules/stream_out/raop.c:150 linux/modules/gui/qt4/ui/sprefs_audio.h:405
 msgid "Volume"
 msgstr "ความดัง"
 
@@ -6205,12 +7117,6 @@ msgstr "RTP"
 #: modules/access/rtp/rtp.c:88
 msgid "Real-Time Protocol (RTP) input"
 msgstr ""
-
-#: modules/access/rtsp/access.c:46 modules/access_output/udp.c:64
-#: modules/demux/live555.cpp:75 modules/stream_out/rtp.c:133
-#, fuzzy
-msgid "Caching value (ms)"
-msgstr "ค่าแคชในไมโครวินาที"
 
 #: modules/access/rtsp/access.c:48
 #, fuzzy
@@ -6507,7 +7413,7 @@ msgstr ""
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:108
 #: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:264
-#: modules/gui/qt4/ui/video_effects.h:1107
+#: linux/modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr ""
 
@@ -6516,7 +7422,8 @@ msgid "Brightness of the video input."
 msgstr ""
 
 #: modules/access/v4l.c:111 modules/access/v4l2.c:117
-#: modules/gui/macosx/extended.m:101 modules/gui/qt4/ui/video_effects.h:1109
+#: modules/gui/macosx/extended.m:101
+#: linux/modules/gui/qt4/ui/video_effects.h:1109
 #, fuzzy
 msgid "Hue"
 msgstr "House"
@@ -6529,9 +7436,9 @@ msgstr "บันทึกลงไฟล์"
 #: modules/access/v4l.c:114 modules/gui/fbosd.c:141
 #: modules/misc/notify/xosd.c:82 modules/video_filter/colorthres.c:54
 #: modules/video_filter/marq.c:123 modules/video_filter/rss.c:155
-#: modules/gui/qt4/ui/video_effects.h:1132
-#: modules/gui/qt4/ui/video_effects.h:1138
-#: modules/gui/qt4/ui/video_effects.h:1150
+#: linux/modules/gui/qt4/ui/video_effects.h:1132
+#: linux/modules/gui/qt4/ui/video_effects.h:1138
+#: linux/modules/gui/qt4/ui/video_effects.h:1150
 msgid "Color"
 msgstr "สี"
 
@@ -6540,7 +7447,8 @@ msgid "Color of the video input."
 msgstr ""
 
 #: modules/access/v4l.c:117 modules/access/v4l2.c:111
-#: modules/gui/macosx/extended.m:99 modules/gui/qt4/ui/video_effects.h:1106
+#: modules/gui/macosx/extended.m:99
+#: linux/modules/gui/qt4/ui/video_effects.h:1106
 #, fuzzy
 msgid "Contrast"
 msgstr "VLC - Controller"
@@ -6559,7 +7467,7 @@ msgstr "เจ้าของ"
 msgid "Tuner to use, if there are several ones."
 msgstr "ช่องเสียงที่ใช้ถ้ามีสิ่งนำเข้าเสียงหลายตัว"
 
-#: modules/access/v4l.c:122 modules/gui/qt4/ui/profiles.h:466
+#: modules/access/v4l.c:122 linux/modules/gui/qt4/ui/profiles.h:473
 msgid "MJPEG"
 msgstr "MJPEG"
 
@@ -6676,8 +7584,8 @@ msgid "Contrast of the video input (if supported by the v4l2 driver)."
 msgstr ""
 
 #: modules/access/v4l2.c:114 modules/gui/macosx/extended.m:102
-#: modules/gui/qt4/ui/video_effects.h:1108
-#: modules/gui/qt4/ui/video_effects.h:1137
+#: linux/modules/gui/qt4/ui/video_effects.h:1108
+#: linux/modules/gui/qt4/ui/video_effects.h:1137
 #, fuzzy
 msgid "Saturation"
 msgstr "ช่วงเวลา"
@@ -6736,7 +7644,7 @@ msgid "Blue balance of the video input (if supported by the v4l2 driver)."
 msgstr ""
 
 #: modules/access/v4l2.c:137 modules/gui/macosx/extended.m:100
-#: modules/gui/qt4/ui/video_effects.h:1105
+#: linux/modules/gui/qt4/ui/video_effects.h:1105
 #, fuzzy
 msgid "Gamma"
 msgstr "Game"
@@ -7059,7 +7967,7 @@ msgstr "กระแสข้อมูล %d"
 msgid "Entries"
 msgstr ""
 
-#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:421
+#: modules/access/vcdx/info.c:75 linux/modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Tracks"
 msgstr "เพลง/วิดีโอ"
 
@@ -7207,14 +8115,6 @@ msgstr ""
 msgid "File stream output"
 msgstr "เปิดใช้เอาต์พุตกระแสข้อมูล SPU "
 
-#: modules/access_output/file.c:69 modules/audio_output/file.c:112
-#: modules/gui/macosx/open.m:178 modules/gui/macosx/open.m:451
-#: modules/gui/macosx/output.m:142 modules/gui/macosx/output.m:230
-#: modules/gui/macosx/output.m:369 modules/gui/qt4/dialogs/plugins.cpp:525
-#: modules/gui/qt4/dialogs/sout.cpp:74 modules/gui/qt4/dialogs/sout.cpp:152
-msgid "File"
-msgstr "ไฟล์"
-
 #: modules/access_output/http.c:65 modules/misc/audioscrobbler.c:134
 msgid "Username"
 msgstr "ชื่อผู้ใช้"
@@ -7226,7 +8126,8 @@ msgstr "ชื่อผู้ใช้จะถูกใช้เมื่อเ
 #: modules/access_output/http.c:68 modules/control/telnet.c:81
 #: modules/gui/macosx/coredialogs.m:65 modules/gui/macosx/simple_prefs.m:234
 #: modules/gui/qt4/dialogs/external.cpp:125 modules/misc/audioscrobbler.c:136
-#: modules/misc/notify/growl_udp.c:73 modules/stream_out/raop.c:154
+#: modules/misc/lua/vlc.c:81 modules/misc/notify/growl_udp.c:73
+#: modules/stream_out/raop.c:154
 msgid "Password"
 msgstr "รหัสผ่าน"
 
@@ -7416,6 +8317,106 @@ msgstr "ตัวกรองเสียงสำหรับ float32->กา�
 
 #: modules/arm_neon/i420_yuy2.c:33
 msgid "ARM NEON video chroma conversions"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:42
+msgid "TCP address to use (default localhost)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:43
+msgid ""
+"TCP address to use to communicate with the video part of the Bar Graph "
+"(default localhost).In the case of bargraph incrustation, use localhost."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:46
+msgid "TCP port to use (default 12345)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:47
+msgid ""
+"TCP port to use to communicate with the video part of the Bar Graph (default "
+"12345).Use the same port as the one used in the rc interface."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:50
+msgid "Defines if BarGraph information should be sent (default 1)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:51
+msgid ""
+"Defines if BarGraph information should be sent. 1 if the information should "
+"be sent, 0 otherwise (default 1)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:53
+msgid "Sends the barGraph information every n audio packets (default 4)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:54
+msgid ""
+"Defines how often the barGraph information should be sent. Sends the "
+"barGraph information every n audio packets (default 4)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:56
+msgid "Defines if silence alarm information should be sent (default 1)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:57
+msgid ""
+"Defines if silence alarm information should be sent. 1 if the information "
+"should be sent, 0 otherwise (default 1)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:59
+msgid "Time window to use in ms (default 5000)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:60
+msgid ""
+"Time Window during when the audio level is measured in ms for silence "
+"detection. If the audio level is under the threshold during this time, an "
+"alarm is sent (default 5000)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:63
+msgid "Minimum Audio level to raise the alarm (default 0.1)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:64
+msgid ""
+"Threshold to be attained to raise an alarm. If the audio level is under the "
+"threshold during this time, an alarm is sent (default 0.1)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:67
+msgid "Time between two alarm messages in ms (default 2000)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:68
+msgid ""
+"Time between two alarm messages in ms. This value is used to avoid alarm "
+"saturation (default 2000)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:70
+msgid "Force connection reset regularly (default 1)"
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:71
+msgid ""
+"Defines if the TCP connection should be reset. This is to be used when using "
+"with audiobargraph_v (default 1)."
+msgstr ""
+
+#: modules/audio_filter/audiobargraph_a.c:84
+#, fuzzy
+msgid "Audio part of the BarGraph function"
+msgstr "ที่อยู่คอมพิวเตอร์ที่กระแสข้อมูลไป"
+
+#: modules/audio_filter/audiobargraph_a.c:85
+msgid "audiobargraph_a"
 msgstr ""
 
 #: modules/audio_filter/channel_mixer/dolby.c:49
@@ -8797,10 +9798,6 @@ msgstr "ม่วง"
 msgid "Enable adaptive prefiltering"
 msgstr ""
 
-#: modules/codec/dirac.c:79 modules/codec/x264.c:408 modules/codec/x264.c:413
-msgid "none"
-msgstr "ไม่มี"
-
 #: modules/codec/dirac.c:79
 msgid "Centre Weighted Median"
 msgstr ""
@@ -9149,11 +10146,11 @@ msgstr ""
 msgid "Fake video decoder"
 msgstr "Cinepak video decoder"
 
-#: modules/codec/flac.c:134
+#: modules/codec/flac.c:137
 msgid "Flac audio decoder"
 msgstr "ตัวถอดรหัสเสียง Flac "
 
-#: modules/codec/flac.c:140
+#: modules/codec/flac.c:143
 msgid "Flac audio encoder"
 msgstr "ตัวเข้ารหัสเสียง Flac "
 
@@ -9218,10 +10215,6 @@ msgstr ""
 
 #: modules/codec/invmem.c:65 modules/video_output/vmem.c:61
 msgid "Address of the unlocking callback function"
-msgstr ""
-
-#: modules/codec/invmem.c:67 modules/video_output/vmem.c:63
-msgid "Callback data"
 msgstr ""
 
 #: modules/codec/invmem.c:68 modules/video_output/vmem.c:64
@@ -9289,8 +10282,8 @@ msgstr "เงิน"
 
 #: modules/codec/kate.c:211 modules/gui/fbosd.c:172
 #: modules/misc/freetype.c:142 modules/misc/quartztext.c:98
-#: modules/misc/win32text.c:88 modules/video_filter/marq.c:61
-#: modules/video_filter/rss.c:73
+#: modules/misc/win32text.c:88 modules/video_filter/ball.c:132
+#: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
 msgid "White"
 msgstr "ขาว"
 
@@ -9304,8 +10297,9 @@ msgstr "Maroon"
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:172
 #: modules/gui/macosx/controls.m:542 modules/gui/macosx/intf.m:706
 #: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
-#: modules/misc/win32text.c:89 modules/video_filter/colorthres.c:64
-#: modules/video_filter/marq.c:61 modules/video_filter/rss.c:73
+#: modules/misc/win32text.c:89 modules/video_filter/ball.c:131
+#: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:61
+#: modules/video_filter/rss.c:73
 msgid "Red"
 msgstr "แดง"
 
@@ -9334,8 +10328,8 @@ msgstr "Olive"
 #: modules/codec/kate.c:212 modules/gui/fbosd.c:173
 #: modules/gui/macosx/controls.m:544 modules/gui/macosx/intf.m:707
 #: modules/misc/freetype.c:143 modules/misc/quartztext.c:99
-#: modules/misc/win32text.c:89 modules/video_filter/marq.c:62
-#: modules/video_filter/rss.c:74
+#: modules/misc/win32text.c:89 modules/video_filter/ball.c:131
+#: modules/video_filter/marq.c:62 modules/video_filter/rss.c:74
 msgid "Green"
 msgstr "เขียว"
 
@@ -9370,8 +10364,9 @@ msgstr "Navy"
 #: modules/codec/kate.c:213 modules/gui/fbosd.c:174
 #: modules/gui/macosx/controls.m:548 modules/gui/macosx/intf.m:709
 #: modules/misc/freetype.c:144 modules/misc/quartztext.c:100
-#: modules/misc/win32text.c:90 modules/video_filter/colorthres.c:64
-#: modules/video_filter/marq.c:63 modules/video_filter/rss.c:75
+#: modules/misc/win32text.c:90 modules/video_filter/ball.c:132
+#: modules/video_filter/colorthres.c:64 modules/video_filter/marq.c:63
+#: modules/video_filter/rss.c:75
 msgid "Blue"
 msgstr "นำเงิน"
 
@@ -9612,8 +10607,8 @@ msgid "MP3 fixed point audio encoder"
 msgstr "Raw audio encoder"
 
 #: modules/codec/speex.c:57 modules/codec/speex.c:800
-#: modules/gui/macosx/open.m:209 modules/gui/qt4/ui/sprefs_video.h:324
-#: modules/gui/qt4/ui/video_effects.h:1149
+#: modules/gui/macosx/open.m:209 linux/modules/gui/qt4/ui/sprefs_video.h:324
+#: linux/modules/gui/qt4/ui/video_effects.h:1149
 msgid "Mode"
 msgstr "โหมด"
 
@@ -10791,7 +11786,7 @@ msgid "Quiet mode."
 msgstr "โหมดเงียบ"
 
 #: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
-#: modules/gui/qt4/ui/streampanel.h:171
+#: linux/modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "สถิติ"
 
@@ -11879,11 +12874,12 @@ msgstr "Sinhalese"
 msgid "POSIX signals handling interface"
 msgstr "การตั้งค่าสำหรับส่วนติดต่อหลัก"
 
-#: modules/control/telnet.c:72 modules/stream_out/raop.c:147
+#: modules/control/telnet.c:72 modules/misc/lua/vlc.c:72
+#: modules/stream_out/raop.c:147
 msgid "Host"
 msgstr "โฮสต์"
 
-#: modules/control/telnet.c:73
+#: modules/control/telnet.c:73 modules/misc/lua/vlc.c:73
 msgid ""
 "This is the host on which the interface will listen. It defaults to all "
 "network interfaces (0.0.0.0). If you want this interface to be available "
@@ -11897,17 +12893,17 @@ msgstr ""
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:260
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:310
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:404
-#: modules/stream_out/rtp.c:112
+#: modules/misc/lua/vlc.c:77 modules/stream_out/rtp.c:112
 msgid "Port"
 msgstr "พอร์ต"
 
-#: modules/control/telnet.c:78
+#: modules/control/telnet.c:78 modules/misc/lua/vlc.c:78
 msgid ""
 "This is the TCP port on which this interface will listen. It defaults to "
 "4212."
 msgstr "นี่เป็นพอร์ต TCP บนส่วนติดต่อนี้ ค่าปกติคือ 4212"
 
-#: modules/control/telnet.c:82
+#: modules/control/telnet.c:82 modules/misc/lua/vlc.c:82
 msgid ""
 "A single administration password is used to protect this interface. The "
 "default value is \"admin\"."
@@ -13020,7 +14016,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:112
-#: modules/video_filter/marq.c:87 modules/gui/qt4/ui/video_effects.h:1168
+#: modules/video_filter/marq.c:87
+#: linux/modules/gui/qt4/ui/video_effects.h:1168
 msgid "Text"
 msgstr "ตัวอักษร"
 
@@ -13028,8 +14025,9 @@ msgstr "ตัวอักษร"
 msgid "Text to display on the overlay framebuffer."
 msgstr ""
 
-#: modules/gui/fbosd.c:121 modules/video_filter/erase.c:57
-#: modules/video_filter/logo.c:58 modules/video_filter/osdmenu.c:51
+#: modules/gui/fbosd.c:121 modules/video_filter/audiobargraph_v.c:51
+#: modules/video_filter/erase.c:57 modules/video_filter/logo.c:58
+#: modules/video_filter/osdmenu.c:51
 msgid "X coordinate"
 msgstr ""
 
@@ -13037,8 +14035,9 @@ msgstr ""
 msgid "X coordinate of the rendered image"
 msgstr ""
 
-#: modules/gui/fbosd.c:124 modules/video_filter/erase.c:59
-#: modules/video_filter/logo.c:61 modules/video_filter/osdmenu.c:54
+#: modules/gui/fbosd.c:124 modules/video_filter/audiobargraph_v.c:53
+#: modules/video_filter/erase.c:59 modules/video_filter/logo.c:61
+#: modules/video_filter/osdmenu.c:54
 msgid "Y coordinate"
 msgstr ""
 
@@ -13117,7 +14116,7 @@ msgstr ""
 #: modules/misc/freetype.c:92 modules/misc/notify/xosd.c:80
 #: modules/misc/quartztext.c:80 modules/misc/win32text.c:58
 #: modules/video_filter/marq.c:164 modules/video_filter/rss.c:207
-#: modules/gui/qt4/ui/sprefs_subtitles.h:211
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:211
 msgid "Font"
 msgstr "ตัวอักษร"
 
@@ -13130,30 +14129,30 @@ msgstr "คำสั่ง"
 msgid "GNU/Linux osd/overlay framebuffer interface"
 msgstr ""
 
-#: modules/gui/macosx/about.m:86 modules/gui/macosx/intf.m:616
+#: modules/gui/macosx/about.m:92 modules/gui/macosx/intf.m:616
 msgid "About VLC media player"
 msgstr "เกี่ยวกับ  VLC media player"
 
-#: modules/gui/macosx/about.m:90
+#: modules/gui/macosx/about.m:96
 #, c-format
 msgid "Compiled by %s"
 msgstr "คอมไพล์โดย %s"
 
-#: modules/gui/macosx/about.m:98
+#: modules/gui/macosx/about.m:104
 msgid "VLC was brought to you by:"
 msgstr ""
 
-#: modules/gui/macosx/about.m:108 modules/gui/macosx/about.m:173
+#: modules/gui/macosx/about.m:114 modules/gui/macosx/about.m:179
 #: modules/gui/macosx/intf.m:729 modules/gui/qt4/dialogs/help.cpp:166
 msgid "License"
 msgstr "ลิขสิทธิ์"
 
-#: modules/gui/macosx/about.m:186
+#: modules/gui/macosx/about.m:192
 #, fuzzy
 msgid "VLC media player Help"
 msgstr "VLC media player"
 
-#: modules/gui/macosx/about.m:189 modules/gui/macosx/controls.m:540
+#: modules/gui/macosx/about.m:195 modules/gui/macosx/controls.m:540
 #: modules/gui/macosx/intf.m:705
 msgid "Index"
 msgstr "ดัชนี"
@@ -13164,15 +14163,15 @@ msgid "Bookmarks"
 msgstr "&Bookmarks...\tCtrl-B"
 
 #: modules/gui/macosx/bookmarks.m:88
-#: modules/gui/qt4/ui/podcast_configuration.h:104
-#: modules/gui/qt4/ui/sout.h:331 modules/gui/qt4/ui/vlm.h:300
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:104
+#: linux/modules/gui/qt4/ui/sout.h:331 linux/modules/gui/qt4/ui/vlm.h:300
 msgid "Add"
 msgstr "เพิ่ม"
 
 #: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:642
 #: modules/gui/macosx/simple_prefs.m:246
 #: modules/gui/qt4/components/preferences_widgets.cpp:1206
-#: modules/gui/qt4/dialogs/bookmarks.cpp:47 modules/gui/qt4/ui/vlm.h:301
+#: modules/gui/qt4/dialogs/bookmarks.cpp:47 linux/modules/gui/qt4/ui/vlm.h:301
 msgid "Clear"
 msgstr "ล้าง"
 
@@ -13185,7 +14184,7 @@ msgstr "แก้ไข"
 msgid "Extract"
 msgstr "ตัดทอน"
 
-#: modules/gui/macosx/bookmarks.m:92 modules/gui/qt4/ui/open_file.h:224
+#: modules/gui/macosx/bookmarks.m:92 linux/modules/gui/qt4/ui/open_file.h:224
 msgid "Remove"
 msgstr "ถอด"
 
@@ -13366,7 +14365,7 @@ msgstr "จบ"
 msgid "Fast Forward"
 msgstr "ชั่วคราว"
 
-#: modules/gui/macosx/equalizer.m:146 modules/gui/qt4/ui/equalizer.h:128
+#: modules/gui/macosx/equalizer.m:146 linux/modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
 msgstr "2 Pass"
 
@@ -13378,7 +14377,7 @@ msgstr ""
 msgid "Enable the equalizer. Bands can be set manually or using a preset."
 msgstr ""
 
-#: modules/gui/macosx/equalizer.m:152 modules/gui/qt4/ui/equalizer.h:130
+#: modules/gui/macosx/equalizer.m:152 linux/modules/gui/qt4/ui/equalizer.h:130
 #, fuzzy
 msgid "Preamp"
 msgstr "Dream"
@@ -13404,12 +14403,13 @@ msgstr "ธรรมดา"
 
 #: modules/gui/macosx/extended.m:72 modules/meta_engine/id3genres.h:95
 #: modules/video_filter/psychedelic.c:55
-#: modules/gui/qt4/ui/video_effects.h:1143
+#: linux/modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
 msgstr "Psychedelic"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
-#: modules/video_filter/gradient.c:82 modules/gui/qt4/ui/video_effects.h:1148
+#: modules/video_filter/gradient.c:82
+#: linux/modules/gui/qt4/ui/video_effects.h:1148
 #, fuzzy
 msgid "Gradient"
 msgstr "เขียว"
@@ -13446,7 +14446,8 @@ msgstr "รูปแบบของภาพ"
 msgid "Crops a defined part of the image"
 msgstr ""
 
-#: modules/gui/macosx/extended.m:83 modules/gui/qt4/ui/video_effects.h:1134
+#: modules/gui/macosx/extended.m:83
+#: linux/modules/gui/qt4/ui/video_effects.h:1134
 #, fuzzy
 msgid "Invert colors"
 msgstr "สี"
@@ -13990,10 +14991,13 @@ msgstr "ฉาก"
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:102
-#: modules/gui/qt4/ui/open.h:246 modules/gui/qt4/ui/open_disk.h:300
-#: modules/gui/qt4/ui/open_file.h:232 modules/gui/qt4/ui/sprefs_audio.h:412
-#: modules/gui/qt4/ui/sprefs_input.h:308 modules/gui/qt4/ui/sprefs_input.h:317
-#: modules/gui/qt4/ui/sprefs_video.h:326
+#: linux/modules/gui/qt4/ui/open.h:246
+#: linux/modules/gui/qt4/ui/open_disk.h:300
+#: linux/modules/gui/qt4/ui/open_file.h:232
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:412
+#: linux/modules/gui/qt4/ui/sprefs_input.h:308
+#: linux/modules/gui/qt4/ui/sprefs_input.h:317
+#: linux/modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
 msgstr "มองหาใน..."
 
@@ -14007,7 +15011,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:186 modules/gui/macosx/simple_prefs.m:280
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:414
-#: modules/gui/qt4/ui/sprefs_interface.h:394
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:394
 msgid "Choose..."
 msgstr "เลือก..."
 
@@ -14016,7 +15020,7 @@ msgstr "เลือก..."
 msgid "Device name"
 msgstr "ชื่อเครื่อง"
 
-#: modules/gui/macosx/open.m:193 modules/gui/qt4/ui/open_disk.h:298
+#: modules/gui/macosx/open.m:193 linux/modules/gui/qt4/ui/open_disk.h:298
 #, fuzzy
 msgid "No DVD menus"
 msgstr "ใช้เมนู DVD "
@@ -14027,7 +15031,8 @@ msgid "VIDEO_TS folder"
 msgstr "ไดเรกทรอรี VIDEO_TS "
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:739
-#: modules/services_discovery/udev.c:587 modules/gui/qt4/ui/open_disk.h:292
+#: modules/services_discovery/udev.c:587
+#: linux/modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
 
@@ -14174,7 +15179,8 @@ msgstr "FPS"
 msgid "Subtitles encoding"
 msgstr "การเข้ารหัสชื่อเรื่องย่อย"
 
-#: modules/gui/macosx/open.m:316 modules/gui/qt4/ui/sprefs_subtitles.h:210
+#: modules/gui/macosx/open.m:316
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "ขนาดตัวอักษร"
 
@@ -14191,7 +15197,7 @@ msgid "Subtitle File"
 msgstr "ไฟล์ชื่อเรื่องย่อย"
 
 #: modules/gui/macosx/open.m:587 modules/gui/macosx/open.m:953
-#: modules/gui/macosx/open.m:1189 modules/gui/qt4/ui/open_file.h:217
+#: modules/gui/macosx/open.m:1189 linux/modules/gui/qt4/ui/open_file.h:217
 msgid "Open File"
 msgstr "เปิดไฟล์"
 
@@ -14258,7 +15264,7 @@ msgstr "สิ่งนำเข้า VCD"
 msgid "Encapsulation Method"
 msgstr "ภาพประกอบ"
 
-#: modules/gui/macosx/output.m:159 modules/gui/qt4/ui/sout.h:335
+#: modules/gui/macosx/output.m:159 linux/modules/gui/qt4/ui/sout.h:335
 #, fuzzy
 msgid "Transcoding options"
 msgstr "Encoding"
@@ -14269,7 +15275,7 @@ msgstr "Encoding"
 msgid "Bitrate (kb/s)"
 msgstr "โมดูลส่วนติดต่อ"
 
-#: modules/gui/macosx/output.m:166 modules/gui/qt4/ui/profiles.h:478
+#: modules/gui/macosx/output.m:166 linux/modules/gui/qt4/ui/profiles.h:485
 #, fuzzy
 msgid "Scale"
 msgstr "บันทึก"
@@ -14279,7 +15285,7 @@ msgstr "บันทึก"
 msgid "Stream Announcing"
 msgstr "พิมพ์ข้อมูลของเวอร์ชั่น"
 
-#: modules/gui/macosx/output.m:181 modules/gui/qt4/ui/sout.h:342
+#: modules/gui/macosx/output.m:181 linux/modules/gui/qt4/ui/sout.h:342
 #, fuzzy
 msgid "SAP announce"
 msgstr "สิ่งนำเข้า HTTP "
@@ -14313,7 +15319,7 @@ msgstr "บันทึกไฟล์"
 #: modules/gui/macosx/output.m:526 modules/gui/macosx/playlist.m:745
 #: modules/gui/macosx/prefs.m:203 modules/gui/macosx/simple_prefs.m:310
 #: modules/gui/qt4/components/sout/profile_selector.cpp:250
-#: modules/gui/qt4/ui/vlm.h:302
+#: linux/modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
 msgstr "บันทึก"
 
@@ -14334,8 +15340,8 @@ msgid "Save Playlist..."
 msgstr "บันทึก Playlist..."
 
 #: modules/gui/macosx/playlist.m:465 modules/gui/qt4/dialogs/bookmarks.cpp:45
-#: modules/gui/qt4/ui/podcast_configuration.h:105
-#: modules/gui/qt4/ui/streampanel.h:173
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:105
+#: linux/modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
 msgstr "ลบ"
 
@@ -14536,7 +15542,7 @@ msgid "Reset All"
 msgstr "ตั้งค่าใหม่ทั้งหมด"
 
 #: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:306
-#: modules/gui/qt4/ui/video_effects.h:1111
+#: linux/modules/gui/qt4/ui/video_effects.h:1111
 #, fuzzy
 msgid "Basic"
 msgstr "Bashkir"
@@ -14606,7 +15612,8 @@ msgstr "การตั้งค่าฮอตคีย์"
 msgid "Input & Codec settings"
 msgstr "การตั้งค่าฮอตคีย์"
 
-#: modules/gui/macosx/simple_prefs.m:228 modules/gui/qt4/ui/sprefs_audio.h:414
+#: modules/gui/macosx/simple_prefs.m:228
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:414
 #, fuzzy
 msgid "Effects"
 msgstr "ตัวกรองวิดีโอ"
@@ -14621,7 +15628,8 @@ msgstr "เปิดใช้เสียง"
 msgid "General Audio"
 msgstr "ทั่วไป"
 
-#: modules/gui/macosx/simple_prefs.m:231 modules/gui/qt4/ui/sprefs_audio.h:419
+#: modules/gui/macosx/simple_prefs.m:231
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
 msgstr ""
 
@@ -14678,7 +15686,7 @@ msgstr ""
 msgid "Default Caching Level"
 msgstr "มุมกล้อง  DVD ตั้งต้น"
 
-#: modules/gui/macosx/simple_prefs.m:254 modules/gui/qt4/ui/open.h:235
+#: modules/gui/macosx/simple_prefs.m:254 linux/modules/gui/qt4/ui/open.h:235
 msgid "Caching"
 msgstr "แคช"
 
@@ -14725,7 +15733,7 @@ msgid "Show Fullscreen Controller"
 msgstr "ส่วนติดต่อเทลเน็ต"
 
 #: modules/gui/macosx/simple_prefs.m:270
-#: modules/gui/qt4/ui/sprefs_interface.h:376
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:376
 #, fuzzy
 msgid "Privacy / Network Interaction"
 msgstr "การตั้งค่าทั่วไปของส่วนติดต่อ"
@@ -14745,7 +15753,7 @@ msgid "Default Encoding"
 msgstr "Encoding"
 
 #: modules/gui/macosx/simple_prefs.m:279
-#: modules/gui/qt4/ui/sprefs_subtitles.h:207
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:207
 #, fuzzy
 msgid "Display Settings"
 msgstr "แสดงขณะส่งกระแสข้อมูล"
@@ -14782,7 +15790,7 @@ msgstr "เต็มจอ"
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
-#: modules/gui/qt4/ui/sprefs_video.h:310
+#: linux/modules/gui/qt4/ui/sprefs_video.h:310
 #, fuzzy
 msgid "Display"
 msgstr "แสดงชื่อของบริการ"
@@ -14797,7 +15805,8 @@ msgstr "เปิดใช้วิดีโอ"
 msgid "Output module"
 msgstr "โมดูลเอาต์พุต"
 
-#: modules/gui/macosx/simple_prefs.m:298 modules/gui/qt4/ui/sprefs_video.h:325
+#: modules/gui/macosx/simple_prefs.m:298
+#: linux/modules/gui/qt4/ui/sprefs_video.h:325
 #, fuzzy
 msgid "Video snapshots"
 msgstr "พอร์ตวิดีโอ"
@@ -14807,17 +15816,20 @@ msgstr "พอร์ตวิดีโอ"
 msgid "Folder"
 msgstr "wa]N"
 
-#: modules/gui/macosx/simple_prefs.m:301 modules/gui/qt4/ui/sprefs_video.h:330
+#: modules/gui/macosx/simple_prefs.m:301
+#: linux/modules/gui/qt4/ui/sprefs_video.h:330
 #, fuzzy
 msgid "Format"
 msgstr "ปกติ"
 
-#: modules/gui/macosx/simple_prefs.m:302 modules/gui/qt4/ui/sprefs_video.h:328
+#: modules/gui/macosx/simple_prefs.m:302
+#: linux/modules/gui/qt4/ui/sprefs_video.h:328
 #, fuzzy
 msgid "Prefix"
 msgstr "ก่อนหน้านี้"
 
-#: modules/gui/macosx/simple_prefs.m:303 modules/gui/qt4/ui/sprefs_video.h:331
+#: modules/gui/macosx/simple_prefs.m:303
+#: linux/modules/gui/qt4/ui/sprefs_video.h:331
 msgid "Sequential numbering"
 msgstr ""
 
@@ -15270,7 +16282,7 @@ msgid "In this page, a few additional streaming parameters can be set."
 msgstr ""
 
 #: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:1866
-#: modules/gui/qt4/ui/sout.h:344
+#: linux/modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
 msgstr "Time-To-Live (TTL)"
 
@@ -16232,7 +17244,7 @@ msgid "File names:"
 msgstr "ชื่อไฟล์"
 
 #: modules/gui/qt4/components/open_panels.cpp:149
-#: modules/gui/qt4/ui/sprefs_interface.h:382
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:382
 #, fuzzy
 msgid "Filter:"
 msgstr "ตัวกรอง"
@@ -16586,7 +17598,7 @@ msgid "File/Folder"
 msgstr "wa]N"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:46
-#: modules/gui/qt4/ui/sout.h:328
+#: linux/modules/gui/qt4/ui/sout.h:328
 #, fuzzy
 msgid "Source"
 msgstr "หน้าจอ"
@@ -16717,7 +17729,7 @@ msgid "Convert"
 msgstr "เ&รียง"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
-#: modules/gui/qt4/ui/sprefs_audio.h:411
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:411
 #, fuzzy
 msgid "Destination file:"
 msgstr "เป้าหมาย"
@@ -16809,7 +17821,8 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
-#: modules/gui/qt4/ui/open_capture.h:103 modules/gui/qt4/ui/sout.h:347
+#: linux/modules/gui/qt4/ui/open_capture.h:103
+#: linux/modules/gui/qt4/ui/sout.h:347
 #, fuzzy
 msgid "Options"
 msgstr "ออปชั่น:"
@@ -17185,7 +18198,7 @@ msgstr "ตั้งค่าตัวเลือกใหม่"
 msgid "Are you sure you want to reset your VLC media player preferences?"
 msgstr ""
 
-#: modules/gui/qt4/dialogs/sout.cpp:42 modules/gui/qt4/ui/sout.h:326
+#: modules/gui/qt4/dialogs/sout.cpp:42 linux/modules/gui/qt4/ui/sout.h:326
 #, fuzzy
 msgid "Stream Output"
 msgstr "ส่งไบต์"
@@ -17291,7 +18304,8 @@ msgstr "ใช้ไฟล์บทพากย์"
 msgid "Cl&ose"
 msgstr "ปิด"
 
-#: modules/gui/qt4/dialogs/toolbar.cpp:217 modules/gui/qt4/ui/profiles.h:455
+#: modules/gui/qt4/dialogs/toolbar.cpp:217
+#: linux/modules/gui/qt4/ui/profiles.h:461
 #, fuzzy
 msgid "Profile Name"
 msgstr "ชื่อไฟล์"
@@ -17367,7 +18381,7 @@ msgid "Repeat delay:"
 msgstr "เริ่มใหม่ทั้งหมด"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:112
-#: modules/gui/qt4/ui/sprefs_interface.h:379
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:379
 msgid " days"
 msgstr ""
 
@@ -18279,7 +19293,7 @@ msgid "Gospel"
 msgstr "Gospel"
 
 #: modules/meta_engine/id3genres.h:67 modules/video_filter/noise.c:52
-#: modules/gui/qt4/ui/video_effects.h:1144
+#: linux/modules/gui/qt4/ui/video_effects.h:1144
 msgid "Noise"
 msgstr "Noise"
 
@@ -18835,75 +19849,79 @@ msgstr "DirectShow"
 msgid "Allow to build directory index"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:75
+#: modules/misc/lua/vlc.c:89
 #, fuzzy
 msgid "Lua Interface Module"
 msgstr "โมดูลส่วนติดต่อ"
 
-#: modules/misc/lua/vlc.c:76
+#: modules/misc/lua/vlc.c:90
 msgid "Interfaces implemented using lua scripts"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:91
+#: modules/misc/lua/vlc.c:105
 #, fuzzy
 msgid "Lua HTTP"
 msgstr "HTTP"
 
-#: modules/misc/lua/vlc.c:98
+#: modules/misc/lua/vlc.c:109
+msgid "Lua Telnet"
+msgstr ""
+
+#: modules/misc/lua/vlc.c:120
 #, fuzzy
 msgid "Lua Meta Fetcher"
 msgstr "Metal"
 
-#: modules/misc/lua/vlc.c:99
+#: modules/misc/lua/vlc.c:121
 msgid "Fetch meta data using lua scripts"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:104
+#: modules/misc/lua/vlc.c:126
 #, fuzzy
 msgid "Lua Meta Reader"
 msgstr "Metal"
 
-#: modules/misc/lua/vlc.c:105
+#: modules/misc/lua/vlc.c:127
 msgid "Read meta data using lua scripts"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:111
+#: modules/misc/lua/vlc.c:133
 #, fuzzy
 msgid "Lua Playlist"
 msgstr "Playlist"
 
-#: modules/misc/lua/vlc.c:112
+#: modules/misc/lua/vlc.c:134
 msgid "Lua Playlist Parser Interface"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:117
+#: modules/misc/lua/vlc.c:139
 #, fuzzy
 msgid "Lua Interface Module (shortcuts)"
 msgstr "โมดูลส่วนติดต่อ"
 
-#: modules/misc/lua/vlc.c:124
+#: modules/misc/lua/vlc.c:146
 msgid "Lua Art"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:125
+#: modules/misc/lua/vlc.c:147
 msgid "Fetch artwork using lua scripts"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:130
+#: modules/misc/lua/vlc.c:152
 #, fuzzy
 msgid "Lua Extension"
 msgstr "AAC extension"
 
-#: modules/misc/lua/vlc.c:136
+#: modules/misc/lua/vlc.c:158
 #, fuzzy
 msgid "Lua SD Module"
 msgstr "โมดูลส่วนติดต่อ"
 
-#: modules/misc/lua/vlc.c:146
+#: modules/misc/lua/vlc.c:168
 msgid "Freebox TV"
 msgstr ""
 
-#: modules/misc/lua/vlc.c:152
+#: modules/misc/lua/vlc.c:174
 #, fuzzy
 msgid "French TV"
 msgstr "French"
@@ -19128,6 +20146,11 @@ msgstr "RTSP VoD"
 #: modules/misc/rtsp.c:83
 msgid "RTSP VoD server"
 msgstr "เซิร์ฟเวอร์ RTSP VoD"
+
+#: modules/misc/sqlite.c:115
+#, fuzzy
+msgid "SQLite database module"
+msgstr "โมดูลส่วนติดต่อเพิ่มเติม"
 
 #: modules/misc/stats/stats.c:48
 #, fuzzy
@@ -19523,6 +20546,11 @@ msgstr "DTS audio packetizer"
 msgid "Dirac packetizer"
 msgstr "DTS audio packetizer"
 
+#: modules/packetizer/flac.c:49
+#, fuzzy
+msgid "Flac audio packetizer"
+msgstr "DTS audio packetizer"
+
 #: modules/packetizer/h264.c:56
 #, fuzzy
 msgid "H.264 video packetizer"
@@ -19595,8 +20623,18 @@ msgstr "รูปภาพข้างใต้"
 msgid "My Pictures"
 msgstr "รูปภาพข้างใต้"
 
+#: modules/services_discovery/mtp.c:45
+#, fuzzy
+msgid "MTP devices"
+msgstr "เครื่อง DVD"
+
+#: modules/services_discovery/mtp.c:191
+#, fuzzy
+msgid "MTP Device"
+msgstr "เครื่อง"
+
 #: modules/services_discovery/podcast.c:58
-#: modules/gui/qt4/ui/podcast_configuration.h:102
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:102
 msgid "Podcast URLs list"
 msgstr ""
 
@@ -19757,6 +20795,29 @@ msgstr "ไม่รู้จักชนิด"
 #: modules/services_discovery/upnp_intel.cpp:64
 msgid "Universal Plug'n'Play"
 msgstr ""
+
+#: modules/services_discovery/xcb_apps.c:46
+#: modules/services_discovery/xcb_apps.c:47
+#: modules/services_discovery/xcb_apps.c:84
+#: modules/services_discovery/xcb_apps.c:149
+#, fuzzy
+msgid "Screen capture"
+msgstr "สิ่งนำเข้าหน้าจอ"
+
+#: modules/services_discovery/xcb_apps.c:150
+msgid "Your window manager does not provide a list of applications."
+msgstr ""
+
+#: modules/services_discovery/xcb_apps.c:273
+#, fuzzy
+msgid "Applications"
+msgstr "ISO-9660 Application ID"
+
+#: modules/services_discovery/xcb_apps.c:348
+#: modules/video_output/msw/direct3d.c:164
+#, fuzzy
+msgid "Desktop"
+msgstr "หยุด"
 
 #: modules/stream_filter/decomp.c:54
 #, fuzzy
@@ -20034,7 +21095,7 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
-#: modules/gui/qt4/ui/video_effects.h:1176
+#: linux/modules/gui/qt4/ui/video_effects.h:1176
 msgid "Transparency"
 msgstr ""
 
@@ -20406,7 +21467,8 @@ msgstr ""
 msgid "Standard stream output"
 msgstr "เปิดใช้เอาต์พุตกระแสข้อมูล SPU "
 
-#: modules/stream_out/switcher.c:90 modules/gui/qt4/ui/sprefs_input.h:314
+#: modules/stream_out/switcher.c:90
+#: linux/modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "ไฟล์"
 
@@ -20730,7 +21792,8 @@ msgstr ""
 msgid "AltiVec conversions from "
 msgstr ""
 
-#: modules/video_filter/adjust.c:64 modules/gui/qt4/ui/video_effects.h:1110
+#: modules/video_filter/adjust.c:64
+#: linux/modules/gui/qt4/ui/video_effects.h:1110
 msgid "Brightness threshold"
 msgstr ""
 
@@ -20786,7 +21849,8 @@ msgstr ""
 msgid "Image properties filter"
 msgstr "ไฟล์รูปภาพ"
 
-#: modules/video_filter/adjust.c:81 modules/gui/qt4/ui/video_effects.h:1104
+#: modules/video_filter/adjust.c:81
+#: linux/modules/gui/qt4/ui/video_effects.h:1104
 #, fuzzy
 msgid "Image adjust"
 msgstr "การปรับแต่งภาพ"
@@ -21151,7 +22215,7 @@ msgid "Sat windowing"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:275
-#: modules/gui/qt4/ui/video_effects.h:1159
+#: linux/modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr ""
 
@@ -21341,8 +22405,8 @@ msgid "AtmoLight Filter"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:368
-#: modules/gui/qt4/ui/video_effects.h:1153
-#: modules/gui/qt4/ui/video_effects.h:1162
+#: linux/modules/gui/qt4/ui/video_effects.h:1153
+#: linux/modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr ""
 
@@ -21393,6 +22457,140 @@ msgstr ""
 #: modules/video_filter/atmo/atmo.cpp:590
 msgid "Change gradients"
 msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:48
+#, fuzzy
+msgid "Value of the audio channels levels"
+msgstr "จำนวนคอลัมน์"
+
+#: modules/video_filter/audiobargraph_v.c:49
+msgid ""
+"Value of the audio level of each channels between 0 and 1Each level should "
+"be separated with ':'."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:52
+msgid "X coordinate of the bargraph."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:54
+msgid "Y coordinate of the bargraph."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:55
+msgid "Transparency of the bargraph"
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:56
+msgid ""
+"Bargraph transparency value (from 0 for full transparency to 255 for full "
+"opacity)."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:58
+#, fuzzy
+msgid "Bargraph position"
+msgstr "ตำแหน่งโลโก้"
+
+#: modules/video_filter/audiobargraph_v.c:60
+msgid ""
+"Enforce the bargraph position on the video (0=center, 1=left, 2=right, "
+"4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-"
+"right)."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:63
+#, fuzzy
+msgid "Alarm"
+msgstr "อยู่ข้างบนตลอด"
+
+#: modules/video_filter/audiobargraph_v.c:64
+msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:66
+msgid "Bar width in pixel (default : 10)"
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:67
+msgid ""
+"Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
+msgstr ""
+
+#: modules/video_filter/audiobargraph_v.c:88
+#: modules/video_filter/audiobargraph_v.c:106
+#, fuzzy
+msgid "Audio Bar Graph Video sub filter"
+msgstr "บันทึกลงไฟล์"
+
+#: modules/video_filter/audiobargraph_v.c:89
+#, fuzzy
+msgid "Audio Bar Graph Video"
+msgstr "เครื่อง Audio CD"
+
+#: modules/video_filter/ball.c:109
+#, fuzzy
+msgid "Ball color"
+msgstr "สี"
+
+#: modules/video_filter/ball.c:110
+msgid "Ball color, one of \"red\", \"blue\" and \"green\"."
+msgstr ""
+
+#: modules/video_filter/ball.c:112
+#, fuzzy
+msgid "Edge visible"
+msgstr "อยู่ข้างบนตลอด"
+
+#: modules/video_filter/ball.c:113
+#, fuzzy
+msgid "Set edge visibility."
+msgstr "อยู่ข้างบนตลอด"
+
+#: modules/video_filter/ball.c:115
+#, fuzzy
+msgid "Ball speed"
+msgstr "ขนาดปกติ"
+
+#: modules/video_filter/ball.c:116
+msgid ""
+"Set ball speed, the displacement value                                 in "
+"number of pixels by frame."
+msgstr ""
+
+#: modules/video_filter/ball.c:119
+#, fuzzy
+msgid "Ball size"
+msgstr "สุ่ม"
+
+#: modules/video_filter/ball.c:120
+msgid ""
+"Set ball size giving its radius in number                                 of "
+"pixels"
+msgstr ""
+
+#: modules/video_filter/ball.c:123
+#, fuzzy
+msgid "Gradient threshold"
+msgstr "ตัวกรอง"
+
+#: modules/video_filter/ball.c:124
+msgid "Set gradient threshold for edge computation."
+msgstr ""
+
+#: modules/video_filter/ball.c:126
+msgid "Augmented reality ball game"
+msgstr ""
+
+#: modules/video_filter/ball.c:135
+#, fuzzy
+msgid "Ball video filter"
+msgstr "บันทึกลงไฟล์"
+
+#: modules/video_filter/ball.c:136
+#, fuzzy
+msgid "Ball"
+msgstr "ทั้งหมด"
 
 #: modules/video_filter/blend.c:44
 #, fuzzy
@@ -21594,7 +22792,8 @@ msgstr "บันทึกลงไฟล์"
 msgid "Video filtering using a chain of video filter modules"
 msgstr ""
 
-#: modules/video_filter/clone.c:39 modules/gui/qt4/ui/video_effects.h:1173
+#: modules/video_filter/clone.c:39
+#: linux/modules/gui/qt4/ui/video_effects.h:1173
 #, fuzzy
 msgid "Number of clones"
 msgstr "จำนวนคอลัมน์"
@@ -21623,7 +22822,8 @@ msgstr ""
 msgid "Clone video filter"
 msgstr "บันทึกลงไฟล์"
 
-#: modules/video_filter/clone.c:57 modules/gui/qt4/ui/video_effects.h:1172
+#: modules/video_filter/clone.c:57
+#: linux/modules/gui/qt4/ui/video_effects.h:1172
 #, fuzzy
 msgid "Clone"
 msgstr "ปิด"
@@ -21646,7 +22846,7 @@ msgid "Color threshold filter"
 msgstr ""
 
 #: modules/video_filter/colorthres.c:70
-#: modules/gui/qt4/ui/video_effects.h:1135
+#: linux/modules/gui/qt4/ui/video_effects.h:1135
 msgid "Color threshold"
 msgstr ""
 
@@ -22406,7 +23606,7 @@ msgid "The degree of blurring from 1 to 127."
 msgstr ""
 
 #: modules/video_filter/motionblur.c:59
-#: modules/gui/qt4/ui/video_effects.h:1146
+#: linux/modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr ""
 
@@ -22640,7 +23840,8 @@ msgstr ""
 msgid "Panoramix: wall with overlap video filter"
 msgstr ""
 
-#: modules/video_filter/panoramix.c:79 modules/gui/qt4/ui/video_effects.h:1169
+#: modules/video_filter/panoramix.c:79
+#: linux/modules/gui/qt4/ui/video_effects.h:1169
 #, fuzzy
 msgid "Panoramix"
 msgstr "โปรแกรม"
@@ -22997,7 +24198,8 @@ msgstr ""
 msgid "Rotate video filter"
 msgstr "บันทึกลงไฟล์"
 
-#: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1128
+#: modules/video_filter/rotate.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1128
 #, fuzzy
 msgid "Rotate"
 msgstr "วันที่"
@@ -23205,7 +24407,8 @@ msgstr ""
 msgid "Sharpen video filter"
 msgstr "บันทึกลงไฟล์"
 
-#: modules/video_filter/sharpen.c:67 modules/gui/qt4/ui/video_effects.h:1102
+#: modules/video_filter/sharpen.c:67
+#: linux/modules/gui/qt4/ui/video_effects.h:1102
 #, fuzzy
 msgid "Sharpen"
 msgstr "หน้าจอ"
@@ -23436,6 +24639,10 @@ msgstr ""
 msgid "HD1000 video output"
 msgstr "เอาต์พุตเสียง Roku HD1000 "
 
+#: modules/video_output/macosx.m:69
+msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
+msgstr ""
+
 #: modules/video_output/msw/direct3d.c:57
 #, fuzzy
 msgid "Enable desktop mode "
@@ -23455,12 +24662,8 @@ msgstr ""
 msgid "Direct3D video output"
 msgstr "เอาต์พุตเสียง DirectX "
 
-#: modules/video_output/msw/direct3d.c:164
-#, fuzzy
-msgid "Desktop"
-msgstr "หยุด"
-
-#: modules/video_output/msw/directx.c:68 modules/gui/qt4/ui/sprefs_video.h:317
+#: modules/video_output/msw/directx.c:68
+#: linux/modules/gui/qt4/ui/sprefs_video.h:317
 msgid "Use hardware YUV->RGB conversions"
 msgstr ""
 
@@ -24019,200 +25222,204 @@ msgstr "ตัวกรองวิดีโอ"
 msgid "Spectrum analyser"
 msgstr ""
 
-#: modules/gui/qt4/ui/equalizer.h:126 modules/gui/qt4/ui/open_disk.h:290
-#: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:454
-#: modules/gui/qt4/ui/sprefs_audio.h:403 modules/gui/qt4/ui/sprefs_input.h:305
-#: modules/gui/qt4/ui/sprefs_interface.h:372
-#: modules/gui/qt4/ui/sprefs_subtitles.h:200
-#: modules/gui/qt4/ui/sprefs_video.h:308 modules/gui/qt4/ui/streampanel.h:168
-#: modules/gui/qt4/ui/v4l2.h:58
+#: linux/modules/gui/qt4/ui/equalizer.h:126
+#: linux/modules/gui/qt4/ui/open_disk.h:290
+#: linux/modules/gui/qt4/ui/open_net.h:91
+#: linux/modules/gui/qt4/ui/profiles.h:460
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:403
+#: linux/modules/gui/qt4/ui/sprefs_input.h:305
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:372
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:200
+#: linux/modules/gui/qt4/ui/sprefs_video.h:308
+#: linux/modules/gui/qt4/ui/streampanel.h:168
+#: linux/modules/gui/qt4/ui/v4l2.h:58
 #, fuzzy
 msgid "Form"
 msgstr "ปกติ"
 
-#: modules/gui/qt4/ui/equalizer.h:129
+#: linux/modules/gui/qt4/ui/equalizer.h:129
 #, fuzzy
 msgid "Preset"
 msgstr "ตั้งค่าใหม่ทั้งหมด"
 
-#: modules/gui/qt4/ui/open.h:230
-#: modules/gui/qt4/ui/podcast_configuration.h:101
+#: linux/modules/gui/qt4/ui/open.h:230
+#: linux/modules/gui/qt4/ui/podcast_configuration.h:101
 #, fuzzy
 msgid "Dialog"
 msgstr "ไม่เปิดใช้"
 
-#: modules/gui/qt4/ui/open.h:232
+#: linux/modules/gui/qt4/ui/open.h:232
 #, fuzzy
 msgid "Show extended options"
 msgstr "แสดงออปชั่นขั้นสูง"
 
-#: modules/gui/qt4/ui/open.h:234
+#: linux/modules/gui/qt4/ui/open.h:234
 #, fuzzy
 msgid "Show &more options"
 msgstr "แสดงออปชั่นขั้นสูง"
 
-#: modules/gui/qt4/ui/open.h:237
+#: linux/modules/gui/qt4/ui/open.h:237
 #, fuzzy
 msgid "Change the caching for the media"
 msgstr "เปลี่ยนชื่อของบริการ"
 
-#: modules/gui/qt4/ui/open.h:239
+#: linux/modules/gui/qt4/ui/open.h:239
 #, fuzzy
 msgid " ms"
 msgstr "mms"
 
-#: modules/gui/qt4/ui/open.h:240
+#: linux/modules/gui/qt4/ui/open.h:240
 #, fuzzy
 msgid "Start Time"
 msgstr "เวลาเริ่มต้น"
 
-#: modules/gui/qt4/ui/open.h:241
+#: linux/modules/gui/qt4/ui/open.h:241
 msgid "Play another media synchronously (extra audio file, ...)"
 msgstr ""
 
-#: modules/gui/qt4/ui/open.h:242
+#: linux/modules/gui/qt4/ui/open.h:242
 #, fuzzy
 msgid "Extra media"
 msgstr "ตัดทอน"
 
-#: modules/gui/qt4/ui/open.h:244
+#: linux/modules/gui/qt4/ui/open.h:244
 #, fuzzy
 msgid "Select the file"
 msgstr "เลือกไฟล์"
 
-#: modules/gui/qt4/ui/open.h:247
+#: linux/modules/gui/qt4/ui/open.h:247
 msgid "MRL"
 msgstr "MRL"
 
-#: modules/gui/qt4/ui/open.h:249
+#: linux/modules/gui/qt4/ui/open.h:249
 msgid "Complete MRL for VLC internal"
 msgstr ""
 
-#: modules/gui/qt4/ui/open.h:251
+#: linux/modules/gui/qt4/ui/open.h:251
 #, fuzzy
 msgid "Edit Options"
 msgstr "ออปชั่น"
 
-#: modules/gui/qt4/ui/open.h:253
+#: linux/modules/gui/qt4/ui/open.h:253
 #, fuzzy
 msgid "Change the start time for the media"
 msgstr "เปลี่ยนชื่อของบริการ"
 
-#: modules/gui/qt4/ui/open.h:255
+#: linux/modules/gui/qt4/ui/open.h:255
 msgid "s"
 msgstr ""
 
-#: modules/gui/qt4/ui/open_capture.h:98
+#: linux/modules/gui/qt4/ui/open_capture.h:98
 #, fuzzy
 msgid "Capture mode"
 msgstr "ฉาก"
 
-#: modules/gui/qt4/ui/open_capture.h:100
+#: linux/modules/gui/qt4/ui/open_capture.h:100
 #, fuzzy
 msgid "Select the capture device type"
 msgstr "เลือกไดเรกทรอรีที่บันทึก"
 
-#: modules/gui/qt4/ui/open_capture.h:102
+#: linux/modules/gui/qt4/ui/open_capture.h:102
 #, fuzzy
 msgid "Device Selection"
 msgstr "เลือกไม่ถูกต้อง"
 
-#: modules/gui/qt4/ui/open_capture.h:105
+#: linux/modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
 msgstr ""
 
-#: modules/gui/qt4/ui/open_capture.h:107
+#: linux/modules/gui/qt4/ui/open_capture.h:107
 msgid "Advanced options..."
 msgstr "ออปชั่นขั้นสูง..."
 
-#: modules/gui/qt4/ui/open_disk.h:291
+#: linux/modules/gui/qt4/ui/open_disk.h:291
 #, fuzzy
 msgid "Disc Selection"
 msgstr "เลือกไม่ถูกต้อง"
 
-#: modules/gui/qt4/ui/open_disk.h:294
+#: linux/modules/gui/qt4/ui/open_disk.h:294
 msgid "SVCD/VCD"
 msgstr ""
 
-#: modules/gui/qt4/ui/open_disk.h:296
+#: linux/modules/gui/qt4/ui/open_disk.h:296
 msgid "Disable DVD Menus (for compatibility)"
 msgstr ""
 
-#: modules/gui/qt4/ui/open_disk.h:299
+#: linux/modules/gui/qt4/ui/open_disk.h:299
 #, fuzzy
 msgid "Disc device"
 msgstr "เครื่อง"
 
-#: modules/gui/qt4/ui/open_disk.h:301
+#: linux/modules/gui/qt4/ui/open_disk.h:301
 #, fuzzy
 msgid "Starting Position"
 msgstr "ตำแหน่งโลโก้"
 
-#: modules/gui/qt4/ui/open_disk.h:304
+#: linux/modules/gui/qt4/ui/open_disk.h:304
 #, fuzzy
 msgid "Audio and Subtitles"
 msgstr "เปิดคำบรรยาย"
 
-#: modules/gui/qt4/ui/open_file.h:219
+#: linux/modules/gui/qt4/ui/open_file.h:219
 #, fuzzy
 msgid "Choose one or more media file to open"
 msgstr "ไฟล์คอนฟิกกูเรชั่นของ VLM "
 
-#: modules/gui/qt4/ui/open_file.h:221
+#: linux/modules/gui/qt4/ui/open_file.h:221
 #, fuzzy
 msgid "File Selection"
 msgstr "เลือกไม่ถูกต้อง"
 
-#: modules/gui/qt4/ui/open_file.h:222
+#: linux/modules/gui/qt4/ui/open_file.h:222
 msgid "You can select local files with the following list and buttons."
 msgstr ""
 
-#: modules/gui/qt4/ui/open_file.h:223
+#: linux/modules/gui/qt4/ui/open_file.h:223
 #, fuzzy
 msgid "Add..."
 msgstr "บันทึกไฟล์..."
 
-#: modules/gui/qt4/ui/open_file.h:226
+#: linux/modules/gui/qt4/ui/open_file.h:226
 #, fuzzy
 msgid "Add a subtitles file"
 msgstr "ใช้ไฟล์บทพากย์"
 
-#: modules/gui/qt4/ui/open_file.h:228
+#: linux/modules/gui/qt4/ui/open_file.h:228
 #, fuzzy
 msgid "Use a sub&titles file"
 msgstr "ใช้ไฟล์บทพากย์"
 
-#: modules/gui/qt4/ui/open_file.h:230
+#: linux/modules/gui/qt4/ui/open_file.h:230
 #, fuzzy
 msgid "Select the subtitles file"
 msgstr "ใช้ไฟล์บทพากย์"
 
-#: modules/gui/qt4/ui/open_file.h:233
+#: linux/modules/gui/qt4/ui/open_file.h:233
 #, fuzzy
 msgid "Font size:"
 msgstr "ขนาดตัวอักษร"
 
-#: modules/gui/qt4/ui/open_file.h:234
+#: linux/modules/gui/qt4/ui/open_file.h:234
 #, fuzzy
 msgid "Text alignment:"
 msgstr "การเรียงข้อมูล"
 
-#: modules/gui/qt4/ui/open_net.h:92
+#: linux/modules/gui/qt4/ui/open_net.h:92
 #, fuzzy
 msgid "Network Protocol"
 msgstr "เครือข่าย: "
 
-#: modules/gui/qt4/ui/open_net.h:93
+#: linux/modules/gui/qt4/ui/open_net.h:93
 #, fuzzy
 msgid "Please enter a network URL:"
 msgstr "กรุณากรอกที่อยู่"
 
-#: modules/gui/qt4/ui/open_net.h:95
+#: linux/modules/gui/qt4/ui/open_net.h:95
 #, fuzzy
 msgid "Enter the URL of the network stream here."
 msgstr "ที่อยู่คอมพิวเตอร์ที่กระแสข้อมูลไป"
 
-#: modules/gui/qt4/ui/open_net.h:97
+#: linux/modules/gui/qt4/ui/open_net.h:97
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -24238,803 +25445,805 @@ msgid ""
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 msgstr ""
 
-#: modules/gui/qt4/ui/profiles.h:456
+#: linux/modules/gui/qt4/ui/profiles.h:462
 #, fuzzy
 msgid "MPEG-TS"
 msgstr "MJPEG"
 
-#: modules/gui/qt4/ui/profiles.h:457
+#: linux/modules/gui/qt4/ui/profiles.h:463
 #, fuzzy
 msgid "MPEG-PS"
 msgstr "MJPEG"
 
-#: modules/gui/qt4/ui/profiles.h:458
+#: linux/modules/gui/qt4/ui/profiles.h:464
 #, fuzzy
 msgid "WAV"
 msgstr "AVI"
 
-#: modules/gui/qt4/ui/profiles.h:459
+#: linux/modules/gui/qt4/ui/profiles.h:465
+msgid "Webm"
+msgstr ""
+
+#: linux/modules/gui/qt4/ui/profiles.h:466
 #, fuzzy
 msgid "ASF/WMV"
 msgstr "ASF"
 
-#: modules/gui/qt4/ui/profiles.h:460
+#: linux/modules/gui/qt4/ui/profiles.h:467
 #, fuzzy
 msgid "Ogg/Ogm"
 msgstr "Ogg/OGM muxer"
 
-#: modules/gui/qt4/ui/profiles.h:461
+#: linux/modules/gui/qt4/ui/profiles.h:468
 msgid "RAW"
 msgstr ""
 
-#: modules/gui/qt4/ui/profiles.h:462
+#: linux/modules/gui/qt4/ui/profiles.h:469
 #, fuzzy
 msgid "MPEG 1"
 msgstr "MPEG1"
 
-#: modules/gui/qt4/ui/profiles.h:463
+#: linux/modules/gui/qt4/ui/profiles.h:470
 msgid "FLV"
 msgstr ""
 
-#: modules/gui/qt4/ui/profiles.h:464
+#: linux/modules/gui/qt4/ui/profiles.h:471
 msgid "AVI"
 msgstr "AVI"
 
-#: modules/gui/qt4/ui/profiles.h:465
+#: linux/modules/gui/qt4/ui/profiles.h:472
 #, fuzzy
 msgid "MP4/MOV"
 msgstr "MP4/MOV muxer"
 
-#: modules/gui/qt4/ui/profiles.h:467
+#: linux/modules/gui/qt4/ui/profiles.h:474
 #, fuzzy
 msgid "MKV"
 msgstr "MOV"
 
-#: modules/gui/qt4/ui/profiles.h:468
+#: linux/modules/gui/qt4/ui/profiles.h:475
 #, fuzzy
 msgid "Encapsulation"
 msgstr "ภาพประกอบ"
 
-#: modules/gui/qt4/ui/profiles.h:472 modules/gui/qt4/ui/profiles.h:491
+#: linux/modules/gui/qt4/ui/profiles.h:479
+#: linux/modules/gui/qt4/ui/profiles.h:498
 #, fuzzy
 msgid " kb/s"
 msgstr "%d kb/s"
 
-#: modules/gui/qt4/ui/profiles.h:473
+#: linux/modules/gui/qt4/ui/profiles.h:480
 #, fuzzy
 msgid "Frame Rate"
 msgstr "ปกติ"
 
-#: modules/gui/qt4/ui/profiles.h:475
+#: linux/modules/gui/qt4/ui/profiles.h:482
 #, fuzzy
 msgid " fps"
 msgstr "2 Pass"
 
-#: modules/gui/qt4/ui/profiles.h:477
+#: linux/modules/gui/qt4/ui/profiles.h:484
 msgid ""
 "You just need to fill one of the three following parameters, VLC will "
 "autodetect the other using the original aspect ratio"
 msgstr ""
 
-#: modules/gui/qt4/ui/profiles.h:480 modules/gui/qt4/ui/profiles.h:483
+#: linux/modules/gui/qt4/ui/profiles.h:487
+#: linux/modules/gui/qt4/ui/profiles.h:490
 #, fuzzy
 msgid "00000; "
 msgstr "00:00:00"
 
-#: modules/gui/qt4/ui/profiles.h:485
+#: linux/modules/gui/qt4/ui/profiles.h:492
 #, fuzzy
 msgid "Keep original video track"
 msgstr "เก็ยขนาดตั้งต้น"
 
-#: modules/gui/qt4/ui/profiles.h:486
+#: linux/modules/gui/qt4/ui/profiles.h:493
 #, fuzzy
 msgid "Video codec"
 msgstr "เครื่องวิดีโอ"
 
-#: modules/gui/qt4/ui/profiles.h:488
+#: linux/modules/gui/qt4/ui/profiles.h:495
 #, fuzzy
 msgid "Keep original audio track"
 msgstr "เก็ยขนาดตั้งต้น"
 
-#: modules/gui/qt4/ui/profiles.h:493
+#: linux/modules/gui/qt4/ui/profiles.h:500
 #, fuzzy
 msgid "Sample Rate"
 msgstr "ส่งไบต์"
 
-#: modules/gui/qt4/ui/profiles.h:494
+#: linux/modules/gui/qt4/ui/profiles.h:501
 #, fuzzy
 msgid "Audio codec"
 msgstr "เครื่องเสียง"
 
-#: modules/gui/qt4/ui/profiles.h:496
+#: linux/modules/gui/qt4/ui/profiles.h:503
 #, fuzzy
 msgid "Overlay subtitles on the video"
 msgstr "เปิดคำบรรยาย"
 
-#: modules/gui/qt4/ui/sout.h:329 modules/gui/qt4/ui/sout.h:339
+#: linux/modules/gui/qt4/ui/sout.h:329 linux/modules/gui/qt4/ui/sout.h:339
 #, fuzzy
 msgid "Destinations"
 msgstr "เป้าหมาย"
 
-#: modules/gui/qt4/ui/sout.h:330
+#: linux/modules/gui/qt4/ui/sout.h:330
 #, fuzzy
 msgid "New destination"
 msgstr "เป้าหมาย"
 
-#: modules/gui/qt4/ui/sout.h:332
+#: linux/modules/gui/qt4/ui/sout.h:332
 msgid ""
 "Add destinations following the streaming methods you need. Be sure to check "
 "with transcoding that the format is compatible with the method used."
 msgstr ""
 
-#: modules/gui/qt4/ui/sout.h:333
+#: linux/modules/gui/qt4/ui/sout.h:333
 #, fuzzy
 msgid "Display locally"
 msgstr "เล่นอย่างเดียว"
 
-#: modules/gui/qt4/ui/sout.h:336
+#: linux/modules/gui/qt4/ui/sout.h:336
 #, fuzzy
 msgid "Activate Transcoding"
 msgstr "การเข้ารหัสชื่อเรื่องย่อย"
 
-#: modules/gui/qt4/ui/sout.h:340
+#: linux/modules/gui/qt4/ui/sout.h:340
 #, fuzzy
 msgid "Miscellaneous Options"
 msgstr "เบ็ดเตล็ด"
 
-#: modules/gui/qt4/ui/sout.h:341
+#: linux/modules/gui/qt4/ui/sout.h:341
 #, fuzzy
 msgid "Stream all elementary streams"
 msgstr "เลือกกระแสข้อมูล"
 
-#: modules/gui/qt4/ui/sout.h:343
+#: linux/modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
 msgstr "ชื่อกลุ่ม"
 
-#: modules/gui/qt4/ui/sout.h:345
+#: linux/modules/gui/qt4/ui/sout.h:345
 #, fuzzy
 msgid "Generated stream output string"
 msgstr "ส่งไบต์"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:406
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:406
 msgid "Keep audio level between sessions"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_audio.h:407
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:407
 msgid "Always reset audio start level to:"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_audio.h:408
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:408
 msgid " %"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_audio.h:409 modules/gui/qt4/ui/sprefs_video.h:313
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:409
+#: linux/modules/gui/qt4/ui/sprefs_video.h:313
 #, fuzzy
 msgid "Output"
 msgstr "ผลลัพธ์"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:410
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:410
 #, fuzzy
 msgid "Output module:"
 msgstr "โมดูลเอาต์พุต"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:415
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:415
 #, fuzzy
 msgid "Dolby Surround:"
 msgstr "ความกว้างวิดีโอ"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:416
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:416
 msgid "Normalize volume to:"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_audio.h:417
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:417
 #, fuzzy
 msgid "Replay gain mode:"
 msgstr "play list"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:418
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:418
 #, fuzzy
 msgid "Visualization:"
 msgstr "ภาพประกอบ"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:420
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:420
 #, fuzzy
 msgid "Enable Time-Stretching audio"
 msgstr "เปิดใช้เสียง"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:422
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:422
 #, fuzzy
 msgid "Preferred audio language:"
 msgstr "ภาษาเสียง"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:423
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:423
 #, fuzzy
 msgid "Password:"
 msgstr "รหัสผ่าน"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:424
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:424
 #, fuzzy
 msgid "Username:"
 msgstr "ชื่อผู้ใช้"
 
-#: modules/gui/qt4/ui/sprefs_audio.h:425
+#: linux/modules/gui/qt4/ui/sprefs_audio.h:425
 msgid "Submit played tracks stats to Last.fm"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_input.h:306
+#: linux/modules/gui/qt4/ui/sprefs_input.h:306
 msgid "Optical drive"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_input.h:307
+#: linux/modules/gui/qt4/ui/sprefs_input.h:307
 #, fuzzy
 msgid "Default optical device"
 msgstr "เครื่องดีฟอล์ต"
 
-#: modules/gui/qt4/ui/sprefs_input.h:309
+#: linux/modules/gui/qt4/ui/sprefs_input.h:309
 #, fuzzy
 msgid "Codecs"
 msgstr "Codec"
 
-#: modules/gui/qt4/ui/sprefs_input.h:310
+#: linux/modules/gui/qt4/ui/sprefs_input.h:310
 #, fuzzy
 msgid "Skip H.264 in-loop deblocking filter"
 msgstr "ตัวกรองวิดีโอ"
 
-#: modules/gui/qt4/ui/sprefs_input.h:311
+#: linux/modules/gui/qt4/ui/sprefs_input.h:311
 #, fuzzy
 msgid "Video quality post-processing level"
 msgstr "ตัวกรองวิดีโอ"
 
-#: modules/gui/qt4/ui/sprefs_input.h:312
+#: linux/modules/gui/qt4/ui/sprefs_input.h:312
 msgid "Use GPU acceleration (experimental)"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_input.h:313
+#: linux/modules/gui/qt4/ui/sprefs_input.h:313
 msgid "Use system codecs if available (better quality, but dangerous)"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_input.h:315
+#: linux/modules/gui/qt4/ui/sprefs_input.h:315
 #, fuzzy
 msgid "Damaged or incomplete AVI file"
 msgstr "ไฟล์รูปภาพ"
 
-#: modules/gui/qt4/ui/sprefs_input.h:319
+#: linux/modules/gui/qt4/ui/sprefs_input.h:319
 #, fuzzy
 msgid "Default port (server mode)"
 msgstr "เครื่องดีฟอล์ต"
 
-#: modules/gui/qt4/ui/sprefs_input.h:320
+#: linux/modules/gui/qt4/ui/sprefs_input.h:320
 #, fuzzy
 msgid "HTTP proxy URL"
 msgstr "HTTP proxy"
 
-#: modules/gui/qt4/ui/sprefs_input.h:321
+#: linux/modules/gui/qt4/ui/sprefs_input.h:321
 #, fuzzy
 msgid "Default caching policy"
 msgstr "มุมกล้อง  DVD ตั้งต้น"
 
-#: modules/gui/qt4/ui/sprefs_input.h:322
+#: linux/modules/gui/qt4/ui/sprefs_input.h:322
 #, fuzzy
 msgid "HTTP (default)"
 msgstr "ดีฟอลต์"
 
-#: modules/gui/qt4/ui/sprefs_input.h:323
+#: linux/modules/gui/qt4/ui/sprefs_input.h:323
 #, fuzzy
 msgid "RTP over RTSP (TCP)"
 msgstr "ใช้ RTP บน RTSP (TCP)"
 
-#: modules/gui/qt4/ui/sprefs_input.h:324
+#: linux/modules/gui/qt4/ui/sprefs_input.h:324
 #, fuzzy
 msgid "Live555 stream transport"
 msgstr "พอร์ต UDP"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:373
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:373
 #, fuzzy
 msgid "Instances"
 msgstr "ส่วนติดต่อ"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:374
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:374
 msgid "Allow only one instance"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:375
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:375
 msgid "Enqueue files when in one instance mode"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:377
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:377
 msgid "Album art download policy:"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:378
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:378
 msgid "Activate update notifier"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:380
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:380
 #, fuzzy
 msgid "Every "
 msgstr "ซ้อนกัน"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:381
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:381
 msgid "Save recently played items"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:384
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:384
 msgid "Separate words by | (without space)"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:387
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:387
 #, fuzzy
 msgid "Menus language:"
 msgstr "ภาษาเสียง"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:388
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:388
 #, fuzzy
 msgid "File associations"
 msgstr "คำอธิบาย"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:389
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:389
 #, fuzzy
 msgid "Set up associations..."
 msgstr "คำอธิบาย"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:390
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:390
 msgid "Look and feel"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:391
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:391
 #, fuzzy
 msgid "Use custom skin"
 msgstr "เลือก skin"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:393
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:393
 #, fuzzy
 msgid "Skin resource file:"
 msgstr "ไฟล์"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:395
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:395
 #, fuzzy
 msgid "Resize interface to video size"
 msgstr "บันทึกลงไฟล์"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:396
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:396
 #, fuzzy
 msgid "Force window style:"
 msgstr "เรื่องถัดไป"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:397
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:397
 #, fuzzy
 msgid "Show systray icon"
 msgstr "แสดงตำแหน่งกระแสข้อมูล"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:398
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:398
 #, fuzzy
 msgid "Embed video in interface"
 msgstr "การตั้งค่าสำหรับส่วนติดต่อหลัก"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:399
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:399
 msgid " Systray popup when minimized"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:400
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:400
 #, fuzzy
 msgid "Show controls in full screen mode"
 msgstr "เริ่มใช้วิดีโอในโหมดเต็มจอ"
 
-#: modules/gui/qt4/ui/sprefs_interface.h:401
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:401
 msgid "Minimal view mode (no toolbars)"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:403
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:403
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_interface.h:405
+#: linux/modules/gui/qt4/ui/sprefs_interface.h:405
 #, fuzzy
 msgid "Use native style"
 msgstr "ใช้ไฟล์บทพากย์"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:202
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:202
 #, fuzzy
 msgid "Enable On Screen Display (OSD)"
 msgstr "แสดงบนหน้าจอ"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:203
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:203
 msgid "Show media title on video start"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:204
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:204
 #, fuzzy
 msgid "Subtitles Language"
 msgstr "ภาษาคำบรรยาย"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:205
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:205
 #, fuzzy
 msgid "Preferred subtitles language"
 msgstr "ภาษาเสียง"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:206
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:206
 #, fuzzy
 msgid "Default encoding"
 msgstr "Encoding"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:208
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:208
 #, fuzzy
 msgid "Effect"
 msgstr "ตัวกรองวิดีโอ"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:209
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:209
 #, fuzzy
 msgid "Font color"
 msgstr "สี"
 
-#: modules/gui/qt4/ui/sprefs_subtitles.h:212
-#: modules/gui/qt4/ui/video_effects.h:1113
-#: modules/gui/qt4/ui/video_effects.h:1115
-#: modules/gui/qt4/ui/video_effects.h:1117
-#: modules/gui/qt4/ui/video_effects.h:1119
+#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:212
+#: linux/modules/gui/qt4/ui/video_effects.h:1113
+#: linux/modules/gui/qt4/ui/video_effects.h:1115
+#: linux/modules/gui/qt4/ui/video_effects.h:1117
+#: linux/modules/gui/qt4/ui/video_effects.h:1119
 msgid " px"
 msgstr ""
 
-#: modules/gui/qt4/ui/sprefs_video.h:314
+#: linux/modules/gui/qt4/ui/sprefs_video.h:314
 #, fuzzy
 msgid "Accelerated video output (Overlay)"
 msgstr "เอาต์พุตวิดีโอเต็มจอ"
 
-#: modules/gui/qt4/ui/sprefs_video.h:318
+#: linux/modules/gui/qt4/ui/sprefs_video.h:318
 #, fuzzy
 msgid "DirectX"
 msgstr "ไดเรกทรอรี"
 
-#: modules/gui/qt4/ui/sprefs_video.h:319
+#: linux/modules/gui/qt4/ui/sprefs_video.h:319
 #, fuzzy
 msgid "Display device"
 msgstr "แสดงชื่อของบริการ"
 
-#: modules/gui/qt4/ui/sprefs_video.h:320
+#: linux/modules/gui/qt4/ui/sprefs_video.h:320
 #, fuzzy
 msgid "Enable wallpaper mode"
 msgstr "เอาต์พุตวิดีโอเต็มจอ"
 
-#: modules/gui/qt4/ui/sprefs_video.h:322
+#: linux/modules/gui/qt4/ui/sprefs_video.h:322
 #, fuzzy
 msgid "Deinterlacing"
 msgstr "โมดูลส่วนติดต่อ"
 
-#: modules/gui/qt4/ui/sprefs_video.h:323
+#: linux/modules/gui/qt4/ui/sprefs_video.h:323
 #, fuzzy
 msgid "Force Aspect Ratio"
 msgstr "แก้ไขแอสเป็กต์เรโช"
 
-#: modules/gui/qt4/ui/sprefs_video.h:327
-#, fuzzy
-msgid "Directory"
-msgstr "ไดเรกทรอรี"
-
-#: modules/gui/qt4/ui/sprefs_video.h:329
+#: linux/modules/gui/qt4/ui/sprefs_video.h:329
 msgid "vlc-snap"
 msgstr ""
 
-#: modules/gui/qt4/ui/streampanel.h:172
+#: linux/modules/gui/qt4/ui/streampanel.h:172
 msgid "Stuff"
 msgstr ""
 
-#: modules/gui/qt4/ui/streampanel.h:174
+#: linux/modules/gui/qt4/ui/streampanel.h:174
 #, fuzzy
 msgid "Edit settings"
 msgstr "การตั้งค่าเสียง"
 
-#: modules/gui/qt4/ui/streampanel.h:175
+#: linux/modules/gui/qt4/ui/streampanel.h:175
 #, fuzzy
 msgid "Control"
 msgstr "VLC - Controller"
 
-#: modules/gui/qt4/ui/streampanel.h:176
+#: linux/modules/gui/qt4/ui/streampanel.h:176
 msgid "Run manually"
 msgstr ""
 
-#: modules/gui/qt4/ui/streampanel.h:177
+#: linux/modules/gui/qt4/ui/streampanel.h:177
 #, fuzzy
 msgid "Setup schedule"
 msgstr "บันทึก"
 
-#: modules/gui/qt4/ui/streampanel.h:178
+#: linux/modules/gui/qt4/ui/streampanel.h:178
 #, fuzzy
 msgid "Run on schedule"
 msgstr "บันทึก"
 
-#: modules/gui/qt4/ui/streampanel.h:179
+#: linux/modules/gui/qt4/ui/streampanel.h:179
 #, fuzzy
 msgid "Status"
 msgstr "&กำหนดค่า"
 
-#: modules/gui/qt4/ui/streampanel.h:180
+#: linux/modules/gui/qt4/ui/streampanel.h:180
 #, fuzzy
 msgid "P/P"
 msgstr "UDP/RTP"
 
-#: modules/gui/qt4/ui/streampanel.h:183
+#: linux/modules/gui/qt4/ui/streampanel.h:183
 #, fuzzy
 msgid "Prev"
 msgstr "ก่อนหน้านี้"
 
-#: modules/gui/qt4/ui/streampanel.h:184
+#: linux/modules/gui/qt4/ui/streampanel.h:184
 #, fuzzy
 msgid "Add Input"
 msgstr "ไม่มีสิ่งนำเข้า"
 
-#: modules/gui/qt4/ui/streampanel.h:185
+#: linux/modules/gui/qt4/ui/streampanel.h:185
 #, fuzzy
 msgid "Edit Input"
 msgstr "wa]Noeg-hk"
 
-#: modules/gui/qt4/ui/streampanel.h:186
+#: linux/modules/gui/qt4/ui/streampanel.h:186
 #, fuzzy
 msgid "Clear List"
 msgstr "play list"
 
-#: modules/gui/qt4/ui/v4l2.h:59
+#: linux/modules/gui/qt4/ui/v4l2.h:59
 #, fuzzy
 msgid "Refresh"
 msgstr "play list"
 
-#: modules/gui/qt4/ui/v4l2.h:60
+#: linux/modules/gui/qt4/ui/v4l2.h:60
 msgid "No v4l2 instance found. Press the refresh button to try again."
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1101
+#: linux/modules/gui/qt4/ui/video_effects.h:1101
 #, fuzzy
 msgid "Transform"
 msgstr "Encoding"
 
-#: modules/gui/qt4/ui/video_effects.h:1103
+#: linux/modules/gui/qt4/ui/video_effects.h:1103
 #, fuzzy
 msgid "Sigma"
 msgstr "เล็ก"
 
-#: modules/gui/qt4/ui/video_effects.h:1120
+#: linux/modules/gui/qt4/ui/video_effects.h:1120
 msgid "Synchronize top and bottom"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1121
+#: linux/modules/gui/qt4/ui/video_effects.h:1121
 msgid "Synchronize left and right"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1123
+#: linux/modules/gui/qt4/ui/video_effects.h:1123
 #, fuzzy
 msgid "Magnification/Zoom"
 msgstr "บันทึกคอนฟิกกูเรชั่น"
 
-#: modules/gui/qt4/ui/video_effects.h:1124
+#: linux/modules/gui/qt4/ui/video_effects.h:1124
 #, fuzzy
 msgid "Puzzle game"
 msgstr "ม่วง"
 
-#: modules/gui/qt4/ui/video_effects.h:1125
+#: linux/modules/gui/qt4/ui/video_effects.h:1125
 #, fuzzy
 msgid "Black slot"
 msgstr "ดำ"
 
-#: modules/gui/qt4/ui/video_effects.h:1126
-#: modules/gui/qt4/ui/video_effects.h:1165
-#: modules/gui/qt4/ui/video_effects.h:1171
+#: linux/modules/gui/qt4/ui/video_effects.h:1126
+#: linux/modules/gui/qt4/ui/video_effects.h:1165
+#: linux/modules/gui/qt4/ui/video_effects.h:1171
 #, fuzzy
 msgid "Columns"
 msgstr "ความดัง"
 
-#: modules/gui/qt4/ui/video_effects.h:1127
-#: modules/gui/qt4/ui/video_effects.h:1164
-#: modules/gui/qt4/ui/video_effects.h:1170
+#: linux/modules/gui/qt4/ui/video_effects.h:1127
+#: linux/modules/gui/qt4/ui/video_effects.h:1164
+#: linux/modules/gui/qt4/ui/video_effects.h:1170
 #, fuzzy
 msgid "Rows"
 msgstr "1 (ต่ำที่สุด)"
 
-#: modules/gui/qt4/ui/video_effects.h:1129
+#: linux/modules/gui/qt4/ui/video_effects.h:1129
 #, fuzzy
 msgid "Angle"
 msgstr "Jungle"
 
-#: modules/gui/qt4/ui/video_effects.h:1130
+#: linux/modules/gui/qt4/ui/video_effects.h:1130
 #, fuzzy
 msgid "Geometry"
 msgstr "พอร์ตวิดีโอ"
 
-#: modules/gui/qt4/ui/video_effects.h:1131
+#: linux/modules/gui/qt4/ui/video_effects.h:1131
 #, fuzzy
 msgid "Color extraction"
 msgstr "ช่วงเวลา"
 
-#: modules/gui/qt4/ui/video_effects.h:1133
-#: modules/gui/qt4/ui/video_effects.h:1139
+#: linux/modules/gui/qt4/ui/video_effects.h:1133
+#: linux/modules/gui/qt4/ui/video_effects.h:1139
 msgid ">HHHHHH;#"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1136
+#: linux/modules/gui/qt4/ui/video_effects.h:1136
 msgid "Similarity"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1140
+#: linux/modules/gui/qt4/ui/video_effects.h:1140
 #, fuzzy
 msgid "Color fun"
 msgstr "สี"
 
-#: modules/gui/qt4/ui/video_effects.h:1142
+#: linux/modules/gui/qt4/ui/video_effects.h:1142
 #, fuzzy
 msgid "Water effect"
 msgstr "Headphones"
 
-#: modules/gui/qt4/ui/video_effects.h:1145
+#: linux/modules/gui/qt4/ui/video_effects.h:1145
 #, fuzzy
 msgid "Motion detect"
 msgstr "บันทึกลงไฟล์"
 
-#: modules/gui/qt4/ui/video_effects.h:1147
+#: linux/modules/gui/qt4/ui/video_effects.h:1147
 #, fuzzy
 msgid "Factor"
 msgstr "เร็วกว่า"
 
-#: modules/gui/qt4/ui/video_effects.h:1151
+#: linux/modules/gui/qt4/ui/video_effects.h:1151
 #, fuzzy
 msgid "Cartoon"
 msgstr "Maroon"
 
-#: modules/gui/qt4/ui/video_effects.h:1152
+#: linux/modules/gui/qt4/ui/video_effects.h:1152
 #, fuzzy
 msgid "Image modification"
 msgstr "บันทึกคอนฟิกกูเรชั่น"
 
-#: modules/gui/qt4/ui/video_effects.h:1154
+#: linux/modules/gui/qt4/ui/video_effects.h:1154
 msgid "Edge weightning"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1155
+#: linux/modules/gui/qt4/ui/video_effects.h:1155
 #, fuzzy
 msgid "Output Color Filtermode"
 msgstr "โมดูลส่วนติดต่อเพิ่มเติม"
 
-#: modules/gui/qt4/ui/video_effects.h:1156
+#: linux/modules/gui/qt4/ui/video_effects.h:1156
 msgid "Brightness (%)"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1157
+#: linux/modules/gui/qt4/ui/video_effects.h:1157
 msgid "Darknesslimit"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1158
+#: linux/modules/gui/qt4/ui/video_effects.h:1158
 msgid "Mark analyzed Pixels"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1160
+#: linux/modules/gui/qt4/ui/video_effects.h:1160
 #, fuzzy
 msgid "Filter threshold (%)"
 msgstr "ตัวกรอง"
 
-#: modules/gui/qt4/ui/video_effects.h:1161
+#: linux/modules/gui/qt4/ui/video_effects.h:1161
 #, fuzzy
 msgid "Filter smoothness (%)"
 msgstr "ตัวกรอง"
 
-#: modules/gui/qt4/ui/video_effects.h:1163
+#: linux/modules/gui/qt4/ui/video_effects.h:1163
 #, fuzzy
 msgid "Wall"
 msgstr "ทั้งหมด"
 
-#: modules/gui/qt4/ui/video_effects.h:1166
+#: linux/modules/gui/qt4/ui/video_effects.h:1166
 #, fuzzy
 msgid "Add text"
 msgstr "ถัดไป"
 
-#: modules/gui/qt4/ui/video_effects.h:1174
+#: linux/modules/gui/qt4/ui/video_effects.h:1174
 #, fuzzy
 msgid "Vout/Overlay"
 msgstr "ซ้อนกัน"
 
-#: modules/gui/qt4/ui/video_effects.h:1175
+#: linux/modules/gui/qt4/ui/video_effects.h:1175
 #, fuzzy
 msgid "Add logo"
 msgstr "เพิ่มโหนด"
 
-#: modules/gui/qt4/ui/video_effects.h:1179
-#: modules/gui/qt4/ui/video_effects.h:1184
+#: linux/modules/gui/qt4/ui/video_effects.h:1179
+#: linux/modules/gui/qt4/ui/video_effects.h:1184
 #, fuzzy
 msgid "Logo"
 msgstr "เข้าระบบ"
 
-#: modules/gui/qt4/ui/video_effects.h:1180
+#: linux/modules/gui/qt4/ui/video_effects.h:1180
 #, fuzzy
 msgid "Logo erase"
 msgstr "รูปแบบ Log"
 
-#: modules/gui/qt4/ui/video_effects.h:1183
+#: linux/modules/gui/qt4/ui/video_effects.h:1183
 msgid "Mask"
 msgstr ""
 
-#: modules/gui/qt4/ui/video_effects.h:1185
+#: linux/modules/gui/qt4/ui/video_effects.h:1185
 #, fuzzy
 msgid "Subpicture filters"
 msgstr "ไฟล์ชื่อเรื่องย่อย"
 
-#: modules/gui/qt4/ui/video_effects.h:1186
+#: linux/modules/gui/qt4/ui/video_effects.h:1186
 msgid "Video filters"
 msgstr "ตัวกรองวิดีโอ"
 
-#: modules/gui/qt4/ui/video_effects.h:1187
+#: linux/modules/gui/qt4/ui/video_effects.h:1187
 #, fuzzy
 msgid "Vout filters"
 msgstr "ตัวกรองวิดีโอ"
 
-#: modules/gui/qt4/ui/video_effects.h:1188
+#: linux/modules/gui/qt4/ui/video_effects.h:1188
 #, fuzzy
 msgid "Reset"
 msgstr "ตั้งค่าใหม่ทั้งหมด"
 
-#: modules/gui/qt4/ui/video_effects.h:1189
+#: linux/modules/gui/qt4/ui/video_effects.h:1189
 msgid "Update"
 msgstr "อัพเดท"
 
-#: modules/gui/qt4/ui/video_effects.h:1190
+#: linux/modules/gui/qt4/ui/video_effects.h:1190
 #, fuzzy
 msgid "Advanced video filter controls"
 msgstr "บันทึกลงไฟล์"
 
-#: modules/gui/qt4/ui/vlm.h:287
+#: linux/modules/gui/qt4/ui/vlm.h:287
 #, fuzzy
 msgid "VLM configurator"
 msgstr "ไฟล์คอนฟิกกูเรชั่นของ VLM "
 
-#: modules/gui/qt4/ui/vlm.h:288
+#: linux/modules/gui/qt4/ui/vlm.h:288
 #, fuzzy
 msgid "Media Manager Edition"
 msgstr "ข้อมูลเพิ่มเติม"
 
-#: modules/gui/qt4/ui/vlm.h:289
+#: linux/modules/gui/qt4/ui/vlm.h:289
 #, fuzzy
 msgid "Name:"
 msgstr "ชื่อ"
 
-#: modules/gui/qt4/ui/vlm.h:291
+#: linux/modules/gui/qt4/ui/vlm.h:291
 #, fuzzy
 msgid "Input:"
 msgstr "สิ่งนำเข้า"
 
-#: modules/gui/qt4/ui/vlm.h:292
+#: linux/modules/gui/qt4/ui/vlm.h:292
 #, fuzzy
 msgid "Select Input"
 msgstr "สิ่งนำเข้าหน้าจอ"
 
-#: modules/gui/qt4/ui/vlm.h:293
+#: linux/modules/gui/qt4/ui/vlm.h:293
 #, fuzzy
 msgid "Output:"
 msgstr "ผลลัพธ์"
 
-#: modules/gui/qt4/ui/vlm.h:294
+#: linux/modules/gui/qt4/ui/vlm.h:294
 #, fuzzy
 msgid "Select Output"
 msgstr "ส่งไบต์"
 
-#: modules/gui/qt4/ui/vlm.h:295
+#: linux/modules/gui/qt4/ui/vlm.h:295
 #, fuzzy
 msgid "Time Control"
 msgstr "VLC - Controller"
 
-#: modules/gui/qt4/ui/vlm.h:296
+#: linux/modules/gui/qt4/ui/vlm.h:296
 #, fuzzy
 msgid "Mux Control"
 msgstr "VLC - Controller"
 
-#: modules/gui/qt4/ui/vlm.h:297
+#: linux/modules/gui/qt4/ui/vlm.h:297
 msgid "Muxer:"
 msgstr "Muxer:"
 
-#: modules/gui/qt4/ui/vlm.h:298
+#: linux/modules/gui/qt4/ui/vlm.h:298
 msgid "AAAA; "
 msgstr ""
 
-#: modules/gui/qt4/ui/vlm.h:299
+#: linux/modules/gui/qt4/ui/vlm.h:299
 #, fuzzy
 msgid "Loop"
 msgstr "เข้าระบบ"
 
-#: modules/gui/qt4/ui/vlm.h:303
+#: linux/modules/gui/qt4/ui/vlm.h:303
 #, fuzzy
 msgid "Media Manager List"
 msgstr "ข้อมูลเพิ่มเติม"
@@ -25051,180 +26260,8 @@ msgstr "ข้อมูลเพิ่มเติม"
 #~ msgstr "Interlingue"
 
 #, fuzzy
-#~ msgid "Caching value for files, in milliseconds."
-#~ msgstr "ค่าแคชของดีวีดี ซึ่งกำหนดเป็นมิลลิวินาที"
-
-#, fuzzy
-#~ msgid "Extra network caching value (ms)"
-#~ msgstr "ค่าแคชในไมโครวินาที"
-
-#, fuzzy
-#~ msgid "Supplementary caching value for remote files, in milliseconds."
-#~ msgstr "ค่าแคชสำหรับกระแสข้อมูล TCP ค่านี้จะกำหนดเป็นมิลลิวินาที"
-
-#~ msgid "collapse"
-#~ msgstr "ย่อ"
-
-#~ msgid "expand"
-#~ msgstr "ขยาย"
-
-#, fuzzy
-#~ msgid "Ignored extensions"
-#~ msgstr "AAC extension"
-
-#~ msgid "File input"
-#~ msgstr "wa]Noeg-hk"
-
-#, fuzzy
-#~ msgid ""
-#~ "Caching value for imem streams. This value should be set in milliseconds."
-#~ msgstr "ค่าแคชสำหรับกระแสข้อมูล TCP ค่านี้จะกำหนดเป็นมิลลิวินาที"
-
-#, fuzzy
-#~ msgid "Set the ID of the elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#~ msgid "Group"
-#~ msgstr "กลุ่ม"
-
-#, fuzzy
-#~ msgid "Set the group of the elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Category"
-#~ msgstr "ฉาก"
-
-#, fuzzy
-#~ msgid "Set the category of the elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#~ msgid "Unknown"
-#~ msgstr "ไม่รู้จัก"
-
-#, fuzzy
-#~ msgid "Data"
-#~ msgstr "วันที่"
-
-#, fuzzy
-#~ msgid "Set the codec of the elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Sample rate of an audio elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Channels count"
-#~ msgstr "ช่อง"
-
-#, fuzzy
-#~ msgid "Channels count of an audio elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Width of video or subtitle elementary streams"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Height of video or subtitle elementary streams"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Display aspect ratio"
-#~ msgstr "แอสเป็กต์เรโช"
-
-#, fuzzy
-#~ msgid "Frame rate of a video elementary stream"
-#~ msgstr "เลือกกระแสข้อมูล"
-
-#, fuzzy
-#~ msgid "Data for the get and release functions"
-#~ msgstr "Dummy font renderer function"
-
-#, fuzzy
-#~ msgid "Get function"
-#~ msgstr "Latin"
-
-#, fuzzy
-#~ msgid "Address of the get callback function"
-#~ msgstr "ที่อยู่คอมพิวเตอร์ที่กระแสข้อมูลไป"
-
-#, fuzzy
-#~ msgid "Release function"
-#~ msgstr "Dummy demux function"
-
-#, fuzzy
-#~ msgid "Memory input"
-#~ msgstr "ไม่มีสิ่งนำเข้า"
-
-#, fuzzy
 #~ msgid "SessionManager"
 #~ msgstr "บันทึกลงไฟล์"
-
-#, fuzzy
-#~ msgid "SQLite database module"
-#~ msgstr "โมดูลส่วนติดต่อเพิ่มเติม"
-
-#, fuzzy
-#~ msgid "Flac audio packetizer"
-#~ msgstr "DTS audio packetizer"
-
-#, fuzzy
-#~ msgid "Screen capture"
-#~ msgstr "สิ่งนำเข้าหน้าจอ"
-
-#, fuzzy
-#~ msgid "Applications"
-#~ msgstr "ISO-9660 Application ID"
-
-#, fuzzy
-#~ msgid "Value of the audio channels levels"
-#~ msgstr "จำนวนคอลัมน์"
-
-#, fuzzy
-#~ msgid "Bargraph position"
-#~ msgstr "ตำแหน่งโลโก้"
-
-#, fuzzy
-#~ msgid "Alarm"
-#~ msgstr "อยู่ข้างบนตลอด"
-
-#, fuzzy
-#~ msgid "Audio Bar Graph Video sub filter"
-#~ msgstr "บันทึกลงไฟล์"
-
-#, fuzzy
-#~ msgid "Audio Bar Graph Video"
-#~ msgstr "เครื่อง Audio CD"
-
-#, fuzzy
-#~ msgid "Ball color"
-#~ msgstr "สี"
-
-#, fuzzy
-#~ msgid "Edge visible"
-#~ msgstr "อยู่ข้างบนตลอด"
-
-#, fuzzy
-#~ msgid "Ball speed"
-#~ msgstr "ขนาดปกติ"
-
-#, fuzzy
-#~ msgid "Ball size"
-#~ msgstr "สุ่ม"
-
-#, fuzzy
-#~ msgid "Gradient threshold"
-#~ msgstr "ตัวกรอง"
-
-#, fuzzy
-#~ msgid "Ball video filter"
-#~ msgstr "บันทึกลงไฟล์"
-
-#, fuzzy
-#~ msgid "Ball"
-#~ msgstr "ทั้งหมด"
 
 #~ msgid "title"
 #~ msgstr "ชื่อเรื่อง"
@@ -26142,499 +27179,28 @@ msgstr "ข้อมูลเพิ่มเติม"
 #~ msgid "American English"
 #~ msgstr "American English"
 
-#~ msgid "Arabic"
-#~ msgstr "Arabic"
-
-#~ msgid "Bengali"
-#~ msgstr "Bengali"
-
 #~ msgid "Brazilian Portuguese"
 #~ msgstr "Brazilian Portuguese"
 
 #~ msgid "British English"
 #~ msgstr "British English"
 
-#~ msgid "Bulgarian"
-#~ msgstr "Bulgarian"
-
-#~ msgid "Catalan"
-#~ msgstr "Catalan"
-
 #~ msgid "Chinese Traditional"
 #~ msgstr "Chinese Traditional"
-
-#~ msgid "Czech"
-#~ msgstr "Czech"
-
-#~ msgid "Danish"
-#~ msgstr "Danish"
-
-#~ msgid "Dutch"
-#~ msgstr "Dutch"
-
-#~ msgid "Finnish"
-#~ msgstr "Finnish"
-
-#~ msgid "French"
-#~ msgstr "French"
 
 #~ msgid "Galician"
 #~ msgstr "Galician"
 
-#~ msgid "Georgian"
-#~ msgstr "Georgian"
-
-#~ msgid "German"
-#~ msgstr "German"
-
-#~ msgid "Hebrew"
-#~ msgstr "Hebrew"
-
-#~ msgid "Hungarian"
-#~ msgstr "Hungarian"
-
-#~ msgid "Indonesian"
-#~ msgstr "Indonesian"
-
-#~ msgid "Italian"
-#~ msgstr "Italian"
-
-#~ msgid "Japanese"
-#~ msgstr "Japanese"
-
-#~ msgid "Korean"
-#~ msgstr "Korean"
-
-#~ msgid "Malay"
-#~ msgstr "Malay"
-
 #~ msgid "Occitan"
 #~ msgstr "Occitan"
-
-#~ msgid "Persian"
-#~ msgstr "Persian"
-
-#~ msgid "Polish"
-#~ msgstr "Polish"
-
-#~ msgid "Portuguese"
-#~ msgstr "Portuguese"
 
 #, fuzzy
 #~ msgid "Punjabi"
 #~ msgstr "Panjabi"
 
-#~ msgid "Romanian"
-#~ msgstr "Romanian"
-
-#~ msgid "Serbian"
-#~ msgstr "Serbian"
-
-#~ msgid "Slovak"
-#~ msgstr "Slovak"
-
-#~ msgid "Slovenian"
-#~ msgstr "Slovenian"
-
-#~ msgid "Spanish"
-#~ msgstr "Spanish"
-
-#~ msgid "Swedish"
-#~ msgstr "Swedish"
-
-#~ msgid "Turkish"
-#~ msgstr "Turkish"
-
 #, fuzzy
 #~ msgid "Cancelled"
 #~ msgstr "ยกเลิก"
-
-#~ msgid "Afar"
-#~ msgstr "Afar"
-
-#~ msgid "Abkhazian"
-#~ msgstr "Abkhazian"
-
-#~ msgid "Afrikaans"
-#~ msgstr "Afrikaans"
-
-#~ msgid "Albanian"
-#~ msgstr "Albanian"
-
-#~ msgid "Amharic"
-#~ msgstr "Amharic"
-
-#~ msgid "Armenian"
-#~ msgstr "Armenian"
-
-#~ msgid "Assamese"
-#~ msgstr "Assamese"
-
-#~ msgid "Avestan"
-#~ msgstr "Avestan"
-
-#~ msgid "Aymara"
-#~ msgstr "Aymara"
-
-#~ msgid "Azerbaijani"
-#~ msgstr "Azerbaijani"
-
-#~ msgid "Bashkir"
-#~ msgstr "Bashkir"
-
-#~ msgid "Basque"
-#~ msgstr "Basque"
-
-#~ msgid "Belarusian"
-#~ msgstr "Belarusian"
-
-#~ msgid "Bihari"
-#~ msgstr "Bihari"
-
-#~ msgid "Bislama"
-#~ msgstr "Bislama"
-
-#~ msgid "Bosnian"
-#~ msgstr "Bosnian"
-
-#~ msgid "Breton"
-#~ msgstr "Breton"
-
-#~ msgid "Burmese"
-#~ msgstr "Burmese"
-
-#~ msgid "Chamorro"
-#~ msgstr "Chamorro"
-
-#~ msgid "Chechen"
-#~ msgstr "Chechen"
-
-#~ msgid "Chinese"
-#~ msgstr "Chinese"
-
-#~ msgid "Church Slavic"
-#~ msgstr "Church Slavic"
-
-#~ msgid "Chuvash"
-#~ msgstr "Chuvash"
-
-#~ msgid "Cornish"
-#~ msgstr "Cornish"
-
-#~ msgid "Corsican"
-#~ msgstr "Corsican"
-
-#~ msgid "Dzongkha"
-#~ msgstr "Dzongkha"
-
-#~ msgid "English"
-#~ msgstr "English"
-
-#~ msgid "Estonian"
-#~ msgstr "Estonian"
-
-#~ msgid "Faroese"
-#~ msgstr "Faroese"
-
-#~ msgid "Fijian"
-#~ msgstr "Fijian"
-
-#~ msgid "Frisian"
-#~ msgstr "Frisian"
-
-#~ msgid "Gaelic (Scots)"
-#~ msgstr "Gaelic (Scots)"
-
-#~ msgid "Irish"
-#~ msgstr "Irish"
-
-#~ msgid "Gallegan"
-#~ msgstr "Gallegan"
-
-#~ msgid "Manx"
-#~ msgstr "Manx"
-
-#~ msgid "Greek, Modern ()"
-#~ msgstr "Greek, Modern ()"
-
-#~ msgid "Guarani"
-#~ msgstr "Guarani"
-
-#~ msgid "Gujarati"
-#~ msgstr "Gujarati"
-
-#~ msgid "Herero"
-#~ msgstr "Herero"
-
-#~ msgid "Hindi"
-#~ msgstr "Hindi"
-
-#~ msgid "Hiri Motu"
-#~ msgstr "Hiri Motu"
-
-#~ msgid "Icelandic"
-#~ msgstr "Icelandic"
-
-#~ msgid "Inuktitut"
-#~ msgstr "Inuktitut"
-
-#~ msgid "Interlingua"
-#~ msgstr "Interlingua"
-
-#~ msgid "Inupiaq"
-#~ msgstr "Inupiaq"
-
-#~ msgid "Javanese"
-#~ msgstr "Javanese"
-
-#~ msgid "Kalaallisut (Greenlandic)"
-#~ msgstr "Kalaallisut (Greenlandic)"
-
-#~ msgid "Kannada"
-#~ msgstr "Kannada"
-
-#~ msgid "Kashmiri"
-#~ msgstr "Kashmiri"
-
-#~ msgid "Khmer"
-#~ msgstr "Khmer"
-
-#~ msgid "Kikuyu"
-#~ msgstr "Kikuyu"
-
-#~ msgid "Kinyarwanda"
-#~ msgstr "Kinyarwanda"
-
-#~ msgid "Kirghiz"
-#~ msgstr "Kirghiz"
-
-#~ msgid "Komi"
-#~ msgstr "Komi"
-
-#~ msgid "Kuanyama"
-#~ msgstr "Kuanyama"
-
-#~ msgid "Kurdish"
-#~ msgstr "Kurdish"
-
-#~ msgid "Lao"
-#~ msgstr "Lao"
-
-#~ msgid "Latin"
-#~ msgstr "Latin"
-
-#~ msgid "Latvian"
-#~ msgstr "Latvian"
-
-#~ msgid "Lingala"
-#~ msgstr "Lingala"
-
-#~ msgid "Lithuanian"
-#~ msgstr "Lithuanian"
-
-#~ msgid "Letzeburgesch"
-#~ msgstr "Letzeburgesch"
-
-#~ msgid "Macedonian"
-#~ msgstr "Macedonian"
-
-#~ msgid "Marshall"
-#~ msgstr "Marshall"
-
-#~ msgid "Malayalam"
-#~ msgstr "Malayalam"
-
-#~ msgid "Maori"
-#~ msgstr "Maori"
-
-#~ msgid "Marathi"
-#~ msgstr "Marathi"
-
-#~ msgid "Malagasy"
-#~ msgstr "Malagasy"
-
-#~ msgid "Maltese"
-#~ msgstr "Maltese"
-
-#~ msgid "Moldavian"
-#~ msgstr "Moldavian"
-
-#~ msgid "Mongolian"
-#~ msgstr "Mongolian"
-
-#~ msgid "Nauru"
-#~ msgstr "Nauru"
-
-#~ msgid "Navajo"
-#~ msgstr "Navajo"
-
-#~ msgid "Ndebele, South"
-#~ msgstr "Ndebele, South"
-
-#~ msgid "Ndebele, North"
-#~ msgstr "Ndebele, North"
-
-#~ msgid "Ndonga"
-#~ msgstr "Ndonga"
-
-#~ msgid "Nepali"
-#~ msgstr "Nepali"
-
-#~ msgid "Norwegian"
-#~ msgstr "Norwegian"
-
-#~ msgid "Norwegian Nynorsk"
-#~ msgstr "Norwegian Nynorsk"
-
-#~ msgid "Norwegian Bokmaal"
-#~ msgstr "Norwegian Bokmaal"
-
-#~ msgid "Chichewa; Nyanja"
-#~ msgstr "Chichewa; Nyanja"
-
-#~ msgid "Occitan (post 1500); Provencal"
-#~ msgstr "Occitan (post 1500); Provencal"
-
-#~ msgid "Oriya"
-#~ msgstr "Oriya"
-
-#~ msgid "Oromo"
-#~ msgstr "Oromo"
-
-#~ msgid "Ossetian; Ossetic"
-#~ msgstr "Ossetian; Ossetic"
-
-#~ msgid "Panjabi"
-#~ msgstr "Panjabi"
-
-#~ msgid "Pali"
-#~ msgstr "Pali"
-
-#~ msgid "Pushto"
-#~ msgstr "Pushto"
-
-#~ msgid "Quechua"
-#~ msgstr "Quechua"
-
-#~ msgid "Raeto-Romance"
-#~ msgstr "Raeto-Romance"
-
-#~ msgid "Rundi"
-#~ msgstr "Rundi"
-
-#~ msgid "Sango"
-#~ msgstr "Sango"
-
-#~ msgid "Croatian"
-#~ msgstr "Croatian"
-
-#~ msgid "Sinhalese"
-#~ msgstr "Sinhalese"
-
-#~ msgid "Northern Sami"
-#~ msgstr "Northern Sami"
-
-#~ msgid "Samoan"
-#~ msgstr "Samoan"
-
-#~ msgid "Shona"
-#~ msgstr "Shona"
-
-#~ msgid "Sindhi"
-#~ msgstr "Sindhi"
-
-#~ msgid "Somali"
-#~ msgstr "Somali"
-
-#~ msgid "Sotho, Southern"
-#~ msgstr "Sotho, Southern"
-
-#~ msgid "Sardinian"
-#~ msgstr "Sardinian"
-
-#~ msgid "Swati"
-#~ msgstr "Swati"
-
-#~ msgid "Sundanese"
-#~ msgstr "Sundanese"
-
-#~ msgid "Swahili"
-#~ msgstr "Swahili"
-
-#~ msgid "Tahitian"
-#~ msgstr "Tahitian"
-
-#~ msgid "Tamil"
-#~ msgstr "Tamil"
-
-#~ msgid "Tatar"
-#~ msgstr "Tatar"
-
-#~ msgid "Telugu"
-#~ msgstr "Telugu"
-
-#~ msgid "Tajik"
-#~ msgstr "Tajik"
-
-#~ msgid "Tagalog"
-#~ msgstr "Tagalog"
-
-#~ msgid "Thai"
-#~ msgstr "Thai"
-
-#~ msgid "Tibetan"
-#~ msgstr "Tibetan"
-
-#~ msgid "Tigrinya"
-#~ msgstr "Tigrinya"
-
-#~ msgid "Tonga (Tonga Islands)"
-#~ msgstr "Tonga (Tonga Islands)"
-
-#~ msgid "Tswana"
-#~ msgstr "Tswana"
-
-#~ msgid "Tsonga"
-#~ msgstr "Tsonga"
-
-#~ msgid "Turkmen"
-#~ msgstr "Turkmen"
-
-#~ msgid "Twi"
-#~ msgstr "Twi"
-
-#~ msgid "Uighur"
-#~ msgstr "Uighur"
-
-#~ msgid "Urdu"
-#~ msgstr "Urdu"
-
-#~ msgid "Uzbek"
-#~ msgstr "Uzbek"
-
-#~ msgid "Volapuk"
-#~ msgstr "Volapuk"
-
-#~ msgid "Welsh"
-#~ msgstr "Welsh"
-
-#~ msgid "Wolof"
-#~ msgstr "Wolof"
-
-#~ msgid "Xhosa"
-#~ msgstr "Xhosa"
-
-#~ msgid "Yiddish"
-#~ msgstr "Yiddish"
-
-#~ msgid "Yoruba"
-#~ msgstr "Yoruba"
-
-#~ msgid "Zhuang"
-#~ msgstr "Zhuang"
-
-#~ msgid "Zulu"
-#~ msgstr "Zulu"
 
 #, fuzzy
 #~ msgid ""
