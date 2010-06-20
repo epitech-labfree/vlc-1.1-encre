@@ -291,7 +291,7 @@ static void Probe( aout_instance_t * p_aout,
             var_SetBool( p_aout->p_libvlc, "alsa-broken", true );
             dialog_Fatal( p_aout, "Potential ALSA version problem",
                 "VLC failed to initialize your sound output device (if any).\n"
-                "Please update alsa-lib to version 1.0.24 or higher "
+                "Please update alsa-lib to version 1.0.23-2-g8d80d5f or higher "
                 "to try to fix this issue." );
         }
 #endif
