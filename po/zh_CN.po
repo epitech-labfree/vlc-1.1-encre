@@ -10,11 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-19 23:27+0100\n"
+"POT-Creation-Date: 2010-06-20 20:17+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dean Lee <xslidian@lidian.info>\n"
 "Language-Team: Simplified Chinese <xslidian+vlc@gmail.com>\n"
-"Language: \n"
+"Language: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -809,7 +809,7 @@ msgid "Audio Channels"
 msgstr "音频声道"
 
 #: src/audio_output/output.c:104 src/audio_output/output.c:139
-#: modules/access/alsa.c:67 modules/access/oss.c:63 modules/access/v4l2.c:252
+#: modules/access/alsa.c:67 modules/access/oss.c:63 modules/access/v4l2.c:258
 #: modules/audio_output/alsa.c:198 modules/audio_output/alsa.c:229
 #: modules/audio_output/directx.c:448 modules/audio_output/oss.c:202
 #: modules/audio_output/portaudio.c:403 modules/audio_output/sdl.c:179
@@ -2333,7 +2333,7 @@ msgstr ""
 #: src/libvlc-module.c:653 src/video_output/vout_intf.c:99
 #: src/video_output/vout_intf.c:117 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/access/dshow/dshow.cpp:87
-#: modules/access/dshow/dshow.cpp:93 modules/access/v4l2.c:232
+#: modules/access/dshow/dshow.cpp:93 modules/access/v4l2.c:238
 #: modules/audio_output/alsa.c:107 modules/gui/fbosd.c:171
 #: modules/gui/macosx/prefs_widgets.m:1305
 #: modules/gui/macosx/simple_prefs.m:415 modules/gui/macosx/simple_prefs.m:536
@@ -3859,7 +3859,7 @@ msgstr "音量下"
 msgid "Select the key to decrease audio volume."
 msgstr "选择用于减小音量的按键。"
 
-#: src/libvlc-module.c:1367 modules/access/v4l2.c:169
+#: src/libvlc-module.c:1367 modules/access/v4l2.c:175
 #: modules/gui/macosx/controls.m:1077 modules/gui/macosx/intf.m:671
 #: modules/gui/macosx/intf.m:741 modules/gui/macosx/intf.m:750
 #: modules/gui/qt4/menus.cpp:575
@@ -4347,7 +4347,7 @@ msgstr "元数据"
 msgid "Decoders"
 msgstr "解码器"
 
-#: src/libvlc-module.c:1941 modules/access/v4l2.c:80
+#: src/libvlc-module.c:1941 modules/access/v4l2.c:86
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "输入"
@@ -4717,9 +4717,8 @@ msgid "English"
 msgstr "英语"
 
 #: src/text/iso-639_def.h:72
-#, fuzzy
 msgid "Esperanto"
-msgstr "世界语 (Latin-3)"
+msgstr "世界语"
 
 #: src/text/iso-639_def.h:73
 msgid "Estonian"
@@ -4810,9 +4809,8 @@ msgid "Inuktitut"
 msgstr "伊努伊特语"
 
 #: src/text/iso-639_def.h:95
-#, fuzzy
 msgid "Interlingue"
-msgstr "语际语"
+msgstr "国际语"
 
 #: src/text/iso-639_def.h:96
 msgid "Interlingua"
@@ -4852,7 +4850,7 @@ msgstr "克什米尔语"
 
 #: src/text/iso-639_def.h:105
 msgid "Kazakh"
-msgstr ""
+msgstr "哈萨克语"
 
 #: src/text/iso-639_def.h:106
 msgid "Khmer"
@@ -5035,9 +5033,8 @@ msgid "Quechua"
 msgstr "盖丘亚语"
 
 #: src/text/iso-639_def.h:152
-#, fuzzy
 msgid "Original audio"
-msgstr "原始大小"
+msgstr "原始音频"
 
 #: src/text/iso-639_def.h:153
 msgid "Raeto-Romance"
@@ -5052,9 +5049,8 @@ msgid "Rundi"
 msgstr "隆迪语"
 
 #: src/text/iso-639_def.h:156
-#, fuzzy
 msgid "Russian"
-msgstr "俄语 (KOI8-R)"
+msgstr "俄语"
 
 #: src/text/iso-639_def.h:157
 msgid "Sango"
@@ -5062,7 +5058,7 @@ msgstr "桑戈语"
 
 #: src/text/iso-639_def.h:158
 msgid "Sanskrit"
-msgstr ""
+msgstr "梵文"
 
 #: src/text/iso-639_def.h:159
 msgid "Serbian"
@@ -5197,9 +5193,8 @@ msgid "Uighur"
 msgstr "维吾尔语"
 
 #: src/text/iso-639_def.h:192
-#, fuzzy
 msgid "Ukrainian"
-msgstr "乌克兰语 (KOI8-U)"
+msgstr "乌克兰语"
 
 #: src/text/iso-639_def.h:193
 msgid "Urdu"
@@ -5210,9 +5205,8 @@ msgid "Uzbek"
 msgstr "乌孜别克语 "
 
 #: src/text/iso-639_def.h:195
-#, fuzzy
 msgid "Vietnamese"
-msgstr "越南语 (VISCII)"
+msgstr "越南语"
 
 #: src/text/iso-639_def.h:196
 msgid "Volapuk"
@@ -5302,7 +5296,7 @@ msgstr "以 Hz 为单位的捕获音频采样率 (例如: 11025, 22050, 44100, 4
 #: modules/access/pvr.c:59 modules/access/rtmp/access.c:43
 #: modules/access/screen/screen.c:40 modules/access/screen/xcb.c:33
 #: modules/access/sftp.c:51 modules/access/smb.c:61 modules/access/tcp.c:41
-#: modules/access/udp.c:49 modules/access/v4l.c:77 modules/access/v4l2.c:182
+#: modules/access/udp.c:49 modules/access/v4l.c:77 modules/access/v4l2.c:188
 #: modules/access/vcd/vcd.c:46
 msgid "Caching value in ms"
 msgstr "缓存值(毫秒)"
@@ -5339,12 +5333,11 @@ msgstr "附件输入"
 
 #: modules/access/avio.h:34
 msgid "Avio"
-msgstr ""
+msgstr "Avio"
 
 #: modules/access/avio.h:35
-#, fuzzy
 msgid "FFmpeg access"
-msgstr "Zip 访问"
+msgstr "FFmpeg 访问"
 
 #: modules/access/bd/bd.c:54
 msgid "Caching value for BDs. This value should be set in milliseconds."
@@ -5863,7 +5856,7 @@ msgstr ""
 "尺寸。您可以指定一个标准尺寸  (cif, d1, ...) 或 <宽度>x<高度>。"
 
 #: modules/access/dshow/dshow.cpp:118 modules/access/v4l.c:85
-#: modules/access/v4l2.c:74
+#: modules/access/v4l2.c:80
 msgid "Video input chroma format"
 msgstr "适配输入色度格式"
 
@@ -6266,7 +6259,7 @@ msgid ""
 msgstr "伪装流缓存值。此值应该以毫秒为单位设置。"
 
 #: modules/access/fake.c:48 modules/access/pvr.c:85 modules/access/v4l.c:130
-#: modules/access/v4l2.c:95
+#: modules/access/v4l2.c:101
 msgid "Framerate"
 msgstr "帧率"
 
@@ -6307,17 +6300,17 @@ msgstr "伪装"
 msgid "Fake video input"
 msgstr "伪装视频输入"
 
-#: modules/access/file.c:169 modules/access/file.c:302
+#: modules/access/file.c:170 modules/access/file.c:303
 #: modules/access/mmap.c:228 modules/access/mtp.c:216 modules/access/mtp.c:304
 msgid "File reading failed"
 msgstr "文件读取失败"
 
-#: modules/access/file.c:170 modules/access/mtp.c:305
+#: modules/access/file.c:171 modules/access/mtp.c:305
 #, c-format
 msgid "VLC could not open the file \"%s\"."
 msgstr "VLC 无法打开文件 \"%s\"。"
 
-#: modules/access/file.c:303 modules/access/mmap.c:229
+#: modules/access/file.c:304 modules/access/mmap.c:229
 #: modules/access/mtp.c:217
 msgid "VLC could not read the file."
 msgstr "VLC 无法读取文件。"
@@ -6629,7 +6622,7 @@ msgid "Channels count of an audio elementary stream"
 msgstr "音频通量流的声道数目"
 
 #: modules/access/imem.c:88 modules/access/pvr.c:74 modules/access/v4l.c:102
-#: modules/access/v4l2.c:89 modules/codec/invmem.c:53
+#: modules/access/v4l2.c:95 modules/codec/invmem.c:53
 #: modules/demux/rawvid.c:48 modules/video_filter/mosaic.c:95
 #: modules/video_output/vmem.c:42 linux/modules/gui/qt4/ui/profiles.h:486
 msgid "Width"
@@ -6640,7 +6633,7 @@ msgid "Width of video or subtitle elementary streams"
 msgstr "视频或字幕通量流的宽度"
 
 #: modules/access/imem.c:91 modules/access/pvr.c:78 modules/access/v4l.c:105
-#: modules/access/v4l2.c:92 modules/codec/invmem.c:56
+#: modules/access/v4l2.c:98 modules/codec/invmem.c:56
 #: modules/demux/rawvid.c:52 modules/video_filter/mosaic.c:93
 #: modules/video_output/vmem.c:45 linux/modules/gui/qt4/ui/profiles.h:489
 msgid "Height"
@@ -6857,7 +6850,7 @@ msgstr "捕获流的宽度 (-1 为自动检测)。"
 msgid "Height of the stream to capture (-1 for autodetection)."
 msgstr "捕获流的高度 (-1 为自动检测)。"
 
-#: modules/access/pvr.c:82 modules/access/v4l.c:89 modules/access/v4l2.c:197
+#: modules/access/pvr.c:82 modules/access/v4l.c:89 modules/access/v4l2.c:203
 #: modules/gui/qt4/components/open_panels.cpp:792
 #: modules/gui/qt4/components/open_panels.cpp:892
 msgid "Frequency"
@@ -6917,7 +6910,7 @@ msgstr "音频位掩码"
 msgid "Bitmask that will get used by the audio part of the card."
 msgstr "将被卡带使用的音频部分的位掩码。"
 
-#: modules/access/pvr.c:109 modules/access/v4l2.c:163
+#: modules/access/pvr.c:109 modules/access/v4l2.c:169
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
 #: modules/gui/macosx/intf.m:607 modules/gui/qt4/dialogs/toolbar.cpp:347
 #: modules/stream_out/raop.c:150 linux/modules/gui/qt4/ui/sprefs_audio.h:405
@@ -7269,7 +7262,6 @@ msgid "SFTP input"
 msgstr "SFTP 输入"
 
 #: modules/access/sftp.c:137
-#, fuzzy
 msgid "SFTP authentication"
 msgstr "SFTP 验证"
 
@@ -7373,7 +7365,7 @@ msgstr "捕获流的宽度 (-1 自动检测)。"
 msgid "Height of the stream to capture (-1 for autodetect)."
 msgstr "捕获流的高度 (-1 自动检测）。"
 
-#: modules/access/v4l.c:108 modules/access/v4l2.c:108
+#: modules/access/v4l.c:108 modules/access/v4l2.c:114
 #: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:264
 #: linux/modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
@@ -7383,7 +7375,7 @@ msgstr "亮度"
 msgid "Brightness of the video input."
 msgstr "视频输入亮度。"
 
-#: modules/access/v4l.c:111 modules/access/v4l2.c:117
+#: modules/access/v4l.c:111 modules/access/v4l2.c:123
 #: modules/gui/macosx/extended.m:101
 #: linux/modules/gui/qt4/ui/video_effects.h:1109
 msgid "Hue"
@@ -7406,7 +7398,7 @@ msgstr "颜色"
 msgid "Color of the video input."
 msgstr "视频输入的色彩。"
 
-#: modules/access/v4l.c:117 modules/access/v4l2.c:111
+#: modules/access/v4l.c:117 modules/access/v4l2.c:117
 #: modules/gui/macosx/extended.m:99
 #: linux/modules/gui/qt4/ui/video_effects.h:1106
 msgid "Contrast"
@@ -7416,7 +7408,7 @@ msgstr "对比度"
 msgid "Contrast of the video input."
 msgstr "视频输入的对比度。"
 
-#: modules/access/v4l.c:120 modules/access/v4l2.c:303
+#: modules/access/v4l.c:120 modules/access/v4l2.c:309
 msgid "Tuner"
 msgstr "调谐器"
 
@@ -7464,16 +7456,16 @@ msgstr "Video4Linux"
 msgid "Video4Linux input"
 msgstr "Video4Linux 输入"
 
-#: modules/access/v4l2.c:71 modules/gui/qt4/components/open_panels.cpp:750
+#: modules/access/v4l2.c:77 modules/gui/qt4/components/open_panels.cpp:750
 #: modules/stream_out/standard.c:100
 msgid "Standard"
 msgstr "标准"
 
-#: modules/access/v4l2.c:73
+#: modules/access/v4l2.c:79
 msgid "Video standard (Default, SECAM, PAL, or NTSC)."
 msgstr "视频标准 (默认, SECAM, PAL, 或 NTSC)。"
 
-#: modules/access/v4l2.c:76
+#: modules/access/v4l2.c:82
 msgid ""
 "Force the Video4Linux2 video device to use a specific chroma format (eg. "
 "I420 or I422 for raw images, MJPG for M-JPEG compressed input) (Complete "
@@ -7484,237 +7476,237 @@ msgstr ""
 "I422，为 M-JPEG 压缩输入使用 MJPG) (完整列表: GREY, I240, RV16, RV15, RV24, "
 "RV32, YUY2, YUYV, UYVY, I41N, I422, I420, I411, I410, MJPG)"
 
-#: modules/access/v4l2.c:82
+#: modules/access/v4l2.c:88
 msgid "Input of the card to use (see debug)."
 msgstr "卡带要使用的输入 (请查看调试)。"
 
-#: modules/access/v4l2.c:83
+#: modules/access/v4l2.c:89
 msgid "Audio input"
 msgstr "音频输入"
 
-#: modules/access/v4l2.c:85
+#: modules/access/v4l2.c:91
 msgid "Audio input of the card to use (see debug)."
 msgstr "要使用的音频输入 (查看调试)。"
 
-#: modules/access/v4l2.c:86
+#: modules/access/v4l2.c:92
 msgid "IO Method"
 msgstr "IO 方式"
 
-#: modules/access/v4l2.c:88
+#: modules/access/v4l2.c:94
 msgid "IO Method (READ, MMAP, USERPTR)."
 msgstr "IO 方式 (READ, MMAP, USERPTR)。"
 
-#: modules/access/v4l2.c:91
+#: modules/access/v4l2.c:97
 msgid "Force width (-1 for autodetect, 0 for driver default)."
 msgstr "强制宽度 (-1 表示自动检测，0 表示驱动默认)。"
 
-#: modules/access/v4l2.c:94
+#: modules/access/v4l2.c:100
 msgid "Force height (-1 for autodetect, 0 for driver default)."
 msgstr "强制高度 (-1 表示自动检测，0 表示驱动默认)。"
 
-#: modules/access/v4l2.c:96
+#: modules/access/v4l2.c:102
 msgid "Framerate to capture, if applicable (0 for autodetect)."
 msgstr "捕获帧率，如果可应用 (0 表示自动检测)。"
 
-#: modules/access/v4l2.c:100
+#: modules/access/v4l2.c:106
 msgid "Use libv4l2"
 msgstr "使用 libv4l2"
 
-#: modules/access/v4l2.c:102
+#: modules/access/v4l2.c:108
 msgid "Force usage of the libv4l2 wrapper."
 msgstr "强制使用 libv4l2 wrapper。"
 
-#: modules/access/v4l2.c:105
+#: modules/access/v4l2.c:111
 msgid "Reset v4l2 controls"
 msgstr "重置 v4l2 控制"
 
-#: modules/access/v4l2.c:107
+#: modules/access/v4l2.c:113
 msgid "Reset controls to defaults provided by the v4l2 driver."
 msgstr "按 v4l2 设置重置为默认控制。"
 
-#: modules/access/v4l2.c:110
+#: modules/access/v4l2.c:116
 msgid "Brightness of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的亮度 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:113
+#: modules/access/v4l2.c:119
 msgid "Contrast of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的对比度 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:114 modules/gui/macosx/extended.m:102
+#: modules/access/v4l2.c:120 modules/gui/macosx/extended.m:102
 #: linux/modules/gui/qt4/ui/video_effects.h:1108
 #: linux/modules/gui/qt4/ui/video_effects.h:1137
 msgid "Saturation"
 msgstr "饱和度"
 
-#: modules/access/v4l2.c:116
+#: modules/access/v4l2.c:122
 msgid "Saturation of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的饱和度 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:119
+#: modules/access/v4l2.c:125
 msgid "Hue of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的色调 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:120
+#: modules/access/v4l2.c:126
 msgid "Black level"
 msgstr "黑水平"
 
-#: modules/access/v4l2.c:122
+#: modules/access/v4l2.c:128
 msgid "Black level of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的黑水平 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:123
+#: modules/access/v4l2.c:129
 msgid "Auto white balance"
 msgstr "自动白平衡"
 
-#: modules/access/v4l2.c:125
+#: modules/access/v4l2.c:131
 msgid ""
 "Automatically set the white balance of the video input (if supported by the "
 "v4l2 driver)."
 msgstr "自动设置视频输入的白平衡 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:127
+#: modules/access/v4l2.c:133
 msgid "Do white balance"
 msgstr "执行白平衡"
 
-#: modules/access/v4l2.c:129
+#: modules/access/v4l2.c:135
 msgid ""
 "Trigger a white balancing action, useless if auto white balance is activated "
 "(if supported by the v4l2 driver)."
 msgstr "触发白平衡操作，如果已经开启自动白平衡则无效 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:131
+#: modules/access/v4l2.c:137
 msgid "Red balance"
 msgstr "红平衡"
 
-#: modules/access/v4l2.c:133
+#: modules/access/v4l2.c:139
 msgid "Red balance of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的红平衡 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:134
+#: modules/access/v4l2.c:140
 msgid "Blue balance"
 msgstr "蓝平衡"
 
-#: modules/access/v4l2.c:136
+#: modules/access/v4l2.c:142
 msgid "Blue balance of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的蓝平衡 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:137 modules/gui/macosx/extended.m:100
+#: modules/access/v4l2.c:143 modules/gui/macosx/extended.m:100
 #: linux/modules/gui/qt4/ui/video_effects.h:1105
 msgid "Gamma"
 msgstr "伽玛"
 
-#: modules/access/v4l2.c:139
+#: modules/access/v4l2.c:145
 msgid "Gamma of the video input (if supported by the v4l2 driver)."
 msgstr "视频输入的伽玛 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:140
+#: modules/access/v4l2.c:146
 msgid "Exposure"
 msgstr "曝光"
 
-#: modules/access/v4l2.c:142
+#: modules/access/v4l2.c:148
 msgid "Exposure of the video input (if supported by the v4L2 driver)."
 msgstr "视频输入的曝光 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:143
+#: modules/access/v4l2.c:149
 msgid "Auto gain"
 msgstr "自动增益"
 
-#: modules/access/v4l2.c:145
+#: modules/access/v4l2.c:151
 msgid ""
 "Automatically set the video input's gain (if supported by the v4l2 driver)."
 msgstr "自动设置视频输入的增益 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:147
+#: modules/access/v4l2.c:153
 msgid "Gain"
 msgstr "增益"
 
-#: modules/access/v4l2.c:149
+#: modules/access/v4l2.c:155
 msgid "Video input's gain (if supported by the v4l2 driver)."
 msgstr "视频输入的增益 (如果 v4l2 驱动支持)。"
 
-#: modules/access/v4l2.c:150
+#: modules/access/v4l2.c:156
 msgid "Horizontal flip"
 msgstr "水平倒转"
 
-#: modules/access/v4l2.c:152
+#: modules/access/v4l2.c:158
 msgid "Flip the video horizontally (if supported by the v4l2 driver)."
 msgstr "水平倒转视频 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:153
+#: modules/access/v4l2.c:159
 msgid "Vertical flip"
 msgstr "垂直倒转"
 
-#: modules/access/v4l2.c:155
+#: modules/access/v4l2.c:161
 msgid "Flip the video vertically (if supported by the v4l2 driver)."
 msgstr "垂直倒转视频 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:156
+#: modules/access/v4l2.c:162
 msgid "Horizontal centering"
 msgstr "水平居中"
 
-#: modules/access/v4l2.c:158
+#: modules/access/v4l2.c:164
 msgid ""
 "Set the camera's horizontal centering (if supported by the v4l2 driver)."
 msgstr "设置摄像机的水平居中 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:159
+#: modules/access/v4l2.c:165
 msgid "Vertical centering"
 msgstr "垂直居中"
 
-#: modules/access/v4l2.c:161
+#: modules/access/v4l2.c:167
 msgid "Set the camera's vertical centering (if supported by the v4l2 driver)."
 msgstr "设置摄像机的垂直居中 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:165
+#: modules/access/v4l2.c:171
 msgid "Volume of the audio input (if supported by the v4l2 driver)."
 msgstr "音频输入的音量 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:166
+#: modules/access/v4l2.c:172
 msgid "Balance"
 msgstr "平衡"
 
-#: modules/access/v4l2.c:168
+#: modules/access/v4l2.c:174
 msgid "Balance of the audio input (if supported by the v4l2 driver)."
 msgstr "音频输入的平衡 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:171
+#: modules/access/v4l2.c:177
 msgid "Mute audio input (if supported by the v4l2 driver)."
 msgstr "静音音频输入 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:172 modules/meta_engine/id3genres.h:69
+#: modules/access/v4l2.c:178 modules/meta_engine/id3genres.h:69
 msgid "Bass"
 msgstr "低音"
 
-#: modules/access/v4l2.c:174
+#: modules/access/v4l2.c:180
 msgid "Bass level of the audio input (if supported by the v4l2 driver)."
 msgstr "音频输入的低音等级 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:175
+#: modules/access/v4l2.c:181
 msgid "Treble"
 msgstr "高音"
 
-#: modules/access/v4l2.c:177
+#: modules/access/v4l2.c:183
 msgid "Treble level of the audio input (if supported by the v4l2 driver)."
 msgstr "音频输入的高音等级 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:178
+#: modules/access/v4l2.c:184
 msgid "Loudness"
 msgstr "响度"
 
-#: modules/access/v4l2.c:180
+#: modules/access/v4l2.c:186
 msgid "Loudness of the audio input (if supported by the v4l2 driver)."
 msgstr "音频输入的响度 (如果 v4l2 驱动支持)。 "
 
-#: modules/access/v4l2.c:184
+#: modules/access/v4l2.c:190
 msgid ""
 "Caching value for V4L2 captures. This value should be set in milliseconds."
 msgstr "V4L2 捕获的缓存值。此值必须以毫秒为单位设置。"
 
-#: modules/access/v4l2.c:186
+#: modules/access/v4l2.c:192
 msgid "v4l2 driver controls"
 msgstr "v4l2 驱动控制"
 
-#: modules/access/v4l2.c:188
+#: modules/access/v4l2.c:194
 msgid ""
 "Set the v4l2 driver controls to the values specified using a comma separated "
 "list optionally encapsulated by curly braces (e.g.: {video_bitrate=6000000,"
@@ -7725,27 +7717,27 @@ msgstr ""
 "stream_type=3} ) 为逗号分隔的一列值，可以放在大括号内。要列出可用的控件，请增"
 "强提示程度 (-vvv) 或使用 v4l2 控制应用程序。"
 
-#: modules/access/v4l2.c:194
+#: modules/access/v4l2.c:200
 msgid "Tuner id"
 msgstr "调谐器 id"
 
-#: modules/access/v4l2.c:196
+#: modules/access/v4l2.c:202
 msgid "Tuner id (see debug output)."
 msgstr "调谐器 id (查看调试器输出)。"
 
-#: modules/access/v4l2.c:199
+#: modules/access/v4l2.c:205
 msgid "Tuner frequency in Hz or kHz (see debug output)"
 msgstr "以 Hz 或 kHz 为单位调节频率 (查看调试输出)"
 
-#: modules/access/v4l2.c:200
+#: modules/access/v4l2.c:206
 msgid "Audio mode"
 msgstr "音频模式"
 
-#: modules/access/v4l2.c:202
+#: modules/access/v4l2.c:208
 msgid "Tuner audio mono/stereo and track selection."
 msgstr "调节音频单声道/立体声和音轨选择。"
 
-#: modules/access/v4l2.c:205
+#: modules/access/v4l2.c:211
 msgid ""
 "Alsa or OSS audio capture in the v4l2 access is deprecated. please use "
 "'v4l2:// :input-slave=alsa://' or 'v4l2:// :input-slave=oss://' instead."
@@ -7753,78 +7745,78 @@ msgstr ""
 "不建议通过 v4l2 捕获 Alsa 或 OSS 音频。请改用 'v4l2:// :input-slave=alsa://' "
 "或 'v4l2:// :input-slave=oss://'。"
 
-#: modules/access/v4l2.c:209
+#: modules/access/v4l2.c:215
 msgid "Picture aspect-ratio n:m"
 msgstr "图像宽高比 n:m"
 
-#: modules/access/v4l2.c:210
+#: modules/access/v4l2.c:216
 msgid "Define input picture aspect-ratio to use. Default is 4:3"
 msgstr "定义要使用的图像宽高比。默认为 4:3"
 
-#: modules/access/v4l2.c:244
+#: modules/access/v4l2.c:250
 msgid "AUTO"
 msgstr "自动"
 
-#: modules/access/v4l2.c:244
+#: modules/access/v4l2.c:250
 msgid "READ"
 msgstr "READ"
 
-#: modules/access/v4l2.c:244
+#: modules/access/v4l2.c:250
 msgid "MMAP"
 msgstr "MMAP"
 
-#: modules/access/v4l2.c:244
+#: modules/access/v4l2.c:250
 msgid "USERPTR"
 msgstr "USERPTR"
 
-#: modules/access/v4l2.c:251 modules/audio_output/alsa.c:192
+#: modules/access/v4l2.c:257 modules/audio_output/alsa.c:192
 #: modules/audio_output/directx.c:466 modules/audio_output/oss.c:222
 #: modules/audio_output/portaudio.c:395 modules/audio_output/sdl.c:180
 #: modules/audio_output/sdl.c:199 modules/audio_output/waveout.c:444
 msgid "Mono"
 msgstr "单声道"
 
-#: modules/access/v4l2.c:253
+#: modules/access/v4l2.c:259
 msgid "Primary language (Analog TV tuners only)"
 msgstr "主语言 (仅模拟 TV 调谐器)"
 
-#: modules/access/v4l2.c:254
+#: modules/access/v4l2.c:260
 msgid "Secondary language (Analog TV tuners only)"
 msgstr "第二语言 (仅模拟 TV 调谐器)"
 
-#: modules/access/v4l2.c:255
+#: modules/access/v4l2.c:261
 msgid "Second audio program (Analog TV tuners only)"
 msgstr "第二音频程序 (仅模拟 TV 调谐器)"
 
-#: modules/access/v4l2.c:256
+#: modules/access/v4l2.c:262
 msgid "Primary language left, Secondary language right"
 msgstr "左主语言，右第二语言"
 
-#: modules/access/v4l2.c:272
+#: modules/access/v4l2.c:278
 msgid "Video4Linux2"
 msgstr "Video4Linux2"
 
-#: modules/access/v4l2.c:273
+#: modules/access/v4l2.c:279
 msgid "Video4Linux2 input"
 msgstr "Video4Linux2 输入"
 
-#: modules/access/v4l2.c:277
+#: modules/access/v4l2.c:283
 msgid "Video input"
 msgstr "视频输入"
 
-#: modules/access/v4l2.c:313
+#: modules/access/v4l2.c:319
 msgid "Controls"
 msgstr "控制"
 
-#: modules/access/v4l2.c:314
+#: modules/access/v4l2.c:320
 msgid "v4l2 driver controls, if supported by your v4l2 driver."
 msgstr "v4l2 驱动控制，如果您的 v4l2 驱动支持。"
 
-#: modules/access/v4l2.c:380
+#: modules/access/v4l2.c:386
 msgid "Video4Linux2 Compressed A/V"
 msgstr "Video4Linux2 压缩 A/V"
 
-#: modules/access/v4l2.c:2962
+#: modules/access/v4l2.c:2968
 msgid "Reset controls to default"
 msgstr "重置控制为默认值"
 
@@ -10748,7 +10740,7 @@ msgstr "繁体中文 Unix (EUC-TW)"
 
 #: modules/codec/subtitles/subsdec.c:154
 msgid "Hong-Kong Supplementary (HKSCS)"
-msgstr "香港补充 (HKSCS)"
+msgstr "香港增补 (HKSCS)"
 
 #: modules/codec/subtitles/subsdec.c:156
 msgid "Vietnamese (VISCII)"
@@ -10788,7 +10780,7 @@ msgid ""
 "Some subtitle formats allow for text formatting. VLC partly implements this, "
 "but you can choose to disable all formatting."
 msgstr ""
-"某些字幕格式允许文本格式。VLC 将部分处理它，但是您可以选择关闭所有格式。"
+"有些字幕格式允许格式化文本。VLC 将部分处理它，但是您可以选择关闭所有格式。"
 
 #: modules/codec/subtitles/subsdec.c:203
 msgid "Text subtitles decoder"
@@ -10807,7 +10799,7 @@ msgstr "文本字幕解码器"
 #: modules/codec/subtitles/subsdec.c:296
 msgctxt "GetACP"
 msgid "CP1252"
-msgstr "CP1252"
+msgstr "GB18030"
 
 #: modules/codec/subtitles/subsusf.c:52
 msgid "USFSubs"
@@ -11149,8 +11141,8 @@ msgid ""
 "enforced; it's up to the user to select a level compatible with the rest of "
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 msgstr ""
-"指定 H.264 等级 (由 AnnexA 定义标准)。等级不是强制的; 它将服从用户选择的其它"
-"编码选项。范围是 1 到 5.1 (10 到 51 也被允许)。"
+"指定 H.264 等级 (如 Annex A 标准所定)。等级不是强制的；而是取决于用户所选的与"
+"其它编码选项相兼容的等级。范围从 1 到 5.1 (10 到 51 也允许使用)。"
 
 #: modules/codec/x264.c:136
 msgid "H.264 profile"
@@ -11735,11 +11727,11 @@ msgstr "HRD 计时信息"
 msgid ""
 "Tune the settings for a particular type of source or situation. Overridden "
 "by user settings."
-msgstr ""
+msgstr "根据特定类型源或情况调整设置。将被用户设置覆盖。"
 
 #: modules/codec/x264.c:390
 msgid "Use preset as default settings. Overridden by user settings."
-msgstr ""
+msgstr "使用预设作为默认设置。将被用户设置覆盖。"
 
 #: modules/codec/x264.c:395
 msgid "dia"
@@ -12826,14 +12818,14 @@ msgstr "前置交错模式。"
 
 #: modules/demux/avi/avi.c:53
 msgid "Force index creation"
-msgstr "强制创建缩影"
+msgstr "强制创建索引"
 
 #: modules/demux/avi/avi.c:55
 msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
 msgstr ""
-"为 AVI 文件创建一个缩影。如果您的 AVI 文件已损坏或不完整 (无法搜索) 请使用此"
+"为 AVI 文件创建一个索引。如果您的 AVI 文件已损坏或不完整 (无法搜索) 请使用此"
 "功能。"
 
 #: modules/demux/avi/avi.c:63
@@ -12854,7 +12846,7 @@ msgstr "AVI 去复用器"
 
 #: modules/demux/avi/avi.c:652
 msgid "AVI Index"
-msgstr "AVI 缩影"
+msgstr "AVI 索引"
 
 #: modules/demux/avi/avi.c:653
 msgid ""
@@ -12863,7 +12855,7 @@ msgid ""
 "\n"
 "This might take a long time."
 msgstr ""
-"此 AVI 文件已经损坏。检索将无法正常工作。\n"
+"此 AVI 文件已经损坏。将无法正常检索。\n"
 "您要尝试修复它吗?\n"
 "\n"
 "这可能需要很长的时间。"
@@ -13697,12 +13689,11 @@ msgid "Separate sub-streams"
 msgstr "分离子流"
 
 #: modules/demux/ts.c:160
-#, fuzzy
 msgid ""
 "Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
-"将 teletex/dvb 页面分为独立的基本流。当使用流输出时关闭此选项可能有用。"
+"将 teletex/dvbs 页面分为独立的基本流。当使用流输出时关闭此选项可能有用。"
 
 #: modules/demux/ts.c:164
 msgid "MPEG Transport Stream demuxer"
@@ -16782,7 +16773,7 @@ msgstr "已丢弃 (已损坏)"
 
 #: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Dropped (discontinued)"
-msgstr "已终止 (未继续)"
+msgstr "已丢弃 (非连续)"
 
 #: modules/gui/qt4/components/info_panels.cpp:524
 #: modules/gui/qt4/components/info_panels.cpp:537
@@ -17104,11 +17095,11 @@ msgstr ""
 
 #: modules/gui/qt4/components/simple_preferences.cpp:522
 msgid "This is VLC's skinnable interface. You can download other skins at"
-msgstr "这是 VLC 的外观化界面。您可以在此下载皮肤："
+msgstr "这是 VLC 的外观界面。您可以在此下载外观："
 
 #: modules/gui/qt4/components/simple_preferences.cpp:524
 msgid "VLC skins website"
-msgstr ""
+msgstr "VLC 外观网站"
 
 #: modules/gui/qt4/components/simple_preferences.cpp:549
 msgid "System's default"
@@ -17209,10 +17200,10 @@ msgstr "保存文件..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
 #: modules/gui/qt4/dialogs/convert.cpp:113
-#, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
-msgstr "容器 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+msgstr ""
+"容器 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:151
 msgid "This module outputs the transcoded stream to a network via HTTP."
@@ -17368,7 +17359,6 @@ msgid "Privacy and Network Warning"
 msgstr "隐私与网络警告"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
-#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -17377,12 +17367,11 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
-"<p><i>VideoLAN 小组</i>不想让一个未经验证的程序访问网络。</p>\n"
-" <p><i>VLC media player</i>可以在 Internet 上请求受限制的信息，例如获取 CD 封"
-"面或查找可用的更新。</p>\n"
-"<p><i>VLC media player</i><b>不会</b>发送或收集<b>任意</b>的有关您使用情况的"
-"信息，无论是否匿名。</p>\n"
-"<p>因此请确认下列选项，默认存在的设置几乎不访问网络。</p>\n"
+"<p><i>VideoLAN</i> 希望程序访问 Internet 之前能得到您的许可。</p>\n"
+"<p><b>VLC media player</b> 可以从 Internet 获取 <b>媒体信息</b> 或者检查可用 "
+"<b>更新</b>。</p>\n"
+"<p><i>VLC media player</i> <b>不会</b> 发送或收集任何关于您使用的信息，更不用"
+"说匿名信息。</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: linux/modules/gui/qt4/ui/open_capture.h:103
@@ -17392,12 +17381,11 @@ msgstr "选项"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:90
 msgid "Allow fetching media information from Internet"
-msgstr ""
+msgstr "允许从 Internet 装取媒体信息"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
-msgstr "检测更新"
+msgstr "检查更新"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -18490,7 +18478,7 @@ msgstr "打开一个外观文件"
 
 #: modules/gui/skins2/src/dialogs.cpp:207
 msgid "Skin files |*.vlt;*.wsz;*.xml"
-msgstr "皮肤文件 |*.vlt;*.wsz;*.xml"
+msgstr "外观文件 |*.vlt;*.wsz;*.xml"
 
 #: modules/gui/skins2/src/dialogs.cpp:214
 msgid "Open playlist"
@@ -19026,7 +19014,7 @@ msgstr "您要使用字体的字体集"
 
 #: modules/misc/freetype.c:97
 msgid "Fontfile for the font you want to use"
-msgstr "您要使用字体的字体文件"
+msgstr "您所要使用字体的字体文件"
 
 #: modules/misc/freetype.c:100 modules/misc/win32text.c:60
 msgid "Font size in pixels"
@@ -19275,13 +19263,12 @@ msgstr ""
 ">, ...}, ...'。"
 
 #: modules/misc/lua/vlc.c:69
-#, fuzzy
 msgid "Directory index"
-msgstr "目录输入"
+msgstr "目录索引"
 
 #: modules/misc/lua/vlc.c:70
 msgid "Allow to build directory index"
-msgstr ""
+msgstr "允许建立目录索引"
 
 #: modules/misc/lua/vlc.c:89
 msgid "Lua Interface Module"
@@ -19292,13 +19279,12 @@ msgid "Interfaces implemented using lua scripts"
 msgstr "使用 lua 脚本实现的界面"
 
 #: modules/misc/lua/vlc.c:105
-#, fuzzy
 msgid "Lua HTTP"
-msgstr "HTTP"
+msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:109
 msgid "Lua Telnet"
-msgstr ""
+msgstr "Lua Telnet"
 
 #: modules/misc/lua/vlc.c:120
 msgid "Lua Meta Fetcher"
@@ -20039,14 +20025,12 @@ msgid "My Pictures"
 msgstr "我的图片"
 
 #: modules/services_discovery/mtp.c:45
-#, fuzzy
 msgid "MTP devices"
-msgstr "DVD 设备"
+msgstr "MTP 设备"
 
 #: modules/services_discovery/mtp.c:191
-#, fuzzy
 msgid "MTP Device"
-msgstr "设备"
+msgstr "MTP 设备"
 
 #: modules/services_discovery/podcast.c:58
 #: linux/modules/gui/qt4/ui/podcast_configuration.h:102
@@ -20976,7 +20960,7 @@ msgid ""
 "Video filters will be applied to the video streams (after overlays are "
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
-"将被应用到视频流的视频滤镜 (在应用覆盖层之后)。您可以输入一个逗号分隔的滤镜列"
+"将被应用到视频流的视频滤镜 (在应用覆盖层之后)。您可以输入一个冒号分隔的滤镜列"
 "表。"
 
 #: modules/stream_out/transcode/transcode.c:83
@@ -21031,7 +21015,7 @@ msgid ""
 "Audio filters will be applied to the audio streams (after conversion filters "
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
-"将被应用到音频流的音频滤镜 (在转换滤镜被应用后)。您可以输入一个逗号分隔的滤镜"
+"将被应用到音频流的音频滤镜 (在转换滤镜被应用后)。您可以输入一个冒号分隔的滤镜"
 "列表。"
 
 #: modules/stream_out/transcode/transcode.c:107
@@ -21282,7 +21266,7 @@ msgstr "MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:159
 msgid "fnordlicht"
-msgstr ""
+msgstr "fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:162
 msgid "Count of AtmoLight channels"
@@ -21311,14 +21295,12 @@ msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
 msgstr "根据您的 MoMoLight 硬件选择 3 或 4 个频道"
 
 #: modules/video_filter/atmo/atmo.cpp:173
-#, fuzzy
 msgid "Count of fnordlicht's"
-msgstr "频道数"
+msgstr "fnordlicht 数目"
 
 #: modules/video_filter/atmo/atmo.cpp:174
-#, fuzzy
 msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
-msgstr "根据您的 MoMoLight 硬件选择 3 或 4 个频道"
+msgstr "根据您的 fnordlicht 硬件数选择 3 或 4 个频道"
 
 #: modules/video_filter/atmo/atmo.cpp:185
 msgid "Save Debug Frames"
@@ -21368,7 +21350,7 @@ msgstr "暂停时的色彩"
 msgid ""
 "Set the color to show if the user pauses the video. (Have light to get "
 "another beer?)"
-msgstr "在用于暂停时的色彩 (在轻柔的光线下喝杯啤酒?)"
+msgstr "在用于暂停时的色彩 (亮得足够拿瓶啤酒?)"
 
 #: modules/video_filter/atmo/atmo.cpp:208
 msgid "Pause-Red"
@@ -21758,9 +21740,8 @@ msgid "MoMoLight options"
 msgstr "MoMoLight 选项"
 
 #: modules/video_filter/atmo/atmo.cpp:440
-#, fuzzy
 msgid "fnordlicht options"
-msgstr "MoMoLight 选项"
+msgstr "fnordlicht 选项"
 
 #: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
@@ -23857,9 +23838,8 @@ msgid "HD1000 video output"
 msgstr "HD1000 视频输出"
 
 #: modules/video_output/macosx.m:69
-#, fuzzy
 msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-msgstr "最小化 Mac OS X OpenGL 视频输出 (打开一个无边框的窗口)"
+msgstr "Mac OS X OpenGL 视频输出 (需要 drawable-nsobject)"
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "Enable desktop mode "
@@ -24637,7 +24617,7 @@ msgstr "WAV"
 
 #: linux/modules/gui/qt4/ui/profiles.h:465
 msgid "Webm"
-msgstr ""
+msgstr "WebM"
 
 #: linux/modules/gui/qt4/ui/profiles.h:466
 msgid "ASF/WMV"
@@ -25351,10 +25331,10 @@ msgstr "媒体管理器列表"
 #~ "设置 libdvdcss 用于密匙解密的模式。\n"
 #~ "标题: 从被加密的流的扇区猜测标题密匙。因此它将可以工作于文件以及 DVD 设"
 #~ "备。但是有时它会花费许多时间解密一个标题密匙并可能失败。此模式只能在每个标"
-#~ "题开始时检测密匙,所以它在密匙在标题中间被更改时无法工作。\n"
-#~ "光盘: 首先破解光盘密匙,然后所有光盘密匙将被立即解密,这样就可以允许我们经常"
-#~ "检测它们。\n"
-#~ "密匙: 与 \"光盘\" 相同,如果您没有在编译时的播放器密匙的话。如果您有光盘密"
+#~ "题开始时检测密匙，所以它在密匙在标题中间被更改时无法工作。\n"
+#~ "光盘: 首先破解光盘密匙，然后所有光盘密匙将被立即解密，这样就可以允许我们经"
+#~ "常检测它们。\n"
+#~ "密匙: 与 \"光盘\" 相同，如果您没有在编译时的播放器密匙的话。如果您有光盘密"
 #~ "匙的解密将在此模式中更快。这是 libccs 使用的模式。\n"
 #~ "默认的模式是: 密匙。"
 
@@ -25457,7 +25437,7 @@ msgstr "媒体管理器列表"
 #~ msgid ""
 #~ "When this is enabled, the interface is shown when you move the mouse to "
 #~ "the edge of the screen in fullscreen mode."
-#~ msgstr "在这被开启时,在全屏幕模式中当您移动鼠标至屏幕边缘时将会显示界面。"
+#~ msgstr "在这被开启时，在全屏幕模式中当您移动鼠标至屏幕边缘时将会显示界面。"
 
 #~ msgid "key and mouse event handling at vout level."
 #~ msgstr "vout 级别的键盘和鼠标事件处理。"
@@ -25480,15 +25460,15 @@ msgstr "媒体管理器列表"
 #~ "This is the default VCD device to use. If you don't specify anything, "
 #~ "we'll scan for a suitable CD-ROM device."
 #~ msgstr ""
-#~ "这是要使用的默认 VCD 设备。如果您不指定任何东西,我们将会扫描一个合适的 CD-"
-#~ "ROM 设备。"
+#~ "这是要使用的默认 VCD 设备。如果您不指定任何东西，我们将会扫描一个合适的 "
+#~ "CD-ROM 设备。"
 
 #~ msgid ""
 #~ "This is the default Audio CD device to use. If you don't specify "
 #~ "anything, we'll scan for a suitable CD-ROM device."
 #~ msgstr ""
-#~ "这是要使用的默认音频 CD 设备。如果您不指定任何东西,我们将会扫描一个合适的 "
-#~ "CD-ROM 设备。"
+#~ "这是要使用的默认音频 CD 设备。如果您不指定任何东西，我们将会扫描一个合适"
+#~ "的 CD-ROM 设备。"
 
 #~ msgid "Enable FPU support"
 #~ msgstr "开启 FPU 支持"
@@ -25656,13 +25636,13 @@ msgstr "媒体管理器列表"
 #~ msgstr "使用 CD 音频控制和输出吗?"
 
 #~ msgid "If set, audio controls and audio jack output are used"
-#~ msgstr "如果设置,将使用音频控制和音频提升输出"
+#~ msgstr "如果设置，将使用音频控制和音频提升输出"
 
 #~ msgid "Do CD-Text lookups?"
 #~ msgstr "要做 CD-Text 查找吗?"
 
 #~ msgid "If set, get CD-Text information"
-#~ msgstr "如果设置了,将获取 CD-Text 信息"
+#~ msgstr "如果设置了，将获取 CD-Text 信息"
 
 #~ msgid "Use Navigation-style playback?"
 #~ msgstr "要使用导航式样的播放吗?"
@@ -25680,7 +25660,7 @@ msgstr "媒体管理器列表"
 #~ msgstr "CDDB 查找"
 
 #~ msgid "If set, lookup CD-DA track information using the CDDB protocol"
-#~ msgstr "如果设置,将使用 CDDB 协议查找 CD-DA 轨道信息"
+#~ msgstr "如果设置，将使用 CDDB 协议查找 CD-DA 轨道信息"
 
 #~ msgid "CDDB server"
 #~ msgstr "CDDB 服务器"
@@ -25701,7 +25681,7 @@ msgstr "媒体管理器列表"
 #~ msgstr "要缓存 CDDB 查找吗?"
 
 #~ msgid "If set cache CDDB information about this CD"
-#~ msgstr "如果设置了,将缓存和此 CD 有关的 CDDB 信息"
+#~ msgstr "如果设置了，将缓存和此 CD 有关的 CDDB 信息"
 
 #~ msgid "Contact CDDB via the HTTP protocol?"
 #~ msgstr "通过 HTTP 协议连接 CDDB 吗?"
@@ -25724,7 +25704,7 @@ msgstr "媒体管理器列表"
 #~ msgid ""
 #~ "If set, CD-Text information will be preferred to CDDB information when "
 #~ "both are available"
-#~ msgstr "如果是,CD-Text 信息将在 CDDB 和 CD-Text 信息都可用时优先被使用。"
+#~ msgstr "如果是，CD-Text 信息将在 CDDB 和 CD-Text 信息都可用时优先被使用。"
 
 #~ msgid "Media Catalog Number (MCN)"
 #~ msgstr "媒体分类号 (MCN)"
@@ -25782,17 +25762,17 @@ msgstr "媒体管理器列表"
 #~ msgstr "Tarkin 解码器"
 
 #~ msgid "Faster, less precise scenecut detection"
-#~ msgstr "较快,低精确性的场景剪辑检测"
+#~ msgstr "较快，低精确性的场景剪辑检测"
 
 #~ msgid ""
 #~ "Faster, less precise scenecut detection. Required and implied by multi-"
 #~ "threading."
-#~ msgstr "较快,低精确性的场景剪辑检测。 需要多线程支持。"
+#~ msgstr "较快，低精确性的场景剪辑检测。 需要多线程支持。"
 
 #~ msgid ""
 #~ "Force the specified number of consecutive B-frames to be used, except "
 #~ "possibly before an I-frame."
-#~ msgstr "强制指定要使用的连续 B 帧值,除了可能的一个在 I 帧之前。"
+#~ msgstr "强制指定要使用的连续 B 帧值，除了可能的一个在 I 帧之前。"
 
 #~ msgid ""
 #~ "Selects the motion estimation algorithm:  - dia: diamond search, radius 1 "
@@ -25845,8 +25825,9 @@ msgstr "媒体管理器列表"
 #~ msgid "Unknown command!"
 #~ msgstr "未知的命令!"
 
+#, fuzzy
 #~ msgid "Threshold"
-#~ msgstr "阀值"
+#~ msgstr "色彩阀值"
 
 #~ msgid "Height of the zone triggering the interface."
 #~ msgstr "界面中触发缩放的高度。"
@@ -26306,7 +26287,7 @@ msgstr "媒体管理器列表"
 #~ "www.gnu.org/copyleft/gpl.html)."
 #~ msgstr ""
 #~ "VLC 媒体播放器是一个可以从本地或网络源中输入的 MPEG、MPEG 2、MP3 和 DivX "
-#~ "播放器,并且它以 GNU (http://www.gnu.org/copyleft/gpl.html) 的方式进行许"
+#~ "播放器，并且它以 GNU (http://www.gnu.org/copyleft/gpl.html) 的方式进行许"
 #~ "可。"
 
 #~ msgid "Authors: the VideoLAN Team, http://www.videolan.org/team/"
@@ -26482,7 +26463,7 @@ msgstr "媒体管理器列表"
 #~ msgstr "水晶字体渲染器"
 
 #~ msgid "C module that does nothing"
-#~ msgstr "C 模式什么都不能做"
+#~ msgstr "C 模式 什么都不做"
 
 #~ msgid "Miscellaneous stress tests"
 #~ msgstr "其它负荷测试"
@@ -26614,7 +26595,8 @@ msgstr "媒体管理器列表"
 #~ "If your graphics card provides several adaptors, you have to choose which "
 #~ "one will be used (you shouldn't have to change this)."
 #~ msgstr ""
-#~ "如果您的显卡提供多个适配器,您可以选择将要使用哪一个 (您不应该更改此设置)。"
+#~ "如果您的显卡提供多个适配器，您可以选择将要使用哪一个 (您不应该更改此设"
+#~ "置)。"
 
 #~ msgid "Alternate fullscreen method"
 #~ msgstr "交替全屏模式"
@@ -26627,10 +26609,10 @@ msgstr "媒体管理器列表"
 #~ "2) Completely bypass the window manager, but then nothing will be able to "
 #~ "show on top of the video."
 #~ msgstr ""
-#~ "这里有两个方法创建一个全屏窗口,很遗憾的每一个都有缺点。\n"
-#~ "1) 让窗口管理器处理您的全屏窗口 (默认),但是可能会有类似任务栏的东西显示在"
+#~ "这里有两个方法创建一个全屏窗口，很遗憾的每一个都有缺点。\n"
+#~ "1) 让窗口管理器处理您的全屏窗口 (默认)，但是可能会有类似任务栏的东西显示在"
 #~ "视频上。\n"
-#~ "2) 完全绕过窗口管理器,但是没有东西能够显示在视频之上。"
+#~ "2) 完全绕过窗口管理器，但是没有东西能够显示在视频之上。"
 
 #~ msgid "Screen for fullscreen mode."
 #~ msgstr "全屏幕模式的屏幕。"
@@ -26648,7 +26630,8 @@ msgstr "媒体管理器列表"
 #~ "If your graphics card provides several adaptors, you need to choose which "
 #~ "one will be used (you shouldn't have to change this)."
 #~ msgstr ""
-#~ "如果您的显卡提供多个适配器,您可以选择将要使用哪一个 (您不应该更改此设置)。"
+#~ "如果您的显卡提供多个适配器，您可以选择将要使用哪一个 (您不应该更改此设"
+#~ "置)。"
 
 #~ msgid "XVimage chroma format"
 #~ msgstr "XVimage 色度格式"
@@ -26669,7 +26652,8 @@ msgstr "媒体管理器列表"
 #~ "If you graphics card provides several adaptors, this option allows you to "
 #~ "choose which one will be used (you shouldn't have to change this)."
 #~ msgstr ""
-#~ "如果您的显卡提供多个适配器,您可以选择将要使用哪一个 (您不应该更改此设置)。"
+#~ "如果您的显卡提供多个适配器，您可以选择将要使用哪一个 (您不应该更改此设"
+#~ "置)。"
 
 #~ msgid "X11 display name"
 #~ msgstr "X11 显示名"
@@ -26719,9 +26703,8 @@ msgstr "媒体管理器列表"
 #~ msgid "FFmpeg video filter"
 #~ msgstr "FFmpeg 视频滤镜"
 
-#, fuzzy
 #~ msgid "Autodetect"
-#~ msgstr "自动删除"
+#~ msgstr "自动侦测"
 
 #~ msgid "Login:"
 #~ msgstr "登录:"
@@ -26729,9 +26712,8 @@ msgstr "媒体管理器列表"
 #~ msgid "Remaining time: %i seconds"
 #~ msgstr "剩余时间: %i 秒"
 
-#, fuzzy
 #~ msgid "An error occured while saving your settings via SimplePrefs."
-#~ msgstr "在通过 SimplePrefs (%i) 保存您的设置时发生一个错误。"
+#~ msgstr "在通过 SimplePrefs 保存您的设置时发生了一个错误。"
 
 #~ msgid "New Node"
 #~ msgstr "新建节点"
@@ -26739,9 +26721,8 @@ msgstr "媒体管理器列表"
 #~ msgid "UDP/RTP Multicast"
 #~ msgstr "UDP/RTP 多播"
 
-#, fuzzy
 #~ msgid "textFormat"
-#~ msgstr "格式"
+#~ msgstr "文本格式"
 
 #~ msgid ""
 #~ "These are the settings for the input, demultiplexing and decoding parts "
@@ -26876,14 +26857,14 @@ msgstr "媒体管理器列表"
 #~ "Name of the audio device to use. If you don't specify anything, \"/dev/dsp"
 #~ "\" will be used for OSS."
 #~ msgstr ""
-#~ "要使用的音频设备名称。如果您不指定任何东西,OSS 将使用 \"/dev/dsp\"。"
+#~ "要使用的音频设备名称。如果您不指定任何东西，OSS 将使用 \"/dev/dsp\"。"
 
 #~ msgid ""
 #~ "Name of the audio device to use. If you don't specify anything, \"/dev/dsp"
 #~ "\" will be used for OSS, \"hw\" for Alsa."
 #~ msgstr ""
-#~ "要使用的音频设备名称。如果您不指定任何东西,OSS 将使用, \"/dev/dsp\" Alsa "
-#~ "使用, \"hw\"。"
+#~ "要使用的音频设备名称。如果您不指定任何东西，OSS 将使用 \"/dev/dsp\" Alsa "
+#~ "使用 \"hw\"。"
 
 #~ msgid "Audio method"
 #~ msgstr "音频模式"
@@ -26901,7 +26882,7 @@ msgstr "媒体管理器列表"
 #~ msgid ""
 #~ "Name of the audio device to use. If you don't specify anything, no audio "
 #~ "device will be used."
-#~ msgstr "要使用的音频设备的名称。如果您不指定任何东西,将无法使用音频设备。"
+#~ msgstr "要使用的音频设备的名称。如果您不指定任何东西，将无法使用音频设备。"
 
 #~ msgid ""
 #~ "Samplerate of the captured audio stream, in Hz (eg: 11025, 22050, 44100)"
@@ -27098,7 +27079,7 @@ msgstr "媒体管理器列表"
 #~ msgstr "这将开启用于通过 SAP 宣告发现流的时间位移。"
 
 #~ msgid "Universal Plug'n'Play discovery ( Intel SDK )"
-#~ msgstr "全局插件'n'播放查找 ( Intel SDK )"
+#~ msgstr "全局即插即用发现 (Intel SDK)"
 
 #~ msgid ""
 #~ "This is the hop limit (also known as \"Time-To-Live\" or TTL) of the "
@@ -27136,34 +27117,34 @@ msgstr "媒体管理器列表"
 #~ msgstr "OpenGL 柱面半径"
 
 #~ msgid "Radius of the OpenGL cylinder effect, if enabled"
-#~ msgstr "OpenGL 柱面效果的半径,如果开启"
+#~ msgstr "OpenGL 柱面效果的半径，如果开启"
 
 #~ msgid "Point of view x-coordinate"
 #~ msgstr "视图的 x 坐标点"
 
 #~ msgid ""
 #~ "Point of view (X coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "立方体/圆柱效果的视图点 (X 坐标),如果开启。"
+#~ msgstr "立方体/圆柱效果的视图点 (X 坐标)，如果开启。"
 
 #~ msgid "Point of view y-coordinate"
 #~ msgstr "视图的 y 坐标"
 
 #~ msgid ""
 #~ "Point of view (Y coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "立方体/圆柱效果的视图点 (Y 坐标),如果开启。"
+#~ msgstr "立方体/圆柱效果的视图点 (Y 坐标)，如果开启。"
 
 #~ msgid "Point of view z-coordinate"
 #~ msgstr "视图点的 z 坐标"
 
 #~ msgid ""
 #~ "Point of view (Z coordinate) of the cube/cylinder effect, if enabled."
-#~ msgstr "立方体/圆柱效果的视图点 (X 坐标),如果开启。"
+#~ msgstr "立方体/圆柱效果的视图点 (X 坐标)，如果开启。"
 
 #~ msgid "OpenGL cube rotation speed"
 #~ msgstr "OpenGL 立方体旋转速度"
 
 #~ msgid "Rotation speed of the OpenGL cube effect, if enabled."
-#~ msgstr "OpenGL 立方体效果的旋转速度,如果开启。"
+#~ msgstr "OpenGL 立方体效果的旋转速度，如果开启。"
 
 #~ msgid "Several visual OpenGL effects are available."
 #~ msgstr "有数个 OpenGL 可视化效果可用。"
@@ -27172,7 +27153,68 @@ msgstr "媒体管理器列表"
 #~ msgstr "波段号"
 
 #~ msgid "Number of bands used by spectrum analyzer, should be 20 or 80."
-#~ msgstr "光谱分析器使用的波段号,应该为 20 或 80。"
+#~ msgstr "光谱分析器使用的波段号，应为 20 或 80。"
 
 #~ msgid "Number of bands used by the spectrometer, from 20 to 80."
-#~ msgstr "光谱分析器使用的波段号,从 20 到 80。"
+#~ msgstr "光谱分析器使用的波段号，从 20 到 80。"
+
+#~ msgid ""
+#~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+#~ msgstr "容器 (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+
+#~ msgid "Video splitter"
+#~ msgstr "视频分离器"
+
+#~ msgid "Synchronous writing"
+#~ msgstr "同期写入"
+
+#~ msgid "Open the file with synchronous writing."
+#~ msgstr "以同期写入模式打开文件。"
+
+#~ msgid "Threads"
+#~ msgstr "线程"
+
+#~ msgid "Number of threads used for decoding, 0 meaning auto"
+#~ msgstr "用于解码的线程数量，0 表示自动决定"
+
+#~ msgid "Radius"
+#~ msgstr "半径"
+
+#~ msgid "Radius in pixels"
+#~ msgstr "以像素为单位的半径大小"
+
+#~ msgid "Strength"
+#~ msgstr "强度"
+
+#~ msgid "Strength used to modify the value of a pixel"
+#~ msgstr "修改像素值所用的强度"
+
+#~ msgid "Gradfun video filter"
+#~ msgstr "Gradfun 视频滤镜"
+
+#~ msgid "Gradfun"
+#~ msgstr "Gradfun"
+
+#~ msgid "Variance"
+#~ msgstr "差量"
+
+#~ msgid "Variance of the gaussian noise"
+#~ msgstr "高斯噪点差量"
+
+#~ msgid "Minimal period"
+#~ msgstr "最小周期"
+
+#~ msgid "Minimal period of the noise grain in pixel"
+#~ msgstr "噪点颗粒的最小周期，以像素为单位。"
+
+#~ msgid "Maximal period"
+#~ msgstr "最大周期"
+
+#~ msgid "Maximal period of the noise grain in pixel"
+#~ msgstr "噪点颗粒的最大周期，以像素为单位。"
+
+#~ msgid "Adds filtered gaussian noise"
+#~ msgstr "添加经过滤的高斯噪点"
+
+#~ msgid "Direct3D video output (XP)"
+#~ msgstr "Direct3D 视频输出 (XP)"
