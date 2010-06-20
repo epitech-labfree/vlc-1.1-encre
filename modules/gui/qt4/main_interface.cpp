@@ -614,7 +614,11 @@ void MainInterface::setVideoFullScreen( bool fs )
         QRect screenres = QApplication::desktop()->screenGeometry( numscreen );
 
         /* To be sure window is on proper-screen in xinerama */
+#if HAS_QT46
+        if( !screenres.contains( pos() ) && QApplication::desktop()->screenCount() > 1 )
+#else
         if( !screenres.contains( pos() ) )
+#endif
         {
             msg_Dbg( p_intf, "Moving video to correct screen");
             move( QPoint( screenres.x(), screenres.y() ) );
