@@ -173,7 +173,7 @@ int libvlc_video_get_height( libvlc_media_player_t *p_mi )
 {
     unsigned height, width;
 
-    if (libvlc_video_get_size (p_mi, 0, &height, &width))
+    if (libvlc_video_get_size (p_mi, 0, &width, &height))
         return 0;
     return height;
 }
@@ -182,7 +182,7 @@ int libvlc_video_get_width( libvlc_media_player_t *p_mi )
 {
     unsigned height, width;
 
-    if (libvlc_video_get_size (p_mi, 0, &height, &width))
+    if (libvlc_video_get_size (p_mi, 0, &width, &height))
         return 0;
     return width;
 }
