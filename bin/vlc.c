@@ -185,7 +185,7 @@ int main( int i_argc, const char *ppsz_argv[] )
     {
         if (libvlc_add_intf (vlc, "signals"))
             pthread_sigmask (SIG_UNBLOCK, &set, NULL);
-#if !defined (HAVE_MAEMO)
+#if !defined (HAVE_MAEMO) && !defined __APPLE__
         libvlc_add_intf (vlc, "globalhotkeys,none");
 #endif
         if (libvlc_add_intf (vlc, NULL) == 0)
