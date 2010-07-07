@@ -500,20 +500,14 @@ static void openDirectory( intf_thread_t *p_intf, bool pl, bool go )
     if( dir.isEmpty() )
         return;
 
-    QString mrl;
+    char *uri = make_URI( qtu( dir ) );
+    if( unlikely(uri == NULL) )
+        return;
 
-    if( dir.endsWith( "/VIDEO_TS", Qt::CaseInsensitive ) )
-        mrl = qfu("dvd://") + toNativeSeparators( dir );
-    else
-    {
-        char *uri = make_URI( qtu( dir ) );
-        if( unlikely(uri == NULL) )
-            return;
-        mrl = qfu(uri);
-        free( uri );
-    }
+    RecentsMRL::getInstance( p_intf )->addRecent( qfu(uri) );
 
-    input_item_t *p_input = input_item_New( THEPL, qtu( mrl ), NULL );
+    input_item_t *p_input = input_item_New( THEPL, uri, NULL );
+    free( uri );
     if( unlikely( p_input == NULL ) )
         return;
 
@@ -521,7 +515,6 @@ static void openDirectory( intf_thread_t *p_intf, bool pl, bool go )
     playlist_AddInput( THEPL, p_input,
                       go ? ( PLAYLIST_APPEND | PLAYLIST_GO ) : PLAYLIST_APPEND,
                        PLAYLIST_END, pl, pl_Unlocked );
-    RecentsMRL::getInstance( p_intf )->addRecent( mrl );
     if( !go )
         input_Read( THEPL, p_input );
     vlc_gc_decref( p_input );
