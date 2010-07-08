@@ -188,14 +188,16 @@ char *FindPrefix( demux_t *p_demux )
     char *psz_file;
     char *psz_prefix;
     char *psz_path;
-    if( p_demux->psz_access )
+
+    if( p_demux->psz_access && *p_demux->psz_access
+     && strcasecmp( p_demux->psz_access, "file" ) )
     {
         if( asprintf( &psz_path,"%s://%s", p_demux->psz_access, p_demux->psz_path ) == -1 )
             return NULL;
     }
     else
     {
-        psz_path = strdup( p_demux->psz_path );
+        psz_path = make_URI( p_demux->psz_path );
         if( psz_path == NULL )
             return NULL;
     }
