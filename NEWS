@@ -5,19 +5,37 @@ libVLC:
  * Support for the new capabilities: libvlc_adjust_Enable, libvlc_adjust_Contrast,
    libvlc_adjust_Brightness, libvlc_adjust_Hue, libvlc_adjust_Saturation, libvlc_adjust_Gamma
  * Various fixes and crash preventions, especially when video functions were called early
+ * Support for setting the user-agent: libvlc_set_user_agent
 
 Stream output:
  * Fix h264 streaming in ts
 
-Windows and Mac port:
- * Fix mod files support
-
-Decoders:
+Decoders/Demuxers:
  * Fix performance issues with GPU decoding using DxVA2 using ATI graphic cards
    You NEED ATI Catalyst 10.7
+ * Fix :program selection in TS and DVB-T
+ * Fixes for MKV, Avformat and Avcodec modules
+ * Fix mod (.xm, .s3m, .it) files support on Windows and Mac builds
+
+Linux port:
+ * Fix pulse closing
+
+Interfaces:
+ * Qt: fix preferences, hotkeys and some fulscreen behaviour
+ * Skins: support for mousewheel in fullscreen, fix radialsliders
+ * Http: fix fullscreen toggle
 
 MacOS:
- * Interface and crash fixes
+ * Multiple interface and crash fixes
+ * Deinterlace selection is repaired
+
+Windows:
+ * Fix opening of .m3u and .pls playlists
+ * Fix crash when My Document isn't available
+ * Activation of DEP on XP SP3
+
+Translations:
+ * Update translations for Spanish, Polish, German, Sinhala, Hungarian, Khmer, Brazilian Portuguese,
 
 
 Changes between 1.0.6 and 1.1.0:
