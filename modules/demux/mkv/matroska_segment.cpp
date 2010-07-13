@@ -909,6 +909,10 @@ bool matroska_segment_c::Select( mtime_t i_start_time )
             }
             stream_Delete( p_mp4_stream );
         }
+        else if( !strcmp( tracks[i_track]->psz_codec, "V_MJPEG" ) )
+        {
+            p_tk->fmt.i_codec = VLC_CODEC_MJPG;
+        }
         else if( !strcmp( tracks[i_track]->psz_codec, "A_MS/ACM" ) )
         {
             if( tracks[i_track]->i_extra_data < (int)sizeof( WAVEFORMATEX ) )
