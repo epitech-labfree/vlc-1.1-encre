@@ -48,6 +48,12 @@ EbmlParser::EbmlParser( EbmlStream *es, EbmlElement *el_start, demux_t *p_demux 
 
 EbmlParser::~EbmlParser( void )
 {
+    if( !mi_level )
+    {
+        delete m_el[1];
+        return;
+    }
+
     int i;
 
     for( i = 1; i < mi_level; i++ )
