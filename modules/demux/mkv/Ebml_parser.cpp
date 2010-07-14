@@ -50,6 +50,7 @@ EbmlParser::~EbmlParser( void )
 {
     if( !mi_level )
     {
+        assert( !mb_keep );
         delete m_el[1];
         return;
     }
