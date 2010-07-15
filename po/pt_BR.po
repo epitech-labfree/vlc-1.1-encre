@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pt_BR\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-06-30 00:01+0100\n"
+"POT-Creation-Date: 2010-07-15 22:40+0100\n"
 "PO-Revision-Date: 2010-06-28 19:41-0300\n"
 "Last-Translator: Sidney Doria <ssdoria@gmail.com>\n"
 "Language-Team: Brazilian Portuguese\n"
@@ -73,7 +73,7 @@ msgstr "Configurações para as interfaces de controle do VLC"
 msgid "Hotkeys settings"
 msgstr "Configurações de atalhos"
 
-#: include/vlc_config_cat.h:52 src/input/es_out.c:2850 src/input/es_out.c:2891
+#: include/vlc_config_cat.h:52 src/input/es_out.c:2870 src/input/es_out.c:2911
 #: src/libvlc-module.c:1569 modules/access/imem.c:69
 #: modules/gui/macosx/intf.m:668 modules/gui/macosx/output.m:170
 #: modules/gui/macosx/playlistinfo.m:114 modules/gui/macosx/simple_prefs.m:184
@@ -129,7 +129,7 @@ msgstr "Outros"
 msgid "Miscellaneous audio settings and modules."
 msgstr "Outras configurações e módulos de áudio."
 
-#: include/vlc_config_cat.h:70 src/input/es_out.c:2853 src/input/es_out.c:2938
+#: include/vlc_config_cat.h:70 src/input/es_out.c:2873 src/input/es_out.c:2958
 #: src/libvlc-module.c:1622 modules/access/imem.c:69
 #: modules/gui/macosx/intf.m:681 modules/gui/macosx/output.m:160
 #: modules/gui/macosx/playlistinfo.m:103 modules/gui/macosx/simple_prefs.m:188
@@ -353,7 +353,7 @@ msgstr "VOD"
 msgid "VLC's implementation of Video On Demand"
 msgstr "A implementação do VLC de Vídeo sob Demanda"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2110
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2106
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
@@ -804,7 +804,7 @@ msgid "The maximum number of filters (%d) was reached."
 msgstr "O número máximo de filtros (%d) foi atingido."
 
 #: src/audio_output/input.c:110 src/audio_output/input.c:156
-#: src/input/es_out.c:931 src/libvlc-module.c:655
+#: src/input/es_out.c:934 src/libvlc-module.c:655
 #: src/video_output/video_output.c:1698 modules/video_filter/postproc.c:230
 msgid "Disable"
 msgstr "Desabilitar"
@@ -897,15 +897,15 @@ msgstr "chave"
 msgid "boolean"
 msgstr "booleano"
 
-#: src/config/file.c:630 src/libvlc.c:1581
+#: src/config/file.c:630 src/libvlc.c:1587
 msgid "integer"
 msgstr "inteiro"
 
-#: src/config/file.c:639 src/libvlc.c:1611
+#: src/config/file.c:639 src/libvlc.c:1617
 msgid "float"
 msgstr "float"
 
-#: src/config/file.c:662 src/libvlc.c:1559
+#: src/config/file.c:662 src/libvlc.c:1565
 msgid "string"
 msgstr "string"
 
@@ -957,90 +957,90 @@ msgstr ""
 "O VLC provavelmente não tem suporte ao formato de vídeo ou de áudio \"%4.4s"
 "\". Infelizmente não existe uma forma de corrigir isso."
 
-#: src/input/es_out.c:951 src/input/es_out.c:956 src/libvlc-module.c:358
+#: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:358
 #: modules/access/vcdx/access.c:460 modules/access/vcdx/info.c:226
 #: modules/gui/qt4/components/open_panels.cpp:398
 msgid "Track"
 msgstr "Trilha"
 
-#: src/input/es_out.c:1156
+#: src/input/es_out.c:1165
 #, c-format
 msgid "%s [%s %d]"
 msgstr "%s [%s %d]"
 
-#: src/input/es_out.c:1156 src/input/es_out.c:1161 src/input/var.c:177
+#: src/input/es_out.c:1165 src/input/es_out.c:1170 src/input/var.c:177
 #: src/libvlc-module.c:688 modules/gui/macosx/intf.m:661
 #: modules/gui/macosx/intf.m:662
 msgid "Program"
 msgstr "Programa"
 
-#: src/input/es_out.c:1355 src/input/es_out.c:1357
+#: src/input/es_out.c:1368 src/input/es_out.c:1370
 msgid "Scrambled"
 msgstr "Embaralhado"
 
-#: src/input/es_out.c:1355
+#: src/input/es_out.c:1368
 msgid "Yes"
 msgstr "Sim"
 
-#: src/input/es_out.c:2012
+#: src/input/es_out.c:2025
 #, c-format
 msgid "Closed captions %u"
 msgstr "Legenda oculta %u"
 
-#: src/input/es_out.c:2840
+#: src/input/es_out.c:2860
 #, c-format
 msgid "Stream %d"
 msgstr "Fluxo %d"
 
-#: src/input/es_out.c:2856 src/input/es_out.c:2965 modules/access/imem.c:69
+#: src/input/es_out.c:2876 src/input/es_out.c:2985 modules/access/imem.c:69
 msgid "Subtitle"
 msgstr "Legenda"
 
-#: src/input/es_out.c:2864 src/input/es_out.c:2891 src/input/es_out.c:2938
-#: src/input/es_out.c:2965 modules/gui/macosx/output.m:153
+#: src/input/es_out.c:2884 src/input/es_out.c:2911 src/input/es_out.c:2958
+#: src/input/es_out.c:2985 modules/gui/macosx/output.m:153
 msgid "Type"
 msgstr "Tipo"
 
-#: src/input/es_out.c:2867
+#: src/input/es_out.c:2887
 msgid "Original ID"
 msgstr "ID Original"
 
-#: src/input/es_out.c:2875 src/input/es_out.c:2878 modules/access/imem.c:72
+#: src/input/es_out.c:2895 src/input/es_out.c:2898 modules/access/imem.c:72
 #: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:477
 #: linux/modules/gui/qt4/ui/profiles.h:496
 msgid "Codec"
 msgstr "Codec"
 
-#: src/input/es_out.c:2882 src/input/meta.c:62 src/libvlc-module.c:214
+#: src/input/es_out.c:2902 src/input/meta.c:62 src/libvlc-module.c:214
 #: modules/access/imem.c:76 modules/gui/macosx/simple_prefs.m:269
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "Idioma"
 
-#: src/input/es_out.c:2885 src/input/meta.c:57
+#: src/input/es_out.c:2905 src/input/meta.c:57
 #: modules/gui/macosx/bookmarks.m:94 modules/gui/qt4/dialogs/bookmarks.cpp:65
 msgid "Description"
 msgstr "Descrição"
 
-#: src/input/es_out.c:2894 src/input/es_out.c:2897
+#: src/input/es_out.c:2914 src/input/es_out.c:2917
 #: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:499
 msgid "Channels"
 msgstr "Canais"
 
-#: src/input/es_out.c:2902 modules/access/imem.c:80
+#: src/input/es_out.c:2922 modules/access/imem.c:80
 msgid "Sample rate"
 msgstr "Taxa de amostragem"
 
-#: src/input/es_out.c:2902
+#: src/input/es_out.c:2922
 #, c-format
 msgid "%u Hz"
 msgstr "%u Hz"
 
-#: src/input/es_out.c:2912
+#: src/input/es_out.c:2932
 msgid "Bits per sample"
 msgstr "Bits por amostra"
 
-#: src/input/es_out.c:2917 modules/access/pvr.c:96
+#: src/input/es_out.c:2937 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
 #: modules/gui/qt4/components/open_panels.cpp:901
 #: linux/modules/gui/qt4/ui/profiles.h:478
@@ -1048,33 +1048,33 @@ msgstr "Bits por amostra"
 msgid "Bitrate"
 msgstr "Taxa de bits"
 
-#: src/input/es_out.c:2917
+#: src/input/es_out.c:2937
 #, c-format
 msgid "%u kb/s"
 msgstr "%u kb/s"
 
-#: src/input/es_out.c:2929
+#: src/input/es_out.c:2949
 msgid "Track replay gain"
 msgstr "Ganho na reprodução da trilha"
 
-#: src/input/es_out.c:2931
+#: src/input/es_out.c:2951
 msgid "Album replay gain"
 msgstr "Ganho na reprodução do álbum"
 
-#: src/input/es_out.c:2932
+#: src/input/es_out.c:2952
 #, c-format
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2941 linux/modules/gui/qt4/ui/profiles.h:483
+#: src/input/es_out.c:2961 linux/modules/gui/qt4/ui/profiles.h:483
 msgid "Resolution"
 msgstr "Resolução"
 
-#: src/input/es_out.c:2946
+#: src/input/es_out.c:2966
 msgid "Display resolution"
 msgstr "Exibir resolução"
 
-#: src/input/es_out.c:2956 src/input/es_out.c:2959 modules/access/imem.c:98
+#: src/input/es_out.c:2976 src/input/es_out.c:2979 modules/access/imem.c:98
 #: modules/access/screen/screen.c:44 modules/access/screen/xcb.c:38
 msgid "Frame rate"
 msgstr "Taxa de quadros"
@@ -1263,7 +1263,7 @@ msgstr "Movimentos do mouse"
 msgid "C"
 msgstr "pt_BR"
 
-#: src/libvlc.c:1109
+#: src/libvlc.c:1115
 msgid ""
 "Running vlc with the default interface. Use 'cvlc' to use vlc without "
 "interface."
@@ -1271,11 +1271,11 @@ msgstr ""
 "Executando o VLC com a interface padrão. Use 'cvlc' para usar o VLC sem "
 "interface."
 
-#: src/libvlc.c:1233
+#: src/libvlc.c:1239
 msgid "To get exhaustive help, use '-H'."
 msgstr "Para uma ajuda detalhada, use '-H'."
 
-#: src/libvlc.c:1237 src/libvlc-module.c:1517
+#: src/libvlc.c:1243 src/libvlc-module.c:1517
 #, c-format
 msgid ""
 "Usage: %s [options] [stream] ...\n"
@@ -1347,29 +1347,29 @@ msgstr ""
 "reprodução por um certo tempo\n"
 "  vlc://quit                     Item especial para encerrar o VLC\n"
 
-#: src/libvlc.c:1627
+#: src/libvlc.c:1633
 msgid " (default enabled)"
 msgstr " (habilitado por padrão)"
 
-#: src/libvlc.c:1628
+#: src/libvlc.c:1634
 msgid " (default disabled)"
 msgstr " (desabilitado por padrão)"
 
-#: src/libvlc.c:1791 src/libvlc.c:1794 src/libvlc.c:1802 src/libvlc.c:1807
+#: src/libvlc.c:1797 src/libvlc.c:1800 src/libvlc.c:1808 src/libvlc.c:1813
 msgid "Note:"
 msgstr "Nota:"
 
-#: src/libvlc.c:1792 src/libvlc.c:1795
+#: src/libvlc.c:1798 src/libvlc.c:1801
 msgid "add --advanced to your command line to see advanced options."
 msgstr "Adicione --advanced à sua linha de comando para ver opções avançadas."
 
-#: src/libvlc.c:1803 src/libvlc.c:1808
+#: src/libvlc.c:1809 src/libvlc.c:1814
 #, c-format
 msgid ""
 "%d module(s) were not displayed because they only have advanced options.\n"
 msgstr "%d módulos(s) não foram exibidos porque só possuem opções avançadas.\n"
 
-#: src/libvlc.c:1815 src/libvlc.c:1819
+#: src/libvlc.c:1821 src/libvlc.c:1825
 msgid ""
 "No matching module found. Use --list or --list-verbose to list available "
 "modules."
@@ -1377,22 +1377,22 @@ msgstr ""
 "Nenhum módulo correspondente foi encontrado. Use --list ou --list-verbose "
 "para listar os módulos disponíveis."
 
-#: src/libvlc.c:1909
+#: src/libvlc.c:1915
 #, c-format
 msgid "VLC version %s (%s)\n"
 msgstr "Versão %s (%s) do VLC\n"
 
-#: src/libvlc.c:1911
+#: src/libvlc.c:1917
 #, c-format
 msgid "Compiled by %s on %s (%s)\n"
 msgstr "Compilado por %s on %s (%s)\n"
 
-#: src/libvlc.c:1913
+#: src/libvlc.c:1919
 #, c-format
 msgid "Compiler: %s\n"
 msgstr "Compilador: %s\n"
 
-#: src/libvlc.c:1948
+#: src/libvlc.c:1954
 msgid ""
 "\n"
 "Dumped content to vlc-help.txt file.\n"
@@ -1400,7 +1400,7 @@ msgstr ""
 "\n"
 "Conteúdo extraído para o arquivo vlc-help.txt.\n"
 
-#: src/libvlc.c:1968
+#: src/libvlc.c:1974
 msgid ""
 "\n"
 "Press the RETURN key to continue...\n"
@@ -1409,7 +1409,7 @@ msgstr ""
 "Pressione Enter para continuar...\n"
 
 #: src/libvlc.h:175 src/libvlc-module.c:1464 src/libvlc-module.c:1465
-#: src/libvlc-module.c:2644 src/video_output/vout_intf.c:195
+#: src/libvlc-module.c:2640 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "Aproximação"
 
@@ -4649,28 +4649,28 @@ msgstr "Módulos especiais"
 msgid "Plugins"
 msgstr "Complementos"
 
-#: src/libvlc-module.c:2064
+#: src/libvlc-module.c:2060
 msgid "Performance options"
 msgstr "Opções de desempenho"
 
-#: src/libvlc-module.c:2212
+#: src/libvlc-module.c:2208
 msgid "Hot keys"
 msgstr "Teclas-chave"
 
-#: src/libvlc-module.c:2654
+#: src/libvlc-module.c:2650
 msgid "Jump sizes"
 msgstr "Tamanho dos saltos"
 
-#: src/libvlc-module.c:2731
+#: src/libvlc-module.c:2727
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 "Imprimir a ajuda do VLC (pode ser combinada com --advanced e --help-verbose)"
 
-#: src/libvlc-module.c:2734
+#: src/libvlc-module.c:2730
 msgid "Exhaustive help for VLC and its modules"
 msgstr "Ajuda detalhada para o VLC e seus módulos"
 
-#: src/libvlc-module.c:2736
+#: src/libvlc-module.c:2732
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4678,19 +4678,19 @@ msgstr ""
 "Imprimir a ajuda do VLC e todos os seus módulos (pode ser combinada com --"
 "advanced e --help-verbose)"
 
-#: src/libvlc-module.c:2739
+#: src/libvlc-module.c:2735
 msgid "ask for extra verbosity when displaying help"
 msgstr "Solicitar detalhamento quando exibir a ajuda"
 
-#: src/libvlc-module.c:2741
+#: src/libvlc-module.c:2737
 msgid "print a list of available modules"
 msgstr "Imprime uma lista de todos os módulos"
 
-#: src/libvlc-module.c:2743
+#: src/libvlc-module.c:2739
 msgid "print a list of available modules with extra detail"
 msgstr "Imprime uma lista dos módulos disponíveis com detalhes"
 
-#: src/libvlc-module.c:2745
+#: src/libvlc-module.c:2741
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4698,29 +4698,29 @@ msgstr ""
 "Exibe a ajuda de um módulo específico (pode ser combinado com --advanced e --"
 "help-verbose). Use o prefixo = com o nome do módulo para uma busca exata."
 
-#: src/libvlc-module.c:2749
+#: src/libvlc-module.c:2745
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr ""
 "nenhuma opção de configuração será carregada nem salva para o arquivo de "
 "configuração"
 
-#: src/libvlc-module.c:2751
+#: src/libvlc-module.c:2747
 msgid "reset the current config to the default values"
 msgstr "Reestabeceler a configuração atual aos seus valores originais"
 
-#: src/libvlc-module.c:2753
+#: src/libvlc-module.c:2749
 msgid "use alternate config file"
 msgstr "Usar arquivo de configuração alternativo"
 
-#: src/libvlc-module.c:2755
+#: src/libvlc-module.c:2751
 msgid "resets the current plugins cache"
 msgstr "Reestabelece o cache atual dos complementos"
 
-#: src/libvlc-module.c:2757
+#: src/libvlc-module.c:2753
 msgid "print version information"
 msgstr "Imprimir informações sobre a versão"
 
-#: src/libvlc-module.c:2795
+#: src/libvlc-module.c:2791
 msgid "main program"
 msgstr "programa principal"
 
@@ -6933,11 +6933,11 @@ msgstr "Entrada HTTP"
 msgid "HTTP(S)"
 msgstr "HTTP(S)"
 
-#: modules/access/http.c:546
+#: modules/access/http.c:547
 msgid "HTTP authentication"
 msgstr "Autenticação HTTP"
 
-#: modules/access/http.c:547
+#: modules/access/http.c:548
 #, c-format
 msgid "Please enter a valid login name and a password for realm %s."
 msgstr ""
@@ -7041,7 +7041,6 @@ msgid "Text identifier for the callback functions"
 msgstr "Identificador de texto para as funções de chamada de retorno"
 
 #: modules/access/imem.c:106 modules/codec/invmem.c:67
-#: modules/video_output/vmem.c:63
 msgid "Callback data"
 msgstr "Dados de Callback"
 
@@ -7065,7 +7064,16 @@ msgstr "Descarregar função"
 msgid "Address of the release callback function"
 msgstr "Endereço da chamada da função de desalocação"
 
-#: modules/access/imem.c:119 modules/access/imem.c:120
+#: modules/access/imem.c:118
+msgid "Size"
+msgstr "Tamanho"
+
+#: modules/access/imem.c:120
+#, fuzzy
+msgid "Size of stream in bytes"
+msgstr "Limitar o tamanho de cada pedaço em bytes"
+
+#: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
 msgstr "Entrada de memória"
 
@@ -8313,7 +8321,7 @@ msgstr "Disco"
 msgid "VCD Format"
 msgstr "Formato VCD"
 
-#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:296
+#: modules/access/vcdx/info.c:64 modules/gui/qt4/dialogs/messages.cpp:299
 msgid "Application"
 msgstr "Aplicativo"
 
@@ -9611,14 +9619,14 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:869
-#: modules/gui/qt4/main_interface.cpp:873
-#: modules/gui/qt4/main_interface.cpp:913
-#: modules/gui/qt4/main_interface.cpp:915
-#: modules/gui/qt4/main_interface.cpp:983
-#: modules/gui/qt4/main_interface.cpp:1000
-#: modules/gui/qt4/main_interface.cpp:1007
-#: modules/gui/qt4/main_interface.cpp:1030
+#: modules/gui/qt4/main_interface.cpp:864
+#: modules/gui/qt4/main_interface.cpp:868
+#: modules/gui/qt4/main_interface.cpp:908
+#: modules/gui/qt4/main_interface.cpp:910
+#: modules/gui/qt4/main_interface.cpp:978
+#: modules/gui/qt4/main_interface.cpp:995
+#: modules/gui/qt4/main_interface.cpp:1002
+#: modules/gui/qt4/main_interface.cpp:1025
 #: modules/video_output/xcb/window.c:319
 msgid "VLC media player"
 msgstr "Reprodutor de mídias VLC"
@@ -10518,7 +10526,7 @@ msgstr "Coordenada Y da legenda codificada"
 msgid "DVB subtitles decoder"
 msgstr "Decodificador de legendas de DVB"
 
-#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3517 modules/demux/ts.c:3575
+#: modules/codec/dvbsub.c:119 modules/demux/ts.c:3492 modules/demux/ts.c:3550
 msgid "DVB subtitles"
 msgstr "Legendas DVB"
 
@@ -10665,7 +10673,7 @@ msgstr "Largura do buffer de memória de vídeo."
 msgid "Video memory buffer height."
 msgstr "Altura do buffer de memória de vídeo."
 
-#: modules/codec/invmem.c:59 modules/video_output/vmem.c:55
+#: modules/codec/invmem.c:59
 msgid "Lock function"
 msgstr "Função de bloqueio"
 
@@ -10677,15 +10685,15 @@ msgstr ""
 "Endereço da função de callback para bloqueio. Esta função deve retornar um "
 "endereço válido de memória para uso do gerador de vídeo."
 
-#: modules/codec/invmem.c:64 modules/video_output/vmem.c:60
+#: modules/codec/invmem.c:64
 msgid "Unlock function"
 msgstr "Função de desbloqueio"
 
-#: modules/codec/invmem.c:65 modules/video_output/vmem.c:61
+#: modules/codec/invmem.c:65
 msgid "Address of the unlocking callback function"
 msgstr "Endereço da função de callback para desbloqueio"
 
-#: modules/codec/invmem.c:68 modules/video_output/vmem.c:64
+#: modules/codec/invmem.c:68
 msgid "Data for the locking and unlocking functions"
 msgstr "Dados para as funções de bloqueio e desbloqueio"
 
@@ -14491,19 +14499,19 @@ msgstr "Tele texto: programação"
 msgid "Teletext subtitles: hearing impaired"
 msgstr "Legendas tele texto: deficientes auditivos"
 
-#: modules/demux/ts.c:3582
+#: modules/demux/ts.c:3557
 msgid "DVB subtitles: hearing impaired"
 msgstr "Legendas DVB: deficientes auditivos"
 
-#: modules/demux/ts.c:3874 modules/demux/ts.c:3916
+#: modules/demux/ts.c:3849 modules/demux/ts.c:3891
 msgid "clean effects"
 msgstr "desabilitar efeitos"
 
-#: modules/demux/ts.c:3878 modules/demux/ts.c:3920
+#: modules/demux/ts.c:3853 modules/demux/ts.c:3895
 msgid "hearing impaired"
 msgstr "deficientes auditivos"
 
-#: modules/demux/ts.c:3882 modules/demux/ts.c:3924
+#: modules/demux/ts.c:3857 modules/demux/ts.c:3899
 msgid "visual impaired commentary"
 msgstr "Comentário para deficientes visuais"
 
@@ -16032,7 +16040,7 @@ msgid "Lost frames"
 msgstr "Quadros perdidos"
 
 #: modules/gui/macosx/playlistinfo.m:109 modules/gui/macosx/wizard.m:363
-#: modules/gui/qt4/dialogs_provider.cpp:627
+#: modules/gui/qt4/dialogs_provider.cpp:632
 #: modules/video_filter/deinterlace.c:149
 msgid "Streaming"
 msgstr "Fluxo"
@@ -17572,15 +17580,15 @@ msgstr "dB"
 msgid "Enable spatializer"
 msgstr "Habilitar efeito espacial"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1284
+#: modules/gui/qt4/components/extended_panels.cpp:1283
 msgid "Audio/Video"
 msgstr "Áudio/Vídeo"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1300
+#: modules/gui/qt4/components/extended_panels.cpp:1299
 msgid "Advance of audio over video:"
 msgstr "Avanço do áudio em relação ao vídeo:"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1309
+#: modules/gui/qt4/components/extended_panels.cpp:1308
 msgid ""
 "A positive value means that\n"
 "the audio is ahead of the video"
@@ -17588,15 +17596,15 @@ msgstr ""
 "Um valor positivo significa que\n"
 " o áudio está à frente do vídeo"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1317
+#: modules/gui/qt4/components/extended_panels.cpp:1316
 msgid "Subtitles/Video"
 msgstr "Legendas/Vídeo"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1333
+#: modules/gui/qt4/components/extended_panels.cpp:1332
 msgid "Advance of subtitles over video:"
 msgstr "Avanço da legenda em relação ao vídeo:"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1342
+#: modules/gui/qt4/components/extended_panels.cpp:1341
 msgid ""
 "A positive value means that\n"
 "the subtitles are ahead of the video"
@@ -17604,11 +17612,11 @@ msgstr ""
 "Um valor positivo significa que\n"
 " a legenda está à frente do vídeo"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1361
+#: modules/gui/qt4/components/extended_panels.cpp:1360
 msgid "Speed of the subtitles:"
 msgstr "Velocidade da legenda:"
 
-#: modules/gui/qt4/components/extended_panels.cpp:1394
+#: modules/gui/qt4/components/extended_panels.cpp:1393
 msgid "Force update of this dialog's values"
 msgstr "Impor a atualização dos valores desta janela"
 
@@ -17925,7 +17933,7 @@ msgid "Apply"
 msgstr "Aplicar"
 
 #: modules/gui/qt4/components/preferences_widgets.cpp:1363
-#: modules/gui/qt4/util/customwidgets.cpp:439
+#: modules/gui/qt4/util/customwidgets.cpp:448
 msgid "Unset"
 msgstr "Desmarcar"
 
@@ -18456,15 +18464,15 @@ msgstr "Filtro de mensagens"
 msgid "&Update"
 msgstr "At&ualizar"
 
-#: modules/gui/qt4/dialogs/messages.cpp:288
+#: modules/gui/qt4/dialogs/messages.cpp:291
 msgid "Save log file as..."
 msgstr "Salvar o arquivo de registro como..."
 
-#: modules/gui/qt4/dialogs/messages.cpp:290
+#: modules/gui/qt4/dialogs/messages.cpp:293
 msgid "Texts / Logs (*.log *.txt);; All (*.*) "
 msgstr "Textos / Registros (*.log *.txt);; Todos (*.*) "
 
-#: modules/gui/qt4/dialogs/messages.cpp:297
+#: modules/gui/qt4/dialogs/messages.cpp:300
 msgid ""
 "Cannot write to file %1:\n"
 "%2."
@@ -18825,31 +18833,31 @@ msgstr "Abrir Pasta"
 msgid "Open Folder"
 msgstr "Abrir Pasta"
 
-#: modules/gui/qt4/dialogs_provider.cpp:538
+#: modules/gui/qt4/dialogs_provider.cpp:543
 msgid "Open playlist..."
 msgstr "Abrir lista de reprodução..."
 
-#: modules/gui/qt4/dialogs_provider.cpp:553
+#: modules/gui/qt4/dialogs_provider.cpp:558
 msgid "XSPF playlist (*.xspf)"
 msgstr "Lista de reprodução XSPF (*.xspf)"
 
-#: modules/gui/qt4/dialogs_provider.cpp:554
+#: modules/gui/qt4/dialogs_provider.cpp:559
 msgid "M3U8 playlist (*.m3u)"
 msgstr "Lista de reprodução M3U8 (*.m3u)"
 
-#: modules/gui/qt4/dialogs_provider.cpp:555
+#: modules/gui/qt4/dialogs_provider.cpp:560
 msgid "M3U playlist (*.m3u)"
 msgstr "Lista de reprodução M3U (*.m3u)"
 
-#: modules/gui/qt4/dialogs_provider.cpp:556
+#: modules/gui/qt4/dialogs_provider.cpp:561
 msgid "HTML playlist (*.html)"
 msgstr "Lista de reprodução HTML (*.html)"
 
-#: modules/gui/qt4/dialogs_provider.cpp:568
+#: modules/gui/qt4/dialogs_provider.cpp:573
 msgid "Save playlist as..."
 msgstr "Salvar lista de reprodução como..."
 
-#: modules/gui/qt4/dialogs_provider.cpp:677
+#: modules/gui/qt4/dialogs_provider.cpp:682
 msgid "Open subtitles..."
 msgstr "Abrir legenda..."
 
@@ -18865,11 +18873,11 @@ msgstr "Arquivos de legenda"
 msgid "All Files"
 msgstr "Todos os arquivos"
 
-#: modules/gui/qt4/main_interface.cpp:984
+#: modules/gui/qt4/main_interface.cpp:979
 msgid "Control menu for the player"
 msgstr "Menu de controles do reprodutor"
 
-#: modules/gui/qt4/main_interface.cpp:1027
+#: modules/gui/qt4/main_interface.cpp:1022
 msgid "Paused"
 msgstr "Pausado"
 
@@ -24967,11 +24975,11 @@ msgstr "Filtro de vídeo de ondas"
 msgid "YUVP converter"
 msgstr "Conversor YUVP"
 
-#: modules/video_output/aa.c:50
+#: modules/video_output/aa.c:57
 msgid "ASCII Art"
 msgstr "Arte ASCII"
 
-#: modules/video_output/aa.c:53
+#: modules/video_output/aa.c:60
 msgid "ASCII-art video output"
 msgstr "Saída de vídeo do ASCII-art"
 
@@ -25204,11 +25212,11 @@ msgstr "Controlador OpenGL"
 msgid "Allows you to modify what OpenGL provider should be used"
 msgstr "Permite a escolha do controlador OpenGL"
 
-#: modules/video_output/sdl.c:50
+#: modules/video_output/sdl.c:57
 msgid "SDL chroma format"
 msgstr "Formato cromático SDL"
 
-#: modules/video_output/sdl.c:52
+#: modules/video_output/sdl.c:59
 msgid ""
 "Force the SDL renderer to use a specific chroma format instead of trying to "
 "improve performances by using the most efficient one."
@@ -25216,7 +25224,7 @@ msgstr ""
 "Impor o processador SDL a usar um formato cromático específico em vez de "
 "deixá-lo melhorar o desempenho escolhendo o mais eficiente."
 
-#: modules/video_output/sdl.c:59
+#: modules/video_output/sdl.c:66
 msgid "Simple DirectMedia Layer video output"
 msgstr "Saída de vídeo do Simple DirectMedia Layer"
 
@@ -25269,20 +25277,11 @@ msgstr "Variação"
 msgid "Video memory buffer pitch in bytes."
 msgstr "Dilatação do buffer de memória de vídeo em bytes."
 
-#: modules/video_output/vmem.c:56
-msgid ""
-"Address of the locking callback function. This function must fill in valid "
-"plane memory address information for use by the video renderer."
-msgstr ""
-"Endereço da função de bloqueio de callback. Esta função deve fornecer uma "
-"informação de endereço plano e válido de memória para ser usada pelo "
-"exibidor de vídeo."
-
-#: modules/video_output/vmem.c:70
+#: modules/video_output/vmem.c:59
 msgid "Video memory output"
 msgstr "Saída de memória de vídeo"
 
-#: modules/video_output/vmem.c:71
+#: modules/video_output/vmem.c:60
 msgid "Video memory"
 msgstr "Memória de vídeo"
 
@@ -25805,6 +25804,7 @@ msgid "Enter the URL of the network stream here."
 msgstr "Preencha a URL do fluxo de rede aqu."
 
 #: linux/modules/gui/qt4/ui/open_net.h:97
+#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -25818,7 +25818,7 @@ msgid ""
 "#838383;\">http://www.example.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
@@ -26540,6 +26540,14 @@ msgstr "Contínuo"
 #: linux/modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "Lista do Gerenciador de Mídias"
+
+#~ msgid ""
+#~ "Address of the locking callback function. This function must fill in "
+#~ "valid plane memory address information for use by the video renderer."
+#~ msgstr ""
+#~ "Endereço da função de bloqueio de callback. Esta função deve fornecer uma "
+#~ "informação de endereço plano e válido de memória para ser usada pelo "
+#~ "exibidor de vídeo."
 
 #~ msgid ""
 #~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
@@ -27286,9 +27294,6 @@ msgstr "Lista do Gerenciador de Mídias"
 
 #~ msgid "Permissions"
 #~ msgstr "Permissões"
-
-#~ msgid "Size"
-#~ msgstr "Tamanho"
 
 #~ msgid "Owner"
 #~ msgstr "Dono"
