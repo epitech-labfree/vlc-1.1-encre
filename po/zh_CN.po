@@ -6700,9 +6700,8 @@ msgid "Size"
 msgstr "大小"
 
 #: modules/access/imem.c:120
-#, fuzzy
 msgid "Size of stream in bytes"
-msgstr "限定各切片的尺寸为指定字节数"
+msgstr "流尺寸（单位为字节）"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
@@ -8137,7 +8136,7 @@ msgstr "关于您频道的内容或信息的描述。"
 
 #: modules/access_output/shout.c:71
 msgid "Stream MP3"
-msgstr "流 MP3"
+msgstr "传输 MP3 流"
 
 #: modules/access_output/shout.c:72
 msgid ""
@@ -8996,7 +8995,7 @@ msgstr "3 前置 2 后置"
 
 #: modules/audio_output/file.c:81
 msgid "Output format"
-msgstr "输出可是"
+msgstr "输出格式"
 
 #: modules/audio_output/file.c:82
 msgid ""
@@ -9004,7 +9003,7 @@ msgid ""
 "\"s16_be\", \"fixed32\", \"float32\" or \"spdif\""
 msgstr ""
 "\"u8\", \"s8\", \"u16\", \"s16\", \"u16_le\", \"s16_le\", \"u16_be\", "
-"\"s16_be\", \"fixed32\", \"float32\" or \"spdif\" 中的一个"
+"\"s16_be\", \"fixed32\", \"float32\" 或 \"spdif\" 中的一个"
 
 #: modules/audio_output/file.c:85
 msgid "Number of output channels"
@@ -9385,7 +9384,7 @@ msgid ""
 "Skipping the loop filter (aka deblocking) usually has a detrimental effect "
 "on quality. However it provides a big speedup for high definition streams."
 msgstr ""
-"跳过循环滤镜 (aka 去块) 通常对图像质量会造成不良的效果。但是它能为高分辨率的"
+"跳过循环滤镜 (又作去块) 通常对图像质量会造成不良的效果。但是它能为高分辨率的"
 "流提供一个很大的提速。"
 
 #: modules/codec/avcodec/avcodec.h:138
@@ -10603,9 +10602,8 @@ msgstr "DVD 字幕封包器"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "波罗地海语 (Windows-1257)"
+msgstr "默认 (GB18030)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -13967,7 +13965,7 @@ msgstr "由 %s 编译"
 
 #: modules/gui/macosx/about.m:104
 msgid "VLC was brought to you by:"
-msgstr "VLC 给您带来了:"
+msgstr "VLC 因他们而来:"
 
 #: modules/gui/macosx/about.m:114 modules/gui/macosx/about.m:179
 #: modules/gui/macosx/intf.m:732 modules/gui/qt4/dialogs/help.cpp:166
@@ -18298,7 +18296,7 @@ msgstr "仅以系统托盘方式启动 VLC"
 
 #: modules/gui/qt4/qt4.cpp:81
 msgid "VLC will start with just an icon in your taskbar"
-msgstr "VLC 将会以在任务栏的方式启动"
+msgstr "VLC 启动时将只显示任务栏图标"
 
 #: modules/gui/qt4/qt4.cpp:84
 msgid "Resize interface to the native video size"
@@ -24565,7 +24563,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "在此输入网络流的 URL。"
 
 #: linux/modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -24602,7 +24599,7 @@ msgstr ""
 "#838383;\">http://www.example.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
@@ -24611,7 +24608,7 @@ msgstr ""
 "#838383;\">rtsp://server.example.org:8080/test.sdp</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">http://www.youtube.com/watch?v=gg64x</span></p></body></html>"
+"#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 
 #: linux/modules/gui/qt4/ui/profiles.h:462
 msgid "MPEG-TS"
@@ -24941,7 +24938,7 @@ msgstr "嵌入视频到界面中"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:399
 msgid "Systray popup when minimized"
-msgstr " 最小化时弹出系统托盘"
+msgstr "最小化时弹出系统托盘"
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:400
 msgid "Show controls in full screen mode"
