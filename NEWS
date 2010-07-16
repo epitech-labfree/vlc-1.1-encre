@@ -5,7 +5,12 @@ libVLC:
  * Support for the new capabilities: libvlc_adjust_Enable, libvlc_adjust_Contrast,
    libvlc_adjust_Brightness, libvlc_adjust_Hue, libvlc_adjust_Saturation, libvlc_adjust_Gamma
  * Various fixes and crash preventions, especially when video functions were called early
- * Support for setting the user-agent: libvlc_set_user_agent
+ * libvlc_media_player_set_pause() can force the pause state, whereas libvlc_media_player_pause() would only toggle it.
+ * libvlc_set_user_agent() configures the "user agent" strings used for some protocols (HTTP, PulseAudio...).
+   This replaces the --http-user-agent and the former --user-agent libvlc_new() parameters.
+ * libvlc_video_set_callbacks() and libvlc_video_set_format() allow grabbing video frames from a chosen memory location in real-time.
+   This replace the ugly --vmem-* libvlc_new() parameters in previous versions. See http://wiki.videolan.org/LibVLC_SampleCode_SDL as an example.
+ * libvlc_audio_get_delay() and libvlc_audio_set_delay() configure the delay between audio and video/subpictures for the current input.
 
 Stream output:
  * Fix h264 streaming in ts
