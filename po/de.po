@@ -8,8 +8,8 @@
 # Felix Kühne <fkuehne at users.sf.net>, 2003-2009.
 # Mathias C. Berens | welcome-soft <berens at welcome-soft.de>, 2006.
 # Kai Hermann <kai.uwe.hermann@gmail.com>, 2009
-# Mario Siegmann <mario_siegmann@web.de>, 2010
 # Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010
+# Mario Siegmann <mario_siegmann@web.de>, 2010
 #
 #
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: VLC 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-07-15 22:40+0100\n"
-"PO-Revision-Date: 2010-07-08 18:50+0100\n"
+"PO-Revision-Date: 2010-07-16 16:56+0100\n"
 "Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German\n"
 "Language: \n"
@@ -7106,14 +7106,12 @@ msgid "Address of the release callback function"
 msgstr "Adresse der Freigabe-Callback-Funktion"
 
 #: modules/access/imem.c:118
-#, fuzzy
 msgid "Size"
-msgstr "Größen"
+msgstr "Größe"
 
 #: modules/access/imem.c:120
-#, fuzzy
 msgid "Size of stream in bytes"
-msgstr "Begrenzung jeder einzelnen Scheibengröße in Bytes"
+msgstr "Größe des Streams in Bytes"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
@@ -11249,9 +11247,8 @@ msgstr "DVD-Untertitel Paketisierer"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "Baltisch (Windows-1257)"
+msgstr "Standard (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -25961,7 +25958,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Geben Sie die URL des Netzwerkstreams hier ein."
 
 #: linux/modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -25998,7 +25994,7 @@ msgstr ""
 "#838383;\">http://www.example.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
@@ -26023,7 +26019,7 @@ msgstr "WAV"
 
 #: linux/modules/gui/qt4/ui/profiles.h:465
 msgid "Webm"
-msgstr ""
+msgstr "Webm"
 
 #: linux/modules/gui/qt4/ui/profiles.h:466
 msgid "ASF/WMV"
@@ -26698,13 +26694,14 @@ msgstr "Wiederholen"
 msgid "Media Manager List"
 msgstr "Media Manager-Liste"
 
+#, fuzzy
 #~ msgid ""
 #~ "Address of the locking callback function. This function must fill in "
 #~ "valid plane memory address information for use by the video renderer."
 #~ msgstr ""
-#~ "Adresse der blockierende Callback Funktion. Diese Funktion muss valide "
-#~ "Speicheradressinformationen für die Benutzung durch den Video Renderer "
-#~ "eingeben."
+#~ "Adresse der blockierenden Callback Funktion. Diese Funktion muss eine "
+#~ "gültige Speicheradresse, für die Nutzung durch den Video Renderer, "
+#~ "zurückliefern."
 
 #, fuzzy
 #~ msgid ""
