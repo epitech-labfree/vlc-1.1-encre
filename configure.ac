@@ -268,6 +268,8 @@ case "${host_os}" in
         enable_asademux="yes"
         echo "  Assuming --enable-asademux"
 
+        enable_non_utf8="no"
+        echo "  Assuming --disable-non-utf8"
         enable_skins2="no"
         echo "  Assuming --disable-skins2"
         enable_xcb="no"
@@ -924,6 +926,17 @@ then
   VLC_ADD_PLUGIN([unzip zip])
 fi
 AM_CONDITIONAL(HAVE_MINIZIP, [ test "${have_minizip}" = "yes" ])
+
+
+dnl Manual switch for UTF-8
+AC_ARG_ENABLE(non-utf8,
+  [  --enable-non-utf8       Legacy non-UTF-8 systems support (default enabled)], [
+  enable_non_utf8="yes"
+])
+AS_IF([test "${enable_non_utf8}" != "no"], [
+  AC_DEFINE([ASSUME_UTF8], [1],
+            [Define to 1 if the operating system uses UTF-8 internally])
+])
 
 
 dnl Check for dbus
