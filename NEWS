@@ -24,6 +24,7 @@ Decoders/Demuxers:
 
 Linux port:
  * Fix pulse closing
+ * VAAPI small improvements, notable for FourCC selection for extraction
 
 Interfaces:
  * Qt: fix preferences, hotkeys, messages and some fulscreen behaviour
@@ -36,9 +37,10 @@ MacOS:
  * Crashes when playing multi-channel tracks fixes
 
 Windows:
+ * Activation of DEP on XP SP3
  * Fix opening of .m3u and .pls playlists
  * Fix crash when My Document isn't available
- * Activation of DEP on XP SP3
+ * Fix crash when Windows was getting into standby while playing video
 
 Translations:
  * Update translations for Spanish, Polish, German, Sinhala, Hungarian, Khmer, Brazilian Portuguese,
