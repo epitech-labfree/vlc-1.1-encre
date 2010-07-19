@@ -1212,6 +1212,8 @@ static void DirectXDestroyPictureResource(vout_display_t *vd)
 {
     vout_display_sys_t *sys = vd->sys;
 
+    if (sys->resource.p_sys->front_surface != sys->resource.p_sys->surface)
+        DirectXDestroySurface(sys->resource.p_sys->surface);
     DirectXDestroySurface(sys->resource.p_sys->front_surface);
 }
 
