@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc korean lang\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-15 22:40+0100\n"
+"POT-Creation-Date: 2010-07-20 11:53+0200\n"
 "PO-Revision-Date: 2010-03-03 09:03+0900\n"
 "Last-Translator: airplanez <airplanez@gmail.com>\n"
 "Language-Team: airplanez <airplanez@gmail.com>\n"
@@ -87,7 +87,7 @@ msgstr "단축키 설정"
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:192
-#: linux/modules/gui/qt4/ui/profiles.h:494
+#: modules/gui/qt4/ui/profiles.h:487
 msgid "Audio"
 msgstr "오디오"
 
@@ -143,8 +143,7 @@ msgstr "기타 오디오 설정 및 모듈"
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
-#: linux/modules/gui/qt4/ui/profiles.h:476
-#: linux/modules/gui/qt4/ui/sprefs_video.h:321
+#: modules/gui/qt4/ui/profiles.h:469 modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "비디오"
 
@@ -410,7 +409,7 @@ msgstr "고급 설정"
 
 #: include/vlc_config_cat.h:198 modules/gui/macosx/open.m:180
 #: modules/gui/macosx/open.m:459 modules/gui/macosx/simple_prefs.m:259
-#: linux/modules/gui/qt4/ui/sprefs_input.h:318
+#: modules/gui/qt4/ui/sprefs_input.h:318
 msgid "Network"
 msgstr "네트워크"
 
@@ -541,7 +540,7 @@ msgstr "정보(&A)"
 #: modules/gui/macosx/intf.m:2026 modules/gui/macosx/intf.m:2027
 #: modules/gui/macosx/intf.m:2028 modules/gui/macosx/playlist.m:466
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:790
-#: linux/modules/gui/qt4/ui/open.h:256
+#: modules/gui/qt4/ui/open.h:256
 msgid "Play"
 msgstr "재생"
 
@@ -693,8 +692,7 @@ msgid ""
 "be magnified."
 msgstr "영상의 일부를 확대합니다. 확대하고 싶은 부분을 선택할 수 있습니다."
 
-#: include/vlc_intf_strings.h:117
-#: linux/modules/gui/qt4/ui/video_effects.h:1141
+#: include/vlc_intf_strings.h:117 modules/gui/qt4/ui/video_effects.h:1141
 msgid "Waves"
 msgstr "웨이브"
 
@@ -865,9 +863,9 @@ msgstr "스테레오"
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
-#: linux/modules/gui/qt4/ui/video_effects.h:1114
-#: linux/modules/gui/qt4/ui/video_effects.h:1177
-#: linux/modules/gui/qt4/ui/video_effects.h:1182
+#: modules/gui/qt4/ui/video_effects.h:1114
+#: modules/gui/qt4/ui/video_effects.h:1177
+#: modules/gui/qt4/ui/video_effects.h:1182
 msgid "Left"
 msgstr "왼쪽"
 
@@ -879,7 +877,7 @@ msgstr "왼쪽"
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
-#: linux/modules/gui/qt4/ui/video_effects.h:1116
+#: modules/gui/qt4/ui/video_effects.h:1116
 msgid "Right"
 msgstr "오른쪽"
 
@@ -963,7 +961,7 @@ msgstr ""
 
 #: src/input/es_out.c:954 src/input/es_out.c:959 src/libvlc-module.c:358
 #: modules/access/vcdx/access.c:460 modules/access/vcdx/info.c:226
-#: modules/gui/qt4/components/open_panels.cpp:398
+#: modules/gui/qt4/components/open_panels.cpp:402
 msgid "Track"
 msgstr "트랙"
 
@@ -1010,14 +1008,14 @@ msgid "Original ID"
 msgstr "원본 ID"
 
 #: src/input/es_out.c:2895 src/input/es_out.c:2898 modules/access/imem.c:72
-#: modules/gui/macosx/wizard.m:385 linux/modules/gui/qt4/ui/profiles.h:477
-#: linux/modules/gui/qt4/ui/profiles.h:496
+#: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
+#: modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "코덱"
 
 #: src/input/es_out.c:2902 src/input/meta.c:62 src/libvlc-module.c:214
 #: modules/access/imem.c:76 modules/gui/macosx/simple_prefs.m:269
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:386
+#: modules/gui/qt4/ui/sprefs_interface.h:386
 msgid "Language"
 msgstr "언어"
 
@@ -1027,7 +1025,7 @@ msgid "Description"
 msgstr "설명"
 
 #: src/input/es_out.c:2914 src/input/es_out.c:2917
-#: modules/gui/macosx/output.m:176 linux/modules/gui/qt4/ui/profiles.h:499
+#: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "채널"
 
@@ -1046,9 +1044,8 @@ msgstr "비트/샘플"
 
 #: src/input/es_out.c:2937 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:413
-#: modules/gui/qt4/components/open_panels.cpp:901
-#: linux/modules/gui/qt4/ui/profiles.h:478
-#: linux/modules/gui/qt4/ui/profiles.h:497
+#: modules/gui/qt4/components/open_panels.cpp:905
+#: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "비트 레이트"
 
@@ -1070,7 +1067,7 @@ msgstr "앨범 리플레이 게인"
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2961 linux/modules/gui/qt4/ui/profiles.h:483
+#: src/input/es_out.c:2961 modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "해상도"
 
@@ -1106,8 +1103,8 @@ msgstr "'%s' 형식을 감지할수 없습니다. 상세정보는 로그를 보�
 #: src/input/meta.c:51 src/input/var.c:187 modules/gui/macosx/intf.m:663
 #: modules/gui/macosx/intf.m:664 modules/gui/macosx/open.m:190
 #: modules/gui/macosx/playlistinfo.m:76 modules/gui/macosx/wizard.m:348
-#: modules/gui/qt4/components/open_panels.cpp:372 modules/mux/asf.c:56
-#: linux/modules/gui/qt4/ui/open_disk.h:302
+#: modules/gui/qt4/components/open_panels.cpp:376 modules/mux/asf.c:56
+#: modules/gui/qt4/ui/open_disk.h:302
 msgid "Title"
 msgstr "제목"
 
@@ -1145,7 +1142,7 @@ msgid "Setting"
 msgstr "설정"
 
 #: src/input/meta.c:61 modules/gui/macosx/open.m:203
-#: linux/modules/gui/qt4/ui/podcast_configuration.h:103
+#: modules/gui/qt4/ui/podcast_configuration.h:103
 msgid "URL"
 msgstr "URL"
 
@@ -1179,7 +1176,7 @@ msgstr "프로그램"
 
 #: src/input/var.c:192 modules/gui/macosx/intf.m:665
 #: modules/gui/macosx/intf.m:666 modules/gui/macosx/open.m:191
-#: linux/modules/gui/qt4/ui/open_disk.h:303
+#: modules/gui/qt4/ui/open_disk.h:303
 msgid "Chapter"
 msgstr "챕터"
 
@@ -1430,7 +1427,7 @@ msgid "2:1 Double"
 msgstr "2:1 2배"
 
 #: src/libvlc-module.c:102 src/libvlc-module.c:317 modules/access/bda/bda.c:69
-#: modules/gui/qt4/components/open_panels.cpp:977
+#: modules/gui/qt4/components/open_panels.cpp:981
 msgid "Auto"
 msgstr "자동"
 
@@ -1593,7 +1590,7 @@ msgstr ""
 "의 방식이 선택됩니다."
 
 #: src/libvlc-module.c:254 modules/stream_out/display.c:41
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:404
+#: modules/gui/qt4/ui/sprefs_audio.h:404
 msgid "Enable audio"
 msgstr "오디오 사용"
 
@@ -1696,7 +1693,7 @@ msgstr ""
 "오디오 스트림이 재생되는 동시에 하드웨어가 지원한다면)."
 
 #: src/libvlc-module.c:303 modules/gui/macosx/simple_prefs.m:237
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:413
+#: modules/gui/qt4/ui/sprefs_audio.h:413
 msgid "Use S/PDIF when available"
 msgstr "가능하면 S/PDIF 사용"
 
@@ -1824,7 +1821,7 @@ msgstr ""
 "이 선택됩니다. "
 
 #: src/libvlc-module.c:377 modules/stream_out/display.c:43
-#: linux/modules/gui/qt4/ui/sprefs_video.h:309
+#: modules/gui/qt4/ui/sprefs_video.h:309
 msgid "Enable video"
 msgstr "비디오 사용"
 
@@ -1928,9 +1925,9 @@ msgstr "가운데"
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
-#: linux/modules/gui/qt4/ui/video_effects.h:1112
-#: linux/modules/gui/qt4/ui/video_effects.h:1178
-#: linux/modules/gui/qt4/ui/video_effects.h:1181
+#: modules/gui/qt4/ui/video_effects.h:1112
+#: modules/gui/qt4/ui/video_effects.h:1178
+#: modules/gui/qt4/ui/video_effects.h:1181
 msgid "Top"
 msgstr "위"
 
@@ -1939,7 +1936,7 @@ msgstr "위"
 #: modules/video_filter/audiobargraph_v.c:74 modules/video_filter/logo.c:79
 #: modules/video_filter/marq.c:137 modules/video_filter/mosaic.c:171
 #: modules/video_filter/osdmenu.c:85 modules/video_filter/rss.c:174
-#: linux/modules/gui/qt4/ui/video_effects.h:1118
+#: modules/gui/qt4/ui/video_effects.h:1118
 msgid "Bottom"
 msgstr "아래"
 
@@ -2036,8 +2033,7 @@ msgstr ""
 "VLC 기본으로 사용하려고 시도 합니다."
 
 #: src/libvlc-module.c:444 src/video_output/vout_intf.c:344
-#: modules/gui/macosx/simple_prefs.m:295
-#: linux/modules/gui/qt4/ui/sprefs_video.h:312
+#: modules/gui/macosx/simple_prefs.m:295 modules/gui/qt4/ui/sprefs_video.h:312
 msgid "Always on top"
 msgstr "항상 맨 앞"
 
@@ -2147,7 +2143,7 @@ msgstr ""
 "비활동으로 인해 컴퓨터가 대기모드가 되는것을 방지하기위해 모든 재생하는 동안 "
 "전원 관리 데몬 제한."
 
-#: src/libvlc-module.c:505 linux/modules/gui/qt4/ui/sprefs_video.h:316
+#: src/libvlc-module.c:505 modules/gui/qt4/ui/sprefs_video.h:316
 msgid "Window decorations"
 msgstr "창 장식"
 
@@ -2332,7 +2328,7 @@ msgid ""
 msgstr ""
 
 #: src/libvlc-module.c:599 modules/gui/macosx/simple_prefs.m:297
-#: linux/modules/gui/qt4/ui/sprefs_video.h:315
+#: modules/gui/qt4/ui/sprefs_video.h:315
 msgid "Skip frames"
 msgstr "프레임 건너뛰기"
 
@@ -2446,7 +2442,7 @@ msgstr "기본"
 
 #: src/libvlc-module.c:655 modules/gui/macosx/equalizer.m:149
 #: modules/gui/macosx/extended.m:97 modules/gui/macosx/wizard.m:354
-#: linux/modules/gui/qt4/ui/equalizer.h:127 linux/modules/gui/qt4/ui/vlm.h:290
+#: modules/gui/qt4/ui/equalizer.h:127 modules/gui/qt4/ui/vlm.h:290
 msgid "Enable"
 msgstr "사용"
 
@@ -2530,7 +2526,7 @@ msgstr ""
 "쉼표로 구분된 서비스 ID (SIDs) 목록에서 선택할 프로그램 선택. 다중-프로그램 "
 "스트림 (예를 들어 DVB 스트림 같은) 을 읽기 원할때만 이 옵션을 사용하세요."
 
-#: src/libvlc-module.c:702 linux/modules/gui/qt4/ui/open_disk.h:305
+#: src/libvlc-module.c:702 modules/gui/qt4/ui/open_disk.h:305
 msgid "Audio track"
 msgstr "오디오 트랙"
 
@@ -2538,7 +2534,7 @@ msgstr "오디오 트랙"
 msgid "Stream number of the audio track to use (from 0 to n)."
 msgstr "사용할 오디오 트랙의 스트림 번호 (0부터 n까지)."
 
-#: src/libvlc-module.c:707 linux/modules/gui/qt4/ui/open_disk.h:306
+#: src/libvlc-module.c:707 modules/gui/qt4/ui/open_disk.h:306
 msgid "Subtitles track"
 msgstr "자막 트랙"
 
@@ -2668,7 +2664,7 @@ msgid ""
 "{...}\""
 msgstr ""
 
-#: src/libvlc-module.c:772 linux/modules/gui/qt4/ui/sprefs_input.h:316
+#: src/libvlc-module.c:772 modules/gui/qt4/ui/sprefs_input.h:316
 msgid "Record directory or filename"
 msgstr "녹음 디렉토리 또는 파일명"
 
@@ -2712,7 +2708,7 @@ msgid ""
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
 
-#: src/libvlc-module.c:798 linux/modules/gui/qt4/ui/sprefs_subtitles.h:213
+#: src/libvlc-module.c:798 modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
 msgstr "자막 위치 강제"
 
@@ -2735,7 +2731,7 @@ msgstr "완벽하게 자막 프로세싱을 사용안하게 할수 있습니다.
 #: src/libvlc-module.c:807 src/libvlc-module.c:1763 src/text/iso-639_def.h:143
 #: modules/gui/macosx/simple_prefs.m:286
 #: modules/stream_out/transcode/transcode.c:222
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:201
+#: modules/gui/qt4/ui/sprefs_subtitles.h:201
 msgid "On Screen Display"
 msgstr "화면표시메뉴"
 
@@ -3621,7 +3617,7 @@ msgstr "이 설정은 \"단축키\"로 알고있는 전역 VLC 키 바인딩입�
 #: modules/gui/macosx/intf.m:686 modules/gui/macosx/intf.m:753
 #: modules/gui/macosx/simple_prefs.m:294
 #: modules/gui/qt4/components/controller.hpp:105
-#: linux/modules/gui/qt4/ui/sprefs_video.h:311
+#: modules/gui/qt4/ui/sprefs_video.h:311
 msgid "Fullscreen"
 msgstr "전체화면"
 
@@ -3705,9 +3701,8 @@ msgstr "느리게 (선명)"
 #: modules/gui/macosx/intf.m:749 modules/gui/macosx/wizard.m:309
 #: modules/gui/macosx/wizard.m:321 modules/gui/macosx/wizard.m:1623
 #: modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:321 linux/modules/gui/qt4/ui/sout.h:327
-#: linux/modules/gui/qt4/ui/sout.h:338
-#: linux/modules/gui/qt4/ui/streampanel.h:182
+#: modules/misc/notify/notify.c:321 modules/gui/qt4/ui/sout.h:327
+#: modules/gui/qt4/ui/sout.h:338 modules/gui/qt4/ui/streampanel.h:182
 msgid "Next"
 msgstr "다음"
 
@@ -3720,8 +3715,8 @@ msgstr "재생목록에서 다음 항목으로 넘김에 사용할 단축키 선
 #: modules/gui/macosx/embeddedwindow.m:71 modules/gui/macosx/intf.m:600
 #: modules/gui/macosx/intf.m:652 modules/gui/macosx/intf.m:742
 #: modules/gui/macosx/intf.m:748 modules/gui/qt4/components/controller.hpp:105
-#: modules/misc/notify/notify.c:319 linux/modules/gui/qt4/ui/sout.h:337
-#: linux/modules/gui/qt4/ui/sout.h:346
+#: modules/misc/notify/notify.c:319 modules/gui/qt4/ui/sout.h:337
+#: modules/gui/qt4/ui/sout.h:346
 msgid "Previous"
 msgstr "이전"
 
@@ -3733,7 +3728,7 @@ msgstr "재생목록에서 이전 항목으로 넘김에 사용할 단축키 선
 #: modules/gui/macosx/embeddedwindow.m:72 modules/gui/macosx/intf.m:603
 #: modules/gui/macosx/intf.m:648 modules/gui/macosx/intf.m:740
 #: modules/gui/macosx/intf.m:747 modules/gui/qt4/components/controller.hpp:104
-#: modules/misc/notify/xosd.c:231 linux/modules/gui/qt4/ui/streampanel.h:181
+#: modules/misc/notify/xosd.c:231 modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
 msgstr "정지"
 
@@ -3745,7 +3740,7 @@ msgstr "재생 중지 단축키 선택."
 #: modules/gui/macosx/bookmarks.m:96 modules/gui/macosx/bookmarks.m:105
 #: modules/gui/macosx/embeddedwindow.m:70 modules/gui/macosx/intf.m:608
 #: modules/video_filter/marq.c:158 modules/video_filter/rss.c:201
-#: linux/modules/gui/qt4/ui/video_effects.h:1167
+#: modules/gui/qt4/ui/video_effects.h:1167
 msgid "Position"
 msgstr "위치"
 
@@ -4420,8 +4415,8 @@ msgstr "부화면"
 
 #: src/libvlc-module.c:1772 modules/codec/subtitles/subsdec.c:206
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
-#: modules/demux/subtitle.c:73 linux/modules/gui/qt4/ui/profiles.h:502
-#: linux/modules/gui/qt4/ui/profiles.h:504
+#: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
+#: modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "자막"
 
@@ -4601,7 +4596,7 @@ msgstr "다운로드중..."
 #: modules/gui/macosx/prefs.m:225 modules/gui/macosx/simple_prefs.m:244
 #: modules/gui/macosx/simple_prefs.m:308 modules/gui/macosx/simple_prefs.m:696
 #: modules/gui/macosx/wizard.m:320
-#: modules/gui/qt4/components/open_panels.cpp:1265
+#: modules/gui/qt4/components/open_panels.cpp:1269
 #: modules/gui/qt4/components/preferences_widgets.cpp:1427
 #: modules/gui/qt4/components/sout/profile_selector.cpp:253
 msgid "Cancel"
@@ -5379,8 +5374,7 @@ msgstr "후처리"
 
 #: src/video_output/vout_intf.c:228 modules/gui/macosx/intf.m:693
 #: modules/gui/macosx/intf.m:694 modules/video_filter/crop.c:107
-#: modules/video_filter/croppadd.c:86
-#: linux/modules/gui/qt4/ui/video_effects.h:1122
+#: modules/video_filter/croppadd.c:86 modules/gui/qt4/ui/video_effects.h:1122
 msgid "Crop"
 msgstr "잘라내기"
 
@@ -5488,7 +5482,7 @@ msgid ""
 msgstr "DVB 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #: modules/access/bda/bda.c:51 modules/access/dvb/access.c:88
-#: modules/gui/qt4/components/open_panels.cpp:928
+#: modules/gui/qt4/components/open_panels.cpp:932
 msgid "Adapter card to tune"
 msgstr "튜닝할 어댑터 카드"
 
@@ -5503,8 +5497,8 @@ msgid "Device number to use on adapter"
 msgstr "어댑터에서 사용할 장치 번호"
 
 #: modules/access/bda/bda.c:58 modules/access/dvb/access.c:94
-#: modules/gui/qt4/components/open_panels.cpp:684
-#: modules/gui/qt4/components/open_panels.cpp:950
+#: modules/gui/qt4/components/open_panels.cpp:688
+#: modules/gui/qt4/components/open_panels.cpp:954
 msgid "Transponder/multiplex frequency"
 msgstr "트렌스폰더/멀티플렉스 주파수"
 
@@ -5719,15 +5713,15 @@ msgstr "지상파 대역폭"
 msgid "Terrestrial bandwidth [0=auto,6,7,8 in MHz]"
 msgstr "지상파 대역폭 [0=자동,6,7,8 (MHz)]"
 
-#: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:978
+#: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:982
 msgid "6 MHz"
 msgstr "6 MHz"
 
-#: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:979
+#: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:983
 msgid "7 MHz"
 msgstr "7 MHz"
 
-#: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:980
+#: modules/access/bda/bda.c:151 modules/gui/qt4/components/open_panels.cpp:984
 msgid "8 MHz"
 msgstr "8 MHz"
 
@@ -5779,7 +5773,7 @@ msgstr "지상파 계층 모드"
 msgid "Hierarchy alpha value [Undefined,1,2,4]"
 msgstr "계층 알파 값 [정의되지 않음,1,2,4]"
 
-#: modules/access/bda/bda.c:169 linux/modules/gui/qt4/ui/streampanel.h:170
+#: modules/access/bda/bda.c:169 modules/gui/qt4/ui/streampanel.h:170
 msgid "1"
 msgstr "1"
 
@@ -5879,7 +5873,7 @@ msgstr "기본 오디오 CD 캐싱 값. 이 값은 밀리초로 설정되어야 
 
 #: modules/access/cdda.c:67 modules/gui/macosx/open.m:198
 #: modules/gui/macosx/open.m:643 modules/gui/macosx/open.m:731
-#: linux/modules/gui/qt4/ui/open_disk.h:293
+#: modules/gui/qt4/ui/open_disk.h:293
 msgid "Audio CD"
 msgstr "오디오 CD"
 
@@ -5947,8 +5941,8 @@ msgid ""
 msgstr "DirectShow 스트림 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #: modules/access/dshow/dshow.cpp:103 modules/access/v4l.c:81
-#: modules/gui/qt4/components/open_panels.cpp:737
-#: modules/gui/qt4/components/open_panels.cpp:772
+#: modules/gui/qt4/components/open_panels.cpp:741
+#: modules/gui/qt4/components/open_panels.cpp:776
 msgid "Video device name"
 msgstr "비디오 장치 이름"
 
@@ -5961,8 +5955,8 @@ msgstr ""
 "본 장치가 사용됩니다."
 
 #: modules/access/dshow/dshow.cpp:108
-#: modules/gui/qt4/components/open_panels.cpp:743
-#: modules/gui/qt4/components/open_panels.cpp:778
+#: modules/gui/qt4/components/open_panels.cpp:747
+#: modules/gui/qt4/components/open_panels.cpp:782
 msgid "Audio device name"
 msgstr "오디오 장치 이름"
 
@@ -5975,7 +5969,7 @@ msgstr ""
 "본 장치가 사용됩니다."
 
 #: modules/access/dshow/dshow.cpp:113
-#: modules/gui/qt4/components/open_panels.cpp:647
+#: modules/gui/qt4/components/open_panels.cpp:651
 msgid "Video size"
 msgstr "영상 크기"
 
@@ -6530,7 +6524,7 @@ msgstr "파일 입력"
 msgid "File"
 msgstr "파일"
 
-#: modules/access/fs.c:78 linux/modules/gui/qt4/ui/sprefs_video.h:327
+#: modules/access/fs.c:78 modules/gui/qt4/ui/sprefs_video.h:327
 #, fuzzy
 msgid "Directory"
 msgstr "파일/디렉토리"
@@ -6775,7 +6769,7 @@ msgstr "모든 기초 스트림 선택"
 #: modules/access/imem.c:88 modules/access/pvr.c:74 modules/access/v4l.c:102
 #: modules/access/v4l2.c:95 modules/codec/invmem.c:53
 #: modules/demux/rawvid.c:48 modules/video_filter/mosaic.c:95
-#: modules/video_output/vmem.c:42 linux/modules/gui/qt4/ui/profiles.h:486
+#: modules/video_output/vmem.c:42 modules/gui/qt4/ui/profiles.h:479
 msgid "Width"
 msgstr "너비"
 
@@ -6787,7 +6781,7 @@ msgstr "모든 기본 스트림 실시간 재생"
 #: modules/access/imem.c:91 modules/access/pvr.c:78 modules/access/v4l.c:105
 #: modules/access/v4l2.c:98 modules/codec/invmem.c:56
 #: modules/demux/rawvid.c:52 modules/video_filter/mosaic.c:93
-#: modules/video_output/vmem.c:45 linux/modules/gui/qt4/ui/profiles.h:489
+#: modules/video_output/vmem.c:45 modules/gui/qt4/ui/profiles.h:482
 msgid "Height"
 msgstr "높이"
 
@@ -7005,8 +6999,8 @@ msgid "PVR radio device"
 msgstr "PVR 라디오 장치"
 
 #: modules/access/pvr.c:70 modules/access/v4l.c:96
-#: modules/gui/qt4/components/open_panels.cpp:785
-#: modules/gui/qt4/components/open_panels.cpp:885
+#: modules/gui/qt4/components/open_panels.cpp:789
+#: modules/gui/qt4/components/open_panels.cpp:889
 msgid "Norm"
 msgstr "기준"
 
@@ -7023,8 +7017,8 @@ msgid "Height of the stream to capture (-1 for autodetection)."
 msgstr "갈무리할 스트림 높이 (-1 : 자동감지)."
 
 #: modules/access/pvr.c:82 modules/access/v4l.c:89 modules/access/v4l2.c:203
-#: modules/gui/qt4/components/open_panels.cpp:792
-#: modules/gui/qt4/components/open_panels.cpp:892
+#: modules/gui/qt4/components/open_panels.cpp:796
+#: modules/gui/qt4/components/open_panels.cpp:896
 msgid "Frequency"
 msgstr "주파수"
 
@@ -7087,7 +7081,7 @@ msgstr ""
 #: modules/access/pvr.c:109 modules/access/v4l2.c:169
 #: modules/access/vcdx/info.c:69 modules/gui/macosx/embeddedwindow.m:74
 #: modules/gui/macosx/intf.m:607 modules/gui/qt4/dialogs/toolbar.cpp:347
-#: modules/stream_out/raop.c:150 linux/modules/gui/qt4/ui/sprefs_audio.h:405
+#: modules/stream_out/raop.c:150 modules/gui/qt4/ui/sprefs_audio.h:405
 msgid "Volume"
 msgstr "음량"
 
@@ -7298,7 +7292,7 @@ msgid ""
 msgstr "화면 갈무리 캐싱 값. 이 값은 밀리초로 설정되어야 합니다."
 
 #: modules/access/screen/screen.c:46
-#: modules/gui/qt4/components/open_panels.cpp:1016
+#: modules/gui/qt4/components/open_panels.cpp:1020
 msgid "Desired frame rate for the capture."
 msgstr "갈무리에 요구되는 프레임 레이트."
 
@@ -7556,7 +7550,7 @@ msgstr "캡쳐할 스트림의 높이 (자동인식은 -1)."
 
 #: modules/access/v4l.c:108 modules/access/v4l2.c:114
 #: modules/gui/macosx/extended.m:98 modules/video_filter/atmo/atmo.cpp:264
-#: linux/modules/gui/qt4/ui/video_effects.h:1107
+#: modules/gui/qt4/ui/video_effects.h:1107
 msgid "Brightness"
 msgstr "밝기"
 
@@ -7565,8 +7559,7 @@ msgid "Brightness of the video input."
 msgstr "비디오 입력의 밝기."
 
 #: modules/access/v4l.c:111 modules/access/v4l2.c:123
-#: modules/gui/macosx/extended.m:101
-#: linux/modules/gui/qt4/ui/video_effects.h:1109
+#: modules/gui/macosx/extended.m:101 modules/gui/qt4/ui/video_effects.h:1109
 msgid "Hue"
 msgstr "색조"
 
@@ -7577,9 +7570,9 @@ msgstr "비디오 입력의 색조."
 #: modules/access/v4l.c:114 modules/gui/fbosd.c:141
 #: modules/misc/notify/xosd.c:82 modules/video_filter/colorthres.c:54
 #: modules/video_filter/marq.c:123 modules/video_filter/rss.c:155
-#: linux/modules/gui/qt4/ui/video_effects.h:1132
-#: linux/modules/gui/qt4/ui/video_effects.h:1138
-#: linux/modules/gui/qt4/ui/video_effects.h:1150
+#: modules/gui/qt4/ui/video_effects.h:1132
+#: modules/gui/qt4/ui/video_effects.h:1138
+#: modules/gui/qt4/ui/video_effects.h:1150
 msgid "Color"
 msgstr "색상"
 
@@ -7588,8 +7581,7 @@ msgid "Color of the video input."
 msgstr "비디오 입력의 색깔"
 
 #: modules/access/v4l.c:117 modules/access/v4l2.c:117
-#: modules/gui/macosx/extended.m:99
-#: linux/modules/gui/qt4/ui/video_effects.h:1106
+#: modules/gui/macosx/extended.m:99 modules/gui/qt4/ui/video_effects.h:1106
 msgid "Contrast"
 msgstr "명암"
 
@@ -7605,7 +7597,7 @@ msgstr "튜너"
 msgid "Tuner to use, if there are several ones."
 msgstr "만약 여러개가 있다면 사용할 튜너."
 
-#: modules/access/v4l.c:122 linux/modules/gui/qt4/ui/profiles.h:473
+#: modules/access/v4l.c:122 modules/gui/qt4/ui/profiles.h:466
 msgid "MJPEG"
 msgstr "MJPEG"
 
@@ -7643,7 +7635,7 @@ msgstr "Video4Linux"
 msgid "Video4Linux input"
 msgstr "Video4Linux 입력"
 
-#: modules/access/v4l2.c:77 modules/gui/qt4/components/open_panels.cpp:750
+#: modules/access/v4l2.c:77 modules/gui/qt4/components/open_panels.cpp:754
 #: modules/stream_out/standard.c:100
 msgid "Standard"
 msgstr "표준"
@@ -7720,8 +7712,8 @@ msgid "Contrast of the video input (if supported by the v4l2 driver)."
 msgstr "오디오 입력의 명암 (v4l2 드라이버가 지원하면)."
 
 #: modules/access/v4l2.c:120 modules/gui/macosx/extended.m:102
-#: linux/modules/gui/qt4/ui/video_effects.h:1108
-#: linux/modules/gui/qt4/ui/video_effects.h:1137
+#: modules/gui/qt4/ui/video_effects.h:1108
+#: modules/gui/qt4/ui/video_effects.h:1137
 msgid "Saturation"
 msgstr "채도"
 
@@ -7780,7 +7772,7 @@ msgid "Blue balance of the video input (if supported by the v4l2 driver)."
 msgstr "비디오 입력의 블루 밸런스 (v4l2 드라이버가 지원하면)."
 
 #: modules/access/v4l2.c:143 modules/gui/macosx/extended.m:100
-#: linux/modules/gui/qt4/ui/video_effects.h:1105
+#: modules/gui/qt4/ui/video_effects.h:1105
 msgid "Gamma"
 msgstr "감마"
 
@@ -8015,7 +8007,7 @@ msgstr "[vcd:][device][@[title][,[chapter]]]"
 
 #: modules/access/vcdx/access.c:274 modules/access/vcdx/access.c:354
 #: modules/access/vcdx/access.c:676 modules/access/vcdx/info.c:229
-#: modules/gui/qt4/components/open_panels.cpp:385
+#: modules/gui/qt4/components/open_panels.cpp:389
 msgid "Entry"
 msgstr "엔트리"
 
@@ -8069,7 +8061,7 @@ msgstr "시스템 Id"
 msgid "Entries"
 msgstr "엔트리"
 
-#: modules/access/vcdx/info.c:75 linux/modules/gui/qt4/ui/sprefs_audio.h:421
+#: modules/access/vcdx/info.c:75 modules/gui/qt4/ui/sprefs_audio.h:421
 msgid "Tracks"
 msgstr "트랙"
 
@@ -10630,8 +10622,8 @@ msgid "MP3 fixed point audio encoder"
 msgstr "MP3 고정 소수점 오디오 인코더"
 
 #: modules/codec/speex.c:57 modules/codec/speex.c:800
-#: modules/gui/macosx/open.m:209 linux/modules/gui/qt4/ui/sprefs_video.h:324
-#: linux/modules/gui/qt4/ui/video_effects.h:1149
+#: modules/gui/macosx/open.m:209 modules/gui/qt4/ui/sprefs_video.h:324
+#: modules/gui/qt4/ui/video_effects.h:1149
 msgid "Mode"
 msgstr "모드"
 
@@ -11786,7 +11778,7 @@ msgid "Quiet mode."
 msgstr "무소음 모드."
 
 #: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
-#: linux/modules/gui/qt4/ui/streampanel.h:171
+#: modules/gui/qt4/ui/streampanel.h:171
 msgid "Statistics"
 msgstr "통계"
 
@@ -13949,8 +13941,7 @@ msgid ""
 msgstr ""
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:112
-#: modules/video_filter/marq.c:87
-#: linux/modules/gui/qt4/ui/video_effects.h:1168
+#: modules/video_filter/marq.c:87 modules/gui/qt4/ui/video_effects.h:1168
 msgid "Text"
 msgstr "텍스트"
 
@@ -14050,7 +14041,7 @@ msgstr "모든 렌더링된 이미지 및 문자는 중첩 프레임버퍼에 �
 #: modules/misc/freetype.c:92 modules/misc/notify/xosd.c:80
 #: modules/misc/quartztext.c:80 modules/misc/win32text.c:58
 #: modules/video_filter/marq.c:164 modules/video_filter/rss.c:207
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:211
+#: modules/gui/qt4/ui/sprefs_subtitles.h:211
 msgid "Font"
 msgstr "글꼴"
 
@@ -14094,15 +14085,15 @@ msgid "Bookmarks"
 msgstr "북마크"
 
 #: modules/gui/macosx/bookmarks.m:88
-#: linux/modules/gui/qt4/ui/podcast_configuration.h:104
-#: linux/modules/gui/qt4/ui/sout.h:331 linux/modules/gui/qt4/ui/vlm.h:300
+#: modules/gui/qt4/ui/podcast_configuration.h:104
+#: modules/gui/qt4/ui/sout.h:331 modules/gui/qt4/ui/vlm.h:300
 msgid "Add"
 msgstr "추가"
 
 #: modules/gui/macosx/bookmarks.m:89 modules/gui/macosx/intf.m:643
 #: modules/gui/macosx/simple_prefs.m:246
 #: modules/gui/qt4/components/preferences_widgets.cpp:1206
-#: modules/gui/qt4/dialogs/bookmarks.cpp:47 linux/modules/gui/qt4/ui/vlm.h:301
+#: modules/gui/qt4/dialogs/bookmarks.cpp:47 modules/gui/qt4/ui/vlm.h:301
 msgid "Clear"
 msgstr "지우기"
 
@@ -14115,7 +14106,7 @@ msgstr "수정"
 msgid "Extract"
 msgstr "추출"
 
-#: modules/gui/macosx/bookmarks.m:92 linux/modules/gui/qt4/ui/open_file.h:224
+#: modules/gui/macosx/bookmarks.m:92 modules/gui/qt4/ui/open_file.h:224
 msgid "Remove"
 msgstr "삭제"
 
@@ -14137,7 +14128,7 @@ msgstr "시간"
 #: modules/gui/macosx/wizard.m:1154 modules/gui/macosx/wizard.m:1678
 #: modules/gui/macosx/wizard.m:1686 modules/gui/macosx/wizard.m:1867
 #: modules/gui/macosx/wizard.m:1878 modules/gui/macosx/wizard.m:1891
-#: modules/gui/qt4/components/open_panels.cpp:1264
+#: modules/gui/qt4/components/open_panels.cpp:1268
 #: modules/gui/qt4/components/preferences_widgets.cpp:1426
 #: modules/gui/qt4/dialogs/firstrun.cpp:100
 msgid "OK"
@@ -14284,7 +14275,7 @@ msgstr "뒤로감기"
 msgid "Fast Forward"
 msgstr "빨리감기"
 
-#: modules/gui/macosx/equalizer.m:146 linux/modules/gui/qt4/ui/equalizer.h:128
+#: modules/gui/macosx/equalizer.m:146 modules/gui/qt4/ui/equalizer.h:128
 msgid "2 Pass"
 msgstr "2 패스"
 
@@ -14297,7 +14288,7 @@ msgid "Enable the equalizer. Bands can be set manually or using a preset."
 msgstr ""
 "이퀄라이저 사용. 대역은 수동으로 설정하거나 사전설정을 사용할수 있습니다."
 
-#: modules/gui/macosx/equalizer.m:152 linux/modules/gui/qt4/ui/equalizer.h:130
+#: modules/gui/macosx/equalizer.m:152 modules/gui/qt4/ui/equalizer.h:130
 msgid "Preamp"
 msgstr "프리앰프"
 
@@ -14319,13 +14310,12 @@ msgstr "Ripple"
 
 #: modules/gui/macosx/extended.m:72 modules/meta_engine/id3genres.h:95
 #: modules/video_filter/psychedelic.c:55
-#: linux/modules/gui/qt4/ui/video_effects.h:1143
+#: modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
 msgstr "사이키델릭"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
-#: modules/video_filter/gradient.c:82
-#: linux/modules/gui/qt4/ui/video_effects.h:1148
+#: modules/video_filter/gradient.c:82 modules/gui/qt4/ui/video_effects.h:1148
 msgid "Gradient"
 msgstr "기울기"
 
@@ -14357,8 +14347,7 @@ msgstr "이미지 잘라내기"
 msgid "Crops a defined part of the image"
 msgstr ""
 
-#: modules/gui/macosx/extended.m:83
-#: linux/modules/gui/qt4/ui/video_effects.h:1134
+#: modules/gui/macosx/extended.m:83 modules/gui/qt4/ui/video_effects.h:1134
 msgid "Invert colors"
 msgstr "색상 반전"
 
@@ -14877,13 +14866,10 @@ msgstr "갈무리"
 #: modules/gui/qt4/components/preferences_widgets.cpp:299
 #: modules/gui/qt4/components/simple_preferences.cpp:276
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:102
-#: linux/modules/gui/qt4/ui/open.h:246
-#: linux/modules/gui/qt4/ui/open_disk.h:300
-#: linux/modules/gui/qt4/ui/open_file.h:232
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:412
-#: linux/modules/gui/qt4/ui/sprefs_input.h:308
-#: linux/modules/gui/qt4/ui/sprefs_input.h:317
-#: linux/modules/gui/qt4/ui/sprefs_video.h:326
+#: modules/gui/qt4/ui/open.h:246 modules/gui/qt4/ui/open_disk.h:300
+#: modules/gui/qt4/ui/open_file.h:232 modules/gui/qt4/ui/sprefs_audio.h:412
+#: modules/gui/qt4/ui/sprefs_input.h:308 modules/gui/qt4/ui/sprefs_input.h:317
+#: modules/gui/qt4/ui/sprefs_video.h:326
 msgid "Browse..."
 msgstr "찾아보기..."
 
@@ -14897,16 +14883,16 @@ msgstr "동시에 다른 미디어 재생"
 
 #: modules/gui/macosx/open.m:186 modules/gui/macosx/simple_prefs.m:280
 #: modules/gui/macosx/wizard.m:346 modules/gui/macosx/wizard.m:414
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:394
+#: modules/gui/qt4/ui/sprefs_interface.h:394
 msgid "Choose..."
 msgstr "선택..."
 
 #: modules/gui/macosx/open.m:189
-#: modules/gui/qt4/components/open_panels.cpp:872
+#: modules/gui/qt4/components/open_panels.cpp:876
 msgid "Device name"
 msgstr "장치 이름"
 
-#: modules/gui/macosx/open.m:193 linux/modules/gui/qt4/ui/open_disk.h:298
+#: modules/gui/macosx/open.m:193 modules/gui/qt4/ui/open_disk.h:298
 msgid "No DVD menus"
 msgstr "DVD 메뉴 없음"
 
@@ -14915,8 +14901,7 @@ msgid "VIDEO_TS folder"
 msgstr "VIDEO_TS 폴더"
 
 #: modules/gui/macosx/open.m:196 modules/gui/macosx/open.m:739
-#: modules/services_discovery/udev.c:587
-#: linux/modules/gui/qt4/ui/open_disk.h:292
+#: modules/services_discovery/udev.c:587 modules/gui/qt4/ui/open_disk.h:292
 msgid "DVD"
 msgstr "DVD"
 
@@ -15051,8 +15036,7 @@ msgstr "FPS"
 msgid "Subtitles encoding"
 msgstr "자막 인코딩"
 
-#: modules/gui/macosx/open.m:316
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:210
+#: modules/gui/macosx/open.m:316 modules/gui/qt4/ui/sprefs_subtitles.h:210
 msgid "Font size"
 msgstr "글꼴 크기"
 
@@ -15069,7 +15053,7 @@ msgid "Subtitle File"
 msgstr "자막 파일"
 
 #: modules/gui/macosx/open.m:587 modules/gui/macosx/open.m:953
-#: modules/gui/macosx/open.m:1196 linux/modules/gui/qt4/ui/open_file.h:217
+#: modules/gui/macosx/open.m:1196 modules/gui/qt4/ui/open_file.h:217
 msgid "Open File"
 msgstr "파일 열기"
 
@@ -15135,7 +15119,7 @@ msgstr "로우 입력 덤프"
 msgid "Encapsulation Method"
 msgstr "캡슐화 형식"
 
-#: modules/gui/macosx/output.m:159 linux/modules/gui/qt4/ui/sout.h:335
+#: modules/gui/macosx/output.m:159 modules/gui/qt4/ui/sout.h:335
 msgid "Transcoding options"
 msgstr "트랜스코딩 옵션"
 
@@ -15144,7 +15128,7 @@ msgstr "트랜스코딩 옵션"
 msgid "Bitrate (kb/s)"
 msgstr "비트레이트 (kb/초)"
 
-#: modules/gui/macosx/output.m:166 linux/modules/gui/qt4/ui/profiles.h:485
+#: modules/gui/macosx/output.m:166 modules/gui/qt4/ui/profiles.h:478
 msgid "Scale"
 msgstr "배율"
 
@@ -15152,7 +15136,7 @@ msgstr "배율"
 msgid "Stream Announcing"
 msgstr "스트림 알림"
 
-#: modules/gui/macosx/output.m:181 linux/modules/gui/qt4/ui/sout.h:342
+#: modules/gui/macosx/output.m:181 modules/gui/qt4/ui/sout.h:342
 msgid "SAP announce"
 msgstr "SAP 어나운스"
 
@@ -15183,7 +15167,7 @@ msgstr "파일 저장"
 #: modules/gui/macosx/output.m:526 modules/gui/macosx/playlist.m:747
 #: modules/gui/macosx/prefs.m:203 modules/gui/macosx/simple_prefs.m:310
 #: modules/gui/qt4/components/sout/profile_selector.cpp:250
-#: linux/modules/gui/qt4/ui/vlm.h:302
+#: modules/gui/qt4/ui/vlm.h:302
 msgid "Save"
 msgstr "저장"
 
@@ -15204,8 +15188,8 @@ msgid "Save Playlist..."
 msgstr "재생목록 저장..."
 
 #: modules/gui/macosx/playlist.m:467 modules/gui/qt4/dialogs/bookmarks.cpp:45
-#: linux/modules/gui/qt4/ui/podcast_configuration.h:105
-#: linux/modules/gui/qt4/ui/streampanel.h:173
+#: modules/gui/qt4/ui/podcast_configuration.h:105
+#: modules/gui/qt4/ui/streampanel.h:173
 msgid "Delete"
 msgstr "삭제"
 
@@ -15388,7 +15372,7 @@ msgid "Reset All"
 msgstr "모두 초기화"
 
 #: modules/gui/macosx/prefs.m:206 modules/gui/macosx/simple_prefs.m:306
-#: linux/modules/gui/qt4/ui/video_effects.h:1111
+#: modules/gui/qt4/ui/video_effects.h:1111
 msgid "Basic"
 msgstr "기본"
 
@@ -15451,8 +15435,7 @@ msgstr "입력 & 코덱"
 msgid "Input & Codec settings"
 msgstr "입력 & 코덱 설정"
 
-#: modules/gui/macosx/simple_prefs.m:228
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:414
+#: modules/gui/macosx/simple_prefs.m:228 modules/gui/qt4/ui/sprefs_audio.h:414
 msgid "Effects"
 msgstr "효과"
 
@@ -15464,8 +15447,7 @@ msgstr "오디오 사용"
 msgid "General Audio"
 msgstr "일반 오디오"
 
-#: modules/gui/macosx/simple_prefs.m:231
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:419
+#: modules/gui/macosx/simple_prefs.m:231 modules/gui/qt4/ui/sprefs_audio.h:419
 msgid "Headphone surround effect"
 msgstr "헤드폰 서라운드 효과"
 
@@ -15514,7 +15496,7 @@ msgstr "AVI 파일 복구"
 msgid "Default Caching Level"
 msgstr "기본 캐싱 수준"
 
-#: modules/gui/macosx/simple_prefs.m:254 linux/modules/gui/qt4/ui/open.h:235
+#: modules/gui/macosx/simple_prefs.m:254 modules/gui/qt4/ui/open.h:235
 msgid "Caching"
 msgstr "캐시"
 
@@ -15559,7 +15541,7 @@ msgid "Show Fullscreen Controller"
 msgstr "전체화면 제어기 보기"
 
 #: modules/gui/macosx/simple_prefs.m:270
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:376
+#: modules/gui/qt4/ui/sprefs_interface.h:376
 msgid "Privacy / Network Interaction"
 msgstr "프라이버시 / 네트워크 상호작용"
 
@@ -15576,7 +15558,7 @@ msgid "Default Encoding"
 msgstr "기본 인코딩"
 
 #: modules/gui/macosx/simple_prefs.m:279
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:207
+#: modules/gui/qt4/ui/sprefs_subtitles.h:207
 msgid "Display Settings"
 msgstr "디스플레이 설정"
 
@@ -15606,7 +15588,7 @@ msgstr "전체화면 모드시 검은 화면"
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
-#: linux/modules/gui/qt4/ui/sprefs_video.h:310
+#: modules/gui/qt4/ui/sprefs_video.h:310
 msgid "Display"
 msgstr "디스플레이"
 
@@ -15618,8 +15600,7 @@ msgstr "비디오 사용"
 msgid "Output module"
 msgstr "출력 모듈"
 
-#: modules/gui/macosx/simple_prefs.m:298
-#: linux/modules/gui/qt4/ui/sprefs_video.h:325
+#: modules/gui/macosx/simple_prefs.m:298 modules/gui/qt4/ui/sprefs_video.h:325
 msgid "Video snapshots"
 msgstr "비디오 스냅샷"
 
@@ -15627,18 +15608,15 @@ msgstr "비디오 스냅샷"
 msgid "Folder"
 msgstr "폴더"
 
-#: modules/gui/macosx/simple_prefs.m:301
-#: linux/modules/gui/qt4/ui/sprefs_video.h:330
+#: modules/gui/macosx/simple_prefs.m:301 modules/gui/qt4/ui/sprefs_video.h:330
 msgid "Format"
 msgstr "형식"
 
-#: modules/gui/macosx/simple_prefs.m:302
-#: linux/modules/gui/qt4/ui/sprefs_video.h:328
+#: modules/gui/macosx/simple_prefs.m:302 modules/gui/qt4/ui/sprefs_video.h:328
 msgid "Prefix"
 msgstr "접두어"
 
-#: modules/gui/macosx/simple_prefs.m:303
-#: linux/modules/gui/qt4/ui/sprefs_video.h:331
+#: modules/gui/macosx/simple_prefs.m:303 modules/gui/qt4/ui/sprefs_video.h:331
 msgid "Sequential numbering"
 msgstr "순차 번호 부여"
 
@@ -16085,7 +16063,7 @@ msgid "In this page, a few additional streaming parameters can be set."
 msgstr "이 페이지에서 몇 가지 추가적인 스트리밍 매개변수를 설정할 수 있습니다."
 
 #: modules/gui/macosx/wizard.m:401 modules/gui/macosx/wizard.m:1866
-#: linux/modules/gui/qt4/ui/sout.h:344
+#: modules/gui/qt4/ui/sout.h:344
 msgid "Time-To-Live (TTL)"
 msgstr "Time-To-Live (TTL)"
 
@@ -17003,7 +16981,7 @@ msgid "File names:"
 msgstr "파일 이름:"
 
 #: modules/gui/qt4/components/open_panels.cpp:149
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:382
+#: modules/gui/qt4/ui/sprefs_interface.h:382
 msgid "Filter:"
 msgstr "필터:"
 
@@ -17011,64 +16989,64 @@ msgstr "필터:"
 msgid "Open subtitles file"
 msgstr "자막 파일 열기"
 
-#: modules/gui/qt4/components/open_panels.cpp:322
+#: modules/gui/qt4/components/open_panels.cpp:326
 msgid "Eject the disc"
 msgstr "디스크 꺼내기"
 
-#: modules/gui/qt4/components/open_panels.cpp:668
-#: modules/gui/qt4/components/open_panels.cpp:929
+#: modules/gui/qt4/components/open_panels.cpp:672
+#: modules/gui/qt4/components/open_panels.cpp:933
 msgid "DVB Type:"
 msgstr "DVB 타입:"
 
-#: modules/gui/qt4/components/open_panels.cpp:694
-#: modules/gui/qt4/components/open_panels.cpp:960
+#: modules/gui/qt4/components/open_panels.cpp:698
+#: modules/gui/qt4/components/open_panels.cpp:964
 msgid "Transponder symbol rate"
 msgstr "트랜스폰더 심볼 레이트"
 
-#: modules/gui/qt4/components/open_panels.cpp:703
-#: modules/gui/qt4/components/open_panels.cpp:969
+#: modules/gui/qt4/components/open_panels.cpp:707
+#: modules/gui/qt4/components/open_panels.cpp:973
 msgid "Bandwidth"
 msgstr "대역폭"
 
-#: modules/gui/qt4/components/open_panels.cpp:819
+#: modules/gui/qt4/components/open_panels.cpp:823
 msgid "Channels:"
 msgstr "채널:"
 
-#: modules/gui/qt4/components/open_panels.cpp:830
+#: modules/gui/qt4/components/open_panels.cpp:834
 msgid "Selected ports:"
 msgstr "선택된 포트:"
 
-#: modules/gui/qt4/components/open_panels.cpp:833
+#: modules/gui/qt4/components/open_panels.cpp:837
 msgid ".*"
 msgstr ".*"
 
-#: modules/gui/qt4/components/open_panels.cpp:840
+#: modules/gui/qt4/components/open_panels.cpp:844
 msgid "Input caching:"
 msgstr "입력 캐싱:"
 
-#: modules/gui/qt4/components/open_panels.cpp:850
+#: modules/gui/qt4/components/open_panels.cpp:854
 msgid "Use VLC pace"
 msgstr "VLC 페이스 사용"
 
-#: modules/gui/qt4/components/open_panels.cpp:854
+#: modules/gui/qt4/components/open_panels.cpp:858
 msgid "Auto connection"
 msgstr "자동 연결"
 
-#: modules/gui/qt4/components/open_panels.cpp:878
+#: modules/gui/qt4/components/open_panels.cpp:882
 msgid "Radio device name"
 msgstr "무선 장치 이름"
 
-#: modules/gui/qt4/components/open_panels.cpp:1010
+#: modules/gui/qt4/components/open_panels.cpp:1014
 msgid "Your display will be opened and played in order to stream or save it."
 msgstr ""
 
 #. xgettext: frames per second
-#: modules/gui/qt4/components/open_panels.cpp:1024
+#: modules/gui/qt4/components/open_panels.cpp:1028
 #, fuzzy
 msgid " f/s"
 msgstr "fps"
 
-#: modules/gui/qt4/components/open_panels.cpp:1237
+#: modules/gui/qt4/components/open_panels.cpp:1241
 msgid "Advanced Options"
 msgstr "고급 옵션"
 
@@ -17324,7 +17302,7 @@ msgid "File/Folder"
 msgstr "폴더"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:46
-#: linux/modules/gui/qt4/ui/sout.h:328
+#: modules/gui/qt4/ui/sout.h:328
 msgid "Source"
 msgstr "소스"
 
@@ -17442,7 +17420,7 @@ msgid "Convert"
 msgstr "변환"
 
 #: modules/gui/qt4/dialogs/convert.cpp:58
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:411
+#: modules/gui/qt4/ui/sprefs_audio.h:411
 msgid "Destination file:"
 msgstr "대상 파일:"
 
@@ -17522,8 +17500,7 @@ msgid ""
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
-#: linux/modules/gui/qt4/ui/open_capture.h:103
-#: linux/modules/gui/qt4/ui/sout.h:347
+#: modules/gui/qt4/ui/open_capture.h:103 modules/gui/qt4/ui/sout.h:347
 msgid "Options"
 msgstr "옵션"
 
@@ -17865,7 +17842,7 @@ msgstr "선택사항 초기화(&R)"
 msgid "Are you sure you want to reset your VLC media player preferences?"
 msgstr "VLC 미디어 플레이어 선택사항을 초기화 하시겠습니까?"
 
-#: modules/gui/qt4/dialogs/sout.cpp:42 linux/modules/gui/qt4/ui/sout.h:326
+#: modules/gui/qt4/dialogs/sout.cpp:42 modules/gui/qt4/ui/sout.h:326
 msgid "Stream Output"
 msgstr "스트림 출력"
 
@@ -17958,8 +17935,7 @@ msgstr "현재 프로파일 삭제"
 msgid "Cl&ose"
 msgstr "닫기(&O)"
 
-#: modules/gui/qt4/dialogs/toolbar.cpp:217
-#: linux/modules/gui/qt4/ui/profiles.h:461
+#: modules/gui/qt4/dialogs/toolbar.cpp:217 modules/gui/qt4/ui/profiles.h:455
 msgid "Profile Name"
 msgstr "프로파일 이름"
 
@@ -18024,7 +18000,7 @@ msgid "Repeat delay:"
 msgstr "반복 지연:"
 
 #: modules/gui/qt4/dialogs/vlm.cpp:112
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:379
+#: modules/gui/qt4/ui/sprefs_interface.h:379
 msgid " days"
 msgstr " 일"
 
@@ -18870,7 +18846,7 @@ msgid "Gospel"
 msgstr "가스펠"
 
 #: modules/meta_engine/id3genres.h:67 modules/video_filter/noise.c:52
-#: linux/modules/gui/qt4/ui/video_effects.h:1144
+#: modules/gui/qt4/ui/video_effects.h:1144
 msgid "Noise"
 msgstr "노이즈"
 
@@ -20179,7 +20155,7 @@ msgid "MTP Device"
 msgstr "장치"
 
 #: modules/services_discovery/podcast.c:58
-#: linux/modules/gui/qt4/ui/podcast_configuration.h:102
+#: modules/gui/qt4/ui/podcast_configuration.h:102
 msgid "Podcast URLs list"
 msgstr "Podcast URL 목록"
 
@@ -20354,7 +20330,7 @@ msgid "Applications"
 msgstr "어플리케이션"
 
 #: modules/services_discovery/xcb_apps.c:348
-#: modules/video_output/msw/direct3d.c:164
+#: modules/video_output/msw/direct3d.c:165
 #, fuzzy
 msgid "Desktop"
 msgstr "디스크·타입"
@@ -20615,7 +20591,7 @@ msgid ""
 msgstr ""
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
-#: linux/modules/gui/qt4/ui/video_effects.h:1176
+#: modules/gui/qt4/ui/video_effects.h:1176
 msgid "Transparency"
 msgstr "투명"
 
@@ -20989,8 +20965,7 @@ msgstr ""
 msgid "Standard stream output"
 msgstr "표준 스트림 출력"
 
-#: modules/stream_out/switcher.c:90
-#: linux/modules/gui/qt4/ui/sprefs_input.h:314
+#: modules/stream_out/switcher.c:90 modules/gui/qt4/ui/sprefs_input.h:314
 msgid "Files"
 msgstr "파일"
 
@@ -21288,8 +21263,7 @@ msgstr "SSE2 변환원 "
 msgid "AltiVec conversions from "
 msgstr "AltiVec 변환원 "
 
-#: modules/video_filter/adjust.c:64
-#: linux/modules/gui/qt4/ui/video_effects.h:1110
+#: modules/video_filter/adjust.c:64 modules/gui/qt4/ui/video_effects.h:1110
 msgid "Brightness threshold"
 msgstr "밝기 한계값"
 
@@ -21343,8 +21317,7 @@ msgstr "이미지 감마 설정, 0.01 과 10 사이. 기본 1."
 msgid "Image properties filter"
 msgstr "이미지 속성 필터"
 
-#: modules/video_filter/adjust.c:81
-#: linux/modules/gui/qt4/ui/video_effects.h:1104
+#: modules/video_filter/adjust.c:81 modules/gui/qt4/ui/video_effects.h:1104
 msgid "Image adjust"
 msgstr "이미지 조정"
 
@@ -21697,7 +21670,7 @@ msgid "Sat windowing"
 msgstr "채도 윈도잉"
 
 #: modules/video_filter/atmo/atmo.cpp:275
-#: linux/modules/gui/qt4/ui/video_effects.h:1159
+#: modules/gui/qt4/ui/video_effects.h:1159
 msgid "Filter length (ms)"
 msgstr "필터 길이 (ms)"
 
@@ -21883,8 +21856,8 @@ msgid "AtmoLight Filter"
 msgstr "AtmoLight 필터"
 
 #: modules/video_filter/atmo/atmo.cpp:368
-#: linux/modules/gui/qt4/ui/video_effects.h:1153
-#: linux/modules/gui/qt4/ui/video_effects.h:1162
+#: modules/gui/qt4/ui/video_effects.h:1153
+#: modules/gui/qt4/ui/video_effects.h:1162
 msgid "AtmoLight"
 msgstr "AtmoLight"
 
@@ -22257,8 +22230,7 @@ msgstr "Wave 비디오 필터"
 msgid "Video filtering using a chain of video filter modules"
 msgstr ""
 
-#: modules/video_filter/clone.c:39
-#: linux/modules/gui/qt4/ui/video_effects.h:1173
+#: modules/video_filter/clone.c:39 modules/gui/qt4/ui/video_effects.h:1173
 msgid "Number of clones"
 msgstr "복제할 수"
 
@@ -22284,8 +22256,7 @@ msgstr ""
 msgid "Clone video filter"
 msgstr "복제(Clone) 영상 필터"
 
-#: modules/video_filter/clone.c:57
-#: linux/modules/gui/qt4/ui/video_effects.h:1172
+#: modules/video_filter/clone.c:57 modules/gui/qt4/ui/video_effects.h:1172
 msgid "Clone"
 msgstr "복제"
 
@@ -22307,7 +22278,7 @@ msgid "Color threshold filter"
 msgstr "색깔 한계값 필터"
 
 #: modules/video_filter/colorthres.c:70
-#: linux/modules/gui/qt4/ui/video_effects.h:1135
+#: modules/gui/qt4/ui/video_effects.h:1135
 msgid "Color threshold"
 msgstr "색깔 한계값"
 
@@ -23030,7 +23001,7 @@ msgid "The degree of blurring from 1 to 127."
 msgstr ""
 
 #: modules/video_filter/motionblur.c:59
-#: linux/modules/gui/qt4/ui/video_effects.h:1146
+#: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "모션 블러"
 
@@ -23253,8 +23224,7 @@ msgstr ""
 msgid "Panoramix: wall with overlap video filter"
 msgstr "파노라믹스: 오버랩 비디오 필터를 가지는 월"
 
-#: modules/video_filter/panoramix.c:79
-#: linux/modules/gui/qt4/ui/video_effects.h:1169
+#: modules/video_filter/panoramix.c:79 modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
 msgstr "파노라믹스"
 
@@ -23589,8 +23559,7 @@ msgstr "각도 (0~359)"
 msgid "Rotate video filter"
 msgstr "회전 영상 필터"
 
-#: modules/video_filter/rotate.c:67
-#: linux/modules/gui/qt4/ui/video_effects.h:1128
+#: modules/video_filter/rotate.c:67 modules/gui/qt4/ui/video_effects.h:1128
 msgid "Rotate"
 msgstr "회전"
 
@@ -23796,8 +23765,7 @@ msgstr "윤곽선 사이의 명암 증가"
 msgid "Sharpen video filter"
 msgstr "선명 비디오 필터"
 
-#: modules/video_filter/sharpen.c:67
-#: linux/modules/gui/qt4/ui/video_effects.h:1102
+#: modules/video_filter/sharpen.c:67 modules/gui/qt4/ui/video_effects.h:1102
 msgid "Sharpen"
 msgstr "선명도"
 
@@ -24040,8 +24008,7 @@ msgstr ""
 msgid "Direct3D video output"
 msgstr "DirectX 3D 비디오 출력"
 
-#: modules/video_output/msw/directx.c:68
-#: linux/modules/gui/qt4/ui/sprefs_video.h:317
+#: modules/video_output/msw/directx.c:68 modules/gui/qt4/ui/sprefs_video.h:317
 msgid "Use hardware YUV->RGB conversions"
 msgstr "하드웨어 YUV->RGB 변환 사용"
 
@@ -24101,7 +24068,7 @@ msgstr ""
 msgid "DirectX (DirectDraw) video output"
 msgstr "DirectX 3D 비디오 출력"
 
-#: modules/video_output/msw/directx.c:222
+#: modules/video_output/msw/directx.c:224
 msgid "Wallpaper"
 msgstr "바탕화면"
 
@@ -24578,178 +24545,174 @@ msgstr "시각화 필터"
 msgid "Spectrum analyser"
 msgstr "스펙트럼 분석기"
 
-#: linux/modules/gui/qt4/ui/equalizer.h:126
-#: linux/modules/gui/qt4/ui/open_disk.h:290
-#: linux/modules/gui/qt4/ui/open_net.h:91
-#: linux/modules/gui/qt4/ui/profiles.h:460
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:403
-#: linux/modules/gui/qt4/ui/sprefs_input.h:305
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:372
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:200
-#: linux/modules/gui/qt4/ui/sprefs_video.h:308
-#: linux/modules/gui/qt4/ui/streampanel.h:168
-#: linux/modules/gui/qt4/ui/v4l2.h:58
+#: modules/gui/qt4/ui/equalizer.h:126 modules/gui/qt4/ui/open_disk.h:290
+#: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:454
+#: modules/gui/qt4/ui/sprefs_audio.h:403 modules/gui/qt4/ui/sprefs_input.h:305
+#: modules/gui/qt4/ui/sprefs_interface.h:372
+#: modules/gui/qt4/ui/sprefs_subtitles.h:200
+#: modules/gui/qt4/ui/sprefs_video.h:308 modules/gui/qt4/ui/streampanel.h:168
+#: modules/gui/qt4/ui/v4l2.h:58
 msgid "Form"
 msgstr "형식"
 
-#: linux/modules/gui/qt4/ui/equalizer.h:129
+#: modules/gui/qt4/ui/equalizer.h:129
 msgid "Preset"
 msgstr "프리셋"
 
-#: linux/modules/gui/qt4/ui/open.h:230
-#: linux/modules/gui/qt4/ui/podcast_configuration.h:101
+#: modules/gui/qt4/ui/open.h:230
+#: modules/gui/qt4/ui/podcast_configuration.h:101
 msgid "Dialog"
 msgstr "대화창"
 
-#: linux/modules/gui/qt4/ui/open.h:232
+#: modules/gui/qt4/ui/open.h:232
 msgid "Show extended options"
 msgstr "확장 옵션 보기"
 
-#: linux/modules/gui/qt4/ui/open.h:234
+#: modules/gui/qt4/ui/open.h:234
 msgid "Show &more options"
 msgstr "옵션 더 보기(&M)"
 
-#: linux/modules/gui/qt4/ui/open.h:237
+#: modules/gui/qt4/ui/open.h:237
 msgid "Change the caching for the media"
 msgstr "해당 미디어에 대한 캐시 설정 변경"
 
-#: linux/modules/gui/qt4/ui/open.h:239
+#: modules/gui/qt4/ui/open.h:239
 msgid " ms"
 msgstr "ms"
 
-#: linux/modules/gui/qt4/ui/open.h:240
+#: modules/gui/qt4/ui/open.h:240
 msgid "Start Time"
 msgstr "시작 시간"
 
-#: linux/modules/gui/qt4/ui/open.h:241
+#: modules/gui/qt4/ui/open.h:241
 msgid "Play another media synchronously (extra audio file, ...)"
 msgstr "동시에 다른 미디어 재생 (추가 오디오 파일, ...)"
 
-#: linux/modules/gui/qt4/ui/open.h:242
+#: modules/gui/qt4/ui/open.h:242
 msgid "Extra media"
 msgstr "별도의 미디어"
 
-#: linux/modules/gui/qt4/ui/open.h:244
+#: modules/gui/qt4/ui/open.h:244
 msgid "Select the file"
 msgstr "파일 선택"
 
-#: linux/modules/gui/qt4/ui/open.h:247
+#: modules/gui/qt4/ui/open.h:247
 msgid "MRL"
 msgstr "MRL"
 
-#: linux/modules/gui/qt4/ui/open.h:249
+#: modules/gui/qt4/ui/open.h:249
 msgid "Complete MRL for VLC internal"
 msgstr "VLC 내부에서 사용할 완전한 MRL"
 
-#: linux/modules/gui/qt4/ui/open.h:251
+#: modules/gui/qt4/ui/open.h:251
 msgid "Edit Options"
 msgstr "옵션 수정"
 
-#: linux/modules/gui/qt4/ui/open.h:253
+#: modules/gui/qt4/ui/open.h:253
 msgid "Change the start time for the media"
 msgstr "미디어의 시작 시간 변경"
 
-#: linux/modules/gui/qt4/ui/open.h:255
+#: modules/gui/qt4/ui/open.h:255
 msgid "s"
 msgstr " s"
 
-#: linux/modules/gui/qt4/ui/open_capture.h:98
+#: modules/gui/qt4/ui/open_capture.h:98
 msgid "Capture mode"
 msgstr "갈무리 모드"
 
-#: linux/modules/gui/qt4/ui/open_capture.h:100
+#: modules/gui/qt4/ui/open_capture.h:100
 msgid "Select the capture device type"
 msgstr "갈무리 장치 형식 선택"
 
-#: linux/modules/gui/qt4/ui/open_capture.h:102
+#: modules/gui/qt4/ui/open_capture.h:102
 msgid "Device Selection"
 msgstr "장치 선택"
 
-#: linux/modules/gui/qt4/ui/open_capture.h:105
+#: modules/gui/qt4/ui/open_capture.h:105
 msgid "Access advanced options to tweak the device"
 msgstr "장치를 설정할 고급 옵션"
 
-#: linux/modules/gui/qt4/ui/open_capture.h:107
+#: modules/gui/qt4/ui/open_capture.h:107
 msgid "Advanced options..."
 msgstr "고급 옵션..."
 
-#: linux/modules/gui/qt4/ui/open_disk.h:291
+#: modules/gui/qt4/ui/open_disk.h:291
 msgid "Disc Selection"
 msgstr "디스크 선택"
 
-#: linux/modules/gui/qt4/ui/open_disk.h:294
+#: modules/gui/qt4/ui/open_disk.h:294
 msgid "SVCD/VCD"
 msgstr "SVCD/VCD"
 
-#: linux/modules/gui/qt4/ui/open_disk.h:296
+#: modules/gui/qt4/ui/open_disk.h:296
 msgid "Disable DVD Menus (for compatibility)"
 msgstr "DVD 메뉴 사용 안함 (호환성 유지)"
 
-#: linux/modules/gui/qt4/ui/open_disk.h:299
+#: modules/gui/qt4/ui/open_disk.h:299
 msgid "Disc device"
 msgstr "디스크 장치"
 
-#: linux/modules/gui/qt4/ui/open_disk.h:301
+#: modules/gui/qt4/ui/open_disk.h:301
 msgid "Starting Position"
 msgstr "시작 위치"
 
-#: linux/modules/gui/qt4/ui/open_disk.h:304
+#: modules/gui/qt4/ui/open_disk.h:304
 msgid "Audio and Subtitles"
 msgstr "음성 및 자막"
 
-#: linux/modules/gui/qt4/ui/open_file.h:219
+#: modules/gui/qt4/ui/open_file.h:219
 msgid "Choose one or more media file to open"
 msgstr "열고 싶은 하나 이상의 미디어 파일 선택"
 
-#: linux/modules/gui/qt4/ui/open_file.h:221
+#: modules/gui/qt4/ui/open_file.h:221
 msgid "File Selection"
 msgstr "파일 선택"
 
-#: linux/modules/gui/qt4/ui/open_file.h:222
+#: modules/gui/qt4/ui/open_file.h:222
 msgid "You can select local files with the following list and buttons."
 msgstr "다음 목록 및 버튼으로 로컬 파일을 선택할수 있습니다."
 
-#: linux/modules/gui/qt4/ui/open_file.h:223
+#: modules/gui/qt4/ui/open_file.h:223
 msgid "Add..."
 msgstr "추가..."
 
-#: linux/modules/gui/qt4/ui/open_file.h:226
+#: modules/gui/qt4/ui/open_file.h:226
 msgid "Add a subtitles file"
 msgstr "자막 파일 추가"
 
-#: linux/modules/gui/qt4/ui/open_file.h:228
+#: modules/gui/qt4/ui/open_file.h:228
 msgid "Use a sub&titles file"
 msgstr "자막 파일 사용(&T)"
 
-#: linux/modules/gui/qt4/ui/open_file.h:230
+#: modules/gui/qt4/ui/open_file.h:230
 msgid "Select the subtitles file"
 msgstr "자막 파일 선택"
 
-#: linux/modules/gui/qt4/ui/open_file.h:233
+#: modules/gui/qt4/ui/open_file.h:233
 #, fuzzy
 msgid "Font size:"
 msgstr "글꼴 크기"
 
-#: linux/modules/gui/qt4/ui/open_file.h:234
+#: modules/gui/qt4/ui/open_file.h:234
 #, fuzzy
 msgid "Text alignment:"
 msgstr "문자다중방송 정렬"
 
-#: linux/modules/gui/qt4/ui/open_net.h:92
+#: modules/gui/qt4/ui/open_net.h:92
 msgid "Network Protocol"
 msgstr "네트워크 프로토콜"
 
-#: linux/modules/gui/qt4/ui/open_net.h:93
+#: modules/gui/qt4/ui/open_net.h:93
 #, fuzzy
 msgid "Please enter a network URL:"
 msgstr "주소를 입력하세요"
 
-#: linux/modules/gui/qt4/ui/open_net.h:95
+#: modules/gui/qt4/ui/open_net.h:95
 #, fuzzy
 msgid "Enter the URL of the network stream here."
 msgstr "스트리밍할 컴퓨터의 주소를 입력하세요."
 
-#: linux/modules/gui/qt4/ui/open_net.h:97
+#: modules/gui/qt4/ui/open_net.h:97
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -24775,729 +24738,722 @@ msgid ""
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/profiles.h:462
+#: modules/gui/qt4/ui/profiles.h:456
 msgid "MPEG-TS"
 msgstr "MPEG-TS"
 
-#: linux/modules/gui/qt4/ui/profiles.h:463
+#: modules/gui/qt4/ui/profiles.h:457
 msgid "MPEG-PS"
 msgstr "MPEG-PS"
 
-#: linux/modules/gui/qt4/ui/profiles.h:464
+#: modules/gui/qt4/ui/profiles.h:458
 msgid "WAV"
 msgstr "WAV"
 
-#: linux/modules/gui/qt4/ui/profiles.h:465
-msgid "Webm"
-msgstr ""
-
-#: linux/modules/gui/qt4/ui/profiles.h:466
+#: modules/gui/qt4/ui/profiles.h:459
 msgid "ASF/WMV"
 msgstr "ASF/WMV"
 
-#: linux/modules/gui/qt4/ui/profiles.h:467
+#: modules/gui/qt4/ui/profiles.h:460
 msgid "Ogg/Ogm"
 msgstr "Ogg/Ogm"
 
-#: linux/modules/gui/qt4/ui/profiles.h:468
+#: modules/gui/qt4/ui/profiles.h:461
 msgid "RAW"
 msgstr "RAW"
 
-#: linux/modules/gui/qt4/ui/profiles.h:469
+#: modules/gui/qt4/ui/profiles.h:462
 msgid "MPEG 1"
 msgstr "MPEG1"
 
-#: linux/modules/gui/qt4/ui/profiles.h:470
+#: modules/gui/qt4/ui/profiles.h:463
 msgid "FLV"
 msgstr "FLV"
 
-#: linux/modules/gui/qt4/ui/profiles.h:471
+#: modules/gui/qt4/ui/profiles.h:464
 msgid "AVI"
 msgstr "AVI"
 
-#: linux/modules/gui/qt4/ui/profiles.h:472
+#: modules/gui/qt4/ui/profiles.h:465
 msgid "MP4/MOV"
 msgstr "MP4/MOV"
 
-#: linux/modules/gui/qt4/ui/profiles.h:474
+#: modules/gui/qt4/ui/profiles.h:467
 msgid "MKV"
 msgstr "MKV"
 
-#: linux/modules/gui/qt4/ui/profiles.h:475
+#: modules/gui/qt4/ui/profiles.h:468
 msgid "Encapsulation"
 msgstr "캡슐화"
 
-#: linux/modules/gui/qt4/ui/profiles.h:479
-#: linux/modules/gui/qt4/ui/profiles.h:498
+#: modules/gui/qt4/ui/profiles.h:472 modules/gui/qt4/ui/profiles.h:491
 msgid " kb/s"
 msgstr " kb/s"
 
-#: linux/modules/gui/qt4/ui/profiles.h:480
+#: modules/gui/qt4/ui/profiles.h:473
 msgid "Frame Rate"
 msgstr "프레임 레이트"
 
-#: linux/modules/gui/qt4/ui/profiles.h:482
+#: modules/gui/qt4/ui/profiles.h:475
 #, fuzzy
 msgid " fps"
 msgstr "fps"
 
-#: linux/modules/gui/qt4/ui/profiles.h:484
+#: modules/gui/qt4/ui/profiles.h:477
 msgid ""
 "You just need to fill one of the three following parameters, VLC will "
 "autodetect the other using the original aspect ratio"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/profiles.h:487
-#: linux/modules/gui/qt4/ui/profiles.h:490
+#: modules/gui/qt4/ui/profiles.h:480 modules/gui/qt4/ui/profiles.h:483
 msgid "00000; "
 msgstr "00000; "
 
-#: linux/modules/gui/qt4/ui/profiles.h:492
+#: modules/gui/qt4/ui/profiles.h:485
 msgid "Keep original video track"
 msgstr "원본 비디오 트랙 유지"
 
-#: linux/modules/gui/qt4/ui/profiles.h:493
+#: modules/gui/qt4/ui/profiles.h:486
 msgid "Video codec"
 msgstr "영상 코덱"
 
-#: linux/modules/gui/qt4/ui/profiles.h:495
+#: modules/gui/qt4/ui/profiles.h:488
 msgid "Keep original audio track"
 msgstr "원본 오디오 트랙 유지"
 
-#: linux/modules/gui/qt4/ui/profiles.h:500
+#: modules/gui/qt4/ui/profiles.h:493
 #, fuzzy
 msgid "Sample Rate"
 msgstr "샘플 레이트"
 
-#: linux/modules/gui/qt4/ui/profiles.h:501
+#: modules/gui/qt4/ui/profiles.h:494
 msgid "Audio codec"
 msgstr "음성 코덱"
 
-#: linux/modules/gui/qt4/ui/profiles.h:503
+#: modules/gui/qt4/ui/profiles.h:496
 #, fuzzy
 msgid "Overlay subtitles on the video"
 msgstr "중첩/자막"
 
-#: linux/modules/gui/qt4/ui/sout.h:329 linux/modules/gui/qt4/ui/sout.h:339
+#: modules/gui/qt4/ui/sout.h:329 modules/gui/qt4/ui/sout.h:339
 msgid "Destinations"
 msgstr "대상"
 
-#: linux/modules/gui/qt4/ui/sout.h:330
+#: modules/gui/qt4/ui/sout.h:330
 msgid "New destination"
 msgstr "새 대상"
 
-#: linux/modules/gui/qt4/ui/sout.h:332
+#: modules/gui/qt4/ui/sout.h:332
 msgid ""
 "Add destinations following the streaming methods you need. Be sure to check "
 "with transcoding that the format is compatible with the method used."
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sout.h:333
+#: modules/gui/qt4/ui/sout.h:333
 msgid "Display locally"
 msgstr "부분적으로 표시"
 
-#: linux/modules/gui/qt4/ui/sout.h:336
+#: modules/gui/qt4/ui/sout.h:336
 msgid "Activate Transcoding"
 msgstr "트랜스코딩 활성화"
 
-#: linux/modules/gui/qt4/ui/sout.h:340
+#: modules/gui/qt4/ui/sout.h:340
 msgid "Miscellaneous Options"
 msgstr "기타 옵션"
 
-#: linux/modules/gui/qt4/ui/sout.h:341
+#: modules/gui/qt4/ui/sout.h:341
 msgid "Stream all elementary streams"
 msgstr "모든 기본 스트림 실시간 재생"
 
-#: linux/modules/gui/qt4/ui/sout.h:343
+#: modules/gui/qt4/ui/sout.h:343
 msgid "Group name"
 msgstr "그룹 이름"
 
-#: linux/modules/gui/qt4/ui/sout.h:345
+#: modules/gui/qt4/ui/sout.h:345
 msgid "Generated stream output string"
 msgstr "생성된 스트림 출력 문자열"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:406
+#: modules/gui/qt4/ui/sprefs_audio.h:406
 msgid "Keep audio level between sessions"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:407
+#: modules/gui/qt4/ui/sprefs_audio.h:407
 msgid "Always reset audio start level to:"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:408
+#: modules/gui/qt4/ui/sprefs_audio.h:408
 msgid " %"
 msgstr "  %"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:409
-#: linux/modules/gui/qt4/ui/sprefs_video.h:313
+#: modules/gui/qt4/ui/sprefs_audio.h:409 modules/gui/qt4/ui/sprefs_video.h:313
 msgid "Output"
 msgstr "출력"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:410
+#: modules/gui/qt4/ui/sprefs_audio.h:410
 #, fuzzy
 msgid "Output module:"
 msgstr "출력 모듈"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:415
+#: modules/gui/qt4/ui/sprefs_audio.h:415
 #, fuzzy
 msgid "Dolby Surround:"
 msgstr "돌비 서라운드"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:416
+#: modules/gui/qt4/ui/sprefs_audio.h:416
 msgid "Normalize volume to:"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:417
+#: modules/gui/qt4/ui/sprefs_audio.h:417
 #, fuzzy
 msgid "Replay gain mode:"
 msgstr "리플레이 게인 모드"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:418
+#: modules/gui/qt4/ui/sprefs_audio.h:418
 #, fuzzy
 msgid "Visualization:"
 msgstr "시각화"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:420
+#: modules/gui/qt4/ui/sprefs_audio.h:420
 #, fuzzy
 msgid "Enable Time-Stretching audio"
 msgstr "시간 연장 오디오 사용"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:422
+#: modules/gui/qt4/ui/sprefs_audio.h:422
 #, fuzzy
 msgid "Preferred audio language:"
 msgstr "선호하는 오디어 언어"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:423
+#: modules/gui/qt4/ui/sprefs_audio.h:423
 msgid "Password:"
 msgstr "비밀번호:"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:424
+#: modules/gui/qt4/ui/sprefs_audio.h:424
 #, fuzzy
 msgid "Username:"
 msgstr "사용자 이름"
 
-#: linux/modules/gui/qt4/ui/sprefs_audio.h:425
+#: modules/gui/qt4/ui/sprefs_audio.h:425
 #, fuzzy
 msgid "Submit played tracks stats to Last.fm"
 msgstr "재생 중인 곡을 last.fm에 전송"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:306
+#: modules/gui/qt4/ui/sprefs_input.h:306
 msgid "Optical drive"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:307
+#: modules/gui/qt4/ui/sprefs_input.h:307
 #, fuzzy
 msgid "Default optical device"
 msgstr "기본 디스크 장치"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:309
+#: modules/gui/qt4/ui/sprefs_input.h:309
 #, fuzzy
 msgid "Codecs"
 msgstr "코덱"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:310
+#: modules/gui/qt4/ui/sprefs_input.h:310
 #, fuzzy
 msgid "Skip H.264 in-loop deblocking filter"
 msgstr "순환 필터 건너뛰기"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:311
+#: modules/gui/qt4/ui/sprefs_input.h:311
 #, fuzzy
 msgid "Video quality post-processing level"
 msgstr "비디오 후처리 필터"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:312
+#: modules/gui/qt4/ui/sprefs_input.h:312
 msgid "Use GPU acceleration (experimental)"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:313
+#: modules/gui/qt4/ui/sprefs_input.h:313
 #, fuzzy
 msgid "Use system codecs if available (better quality, but dangerous)"
 msgstr "가능하면 시스템 코덱 사용 (품질이 좋아짐)"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:315
+#: modules/gui/qt4/ui/sprefs_input.h:315
 #, fuzzy
 msgid "Damaged or incomplete AVI file"
 msgstr "이미지 속성 필터"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:319
+#: modules/gui/qt4/ui/sprefs_input.h:319
 #, fuzzy
 msgid "Default port (server mode)"
 msgstr "기본 서버 포트"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:320
+#: modules/gui/qt4/ui/sprefs_input.h:320
 #, fuzzy
 msgid "HTTP proxy URL"
 msgstr "HTTP 프록시"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:321
+#: modules/gui/qt4/ui/sprefs_input.h:321
 #, fuzzy
 msgid "Default caching policy"
 msgstr "기본 캐시 수준"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:322
+#: modules/gui/qt4/ui/sprefs_input.h:322
 #, fuzzy
 msgid "HTTP (default)"
 msgstr "기본"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:323
+#: modules/gui/qt4/ui/sprefs_input.h:323
 #, fuzzy
 msgid "RTP over RTSP (TCP)"
 msgstr "RTSP (TCP) 을 통한 RTP 사용"
 
-#: linux/modules/gui/qt4/ui/sprefs_input.h:324
+#: modules/gui/qt4/ui/sprefs_input.h:324
 #, fuzzy
 msgid "Live555 stream transport"
 msgstr "UDP-Lite 전송"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:373
+#: modules/gui/qt4/ui/sprefs_interface.h:373
 msgid "Instances"
 msgstr "인스턴스"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:374
+#: modules/gui/qt4/ui/sprefs_interface.h:374
 msgid "Allow only one instance"
 msgstr "하나의 인스턴스만을 허용"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:375
+#: modules/gui/qt4/ui/sprefs_interface.h:375
 msgid "Enqueue files when in one instance mode"
 msgstr "단일 인스턴스 모드일때 파일 대기열에 넣기"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:377
+#: modules/gui/qt4/ui/sprefs_interface.h:377
 #, fuzzy
 msgid "Album art download policy:"
 msgstr "앨범 아트 다운로드 정책"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:378
+#: modules/gui/qt4/ui/sprefs_interface.h:378
 msgid "Activate update notifier"
 msgstr "업데이트 알리미 활성화"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:380
+#: modules/gui/qt4/ui/sprefs_interface.h:380
 #, fuzzy
 msgid "Every "
 msgstr "엔트리"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:381
+#: modules/gui/qt4/ui/sprefs_interface.h:381
 msgid "Save recently played items"
 msgstr "최근 재생된 항목 저장"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:384
+#: modules/gui/qt4/ui/sprefs_interface.h:384
 msgid "Separate words by | (without space)"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:387
+#: modules/gui/qt4/ui/sprefs_interface.h:387
 #, fuzzy
 msgid "Menus language:"
 msgstr "언어"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:388
+#: modules/gui/qt4/ui/sprefs_interface.h:388
 #, fuzzy
 msgid "File associations"
 msgstr "파일 연결:"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:389
+#: modules/gui/qt4/ui/sprefs_interface.h:389
 #, fuzzy
 msgid "Set up associations..."
 msgstr "파일 연결:"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:390
+#: modules/gui/qt4/ui/sprefs_interface.h:390
 msgid "Look and feel"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:391
+#: modules/gui/qt4/ui/sprefs_interface.h:391
 #, fuzzy
 msgid "Use custom skin"
 msgstr "스킨 선택"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:393
+#: modules/gui/qt4/ui/sprefs_interface.h:393
 #, fuzzy
 msgid "Skin resource file:"
 msgstr "스킨 파일"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:395
+#: modules/gui/qt4/ui/sprefs_interface.h:395
 msgid "Resize interface to video size"
 msgstr "비디오 크기에 인터페이스 크기조정"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:396
+#: modules/gui/qt4/ui/sprefs_interface.h:396
 #, fuzzy
 msgid "Force window style:"
 msgstr "다음 위젯 형식:"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:397
+#: modules/gui/qt4/ui/sprefs_interface.h:397
 #, fuzzy
 msgid "Show systray icon"
 msgstr "시스템 트레이 아이콘"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:398
+#: modules/gui/qt4/ui/sprefs_interface.h:398
 msgid "Embed video in interface"
 msgstr "인터페이스 안에 영상 포함"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:399
+#: modules/gui/qt4/ui/sprefs_interface.h:399
 msgid "Systray popup when minimized"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:400
+#: modules/gui/qt4/ui/sprefs_interface.h:400
 #, fuzzy
 msgid "Show controls in full screen mode"
 msgstr "전체화면 모드에서 제어기 보이기"
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:401
+#: modules/gui/qt4/ui/sprefs_interface.h:401
 msgid "Minimal view mode (no toolbars)"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:403
+#: modules/gui/qt4/ui/sprefs_interface.h:403
 msgid "This is VLC's default interface, with a native look and feel."
 msgstr "기본 모양 및 느낌을 제공하는 VLC의 기본 인터페이스입니다."
 
-#: linux/modules/gui/qt4/ui/sprefs_interface.h:405
+#: modules/gui/qt4/ui/sprefs_interface.h:405
 #, fuzzy
 msgid "Use native style"
 msgstr "자막 파일 이용"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:202
+#: modules/gui/qt4/ui/sprefs_subtitles.h:202
 #, fuzzy
 msgid "Enable On Screen Display (OSD)"
 msgstr "화면표시메뉴"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:203
+#: modules/gui/qt4/ui/sprefs_subtitles.h:203
 #, fuzzy
 msgid "Show media title on video start"
 msgstr "비디오에 미디어 제목 보이기"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:204
+#: modules/gui/qt4/ui/sprefs_subtitles.h:204
 msgid "Subtitles Language"
 msgstr "자막 언어"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:205
+#: modules/gui/qt4/ui/sprefs_subtitles.h:205
 msgid "Preferred subtitles language"
 msgstr "선호하는 자막 언어"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:206
+#: modules/gui/qt4/ui/sprefs_subtitles.h:206
 msgid "Default encoding"
 msgstr "기본 인코딩"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:208
+#: modules/gui/qt4/ui/sprefs_subtitles.h:208
 msgid "Effect"
 msgstr "효과"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:209
+#: modules/gui/qt4/ui/sprefs_subtitles.h:209
 msgid "Font color"
 msgstr "글꼴 색깔"
 
-#: linux/modules/gui/qt4/ui/sprefs_subtitles.h:212
-#: linux/modules/gui/qt4/ui/video_effects.h:1113
-#: linux/modules/gui/qt4/ui/video_effects.h:1115
-#: linux/modules/gui/qt4/ui/video_effects.h:1117
-#: linux/modules/gui/qt4/ui/video_effects.h:1119
+#: modules/gui/qt4/ui/sprefs_subtitles.h:212
+#: modules/gui/qt4/ui/video_effects.h:1113
+#: modules/gui/qt4/ui/video_effects.h:1115
+#: modules/gui/qt4/ui/video_effects.h:1117
+#: modules/gui/qt4/ui/video_effects.h:1119
 msgid " px"
 msgstr " px"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:314
+#: modules/gui/qt4/ui/sprefs_video.h:314
 msgid "Accelerated video output (Overlay)"
 msgstr "가속화된 비디오 출력 (중첩)"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:318
+#: modules/gui/qt4/ui/sprefs_video.h:318
 msgid "DirectX"
 msgstr "DirectX"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:319
+#: modules/gui/qt4/ui/sprefs_video.h:319
 msgid "Display device"
 msgstr "화면 장치"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:320
+#: modules/gui/qt4/ui/sprefs_video.h:320
 msgid "Enable wallpaper mode"
 msgstr "배경 모드 사용"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:322
+#: modules/gui/qt4/ui/sprefs_video.h:322
 #, fuzzy
 msgid "Deinterlacing"
 msgstr "디인터레이싱 모드"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:323
+#: modules/gui/qt4/ui/sprefs_video.h:323
 msgid "Force Aspect Ratio"
 msgstr "가로세로비 강제"
 
-#: linux/modules/gui/qt4/ui/sprefs_video.h:329
+#: modules/gui/qt4/ui/sprefs_video.h:329
 msgid "vlc-snap"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/streampanel.h:172
+#: modules/gui/qt4/ui/streampanel.h:172
 #, fuzzy
 msgid "Stuff"
 msgstr "섞기(&S)"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:174
+#: modules/gui/qt4/ui/streampanel.h:174
 msgid "Edit settings"
 msgstr "설정 수정"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:175
+#: modules/gui/qt4/ui/streampanel.h:175
 msgid "Control"
 msgstr "제어"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:176
+#: modules/gui/qt4/ui/streampanel.h:176
 msgid "Run manually"
 msgstr "직접 실행"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:177
+#: modules/gui/qt4/ui/streampanel.h:177
 msgid "Setup schedule"
 msgstr "일정 설정"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:178
+#: modules/gui/qt4/ui/streampanel.h:178
 msgid "Run on schedule"
 msgstr "일정대로 실행"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:179
+#: modules/gui/qt4/ui/streampanel.h:179
 msgid "Status"
 msgstr "상태"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:180
+#: modules/gui/qt4/ui/streampanel.h:180
 msgid "P/P"
 msgstr "P/P"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:183
+#: modules/gui/qt4/ui/streampanel.h:183
 msgid "Prev"
 msgstr "이전"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:184
+#: modules/gui/qt4/ui/streampanel.h:184
 msgid "Add Input"
 msgstr "입력 추가"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:185
+#: modules/gui/qt4/ui/streampanel.h:185
 msgid "Edit Input"
 msgstr "입력 수정"
 
-#: linux/modules/gui/qt4/ui/streampanel.h:186
+#: modules/gui/qt4/ui/streampanel.h:186
 msgid "Clear List"
 msgstr "목록 지우기"
 
-#: linux/modules/gui/qt4/ui/v4l2.h:59
+#: modules/gui/qt4/ui/v4l2.h:59
 msgid "Refresh"
 msgstr "새로고침"
 
-#: linux/modules/gui/qt4/ui/v4l2.h:60
+#: modules/gui/qt4/ui/v4l2.h:60
 msgid "No v4l2 instance found. Press the refresh button to try again."
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1101
+#: modules/gui/qt4/ui/video_effects.h:1101
 msgid "Transform"
 msgstr "변환"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1103
+#: modules/gui/qt4/ui/video_effects.h:1103
 msgid "Sigma"
 msgstr "시그마"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1120
+#: modules/gui/qt4/ui/video_effects.h:1120
 #, fuzzy
 msgid "Synchronize top and bottom"
 msgstr "왼쪽 및 오른쪽 동기화"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1121
+#: modules/gui/qt4/ui/video_effects.h:1121
 msgid "Synchronize left and right"
 msgstr "왼쪽 및 오른쪽 동기화"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1123
+#: modules/gui/qt4/ui/video_effects.h:1123
 msgid "Magnification/Zoom"
 msgstr "확대 / 축소/확대"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1124
+#: modules/gui/qt4/ui/video_effects.h:1124
 msgid "Puzzle game"
 msgstr "퍼즐 게임"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1125
+#: modules/gui/qt4/ui/video_effects.h:1125
 msgid "Black slot"
 msgstr "검정 슬롯"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1126
-#: linux/modules/gui/qt4/ui/video_effects.h:1165
-#: linux/modules/gui/qt4/ui/video_effects.h:1171
+#: modules/gui/qt4/ui/video_effects.h:1126
+#: modules/gui/qt4/ui/video_effects.h:1165
+#: modules/gui/qt4/ui/video_effects.h:1171
 msgid "Columns"
 msgstr "열"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1127
-#: linux/modules/gui/qt4/ui/video_effects.h:1164
-#: linux/modules/gui/qt4/ui/video_effects.h:1170
+#: modules/gui/qt4/ui/video_effects.h:1127
+#: modules/gui/qt4/ui/video_effects.h:1164
+#: modules/gui/qt4/ui/video_effects.h:1170
 msgid "Rows"
 msgstr "행"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1129
+#: modules/gui/qt4/ui/video_effects.h:1129
 msgid "Angle"
 msgstr "각도"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1130
+#: modules/gui/qt4/ui/video_effects.h:1130
 msgid "Geometry"
 msgstr "구조"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1131
+#: modules/gui/qt4/ui/video_effects.h:1131
 msgid "Color extraction"
 msgstr "색상 추출"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1133
-#: linux/modules/gui/qt4/ui/video_effects.h:1139
+#: modules/gui/qt4/ui/video_effects.h:1133
+#: modules/gui/qt4/ui/video_effects.h:1139
 msgid ">HHHHHH;#"
 msgstr ">HHHHHH;#"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1136
+#: modules/gui/qt4/ui/video_effects.h:1136
 msgid "Similarity"
 msgstr "유사도"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1140
+#: modules/gui/qt4/ui/video_effects.h:1140
 msgid "Color fun"
 msgstr "색깔 기능"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1142
+#: modules/gui/qt4/ui/video_effects.h:1142
 msgid "Water effect"
 msgstr "물결 효과"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1145
+#: modules/gui/qt4/ui/video_effects.h:1145
 msgid "Motion detect"
 msgstr "모션 인식"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1147
+#: modules/gui/qt4/ui/video_effects.h:1147
 msgid "Factor"
 msgstr "요소"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1151
+#: modules/gui/qt4/ui/video_effects.h:1151
 msgid "Cartoon"
 msgstr "카툰"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1152
+#: modules/gui/qt4/ui/video_effects.h:1152
 msgid "Image modification"
 msgstr "이미지 수정"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1154
+#: modules/gui/qt4/ui/video_effects.h:1154
 msgid "Edge weightning"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1155
+#: modules/gui/qt4/ui/video_effects.h:1155
 #, fuzzy
 msgid "Output Color Filtermode"
 msgstr "영상 출력 필터 모듈"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1156
+#: modules/gui/qt4/ui/video_effects.h:1156
 #, fuzzy
 msgid "Brightness (%)"
 msgstr "밝기"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1157
+#: modules/gui/qt4/ui/video_effects.h:1157
 #, fuzzy
 msgid "Darknesslimit"
 msgstr "어두움 제한"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1158
+#: modules/gui/qt4/ui/video_effects.h:1158
 msgid "Mark analyzed Pixels"
 msgstr ""
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1160
+#: modules/gui/qt4/ui/video_effects.h:1160
 #, fuzzy
 msgid "Filter threshold (%)"
 msgstr "필터 한계값"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1161
+#: modules/gui/qt4/ui/video_effects.h:1161
 #, fuzzy
 msgid "Filter smoothness (%)"
 msgstr "필터 부드러움 (%)"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1163
+#: modules/gui/qt4/ui/video_effects.h:1163
 msgid "Wall"
 msgstr "월"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1166
+#: modules/gui/qt4/ui/video_effects.h:1166
 msgid "Add text"
 msgstr "텍스트 추가"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1174
+#: modules/gui/qt4/ui/video_effects.h:1174
 msgid "Vout/Overlay"
 msgstr "Vout/중첩"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1175
+#: modules/gui/qt4/ui/video_effects.h:1175
 msgid "Add logo"
 msgstr "로고 추가"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1179
-#: linux/modules/gui/qt4/ui/video_effects.h:1184
+#: modules/gui/qt4/ui/video_effects.h:1179
+#: modules/gui/qt4/ui/video_effects.h:1184
 msgid "Logo"
 msgstr "로고"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1180
+#: modules/gui/qt4/ui/video_effects.h:1180
 msgid "Logo erase"
 msgstr "로고 삭제"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1183
+#: modules/gui/qt4/ui/video_effects.h:1183
 msgid "Mask"
 msgstr "마스크"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1185
+#: modules/gui/qt4/ui/video_effects.h:1185
 #, fuzzy
 msgid "Subpicture filters"
 msgstr "부화면 필터"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1186
+#: modules/gui/qt4/ui/video_effects.h:1186
 msgid "Video filters"
 msgstr "비디오 필터"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1187
+#: modules/gui/qt4/ui/video_effects.h:1187
 msgid "Vout filters"
 msgstr "Vout 필터"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1188
+#: modules/gui/qt4/ui/video_effects.h:1188
 msgid "Reset"
 msgstr "초기화"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1189
+#: modules/gui/qt4/ui/video_effects.h:1189
 msgid "Update"
 msgstr "업데이트"
 
-#: linux/modules/gui/qt4/ui/video_effects.h:1190
+#: modules/gui/qt4/ui/video_effects.h:1190
 msgid "Advanced video filter controls"
 msgstr "고급 비디오 필터 제어"
 
-#: linux/modules/gui/qt4/ui/vlm.h:287
+#: modules/gui/qt4/ui/vlm.h:287
 msgid "VLM configurator"
 msgstr "VLM 설정"
 
-#: linux/modules/gui/qt4/ui/vlm.h:288
+#: modules/gui/qt4/ui/vlm.h:288
 msgid "Media Manager Edition"
 msgstr "미디어 관리자 형식"
 
-#: linux/modules/gui/qt4/ui/vlm.h:289
+#: modules/gui/qt4/ui/vlm.h:289
 msgid "Name:"
 msgstr "이름:"
 
-#: linux/modules/gui/qt4/ui/vlm.h:291
+#: modules/gui/qt4/ui/vlm.h:291
 msgid "Input:"
 msgstr "입력:"
 
-#: linux/modules/gui/qt4/ui/vlm.h:292
+#: modules/gui/qt4/ui/vlm.h:292
 msgid "Select Input"
 msgstr "입력 선택"
 
-#: linux/modules/gui/qt4/ui/vlm.h:293
+#: modules/gui/qt4/ui/vlm.h:293
 msgid "Output:"
 msgstr "출력:"
 
-#: linux/modules/gui/qt4/ui/vlm.h:294
+#: modules/gui/qt4/ui/vlm.h:294
 msgid "Select Output"
 msgstr "출력 선택"
 
-#: linux/modules/gui/qt4/ui/vlm.h:295
+#: modules/gui/qt4/ui/vlm.h:295
 msgid "Time Control"
 msgstr "시간 제어"
 
-#: linux/modules/gui/qt4/ui/vlm.h:296
+#: modules/gui/qt4/ui/vlm.h:296
 msgid "Mux Control"
 msgstr "먹스 제어"
 
-#: linux/modules/gui/qt4/ui/vlm.h:297
+#: modules/gui/qt4/ui/vlm.h:297
 msgid "Muxer:"
 msgstr "먹서:"
 
-#: linux/modules/gui/qt4/ui/vlm.h:298
+#: modules/gui/qt4/ui/vlm.h:298
 msgid "AAAA; "
 msgstr "AAAA; "
 
-#: linux/modules/gui/qt4/ui/vlm.h:299
+#: modules/gui/qt4/ui/vlm.h:299
 msgid "Loop"
 msgstr "순환"
 
-#: linux/modules/gui/qt4/ui/vlm.h:303
+#: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "미디어 관리자 목록"
 
