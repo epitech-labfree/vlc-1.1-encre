@@ -2663,8 +2663,7 @@ dnl  avcodec decoder/encoder plugin
 dnl
 AC_ARG_ENABLE(avcodec,
 [  --enable-avcodec        libavcodec codec (default enabled)])
-if test "${enable_avcodec}" != "no"
-then
+AS_IF([test "${enable_avcodec}" != "no"], [
   PKG_CHECK_MODULES(AVCODEC,[libavcodec >= 51.48.0 libavutil],
     [
       VLC_SAVE_FLAGS
@@ -2680,7 +2679,9 @@ then
     ],[
       AC_MSG_ERROR([Could not find libavcodec or libavutil. Use --disable-avcodec to ignore this error.])
   ])
-fi
+], [
+  have_avcodec="no"
+])
 
 dnl
 dnl libva needs avcodec
@@ -2772,7 +2773,9 @@ dnl  avformat demuxer/muxer plugin
 dnl
 
 AC_ARG_ENABLE(avformat,
-[  --enable-avformat       libavformat containers (default enabled)])
+[  --enable-avformat       libavformat containers (default enabled)],, [
+  enable_avformat="${have_avcodec}"
+])
 if test "${enable_avformat}" != "no"
 then
   PKG_CHECK_MODULES(AVFORMAT,[libavformat libavutil],
