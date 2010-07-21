@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: VLC Media Player\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-07-20 11:53+0200\n"
-"PO-Revision-Date: 2010-06-18 20:36+0100\n"
-"Last-Translator: Thomas De Rocker <thomasderocker at hotmail.com>\n"
+"PO-Revision-Date: 2010-07-21 01:18+0100\n"
+"Last-Translator: Thomas De Rocker <thomasderocker.at.hotmail.com>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -174,7 +174,7 @@ msgstr "Ondertiteling/OSD"
 msgid ""
 "Settings related to On-Screen-Display, subtitles and \"overlay subpictures\""
 msgstr ""
-"Instellingen betreffende On-Screen-Display, ondertitelingen en \"overlay "
+"Instellingen van On-Screen-Display, ondertitelingen en \"overlay "
 "subafbeeldingen\""
 
 #: include/vlc_config_cat.h:93
@@ -1482,8 +1482,8 @@ msgid ""
 msgstr ""
 "U kunt \"extra interfaces\" selecteren voor VLC. Ze worden in de achtergrond "
 "geopend als aanvulling op de standaardinterface. Gebruik een lijst van door "
-"een dubbele punten gescheiden interfacemodules. (veelgebruikte waarden zijn: "
-"\"rc\" (afstandbediening), \"http\", \"gestures\" ...)"
+"dubbelepunten gescheiden interfacemodules. (veelgebruikte waarden zijn: \"rc"
+"\" (afstandbediening), \"http\", \"gestures\" ...)"
 
 #: src/libvlc-module.c:189
 msgid "You can select control interfaces for VLC."
@@ -3698,8 +3698,8 @@ msgid ""
 "Specifies the services discovery modules to load, separated by colons. "
 "Typical values are sap, hal, ..."
 msgstr ""
-"Specificeert de dienstontdekkingmodules om te laden, gescheiden door dubbele "
-"punten. Gangbare waarden zijn sap, hal, ..."
+"Specificeert de dienstontdekkingmodules om te laden, gescheiden door "
+"dubbelepunten. Gangbare waarden zijn sap, hal, ..."
 
 #: src/libvlc-module.c:1233
 msgid "Play files randomly forever"
@@ -5743,14 +5743,14 @@ msgstr "In Volts [0, 13=verticaal, 18=horizontaal]."
 
 #: modules/access/bda/bda.c:92 modules/access/dvb/access.c:113
 msgid "High LNB voltage"
-msgstr "Hoge LNB voltage"
+msgstr "Hoog LNB voltage"
 
 #: modules/access/bda/bda.c:93 modules/access/dvb/access.c:114
 msgid ""
 "Enable high voltage if your cables are particularly long. This is not "
 "supported by all frontends."
 msgstr ""
-"Activeer hoge voltage als uw kabels vrij lang zijn. Dit wordt niet door alle "
+"Activeer hoog voltage als uw kabels vrij lang zijn. Dit wordt niet door alle "
 "frontends ondersteund."
 
 #: modules/access/bda/bda.c:96 modules/access/dvb/access.c:117
@@ -6067,7 +6067,7 @@ msgstr "Audio-cd"
 
 #: modules/access/cdda.c:68
 msgid "Audio CD input"
-msgstr "Audio-cdinvoer"
+msgstr "Audio-cd-invoer"
 
 #: modules/access/cdda.c:74
 msgid "[cdda:][device][@[track]]"
@@ -6732,7 +6732,7 @@ msgstr "uitklappen"
 
 #: modules/access/fs.c:52
 msgid "Ignored extensions"
-msgstr "Negeerde extensies"
+msgstr "Genegeerde extensies"
 
 #: modules/access/fs.c:54
 msgid ""
@@ -6917,7 +6917,7 @@ msgstr "Maximum aantal omleidingen"
 
 #: modules/access/http.c:105
 msgid "Limit the number of redirection to follow."
-msgstr "Beperk het aantal herleidingen om te volgen."
+msgstr "Beperk het aantal te volgen omleidingen."
 
 #: modules/access/http.c:107
 msgid "Use Internet Explorer entered HTTP proxy server"
@@ -7075,9 +7075,8 @@ msgid "Size"
 msgstr "Grootte"
 
 #: modules/access/imem.c:120
-#, fuzzy
 msgid "Size of stream in bytes"
-msgstr "Beperk de grootte van elk stuk in bytes"
+msgstr "Grootte van stream in bytes"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
@@ -7700,7 +7699,7 @@ msgstr "SFTP invoer"
 
 #: modules/access/sftp.c:137
 msgid "SFTP authentication"
-msgstr "SFTP-authenticatie"
+msgstr "SFTP-verificatie"
 
 #: modules/access/sftp.c:138
 #, c-format
@@ -9826,26 +9825,26 @@ msgstr ""
 #: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
 msgid "Hurry up"
-msgstr "Haasten"
+msgstr "Opschieten"
 
 #: modules/codec/avcodec/avcodec.h:98
 msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
 msgstr ""
-"De decoder kan gedeeltelijk decoderen van beeld(en) overslaan als er niet "
-"genoeg tijd is. Dit kan handig zijn bij CPU's met weinig kracht, maar kan "
-"verstoorde afbeeldingen produceren."
+"De decoder kan beelden gedeeltelijk decoderen of overslaan als er niet "
+"genoeg tijd is. Dit kan handig zijn bij zwakke CPU's, maar kan verstoorde "
+"afbeeldingen produceren."
 
 #: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
-msgstr "Snelheidstruukjes toestaan"
+msgstr "Snelheidstrucjes toestaan"
 
 #: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
 msgstr ""
-"Sta truuks voor snelheidswinst die niet in de specificatie beschreven zijn "
+"Sta trucs voor snelheidswinst die niet in de specificatie beschreven zijn "
 "toe. Sneller, maar foutgevoelig."
 
 #: modules/codec/avcodec/avcodec.h:106
@@ -10343,8 +10342,8 @@ msgid ""
 "Field coding is where interlaced fields are coded separately as opposed to a "
 "pseudo-progressive frame"
 msgstr ""
-"Veldcodering is waar geïnterlacede velden afzonderling gecodeerd worden i.t."
-"t. pseudo-progressieve beeld."
+"Veldcodering is waar geïnterlacete velden in tegenstelling tot een pseudo-"
+"progressief beeld apart gecodeerd worden"
 
 #: modules/codec/dirac.c:110
 msgid "auto - let encoder decide based upon input (Best)"
@@ -10356,7 +10355,7 @@ msgstr "forceer beeldcodering als een enkele afbeelding"
 
 #: modules/codec/dirac.c:112
 msgid "force coding frame as separate interlaced fields"
-msgstr "dwing beeldcodering in afzonderlijke geïnterlacede velden"
+msgstr "forceer beeldcodering in afzonderlijke geïnterlacete velden"
 
 #: modules/codec/dirac.c:116
 msgid "Width of motion compensation blocks"
@@ -11206,9 +11205,8 @@ msgstr "Dvd ondertitelingpacketizer"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "Baltisch (Windows-1257)"
+msgstr "Standaard (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -22021,7 +22019,7 @@ msgid ""
 "applied). You can enter a colon-separated list of filters."
 msgstr ""
 "Videofilters worden op de videostreams toegepast (na de overlayfilters). U "
-"moet een door dubbele punten gescheiden lijst van filters opgeven."
+"moet een door dubbelepunten gescheiden lijst van filters opgeven."
 
 #: modules/stream_out/transcode/transcode.c:83
 msgid "Audio encoder"
@@ -22080,7 +22078,7 @@ msgid ""
 "are applied). You can enter a colon-separated list of filters."
 msgstr ""
 "Audiofilters worden op de audiostreams toegepast (na de conversiefilters). U "
-"moet een door dubbele punten gescheiden lijst van filters opgeven."
+"moet een door dubbelepunten gescheiden lijst van filters opgeven."
 
 #: modules/stream_out/transcode/transcode.c:107
 msgid "Subtitles encoder"
@@ -22112,7 +22110,7 @@ msgstr ""
 "Dit staat u toe om overlays (ook bekend als \"ondertitels\") toe te voegen "
 "aan de getranscodeerde videostream. De ondertitels geproduceerd door de "
 "filters zullen direct op de video geplaatst worden. U moet een lijst van "
-"door dubbele punten gescheiden ondertitelmodules opgeven."
+"door dubbelepunten gescheiden ondertitelmodules opgeven."
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -22363,7 +22361,7 @@ msgid ""
 "Define here the DMX base address for each channel use , or ; to separate the "
 "values"
 msgstr ""
-"Definieer hier het DMX basisadres voor elk kanaal om te gebruiken, of ; om "
+"Definieer hier het DMX-basisadres voor elk te gebruiken kanaal, of \";\" om "
 "de waarden te scheiden"
 
 #: modules/video_filter/atmo/atmo.cpp:169
@@ -22761,12 +22759,12 @@ msgid ""
 "on top, and one zone on left and right and no summary zone the mapping for "
 "classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
-"voor apparaten met meer dan vijf kanalen / zones geef hier aan voor elk "
-"kanaal het zonenummer om weer te geven en scheid de waarden met een , of ; "
-"en gebruik -1 om kanalen niet te gebruiken. Voor de klassieke AtmoLight zou "
-"de sequentie 4,3,1,0,2 de standaard kanaal/zone zijn. Met twee zones boven, "
-"een zone links en rechts en geen samenvattingszone zou de indeling voor de "
-"klassieke AtmoLight -1,3,2,1,0 zijn."
+"voor apparaten met meer dan vijf kanalen/zones; geef hier voor elk kanaal "
+"het weer te geven zonenummer aan en scheid de waarden met een , of ; en "
+"gebruik -1 om kanalen niet te gebruiken. Voor de klassieke AtmoLight zou de "
+"sequentie 4,3,1,0,2 de standaard kanaal/zone zijn. Met twee zones boven, een "
+"zone links en rechts en geen samenvattingszone zou de indeling voor de "
+"klassieke AtmoLight -1,3,2,1,0 zijn"
 
 #: modules/video_filter/atmo/atmo.cpp:340
 msgid "Zone 0: Top gradient"
@@ -22804,8 +22802,8 @@ msgid ""
 "Now preferred option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
-"Voorkeursoptie om gradiëntbitmaps toe te wijzen, doe ze als zone_0.bmp, "
-"zone_1.bmp, etc. in een map en stel de mapnaam hier in."
+"Voorkeursoptie om gradiëntbitmaps toe te wijzen; steek ze als zone_0.bmp, "
+"zone_1.bmp, enz. in een map en stel de mapnaam hier in"
 
 #: modules/video_filter/atmo/atmo.cpp:354
 msgid "Filename of AtmoWin*.exe"
@@ -25827,7 +25825,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Voer de URL voor de netwerkstream hier in."
 
 #: modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -25864,7 +25861,7 @@ msgstr ""
 "#838383;\">http://www.example.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
