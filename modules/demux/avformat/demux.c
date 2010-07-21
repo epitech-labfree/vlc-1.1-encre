@@ -286,7 +286,11 @@ int OpenDemux( vlc_object_t *p_this )
             }
             psz_type = "video";
             fmt.video.i_frame_rate = cc->time_base.den;
+#if LIBAVCODEC_VERSION_INT >= AV_VERSION_INT(52,20,0)
+            fmt.video.i_frame_rate_base = cc->time_base.num * __MAX( cc->ticks_per_frame, 1 );
+#else
             fmt.video.i_frame_rate_base = cc->time_base.num;
+#endif
             break;
 
         case CODEC_TYPE_SUBTITLE:
