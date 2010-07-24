@@ -397,7 +397,7 @@ static int Manage( vout_thread_t *p_vout )
         var_SetBool( p_vout, "fullscreen", p_vout->b_fullscreen );
 
         if( p_vout->p_sys->owner_window )
-            vout_window_SetFullscreen( p_vout->p_sys->owner_window,
+            vout_window_SetFullScreen( p_vout->p_sys->owner_window,
                                        p_vout->b_fullscreen );
         p_vout->i_changes &= ~VOUT_FULLSCREEN_CHANGE;
     }
