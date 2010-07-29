@@ -1,9 +1,9 @@
-Changes between 1.1.1 and 1.1.2-git
---------------------------------
+Changes between 1.1.1 and 1.1.2
+-------------------------------
 
 Demuxers:
  * Avformat fps displaying fix
- * TS, fix an issue where some programs would get dropped
+ * TS, fix an issue where some programs would get dropped (fixes DVB issues too)
 
 Audio filters:
  * fix timestamps handling on some filters that provoqued issues when playback
@@ -14,9 +14,9 @@ Windows:
    playback with overlay (YUV->RGB)
  * fix console output encoding
 
-Interface and scripts:
- * Youtube parsing update
- * Misc fixes in Qt4 and MacOS interface
+Interface and extensions:
+ * Youtube and other scripts updates
+ * Misc fixes in Qt4 (especially VLM and EPG dialogs) and MacOS interface
 
 
 Changes between 1.1.0 and 1.1.1:
