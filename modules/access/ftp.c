@@ -359,7 +359,7 @@ static int InOpen( vlc_object_t *p_this )
         msg_Dbg( p_access, "cannot get file size" );
         msg_Dbg( p_access, "will try to get directory contents" );
         if( ftp_SendCommand( p_this, p_sys, "CWD %s", p_sys->url.psz_path ) < 0
-         || ftp_ReadCommand( p_this, p_sys, NULL, &psz_arg ) != 2 )
+         || ftp_ReadCommand( p_this, p_sys, NULL, NULL ) != 2 )
         {
             msg_Err( p_access, "file or directory doesn't exist" );
             net_Close( p_sys->fd_cmd );
