@@ -73,7 +73,7 @@ static const struct
 } pp_shortcuts[] = {
     { "luarc", "rc" },
     { "rc", "rc" },
-    { "luahotkeys", "hotkeys" },
+    /* { "luahotkeys", "hotkeys" }, */
     /* { "hotkeys", "hotkeys" }, */
     { "luatelnet", "telnet" },
     { "telnet", "telnet" },

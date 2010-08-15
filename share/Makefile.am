@@ -210,7 +210,6 @@ nobase_vlclib_DATA = \
 	lua/extensions/allocine-fr.luac \
 	lua/intf/dummy.luac \
 	lua/intf/dumpmeta.luac \
-	lua/intf/hotkeys.luac \
 	lua/intf/luac.luac \
 	lua/intf/modules/common.luac \
 	lua/intf/modules/host.luac \
@@ -267,7 +266,6 @@ EXTRA_DIST += \
 	lua/intf/README.txt \
 	lua/intf/dummy.lua \
 	lua/intf/dumpmeta.lua \
-	lua/intf/hotkeys.lua \
 	lua/intf/http.lua \
 	lua/intf/luac.lua \
 	lua/intf/modules/common.lua \
