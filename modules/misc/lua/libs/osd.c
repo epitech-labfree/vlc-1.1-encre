@@ -134,10 +134,8 @@ static int vlclua_spu_channel_register( lua_State *L )
     if( !p_vout )
         return luaL_error( L, "Unable to find vout." );
 
-    spu_Control( vout_GetSpu( p_vout ), SPU_CHANNEL_REGISTER, &i_chan );
     vlc_object_release( p_vout );
-    lua_pushinteger( L, i_chan );
-    return 1;
+    return luaL_error( L, "Not implemented." );
 }
 
 static int vlclua_spu_channel_clear( lua_State *L )
@@ -149,9 +147,8 @@ static int vlclua_spu_channel_clear( lua_State *L )
     if( !p_vout )
         return luaL_error( L, "Unable to find vout." );
 
-    spu_Control( vout_GetSpu( p_vout ), SPU_CHANNEL_CLEAR, i_chan );
     vlc_object_release( p_vout );
-    return 0;
+    return luaL_error( L, "Not implemented." );
 }
 
 static int vlclua_menu_show( lua_State *L )
