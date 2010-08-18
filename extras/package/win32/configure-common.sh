@@ -30,4 +30,5 @@
       --enable-zvbi --disable-telx \
       --disable-dvb \
       --disable-sqlite \
+      --disable-upnp \
       --enable-peflags
