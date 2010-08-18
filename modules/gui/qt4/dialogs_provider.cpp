@@ -500,7 +500,7 @@ static void openDirectory( intf_thread_t *p_intf, bool pl, bool go )
     if( dir.isEmpty() )
         return;
 
-    char *uri = make_URI( qtu( dir ) );
+    char *uri = make_URI( qtu( toNativeSeparators( dir ) ) );
     if( unlikely(uri == NULL) )
         return;
 
