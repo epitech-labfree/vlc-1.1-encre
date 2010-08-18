@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-29 11:23+0200\n"
+"POT-Creation-Date: 2010-08-18 13:58+0200\n"
 "PO-Revision-Date: 2010-05-10 10:21+0200\n"
 "Last-Translator: Otto Kekäläinen <otto@sange.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/vlc_common.h:919
+#: include/vlc_common.h:923
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -6240,7 +6240,7 @@ msgid "DVDnav Input"
 msgstr "Syöteparametrit"
 
 #: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
-#: modules/access/dvdread.c:465 modules/access/dvdread.c:527
+#: modules/access/dvdread.c:470 modules/access/dvdread.c:532
 msgid "Playback failure"
 msgstr "Toistovirhe"
 
@@ -6262,12 +6262,12 @@ msgstr ""
 msgid "DVDRead could not open the disc \"%s\"."
 msgstr "Ei voitu hakea levyn tietoja: %s"
 
-#: modules/access/dvdread.c:466
+#: modules/access/dvdread.c:471
 #, fuzzy, c-format
 msgid "DVDRead could not read block %d."
 msgstr "Pilotin osoitekirjan ohjelmalohkoa ei voi lukea"
 
-#: modules/access/dvdread.c:528
+#: modules/access/dvdread.c:533
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
 msgstr ""
@@ -9223,15 +9223,15 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:864
-#: modules/gui/qt4/main_interface.cpp:868
-#: modules/gui/qt4/main_interface.cpp:908
-#: modules/gui/qt4/main_interface.cpp:910
-#: modules/gui/qt4/main_interface.cpp:978
-#: modules/gui/qt4/main_interface.cpp:995
-#: modules/gui/qt4/main_interface.cpp:1002
-#: modules/gui/qt4/main_interface.cpp:1025
-#: modules/video_output/xcb/window.c:319
+#: modules/gui/qt4/main_interface.cpp:872
+#: modules/gui/qt4/main_interface.cpp:876
+#: modules/gui/qt4/main_interface.cpp:916
+#: modules/gui/qt4/main_interface.cpp:918
+#: modules/gui/qt4/main_interface.cpp:986
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1010
+#: modules/gui/qt4/main_interface.cpp:1033
+#: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "VLC-mediasoitin"
 
@@ -13659,21 +13659,76 @@ msgstr "Tuo CompizConfig-profiili"
 msgid "ZPL playlist import"
 msgstr "Tuo CompizConfig-profiili"
 
-#: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
-#: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
+#: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
+#: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 #, fuzzy
 msgid "Podcast Info"
 msgstr "Projektin tiedot"
 
-#: modules/demux/playlist/podcast.c:268
+#: modules/demux/playlist/podcast.c:256
+#, fuzzy
+msgid "Podcast Link"
+msgstr "Projektin tiedot"
+
+#: modules/demux/playlist/podcast.c:257
+#, fuzzy
+msgid "Podcast Copyright"
+msgstr "Tekijänoikeus"
+
+#: modules/demux/playlist/podcast.c:258
+#, fuzzy
+msgid "Podcast Category"
+msgstr "Jäsennys komento:"
+
+#: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
+#, fuzzy
+msgid "Podcast Keywords"
+msgstr "Jäsennys komento:"
+
+#: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
+#, fuzzy
+msgid "Podcast Subtitle"
+msgstr "Pikselikoko:"
+
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 #, fuzzy
 msgid "Podcast Summary"
 msgstr "Päivitetään yhteenveto"
 
-#: modules/demux/playlist/podcast.c:330
+#: modules/demux/playlist/podcast.c:307
+#, fuzzy
+msgid "Podcast Publication Date"
+msgstr "Modulaation tyyppi"
+
+#: modules/demux/playlist/podcast.c:308
+#, fuzzy
+msgid "Podcast Author"
+msgstr "Projektin tiedot"
+
+#: modules/demux/playlist/podcast.c:309
+#, fuzzy
+msgid "Podcast Subcategory"
+msgstr "Päivitetään yhteenveto"
+
+#: modules/demux/playlist/podcast.c:310
+#, fuzzy
+msgid "Podcast Duration"
+msgstr "Värikylläisyys"
+
+#: modules/demux/playlist/podcast.c:314
+#, fuzzy
+msgid "Podcast Type"
+msgstr "Jäsennys komento:"
+
+#: modules/demux/playlist/podcast.c:328
 #, fuzzy
 msgid "Podcast Size"
 msgstr "Pikselikoko:"
+
+#: modules/demux/playlist/podcast.c:329
+#, fuzzy, c-format
+msgid "%s bytes"
+msgstr "Lähetetyt tavut"
 
 #: modules/demux/playlist/shoutcast.c:410
 #, fuzzy
@@ -18402,11 +18457,11 @@ msgstr "Tekstitystiedostot"
 msgid "All Files"
 msgstr "Kaikki tiedostot"
 
-#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:987
 msgid "Control menu for the player"
 msgstr "Soittimen säädinvalikko"
 
-#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1030
 msgid "Paused"
 msgstr "Tauko"
 
@@ -23581,21 +23636,21 @@ msgstr "Suodata a_iheen mukaan"
 msgid "Mosaic"
 msgstr "Mosaiikki"
 
-#: modules/video_filter/motionblur.c:53
+#: modules/video_filter/motionblur.c:52
 #, fuzzy
 msgid "Blur factor (1-127)"
 msgstr "Numeroiden tekijöiden mutustajat"
 
-#: modules/video_filter/motionblur.c:54
+#: modules/video_filter/motionblur.c:53
 msgid "The degree of blurring from 1 to 127."
 msgstr ""
 
-#: modules/video_filter/motionblur.c:59
+#: modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "Liike-epäterävyys"
 
-#: modules/video_filter/motionblur.c:60
+#: modules/video_filter/motionblur.c:59
 #, fuzzy
 msgid "Motion blur filter"
 msgstr "Kirjasinlaji: (suodatettu)"
@@ -24913,19 +24968,19 @@ msgstr ""
 #. The limitation is partially with ICCCM and partially with VLC.
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
-#: modules/video_output/xcb/window.c:288
+#: modules/video_output/xcb/window.c:291
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "VLC-mediasoitin"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
-#: modules/video_output/xcb/window.c:293
+#: modules/video_output/xcb/window.c:296
 msgctxt "ASCII"
 msgid "VLC"
 msgstr "VLC"
 
-#: modules/video_output/xcb/window.c:322
+#: modules/video_output/xcb/window.c:325
 #, fuzzy
 msgid "VLC"
 msgstr "VLC"

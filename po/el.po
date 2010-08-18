@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-29 11:23+0200\n"
+"POT-Creation-Date: 2010-08-18 13:58+0200\n"
 "PO-Revision-Date: 2005-01-22 01:24+0000\n"
 "Last-Translator: Simos Xenitellis <simos74@gmx.net>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/vlc_common.h:919
+#: include/vlc_common.h:923
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -6608,7 +6608,7 @@ msgid "DVDnav Input"
 msgstr "Είσοδος DVDnav"
 
 #: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
-#: modules/access/dvdread.c:465 modules/access/dvdread.c:527
+#: modules/access/dvdread.c:470 modules/access/dvdread.c:532
 #, fuzzy
 msgid "Playback failure"
 msgstr "Αναπαραγωγή"
@@ -6632,12 +6632,12 @@ msgstr "Είσοδος DVDRead (DVD χωρίς υποστήριξη μενού)"
 msgid "DVDRead could not open the disc \"%s\"."
 msgstr "Πλήρης οθόνη"
 
-#: modules/access/dvdread.c:466
+#: modules/access/dvdread.c:471
 #, c-format
 msgid "DVDRead could not read block %d."
 msgstr ""
 
-#: modules/access/dvdread.c:528
+#: modules/access/dvdread.c:533
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
 msgstr ""
@@ -9703,15 +9703,15 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:864
-#: modules/gui/qt4/main_interface.cpp:868
-#: modules/gui/qt4/main_interface.cpp:908
-#: modules/gui/qt4/main_interface.cpp:910
-#: modules/gui/qt4/main_interface.cpp:978
-#: modules/gui/qt4/main_interface.cpp:995
-#: modules/gui/qt4/main_interface.cpp:1002
-#: modules/gui/qt4/main_interface.cpp:1025
-#: modules/video_output/xcb/window.c:319
+#: modules/gui/qt4/main_interface.cpp:872
+#: modules/gui/qt4/main_interface.cpp:876
+#: modules/gui/qt4/main_interface.cpp:916
+#: modules/gui/qt4/main_interface.cpp:918
+#: modules/gui/qt4/main_interface.cpp:986
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1010
+#: modules/gui/qt4/main_interface.cpp:1033
+#: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "Αναπαραγωγός πολυμέσων VLC"
 
@@ -14150,20 +14150,73 @@ msgstr "Εισαγωγή λίστας αναπαραγωγής PLS"
 msgid "ZPL playlist import"
 msgstr "Εισαγωγή λίστας αναπαραγωγής PLS"
 
-#: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
-#: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
+#: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
+#: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 #, fuzzy
 msgid "Podcast Info"
 msgstr "Podcast"
 
-#: modules/demux/playlist/podcast.c:268
+#: modules/demux/playlist/podcast.c:256
+#, fuzzy
+msgid "Podcast Link"
+msgstr "Podcast"
+
+#: modules/demux/playlist/podcast.c:257
+#, fuzzy
+msgid "Podcast Copyright"
+msgstr "Πνευματικό Δικαίωμα"
+
+#: modules/demux/playlist/podcast.c:258
+#, fuzzy
+msgid "Podcast Category"
+msgstr "Τύπος του Podcast"
+
+#: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
+#, fuzzy
+msgid "Podcast Keywords"
+msgstr "Τύπος του Podcast"
+
+#: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
+#, fuzzy
+msgid "Podcast Subtitle"
+msgstr "Μέγεθος του Podcast"
+
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 #, fuzzy
 msgid "Podcast Summary"
 msgstr "Υποκατηγορία του Podcast"
 
-#: modules/demux/playlist/podcast.c:330
+#: modules/demux/playlist/podcast.c:307
+#, fuzzy
+msgid "Podcast Publication Date"
+msgstr "Διάρκεια του Podcast"
+
+#: modules/demux/playlist/podcast.c:308
+msgid "Podcast Author"
+msgstr "Συγγραφέας του Podcast"
+
+#: modules/demux/playlist/podcast.c:309
+#, fuzzy
+msgid "Podcast Subcategory"
+msgstr "Υποκατηγορία του Podcast"
+
+#: modules/demux/playlist/podcast.c:310
+msgid "Podcast Duration"
+msgstr "Διάρκεια του Podcast"
+
+#: modules/demux/playlist/podcast.c:314
+#, fuzzy
+msgid "Podcast Type"
+msgstr "Τύπος του Podcast"
+
+#: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Μέγεθος του Podcast"
+
+#: modules/demux/playlist/podcast.c:329
+#, fuzzy, c-format
+msgid "%s bytes"
+msgstr "Απεσταλμένα bytes"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -19347,11 +19400,11 @@ msgstr "Αρχείο  Υποτίτλων"
 msgid "All Files"
 msgstr "Αρχείο"
 
-#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:987
 msgid "Control menu for the player"
 msgstr ""
 
-#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1030
 msgid "Paused"
 msgstr "Σε παύση"
 
@@ -24696,15 +24749,15 @@ msgstr "Αποθήκευση αρχείου"
 msgid "Mosaic"
 msgstr "Μιούζικαλ"
 
-#: modules/video_filter/motionblur.c:53
+#: modules/video_filter/motionblur.c:52
 msgid "Blur factor (1-127)"
 msgstr ""
 
-#: modules/video_filter/motionblur.c:54
+#: modules/video_filter/motionblur.c:53
 msgid "The degree of blurring from 1 to 127."
 msgstr ""
 
-#: modules/video_filter/motionblur.c:59
+#: modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr ""
@@ -24713,7 +24766,7 @@ msgstr ""
 #
 # #-#-#-#-#  gal.HEAD.el.po (el)  #-#-#-#-#
 #
-#: modules/video_filter/motionblur.c:60
+#: modules/video_filter/motionblur.c:59
 #, fuzzy
 msgid "Motion blur filter"
 msgstr "Περιγραφή"
@@ -26028,7 +26081,7 @@ msgstr ""
 #. The limitation is partially with ICCCM and partially with VLC.
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
-#: modules/video_output/xcb/window.c:288
+#: modules/video_output/xcb/window.c:291
 #, fuzzy
 msgctxt "ASCII"
 msgid "VLC media player"
@@ -26036,13 +26089,13 @@ msgstr "Αναπαραγωγός πολυμέσων VLC"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
-#: modules/video_output/xcb/window.c:293
+#: modules/video_output/xcb/window.c:296
 #, fuzzy
 msgctxt "ASCII"
 msgid "VLC"
 msgstr "VLM"
 
-#: modules/video_output/xcb/window.c:322
+#: modules/video_output/xcb/window.c:325
 #, fuzzy
 msgid "VLC"
 msgstr "VLM"
@@ -30174,12 +30227,6 @@ msgstr "Μετα-πληροφορίες"
 #, fuzzy
 #~ msgid "Writing application"
 #~ msgstr "Εφαρμογή Γραψίματος"
-
-#~ msgid "Podcast Author"
-#~ msgstr "Συγγραφέας του Podcast"
-
-#~ msgid "Podcast Duration"
-#~ msgstr "Διάρκεια του Podcast"
 
 #~ msgid ""
 #~ "An error has occurred which probably prevented the proper execution of "

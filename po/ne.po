@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vlc Nepali Interface\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-29 11:23+0200\n"
+"POT-Creation-Date: 2010-08-18 13:58+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Animesh Swar <animesh_swar@hotmail.co.uk>\n"
 "Language-Team: \n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: include/vlc_common.h:919
+#: include/vlc_common.h:923
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -6526,7 +6526,7 @@ msgid "DVDnav Input"
 msgstr "DVDnav आगत"
 
 #: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
-#: modules/access/dvdread.c:465 modules/access/dvdread.c:527
+#: modules/access/dvdread.c:470 modules/access/dvdread.c:532
 #, fuzzy
 msgid "Playback failure"
 msgstr "प्लेब्याक"
@@ -6550,12 +6550,12 @@ msgstr "DVDRead आगत (मेनु समर्थन बिना DVD)"
 msgid "DVDRead could not open the disc \"%s\"."
 msgstr "भिडियो आगतको रङ"
 
-#: modules/access/dvdread.c:466
+#: modules/access/dvdread.c:471
 #, c-format
 msgid "DVDRead could not read block %d."
 msgstr ""
 
-#: modules/access/dvdread.c:528
+#: modules/access/dvdread.c:533
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
 msgstr ""
@@ -9598,15 +9598,15 @@ msgstr "५.१"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:864
-#: modules/gui/qt4/main_interface.cpp:868
-#: modules/gui/qt4/main_interface.cpp:908
-#: modules/gui/qt4/main_interface.cpp:910
-#: modules/gui/qt4/main_interface.cpp:978
-#: modules/gui/qt4/main_interface.cpp:995
-#: modules/gui/qt4/main_interface.cpp:1002
-#: modules/gui/qt4/main_interface.cpp:1025
-#: modules/video_output/xcb/window.c:319
+#: modules/gui/qt4/main_interface.cpp:872
+#: modules/gui/qt4/main_interface.cpp:876
+#: modules/gui/qt4/main_interface.cpp:916
+#: modules/gui/qt4/main_interface.cpp:918
+#: modules/gui/qt4/main_interface.cpp:986
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1010
+#: modules/gui/qt4/main_interface.cpp:1033
+#: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "VLC मिडिया प्लेयर"
 
@@ -14130,18 +14130,63 @@ msgstr "PLS बजाउने सूची आयात"
 msgid "ZPL playlist import"
 msgstr "PLS बजाउने सूची आयात"
 
-#: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
-#: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
+#: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
+#: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 msgid "Podcast Info"
 msgstr "पोडकास्ट सूचना"
 
-#: modules/demux/playlist/podcast.c:268
+#: modules/demux/playlist/podcast.c:256
+msgid "Podcast Link"
+msgstr "पोडकास्ट लिङ्क"
+
+#: modules/demux/playlist/podcast.c:257
+msgid "Podcast Copyright"
+msgstr "पोडकास्ट प्रतिलिपि अधिकार"
+
+#: modules/demux/playlist/podcast.c:258
+msgid "Podcast Category"
+msgstr "पोडकास्ट कोटि"
+
+#: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
+msgid "Podcast Keywords"
+msgstr "पोडकास्ट शब्दकुञ्जी"
+
+#: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
+msgid "Podcast Subtitle"
+msgstr "पोडकास्ट उपशीर्षक"
+
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "पोडकास्ट संक्षेप"
 
-#: modules/demux/playlist/podcast.c:330
+#: modules/demux/playlist/podcast.c:307
+msgid "Podcast Publication Date"
+msgstr "पोडकास्ट प्रकाशन मिति"
+
+#: modules/demux/playlist/podcast.c:308
+msgid "Podcast Author"
+msgstr "पोडकास्ट लेखक"
+
+#: modules/demux/playlist/podcast.c:309
+msgid "Podcast Subcategory"
+msgstr "पोडकास्ट उपकोटि"
+
+#: modules/demux/playlist/podcast.c:310
+msgid "Podcast Duration"
+msgstr "पोडकास्ट अवधि"
+
+#: modules/demux/playlist/podcast.c:314
+msgid "Podcast Type"
+msgstr "पोडकास्ट प्रकार"
+
+#: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "पोडकास्ट साइज"
+
+#: modules/demux/playlist/podcast.c:329
+#, fuzzy, c-format
+msgid "%s bytes"
+msgstr "पठाइएको बाइट"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -19108,11 +19153,11 @@ msgstr "उपशीर्षक फाइल"
 msgid "All Files"
 msgstr "_फाइल"
 
-#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:987
 msgid "Control menu for the player"
 msgstr ""
 
-#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1030
 msgid "Paused"
 msgstr "पज गरिएको"
 
@@ -24337,20 +24382,20 @@ msgstr "मोजेइक भिडियो उप फिल्टर"
 msgid "Mosaic"
 msgstr "मोजेइक"
 
-#: modules/video_filter/motionblur.c:53
+#: modules/video_filter/motionblur.c:52
 msgid "Blur factor (1-127)"
 msgstr "अस्पष्ट तत्व (१-१२७)"
 
-#: modules/video_filter/motionblur.c:54
+#: modules/video_filter/motionblur.c:53
 msgid "The degree of blurring from 1 to 127."
 msgstr "१ देखि १२७ सम्म अस्पष्ट हुने डिग्री"
 
-#: modules/video_filter/motionblur.c:59
+#: modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "चाल अस्पष्ट"
 
-#: modules/video_filter/motionblur.c:60
+#: modules/video_filter/motionblur.c:59
 msgid "Motion blur filter"
 msgstr "चाल अस्पष्ट फिल्टर"
 
@@ -25652,7 +25697,7 @@ msgstr ""
 #. The limitation is partially with ICCCM and partially with VLC.
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
-#: modules/video_output/xcb/window.c:288
+#: modules/video_output/xcb/window.c:291
 #, fuzzy
 msgctxt "ASCII"
 msgid "VLC media player"
@@ -25660,13 +25705,13 @@ msgstr "VLC मिडिया प्लेयर"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
-#: modules/video_output/xcb/window.c:293
+#: modules/video_output/xcb/window.c:296
 #, fuzzy
 msgctxt "ASCII"
 msgid "VLC"
 msgstr "VLM"
 
-#: modules/video_output/xcb/window.c:322
+#: modules/video_output/xcb/window.c:325
 #, fuzzy
 msgid "VLC"
 msgstr "VLM"
@@ -30523,36 +30568,6 @@ msgstr "मेटा सूचना"
 
 #~ msgid "Native playlist import"
 #~ msgstr "मौलिक बजाउने सूची आयात"
-
-#~ msgid "Podcast Link"
-#~ msgstr "पोडकास्ट लिङ्क"
-
-#~ msgid "Podcast Copyright"
-#~ msgstr "पोडकास्ट प्रतिलिपि अधिकार"
-
-#~ msgid "Podcast Category"
-#~ msgstr "पोडकास्ट कोटि"
-
-#~ msgid "Podcast Keywords"
-#~ msgstr "पोडकास्ट शब्दकुञ्जी"
-
-#~ msgid "Podcast Subtitle"
-#~ msgstr "पोडकास्ट उपशीर्षक"
-
-#~ msgid "Podcast Publication Date"
-#~ msgstr "पोडकास्ट प्रकाशन मिति"
-
-#~ msgid "Podcast Author"
-#~ msgstr "पोडकास्ट लेखक"
-
-#~ msgid "Podcast Subcategory"
-#~ msgstr "पोडकास्ट उपकोटि"
-
-#~ msgid "Podcast Duration"
-#~ msgstr "पोडकास्ट अवधि"
-
-#~ msgid "Podcast Type"
-#~ msgstr "पोडकास्ट प्रकार"
 
 #~ msgid "Mime type"
 #~ msgstr "माइम प्रकार"

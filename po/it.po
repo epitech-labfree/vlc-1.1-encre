@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-29 11:23+0200\n"
+"POT-Creation-Date: 2010-08-18 13:58+0200\n"
 "PO-Revision-Date: 2010-06-19 11:49+0200\n"
 "Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Lokalize 1.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: include/vlc_common.h:919
+#: include/vlc_common.h:923
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -6507,7 +6507,7 @@ msgid "DVDnav Input"
 msgstr "Ingresso DVDnav"
 
 #: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
-#: modules/access/dvdread.c:465 modules/access/dvdread.c:527
+#: modules/access/dvdread.c:470 modules/access/dvdread.c:532
 msgid "Playback failure"
 msgstr "Riproduzione non riuscita"
 
@@ -6530,12 +6530,12 @@ msgstr "Ingresso DVDRead (senza supporto menu)"
 msgid "DVDRead could not open the disc \"%s\"."
 msgstr "DVDRead non può aprire il disco \"%s\"."
 
-#: modules/access/dvdread.c:466
+#: modules/access/dvdread.c:471
 #, c-format
 msgid "DVDRead could not read block %d."
 msgstr "DVDRead non può leggere il blocco %d."
 
-#: modules/access/dvdread.c:528
+#: modules/access/dvdread.c:533
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
 msgstr "DVDRead non può leggere %d/%d blocchi in 0x%02x."
@@ -9484,15 +9484,15 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:864
-#: modules/gui/qt4/main_interface.cpp:868
-#: modules/gui/qt4/main_interface.cpp:908
-#: modules/gui/qt4/main_interface.cpp:910
-#: modules/gui/qt4/main_interface.cpp:978
-#: modules/gui/qt4/main_interface.cpp:995
-#: modules/gui/qt4/main_interface.cpp:1002
-#: modules/gui/qt4/main_interface.cpp:1025
-#: modules/video_output/xcb/window.c:319
+#: modules/gui/qt4/main_interface.cpp:872
+#: modules/gui/qt4/main_interface.cpp:876
+#: modules/gui/qt4/main_interface.cpp:916
+#: modules/gui/qt4/main_interface.cpp:918
+#: modules/gui/qt4/main_interface.cpp:986
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1010
+#: modules/gui/qt4/main_interface.cpp:1033
+#: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "Lettore multimediale VLC"
 
@@ -13828,18 +13828,63 @@ msgstr "Importazione scaletta WPL"
 msgid "ZPL playlist import"
 msgstr "Importazione scaletta ZPL"
 
-#: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
-#: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
+#: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
+#: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 msgid "Podcast Info"
 msgstr "Informazioni sul podcast"
 
-#: modules/demux/playlist/podcast.c:268
+#: modules/demux/playlist/podcast.c:256
+msgid "Podcast Link"
+msgstr "Collegamento del podcast"
+
+#: modules/demux/playlist/podcast.c:257
+msgid "Podcast Copyright"
+msgstr "Copyright del podcast"
+
+#: modules/demux/playlist/podcast.c:258
+msgid "Podcast Category"
+msgstr "Categoria del podcast"
+
+#: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
+msgid "Podcast Keywords"
+msgstr "Parole chiavi del podcast"
+
+#: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
+msgid "Podcast Subtitle"
+msgstr "Sottotitoli del podcast"
+
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "Riassunto del podcast"
 
-#: modules/demux/playlist/podcast.c:330
+#: modules/demux/playlist/podcast.c:307
+msgid "Podcast Publication Date"
+msgstr "Data di pubblicazione del podcast"
+
+#: modules/demux/playlist/podcast.c:308
+msgid "Podcast Author"
+msgstr "Autore del podcast"
+
+#: modules/demux/playlist/podcast.c:309
+msgid "Podcast Subcategory"
+msgstr "Sottocategoria del podcast"
+
+#: modules/demux/playlist/podcast.c:310
+msgid "Podcast Duration"
+msgstr "Durata del podcast"
+
+#: modules/demux/playlist/podcast.c:314
+msgid "Podcast Type"
+msgstr "Tipo di podcast"
+
+#: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Dimensione del podcast"
+
+#: modules/demux/playlist/podcast.c:329
+#, fuzzy, c-format
+msgid "%s bytes"
+msgstr "Byte inviati"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -18483,11 +18528,11 @@ msgstr "File di sottotitoli"
 msgid "All Files"
 msgstr "Tutti i file"
 
-#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:987
 msgid "Control menu for the player"
 msgstr "Menu di controllo del lettore"
 
-#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1030
 msgid "Paused"
 msgstr "In pausa"
 
@@ -23511,20 +23556,20 @@ msgstr "Filtro ritaglia video"
 msgid "Mosaic"
 msgstr "Mosaico"
 
-#: modules/video_filter/motionblur.c:53
+#: modules/video_filter/motionblur.c:52
 msgid "Blur factor (1-127)"
 msgstr "Fattore sfocatura (1-127)"
 
-#: modules/video_filter/motionblur.c:54
+#: modules/video_filter/motionblur.c:53
 msgid "The degree of blurring from 1 to 127."
 msgstr "Il grado di sfocatura da 1 a 127."
 
-#: modules/video_filter/motionblur.c:59
+#: modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "Sfocatura movimento"
 
-#: modules/video_filter/motionblur.c:60
+#: modules/video_filter/motionblur.c:59
 msgid "Motion blur filter"
 msgstr "Filtro sfocatura movimento"
 
@@ -24775,19 +24820,19 @@ msgstr "X11 video window (XCB)"
 #. The limitation is partially with ICCCM and partially with VLC.
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
-#: modules/video_output/xcb/window.c:288
+#: modules/video_output/xcb/window.c:291
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "Lettore multimediale VLC"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
-#: modules/video_output/xcb/window.c:293
+#: modules/video_output/xcb/window.c:296
 msgctxt "ASCII"
 msgid "VLC"
 msgstr "VLC"
 
-#: modules/video_output/xcb/window.c:322
+#: modules/video_output/xcb/window.c:325
 msgid "VLC"
 msgstr "VLC"
 
@@ -29567,36 +29612,6 @@ msgstr "Elenco gestore multimediale"
 
 #~ msgid "Native playlist import"
 #~ msgstr "Importazione playlist nativa"
-
-#~ msgid "Podcast Link"
-#~ msgstr "Collegamento del podcast"
-
-#~ msgid "Podcast Copyright"
-#~ msgstr "Copyright del podcast"
-
-#~ msgid "Podcast Category"
-#~ msgstr "Categoria del podcast"
-
-#~ msgid "Podcast Keywords"
-#~ msgstr "Parole chiavi del podcast"
-
-#~ msgid "Podcast Subtitle"
-#~ msgstr "Sottotitoli del podcast"
-
-#~ msgid "Podcast Publication Date"
-#~ msgstr "Data di pubblicazione del podcast"
-
-#~ msgid "Podcast Author"
-#~ msgstr "Autore del podcast"
-
-#~ msgid "Podcast Subcategory"
-#~ msgstr "Sottocategoria del podcast"
-
-#~ msgid "Podcast Duration"
-#~ msgstr "Durata del podcast"
-
-#~ msgid "Podcast Type"
-#~ msgstr "Tipo di podcast"
 
 #~ msgid "Mime type"
 #~ msgstr "Tipo MIME"

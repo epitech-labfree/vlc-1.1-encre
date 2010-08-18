@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-29 11:23+0200\n"
+"POT-Creation-Date: 2010-08-18 13:58+0200\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Dean Lee <xslidian@lidian.info>\n"
 "Language-Team: Simplified Chinese <xslidian+vlc@gmail.com>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Language: Chinese\n"
 
-#: include/vlc_common.h:919
+#: include/vlc_common.h:923
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -6204,7 +6204,7 @@ msgid "DVDnav Input"
 msgstr "DVD 导航输入"
 
 #: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
-#: modules/access/dvdread.c:465 modules/access/dvdread.c:527
+#: modules/access/dvdread.c:470 modules/access/dvdread.c:532
 msgid "Playback failure"
 msgstr "播放失败"
 
@@ -6226,12 +6226,12 @@ msgstr "DVDRead 输入 (无菜单支持)"
 msgid "DVDRead could not open the disc \"%s\"."
 msgstr "DVDRead 无法打开光碟 \"%s\"。"
 
-#: modules/access/dvdread.c:466
+#: modules/access/dvdread.c:471
 #, c-format
 msgid "DVDRead could not read block %d."
 msgstr "DVD 读取无法读取块 %d。"
 
-#: modules/access/dvdread.c:528
+#: modules/access/dvdread.c:533
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
 msgstr "DVDRead 无法读取 %d/%d 块，位于 0x%02x。"
@@ -9092,15 +9092,15 @@ msgstr "5.1"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:864
-#: modules/gui/qt4/main_interface.cpp:868
-#: modules/gui/qt4/main_interface.cpp:908
-#: modules/gui/qt4/main_interface.cpp:910
-#: modules/gui/qt4/main_interface.cpp:978
-#: modules/gui/qt4/main_interface.cpp:995
-#: modules/gui/qt4/main_interface.cpp:1002
-#: modules/gui/qt4/main_interface.cpp:1025
-#: modules/video_output/xcb/window.c:319
+#: modules/gui/qt4/main_interface.cpp:872
+#: modules/gui/qt4/main_interface.cpp:876
+#: modules/gui/qt4/main_interface.cpp:916
+#: modules/gui/qt4/main_interface.cpp:918
+#: modules/gui/qt4/main_interface.cpp:986
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1010
+#: modules/gui/qt4/main_interface.cpp:1033
+#: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "VLC media player"
 
@@ -13381,18 +13381,73 @@ msgstr "导入 WPL 播放列表"
 msgid "ZPL playlist import"
 msgstr "导入 ZPL 播放列表"
 
-#: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
-#: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
+#: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
+#: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 msgid "Podcast Info"
 msgstr "Podcast 信息"
 
-#: modules/demux/playlist/podcast.c:268
+#: modules/demux/playlist/podcast.c:256
+#, fuzzy
+msgid "Podcast Link"
+msgstr "Podcast 信息"
+
+#: modules/demux/playlist/podcast.c:257
+#, fuzzy
+msgid "Podcast Copyright"
+msgstr "版权"
+
+#: modules/demux/playlist/podcast.c:258
+#, fuzzy
+msgid "Podcast Category"
+msgstr "Podcast 解析器"
+
+#: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
+#, fuzzy
+msgid "Podcast Keywords"
+msgstr "Podcast 解析器"
+
+#: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
+#, fuzzy
+msgid "Podcast Subtitle"
+msgstr "Podcast 大小"
+
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "Podcast 摘要"
 
-#: modules/demux/playlist/podcast.c:330
+#: modules/demux/playlist/podcast.c:307
+#, fuzzy
+msgid "Podcast Publication Date"
+msgstr "调制类型"
+
+#: modules/demux/playlist/podcast.c:308
+#, fuzzy
+msgid "Podcast Author"
+msgstr "Podcast 信息"
+
+#: modules/demux/playlist/podcast.c:309
+#, fuzzy
+msgid "Podcast Subcategory"
+msgstr "Podcast 摘要"
+
+#: modules/demux/playlist/podcast.c:310
+#, fuzzy
+msgid "Podcast Duration"
+msgstr "饱和度"
+
+#: modules/demux/playlist/podcast.c:314
+#, fuzzy
+msgid "Podcast Type"
+msgstr "Podcast 解析器"
+
+#: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Podcast 大小"
+
+#: modules/demux/playlist/podcast.c:329
+#, fuzzy, c-format
+msgid "%s bytes"
+msgstr "发送字节"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -17951,11 +18006,11 @@ msgstr "字幕文件"
 msgid "All Files"
 msgstr "所有文件"
 
-#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:987
 msgid "Control menu for the player"
 msgstr "用于播放器的控制菜单"
 
-#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1030
 msgid "Paused"
 msgstr "已暂停"
 
@@ -22824,20 +22879,20 @@ msgstr "Mosaic 视频子滤镜"
 msgid "Mosaic"
 msgstr "马赛克"
 
-#: modules/video_filter/motionblur.c:53
+#: modules/video_filter/motionblur.c:52
 msgid "Blur factor (1-127)"
 msgstr "模糊因数 (1-127)"
 
-#: modules/video_filter/motionblur.c:54
+#: modules/video_filter/motionblur.c:53
 msgid "The degree of blurring from 1 to 127."
 msgstr "模糊程度从 1 到 127。"
 
-#: modules/video_filter/motionblur.c:59
+#: modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "动态模糊"
 
-#: modules/video_filter/motionblur.c:60
+#: modules/video_filter/motionblur.c:59
 msgid "Motion blur filter"
 msgstr "动态模糊滤镜"
 
@@ -24054,19 +24109,19 @@ msgstr "X11 视频窗口 (XCB)"
 #. The limitation is partially with ICCCM and partially with VLC.
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
-#: modules/video_output/xcb/window.c:288
+#: modules/video_output/xcb/window.c:291
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "VLC media player"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
-#: modules/video_output/xcb/window.c:293
+#: modules/video_output/xcb/window.c:296
 msgctxt "ASCII"
 msgid "VLC"
 msgstr "VLC"
 
-#: modules/video_output/xcb/window.c:322
+#: modules/video_output/xcb/window.c:325
 msgid "VLC"
 msgstr "VLC"
 
