@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-08-18 13:58+0200\n"
-"PO-Revision-Date: 2010-06-19 16:14+0300\n"
+"PO-Revision-Date: 2010-08-19 11:14+0300\n"
 "Last-Translator: Oleksandr Natalenko <pfactum@gmail.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
 "Language: uk\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: include/vlc_common.h:923
 msgid ""
@@ -6991,9 +6991,8 @@ msgid "Size"
 msgstr "Розмір"
 
 #: modules/access/imem.c:120
-#, fuzzy
 msgid "Size of stream in bytes"
-msgstr "Обмежити розмір кожної частини у байтах"
+msgstr "Розмір потоку у байтах"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
@@ -11074,9 +11073,8 @@ msgstr "Пакетувальник субтитрів DVD"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "Балтійське (Windows-1257)"
+msgstr "За змовчуванням (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -13987,67 +13985,57 @@ msgid "Podcast Info"
 msgstr "Інформація про подкаст"
 
 #: modules/demux/playlist/podcast.c:256
-#, fuzzy
 msgid "Podcast Link"
-msgstr "Інформація про подкаст"
+msgstr "Посилання на подкаст"
 
 #: modules/demux/playlist/podcast.c:257
-#, fuzzy
 msgid "Podcast Copyright"
-msgstr "Авторські права"
+msgstr "Авторські права на подкаст"
 
 #: modules/demux/playlist/podcast.c:258
-#, fuzzy
 msgid "Podcast Category"
-msgstr "Парсер подкасту"
+msgstr "Категорія подкасту"
 
 #: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
-#, fuzzy
 msgid "Podcast Keywords"
-msgstr "Парсер подкасту"
+msgstr "Ключові слова подкасту"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
-#, fuzzy
 msgid "Podcast Subtitle"
-msgstr "Розмір подкасту"
+msgstr "Субтитри подкасту"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "Зведена інформація про подкаст"
 
 #: modules/demux/playlist/podcast.c:307
-#, fuzzy
 msgid "Podcast Publication Date"
-msgstr "Тип модуляції"
+msgstr "Дата публікації подкасту"
 
 #: modules/demux/playlist/podcast.c:308
-#, fuzzy
 msgid "Podcast Author"
-msgstr "Інформація про подкаст"
+msgstr "Автор подкасту"
 
 #: modules/demux/playlist/podcast.c:309
-#, fuzzy
 msgid "Podcast Subcategory"
-msgstr "Зведена інформація про подкаст"
+msgstr "Підкатегорія подкасту"
 
 #: modules/demux/playlist/podcast.c:310
-#, fuzzy
 msgid "Podcast Duration"
-msgstr "Насиченість"
+msgstr "Тривалість подкасту"
 
 #: modules/demux/playlist/podcast.c:314
-#, fuzzy
 msgid "Podcast Type"
-msgstr "Парсер подкасту"
+msgstr "Тип подкасту"
 
 #: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Розмір подкасту"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Відіслано байт"
+msgstr "%s байт"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -25604,7 +25592,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Введіть URL мережевого потоку тут."
 
 #: modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -25641,7 +25628,7 @@ msgstr ""
 "#838383;\">http://www.example.com/stream.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.examples.com/stream.asx</span></p>\n"
