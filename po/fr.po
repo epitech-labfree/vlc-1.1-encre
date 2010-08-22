@@ -2475,6 +2475,8 @@ msgid ""
 "It tells the clock algorithms what is the maximal input jitter that is "
 "considered valid and can be compensated (in milliseconds)"
 msgstr ""
+"Cette option définit la variance maximum du délai de réception que les "
+"algorithmes de synchronisation tentent de compenser (en millisecondes)."
 
 #: src/libvlc-module.c:648 modules/control/netsync.c:72
 msgid "Network synchronisation"
@@ -5659,6 +5661,9 @@ msgid ""
 "available, they will be listed in the vlc debug output. To select hw:0,1 , "
 "use alsa://hw:0,1 ."
 msgstr ""
+"Spécifiez « alsa:// » pour ouvrir l’entrée audio par défaut. Si plusieurs "
+"entrées sont disponibles, elles seront listées dans la sortie de débogage "
+"de VLC. Pour choisir hw:0,1, spécifiez « alsa://hw:0,1 »."
 
 #: modules/access/alsa.c:89
 msgid "Alsa"
@@ -5666,7 +5671,7 @@ msgstr "ALSA"
 
 #: modules/access/alsa.c:90
 msgid "Alsa audio capture input"
-msgstr "Entrée audio « Alsa »"
+msgstr "Entrée audio « ALSA »"
 
 #: modules/access/attachment.c:44
 msgid "Attachment"
@@ -5678,7 +5683,7 @@ msgstr "Entrée d'attachement"
 
 #: modules/access/avio.h:34
 msgid "Avio"
-msgstr ""
+msgstr "Avio"
 
 #: modules/access/avio.h:35
 msgid "FFmpeg access"
@@ -7440,7 +7445,7 @@ msgstr "RTMP"
 
 #: modules/access/rtp/rtp.c:44
 msgid "RTP de-jitter buffer length (msec)"
-msgstr ""
+msgstr "Durée du tampon de dé-jitter RTP (msec)"
 
 #: modules/access/rtp/rtp.c:46
 msgid "How long to wait for late RTP packets (and delay the performance)."
@@ -7474,15 +7479,15 @@ msgstr ""
 
 #: modules/access/rtp/rtp.c:58 modules/stream_out/rtp.c:147
 msgid "SRTP salt (hexadecimal)"
-msgstr "SRTP salt (hexadécimal)"
+msgstr "Salage SRTP (hexadécimal)"
 
 #: modules/access/rtp/rtp.c:60 modules/stream_out/rtp.c:149
 msgid "Secure RTP requires a (non-secret) master salt value."
-msgstr ""
+msgstr "Valeur de salage maître pour « Secure RTP »."
 
 #: modules/access/rtp/rtp.c:62
 msgid "Maximum RTP sources"
-msgstr "Max sources RTP"
+msgstr "Sources RTP maximum"
 
 #: modules/access/rtp/rtp.c:64
 msgid "How many distinct active RTP sources are allowed at a time."
@@ -7498,7 +7503,7 @@ msgstr "Durée d'attente d'un paquet avant expiration de la source."
 
 #: modules/access/rtp/rtp.c:70
 msgid "Maximum RTP sequence number dropout"
-msgstr ""
+msgstr "Dépassement maximal du numéro de séquence RTP"
 
 #: modules/access/rtp/rtp.c:72
 msgid ""
@@ -7508,13 +7513,15 @@ msgstr ""
 
 #: modules/access/rtp/rtp.c:75
 msgid "Maximum RTP sequence number misordering"
-msgstr ""
+msgstr "Désordre maximal du numéro de séquence RTP"
 
 #: modules/access/rtp/rtp.c:77
 msgid ""
 "RTP packets will be discarded if they are too far behind (i.e. in the past) "
 "by this many packets from the last received packet."
 msgstr ""
+"Les paquets RTP dont le retard par rapport au dernier paquet reçu excède "
+"cette valeur seront ignorés."
 
 #: modules/access/rtp/rtp.c:87 modules/stream_out/rtp.c:170
 msgid "RTP"
@@ -13654,6 +13661,8 @@ msgid ""
 "WMServer uses an unstandard dialect of RTSP. Selecting this parameter will "
 "tell VLC to assume some options contrary to RFC 2326 guidelines."
 msgstr ""
+"WMServer emploie un dialecte non-standard de RTSP. Ce paramètre active "
+"des options contraires aux recommendations de la RFC 2326."
 
 #: modules/demux/live555.cpp:90
 msgid "RTSP user name"
@@ -20069,7 +20078,7 @@ msgstr "OSSO"
 
 #: modules/misc/inhibit/osso.c:41
 msgid "OSSO screen unblanking"
-msgstr ""
+msgstr "Économiseur d'écran OSSO"
 
 #: modules/misc/inhibit/xdg.c:35
 msgid "XDG-screensaver"
@@ -20183,7 +20192,7 @@ msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:109
 msgid "Lua Telnet"
-msgstr ""
+msgstr "Lua Telnet"
 
 #: modules/misc/lua/vlc.c:120
 msgid "Lua Meta Fetcher"
@@ -20447,7 +20456,7 @@ msgstr "MUX pour le transport RTSP brut"
 
 #: modules/misc/rtsp.c:74
 msgid "Sets the timeout option in the RTSP session string"
-msgstr ""
+msgstr "Définit le délai d'inactivité pour la session RTSP"
 
 #: modules/misc/rtsp.c:76
 msgid ""
