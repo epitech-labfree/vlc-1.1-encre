@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC Media Player\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-08-18 13:58+0200\n"
-"PO-Revision-Date: 2010-08-21 21:35+0100\n"
+"PO-Revision-Date: 2010-08-22 10:47+0100\n"
 "Last-Translator: Thomas De Rocker <thomasderocker.at.hotmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2586,7 +2586,7 @@ msgstr "Dit voegt zogenaamde \"subafbeeldingsfilters\" toe. Deze filters plaatse
 
 #: src/libvlc-module.c:821
 msgid "Autodetect subtitle files"
-msgstr "Detecteer automatisch ondertitelingsbestanden"
+msgstr "Ondertitelingsbestanden automatisch detecteren"
 
 #: src/libvlc-module.c:823
 msgid "Automatically detect a subtitle file, if no subtitle filename is specified (based on the filename of the movie)."
@@ -2594,7 +2594,7 @@ msgstr "Detecteer automatisch een ondertitelingsbestand, indien er geen gespecif
 
 #: src/libvlc-module.c:826
 msgid "Subtitle autodetection fuzziness"
-msgstr "Autodetectie van ondertitelingsbestanden intelligentie"
+msgstr "Intelligentie van autodetectie van ondertitelingsbestanden"
 
 #: src/libvlc-module.c:828
 msgid ""
@@ -2605,7 +2605,7 @@ msgid ""
 "3 = subtitle file matching the movie name with additional chars\n"
 "4 = subtitle file matching the movie name exactly"
 msgstr ""
-"Dit bepaalt de nauwkeurigheid van de bestandsnaam vergelijking van ondertiteling en film. Mogelijkheden zijn:\n"
+"Dit bepaalt de nauwkeurigheid van de vergelijking van de bestandsnamen van ondertiteling en film. Mogelijkheden zijn:\n"
 "0 = geen autodetectie\n"
 "1 = elk ondertitelingsbestand\n"
 "2 = elke ondertiteling die de filmnaam bevat\n"
@@ -2622,7 +2622,7 @@ msgstr "Zoek ook naar ondertitelingsbestanden in deze mappen"
 
 #: src/libvlc-module.c:841
 msgid "Use subtitle file"
-msgstr "Gebruik ondertitelingsbestand"
+msgstr "Ondertitelingsbestand gebruiken"
 
 #: src/libvlc-module.c:843
 msgid "Load this subtitle file. To be used when autodetect cannot detect your subtitle file."
@@ -5872,7 +5872,7 @@ msgstr "DirectShow invoer"
 #: modules/audio_output/waveout.c:109
 #: modules/video_output/msw/directx.c:116
 msgid "Refresh list"
-msgstr "Ververs lijst"
+msgstr "Lijst verversen"
 
 #: modules/access/dshow/dshow.cpp:199
 #: modules/access/dshow/dshow.cpp:204
@@ -10736,9 +10736,9 @@ msgid ""
 " - normal: Non-strict (not Blu-ray compatible)\n"
 msgstr ""
 "Hiermee worden B-beelden gebruikt ter referentie voor de voorspelling van andere beelden. Houdt het midden van 2+ opeenvolgende B-beelden ter referentie en reorganiseert het beeld conform.\n"
-" - none: Gedeactiveerd\n"
-" - strict: Strict hierarchische pyramide\n"
-" - normal: Niet-strict (niet Blu-ray compatible)\n"
+" - none: gedeactiveerd\n"
+" - strict: strikt hierarchische pyramide\n"
+" - normal: niet-strikt (niet Blu-ray compatible)\n"
 
 #: modules/codec/x264.c:106
 msgid "Allows B-frames to be used as references for predicting other frames. Keeps the middle of 2+ consecutive B-frames as a reference, and reorders frame appropriately."
@@ -12111,11 +12111,11 @@ msgstr "| @name mosaic-width # . . . . . . . . . . . . . . breedte"
 
 #: modules/control/rc.c:872
 msgid "| @name mosaic-xoffset # . . . .top left corner position"
-msgstr "| @name mosaic-xoffset # . . . .boven-links hoekpositie"
+msgstr "| @name mosaic-xoffset # . . . .positie linkerbovenhoek"
 
 #: modules/control/rc.c:873
 msgid "| @name mosaic-yoffset # . . . .top left corner position"
-msgstr "| @name mosaic-yoffset # . . . .boven-links hoekpositie"
+msgstr "| @name mosaic-yoffset # . . . .positie linkerbovenhoek"
 
 #: modules/control/rc.c:874
 msgid "| @name mosaic-offsets x,y(,x,y)*. . . . list of offsets"
@@ -12123,7 +12123,7 @@ msgstr "| @name mosaic-offsets x,y(,x,y)*. . . . lijst van uitlijning"
 
 #: modules/control/rc.c:875
 msgid "| @name mosaic-align 0..2,4..6,8..10. . .mosaic alignment"
-msgstr "| @name mosaic-align 0..2,4..6,8..10. . .mosaiek uitlijning"
+msgstr "| @name mosaic-align 0..2,4..6,8..10. . .mozaïek-uitlijning"
 
 #: modules/control/rc.c:876
 msgid "| @name mosaic-vborder # . . . . . . . . vertical border"
@@ -18624,7 +18624,7 @@ msgstr "Groter"
 
 #: modules/misc/freetype.c:122
 msgid "Use YUVP renderer"
-msgstr "Gebruik YUVP-weergave"
+msgstr "YUVP-renderer gebruiken"
 
 #: modules/misc/freetype.c:123
 msgid "This renders the font using \"paletized YUV\". This option is only needed if you want to encode into DVB subtitles"
@@ -19511,7 +19511,7 @@ msgstr "Dit activeert de feitelijke verwerking van aankondigingen door de SAP mo
 
 #: modules/services_discovery/sap.c:101
 msgid "SAP Strict mode"
-msgstr "SAP stricte modus"
+msgstr "SAP strikte modus"
 
 #: modules/services_discovery/sap.c:103
 msgid "When this is set, the SAP parser will discard some non-compliant announcements."
@@ -19856,7 +19856,7 @@ msgstr "Transparantie"
 
 #: modules/stream_out/mosaic_bridge.c:130
 msgid "Transparency of the mosaic picture."
-msgstr "Transparantie van mozaiekafbeelding"
+msgstr "Transparantie van mozaïekafbeelding"
 
 #: modules/stream_out/mosaic_bridge.c:132
 #: modules/video_filter/marq.c:104
@@ -21598,7 +21598,7 @@ msgstr "Verwijder gebieden van de video door een afbeelding als masker te gebrui
 
 #: modules/video_filter/erase.c:67
 msgid "Erase video filter"
-msgstr "Wissen videofilter"
+msgstr "Wissen-videofilter"
 
 #: modules/video_filter/erase.c:68
 msgid "Erase"
@@ -21606,11 +21606,11 @@ msgstr "Wissen"
 
 #: modules/video_filter/extract.c:62
 msgid "RGB component to extract"
-msgstr "RGB component om te extraheren"
+msgstr "Te extraheren RGB-component"
 
 #: modules/video_filter/extract.c:63
 msgid "RGB component to extract. 0 for Red, 1 for Green and 2 for Blue."
-msgstr "RGB-component te extraheren. 0 voor Rood, 1 voor Groen en 2 voor Blauw."
+msgstr "Te extraheren RGB-component. 0 voor Rood, 1 voor Groen en 2 voor Blauw."
 
 #: modules/video_filter/extract.c:74
 msgid "Extract RGB component video filter"
@@ -21690,15 +21690,15 @@ msgstr "Korrel"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
-msgstr "Inversie videofilter"
+msgstr "Inversie-videofilter"
 
 #: modules/video_filter/invert.c:51
 msgid "Color inversion"
-msgstr "Kleur inversie"
+msgstr "Kleurinversie"
 
 #: modules/video_filter/logo.c:48
 msgid "Logo filenames"
-msgstr "Logo bestandsnamen"
+msgstr "Logo-bestandsnamen"
 
 #: modules/video_filter/logo.c:49
 msgid "Full path of the image files to use. Format is <image>[,<delay in ms>[,<alpha>]][;<image>[,<delay>[,<alpha>]]][;...]. If you only have one file, simply enter its filename."
@@ -21706,7 +21706,7 @@ msgstr "Volledig pad voor de afbeeldingsbestanden. Formaat is <afbeelding>[,<ver
 
 #: modules/video_filter/logo.c:52
 msgid "Logo animation # of loops"
-msgstr "Logo-animatie aantal herhalingen"
+msgstr "Aantal herhalingen van logo-animatie"
 
 #: modules/video_filter/logo.c:53
 msgid "Number of loops for the logo animation.-1 = continuous, 0 = disabled"
@@ -21714,7 +21714,7 @@ msgstr "Aantal herhalingen voor de logo-animatie. -1 = blijvend herhalen, 0 = ui
 
 #: modules/video_filter/logo.c:55
 msgid "Logo individual image time in ms"
-msgstr "Logo individuele beeldtijd in ms"
+msgstr "Individuele beeldtijd van logo in ms"
 
 #: modules/video_filter/logo.c:56
 msgid "Individual image display time of 0 - 60000 ms."
@@ -21738,7 +21738,7 @@ msgstr "Logo-ondoorzichtigheidswaarde (van 0 voor volledige transparantie tot 25
 
 #: modules/video_filter/logo.c:67
 msgid "Logo position"
-msgstr "Logo positie"
+msgstr "Logo-positie"
 
 #: modules/video_filter/logo.c:69
 msgid "Enforce the logo position on the video (0=center, 1=left, 2=right, 4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-right)."
@@ -21750,7 +21750,7 @@ msgstr "Gebruik een lokale afbeelding als logo op de video"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub filter"
-msgstr "Logo subfilter"
+msgstr "Logo-subfilter"
 
 #: modules/video_filter/logo.c:93
 msgid "Logo overlay"
@@ -21865,15 +21865,15 @@ msgstr "Transparantie van de voorgrondafbeeldingen van de mozaïek. 0 betekent t
 
 #: modules/video_filter/mosaic.c:94
 msgid "Total height of the mosaic, in pixels."
-msgstr "Totale hoogte van de mozaiek, in pixels."
+msgstr "Totale hoogte van de mozaïek, in pixels."
 
 #: modules/video_filter/mosaic.c:96
 msgid "Total width of the mosaic, in pixels."
-msgstr "Totale breedte van de mozaiek, in pixels."
+msgstr "Totale breedte van de mozaïek, in pixels."
 
 #: modules/video_filter/mosaic.c:98
 msgid "Top left corner X coordinate"
-msgstr "Boven-links hoek X-coördinaat"
+msgstr "Linkerbovenhoek X-coördinaat"
 
 #: modules/video_filter/mosaic.c:100
 msgid "X Coordinate of the top-left corner of the mosaic."
@@ -21881,7 +21881,7 @@ msgstr "X-coördinaat van de linkerbovenhoek van de mozaïek."
 
 #: modules/video_filter/mosaic.c:101
 msgid "Top left corner Y coordinate"
-msgstr "Boven-links hoek Y-coördinaat"
+msgstr "Linkerbovenhoek Y-coördinaat"
 
 #: modules/video_filter/mosaic.c:103
 msgid "Y Coordinate of the top-left corner of the mosaic."
@@ -21909,7 +21909,7 @@ msgstr "Mozaïek uitlijning"
 
 #: modules/video_filter/mosaic.c:114
 msgid "You can enforce the mosaic alignment on the video (0=center, 1=left, 2=right, 4=top, 8=bottom, you can also use combinations of these values, eg 6 = top-right)."
-msgstr "De uitlijning van de mozaiek op de video kan hier ingesteld worden. (0=midden, 1=links, 2=rechts, 4=boven, 8=beneden. Combinaties van deze waarden zijn ook mogelijk, zoals 6 = rechts-boven)."
+msgstr "De uitlijning van de mozaïek op de video kan hier ingesteld worden. (0=midden, 1=links, 2=rechts, 4=boven, 8=beneden. Combinaties van deze waarden zijn ook mogelijk, zoals 6 = rechtsboven)."
 
 #: modules/video_filter/mosaic.c:118
 msgid "Positioning method"
@@ -21945,7 +21945,7 @@ msgstr "Behoud de originele beeldverhouding bij het herschalen van mozaïek-elem
 
 #: modules/video_filter/mosaic.c:139
 msgid "Keep original size"
-msgstr "Behoud originele grootte"
+msgstr "Originele grootte behouden"
 
 #: modules/video_filter/mosaic.c:141
 msgid "Keep the original size of mosaic elements."
@@ -21981,7 +21981,7 @@ msgstr "Uitlijningen"
 
 #: modules/video_filter/mosaic.c:177
 msgid "Mosaic video sub filter"
-msgstr "Mozaïek video sub filter"
+msgstr "Mozaïekvideo subfilter"
 
 #: modules/video_filter/mosaic.c:178
 msgid "Mosaic"
@@ -22500,15 +22500,15 @@ msgstr "De transparantie van de OSD VNC kan worden ingesteld met een waarde tuss
 
 #: modules/video_filter/remoteosd.c:119
 msgid "Remote-OSD over VNC"
-msgstr "Externe-OSD over VNC"
+msgstr "Externe OSD via VNC"
 
 #: modules/video_filter/remoteosd.c:121
 msgid "Remote-OSD"
-msgstr "Externe-OSD"
+msgstr "Externe OSD"
 
 #: modules/video_filter/ripple.c:52
 msgid "Ripple video filter"
-msgstr "Rimpel videofilter"
+msgstr "Rimpel-videofilter"
 
 #: modules/video_filter/rotate.c:57
 msgid "Angle in degrees"
@@ -22520,7 +22520,7 @@ msgstr "Hoek in graden (0 tot 359)"
 
 #: modules/video_filter/rotate.c:66
 msgid "Rotate video filter"
-msgstr "Rotatie videofilter"
+msgstr "Rotatie-videofilter"
 
 #: modules/video_filter/rotate.c:67
 #: modules/gui/qt4/ui/video_effects.h:1128
@@ -22693,7 +22693,7 @@ msgstr "Zet de verscherpsterkte, tussen 0 en 2. Standaard is 0.05."
 
 #: modules/video_filter/sharpen.c:59
 msgid "Augment contrast between contours."
-msgstr "Demp contrast tussen contouren."
+msgstr "Demp contrast tussen contouren"
 
 #: modules/video_filter/sharpen.c:66
 msgid "Sharpen video filter"
@@ -22766,19 +22766,19 @@ msgstr "Transformatietype"
 
 #: modules/video_filter/transform.c:66
 msgid "One of '90', '180', '270', 'hflip' and 'vflip'"
-msgstr "Één van '90', '180', '270', 'hflip' en 'vflip'"
+msgstr "Een van '90', '180', '270', 'hflip' en 'vflip'"
 
 #: modules/video_filter/transform.c:69
 msgid "Rotate by 90 degrees"
-msgstr "Draai 90 graden"
+msgstr "90 graden draaien"
 
 #: modules/video_filter/transform.c:70
 msgid "Rotate by 180 degrees"
-msgstr "Draai 180 graden"
+msgstr "180 graden draaien"
 
 #: modules/video_filter/transform.c:70
 msgid "Rotate by 270 degrees"
-msgstr "Draai 270 graden"
+msgstr "270 graden draaien"
 
 #: modules/video_filter/transform.c:71
 msgid "Flip horizontally"
@@ -22961,7 +22961,7 @@ msgstr "In een multimonitorconfiguratie kan de Windows-apparaatnaam van het beel
 
 #: modules/video_output/msw/directx.c:91
 msgid "Recommended video output for Windows XP. Incompatible with Vista's Aero interface"
-msgstr "Aanbevolen video-uitvoer voor Windows XP. Niet-compatible met Vista's Aero interface"
+msgstr "Aanbevolen video-uitvoer voor Windows XP. Niet compatibel met Vista's Aero-interface"
 
 #: modules/video_output/msw/directx.c:104
 msgid "DirectX (DirectDraw) video output"
