@@ -15,16 +15,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-07-29 11:23+0200\n"
+"POT-Creation-Date: 2010-08-26 12:57+0200\n"
 "PO-Revision-Date: 2010-08-17 12:45+0600\n"
 "Last-Translator: israt <israt@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: bn\n"
 
-#: include/vlc_common.h:919
+#: include/vlc_common.h:923
 msgid ""
 "This program comes with NO WARRANTY, to the extent permitted by law.\n"
 "You may redistribute it under the terms of the GNU General Public License;\n"
@@ -126,7 +126,7 @@ msgstr "আউটপুট মডিউল"
 msgid "General settings for audio output modules."
 msgstr "অডিও আউটপুট মডিউলের সাধারণ সেটিং।"
 
-#: include/vlc_config_cat.h:66 src/libvlc-module.c:2044
+#: include/vlc_config_cat.h:66 src/libvlc-module.c:2045
 #: modules/stream_out/transcode/transcode.c:226
 msgid "Miscellaneous"
 msgstr "বিবিধ"
@@ -245,7 +245,7 @@ msgstr "সাধারণ ইনপুট"
 msgid "General input settings. Use with care..."
 msgstr "সাধারন ইনপুট সেটিং। সতর্কতার সাথে ব্যবহার করুন..."
 
-#: include/vlc_config_cat.h:124 src/libvlc-module.c:1964
+#: include/vlc_config_cat.h:124 src/libvlc-module.c:1965
 msgid "Stream output"
 msgstr "স্ট্রীম আউটপুট"
 
@@ -353,7 +353,7 @@ msgstr "VOD"
 msgid "VLC's implementation of Video On Demand"
 msgstr "VLC-র ভিডিও অন-ডিমান্ড বাস্তবায়ন"
 
-#: include/vlc_config_cat.h:175 src/libvlc-module.c:2106
+#: include/vlc_config_cat.h:175 src/libvlc-module.c:2107
 #: src/playlist/engine.c:131 modules/demux/playlist/playlist.c:69
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
@@ -387,7 +387,7 @@ msgstr ""
 "সার্ভিস ডিসকভারী মডিউলগুলো স্বয়ংক্রিয়ভাবে প্লেলিস্টে আইটেম যোগ করার সুবিধা প্রদান "
 "করে।"
 
-#: include/vlc_config_cat.h:186 src/libvlc-module.c:1911
+#: include/vlc_config_cat.h:186 src/libvlc-module.c:1912
 msgid "Advanced"
 msgstr "উন্নত"
 
@@ -1394,7 +1394,7 @@ msgstr ""
 "চালিয়ে যাওয়ার জন্য রিটার্ন কী চাপুন...\n"
 
 #: src/libvlc.h:175 src/libvlc-module.c:1464 src/libvlc-module.c:1465
-#: src/libvlc-module.c:2640 src/video_output/vout_intf.c:195
+#: src/libvlc-module.c:2641 src/video_output/vout_intf.c:195
 msgid "Zoom"
 msgstr "বড় আকারে প্রদর্শন"
 
@@ -2578,8 +2578,8 @@ msgid ""
 "language)."
 msgstr ""
 "আপনি অডিও ট্র্যাকের জন্য যে ভাষা ব্যবহার করতে চান (কমা দ্বারা পৃথককৃত, দুই বা তিন "
-"অক্ষরের দেশের কোড, অন্য ভাষায় ফলব্যাক এড়াতে আপনি \"কোনটি না\" ব্যবহার করতে পারেন)"
-"।"
+"অক্ষরের দেশের কোড, অন্য ভাষায় ফলব্যাক এড়াতে আপনি \"কোনটি না\" ব্যবহার করতে "
+"পারেন)।"
 
 #: src/libvlc-module.c:717
 msgid "Subtitle language"
@@ -3020,9 +3020,9 @@ msgid ""
 "(decompression methods). Only advanced users should alter this option as it "
 "can break playback of all your streams."
 msgstr ""
-"এই অপশন ব্যবহার করে VLC-র কোডেক নির্বাচন পদ্ধতি পরিবর্তন করা যায় (ডিকম্প্রেশন মেথড)"
-"। শুধুমাত্র অভিজ্ঞ ব্যবহারকারীদের এই অপশনটি পরিবর্তন করা উচিত, কারণ এটি আপনার সব "
-"স্ট্রীমের প্লেব্যাক ভঙ্গ করতে পারে।"
+"এই অপশন ব্যবহার করে VLC-র কোডেক নির্বাচন পদ্ধতি পরিবর্তন করা যায় (ডিকম্প্রেশন "
+"মেথড)। শুধুমাত্র অভিজ্ঞ ব্যবহারকারীদের এই অপশনটি পরিবর্তন করা উচিত, কারণ এটি আপনার "
+"সব স্ট্রীমের প্লেব্যাক ভঙ্গ করতে পারে।"
 
 #: src/libvlc-module.c:927
 msgid "Preferred decoders list"
@@ -4543,70 +4543,70 @@ msgstr "ট্র্যাক সেটিং"
 msgid "Playback control"
 msgstr "প্লেব্যাক কন্ট্রোল"
 
-#: src/libvlc-module.c:1855
+#: src/libvlc-module.c:1856
 msgid "Default devices"
 msgstr "পূর্বনির্ধারিত ডিভাইস"
 
-#: src/libvlc-module.c:1864
+#: src/libvlc-module.c:1865
 msgid "Network settings"
 msgstr "নেটওয়ার্ক সেটিং"
 
-#: src/libvlc-module.c:1876
+#: src/libvlc-module.c:1877
 msgid "Socks proxy"
 msgstr "সক্স প্রক্সি"
 
-#: src/libvlc-module.c:1885 modules/demux/kate_categories.c:47
+#: src/libvlc-module.c:1886 modules/demux/kate_categories.c:47
 msgid "Metadata"
 msgstr "মেটাডেটা"
 
-#: src/libvlc-module.c:1936
+#: src/libvlc-module.c:1937
 msgid "Decoders"
 msgstr "ডিকোডার"
 
-#: src/libvlc-module.c:1943 modules/access/v4l2.c:86
+#: src/libvlc-module.c:1944 modules/access/v4l2.c:86
 #: modules/gui/macosx/playlistinfo.m:97
 msgid "Input"
 msgstr "ইনপুট"
 
-#: src/libvlc-module.c:1982
+#: src/libvlc-module.c:1983
 msgid "VLM"
 msgstr "VLM"
 
-#: src/libvlc-module.c:2014
+#: src/libvlc-module.c:2015
 msgid "CPU"
 msgstr "CPU"
 
-#: src/libvlc-module.c:2043
+#: src/libvlc-module.c:2044
 msgid "Special modules"
 msgstr "বিশেষ মডিউল"
 
-#: src/libvlc-module.c:2049 modules/gui/qt4/dialogs/plugins.cpp:66
+#: src/libvlc-module.c:2050 modules/gui/qt4/dialogs/plugins.cpp:66
 msgid "Plugins"
 msgstr "প্লাগইন"
 
-#: src/libvlc-module.c:2060
+#: src/libvlc-module.c:2061
 msgid "Performance options"
 msgstr "কার্যকারিতা অপশন"
 
-#: src/libvlc-module.c:2208
+#: src/libvlc-module.c:2209
 msgid "Hot keys"
 msgstr "হট কী"
 
-#: src/libvlc-module.c:2650
+#: src/libvlc-module.c:2651
 msgid "Jump sizes"
 msgstr "স্থানান্তর করার পরিমাণ "
 
-#: src/libvlc-module.c:2727
+#: src/libvlc-module.c:2728
 msgid "print help for VLC (can be combined with --advanced and --help-verbose)"
 msgstr ""
 "VLC-র সহায়তা মূদ্রণ করা হবে (--উন্নত এবং --সহায়তা-ভার্বোস এর সাথে সংযুক্ত থাকতে "
 "পারে)"
 
-#: src/libvlc-module.c:2730
+#: src/libvlc-module.c:2731
 msgid "Exhaustive help for VLC and its modules"
 msgstr "VLC এবং এর মডিউলগুলোর জন্য সম্পূর্ণ সহায়তা"
 
-#: src/libvlc-module.c:2732
+#: src/libvlc-module.c:2733
 msgid ""
 "print help for VLC and all its modules (can be combined with --advanced and "
 "--help-verbose)"
@@ -4614,19 +4614,19 @@ msgstr ""
 "VLC এবং এর সব মডিউলের সহায়তা মুদ্রণ করা হবে (--উন্নত এবং --সহায়তা-ভার্বোস এর "
 "সাথে সংযুক্ত থাকতে পারে)"
 
-#: src/libvlc-module.c:2735
+#: src/libvlc-module.c:2736
 msgid "ask for extra verbosity when displaying help"
 msgstr "সহায়তা প্রদর্শনের সময় অতিরিক্ত ভার্বোসিটির জন্য জিজ্ঞেস করা হবে"
 
-#: src/libvlc-module.c:2737
+#: src/libvlc-module.c:2738
 msgid "print a list of available modules"
 msgstr "বিদ্যমান মডিউলসমূহের তালিকা মুদ্রণ করা হবে"
 
-#: src/libvlc-module.c:2739
+#: src/libvlc-module.c:2740
 msgid "print a list of available modules with extra detail"
 msgstr "অতিরিক্ত বিবরণসহ বিদ্যমান মডিউলসমূহের তালিকা মুদ্রণ করা হবে"
 
-#: src/libvlc-module.c:2741
+#: src/libvlc-module.c:2742
 msgid ""
 "print help on a specific module (can be combined with --advanced and --help-"
 "verbose). Prefix the module name with = for strict matches."
@@ -4635,27 +4635,27 @@ msgstr ""
 "সংযুক্ত থাকতে পারে)। স্ট্রিক্টম্যাচের জন্য উপসর্গ হিসেবে মডিউলের নামের আগে = দেয়া "
 "হবে।"
 
-#: src/libvlc-module.c:2745
+#: src/libvlc-module.c:2746
 msgid "no configuration option will be loaded nor saved to config file"
 msgstr "কনফিগ ফাইলে কোনো কনফিগারেশন অপশন লোড বা সংরক্ষণ করা হবে না"
 
-#: src/libvlc-module.c:2747
+#: src/libvlc-module.c:2748
 msgid "reset the current config to the default values"
 msgstr "বর্তমান কনফিগ পূর্বনির্ধারিত মানে পুনঃনির্ধারণ করা হবে"
 
-#: src/libvlc-module.c:2749
+#: src/libvlc-module.c:2750
 msgid "use alternate config file"
 msgstr "বিকল্প কনফিগ ফাইল ব্যবহার করা হবে"
 
-#: src/libvlc-module.c:2751
+#: src/libvlc-module.c:2752
 msgid "resets the current plugins cache"
 msgstr "বর্তমান প্লাগইন ক্যাশ পুনঃনির্ধারণ করা হবে"
 
-#: src/libvlc-module.c:2753
+#: src/libvlc-module.c:2754
 msgid "print version information"
 msgstr "সংস্করণ তথ্য মুদ্রণ করা হবে"
 
-#: src/libvlc-module.c:2791
+#: src/libvlc-module.c:2792
 msgid "main program"
 msgstr "প্রধান প্রোগ্রাম"
 
@@ -6159,8 +6159,8 @@ msgstr "টিউনার টিভি চ্যানেল"
 #: modules/access/dshow/dshow.cpp:137
 msgid "Set the TV channel the tuner will set to (0 means default)."
 msgstr ""
-"টিউনার যে টিভি চ্যানেলে নির্ধারিত হবে সেটি নির্ধারণ করা হবে (0 মানে পূর্বনির্ধারিত)"
-"।"
+"টিউনার যে টিভি চ্যানেলে নির্ধারিত হবে সেটি নির্ধারণ করা হবে (0 মানে "
+"পূর্বনির্ধারিত)।"
 
 #: modules/access/dshow/dshow.cpp:139
 msgid "Tuner country code"
@@ -6470,7 +6470,7 @@ msgid "DVDnav Input"
 msgstr "DVDnav ইনপুট"
 
 #: modules/access/dvdnav.c:325 modules/access/dvdread.c:205
-#: modules/access/dvdread.c:465 modules/access/dvdread.c:527
+#: modules/access/dvdread.c:470 modules/access/dvdread.c:532
 msgid "Playback failure"
 msgstr "প্লেব্যাক ব্যর্থতা"
 
@@ -6494,12 +6494,12 @@ msgstr "DVDRead ইনপুট (মেনু সমর্থন ব্যতী
 msgid "DVDRead could not open the disc \"%s\"."
 msgstr "DVDRead \"%s\" ডিস্ক খুলতে পারেনি।"
 
-#: modules/access/dvdread.c:466
+#: modules/access/dvdread.c:471
 #, c-format
 msgid "DVDRead could not read block %d."
 msgstr "DVDRead %d ব্লক পড়তে পারেনি।"
 
-#: modules/access/dvdread.c:528
+#: modules/access/dvdread.c:533
 #, c-format
 msgid "DVDRead could not read %d/%d blocks at 0x%02x."
 msgstr "DVDRead %d/%d ব্লক 0x%02x তে পড়তে পারেনি।"
@@ -7829,14 +7829,14 @@ msgstr "ইনপুট/আউটপুট মেথড (READ, MMAP, USERPTR)।
 #: modules/access/v4l2.c:97
 msgid "Force width (-1 for autodetect, 0 for driver default)."
 msgstr ""
-"প্রস্থ আরোপ করা হবে (-1 হলো স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের জন্য)"
-"।"
+"প্রস্থ আরোপ করা হবে (-1 হলো স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের "
+"জন্য)।"
 
 #: modules/access/v4l2.c:100
 msgid "Force height (-1 for autodetect, 0 for driver default)."
 msgstr ""
-"উচ্চতা আরোপ করা হবে (-1 হল স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের জন্য)"
-"।"
+"উচ্চতা আরোপ করা হবে (-1 হল স্বয়ংক্রিয়ভাবে সনাক্ত করার জন্য, 0 ড্রাইভার ডিফল্টের "
+"জন্য)।"
 
 #: modules/access/v4l2.c:102
 msgid "Framerate to capture, if applicable (0 for autodetect)."
@@ -8404,8 +8404,8 @@ msgstr "Mime"
 #: modules/access_output/http.c:72
 msgid "MIME returned by the server (autodetected if not specified)."
 msgstr ""
-"সার্ভার দ্বারা ফেরত পাঠানো MIME (উল্লেখ করা না থাকলে স্বয়ংক্রিয়ভাবে সনাক্ত করা হবে)"
-"।"
+"সার্ভার দ্বারা ফেরত পাঠানো MIME (উল্লেখ করা না থাকলে স্বয়ংক্রিয়ভাবে সনাক্ত করা "
+"হবে)।"
 
 #: modules/access_output/http.c:75
 msgid "Path to the x509 PEM certificate file that will be used for HTTPS."
@@ -8961,8 +8961,8 @@ msgstr "ব্যান্ডের গেইন"
 #: modules/audio_filter/equalizer.c:63
 msgid ""
 "Don't use presets, but manually specified bands. You need to provide 10 "
-"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 -"
-"2 0 2\"."
+"values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
+"-2 0 2\"."
 msgstr ""
 "নিজ হাতে উল্লিখিত ব্যান্ড ছাড়া প্রিসেট ব্যবহার করা হবে না। আপনাকে -20dB এবং 20dB "
 "মধ্যে ১০টি মান প্রদান করতে হবে, স্পেস দ্বারা পৃথক করে, যেমন \"0 2 4 2 0 -2 -4 -2 "
@@ -9484,15 +9484,15 @@ msgstr "৫.১"
 #: modules/audio_output/pulse.c:66 modules/gui/macosx/embeddedwindow.m:76
 #: modules/gui/macosx/intf.m:596 modules/gui/macosx/intf.m:597
 #: modules/gui/macosx/intf.m:2005 modules/gui/qt4/dialogs/help.cpp:99
-#: modules/gui/qt4/main_interface.cpp:864
-#: modules/gui/qt4/main_interface.cpp:868
-#: modules/gui/qt4/main_interface.cpp:908
-#: modules/gui/qt4/main_interface.cpp:910
-#: modules/gui/qt4/main_interface.cpp:978
-#: modules/gui/qt4/main_interface.cpp:995
-#: modules/gui/qt4/main_interface.cpp:1002
-#: modules/gui/qt4/main_interface.cpp:1025
-#: modules/video_output/xcb/window.c:319
+#: modules/gui/qt4/main_interface.cpp:872
+#: modules/gui/qt4/main_interface.cpp:876
+#: modules/gui/qt4/main_interface.cpp:916
+#: modules/gui/qt4/main_interface.cpp:918
+#: modules/gui/qt4/main_interface.cpp:986
+#: modules/gui/qt4/main_interface.cpp:1003
+#: modules/gui/qt4/main_interface.cpp:1010
+#: modules/gui/qt4/main_interface.cpp:1033
+#: modules/video_output/xcb/window.c:322
 msgid "VLC media player"
 msgstr "VLC মিডিয়া প্লেয়ার"
 
@@ -9582,7 +9582,7 @@ msgstr "কী নয়"
 
 #: modules/codec/avcodec/avcodec.c:74 modules/gui/macosx/prefs.m:207
 #: modules/gui/macosx/simple_prefs.m:307
-#: modules/gui/qt4/dialogs/preferences.cpp:70
+#: modules/gui/qt4/dialogs/preferences.cpp:71
 msgid "All"
 msgstr "সব"
 
@@ -9666,8 +9666,8 @@ msgid ""
 "16 no padding\n"
 "32 ac vlc\n"
 "64 Qpel chroma.\n"
-"This must be the sum of the values. For example, to fix \"ac vlc\" and \"ump4"
-"\", enter 40."
+"This must be the sum of the values. For example, to fix \"ac vlc\" and "
+"\"ump4\", enter 40."
 msgstr ""
 "কিছু ত্রুটি সনাক্ত করার চেষ্টা করা হবে:\n"
 "1  স্বয়ংক্রিয়ভাবে সনাক্ত\n"
@@ -11611,10 +11611,10 @@ msgid ""
 "enforced; it's up to the user to select a level compatible with the rest of "
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 msgstr ""
-"H.264 স্তর উল্লেখ করা হবে (স্ট্যান্ডার্ডের Annex A দ্বারা যেভাবে নির্ধারন করা হয়েছে)"
-"। স্তরগুলো কার্যকর করা হয় না; ব্যবহারকারী তার ইচ্ছেমতো এনকোডিংএর অবশিষ্ট অপশনসমূহের "
-"সাথে সামঞ্জস্যপূর্ণ একটি স্তর নির্বাচন করতে পারে। সীমা ১ থেকে ৫.১ পর্যন্ত (১০ থেকে "
-"৫১ ও গ্রহনযোগ্য)।"
+"H.264 স্তর উল্লেখ করা হবে (স্ট্যান্ডার্ডের Annex A দ্বারা যেভাবে নির্ধারন করা "
+"হয়েছে)। স্তরগুলো কার্যকর করা হয় না; ব্যবহারকারী তার ইচ্ছেমতো এনকোডিংএর অবশিষ্ট "
+"অপশনসমূহের সাথে সামঞ্জস্যপূর্ণ একটি স্তর নির্বাচন করতে পারে। সীমা ১ থেকে ৫.১ পর্যন্ত "
+"(১০ থেকে ৫১ ও গ্রহনযোগ্য)।"
 
 # Translated by sadia
 #: modules/codec/x264.c:136
@@ -13924,18 +13924,73 @@ msgstr "WPL প্লেলিস্ট ইম্পোর্ট"
 msgid "ZPL playlist import"
 msgstr "ZPL প্লেলিস্ট ইম্পোর্ট"
 
-#: modules/demux/playlist/podcast.c:255 modules/demux/playlist/podcast.c:268
-#: modules/demux/playlist/podcast.c:308 modules/demux/playlist/podcast.c:329
+#: modules/demux/playlist/podcast.c:254 modules/demux/playlist/podcast.c:266
+#: modules/demux/playlist/podcast.c:306 modules/demux/playlist/podcast.c:327
 msgid "Podcast Info"
 msgstr "পডকাস্ট তথ্য"
 
-#: modules/demux/playlist/podcast.c:268
+#: modules/demux/playlist/podcast.c:256
+#, fuzzy
+msgid "Podcast Link"
+msgstr "পডকাস্ট তথ্য"
+
+#: modules/demux/playlist/podcast.c:257
+#, fuzzy
+msgid "Podcast Copyright"
+msgstr "স্বত্বাধিকার"
+
+#: modules/demux/playlist/podcast.c:258
+#, fuzzy
+msgid "Podcast Category"
+msgstr "পডকাস্ট পার্সার"
+
+#: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
+#, fuzzy
+msgid "Podcast Keywords"
+msgstr "পডকাস্ট পার্সার"
+
+#: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
+#, fuzzy
+msgid "Podcast Subtitle"
+msgstr "পডকাস্ট আকার"
+
+#: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "পডকাস্ট সারসংক্ষেপ"
 
-#: modules/demux/playlist/podcast.c:330
+#: modules/demux/playlist/podcast.c:307
+#, fuzzy
+msgid "Podcast Publication Date"
+msgstr "মডুলেশন টাইপ"
+
+#: modules/demux/playlist/podcast.c:308
+#, fuzzy
+msgid "Podcast Author"
+msgstr "পডকাস্ট তথ্য"
+
+#: modules/demux/playlist/podcast.c:309
+#, fuzzy
+msgid "Podcast Subcategory"
+msgstr "পডকাস্ট সারসংক্ষেপ"
+
+#: modules/demux/playlist/podcast.c:310
+#, fuzzy
+msgid "Podcast Duration"
+msgstr "স্যাচুরেশন"
+
+#: modules/demux/playlist/podcast.c:314
+#, fuzzy
+msgid "Podcast Type"
+msgstr "পডকাস্ট পার্সার"
+
+#: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "পডকাস্ট আকার"
+
+#: modules/demux/playlist/podcast.c:329
+#, fuzzy, c-format
+msgid "%s bytes"
+msgstr "প্রেরনকৃত বাইট"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -14174,8 +14229,8 @@ msgstr "দ্রুত udp স্ট্রীমিং"
 #: modules/demux/ts.c:122
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
 msgstr ""
-"udp এর মাধ্যমে উল্লেখিত আইপি:পোর্ট এ TS প্রেরন করে (নিশ্চিত হয়ে নিন আপনি কি করছেন)"
-"।"
+"udp এর মাধ্যমে উল্লেখিত আইপি:পোর্ট এ TS প্রেরন করে (নিশ্চিত হয়ে নিন আপনি কি "
+"করছেন)।"
 
 #: modules/demux/ts.c:124
 msgid "MTU for out mode"
@@ -15863,7 +15918,7 @@ msgid "Information"
 msgstr "তথ্য"
 
 #: modules/gui/macosx/prefs.m:202 modules/gui/macosx/simple_prefs.m:311
-#: modules/gui/qt4/dialogs/preferences.cpp:46
+#: modules/gui/qt4/dialogs/preferences.cpp:47
 msgid "Preferences"
 msgstr "পছন্দসমূহ"
 
@@ -15878,7 +15933,7 @@ msgid "Basic"
 msgstr "ভিত্তি"
 
 #: modules/gui/macosx/prefs.m:225 modules/gui/macosx/simple_prefs.m:696
-#: modules/gui/qt4/dialogs/preferences.cpp:312
+#: modules/gui/qt4/dialogs/preferences.cpp:317
 msgid "Reset Preferences"
 msgstr "পছন্দসমূহ রিসেট করা হবে"
 
@@ -17808,7 +17863,7 @@ msgstr "প্রয়োগ করা হবে (&A)"
 #: modules/gui/qt4/dialogs/help.cpp:206 modules/gui/qt4/dialogs/open.cpp:110
 #: modules/gui/qt4/dialogs/openurl.cpp:60
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:37
-#: modules/gui/qt4/dialogs/preferences.cpp:85
+#: modules/gui/qt4/dialogs/preferences.cpp:86
 #: modules/gui/qt4/dialogs/sout.cpp:97 modules/gui/qt4/dialogs/toolbar.cpp:189
 msgid "&Cancel"
 msgstr "বাতিল (&C)"
@@ -18101,8 +18156,10 @@ msgstr ""
 msgid ""
 "This version of VLC was compiled by:\n"
 " "
-msgstr "VLC এর এই সংস্করণটি কম্পাইল করা হয়েছে:‌‌‌\n"
+msgstr ""
+"VLC এর এই সংস্করণটি কম্পাইল করা হয়েছে:‌‌‌\n"
 " "
+
 #: modules/gui/qt4/dialogs/help.cpp:122
 msgid "Compiler: "
 msgstr "কম্পাইলার:"
@@ -18361,35 +18418,45 @@ msgstr "ওয়েবসাইট"
 msgid "Deletes the selected item"
 msgstr "নির্বাচিত উপাদান মুছে ফেলা হয়"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:63
+#: modules/gui/qt4/dialogs/preferences.cpp:64
 msgid "Show settings"
 msgstr "সেটিং প্রদর্শন করা হবে"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:67
+#: modules/gui/qt4/dialogs/preferences.cpp:68
 msgid "Simple"
 msgstr "সহজ"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:68
+#: modules/gui/qt4/dialogs/preferences.cpp:69
 msgid "Switch to simple preferences view"
 msgstr "সহজ পছন্দসমূহের প্রদর্শনে পরিবর্তন করা হবে"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:71
+#: modules/gui/qt4/dialogs/preferences.cpp:72
 msgid "Switch to full preferences view"
 msgstr "পূর্ণ পছন্দ প্রদর্শনে পরিবর্তন করা হবে"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:83
+#: modules/gui/qt4/dialogs/preferences.cpp:84
 msgid "&Save"
 msgstr "সংরক্ষণ করা হবে (&S)"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:84
+#: modules/gui/qt4/dialogs/preferences.cpp:85
 msgid "Save and close the dialog"
 msgstr "ডায়লগটি সংরক্ষণ করে বন্ধ করা হবে"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:86
+#: modules/gui/qt4/dialogs/preferences.cpp:87
 msgid "&Reset Preferences"
 msgstr "পছন্দসমূহ পুনঃনির্ধারণ করা হবে (&R)"
 
-#: modules/gui/qt4/dialogs/preferences.cpp:313
+#: modules/gui/qt4/dialogs/preferences.cpp:300
+#, fuzzy
+msgid "Cannot save Configuration"
+msgstr "Lua ইন্টারফেস কনফিগারেশন"
+
+#: modules/gui/qt4/dialogs/preferences.cpp:301
+#, fuzzy
+msgid "Preferences file could not be saved"
+msgstr "ফাইলটি যাচাই করা যায়নি"
+
+#: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
 msgstr ""
 "আপনি কি নিশ্চিতভাবে আপনার VLC মিডিয়া প্লেয়ারের পছন্দসমূহ পুনঃনির্ধারণ করতে চান?"
@@ -18644,11 +18711,11 @@ msgstr "সাবটাইটেল ফাইল"
 msgid "All Files"
 msgstr "সব ফাইল"
 
-#: modules/gui/qt4/main_interface.cpp:979
+#: modules/gui/qt4/main_interface.cpp:987
 msgid "Control menu for the player"
 msgstr "প্লেয়ারের জন্য কন্ট্রোল মেনু"
 
-#: modules/gui/qt4/main_interface.cpp:1022
+#: modules/gui/qt4/main_interface.cpp:1030
 msgid "Paused"
 msgstr "বিরত"
 
@@ -20647,8 +20714,8 @@ msgstr "CSA কী"
 msgid ""
 "CSA encryption key. This must be a 16 char string (8 hexadecimal bytes)."
 msgstr ""
-"CSA এনক্রিপশন কী। এটিকে অবশ্যই ১৬ ক্যারেক্টার স্ট্রিং হতে হবে (৮ হেক্সাডেসিমাল বাইট)"
-"।"
+"CSA এনক্রিপশন কী। এটিকে অবশ্যই ১৬ ক্যারেক্টার স্ট্রিং হতে হবে (৮ হেক্সাডেসিমাল "
+"বাইট)।"
 
 #: modules/mux/mpeg/ts.c:177
 msgid "CSA Key in use"
@@ -22467,11 +22534,11 @@ msgstr "চ্যানেল / জোনভিত্তিক নির্দ�
 #: modules/video_filter/atmo/atmo.cpp:330
 msgid ""
 "for devices with more than five channels / zones write down here for each "
-"channel the zone number to show and separate the values with , or ; and use -"
-"1 to not use some channels. For the classic AtmoLight the sequence 4,3,1,0,2 "
-"would set the default channel/zone mapping. Having only two zones on top, "
-"and one zone on left and right and no summary zone the mapping for classic "
-"AtmoLight would be -1,3,2,1,0"
+"channel the zone number to show and separate the values with , or ; and use "
+"-1 to not use some channels. For the classic AtmoLight the sequence "
+"4,3,1,0,2 would set the default channel/zone mapping. Having only two zones "
+"on top, and one zone on left and right and no summary zone the mapping for "
+"classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
 "যেসব ডিভাইসে পাঁচটির অধিক চ্যানেল / জোন রয়েছে, প্রতিটি চ্যানেলে যে জোন নম্বর "
 "প্রদর্শন করতে হবে তা এখানে লিখুন এবং মানগুলো , বা ; দিয়ে আলাদা করুন এবং কোনো "
@@ -23699,20 +23766,20 @@ msgstr "মোজাইক ভিডিও সাব পরিশোধক"
 msgid "Mosaic"
 msgstr "মোজাইক"
 
-#: modules/video_filter/motionblur.c:53
+#: modules/video_filter/motionblur.c:52
 msgid "Blur factor (1-127)"
 msgstr "ব্লার ফ্যাক্টর (1-127)"
 
-#: modules/video_filter/motionblur.c:54
+#: modules/video_filter/motionblur.c:53
 msgid "The degree of blurring from 1 to 127."
 msgstr "1 থেকে 127 পর্যন্ত ব্লারিং এর মাত্রা।"
 
-#: modules/video_filter/motionblur.c:59
+#: modules/video_filter/motionblur.c:58
 #: modules/gui/qt4/ui/video_effects.h:1146
 msgid "Motion blur"
 msgstr "গতি ব্লার"
 
-#: modules/video_filter/motionblur.c:60
+#: modules/video_filter/motionblur.c:59
 msgid "Motion blur filter"
 msgstr "গতি ব্লার পরিশোধক"
 
@@ -24798,8 +24865,8 @@ msgid ""
 "\\.\\DISPLAY1\" or \"\\\\.\\DISPLAY2\"."
 msgstr ""
 "মাল্টিপল মনিটর কনফিগারেশনে, আপনি ভিডিও উইন্ডো যে ডিসপ্লেতে খুলতে চান সেই উইন্ডোজ "
-"ডিভাইসের নাম উল্লেখ করতে পারেন। উদাহরণস্বরূপ, \"\\"
-"\\.\\DISPLAY1\" অথবা \"\\\\.\\DISPLAY2\"।"
+"ডিভাইসের নাম উল্লেখ করতে পারেন। উদাহরণস্বরূপ, \"\\\\.\\DISPLAY1\" অথবা \"\\\\."
+"\\DISPLAY2\"।"
 
 #: modules/video_output/msw/directx.c:91
 msgid ""
@@ -24970,19 +25037,19 @@ msgstr "X11 ভিডিও উইন্ডো (XCB)"
 #. The limitation is partially with ICCCM and partially with VLC.
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
-#: modules/video_output/xcb/window.c:288
+#: modules/video_output/xcb/window.c:291
 msgctxt "ASCII"
 msgid "VLC media player"
 msgstr "VLC মিডিয়া প্লেয়ার"
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
-#: modules/video_output/xcb/window.c:293
+#: modules/video_output/xcb/window.c:296
 msgctxt "ASCII"
 msgid "VLC"
 msgstr "VLC"
 
-#: modules/video_output/xcb/window.c:322
+#: modules/video_output/xcb/window.c:325
 msgid "VLC"
 msgstr "VLC"
 
@@ -25030,8 +25097,8 @@ msgstr "ভিডিও এক্সিলারেশন নেই"
 #, c-format
 msgid ""
 "Your video output acceleration driver does not support the required "
-"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x%"
-"<PRIu32>.\n"
+"resolution: %ux%u pixels. The maximum supported resolution is %<PRIu32>x"
+"%<PRIu32>.\n"
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
