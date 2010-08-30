@@ -250,6 +250,7 @@ static int Open( vlc_object_t *p_this )
             { "ogg", "ogg" },
             { "ogm", "ogg" },
             { "ogv", "ogg" },
+            { "flac","raw" },
             { "mp3", "raw" },
             { "mp4", "mp4" },
             { "mov", "mov" },
