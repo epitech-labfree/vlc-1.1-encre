@@ -257,8 +257,8 @@ msgid ""
 "Sout streams modules allow advanced stream processing (transcoding, "
 "duplicating...)."
 msgstr ""
-"Srauto išvesties nuostatos naudojamos, kai veikiama srauto serverio režimu "
-"arba įrašant gaunamus srautus.\n"
+"Srauto išvesties nuostatos naudojamos, kai veikiama srauto serverio "
+"veiksenoje arba įrašant gaunamus srautus.\n"
 "Srautai pirmiausia yra sutankinami ir tuomet siunčiami naudojant „išvesties "
 "prieigos“ modulį, kuris taip pat leidžia įrašyti srautą į rinkmeną arba jį "
 "transliuoti (UDP; HTTP; RTP/RTSP).\n"
@@ -1674,7 +1674,7 @@ msgstr ""
 
 #: src/libvlc-module.c:297
 msgid "Audio output channels mode"
-msgstr "Garso išvesties kanalų režimas"
+msgstr "Garso išvesties kanalų veiksena"
 
 #: src/libvlc-module.c:299
 msgid ""
@@ -1682,7 +1682,7 @@ msgid ""
 "possible (ie. if your hardware supports it as well as the audio stream being "
 "played)."
 msgstr ""
-"Nustatomas garso išvesties kanalų režimas, kuris naudosimas kai tik bus "
+"Nustatomas garso išvesties kanalų veiksena, kuri naudosima kai tik bus "
 "įmanoma (pvz., jei jūsų aparatinė įranga jį palaiko garso srauto grojimo "
 "metu)."
 
@@ -1739,7 +1739,7 @@ msgstr "Naudoti vaizdinių modulius (spektro analizatorių ir kt.)."
 
 #: src/libvlc-module.c:331
 msgid "Replay gain mode"
-msgstr "Kartojimo režimas"
+msgstr "Kartojimo veiksena"
 
 #: src/libvlc-module.c:333
 msgid "Select the replay gain mode"
@@ -1759,11 +1759,11 @@ msgstr ""
 
 #: src/libvlc-module.c:340
 msgid "Default replay gain"
-msgstr "Numatytasis kartojimo režimas"
+msgstr "Numatytoji kartojimo veiksena"
 
 #: src/libvlc-module.c:342
 msgid "This is the gain used for stream without replay gain information"
-msgstr "Tai kartojimo režimas, naudojamas srautams be kartojimo informacijos"
+msgstr "Tai kartojimo veiksena, naudojama srautams be kartojimo informacijos"
 
 #: src/libvlc-module.c:344
 msgid "Peak protection"
@@ -2047,7 +2047,7 @@ msgstr "Visuomet vaizdo langą rodyti virš kitų langų."
 
 #: src/libvlc-module.c:448
 msgid "Enable wallpaper mode "
-msgstr "Įgalinti darbastalio fono režimą"
+msgstr "Įgalinti darbastalio fono veikseną"
 
 #: src/libvlc-module.c:450
 msgid ""
@@ -2285,7 +2285,7 @@ msgstr "Automatinis vaizdo dydžio priderinimas"
 msgid "Let the video scale to fit a given window or fullscreen."
 msgstr ""
 "Leisti vaizdui automatiškai prisiderinti prie lango arba prie viso ekrano "
-"režimo."
+"veiksenos."
 
 #: src/libvlc-module.c:571
 msgid "Video scaling factor"
@@ -3681,7 +3681,7 @@ msgstr "Groti ir išeiti"
 
 #: src/libvlc-module.c:1251
 msgid "Exit if there are no more items in the playlist."
-msgstr "Išeiti iš programos, baigus groti grojaraštyje esančiius kūrinius."
+msgstr "Išeiti iš programos, baigus groti grojaraštyje esančius kūrinius."
 
 #: src/libvlc-module.c:1253
 msgid "Play and pause"
@@ -3733,15 +3733,15 @@ msgstr "Visas ekranas"
 
 #: src/libvlc-module.c:1277
 msgid "Select the hotkey to use to swap fullscreen state."
-msgstr "Pasirinkite spartųjį klavišą persijungimui į viso ekrano režimą."
+msgstr "Pasirinkite spartųjį klavišą persijungimui į viso ekrano veikseną."
 
 #: src/libvlc-module.c:1278
 msgid "Leave fullscreen"
-msgstr "Išeiti iš viso ekrano režimo"
+msgstr "Išeiti iš viso ekrano veiksenos"
 
 #: src/libvlc-module.c:1279
 msgid "Select the hotkey to use to leave fullscreen state."
-msgstr "Pasirinkite spartųjį klavišą išėjimui iš viso ekrano režimo."
+msgstr "Pasirinkite spartųjį klavišą išėjimui iš viso ekrano veiksenos."
 
 #: src/libvlc-module.c:1280
 msgid "Play/Pause"
@@ -4318,12 +4318,12 @@ msgstr "Eiti per iš anksto aprašytų vaizdo iškirpimo formatus."
 
 #: src/libvlc-module.c:1438
 msgid "Toggle autoscaling"
-msgstr "Keisti dydžio auto-derinimo prie ekrano režimą"
+msgstr "Keisti dydžio auto-derinimo prie ekrano veikseną"
 
 #: src/libvlc-module.c:1439
 msgid "Activate or deactivate autoscaling."
 msgstr ""
-"Įjungti arba išjungti automatinį vaizdo dydžio derinimo prie ekrano režimą."
+"Įjungti arba išjungti automatinį vaizdo dydžio derinimo prie ekrano veikseną."
 
 #: src/libvlc-module.c:1440
 msgid "Increase scale factor"
@@ -4347,7 +4347,7 @@ msgstr "Keisti perėjimo šalinimą"
 
 #: src/libvlc-module.c:1445
 msgid "Cycle through deinterlace modes."
-msgstr "Cikliškai eiti per perėjimo šalinimo režimus."
+msgstr "Cikliškai eiti per perėjimo šalinimo veiksenas."
 
 #: src/libvlc-module.c:1446
 msgid "Show interface"
@@ -4393,7 +4393,7 @@ msgstr "Garso ir vaizdo atimties išklotinės priėjimo filtro paleidiklis."
 
 #: src/libvlc-module.c:1458
 msgid "Normal/Repeat/Loop"
-msgstr "Kartojimo režimas"
+msgstr "Kartojimo veiksena"
 
 #: src/libvlc-module.c:1459
 msgid "Toggle Normal/Repeat/Loop playlist modes"
@@ -4441,11 +4441,11 @@ msgstr "Atšaukti vaizdo atkirpimą pikseliu iš dešinės"
 
 #: src/libvlc-module.c:1490
 msgid "Toggle wallpaper mode in video output"
-msgstr "Keisti darbastalio fono išvesties režimą"
+msgstr "Keisti darbastalio fono išvesties veikseną"
 
 #: src/libvlc-module.c:1492
 msgid "Toggle wallpaper mode in video output."
-msgstr "Keisti darbastalio fono išvesties režimą."
+msgstr "Keisti darbastalio fono išvesties veikseną."
 
 #: src/libvlc-module.c:1494 src/libvlc-module.c:1495
 msgid "Display OSD menu on top of video output"
@@ -5492,7 +5492,7 @@ msgstr ""
 
 #: modules/access/alsa.c:69 modules/access/oss.c:65
 msgid "Capture the audio stream in stereo."
-msgstr "Garsą įrašyti stereofoniniu režimu."
+msgstr "Garsą įrašyti stereofonine veiksena."
 
 #: modules/access/alsa.c:71 modules/access/oss.c:66
 #: modules/access_output/shout.c:94
@@ -6202,14 +6202,14 @@ msgstr "Pasirinkite garso išvesties tipą. Žiūrėkite „Vaizdo įvestis“ p
 
 #: modules/access/dshow/dshow.cpp:162
 msgid "AM Tuner mode"
-msgstr "AM tiunerio režimas"
+msgstr "AM tiunerio veiksena"
 
 #: modules/access/dshow/dshow.cpp:164
 msgid ""
 "AM Tuner mode. Can be one of Default (0), TV (1),AM Radio (2), FM Radio (3) "
 "or DSS (4)."
 msgstr ""
-"AM tiunerio režimas. Gali būti numatytasis (0), TV (1), AM radijas (2), FM "
+"AM tiunerio veiksena. Gali būti numatytasis (0), TV (1), AM radijas (2), FM "
 "radijas (3) arba DSS (4)."
 
 #: modules/access/dshow/dshow.cpp:167
@@ -7190,16 +7190,16 @@ msgstr "Bitų dažnio pikas"
 
 #: modules/access/pvr.c:100
 msgid "Peak bitrate in VBR mode."
-msgstr "Piko bitų dažnis kintam. bitų dažn. (VBR) režime."
+msgstr "Piko bitų dažnis kintam. bitų dažn. (VBR) veiksenoje."
 
 #: modules/access/pvr.c:102
 msgid "Bitrate mode"
-msgstr "Bitų dažnio režimas"
+msgstr "Bitų dažnio veiksena"
 
 #: modules/access/pvr.c:103
 msgid "Bitrate mode to use (VBR or CBR)."
 msgstr ""
-"Naudotinas bitų dažnio režimas (VBR – kintam. bitų dažnis – ar CBR – "
+"Naudotinas bitų dažnio veiksena (VBR – kintam. bitų dažnis – ar CBR – "
 "pastov.)."
 
 #: modules/access/pvr.c:105
@@ -7836,7 +7836,7 @@ msgstr "Atstatyti v4l2 valdiklius"
 
 #: modules/access/v4l2.c:113
 msgid "Reset controls to defaults provided by the v4l2 driver."
-msgstr "Nustatyti v4l2 tvarkyklės numatytuosius valdyklius."
+msgstr "Nustatyti v4l2 tvarkyklės numatytuosius valdiklius."
 
 #: modules/access/v4l2.c:116
 msgid "Brightness of the video input (if supported by the v4l2 driver)."
@@ -8027,7 +8027,7 @@ msgstr ""
 
 #: modules/access/v4l2.c:192
 msgid "v4l2 driver controls"
-msgstr "v4l2 tvarkyklės valdyklė"
+msgstr "v4l2 tvarkyklės valdiklis"
 
 #: modules/access/v4l2.c:194
 msgid ""
@@ -8056,7 +8056,7 @@ msgstr "Tiunerio dažnis, Hz arba kHz (žiūrėkite derinimo informaciją)"
 
 #: modules/access/v4l2.c:206
 msgid "Audio mode"
-msgstr "Garso režimas"
+msgstr "Garso veiksena"
 
 #: modules/access/v4l2.c:208
 msgid "Tuner audio mono/stereo and track selection."
@@ -9451,7 +9451,7 @@ msgid ""
 "output mode (which is not well supported by some soundcards)."
 msgstr ""
 "Ši parinktis įgalina arba išjungia aukštos kokybės float32 garso išvesties "
-"režimo naudojimą (kai kurios garso plokštės tinkamai nepalaiko)."
+"veiksenos naudojimą (kai kurios garso plokštės tinkamai nepalaiko)."
 
 #: modules/codec/a52.c:49
 msgid "A/52 parser"
@@ -10033,7 +10033,7 @@ msgstr ""
 
 #: modules/codec/dirac.c:104
 msgid "Picture coding mode"
-msgstr "Paveikslėlių kodavimo režimas"
+msgstr "Paveikslėlių kodavimo veiksena"
 
 #: modules/codec/dirac.c:105
 msgid ""
@@ -10752,7 +10752,7 @@ msgstr ""
 #: modules/gui/macosx/open.m:209 modules/gui/qt4/ui/sprefs_video.h:324
 #: modules/gui/qt4/ui/video_effects.h:1149
 msgid "Mode"
-msgstr "Režimas"
+msgstr "Veiksena"
 
 #: modules/codec/speex.c:59
 msgid "Enforce the mode of the encoder."
@@ -11173,7 +11173,7 @@ msgstr ""
 
 #: modules/codec/twolame.c:60
 msgid "Stereo mode"
-msgstr "Stereofoninis režimas"
+msgstr "Stereofoninė veiksena"
 
 #: modules/codec/twolame.c:61
 msgid "Handling mode for stereo streams"
@@ -11872,11 +11872,11 @@ msgstr ""
 
 #: modules/codec/x264.c:367
 msgid "Quiet mode"
-msgstr "Tylus režimas"
+msgstr "Tyli veiksena"
 
 #: modules/codec/x264.c:368
 msgid "Quiet mode."
-msgstr "Tylus režimas."
+msgstr "Tyli veiksena."
 
 #: modules/codec/x264.c:370 modules/gui/macosx/playlistinfo.m:82
 #: modules/gui/qt4/ui/streampanel.h:171
@@ -12167,7 +12167,7 @@ msgstr "Šalinti perėjimą"
 #: modules/control/hotkeys.c:671
 #, c-format
 msgid "Zoom mode: %s"
-msgstr "Mastelio režimas: %s"
+msgstr "Mastelio veiksena: %s"
 
 #: modules/control/hotkeys.c:719
 msgid "1.00x"
@@ -13187,7 +13187,7 @@ msgid ""
 "RTSP servers."
 msgstr ""
 "Kasenna serveriai naudoja seną ir nestandartinį RTSP dialektą. Pasirinkus šį "
-"parametrą, VLC mėgins naudoti šį dialektą. Naudodami šį režimą negalite "
+"parametrą, VLC mėgins naudoti šį dialektą. Naudodami šią veikseną negalite "
 "prisijungti prie įprastų RTSP serverių."
 
 #: modules/demux/live555.cpp:85
@@ -13885,7 +13885,7 @@ msgstr ""
 
 #: modules/demux/ts.c:134
 msgid "Silent mode"
-msgstr "Tylus režimas"
+msgstr "Tyli veiksena"
 
 #: modules/demux/ts.c:135
 msgid "Do not complain on encrypted PES."
@@ -14687,7 +14687,7 @@ msgstr "Grotuvas..."
 
 #: modules/gui/macosx/intf.m:718
 msgid "Controller..."
-msgstr "Valdyklė..."
+msgstr "Valdiklis..."
 
 #: modules/gui/macosx/intf.m:719
 msgid "Equalizer..."
@@ -14868,12 +14868,13 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:67
 msgid "Black screens in fullscreen"
-msgstr "Juodas ekranas viso ekrano režime"
+msgstr "Juodas ekranas viso ekrano veiksenoje"
 
 #: modules/gui/macosx/macosx.m:68
 msgid "In fullscreen mode, keep screen where there is no video displayed black"
 msgstr ""
-"Viso ekrano režime ten, kur nerodomas vaizdas, užpildyti plotus juoda spalva"
+"Viso ekrano veiksenoje ten, kur nerodomas vaizdas, užpildyti plotus juoda "
+"spalva"
 
 #: modules/gui/macosx/macosx.m:71
 msgid "Use as Desktop Background"
@@ -14891,7 +14892,7 @@ msgstr "Rodyti visas ekrano veiksenos valdiklius"
 
 #: modules/gui/macosx/macosx.m:76
 msgid "Shows a lucent controller when moving the mouse in fullscreen mode."
-msgstr "Rodo peršviečiamus valdiklius pelei judant viso ekrano režime."
+msgstr "Rodo peršviečiamus valdiklius pelei judant viso ekrano veiksenoje."
 
 #: modules/gui/macosx/macosx.m:79
 msgid "Auto-playback of new items"
@@ -15669,7 +15670,7 @@ msgstr "Vaizdo lange rodyti valdiklius"
 
 #: modules/gui/macosx/simple_prefs.m:268
 msgid "Show Fullscreen Controller"
-msgstr "Rodyti viso ekrano režimo valdyklę"
+msgstr "Rodyti viso ekrano veiksenos valdiklį"
 
 #: modules/gui/macosx/simple_prefs.m:270
 #: modules/gui/qt4/ui/sprefs_interface.h:376
@@ -15678,7 +15679,7 @@ msgstr "Privatumas / Tinklo sąveika"
 
 #: modules/gui/macosx/simple_prefs.m:273
 msgid "...when VLC is in background"
-msgstr ""
+msgstr "...kai VLC veikia fone"
 
 #: modules/gui/macosx/simple_prefs.m:274
 msgid "Automatically check for updates"
@@ -15715,7 +15716,7 @@ msgstr "Įgalinti ERP"
 
 #: modules/gui/macosx/simple_prefs.m:290
 msgid "Black screens in Fullscreen mode"
-msgstr "Juodas ekranas viso ekrano režime"
+msgstr "Juodas ekranas viso ekrano veiksenoje"
 
 #: modules/gui/macosx/simple_prefs.m:292 modules/stream_out/display.c:54
 #: modules/video_filter/deinterlace.c:138
@@ -16730,7 +16731,7 @@ msgstr "Grojaraštis (pagal kategoriją)"
 
 #: modules/gui/ncurses.c:2076
 msgid " Playlist (Manually added) "
-msgstr "Grojaraštis (pridėtas rankiniiu būdu)"
+msgstr "Grojaraštis (pridėtas rankiniu būdu)"
 
 #: modules/gui/ncurses.c:2173 modules/gui/ncurses.c:2177
 #, c-format
@@ -16780,7 +16781,7 @@ msgstr ""
 
 #: modules/gui/qt4/components/controller.hpp:106
 msgid "De-Fullscreen"
-msgstr "Išeiti iš viso ekrano režimo"
+msgstr "Palikti viso ekrano veikseną"
 
 #: modules/gui/qt4/components/controller.hpp:106
 msgid "Extended panel"
@@ -16810,7 +16811,7 @@ msgstr "Šokti priekin"
 
 #: modules/gui/qt4/components/controller.hpp:109
 msgid "Loop/Repeat mode"
-msgstr "Kartojimo režimas"
+msgstr "Kartojimo veiksena"
 
 #: modules/gui/qt4/components/controller.hpp:111
 msgid "Stop playback"
@@ -16830,11 +16831,11 @@ msgstr "Kitas grojaraščio kūrinys"
 
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Toggle the video in fullscreen"
-msgstr "Įjungti viso ekrano režimą"
+msgstr "Įjungti viso ekrano veikseną"
 
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Toggle the video out fullscreen"
-msgstr "Išjunti viso ekrano režimą"
+msgstr "Išjunti viso ekrano veikseną"
 
 #: modules/gui/qt4/components/controller.hpp:115
 msgid "Show extended settings"
@@ -17566,7 +17567,7 @@ msgstr "Sinchronizavimas"
 
 #: modules/gui/qt4/dialogs/extended.cpp:80
 msgid "v4l2 controls"
-msgstr "v4l2 valdyklės"
+msgstr "v4l2 valdikliai"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:61
 msgid "Privacy and Network Policies"
@@ -18468,7 +18469,7 @@ msgstr "Atverti &tinklo vietą..."
 
 #: modules/gui/qt4/menus.cpp:978
 msgid "Leave Fullscreen"
-msgstr "Išeiti iš viso ekrano režimo"
+msgstr "Palikti viso ekrano veikseną"
 
 #: modules/gui/qt4/menus.cpp:1006
 msgid "&Playback"
@@ -18666,7 +18667,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:146
 msgid "Selection of the starting mode and look "
-msgstr "Paleidimo režimo ir išvaizdos pasirinkimas"
+msgstr "Paleidimo veiksenos ir išvaizdos pasirinkimas"
 
 #: modules/gui/qt4/qt4.cpp:147
 msgid ""
@@ -18676,14 +18677,14 @@ msgid ""
 " - minimal mode with limited controls"
 msgstr ""
 "VLC paleisti:\n"
-" - įprastu režimu;\n"
+" - įprasta veiksena;\n"
 " - su zona, visada rodančia tokią informaciją kaip žodžiai, albumo "
 "viršeliai...;\n"
-" - minimaliu režimu su ribotu valdiklių skaičiumi"
+" - minimalia veiksena su ribotu valdiklių skaičiumi"
 
 #: modules/gui/qt4/qt4.cpp:153
 msgid "Show a controller in fullscreen mode"
-msgstr "Rodyti valdiklius viso ekrano režime"
+msgstr "Rodyti valdiklius viso ekrano veiksenoje"
 
 #: modules/gui/qt4/qt4.cpp:154
 msgid "Embed the file browser in open dialog"
@@ -18691,12 +18692,12 @@ msgstr "Rinkmenų naršyklę įtalpinti atvėrimo skydelyje"
 
 #: modules/gui/qt4/qt4.cpp:156
 msgid "Define which screen fullscreen goes"
-msgstr "Nurodo, kurį ekraną naudoti viso ekrano režimui"
+msgstr "Nurodo, kurį ekraną naudoti viso ekrano veiksenai"
 
 #: modules/gui/qt4/qt4.cpp:157
 msgid "Screennumber of fullscreen, instead ofsame screen where interface is"
 msgstr ""
-"Numeris ekrano, kuris bus naudojamas viso ekrano režime vietoj tam tikro "
+"Numeris ekrano, kuris bus naudojamas viso ekrano veiksenoje vietoj tam tikro "
 "ekrano, kai sąsaja yra"
 
 #: modules/gui/qt4/qt4.cpp:160
@@ -19449,7 +19450,7 @@ msgid ""
 "and \"syslog\" (special mode to send to syslog instead of file."
 msgstr ""
 "Nurodykite žurnalo formatą. galimi pasirinkimai: „text“ (numatytas), „html“ "
-"ir „syslog“ (specialus režimas siųsti pranešimus, nerašant į rinkmeną)."
+"ir „syslog“ (speciali veiksena siųsti pranešimus, nerašant į rinkmeną)."
 
 #: modules/misc/logger.c:129
 msgid "Syslog facility"
@@ -20330,7 +20331,7 @@ msgstr ""
 
 #: modules/services_discovery/sap.c:96
 msgid "Try to parse the announce"
-msgstr "Mėgiinti analizuoti skelbimą"
+msgstr "Mėginti analizuoti skelbimą"
 
 #: modules/services_discovery/sap.c:98
 msgid ""
@@ -20342,7 +20343,7 @@ msgstr ""
 
 #: modules/services_discovery/sap.c:101
 msgid "SAP Strict mode"
-msgstr "SAP tikslusis režimas"
+msgstr "SAP tikslioji veiksena"
 
 #: modules/services_discovery/sap.c:103
 msgid ""
@@ -22572,7 +22573,7 @@ msgstr "Naudotinas perėjimo šalinimo būdas vietiniam grojimui."
 
 #: modules/video_filter/deinterlace.c:121
 msgid "Streaming deinterlace mode"
-msgstr "Siunčiamas perėjimo šalinimo režimas"
+msgstr "Siunčiamas perėjimo šalinimo veiksena"
 
 #: modules/video_filter/deinterlace.c:122
 msgid "Deinterlace method to use for streaming."
@@ -22670,12 +22671,12 @@ msgstr "Gauso suliejimas"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
-msgstr "Iškraipymo režimas"
+msgstr "Iškraipymo veiksena"
 
 #: modules/video_filter/gradient.c:63
 msgid "Distort mode, one of \"gradient\", \"edge\" and \"hough\"."
 msgstr ""
-"Iškraipymo režimas, vienas iš „išryškinti spalvų perėjimą“, „kontūrą“ ir "
+"Iškraipymo veiksena, vienas iš „išryškinti spalvų perėjimą“, „kontūrą“ ir "
 "„linijos“."
 
 #: modules/video_filter/gradient.c:65
@@ -23735,7 +23736,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:167
 msgid "Title display mode"
-msgstr "Pavadinimas rodymo režimas"
+msgstr "Pavadinimas rodymo veiksena"
 
 #: modules/video_filter/rss.c:168
 msgid ""
@@ -24096,7 +24097,7 @@ msgstr "Minimali Mac OS X OpenGL vaizdo išvestis (atveriama lange be rėmelių)
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "Enable desktop mode "
-msgstr "Įgalinti darbastalio fono režimą "
+msgstr "Įgalinti darbastalio fono veikseną "
 
 #: modules/video_output/msw/direct3d.c:59
 msgid "The desktop mode allows you to display the video on the desktop."
@@ -25010,7 +25011,7 @@ msgstr "Normalizuoti garsumą iki:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:417
 msgid "Replay gain mode:"
-msgstr "Kartojimo režimas:"
+msgstr "Kartojimo veiksena:"
 
 #: modules/gui/qt4/ui/sprefs_audio.h:418
 msgid "Visualization:"
@@ -25173,7 +25174,7 @@ msgstr ""
 
 #: modules/gui/qt4/ui/sprefs_interface.h:400
 msgid "Show controls in full screen mode"
-msgstr "Rodyti valdiklius viso ekrano režime"
+msgstr "Rodyti valdiklius viso ekrano veiksenoje"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:401
 msgid "Minimal view mode (no toolbars)"
@@ -25237,7 +25238,7 @@ msgstr "Vaizdo įrenginys"
 
 #: modules/gui/qt4/ui/sprefs_video.h:320
 msgid "Enable wallpaper mode"
-msgstr "Įgalinti darbastalio fono režimą"
+msgstr "Įgalinti darbastalio fono veikseną"
 
 #: modules/gui/qt4/ui/sprefs_video.h:322
 msgid "Deinterlacing"
