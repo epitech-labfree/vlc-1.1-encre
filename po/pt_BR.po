@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: pt_BR\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-08-26 12:57+0200\n"
-"PO-Revision-Date: 2010-06-28 19:41-0300\n"
+"PO-Revision-Date: 2010-09-04 01:55-0300\n"
 "Last-Translator: Sidney Doria <ssdoria@gmail.com>\n"
 "Language-Team: Brazilian Portuguese\n"
 "Language: \n"
@@ -7064,9 +7064,8 @@ msgid "Size"
 msgstr "Tamanho"
 
 #: modules/access/imem.c:120
-#, fuzzy
 msgid "Size of stream in bytes"
-msgstr "Limitar o tamanho de cada pedaço em bytes"
+msgstr "Tamanho do fluxo em bytes"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
 msgid "Memory input"
@@ -10324,13 +10323,12 @@ msgid "Picture coding mode"
 msgstr "Modo de codificação de imagem"
 
 #: modules/codec/dirac.c:105
-#, fuzzy
 msgid ""
 "Field coding is where interlaced fields are coded separately as opposed to a "
 "pseudo-progressive frame"
 msgstr ""
-"A codificação de campo está onde campos intrelaçados são codificados "
-"separadamente ao contrário de um quadro pseudo-progressivo"
+"A codificação de campo é quando campos codificados são intrelaçados "
+"separadamente, ao contrário de um quadro pseudo-progressivo"
 
 #: modules/codec/dirac.c:110
 msgid "auto - let encoder decide based upon input (Best)"
@@ -10341,9 +10339,8 @@ msgid "force coding frame as single picture"
 msgstr "Impõe o quadro codificado como uma imagem única"
 
 #: modules/codec/dirac.c:112
-#, fuzzy
 msgid "force coding frame as separate interlaced fields"
-msgstr "Impõe o quadro codificado como campos intrelaçados separados"
+msgstr "Impõe a codificação de quadros como campos intrelaçados separados"
 
 #: modules/codec/dirac.c:116
 msgid "Width of motion compensation blocks"
@@ -11192,9 +11189,8 @@ msgstr "Empacotador de legendas de DVD"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "Báltico (Windows-1257)"
+msgstr "Padrão (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -14076,7 +14072,7 @@ msgstr "Importar lista de reprodução DVB"
 
 #: modules/demux/playlist/playlist.c:105
 msgid "Podcast parser"
-msgstr "Leitor de Poscast"
+msgstr "Leitor de Podcast"
 
 #: modules/demux/playlist/playlist.c:111
 msgid "XSPF playlist import"
@@ -14124,67 +14120,57 @@ msgid "Podcast Info"
 msgstr "Informações do Podcast"
 
 #: modules/demux/playlist/podcast.c:256
-#, fuzzy
 msgid "Podcast Link"
-msgstr "Informações do Podcast"
+msgstr "Link do Podcast"
 
 #: modules/demux/playlist/podcast.c:257
-#, fuzzy
 msgid "Podcast Copyright"
-msgstr "Direito de Cópia"
+msgstr "Direito de Cópia do Podcast"
 
 #: modules/demux/playlist/podcast.c:258
-#, fuzzy
 msgid "Podcast Category"
-msgstr "Leitor de Poscast"
+msgstr "Categoria do Podcast"
 
 #: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
-#, fuzzy
 msgid "Podcast Keywords"
-msgstr "Leitor de Poscast"
+msgstr "Palavras-chave do Podcast"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
-#, fuzzy
 msgid "Podcast Subtitle"
-msgstr "Tamanho do Podcast"
+msgstr "Legenda do Podcast"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "Resumo do Podcast"
 
 #: modules/demux/playlist/podcast.c:307
-#, fuzzy
 msgid "Podcast Publication Date"
-msgstr "Tipo de modulação"
+msgstr "Data de Publicação do Podcast"
 
 #: modules/demux/playlist/podcast.c:308
-#, fuzzy
 msgid "Podcast Author"
-msgstr "Informações do Podcast"
+msgstr "Autor do Podcast"
 
 #: modules/demux/playlist/podcast.c:309
-#, fuzzy
 msgid "Podcast Subcategory"
-msgstr "Resumo do Podcast"
+msgstr "Subcategoria do Podcast"
 
 #: modules/demux/playlist/podcast.c:310
-#, fuzzy
 msgid "Podcast Duration"
-msgstr "Saturação"
+msgstr "Duração do Podcast"
 
 #: modules/demux/playlist/podcast.c:314
-#, fuzzy
 msgid "Podcast Type"
-msgstr "Leitor de Poscast"
+msgstr "Tipo do Podcast"
 
 #: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Tamanho do Podcast"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Bytes enviados"
+msgstr "%s bytes"
 
 #: modules/demux/playlist/shoutcast.c:410
 msgid "Shoutcast"
@@ -17843,7 +17829,6 @@ msgid "Use VLC pace"
 msgstr "Usar o pace do VLC"
 
 #: modules/gui/qt4/components/open_panels.cpp:874
-#, fuzzy
 msgid "Auto connection"
 msgstr "Conexão automática"
 
@@ -18653,14 +18638,12 @@ msgid "&Reset Preferences"
 msgstr "&Redefinir Preferências"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Configuração da interface Lua"
+msgstr "Não foi possível salvar a Configuração"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Arquivo não pôde ser verificado"
+msgstr "Não foi possível salvar o arquivo de preferências"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -20116,7 +20099,7 @@ msgid ""
 "This should take less than a few minutes."
 msgstr ""
 "Por favor, aguarde enquanto o cache de fontes é reorganizado.\n"
-"Isto deve levar menos que uns poucos minutos."
+"Isto não vai demorar."
 
 #: modules/misc/gnutls.c:79
 msgid "Expiration time for resumed TLS sessions"
@@ -22344,13 +22327,12 @@ msgid "Device type"
 msgstr "Tipo de dispositivo"
 
 #: modules/video_filter/atmo/atmo.cpp:136
-#, fuzzy
 msgid ""
 "Choose your preferred hardware from the list, or choose AtmoWin Software to "
 "delegate processing to the external process - with more options"
 msgstr ""
-"Escolha seu hardware preferido da lista, ou escolha o programa AtmoWin para "
-"delegar o processamento a um processo exteno - com mais opções"
+"Escolha seu hardware preferido na lista, ou escolha o programa AtmoWin para "
+"delegar o processamento a um programa externo - com mais opções"
 
 #: modules/video_filter/atmo/atmo.cpp:153
 msgid "AtmoWin Software"
@@ -22389,7 +22371,6 @@ msgid "DMX address for each channel"
 msgstr "Endereço DMX para cada canal"
 
 #: modules/video_filter/atmo/atmo.cpp:166
-#, fuzzy
 msgid ""
 "Define here the DMX base address for each channel use , or ; to separate the "
 "values"
@@ -22775,7 +22756,6 @@ msgid "Channel / Zone Assignment"
 msgstr "Definição de Zona / Canal"
 
 #: modules/video_filter/atmo/atmo.cpp:330
-#, fuzzy
 msgid ""
 "for devices with more than five channels / zones write down here for each "
 "channel the zone number to show and separate the values with , or ; and use "
@@ -22784,10 +22764,10 @@ msgid ""
 "on top, and one zone on left and right and no summary zone the mapping for "
 "classic AtmoLight would be -1,3,2,1,0"
 msgstr ""
-"para dispositivos com mais que cinco canais / zonas, defina aqui número da "
+"para dispositivos com mais que cinco canais / zonas, defina aqui o número da "
 "zona a ser exibido para cada canal e separe os valores com vírgulas ou ponto-"
 "e-vírgulas. Use -1 para não usar certos canais. Para o AtmoLight clássico, a "
-"sequência 4,3,1,0,2 definiria o mapeamento padrão canal / zona."
+"seqüência 4,3,1,0,2 definiria o mapeamento padrão canal / zona."
 
 #: modules/video_filter/atmo/atmo.cpp:340
 msgid "Zone 0: Top gradient"
@@ -22821,13 +22801,12 @@ msgid "Gradient bitmap searchpath"
 msgstr "Caminho de busca do mapa de bits para o dégradé"
 
 #: modules/video_filter/atmo/atmo.cpp:349
-#, fuzzy
 msgid ""
 "Now preferred option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
-"Opção preferida para associar dégradés de mapas de bits. Defina-os como "
-"zone_0.bmp, zone_1.bmp etc. em uma pasta e defina o nome da pasta aqui"
+"Agora é a opção preferida para associar mapas de bits de dégradés. Defina-os "
+"como zone_0.bmp, zone_1.bmp etc. em uma pasta e defina o nome da pasta aqui"
 
 #: modules/video_filter/atmo/atmo.cpp:354
 msgid "Filename of AtmoWin*.exe"
@@ -25833,7 +25812,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Preencha a URL do fluxo de rede aqu."
 
 #: modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -25867,13 +25845,13 @@ msgstr ""
 "weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">http://www.exemplo.com.br/fluxo.avi</span></p>\n"
+"#838383;\">http://www.exemplo.com/fluxo.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">mms://mms.exemplos.com.br/fluxo.asx</span></p>\n"
+"#838383;\">mms://mms.exemplos.com/fluxo.asx</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">rtsp://servidor.exemplo.org:8080/teste.sdp</span></p>\n"
