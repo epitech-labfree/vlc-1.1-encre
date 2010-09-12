@@ -34,7 +34,8 @@
 #include <vlc_plugin.h>
 #include <vlc_filter.h>
 
-#if defined (MODULE_NAME_IS_i420_yuy2_altivec) && defined(HAVE_ALTIVEC_H)
+//#if defined (MODULE_NAME_IS_i420_yuy2_altivec) && defined(HAVE_ALTIVEC_H)
+#ifdef __powerpc__
 #   include <altivec.h>
 #endif
 
@@ -241,11 +242,13 @@ static void I420_YUY2( filter_t *p_filter, picture_t *p_source,
             }
         }
     }
+#warning FIXME: converting widths % 16 but !widths % 32 is broken on altivec
+#if 0
     else if( !( ( p_filter->fmt_in.video.i_width % 16 ) |
                 ( p_filter->fmt_in.video.i_height % 4 ) ) )
     {
         /* Width is only a multiple of 16, we take 4 lines at a time */
-        for( i_y = p_filter->fmt_in.video.i_height / 4 ; i_y-- ; )
+		for( i_y = p_filter->fmt_in.video.i_height / 4 ; i_y-- ; )
         {
             /* Line 1 and 2, pixels 0 to ( width - 16 ) */
             VEC_NEXT_LINES( );
@@ -273,6 +276,7 @@ static void I420_YUY2( filter_t *p_filter, picture_t *p_source,
             }
         }
     }
+#endif
     else
     {
         /* Crap, use the C version */
