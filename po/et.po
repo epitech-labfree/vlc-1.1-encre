@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: vlc 1.1.5\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-08-26 12:57+0200\n"
-"PO-Revision-Date: 2010-10-01 21:23+0300\n"
+"PO-Revision-Date: 2010-10-18 21:20+0300\n"
 "Last-Translator: mihkel <turakas gmail com>\n"
 "Language-Team: Estonian\n"
 "Language: \n"
@@ -545,7 +545,7 @@ msgstr "&Programmist"
 #: modules/gui/qt4/components/controller.hpp:104 modules/gui/qt4/menus.cpp:790
 #: modules/gui/qt4/ui/open.h:256
 msgid "Play"
-msgstr "Esitamine"
+msgstr "Esita"
 
 #: include/vlc_intf_strings.h:66
 msgid "Fetch Information"
@@ -3832,7 +3832,7 @@ msgstr "Vali kiirklahv, mis hüppab esitusloendi eelmisele kirjele."
 #: modules/gui/macosx/intf.m:747 modules/gui/qt4/components/controller.hpp:104
 #: modules/misc/notify/xosd.c:231 modules/gui/qt4/ui/streampanel.h:181
 msgid "Stop"
-msgstr "Peatamine"
+msgstr "Peata"
 
 #: src/libvlc-module.c:1301
 msgid "Select the hotkey to stop playback."
@@ -3959,7 +3959,7 @@ msgstr "Pikka hüppe pikkus sekundites"
 #: modules/gui/qt4/components/controller.hpp:118 modules/gui/qt4/menus.cpp:886
 #: modules/gui/skins2/commands/cmd_quit.cpp:40
 msgid "Quit"
-msgstr "Lõpetamine"
+msgstr "Välju"
 
 #: src/libvlc-module.c:1344
 msgid "Select the hotkey to quit the application."
@@ -6778,7 +6778,7 @@ msgid ""
 "other types of HTTP streams."
 msgstr ""
 "Loe pidevalt uuendatavat faili (näiteks JPG fail serveris). Sa ei peaks seda "
-"valikut võimaldama, kuna ta lõhub kõik teist tüüpi HTTP vood."
+"valikut võimaldama, kuna see lõhub kõik teist tüüpi HTTP vood."
 
 #: modules/access/http.c:101
 msgid "Forward Cookies"
@@ -6805,8 +6805,8 @@ msgid ""
 "Use Internet Explorer entered HTTP proxy server for all URL. Don't take into "
 "account bypasses settings and auto configuration scripts."
 msgstr ""
-"Kasuta Internet Exploreris määratud HTTP proksi serveri URL-i. Ära arvesta "
-"ümberpääsu seadeid ja automaatseadistuste skripte."
+"Kõikide URL-ide jaoks kasutatakse Internet Exploreris määratud HTTP proksi "
+"serverit. Ei arvestata ümberpääsu seadeid ja automaatseadistusskripte."
 
 #: modules/access/http.c:113
 msgid "HTTP input"
@@ -6961,6 +6961,8 @@ msgid ""
 "Make VLC buffer audio data captured from jack for the specified length in "
 "milliseconds."
 msgstr ""
+"Sunni VLC-d puhverdama jack-st hõivatud audio andmeid määratud pikkuse jagu "
+"millisekundites."
 
 #: modules/access/jack.c:64
 msgid "Pace"
@@ -7048,6 +7050,8 @@ msgid ""
 "Amount of time (in ms) to wait before aborting network reception of data. "
 "Note that there will be 10 retries before completely giving up."
 msgstr ""
+"Kui kaua oodata (millisekundites) enne, kui katkestada võrgust andmete "
+"vastuvõtmine. Proovitakse 10 korda, enne kui andtakse täielikult alla."
 
 #: modules/access/mms/mms.c:74
 msgid "Microsoft Media Server (MMS) input"
@@ -7199,7 +7203,7 @@ msgstr "Kanal"
 msgid ""
 "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)"
 msgstr ""
-"Kasutatav kaardi kanal (Tavaliselt 0 = tuuner, 1 = komposiit, 2 = svideo)"
+"Kasutatav kaardi kanal (tavaliselt 0 = tuuner, 1 = komposiit, 2 = svideo)"
 
 #: modules/access/pvr.c:119 modules/access/v4l.c:142
 msgid "Automatic"
@@ -7263,20 +7267,20 @@ msgid ""
 "The SFW URL to use as referrer when connecting to the server. This is the "
 "SWF file that contained the stream."
 msgstr ""
-"Kasutatav SWF viitaja URL ühendamaks serveriga. See on SWF fail, mis "
-"sisaldab voogu."
+"Viitava SWF-i URL, mida kasutatakse serveriga ühendumisel. See on SWF fail, "
+"mis sisaldas voogu."
 
 #: modules/access/rtmp/access.c:53
 msgid "Default Page Referrer URL"
-msgstr "Vaikimisi lehe viitaja URL"
+msgstr "Viitava lehe vaikimisi URL"
 
 #: modules/access/rtmp/access.c:54
 msgid ""
 "The Page URL to use as referrer when connecting to the server. This is the "
 "page housing the SWF file."
 msgstr ""
-"Kasutatav lehe viitaja URL ühendamaks serveriga. See on lehekülg, mis "
-"majutab SWF faili."
+"Kasutatav viitava lehe URL serveriga ühendumisel. See on lehekülg, milles "
+"asus SWF-fail."
 
 #: modules/access/rtmp/access.c:62
 msgid "RTMP input"
@@ -7288,7 +7292,7 @@ msgstr "RTMP"
 
 #: modules/access/rtp/rtp.c:44
 msgid "RTP de-jitter buffer length (msec)"
-msgstr ""
+msgstr "RTP värina eemaldamise puhvri suurus (ms)"
 
 #: modules/access/rtp/rtp.c:46
 msgid "How long to wait for late RTP packets (and delay the performance)."
@@ -7303,7 +7307,7 @@ msgid ""
 "RTCP packets will be received on this transport protocol port. If zero, "
 "multiplexed RTP/RTCP is used."
 msgstr ""
-"RTCP paketid võetakse vastu selle transpordi protokolli pordi kaudu. Kui "
+"RTCP paketid võetakse vastu selle transpordiprotokolli pordi kaudu. Kui "
 "null, siis kasutatakse multipleksitud RTP/RTCP-d."
 
 #: modules/access/rtp/rtp.c:53 modules/stream_out/rtp.c:142
@@ -7394,7 +7398,7 @@ msgstr "Seanss nurjus"
 
 #: modules/access/rtsp/access.c:239
 msgid "The requested RTSP session could not be established."
-msgstr "Nõutud RTP seanss ei suudetud luua."
+msgstr "Nõutud RTP seanssi ei suudetud luua."
 
 #: modules/access/screen/screen.c:42 modules/access/screen/xcb.c:35
 msgid ""
@@ -7415,6 +7419,8 @@ msgid ""
 "Optimize the capture by fragmenting the screen in chunks of predefined "
 "height (16 might be a good value, and 0 means disabled)."
 msgstr ""
+"Optimeeri hõivet tükeldades ekraani eelmääratud kõrgusega tükkideks (16 "
+"võiks olla hea väärtus ja 0 tähendab keelatud)."
 
 #: modules/access/screen/screen.c:56 modules/access/screen/screen.c:60
 msgid "Subscreen top left corner"
@@ -7475,7 +7481,7 @@ msgstr "Regiooni vasak veerg"
 
 #: modules/access/screen/xcb.c:44
 msgid "Abscissa of the capture reion in pixels."
-msgstr ""
+msgstr "Hõiveregiooni abtsiss pikslites."
 
 #: modules/access/screen/xcb.c:46
 msgid "Region top row"
@@ -7483,7 +7489,7 @@ msgstr "Regiooni ülemine rida"
 
 #: modules/access/screen/xcb.c:48
 msgid "Ordinate of the capture region in pixels."
-msgstr ""
+msgstr "Hõiveregiooni ordinaat pikslites."
 
 #: modules/access/screen/xcb.c:50
 msgid "Capture region width"
@@ -7508,7 +7514,7 @@ msgstr "Ekraanihõive (X11/XCB)"
 #: modules/access/sftp.c:53
 msgid ""
 "Caching value for SFTP streams. This value should be set in milliseconds."
-msgstr "SFTP voogude puhverdamise väärtus millisekundites."
+msgstr "SFTP voo puhvri pikkus millisekundites."
 
 #: modules/access/sftp.c:54
 msgid "SFTP user name"
@@ -7528,11 +7534,11 @@ msgstr "Serveril kasutatav SFTP pordi number"
 
 #: modules/access/sftp.c:60
 msgid "Read size"
-msgstr "Loetud suurus"
+msgstr "Lugemise suurus"
 
 #: modules/access/sftp.c:61
 msgid "Size of the request for reading access"
-msgstr ""
+msgstr "Lugemise juurdepääsuks päringu suurus"
 
 #: modules/access/sftp.c:65
 msgid "SFTP input"
@@ -7620,11 +7626,14 @@ msgid ""
 "Force the Video4Linux video device to use a specific chroma format (eg. I420 "
 "(default), RV24, etc.)"
 msgstr ""
+"Sunni Video4Linux videoseadet kasutama spetsiifilist värviformaati (nt I420 "
+"(vaikimisi), RV24, jne.)"
 
 #: modules/access/v4l.c:94
 msgid ""
 "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)."
 msgstr ""
+"Kasutatava kaardi kanal (tavaliselt 0 = tuuner, 1 = komposiit, 2 = svideo)."
 
 #: modules/access/v4l.c:99
 msgid "Audio Channel"
@@ -7720,6 +7729,8 @@ msgid ""
 "Alsa or OSS audio capture in the v4l access is deprecated. please use "
 "'v4l:// :input-slave=alsa://' or 'v4l:// :input-slave=oss://' instead."
 msgstr ""
+"ALSA või OSS audiohõive v4l pääsul on iganenud. Palun kasuta 'v4l:// :input-"
+"slave=alsa://' või 'v4l:// :input-slave=oss://'."
 
 #: modules/access/v4l.c:147
 msgid "Video4Linux"
@@ -7796,7 +7807,7 @@ msgstr "Algväärtusta v4l2 juhtelemendid"
 
 #: modules/access/v4l2.c:113
 msgid "Reset controls to defaults provided by the v4l2 driver."
-msgstr ""
+msgstr "Algväärtusta juhtelemendid v4l2 draiveri väärtustele."
 
 #: modules/access/v4l2.c:116
 msgid "Brightness of the video input (if supported by the v4l2 driver)."
@@ -7849,6 +7860,8 @@ msgid ""
 "Trigger a white balancing action, useless if auto white balance is activated "
 "(if supported by the v4l2 driver)."
 msgstr ""
+"Käivita valge tasakaalu toiming, kasutu, kui automaatne valge tasakaal on "
+"aktiveeritud (kui on toetatud v4l2 draiveri poolt)."
 
 #: modules/access/v4l2.c:137
 msgid "Red balance"
@@ -7993,6 +8006,10 @@ msgid ""
 "audio_crc=0,stream_type=3} ). To list available controls, increase verbosity "
 "(-vvv) or use the v4l2-ctl application."
 msgstr ""
+"Määra v4l2 draiveri juhtelementide väärtused, mis on komaga eraldatud ja "
+"lisaks looksulgudesse pandud (nt.: {video_bitrate=6000000, audio_crc=0,"
+"stream_type=3} ). Nägemaks kõiki võimalikke juhtelemente, suurenda jutukust "
+"(-vvv) või kasuta v4l2-ctl rakendust."
 
 #: modules/access/v4l2.c:200
 msgid "Tuner id"
@@ -8019,6 +8036,8 @@ msgid ""
 "Alsa or OSS audio capture in the v4l2 access is deprecated. please use "
 "'v4l2:// :input-slave=alsa://' or 'v4l2:// :input-slave=oss://' instead."
 msgstr ""
+"Alsa või OSS audiohõive v4l2 pääsul on iganenud. Palnu kasuta 'v4l2:// :"
+"input-slave=alsa://' või 'v4l2:// :input-slave=oss://'."
 
 #: modules/access/v4l2.c:250
 msgid "AUTO"
@@ -8077,7 +8096,7 @@ msgstr "Juhtelemendid"
 
 #: modules/access/v4l2.c:320
 msgid "v4l2 driver controls, if supported by your v4l2 driver."
-msgstr ""
+msgstr "v4l2 draiveri juhtelemendid, kui on teotatud sinu v4l2 draiveri poolt."
 
 #: modules/access/v4l2.c:386
 msgid "Video4Linux2 Compressed A/V"
@@ -8246,6 +8265,8 @@ msgid ""
 "If set, the length of the seek bar is the track rather than the length of an "
 "entry."
 msgstr ""
+"Kui määratud, siis kerimisriba pikkus on võrdne raja pikkusega, mitte kirje "
+"pikkusega."
 
 #: modules/access/vcdx/vcd.c:119
 msgid "Show extended VCD info?"
@@ -8256,6 +8277,8 @@ msgid ""
 "Show the maximum amount of information under Stream and Media Info. Shows "
 "for example playback control navigation."
 msgstr ""
+"Kuva maksimaalselt informatsiooni Voo ja meedia info all. Kuvab näiteks "
+"taasesituse navigatsiooni juhtelemente."
 
 #: modules/access/vcdx/vcd.c:127
 msgid "Format to use in the playlist's \"author\" field."
@@ -8349,12 +8372,16 @@ msgid ""
 "Path to the x509 PEM trusted root CA certificates (certificate authority) "
 "file that will be used for HTTPS. Leave empty if you don't have one."
 msgstr ""
+"Asukoht x509 PEM usaldatud juursertifikaadi (sertifitseerimiskeskus) "
+"failini, mida kasutatakse HTTPS-i jaoks. Jäta tühjaks, kui sul pole ühtegi."
 
 #: modules/access_output/http.c:87
 msgid ""
 "Path to the x509 PEM Certificates Revocation List file that will be used for "
 "SSL. Leave empty if you don't have one."
 msgstr ""
+"Asukoht x509 PEM sertifikaatide tühistusnimekirja failini, mida kasutatakse "
+"SSL-i jaoks. Jäta tühjaks, kui sul pole ühtegi."
 
 #: modules/access_output/http.c:90
 msgid "Advertise with Bonjour"
@@ -8488,6 +8515,9 @@ msgid ""
 "choose the number of packets that will be sent at a time. It helps reducing "
 "the scheduling load on heavily-loaded systems."
 msgstr ""
+"Pakette saab saata ükshaaval õigel ajal või gruppidena. Sa saad valida, kui "
+"palju pakette ühel ajal saadetakse. See aitab vähendada ajastamise koormust "
+"kõrgelt koormatud süsteemides."
 
 #: modules/access_output/udp.c:77
 msgid "UDP stream output"
@@ -8547,13 +8577,15 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:56
 msgid "Defines if silence alarm information should be sent (default 1)"
-msgstr ""
+msgstr "Määrab, kas vaikuse teate infot tuleks saata (vaikimisi 1)"
 
 #: modules/audio_filter/audiobargraph_a.c:57
 msgid ""
 "Defines if silence alarm information should be sent. 1 if the information "
 "should be sent, 0 otherwise (default 1)."
 msgstr ""
+"Määrab, kas vaikuse teate infot tuleks saata. 1, kui info tuleks saata, "
+"vastasel korral 0 (vaikimisi on 1)."
 
 #: modules/audio_filter/audiobargraph_a.c:59
 msgid "Time window to use in ms (default 5000)"
@@ -8568,13 +8600,15 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:63
 msgid "Minimum Audio level to raise the alarm (default 0.1)"
-msgstr ""
+msgstr "Minimaalne audionivoo häire andmiseks (vaikimisi 0.1)"
 
 #: modules/audio_filter/audiobargraph_a.c:64
 msgid ""
 "Threshold to be attained to raise an alarm. If the audio level is under the "
 "threshold during this time, an alarm is sent (default 0.1)."
 msgstr ""
+"Lävi, mida saavutada häire andmiseks. Kui audionivoo on selle aja jooksul "
+"läve all, siis saadetakse häireteade (vaikimisi 0.1)."
 
 #: modules/audio_filter/audiobargraph_a.c:67
 msgid "Time between two alarm messages in ms (default 2000)"
@@ -8585,16 +8619,20 @@ msgid ""
 "Time between two alarm messages in ms. This value is used to avoid alarm "
 "saturation (default 2000)."
 msgstr ""
+"Aeg kahe häireteate vahel ms-des. Selle väärtusega hoitakse ära häireteadete "
+"küllastus (vaikimisi 2000)."
 
 #: modules/audio_filter/audiobargraph_a.c:70
 msgid "Force connection reset regularly (default 1)"
-msgstr ""
+msgstr "Jõuga ja regulaarselt lähtesta ühendus (vaikimisi 1)"
 
 #: modules/audio_filter/audiobargraph_a.c:71
 msgid ""
 "Defines if the TCP connection should be reset. This is to be used when using "
 "with audiobargraph_v (default 1)."
 msgstr ""
+"Määrab, kas TCP ühendused tuleks lähtestada. Seda tuleks kasutada "
+"audiobargraph_v-ga (vaikimisi 1)."
 
 #: modules/audio_filter/audiobargraph_a.c:84
 msgid "Audio part of the BarGraph function"
@@ -8620,6 +8658,11 @@ msgid ""
 "tiring when listening to music for long periods of time.\n"
 "It works with any source format from mono to 7.1."
 msgstr ""
+"See efekt loob sulle sellise tunde nagu seisaksid toas koos 7.1 kõlarite "
+"süsteemiga, kuid kasutad ainult kõrvaklappe, luues nii realistlikuma "
+"helikogemuse. See peaks olema kas mugavam ja vähem väsitavam, kui kuulad "
+"muusika pikemat aega.\n"
+"Tööta igasuguse algallikaga - monost 7.1-ni."
 
 #: modules/audio_filter/channel_mixer/headphone.c:59
 msgid "Characteristic dimension"
@@ -8649,6 +8692,8 @@ msgid ""
 "Dolby Surround encoded streams won't be decoded before being processed by "
 "this filter. Enabling this setting is not recommended."
 msgstr ""
+"Dolby Surround voogusid ei dekodeerita enne, kui on töödeldus selle filtri "
+"poolt. Selle valiku lubamine ei ole soovituslik."
 
 #: modules/audio_filter/channel_mixer/headphone.c:75
 msgid "Headphone virtual spatialization effect"
@@ -8668,6 +8713,9 @@ msgid ""
 "headphone channel mixer. It gives the effect of standing in a room full of "
 "speakers."
 msgstr ""
+"See valik valib stereost monosse miksimise algoritmi, mida kasutab "
+"kõrvaklappide kanali mikser. See loob efekti nagu seisaksid kõlareid täis "
+"toas."
 
 #: modules/audio_filter/channel_mixer/mono.c:88
 msgid "Select channel to keep"
@@ -8678,6 +8726,8 @@ msgid ""
 "This option silences all other channels except the selected channel. Choose "
 "one from (0=left, 1=right, 2=rear left, 3=rear right, 4=center, 5=left front)"
 msgstr ""
+"See valik vaigistab kõik teised kanalid peale valitud. Vali üks (0=vasak, "
+"1=parem, 2=vasak tagumine, 3=parem tagumine, 4=keskmine, 5=vasak esimene)"
 
 #: modules/audio_filter/channel_mixer/mono.c:95
 msgid "Left rear"
@@ -8734,6 +8784,8 @@ msgid ""
 "Time in milliseconds of the maximum sweep depth. Thus, the sweep range will "
 "be delay-time +/- sweep-depth."
 msgstr ""
+"Maksimaalse nihke aeg millisekundites. Seega nihke ulatus on viivitus-aeg "
+"+/- nihke sügavus."
 
 #: modules/audio_filter/chorus_flanger.c:88
 msgid "Sweep Rate"
@@ -8753,7 +8805,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:94
 msgid "Wet mix"
-msgstr ""
+msgstr "Märg miks"
 
 #: modules/audio_filter/chorus_flanger.c:94
 msgid "Level of delayed signal"
@@ -8761,7 +8813,7 @@ msgstr "Hilinenud signaali nivoo"
 
 #: modules/audio_filter/chorus_flanger.c:96
 msgid "Dry Mix"
-msgstr ""
+msgstr "Kuiv miks"
 
 #: modules/audio_filter/chorus_flanger.c:96
 msgid "Level of input signal"
@@ -8838,6 +8890,9 @@ msgid ""
 "values between -20dB and 20dB, separated by spaces, e.g. \"0 2 4 2 0 -2 -4 "
 "-2 0 2\"."
 msgstr ""
+"Ära kasuta valmisseadistusi, vaid käsitsi määra sagedused. Sa pead andma 10 "
+"väärtust vahemikus -20dB ja 20dB, eraldatuna tühikutega, nt. \"0 2 4 2 0 -2 "
+"-4 -2 0 2\"."
 
 #: modules/audio_filter/equalizer.c:67
 msgid "Two pass"
@@ -9026,7 +9081,7 @@ msgstr "Freq 3 Q"
 
 #: modules/audio_filter/resampler/bandlimited.c:89
 msgid "Audio filter for band-limited interpolation resampling"
-msgstr ""
+msgstr "Audiofilter sagedus-piiratud interpolarisatsiooni ümberdiskreetimiseks"
 
 #: modules/audio_filter/resampler/ugly.c:48
 msgid "Audio filter for ugly resampling"
@@ -9042,11 +9097,11 @@ msgstr ""
 
 #: modules/audio_filter/scaletempo.c:54
 msgid "Stride Length"
-msgstr ""
+msgstr "Sammu pikkus"
 
 #: modules/audio_filter/scaletempo.c:54
 msgid "Length in milliseconds to output each stride"
-msgstr ""
+msgstr "Iga sammu väljundi pikkus millisekundites"
 
 #: modules/audio_filter/scaletempo.c:56
 msgid "Overlap Length"
@@ -9054,7 +9109,7 @@ msgstr "Ülekatte kestus"
 
 #: modules/audio_filter/scaletempo.c:56
 msgid "Percentage of stride to overlap"
-msgstr ""
+msgstr "Ülekatte sammu protsent"
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Search Length"
@@ -9062,7 +9117,7 @@ msgstr "Otsingu pikkus"
 
 #: modules/audio_filter/scaletempo.c:58
 msgid "Length in milliseconds to search for best overlap position"
-msgstr ""
+msgstr "Pikkus millisekundites otsimaks parimat ülekatte asukohta"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:54
 msgid "Room size"
@@ -9178,6 +9233,8 @@ msgid ""
 "your 'Audio Device' menu. This device will then be used by default for audio "
 "playback."
 msgstr ""
+"Vali number, mis vastab sinu audioseadme numbrile 'Audio seadmete' menüüs. "
+"Seda seadet kasutatakse siis audio mahamängimiseks."
 
 #: modules/audio_output/auhal.c:161
 msgid "HAL AudioUnit output"
@@ -9536,8 +9593,8 @@ msgid ""
 "The decoder can partially decode or skip frame(s) when there is not enough "
 "time. It's useful with low CPU power but it can produce distorted pictures."
 msgstr ""
-"Dekooder võib ajapuudusel osaliselt dekoodida või vahele jätta kaadreid. See "
-"on kasulik nõrga CPU puhul, aga võib toota moonutatud pilte."
+"Dekooder võib ajapuudusel kaadreid ainult osaliselt dekoodida või vahele "
+"jätta. See on kasulik nõrga CPU puhul, aga võib põhjustada moonutatud pilte."
 
 #: modules/codec/avcodec/avcodec.h:102
 msgid "Allow speed tricks"
@@ -9604,6 +9661,8 @@ msgid ""
 "Only decode a low resolution version of the video. This requires less "
 "processing power"
 msgstr ""
+"Dekodeeri ainult madala eraldusega versioon videost. See nõuab vähem "
+"protsessori võimsust"
 
 #: modules/codec/avcodec/avcodec.h:133 modules/gui/macosx/simple_prefs.m:262
 msgid "Skip the loop filter for H.264 decoding"
@@ -9961,7 +10020,7 @@ msgstr "Võimalda adaptiivne eelfiltreerimine"
 
 #: modules/codec/dirac.c:79
 msgid "Centre Weighted Median"
-msgstr "Keskjoondatud mediaan"
+msgstr "Kaalutud keskmediaan"
 
 #: modules/codec/dirac.c:80
 msgid "Rectangular Linear Phase"
@@ -11903,7 +11962,7 @@ msgstr ""
 
 #: modules/codec/x264.c:339
 msgid "Inter luma quantization deadzone"
-msgstr ""
+msgstr "Inter luma kvantimise surnud tsoon"
 
 #: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
@@ -11911,7 +11970,7 @@ msgstr ""
 
 #: modules/codec/x264.c:343
 msgid "Intra luma quantization deadzone"
-msgstr ""
+msgstr "Intra luma kvantimise surnud tsoon"
 
 #: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
@@ -12237,10 +12296,9 @@ msgstr "Kärbi: %s"
 msgid "Zooming reset"
 msgstr "Algväärtusta suurendus"
 
-# ekraan täidetud?
 #: modules/control/hotkeys.c:587
 msgid "Scaled to screen"
-msgstr "Ekraanile skaleeritud"
+msgstr "Ekraan täidetud"
 
 #: modules/control/hotkeys.c:590
 msgid "Original Size"
@@ -15009,7 +15067,7 @@ msgstr "Kasuta meedia juhtklahve, kui VLC on taustal"
 #: modules/gui/macosx/macosx.m:99
 msgid ""
 "By default, VLC will accept media key events also when being in background."
-msgstr "Vaikimisi aksepteerib VLC multimeedia juhtklahve, kui ta on taustal."
+msgstr "Vaikimisi aktsepteerib VLC multimeedia juhtklahve, kui ta on taustal."
 
 #: modules/gui/macosx/macosx.m:103
 msgid "Mac OS X interface"
@@ -17634,6 +17692,7 @@ msgid "Privacy and Network Warning"
 msgstr "Privaatsuse ja võrgu hoiatus"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
+#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -17854,7 +17913,7 @@ msgstr ""
 
 #: modules/gui/qt4/dialogs/open.cpp:80 modules/gui/qt4/menus.cpp:866
 msgid "Open Media"
-msgstr "Meedia avamine"
+msgstr "Ava meedia"
 
 #: modules/gui/qt4/dialogs/open.cpp:92
 msgid "&File"
@@ -18506,7 +18565,7 @@ msgstr "Hüppa ta&gasi"
 
 #: modules/gui/qt4/menus.cpp:850
 msgid "&Stop"
-msgstr "&Peatamine"
+msgstr "&Peata"
 
 #: modules/gui/qt4/menus.cpp:857
 msgid "Pre&vious"
@@ -22824,9 +22883,6 @@ msgstr ""
 msgid "Display text above the video"
 msgstr "Teksti kuvatakse video peal"
 
-# siin tähendab marquee üle ekraani sõitvat teksti, mitte valikuraami
-#  - Tõlkisin, kui "liikuv tekst", kui sul tuleb parem mõte, vaheta aga välja.
-# Mattias: ma arvan, et see on hea küll
 #: modules/video_filter/marq.c:149
 msgid "Marquee"
 msgstr "Liikuv tekst"
@@ -22970,7 +23026,7 @@ msgstr ""
 
 #: modules/video_filter/mosaic.c:137
 msgid "Keep the original aspect ratio when resizing mosaic elements."
-msgstr ""
+msgstr "Säilita suuruse muutmisel mosaiigielementide algne külgedesuhe."
 
 #: modules/video_filter/mosaic.c:139
 msgid "Keep original size"
@@ -22978,7 +23034,7 @@ msgstr "Säilita algne suurus"
 
 #: modules/video_filter/mosaic.c:141
 msgid "Keep the original size of mosaic elements."
-msgstr ""
+msgstr "Säilita mosaiigielementide algne suurus."
 
 #: modules/video_filter/mosaic.c:143
 msgid "Elements order"
@@ -23064,19 +23120,19 @@ msgstr "OpenCV näide"
 
 #: modules/video_filter/opencv_example.c:77
 msgid "Haar cascade filename"
-msgstr ""
+msgstr "Haar-i kaskaadi failinimi"
 
 #: modules/video_filter/opencv_example.c:78
 msgid "Name of XML file containing Haar cascade description"
-msgstr ""
+msgstr "Haar-i kaskaadi kirjeldust sisaldava XML faili nimi"
 
 #: modules/video_filter/opencv_wrapper.c:66
 msgid "Use input chroma unaltered"
-msgstr ""
+msgstr "Kasuta sisendi värviformaat muutmata kujul"
 
 #: modules/video_filter/opencv_wrapper.c:67
 msgid "I420 - first plane is greyscale"
-msgstr ""
+msgstr "I420 - esimene tasapind on mustvalge"
 
 #: modules/video_filter/opencv_wrapper.c:67
 msgid "RGB32"
@@ -23123,6 +23179,7 @@ msgid ""
 "Ammount by which to scale the picture before sending it to the internal "
 "OpenCV filter"
 msgstr ""
+"Kogus, kui palju skaleerida pilti enne saatmist sisemisele OpenCV filtrile"
 
 #: modules/video_filter/opencv_wrapper.c:90
 msgid "OpenCV filter chroma"
@@ -23132,6 +23189,7 @@ msgstr "OpenCV filtri värviformaat"
 msgid ""
 "Chroma to convert picture to before sending it to the internal OpenCV filter"
 msgstr ""
+"Värviformaat, kuhu pilt konvertida enne saatmist sisemisele OpenCV filtrile"
 
 #: modules/video_filter/opencv_wrapper.c:94
 msgid "Wrapper filter output"
@@ -23139,7 +23197,7 @@ msgstr "Mähkurfiltri väljund"
 
 #: modules/video_filter/opencv_wrapper.c:95
 msgid "Determines what (if any) video is displayed by the wrapper filter"
-msgstr ""
+msgstr "Otsustab, mis (kui üldse) video kuvatakse mähkurfiltri poolt"
 
 #: modules/video_filter/opencv_wrapper.c:98
 msgid "Wrapper filter verbosity"
@@ -23155,7 +23213,7 @@ msgstr "OpenCV sisemise filtri nimi"
 
 #: modules/video_filter/opencv_wrapper.c:103
 msgid "Name of internal OpenCV plugin filter to use"
-msgstr ""
+msgstr "Kasutatava sisemise OpenCV plugina filtri nimi"
 
 #: modules/video_filter/osdmenu.c:43
 msgid "Configuration file"
@@ -23174,6 +23232,8 @@ msgid ""
 "Path to the OSD menu images. This will override the path defined in the OSD "
 "configuration file."
 msgstr ""
+"OSD menüüpiltide asukoht. See tühistab OSD seadistuste failis määratud "
+"asukoha."
 
 #: modules/video_filter/osdmenu.c:52 modules/video_filter/osdmenu.c:55
 msgid "You can move the OSD menu by left-clicking on it."
@@ -23189,6 +23249,9 @@ msgid ""
 "2=right, 4=top, 8=bottom, you can also use combinations of these values, eg. "
 "6 = top-right)."
 msgstr ""
+"Sa võid sundida OSD menüü asukohta videol (0=keskel, 1=vasakul, 2=paremal, "
+"4=üleval, 8=all, võid kasutada ka nende väärtuste kombinatsioone nt. "
+"6=üleval-paremal)."
 
 #: modules/video_filter/osdmenu.c:63
 msgid "Menu timeout"
@@ -23212,6 +23275,10 @@ msgid ""
 "careful with this option as encoding OSD menu pictures is very computing "
 "intensive. The range is 0 - 1000 ms."
 msgstr ""
+"Vaikimisi uuendatakse OSD menüüpilte iga 200 ms tagant. Lühenda uuendamise "
+"aega keskkondades, mis kannatavad ülekandevigade all. Ole selle valikuga "
+"ettevaatlik, kuna OSD menüü piltide enkodeerimine nõuab palju arvuti "
+"ressurssi. Väärtuste vahemik on 0 - 1000 ms."
 
 #: modules/video_filter/osdmenu.c:76 modules/video_filter/remoteosd.c:102
 msgid "Alpha transparency value (default 255)"
@@ -23224,6 +23291,10 @@ msgid ""
 "transparency. The default is being not transparent (value 255) the minimum "
 "is fully transparent (value 0)."
 msgstr ""
+"OSD menüü läbipaistvust saab muuta andes väärtusi vahemikus 0 ja 255. "
+"Madalam arv tähendab rohkem läbipaistvust, kõrgem vähem läbipaistvust. "
+"Vaikimisi ei olda läbipaistev (väärtus 255), miinimum on täiesti läbipaistev "
+"(väärtus 0)."
 
 #: modules/video_filter/osdmenu.c:117
 msgid "On Screen Display menu"
@@ -23232,11 +23303,11 @@ msgstr "OSD menüü"
 #: modules/video_filter/panoramix.c:58
 msgid ""
 "Select the number of horizontal video windows in which to split the video"
-msgstr ""
+msgstr "Vali horisontaalsete videoakende arv, kuhu video tükeldada"
 
 #: modules/video_filter/panoramix.c:62
 msgid "Select the number of vertical video windows in which to split the video"
-msgstr ""
+msgstr "Vali vertikaalsete videoakende arv, kuhu video tükeldada"
 
 #: modules/video_filter/panoramix.c:65 modules/video_filter/wall.c:51
 msgid "Active windows"
@@ -23244,15 +23315,15 @@ msgstr "Aktiivsed aknad"
 
 #: modules/video_filter/panoramix.c:66
 msgid "Comma separated list of active windows, defaults to all"
-msgstr ""
+msgstr "Komaga eraldatud nimekiri aktiivsetest akendest. Vaikimisi kõik."
 
 #: modules/video_filter/panoramix.c:71
 msgid "Split the video in multiple windows to display on a wall of screens"
-msgstr ""
+msgstr "Lahuta video mitmesse aknasse, et kuvada teda ekraanide seinal"
 
 #: modules/video_filter/panoramix.c:78
 msgid "Panoramix: wall with overlap video filter"
-msgstr ""
+msgstr "Panoramix: sein koos ülekattuva videofiltriga"
 
 #: modules/video_filter/panoramix.c:79 modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
@@ -23260,63 +23331,67 @@ msgstr "Panoramix"
 
 #: modules/video_filter/panoramix.c:89
 msgid "length of the overlapping area (in %)"
-msgstr ""
+msgstr "ülekattuva ala pikkus (%)"
 
 #: modules/video_filter/panoramix.c:90
 msgid "Select in percent the length of the blended zone"
-msgstr ""
+msgstr "Vali sulandatud tsooni pikkus protsentides"
 
 #: modules/video_filter/panoramix.c:93
 msgid "height of the overlapping area (in %)"
-msgstr ""
+msgstr "ülekattuva ala kõrgus (%)"
 
 #: modules/video_filter/panoramix.c:94
 msgid "Select in percent the height of the blended zone (case of 2x2 wall)"
-msgstr ""
+msgstr "Vali sulandatud tsooni kõrgus protsentides (2x2 sein)"
 
 #: modules/video_filter/panoramix.c:97
 msgid "Attenuation"
-msgstr ""
+msgstr "Nõrgenemine"
 
 #: modules/video_filter/panoramix.c:98
 msgid ""
 "Check this option if you want attenuate blended zone by this plug-in (if "
 "option is unchecked, attenuate is made by opengl)"
 msgstr ""
+"Vali see valik, kui soovid suldandatud tsooni selle pluginaga nõrgendada "
+"(kui valik pole valitud, siis nõrgenemine toimub opengl-is)"
 
 #: modules/video_filter/panoramix.c:101
 msgid "Attenuation, begin (in %)"
-msgstr ""
+msgstr "Nõrgenemine, algus (%)"
 
 #: modules/video_filter/panoramix.c:102
 msgid "Select in percent the Lagrange coeff of the beginning blended zone"
-msgstr ""
+msgstr "Vali sulandunud tsooni alguse Lagrange koefitsent protsentides"
 
 #: modules/video_filter/panoramix.c:105
 msgid "Attenuation, middle (in %)"
-msgstr ""
+msgstr "Nõrgenemise, keskel (%)"
 
 #: modules/video_filter/panoramix.c:106
 msgid "Select in percent the Lagrange coeff of the middle of blended zone"
-msgstr ""
+msgstr "Vali sulandunud tsooni keskosa Lagrange koefitsent protsentides"
 
 #: modules/video_filter/panoramix.c:109
 msgid "Attenuation, end (in %)"
-msgstr ""
+msgstr "Nõrgenemine, lõpp (%)"
 
 #: modules/video_filter/panoramix.c:110
 msgid "Select in percent the Lagrange coeff of the end of blended zone"
-msgstr ""
+msgstr "Vali sulandunud tsooni lõpu Lagrange koefitsent protsentides"
 
 #: modules/video_filter/panoramix.c:113
 msgid "middle position (in %)"
-msgstr ""
+msgstr "keskmine positsioon (%)"
 
 #: modules/video_filter/panoramix.c:114
 msgid ""
 "Select in percent (50 is center) the position of the middle point (Lagrange) "
 "of blended zone"
 msgstr ""
+"Vali segatud tsooni keskpunkti (Lagrange) positsioon protsentides (50 on "
+"keskel)"
 
 #: modules/video_filter/panoramix.c:116
 msgid "Gamma (Red) correction"
@@ -23325,7 +23400,7 @@ msgstr "Gamma parandus (punane)"
 #: modules/video_filter/panoramix.c:117
 msgid ""
 "Select the gamma for the correction of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Vali segatud tsooni gamma parandus (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:120
 msgid "Gamma (Green) correction"
@@ -23334,7 +23409,7 @@ msgstr "Gamma parandus (roheline)"
 #: modules/video_filter/panoramix.c:121
 msgid ""
 "Select the gamma for the correction of blended zone (Green or U component)"
-msgstr ""
+msgstr "Vali segatud tsooni gamma parandus (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:124
 msgid "Gamma (Blue) correction"
@@ -23343,7 +23418,7 @@ msgstr "Gamma parandus (sinine)"
 #: modules/video_filter/panoramix.c:125
 msgid ""
 "Select the gamma for the correction of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Vali segatud tsooni gamma parandus (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:128
 msgid "Black Crush for Red"
@@ -23395,51 +23470,51 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:142
 msgid "Black Level for Red"
-msgstr ""
+msgstr "Musta nivoo punase jaoks"
 
 #: modules/video_filter/panoramix.c:143
 msgid "Select the Black Level of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Vali segatud tsooni must nivoo (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:144
 msgid "Black Level for Green"
-msgstr ""
+msgstr "Musta nivoo rohelise jaoks"
 
 #: modules/video_filter/panoramix.c:145
 msgid "Select the Black Level of blended zone (Green or U component)"
-msgstr ""
+msgstr "Vali segatud tsooni must nivoo (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:146
 msgid "Black Level for Blue"
-msgstr ""
+msgstr "Musta nivoo sinise jaoks"
 
 #: modules/video_filter/panoramix.c:147
 msgid "Select the Black Level of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Vali segatud tsooni must nivoo (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:149
 msgid "White Level for Red"
-msgstr ""
+msgstr "Valge nivoo punase jaoks"
 
 #: modules/video_filter/panoramix.c:150
 msgid "Select the White Level of blended zone (Red or Y component)"
-msgstr ""
+msgstr "Vali segatud tsooni valge nivoo (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:151
 msgid "White Level for Green"
-msgstr ""
+msgstr "Valge nivoo rohelise jaoks"
 
 #: modules/video_filter/panoramix.c:152
 msgid "Select the White Level of blended zone (Green or U component)"
-msgstr ""
+msgstr "Vali segatud tsooni valge nivoo (roheline või U komponent)"
 
 #: modules/video_filter/panoramix.c:153
 msgid "White Level for Blue"
-msgstr ""
+msgstr "Valge nivoo sinise jaoks"
 
 #: modules/video_filter/panoramix.c:154
 msgid "Select the White Level of blended zone (Blue or V component)"
-msgstr ""
+msgstr "Vali segatud tsooni valge nivoo (sinine või V komponent)"
 
 #: modules/video_filter/postproc.c:60
 msgid "Post processing quality"
@@ -23451,6 +23526,9 @@ msgid ""
 "Higher levels require considerable more CPU power, but produce better "
 "looking pictures."
 msgstr ""
+"Järeltöötlemise kvaliteet. Kehtiv vahemik on 0-st 6-ni.\n"
+"Kõrgemad väärtused nõuavad märgatavalt rohkem CPU võimsust, aga toodavad "
+"parema kvaliteediga pilte."
 
 #: modules/video_filter/postproc.c:66
 msgid "FFmpeg post processing filter chains"
@@ -23462,7 +23540,7 @@ msgstr "Video järeltöötlemise filter"
 
 #: modules/video_filter/postproc.c:76
 msgid "Postproc"
-msgstr ""
+msgstr "Postproc"
 
 #: modules/video_filter/postproc.c:233
 msgid "Lowest"
@@ -23486,16 +23564,16 @@ msgstr "Pusle veergude arv"
 
 #: modules/video_filter/puzzle.c:47
 msgid "Make one tile a black slot"
-msgstr ""
+msgstr "Tee üks paan mustaks pesaks"
 
 #: modules/video_filter/puzzle.c:48
 msgid ""
 "Make one slot black. Other tiles can only be swapped with the black slot."
-msgstr ""
+msgstr "Tee üks pesa mustaks. Teisi paane saab vahetada ainult musta pesaga."
 
 #: modules/video_filter/puzzle.c:56
 msgid "Puzzle interactive game video filter"
-msgstr ""
+msgstr "Pusle interaktiivse mängu videofilter"
 
 #: modules/video_filter/puzzle.c:57
 msgid "Puzzle"
@@ -23533,6 +23611,7 @@ msgstr "VNC pollimise intervall"
 msgid ""
 "In this interval an update from VNC is requested, default every 300 ms. "
 msgstr ""
+"Sellise intervalliga küsitakse VNC-lt uuendust, vaikimisi iga 300 ms tagant."
 
 #: modules/video_filter/remoteosd.c:90
 msgid "VNC polling"
@@ -23540,12 +23619,13 @@ msgstr "VNC pollimine"
 
 #: modules/video_filter/remoteosd.c:92
 msgid "Activate VNC polling. Do NOT activate for use as VDR ffnetdev client."
-msgstr ""
+msgstr "Aktiveeri VNC pollimine. ÄRA akvitvveri VDR ffnetdev kliendiga."
 
 #: modules/video_filter/remoteosd.c:96
 msgid ""
 "Send mouse events to VNC host. Not needed for use as VDR ffnetdev client."
 msgstr ""
+"Saada hiire sündmused VNC hostile. Pole vajalik VDR ffnetdev kliendiga."
 
 #: modules/video_filter/remoteosd.c:98
 msgid "Key events"
@@ -23562,6 +23642,10 @@ msgid ""
 "transparency. The default is being not transparent (value 255) the minimum "
 "is fully transparent (value 0)."
 msgstr ""
+"OSD VNC läbipaistvust saab muuta, andes väärtusi vahemikus 0 kuni 255. "
+"Madalam väärtus tähendab rohkem läbipaistvust, suurem jälle vähem. Vaikimisi "
+"ei olda läbipaistev (väärtus 255), miinimumiks on täiesti läbipaistev "
+"(väärtus 0)."
 
 #: modules/video_filter/remoteosd.c:119
 msgid "Remote-OSD over VNC"
@@ -23597,15 +23681,15 @@ msgstr "Uudistevoo URL-id"
 
 #: modules/video_filter/rss.c:131
 msgid "RSS/Atom feed '|' (pipe) separated URLs."
-msgstr ""
+msgstr "RSS/Atom uudisvoogude URL-id eraldatuna '|' (toruga)."
 
 #: modules/video_filter/rss.c:132
 msgid "Speed of feeds"
-msgstr "Voogude kiirus"
+msgstr "Uudisvoogude kiirus"
 
 #: modules/video_filter/rss.c:133
 msgid "Speed of the RSS/Atom feeds in microseconds (bigger is slower)."
-msgstr ""
+msgstr "RSS/Atom uudisvoogude kiirus mikrosekundites (suurem on aeglasem)."
 
 #: modules/video_filter/rss.c:134
 msgid "Max length"
@@ -23613,7 +23697,7 @@ msgstr "Maks. pikkus"
 
 #: modules/video_filter/rss.c:135
 msgid "Maximum number of characters displayed on the screen."
-msgstr ""
+msgstr "Maksimaalne märkide arv, mida kuvatakse ekraanil."
 
 #: modules/video_filter/rss.c:137
 msgid "Refresh time"
@@ -23624,6 +23708,8 @@ msgid ""
 "Number of seconds between each forced refresh of the feeds. 0 means that the "
 "feeds are never updated."
 msgstr ""
+"Sekundeid iga sunnitud uudisvoo värskenduse vahel. 0 tähendab, et "
+"uudisvoogusid ei uuendata."
 
 #: modules/video_filter/rss.c:140
 msgid "Feed images"
@@ -23638,6 +23724,8 @@ msgid ""
 "Opacity (inverse of transparency) of overlay text. 0 = transparent, 255 = "
 "totally opaque."
 msgstr ""
+"Teksti ülekatte läbipaistmatus (läbipaistvuse vastand). 0 = läbipaistev, 255 "
+"= täisti läbipaistmatu."
 
 #: modules/video_filter/rss.c:161
 msgid "Text position"
@@ -23649,20 +23737,25 @@ msgid ""
 "4=top, 8=bottom; you can also use combinations of these values, eg 6 = top-"
 "right)."
 msgstr ""
+"Sa võid jõuga määrata teksti asukohta videol (0=keskel, 1=vasakul, "
+"2=paremal, 4=üleval, 8=all; võid kasutada ka nende väärtuste kombinatsioone, "
+"nt. 6=üleval-paremal)."
 
 #: modules/video_filter/rss.c:167
 msgid "Title display mode"
-msgstr ""
+msgstr "Pealkirja kuvamise režiim"
 
 #: modules/video_filter/rss.c:168
 msgid ""
 "Title display mode. Default is 0 (hidden) if the feed has an image and feed "
 "images are enabled, 1 otherwise."
 msgstr ""
+"Pealkirja kuvamise režiim. Vaikimisi on 0 (peidetud), kui uudisvool on pilt "
+"ja pildid on lubatud, vastasel korral 1."
 
 #: modules/video_filter/rss.c:170
 msgid "Display a RSS or ATOM Feed on your video"
-msgstr ""
+msgstr "Kuva RSS või ATOM uudisvooga videol"
 
 #: modules/video_filter/rss.c:185
 msgid "Don't show"
@@ -23674,7 +23767,7 @@ msgstr "Alati nähtav"
 
 #: modules/video_filter/rss.c:185
 msgid "Scroll with feed"
-msgstr ""
+msgstr "Keri koos uudisvooga"
 
 #: modules/video_filter/rss.c:194
 msgid "RSS / Atom"
@@ -23705,6 +23798,8 @@ msgid ""
 "You can enforce the image width. By default (-1) VLC will adapt to the video "
 "characteristics."
 msgstr ""
+"Siina saad jõuga määrata pildi laiuse.  Vaikimisi (-1) arvestab VLC video "
+"omadustega."
 
 #: modules/video_filter/scene.c:65
 msgid "Image height"
@@ -23715,6 +23810,8 @@ msgid ""
 "You can enforce the image height. By default (-1) VLC will adapt to the "
 "video characteristics."
 msgstr ""
+"Siin saad jõuga määrata pildi kõrguse. Vaikimisi (-1) arvestab VLC video "
+"omadustega."
 
 #: modules/video_filter/scene.c:70
 msgid "Recording ratio"
@@ -23724,6 +23821,7 @@ msgstr "Salvestamise suhe"
 msgid ""
 "Ratio of images to record. 3 means that one image out of three is recorded."
 msgstr ""
+"Salvestatavate piltide suhe. 3 tähendab, et iga komas pilt salvetatakse."
 
 #: modules/video_filter/scene.c:74
 msgid "Filename prefix"
@@ -23734,6 +23832,8 @@ msgid ""
 "Prefix of the output images filenames. Output filenames will have the "
 "\"prefixNUMBER.format\" form if replace is not true."
 msgstr ""
+"Piltide falinimede eesliide. Tulemuseks saab olema \"eesliideNUMBER.vorming"
+"\"."
 
 #: modules/video_filter/scene.c:79
 msgid "Directory path prefix"
@@ -23744,6 +23844,8 @@ msgid ""
 "Directory path where images files should be saved.If not set, then images "
 "will be automatically saved in users homedir."
 msgstr ""
+"Kataloogi asukohta, kuhu pildifailid tuleks salvestada. Kui on määramata, "
+"siis salvestatakse automaatselt kasutaja kodukataloogi."
 
 #: modules/video_filter/scene.c:84
 msgid "Always write to the same file"
@@ -23754,10 +23856,12 @@ msgid ""
 "Always write to the same file instead of creating one file per image. In "
 "this case, the number is not appended to the filename."
 msgstr ""
+"Alati kirjuta samasse faili, selleasemel, et luua üks fail pildi kohta. "
+"Antud juhul ei lisata numbrit failinime lõppu."
 
 #: modules/video_filter/scene.c:89
 msgid "Send your video to picture files"
-msgstr "saada video pildifailidesse"
+msgstr "Saada video pildifailidesse"
 
 #: modules/video_filter/scene.c:93
 msgid "Scene filter"
@@ -23777,7 +23881,7 @@ msgstr "Säti teravustamise tugevus vahemikus 0 ja 2. Vaikimisi on 0,05."
 
 #: modules/video_filter/sharpen.c:59
 msgid "Augment contrast between contours."
-msgstr ""
+msgstr "Suurenda kontuuride kontrasti"
 
 #: modules/video_filter/sharpen.c:66
 msgid "Sharpen video filter"
@@ -23813,7 +23917,7 @@ msgstr "Eksperimentaalne"
 
 #: modules/video_filter/swscale.c:64
 msgid "Nearest neighbour (bad quality)"
-msgstr ""
+msgstr "Lähim naaber (halb kvaliteet)"
 
 #: modules/video_filter/swscale.c:65
 msgid "Area"
@@ -23821,7 +23925,7 @@ msgstr "Ala"
 
 #: modules/video_filter/swscale.c:65
 msgid "Luma bicubic / chroma bilinear"
-msgstr ""
+msgstr "Luma bikuup / chroma bilineaarne"
 
 #: modules/video_filter/swscale.c:65
 msgid "Gauss"
@@ -23849,7 +23953,7 @@ msgstr "Teisendamise tüüp"
 
 #: modules/video_filter/transform.c:66
 msgid "One of '90', '180', '270', 'hflip' and 'vflip'"
-msgstr ""
+msgstr "Üks järgmistest '90', '180', '270', 'hflip' või 'vflip'"
 
 #: modules/video_filter/transform.c:69
 msgid "Rotate by 90 degrees"
@@ -23881,15 +23985,15 @@ msgstr "Video teisendamise filter"
 
 #: modules/video_filter/wall.c:44
 msgid "Number of horizontal windows in which to split the video."
-msgstr ""
+msgstr "Horisontaalsete akende arv, kuhu video jaotada."
 
 #: modules/video_filter/wall.c:48
 msgid "Number of vertical windows in which to split the video."
-msgstr ""
+msgstr "Vertikaalsete akende arv, kuhu video jaotada."
 
 #: modules/video_filter/wall.c:52
 msgid "Comma-separated list of active windows, defaults to all"
-msgstr ""
+msgstr "Komaga eraldatud nimekiri aktiivsetest akendest, vaikimisi kõik"
 
 #: modules/video_filter/wall.c:55
 msgid "Element aspect ratio"
@@ -23897,7 +24001,7 @@ msgstr "Elemendi külgede suhe"
 
 #: modules/video_filter/wall.c:56
 msgid "Aspect ratio of the individual displays building the wall."
-msgstr ""
+msgstr "Individuaalsete kuvade külgede suhe seina ehitamisel."
 
 #: modules/video_filter/wall.c:65
 msgid "Wall video filter"
@@ -23948,6 +24052,8 @@ msgid ""
 "Run framebuffer on current TTY device (default enabled). (disable tty "
 "handling with caution)"
 msgstr ""
+"Käivita kaadripuhver aktiivsel TTY seadmel (vaikimisi lubatud). (keela tty "
+"käsitlemine ettevaatusega)"
 
 #: modules/video_output/fb.c:65
 msgid "Framebuffer resolution to use"
@@ -23958,6 +24064,8 @@ msgid ""
 "Select the resolution for the framebuffer. Currently it supports the values "
 "0=QCIF 1=CIF 2=NTSC 3=PAL, 4=auto (default 4=auto)"
 msgstr ""
+"Vali kaardipuhvri eraldusvõime. Hetkel toetatud väärtused on 0=QCIF 1=CIF "
+"2=NTSC 3=PAL, 4=auto (vaikimisi 4=auto)"
 
 #: modules/video_output/fb.c:70
 msgid "Framebuffer uses hw acceleration"
@@ -23969,6 +24077,9 @@ msgid ""
 "in hardware then you must disable this option. It then does double buffering "
 "in software."
 msgstr ""
+"Kui sinu kaardipuhver toetab riistvaralist kiirendust või teeb topelt "
+"puhverdamist riistvaras, siis pead selle valiku keelama. Siis sooritatakse "
+"topeltpuhverdamine tarkvaras."
 
 #: modules/video_output/fb.c:76
 msgid "Image format (default RGB)"
@@ -23979,6 +24090,8 @@ msgid ""
 "Chroma fourcc used by the framebuffer. Default is RGB since the fb device "
 "has no way to report its chroma."
 msgstr ""
+"Kaadripuhvri poolt kasutatav värviformaadi fourcc. Vaikimis ion kasutuses "
+"RGB, kuna kp seade ei oska teatada oma värviformaati."
 
 #: modules/video_output/fb.c:95
 msgid "GNU/Linux framebuffer video output"
@@ -23998,7 +24111,7 @@ msgstr "HD1000 videoväljund"
 
 #: modules/video_output/macosx.m:69
 msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-msgstr ""
+msgstr "Mac OS X OpenGL videoväljund (nõuab drawable-nsobject-i)"
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "Enable desktop mode "
@@ -24025,6 +24138,8 @@ msgid ""
 "Try to use hardware acceleration for YUV->RGB conversions. This option "
 "doesn't have any effect when using overlays."
 msgstr ""
+"Ürita kasutada riistvaralist YUB->RGB teisendamist. Ülektatete kasutamisel "
+"ei ole sellel valikul mingit efekti."
 
 #: modules/video_output/msw/directx.c:73
 msgid "Use video buffers in system memory"
@@ -24037,16 +24152,22 @@ msgid ""
 "hardware acceleration (like rescaling or YUV->RGB conversions). This option "
 "doesn't have any effect when using overlays."
 msgstr ""
+"Loo videopuhvrid süsteemimällu, mitte videomällu. See ei ole soovitatav, "
+"kuna videomälu kasutamine tähendab rohkem riistvaralist kiirendamist "
+"(näiteks YUV->RGB teisenduste suuruse muutmine). Ülektatete kasutamisel ei "
+"ole sellel valikul mingit efekti."
 
 #: modules/video_output/msw/directx.c:80
 msgid "Use triple buffering for overlays"
-msgstr "Ülekattel kasuta kolmekordset puhverdamist"
+msgstr "Ülekatetel kasuta kolmekordset puhverdamist"
 
 #: modules/video_output/msw/directx.c:82
 msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
 msgstr ""
+"Ürita kasutada YUV ülekatetel kolemkordset puhverdamist. Tulemuseks on palju "
+"parem video kvaliteet (puudub vilkumine)."
 
 #: modules/video_output/msw/directx.c:85
 msgid "Name of desired display device"
@@ -24058,6 +24179,8 @@ msgid ""
 "of the display that you want the video window to open on. For example, \"\\"
 "\\.\\DISPLAY1\" or \"\\\\.\\DISPLAY2\"."
 msgstr ""
+"Mitme monitoriga süsteemis võid sa määrata Windowsi seadme nime, kuhu soovid "
+"videopilti suunata. Näiteks \"\\\\.\\DISPLAY1\" või \"\\\\.\\DISPLAY2\"."
 
 #: modules/video_output/msw/directx.c:91
 msgid ""
@@ -24135,6 +24258,8 @@ msgid ""
 "Force the SDL renderer to use a specific chroma format instead of trying to "
 "improve performances by using the most efficient one."
 msgstr ""
+"Sunni jõuga SDL renderdajat kasutama määratud värviformaati, selleasemel, et "
+"üritada parandada jõudlust, valides kõige efektiivsema."
 
 #: modules/video_output/sdl.c:66
 msgid "Simple DirectMedia Layer video output"
@@ -24160,6 +24285,7 @@ msgstr "Hetkvõtte pildi kõrgus"
 msgid ""
 "Output chroma for the snapshot image (a 4 character string, like \"RV32\")."
 msgstr ""
+"Hetkvõtte pildi väljundi värviformaat (4-märgiline sõne, nt. \"RV32\")."
 
 #: modules/video_output/snapshot.c:65
 msgid "Cache size (number of images)"
@@ -24167,7 +24293,7 @@ msgstr "Puhvri suurus (piltide arv)"
 
 #: modules/video_output/snapshot.c:66
 msgid "Snapshot cache size (number of images to keep)."
-msgstr ""
+msgstr "Hetkvõtte puhvri suurus (mitu pilti salvestada)."
 
 #: modules/video_output/snapshot.c:72
 msgid "Snapshot output"
@@ -24179,11 +24305,11 @@ msgstr "SVGAlib videoväljund"
 
 #: modules/video_output/vmem.c:48
 msgid "Pitch"
-msgstr "Helikõrgus"
+msgstr "Kõrgus"
 
 #: modules/video_output/vmem.c:49
 msgid "Video memory buffer pitch in bytes."
-msgstr ""
+msgstr "Videmälu puhvri kõrgus baitides."
 
 #: modules/video_output/vmem.c:59
 msgid "Video memory output"
@@ -24203,13 +24329,15 @@ msgstr "GLX videoväljund (XCB)"
 
 #: modules/video_output/xcb/window.c:43
 msgid "ID of the video output X window"
-msgstr ""
+msgstr "Videoväljundi X akna ID"
 
 #: modules/video_output/xcb/window.c:45
 msgid ""
 "VLC can embed its video output in an existing X11 window. This is the X "
 "identifier of that window (0 means none)."
 msgstr ""
+"VLC võib videoväljundi põimida olemasolevasse X11 aknasse. See on selle X "
+"akna identifikaator (0 tähendab puudub)."
 
 #: modules/video_output/xcb/window.c:57
 msgid "X window"
@@ -24265,6 +24393,8 @@ msgid ""
 "XVideo hardware adaptor to use. By default, VLC will use the first "
 "functional adaptor."
 msgstr ""
+"Kasutatav XVideo riistvaraline adapter. Vaikimisi kasutab VLC esimest "
+"töötavat adapterit."
 
 #: modules/video_output/xcb/xvideo.c:58
 msgid "XVideo"
@@ -24287,6 +24417,11 @@ msgid ""
 "Video output acceleration will be disabled. However, rendering videos with "
 "overly large resolution may cause severe performance degration."
 msgstr ""
+"Sinu videoväljundi kiirendatud draiver ei toeta nõutud eraldusvõimet: %ux%u "
+"pikslite. Maksimaalne toetatud eraldusvõime on %<PRIu32>x%<PRIu32>.\n"
+"Videoväljundi kiirendus lülitatakse välja. Kuigi ülemäära suurte "
+"eraldusvõimega videote renderdamine võib kaasa tuua tõsise jõudluse "
+"kahanemise."
 
 #: modules/video_output/yuv.c:41
 msgid "device, fifo or filename"
@@ -24306,6 +24441,8 @@ msgid ""
 "YV12/I420 fourcc. By default vlc writes the fourcc of the picture frame into "
 "the output destination."
 msgstr ""
+"YUV4MPEG2 päis on mplayer-i yuv video väljundiga ühildus ja nõuab YV12/I420 "
+"fourcc-d. Vaikimisi kirjutab vlc pildikaadri fourcc määratud väljundisse."
 
 #: modules/video_output/yuv.c:59
 msgid "YUV output"
@@ -24431,11 +24568,11 @@ msgstr "Rohkem sagedusi spektromeetrile : 80 (muidu 20)."
 
 #: modules/visualization/visual/visual.c:62
 msgid "Band separator"
-msgstr ""
+msgstr "Sageduste eraldaja"
 
 #: modules/visualization/visual/visual.c:64
 msgid "Number of blank pixels between bands."
-msgstr ""
+msgstr "Tühjade pikslite arv sageduste vahel."
 
 #: modules/visualization/visual/visual.c:66
 msgid "Amplification"
@@ -24443,7 +24580,7 @@ msgstr "Võimendus"
 
 #: modules/visualization/visual/visual.c:68
 msgid "This is a coefficient that modifies the height of the bands."
-msgstr ""
+msgstr "See koefitsent muudab sageduste kõrgust."
 
 #: modules/visualization/visual/visual.c:70
 msgid "Enable peaks"
@@ -24471,27 +24608,27 @@ msgstr "Joonista sagedused spektromeetril."
 
 #: modules/visualization/visual/visual.c:82
 msgid "Enable base"
-msgstr ""
+msgstr "Baasi võimaldamine"
 
 #: modules/visualization/visual/visual.c:84
 msgid "Defines whether to draw the base of the bands."
-msgstr ""
+msgstr "Määrab, kas joonistada sageduste baas."
 
 #: modules/visualization/visual/visual.c:86
 msgid "Base pixel radius"
-msgstr ""
+msgstr "Baaspiksli raadius"
 
 #: modules/visualization/visual/visual.c:88
 msgid "Defines radius size in pixels, of base of bands(beginning)."
-msgstr ""
+msgstr "Määrab sageduste algusest raadiuse suuruse pikslites."
 
 #: modules/visualization/visual/visual.c:90
 msgid "Spectral sections"
-msgstr ""
+msgstr "Spektri sektsioonid"
 
 #: modules/visualization/visual/visual.c:92
 msgid "Determines how many sections of spectrum will exist."
-msgstr ""
+msgstr "Määrab, mitu spektrumi sektsiooni on olemas."
 
 #: modules/visualization/visual/visual.c:94
 msgid "Peak height"
@@ -24499,7 +24636,7 @@ msgstr "Tipu kõrgus"
 
 #: modules/visualization/visual/visual.c:96
 msgid "Total pixel height of the peak items."
-msgstr ""
+msgstr "Pikslite tipu elementide kogukõrgus."
 
 #: modules/visualization/visual/visual.c:98
 msgid "Peak extra width"
@@ -24507,7 +24644,7 @@ msgstr "Tipu lisalaius"
 
 #: modules/visualization/visual/visual.c:100
 msgid "Additions or subtractions of pixels on the peak width."
-msgstr ""
+msgstr "Pikslite liitmine või lahutamine tipu laiusel."
 
 #: modules/visualization/visual/visual.c:102
 msgid "V-plane color"
@@ -24570,7 +24707,7 @@ msgstr "Alustamise koht"
 
 #: modules/gui/qt4/ui/open.h:241
 msgid "Play another media synchronously (extra audio file, ...)"
-msgstr "Muu meediafaili esitamine sünkroonis (lisahelifail, ...)"
+msgstr "Muu meediafaili esitamine sünkroonis (teine helifail, ...)"
 
 #: modules/gui/qt4/ui/open.h:242
 msgid "Extra media"
@@ -24598,7 +24735,7 @@ msgstr "Hetke määramine, kust meedia käivitatakse"
 
 #: modules/gui/qt4/ui/open.h:255
 msgid "s"
-msgstr " s"
+msgstr "s"
 
 #: modules/gui/qt4/ui/open_capture.h:98
 msgid "Capture mode"
@@ -24946,7 +25083,7 @@ msgstr "Koodekid"
 
 #: modules/gui/qt4/ui/sprefs_input.h:310
 msgid "Skip H.264 in-loop deblocking filter"
-msgstr ""
+msgstr "Jäta vahele H.264 korduse deblokkimise filter"
 
 #: modules/gui/qt4/ui/sprefs_input.h:311
 msgid "Video quality post-processing level"
@@ -25289,7 +25426,7 @@ msgstr "Pildi muutmine"
 
 #: modules/gui/qt4/ui/video_effects.h:1154
 msgid "Edge weightning"
-msgstr ""
+msgstr "Serva jämedus"
 
 #: modules/gui/qt4/ui/video_effects.h:1155
 msgid "Output Color Filtermode"
@@ -25305,7 +25442,7 @@ msgstr "Tumeduse limiit"
 
 #: modules/gui/qt4/ui/video_effects.h:1158
 msgid "Mark analyzed Pixels"
-msgstr ""
+msgstr "Märgi analüüsitud pikslid"
 
 #: modules/gui/qt4/ui/video_effects.h:1160
 msgid "Filter threshold (%)"
