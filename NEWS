@@ -1,19 +1,28 @@
-Changes between 1.1.4.1 and 1.1.5-git:
+Changes between 1.1.4.1 and 1.1.5:
 ----------------------------------
+
+Security:
+ * Fix a Samba crash, VideoLAN-SA-1006
 
 Demuxers:
  * DVDnav and DVDread fixes for encoding and misc issues
  * Playback of live http .Webm streams
+ * Taglib thread-safety fix
 
 Decoders:
  * Fix decoding of H264 using DxVA2 using Intel IGP, thanks to the donation from
    "Puget Systems"
 
 Skins:
- * add an icon to VLC
+ * Add an icon to VLC on Linux
+
+Video Output:
+ * fix a bug that could lead to 100% CPU usage on XCB
+
+Miscellaneous crashes and fixes in various plugins (telnet, live555, theora and TS-mux)
 
 Translations:
- * Update translations for Walloon, Estonian, Spanish, Turkish, Estonian
+ * Update translations for Walloon, Estonian, Spanish, Turkish, Estonian, Dutch
  * Major update and activation on Windows of Modern Greek
  * New Asturian translation
 
