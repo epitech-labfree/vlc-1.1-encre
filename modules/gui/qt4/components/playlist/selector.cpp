@@ -256,21 +256,21 @@ PLSelItem *PLSelector::addPodcastItem( playlist_item_t *p_item )
 
 void PLSelector::createItems()
 {
-    PLSelItem *pl = putPLData( addItem( PL_ITEM_TYPE, "Playlist", true ),
+    PLSelItem *pl = putPLData( addItem( PL_ITEM_TYPE, N_("Playlist"), true ),
                               THEPL->p_playing );
     pl->treeItem()->setData( 0, SPECIAL_ROLE, QVariant( IS_PL ) );
 
-    PLSelItem *ml = putPLData( addItem( PL_ITEM_TYPE, "Media Library", true ),
+    PLSelItem *ml = putPLData( addItem( PL_ITEM_TYPE, N_("Media Library"), true ),
                               THEPL->p_media_library );
     ml->treeItem()->setData( 0, SPECIAL_ROLE, QVariant( IS_ML ) );
 
-    QTreeWidgetItem *mycomp = addItem( CATEGORY_TYPE, "My Computer",
+    QTreeWidgetItem *mycomp = addItem( CATEGORY_TYPE, N_("My Computer"),
                                         false )->treeItem();
-    QTreeWidgetItem *devices = addItem( CATEGORY_TYPE, "Devices",
+    QTreeWidgetItem *devices = addItem( CATEGORY_TYPE, N_("Devices"),
                                         false )->treeItem();
-    QTreeWidgetItem *lan = addItem( CATEGORY_TYPE, "Local Network",
+    QTreeWidgetItem *lan = addItem( CATEGORY_TYPE, N_("Local Network"),
                                     false )->treeItem();
-    QTreeWidgetItem *internet = addItem( CATEGORY_TYPE, "Internet",
+    QTreeWidgetItem *internet = addItem( CATEGORY_TYPE, N_("Internet"),
                                           false )->treeItem();;
 
     char **ppsz_longnames;
