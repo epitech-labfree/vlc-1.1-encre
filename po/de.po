@@ -9,7 +9,7 @@
 # Mathias C. Berens | welcome-soft <berens at welcome-soft.de>, 2006.
 # Kai Hermann <kai.uwe.hermann@gmail.com>, 2009
 # Michał Trzebiatowski <hippie_1968@hotmail.com>, 2010
-# Mario Siegmann <mario_siegmann@web.de>, 2010
+# Mario Siegmann <mario_siegmann@web.de> | Christoph Miebach <christoph.miebach@web.de>, 2010
 #
 #
 msgid ""
@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: VLC 1.1.x\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-11-03 21:59+0000\n"
-"PO-Revision-Date: 2010-08-26 19:41+0100\n"
+"PO-Revision-Date: 2010-11-04 10:40+0100\n"
 "Last-Translator: Mario Siegmann <mario_siegmann@web.de>\n"
 "Language-Team: German\n"
 "Language: \n"
@@ -274,7 +274,7 @@ msgstr ""
 "Output\"-Modul geschickt, das den Stream entweder in einer Datei speichert "
 "oder streamt (via UDP, HTTP, RTP/RTSP).\n"
 "Sout-Stream-Module erlauben erweiterte Streamverarbeitungen "
-"(Transcodierungen, Duplizieren, ...)."
+"(Transkodierungen, Duplizieren, ...)."
 
 #: include/vlc_config_cat.h:134
 msgid "General stream output settings"
@@ -787,7 +787,7 @@ msgstr ""
 "finden Sie im Dokument <br>\"<a href=\"http://wiki.videolan.org/"
 "Documentation:Play_HowTo\"><em>How to play files with VLC media player</em></"
 "a>\".</p><p>Für all die Funktionen zum Speichern, Konvertieren, "
-"Transcodieren, Encodieren, Muxing und Streaming finden Sie nützliche "
+"Transkodieren, Encodieren, Muxing und Streaming finden Sie nützliche "
 "Informationen in der <a href=\"http://wiki.videolan.org/Documentation:"
 "Streaming_HowTo\">Streaming Documentation</a>.</p><p>Wenn Sie mit der "
 "Terminologie unsicher sind, durchsuchen Sie bitte die <a href=\"http://wiki."
@@ -948,7 +948,7 @@ msgstr "Decoder"
 #: modules/codec/avcodec/encoder.c:709 modules/stream_out/es.c:363
 #: modules/stream_out/es.c:378
 msgid "Streaming / Transcoding failed"
-msgstr "Streaming/Transcoding fehlgeschlagen"
+msgstr "Streaming/Transkodierung fehlgeschlagen"
 
 #: src/input/decoder.c:279
 #, c-format
@@ -7128,7 +7128,7 @@ msgid ""
 "Make VLC buffer audio data captured from jack for the specified length in "
 "milliseconds."
 msgstr ""
-"Erstelle VLC Audio Puffer Daten von der Audio-Buchse für die angegebene "
+"Erstelle VLC Audio Buffer Daten von der Audio-Buchse für die angegebene "
 "Länge in Millisekunden."
 
 #: modules/access/jack.c:64
@@ -7475,7 +7475,7 @@ msgstr "RTMP"
 
 #: modules/access/rtp/rtp.c:44
 msgid "RTP de-jitter buffer length (msec)"
-msgstr "Länge des RTP de-jitter-Puffers (msek)"
+msgstr "Länge des RTP de-jitter-Buffers (msek)"
 
 #: modules/access/rtp/rtp.c:46
 msgid "How long to wait for late RTP packets (and delay the performance)."
@@ -8678,11 +8678,11 @@ msgstr "URL mit Informationen über den Stream oder Ihren Channel."
 
 #: modules/access_output/shout.c:92
 msgid "Bitrate information of the transcoded stream. "
-msgstr "Bitrateninformationen für den transcodierten Stream."
+msgstr "Bitrateninformationen für den transkodierten Stream."
 
 #: modules/access_output/shout.c:95
 msgid "Samplerate information of the transcoded stream. "
-msgstr "Samplerate-Information für den transcodierten Stream."
+msgstr "Samplerate-Information für den transkodierten Stream."
 
 #: modules/access_output/shout.c:97
 msgid "Number of channels"
@@ -8690,7 +8690,7 @@ msgstr "Anzahl der Kanäle"
 
 #: modules/access_output/shout.c:98
 msgid "Number of channels information of the transcoded stream. "
-msgstr "Information über die Anzahl der Kanäle des transcodierten Streams."
+msgstr "Information über die Anzahl der Kanäle des transkodierten Streams."
 
 #: modules/access_output/shout.c:100
 msgid "Ogg Vorbis Quality"
@@ -8698,7 +8698,7 @@ msgstr "Ogg-Vorbis-Qualität"
 
 #: modules/access_output/shout.c:101
 msgid "Ogg Vorbis Quality information of the transcoded stream. "
-msgstr "Information über die Ogg-Vorbis-Qualität des transcodierten Streams."
+msgstr "Information über die Ogg-Vorbis-Qualität des transkodierten Streams."
 
 #: modules/access_output/shout.c:103
 msgid "Stream public"
@@ -9247,7 +9247,7 @@ msgstr "Techno"
 
 #: modules/audio_filter/normvol.c:65
 msgid "Number of audio buffers"
-msgstr "Anzahl von Audiopuffern"
+msgstr "Anzahl von Audio-Buffer"
 
 #: modules/audio_filter/normvol.c:66
 msgid ""
@@ -9255,8 +9255,8 @@ msgid ""
 "A higher number of buffers will increase the response time of the filter to "
 "a spike but will make it less sensitive to short variations."
 msgstr ""
-"Dies ist die Anzahl der Audiopuffern, nach denen das Ausschlagsmaß erstellt "
-"wird.  Eine größere Zahl von Puffern wird die Antwortzeit des Filters auf "
+"Dies ist die Anzahl der Audio-Buffern, nach denen das Ausschlagsmaß erstellt "
+"wird.  Eine größere Zahl von Buffern wird die Antwortzeit des Filters auf "
 "einen hohen Ausschlag vergrößern, macht ihn aber weniger sensibel gegenüber "
 "kurzen Variationen."
 
@@ -9270,7 +9270,7 @@ msgid ""
 "volume will be normalized. This value is a positive floating point number. A "
 "value between 0.5 and 10 seems sensible."
 msgstr ""
-"Wenn der durchschnittliche Ausschlag während der letzten N Puffer höher als "
+"Wenn der durchschnittliche Ausschlag während der letzten N-Buffer höher als "
 "dieser Wert ist, wird die Lautstärke normalisiert. Dieser Wert ist eine "
 "positive Fließkommazahl. Ein Wert zwischen 0.5 und 10 erscheint sinnvoll."
 
@@ -9639,7 +9639,7 @@ msgid ""
 "completely filled (the sound gets heavily hashed). If you have one of these "
 "drivers, then you need to enable this option."
 msgstr ""
-"Einige fehlerhafte OSS-Treiber mögen es nicht, wenn ihre internen Puffer "
+"Einige fehlerhafte OSS-Treiber mögen es nicht, wenn ihre internen Buffer "
 "komplett gefüllt sind (der Ton fängt an zu knacken). Wenn Sie einen dieser "
 "Treiber haben, aktivieren Sie diese Option."
 
@@ -10029,23 +10029,23 @@ msgstr "Vor-Bewegungsabschätzungs-Algorithmus aktivieren."
 
 #: modules/codec/avcodec/avcodec.h:169
 msgid "Rate control buffer size"
-msgstr "Ratenkontrollpuffergröße"
+msgstr "Größe des Ratenkontroll-Buffers"
 
 #: modules/codec/avcodec/avcodec.h:170
 msgid ""
 "Rate control buffer size (in kbytes). A bigger buffer will allow for better "
 "rate control, but will cause a delay in the stream."
 msgstr ""
-"Ratenkontrollpuffergröße (in KByte). Ein größerer Puffer erlaubt eine "
+"Größe des Ratenkontroll-Buffers (in KByte). Ein größerer Buffer erlaubt eine "
 "bessere Kontrolle der Rate, wird aber den Stream verzögern."
 
 #: modules/codec/avcodec/avcodec.h:174
 msgid "Rate control buffer aggressiveness"
-msgstr "Ratenkontrollpuffer-Aggressivität"
+msgstr "Aggressivität des Ratenkontroll-Buffers"
 
 #: modules/codec/avcodec/avcodec.h:175
 msgid "Rate control buffer aggressiveness."
-msgstr "Aggressivität des Ratenkontrollpuffers."
+msgstr "Aggressivität des Ratenkontroll-Buffers."
 
 #: modules/codec/avcodec/avcodec.h:178
 msgid "I quantization factor"
@@ -10715,7 +10715,7 @@ msgstr ""
 
 #: modules/codec/invmem.c:54 modules/video_output/vmem.c:43
 msgid "Video memory buffer width."
-msgstr "Videospeicher Pufferbreite."
+msgstr "Videospeicher Bufferbreite."
 
 #: modules/codec/invmem.c:57 modules/video_output/vmem.c:46
 msgid "Video memory buffer height."
@@ -10911,9 +10911,9 @@ msgid ""
 "Kate streams can be rendered using the Tiger library. Disabling this will "
 "only render static text and bitmap based streams."
 msgstr ""
-"Kate Streams können mit Hilfe der Tiger Bibliothek gerendert werden. Wenn "
-"dies deaktiviert wird werden nur statischer Text und Bitmap basierte Streams "
-"gerendert."
+"Kate-Streams können mit Hilfe der Tiger-Bibliothek gerendert werden. Wenn "
+"dies deaktiviert wird, werden nur statischer Text- und Bitmap-basierten "
+"Streams gerendert."
 
 #: modules/codec/kate.c:220
 msgid "Rendering quality"
@@ -10924,7 +10924,7 @@ msgid ""
 "Select rendering quality, at the expense of speed. 0 is fastest, 1 is "
 "highest quality."
 msgstr ""
-"Wählen Sie die Render-Qualität, auf Kosten der Geschwindigkeit. 0 ist am "
+"Wählen Sie die Render-Qualität, auf Kosten der Geschwindigkeit: 0 ist am "
 "schnellsten, 1 bedeutet höchste Qualität."
 
 #: modules/codec/kate.c:225
@@ -10936,7 +10936,7 @@ msgid ""
 "Add a font effect to text to improve readability against different "
 "backgrounds."
 msgstr ""
-"Füge einen Schrifteffekt zum Text hinzu um die Lesbarkeit gegenüber "
+"Fügt einen Schrifteffekt zum Text hinzu, um die Lesbarkeit gegenüber "
 "verschiedenen Hintergründen zu erhöhen."
 
 #: modules/codec/kate.c:230
@@ -10946,7 +10946,7 @@ msgstr "Standard-Texteffektstärke"
 #: modules/codec/kate.c:231
 msgid "How pronounced to make the chosen font effect (effect dependent)."
 msgstr ""
-"Wie ausgeprägt der gewählte Schriftart-Effekt sein soll (Effekt abhängig)."
+"Wie ausgeprägt der gewählte Schriftart-Effekt sein soll (Effekt-abhängig)."
 
 #: modules/codec/kate.c:235
 msgid "Default font description"
@@ -10960,7 +10960,7 @@ msgid ""
 msgstr ""
 "Definiert, welche Schriftartbezeichnung benutzt werden soll, wenn der Kate-"
 "Stream keine speziellen Schriftarten-Parameter (Name, Größe, etc.) festlegt. "
-"Ein leerer Name lässt Tiger die Schriftart Parameter wählen."
+"Ein leerer Name lässt Tiger die Schriftart-Parameter wählen."
 
 #: modules/codec/kate.c:241
 msgid "Default font color"
@@ -10971,7 +10971,7 @@ msgid ""
 "Default font color to use if the Kate stream does not specify a particular "
 "font color to use."
 msgstr ""
-"Standard Schriftfarbe die benutzt wird, wenn der Kate-Stream keine spezielle "
+"Standard-Schriftfarbe die benutzt wird, wenn der Kate-Stream keine spezielle "
 "Schriftfarbe vorgibt."
 
 #: modules/codec/kate.c:246
@@ -10995,7 +10995,7 @@ msgid ""
 "Default background color if the Kate stream does not specify a background "
 "color to use."
 msgstr ""
-"Standard Hintergrundfarbe, wenn der Kate-Stream keine spezielle "
+"Standard-Hintergrundfarbe, wenn der Kate-Stream keine spezielle "
 "Hintergrundfarbe vorgibt."
 
 #: modules/codec/kate.c:256
@@ -11007,8 +11007,8 @@ msgid ""
 "Transparency of the default background color if the Kate stream does not "
 "specify a particular background color to use."
 msgstr ""
-"Transparenz der Standard-Hintergrundfarbe die benutzt wird, wenn der Kate-"
-"Stream keine spezielle Hintergrundfarbe vorgibt."
+"Transparenz der benutzten Standard-Hintergrundfarbe, wenn der Kate-Stream "
+"keine spezielle Hintergrundfarbe vorgibt."
 
 #: modules/codec/kate.c:263
 msgid ""
@@ -11019,9 +11019,9 @@ msgid ""
 "Note that changing settings below will not take effect until a new stream is "
 "played. This will hopefully be fixed soon."
 msgstr ""
-"Kate ist ein Codec für Text und Bildbasierte Overlays.\n"
-"Die Tiger-Bibliothek wird benötigt um komplexe Kate-Streams zu rendern, "
-"allerdings kann VLC statischen Text und bildbasierte Untertitel auch "
+"Kate ist ein Codec für Text- und Bildbasierte Overlays.\n"
+"Die Tiger-Bibliothek wird benötigt, um komplexe Kate-Streams zu rendern, "
+"allerdings kann VLC statischen Text- und bildbasierte Untertitel auch "
 "rendern, wenn diese nicht vorhanden ist.\n"
 "Beachten Sie, dass veränderte Einstellungen erst übernommen werden, wenn ein "
 "neuer Stream abgespielt wird. Das wird hoffentlich bald behoben."
@@ -11128,7 +11128,7 @@ msgstr "SDL_image-Videodecoder"
 
 #: modules/codec/shine/shine_mod.c:66
 msgid "MP3 fixed point audio encoder"
-msgstr "MP3 fixed point Audio Encoder"
+msgstr "MP3 fixed point Audio-Encoder"
 
 #: modules/codec/speex.c:57 modules/codec/speex.c:800
 #: modules/gui/macosx/open.m:209 modules/gui/qt4/ui/sprefs_video.h:324
@@ -11147,7 +11147,7 @@ msgstr "Encodingqualität"
 
 #: modules/codec/speex.c:63
 msgid "Enforce a quality between 0 (low) and 10 (high)."
-msgstr "Einen Qualität zwischen 0 (niedrig) und 10 (hoch) erzwingen."
+msgstr "Eine Qualität zwischen 0 (niedrig) und 10 (hoch) erzwingen."
 
 #: modules/codec/speex.c:65
 msgid "Encoding complexity"
@@ -11155,7 +11155,7 @@ msgstr "Encoding Komplexität"
 
 #: modules/codec/speex.c:67
 msgid "Enforce the complexity of the encoder."
-msgstr "Encoding Komplexität erzwingen."
+msgstr "Encoding-Komplexität erzwingen."
 
 #: modules/codec/speex.c:69
 msgid "Maximal bitrate"
@@ -11163,7 +11163,7 @@ msgstr "Maximale Bitrate"
 
 #: modules/codec/speex.c:71
 msgid "Enforce the maximal VBR bitrate"
-msgstr "Erzwinge die Maximale VBR Bitrate"
+msgstr "Erzwinge die maximale VBR Bitrate"
 
 #: modules/codec/speex.c:73 modules/codec/vorbis.c:181
 msgid "CBR encoding"
@@ -11174,7 +11174,7 @@ msgid ""
 "Enforce a constant bitrate encoding (CBR) instead of default variable "
 "bitrate encoding (VBR)."
 msgstr ""
-"Erzwinge konstante Bitraten Kodierung (CBR) anstatt variabler Bitraten "
+"Erzwinge konstante-Bitraten-Kodierung (CBR) anstatt variabler-Bitraten-"
 "Kodierung (VBR)."
 
 #: modules/codec/speex.c:78
@@ -11187,7 +11187,7 @@ msgid ""
 "mode."
 msgstr ""
 "Aktiviere Sprachaktivitätserkennung (VAD). Diese ist standardmäßig aktiviert "
-"im VBR Modus."
+"im VBR-Modus."
 
 #: modules/codec/speex.c:83
 msgid "Discontinuous Transmission"
@@ -11219,7 +11219,7 @@ msgstr "Speex"
 
 #: modules/codec/speex.c:102
 msgid "Speex audio packetizer"
-msgstr "Speex-Audiopacketizer"
+msgstr "Speex-Audio-Paketisierer"
 
 #: modules/codec/speex.c:107
 msgid "Speex audio encoder"
@@ -11227,12 +11227,12 @@ msgstr "Speex-Audioencoder"
 
 #: modules/codec/spudec/spudec.c:45
 msgid "Disable DVD subtitle transparency"
-msgstr "DVD-Untertitel Transparenz deaktivieren"
+msgstr "DVD-Untertitel: Transparenz deaktivieren"
 
 #: modules/codec/spudec/spudec.c:46
 msgid "Removes all transparency effects used in DVD subtitles."
 msgstr ""
-"Entfernt alle Transparenz-Effekte die in DVD-Untertiteln verwendet werden."
+"Entfernt alle Transparenz-Effekte, die in DVD-Untertiteln verwendet werden."
 
 #: modules/codec/spudec/spudec.c:50
 msgid "DVD subtitles decoder"
@@ -11244,7 +11244,7 @@ msgstr "DVD-Untertitel"
 
 #: modules/codec/spudec/spudec.c:60
 msgid "DVD subtitles packetizer"
-msgstr "DVD-Untertitel Paketisierer"
+msgstr "DVD-Untertitel-Paketisierer"
 
 #. xgettext:
 #. The character encoding name in parenthesis corresponds to that used for
@@ -11447,7 +11447,7 @@ msgid ""
 "but you can choose to disable all formatting."
 msgstr ""
 "Manche Untertitelformate erlauben Textformatierungen. VLC unterstützt dies "
-"teilweise; Sie können die Formatierung jedoch komplett deaktivieren."
+"teilweise. Sie können die Formatierung jedoch komplett deaktivieren."
 
 #: modules/codec/subtitles/subsdec.c:207
 msgid "Text subtitles decoder"
@@ -11516,18 +11516,18 @@ msgid ""
 "autodetect from TS, 0 = autodetect from teletext, >0 = actual page number, "
 "usually 888 or 889)."
 msgstr ""
-"Überschreibe die angezeigte Seite, versuchen sie dies wenn ihre Untertitel "
-"nicht erscheinen (-1 = automatisch vom TS, 0 = automatisch vom Teletext, >0 "
-"= tatsächliche Seitennummer, gewöhnlich 888 oder 889)"
+"Überschreibt die angegebene Seite. Versuchen Sie dies, wenn Ihre Untertitel "
+"nicht erscheinen. (-1 = automatisch gemäß Datenstrom, 0 = automatisch vom "
+"Teletext, >0 = tatsächliche Seitennummer, gewöhnlich 888 oder 889)"
 
 #: modules/codec/telx.c:60
 msgid "Ignore subtitle flag"
-msgstr "Untertitelflag ignorieren"
+msgstr "Untertitel-Flag ignorieren"
 
 #: modules/codec/telx.c:61
 msgid "Ignore the subtitle flag, try this if your subtitles don't appear."
 msgstr ""
-"Untertitelflag ignorieren; probieren Sie diese Option aus, falls die "
+"Untertitel-Flag ignorieren. Probieren Sie diese Option aus, falls die "
 "Untertitel nicht erscheinen."
 
 #: modules/codec/telx.c:64
@@ -11540,7 +11540,7 @@ msgid ""
 "historical interpretation mistake. Try using this wrong interpretation if "
 "your subtitles don't appear."
 msgstr ""
-"Einige Französische Kanäle markieren ihre Untertitelseiten auf Grund eines "
+"Einige französische Kanäle markieren ihre Untertitelseiten auf Grund eines "
 "historischen Interpretationsfehlers nicht korrekt. Probieren Sie diese "
 "falsche Interpretation, falls Ihre Untertitel nicht erscheinen."
 
@@ -11720,7 +11720,7 @@ msgstr "B-Frames zwischen I und P"
 #: modules/codec/x264.c:83
 msgid "Number of consecutive B-frames between I and P-frames. Range 1 to 16."
 msgstr ""
-"Anzahl von aufeinanderfolgenden B-Frames zwischen I und P-Frames. (1 bis 16)"
+"Anzahl von aufeinanderfolgenden B-Frames zwischen I- und P-Frames. (1 bis 16)"
 
 #: modules/codec/x264.c:86
 msgid "Adaptive B-frame decision"
@@ -11802,7 +11802,7 @@ msgstr ""
 "Die Anzahl von vorherigen Frames, die zur Vorhersage benutzt werden. Dies "
 "ist effektiv bei Animes, scheint aber wenig Unterschied bei Live-Action-"
 "Quellmaterial zu machen. Manche Decoder können nicht mit großen frameref-"
-"Werten umgehen."
+"Werten umgehen. Intervall von 1 bis 16."
 
 #: modules/codec/x264.c:122
 msgid "Skip loop filter"
@@ -11822,7 +11822,7 @@ msgid ""
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
 "Loop Filter AlphaC0 und Beta Parameter. Bereich -6 bis 6 für alpha und beta "
-"Parameter. -6 bedeutet leichten Filter, 6 bedeutet stark."
+"Parameter. -6 bedeutet leichter Filter, 6 bedeutet stark."
 
 #: modules/codec/x264.c:130
 msgid "H.264 level"
@@ -11835,9 +11835,9 @@ msgid ""
 "the encoding options. Range 1 to 5.1 (10 to 51 is also allowed)."
 msgstr ""
 "Spezifiziert das H.264-Level (wie im Anhang A der Standards definiert). "
-"Level werden nicht erzwungen; es ist Sache des Benutzers ein Level zu wählen "
-"das kompatibel mit dem Rest der Encoding Optionen ist. Intervall von 1 bis "
-"5.1 (10 bis 51 ist auch erlaubt)."
+"Level werden nicht erzwungen; es ist Sache des Benutzers ein Level zu "
+"wählen, das kompatibel mit dem Rest der Encoding-Optionen ist. Intervall von "
+"1 bis 5.1 (10 bis 51 ist auch erlaubt)."
 
 #: modules/codec/x264.c:136
 msgid "H.264 profile"
@@ -11863,7 +11863,7 @@ msgstr "Zyklische Intra-Aktualisierung nutzen"
 
 #: modules/codec/x264.c:147
 msgid "Use Periodic Intra Refresh instead of IDR frames"
-msgstr "Zyklische Intra-Aktualisierung anstatt IDR Frames nutzen"
+msgstr "Zyklische Intra-Aktualisierung anstatt IDR-Frames nutzen"
 
 #: modules/codec/x264.c:149
 msgid "Use mb-tree ratecontrol"
@@ -11872,7 +11872,7 @@ msgstr "MB-Baum Ratenkontrolle nutzen"
 #: modules/codec/x264.c:150
 msgid "You can disable use of Macroblock-tree on ratecontrol"
 msgstr ""
-"Sie können die Nutzung des Macroblock-Baums(MB-Baum) in der Ratenkontrolle "
+"Sie können die Nutzung des Macroblock-Baums (MB-Baum) in der Ratenkontrolle "
 "deaktivieren"
 
 #: modules/codec/x264.c:152
@@ -11966,7 +11966,7 @@ msgstr "Legt eine maximale lokale Bitrate in kbit/s fest."
 
 #: modules/codec/x264.c:187
 msgid "VBV buffer"
-msgstr "VBV-Puffer"
+msgstr "VBV-Buffer"
 
 #: modules/codec/x264.c:188
 msgid "Averaging period for the maximum local bitrate (in kbits)."
@@ -11974,14 +11974,14 @@ msgstr "Durchschnittliche Periode für die maximale lokale Bitrate (in kbits)."
 
 #: modules/codec/x264.c:191
 msgid "Initial VBV buffer occupancy"
-msgstr "Anfängliche VBV-Pufferbelegung"
+msgstr "Anfängliche VBV-Bufferbelegung"
 
 #: modules/codec/x264.c:192
 msgid ""
 "Sets the initial buffer occupancy as a fraction of the buffer size. Range "
 "0.0 to 1.0."
 msgstr ""
-"Legt die anfängliche Pufferbelegung als Bruchteil der Puffergröße fest. "
+"Legt die anfängliche Bufferbelegung als Bruchteil der Buffergröße fest. "
 "Bereich: 0.0 bis 1.0."
 
 #: modules/codec/x264.c:195
@@ -12044,7 +12044,7 @@ msgstr "QP-Differenz zwischen Farbsättigung und Leuchtkraft."
 
 #: modules/codec/x264.c:218
 msgid "Multipass ratecontrol"
-msgstr "Multipass Ratenkontrolle"
+msgstr "Multipass-Ratenkontrolle"
 
 #: modules/codec/x264.c:219
 msgid ""
@@ -12053,10 +12053,10 @@ msgid ""
 " - 2: Last pass, does not overwrite stats file\n"
 " - 3: Nth pass, overwrites stats file\n"
 msgstr ""
-"Multipass Ratecontrol:\n"
-" - 1: First pass, erstellt die stats Datei\n"
-" - 2: Last pass, überschreibt die stats Datei nicht\n"
-" - 3: Nth pass, überschreibt die stats Datei\n"
+"Multipass-Ratecontrol:\n"
+" - 1: Erster Durchgang, erstellt die Statistik-Datei\n"
+" - 2: Letzter Durchgang, überschreibt die Statistik-Datei nicht\n"
+" - 3: N-ter Durchgang, überschreibt die Statistik-Datei\n"
 
 #: modules/codec/x264.c:224
 msgid "QP curve compression"
@@ -12118,7 +12118,7 @@ msgstr "Direkter MV-Vorhersagemodus."
 
 #: modules/codec/x264.c:249
 msgid "Direct prediction size"
-msgstr "Direkte Vorhersage Größe"
+msgstr "Direkte Vorhersagegröße"
 
 #: modules/codec/x264.c:250
 msgid ""
@@ -12128,7 +12128,7 @@ msgid ""
 msgstr ""
 "Direkte Vorhersagegröße:  -  0: 4x4\n"
 " -  1: 8x8\n"
-" - -1: kleinst mögliche laut Level\n"
+" - -1: kleinstmögliche laut Level\n"
 
 #: modules/codec/x264.c:255
 msgid "Weighted prediction for B-frames"
@@ -12200,15 +12200,15 @@ msgstr ""
 
 #: modules/codec/x264.c:282
 msgid "Minimum buffer space between threads"
-msgstr "Minimale Buffer Größe zwischen den Threads"
+msgstr "Minimale Buffer-Größe zwischen den Threads"
 
 #: modules/codec/x264.c:283
 msgid ""
 "Minimum buffer space between threads. -1 is automatic, based on number of "
 "threads."
 msgstr ""
-"Minimale Buffer Größe zwischen den Threads. Automatisch ist -1, basierend "
-"auf der Anzahl der Threads"
+"Minimale-Buffer Größe zwischen den Threads. Automatisch ist -1, basierend "
+"auf der Anzahl der Threads."
 
 #: modules/codec/x264.c:286
 msgid "Strength of psychovisual optimization, default is \"1.0:0.0\""
@@ -12219,13 +12219,13 @@ msgid ""
 "First parameter controls if RD is on (subme>=6) or offsecond parameter "
 "controls if Trellis is used on psychovisual optimization,default off"
 msgstr ""
-"Der erste Parameter steuert, wenn RD aktiviert ist (subme>=6) oder wenn RD "
-"deaktiviert ist. Der zweite Parameter steuert, wenn Trellis bei der "
-"psychovisuellen Optimierung benutzt wird. Standardmäßig ist es deaktiviert"
+"Der erste Parameter steuert, ob RD aktiviert (subme>=6) oder deaktiviert "
+"ist. Der zweite Parameter steuert, ob Trellis bei der psychovisuellen "
+"Optimierung benutzt wird. Standardmäßig ist es deaktiviert"
 
 #: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
-msgstr "Zwischenpixel-Bewegungsvorhersage und Partitionsentscheidunggsqualität"
+msgstr "Zwischenpixel-Bewegungsvorhersage und Partitionsentscheidungsqualität"
 
 #: modules/codec/x264.c:293
 msgid ""
@@ -12255,8 +12255,8 @@ msgid ""
 "Allows each 8x8 or 16x8 partition to independently select a reference frame, "
 "as opposed to only one ref per macroblock."
 msgstr ""
-"Erlaubt jeder 8x8- oder 16x8-Partition einen eigenen Bezugsbild zu wählen, "
-"im Gegensatz zu nur einer Beziehung je Makroblock."
+"Erlaubt jeder 8x8- oder 16x8-Partition ein eigenes Bezugsbild zu wählen, im "
+"Gegensatz zu nur einer Beziehung je Makroblock."
 
 #: modules/codec/x264.c:306
 msgid "Chroma in motion estimation"
@@ -12302,11 +12302,11 @@ msgstr ""
 
 #: modules/codec/x264.c:324
 msgid "Early SKIP detection on P-frames"
-msgstr "Frühe SKIP-Erkennung bei P-Frams"
+msgstr "Frühe SKIP-Erkennung bei P-Frames"
 
 #: modules/codec/x264.c:325
 msgid "Early SKIP detection on P-frames."
-msgstr "Früher SKIP-Erkennung bei P-Frams"
+msgstr "Frühe SKIP-Erkennung bei P-Frames"
 
 #: modules/codec/x264.c:327
 msgid "Coefficient thresholding on P-frames"
@@ -12317,8 +12317,8 @@ msgid ""
 "Coefficient thresholding on P-frames.Eliminate dct blocks containing only a "
 "small single coefficient."
 msgstr ""
-"Koeffizienten Schwellwertbildung bei P-Frames. Eliminiere dct Blöcke die nur "
-"einen kleinen einfachen Koeffizienten enthalten."
+"Koeffizienten Schwellwertbildung bei P-Frames. Eliminiere dct-Blöcke, die "
+"nur einen kleinen, einfachen Koeffizienten enthalten."
 
 #: modules/codec/x264.c:331
 msgid "Use Psy-optimizations"
@@ -12345,7 +12345,7 @@ msgstr "Inter Luma Quantisierungs-Deadzone"
 #: modules/codec/x264.c:340
 msgid "Set the size of the inter luma quantization deadzone. Range 0 to 32."
 msgstr ""
-"Legt die Größe für die Inter Luma Quantisierungs-Deadzone fest.Der Bereich "
+"Legt die Größe für die Inter Luma Quantisierungs-Deadzone fest. Der Bereich "
 "liegt zwischen 0 bis 32."
 
 #: modules/codec/x264.c:343
@@ -12355,7 +12355,7 @@ msgstr "Intra Luma Quantisierungs-Deadzone"
 #: modules/codec/x264.c:344
 msgid "Set the size of the intra luma quantization deadzone. Range 0 to 32."
 msgstr ""
-"Legt die Größe für die Intra Luma Quantisierungs-Deadzone fest.Der Bereich "
+"Legt die Größe für die Intra Luma Quantisierungs-Deadzone fest. Der Bereich "
 "liegt zwischen 0 bis 32."
 
 #: modules/codec/x264.c:349
@@ -12377,11 +12377,11 @@ msgstr "Assembler-CPU-Optimierungen benutzen."
 
 #: modules/codec/x264.c:356
 msgid "Filename for 2 pass stats file"
-msgstr "Dateiname für die 2 Pass stats Datei"
+msgstr "Dateiname für die 2-Pass-Statistik-Datei"
 
 #: modules/codec/x264.c:357
 msgid "Filename for 2 pass stats file for multi-pass encoding."
-msgstr "Dateiname für die 2 Pass stats Datei für multi-pass encoding."
+msgstr "Dateiname für die 2-Pass-Statistik-Datei für multi-pass encoding."
 
 #: modules/codec/x264.c:359
 msgid "PSNR computation"
@@ -12422,7 +12422,7 @@ msgstr "Statistik"
 
 #: modules/codec/x264.c:371
 msgid "Print stats for each frame."
-msgstr "Statistiken für jedes Bild erzeugen."
+msgstr "Statistiken für jeden Frame erzeugen."
 
 #: modules/codec/x264.c:373
 msgid "SPS and PPS id numbers"
@@ -12433,12 +12433,12 @@ msgid ""
 "Set SPS and PPS id numbers to allow concatenating streams with different "
 "settings."
 msgstr ""
-"Setze SPS und PPS id Nummern um Streams mit verschiedenen Einstellungen zu "
+"Setze SPS und PPS ID-Nummern, um Streams mit verschiedenen Einstellungen zu "
 "verbinden."
 
 #: modules/codec/x264.c:377
 msgid "Access unit delimiters"
-msgstr "Access Maßeinheiten Begrenzungen"
+msgstr "Trennzeichen der Zugriffs-Einheiten"
 
 #: modules/codec/x264.c:378
 msgid "Generate access unit delimiter NAL units."
@@ -12782,8 +12782,8 @@ msgid ""
 "List of handler extensions and executable paths (for instance: php=/usr/bin/"
 "php,pl=/usr/bin/perl)."
 msgstr ""
-"Liste der Dateiendungen und Pfade der Programme, die sie Ausführen (z.B. "
-"php=/usr/bin/php,pl=/usr/bin/perl)."
+"Liste der Dateiendungen und Pfade der zugehörigen Programme (z.B. php=/usr/"
+"bin/php,pl=/usr/bin/perl)."
 
 #: modules/control/http/http.c:53
 msgid "Export album art as /art"
@@ -12875,7 +12875,7 @@ msgid ""
 "synchronisationover clients listening on the masters network ip address"
 msgstr ""
 "Die VLC-Instanz wird die eigene Uhrzeit zur Synchronisation der Clients im "
-"Netzwerk über die Master Netzwork IP-Adresse vorgeben."
+"Netzwerk über die Master-Netzwerk IP-Adresse vorgeben."
 
 #: modules/control/netsync.c:62
 msgid "Master server ip address"
@@ -12947,7 +12947,7 @@ msgid ""
 "install time so the Service is properly configured. Use a comma separated "
 "list of interface modules. (common values are: logger, sap, rc, http)"
 msgstr ""
-"Zusätzliche Interfaces, die vom Dienst erzeugt werden. Diese sollte zur "
+"Zusätzliche Interfaces, die vom Dienst erzeugt werden. Diese sollten zur "
 "Installationszeit angeben werden, damit der Dienst richtig konfiguriert "
 "wird. Nutzen Sie eine durch Kommata getrennte Liste von Interfacemodulen. "
 "(übliche Werte sind: logger, sap, rc, http)"
@@ -13163,7 +13163,7 @@ msgstr "| normal . . . . . . . . . . . .  normale Wiedergabe des Streams"
 
 #: modules/control/rc.c:827
 msgid "| frame. . . . . . . . . .  play frame by frame"
-msgstr "| Bild . . . . . . . . . . . spielt Bild nach Bild"
+msgstr "| Frame . . . . . . . . . . . spielt Frame für Frame"
 
 #: modules/control/rc.c:828
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
@@ -13243,7 +13243,7 @@ msgstr "| strack [X] . . . . . . . . . Untertitelspur holen/einstellen"
 
 #: modules/control/rc.c:848
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
-msgstr "| key [Hotkey Name] . . . . . .  Hotkey druck simulieren"
+msgstr "| key [Hotkey Name] . . . . . .  Hotkey-Druck simulieren"
 
 #: modules/control/rc.c:849
 msgid "| menu . . [on|off|up|down|left|right|select] use menu"
@@ -13281,7 +13281,6 @@ msgstr "| @name marq-timeout T . . . . . . . .  Timeout der Einblendung, in ms"
 msgid "| @name marq-size # . . . . . . . . font size, in pixels"
 msgstr "| @name marq-size #  . . . . . . . . . . . . . Schriftgröße, in Pixeln"
 
-# überlagernde order überlagerte Datei???
 #: modules/control/rc.c:863
 msgid "| @name logo-file STRING . . .the overlay file path/name"
 msgstr ""
@@ -14109,9 +14108,9 @@ msgid ""
 "Use playlist options usually used to prevent ads skipping to detect ads and "
 "prevent adding them to the playlist."
 msgstr ""
-"Benutze Wiedergabelistenoptionen die normalerweise benutzt werden um das "
-"Überspringen von Werbung zu verhindern um Werbung zu erkennen und verhindere "
-"das diese zur Wiedergabeliste hinzugefügt wird."
+"Benutze Wiedergabelistenoptionen, die normalerweise benutzt werden, um das "
+"Überspringen von Werbung zu verhindern, zum Erkennen von Werbung und um zu "
+"verhindern, dass diese zur Wiedergabeliste hinzugefügt wird."
 
 #: modules/demux/playlist/playlist.c:72
 msgid "M3U playlist import"
@@ -14279,7 +14278,7 @@ msgstr "Audio-Samplerate (Hz)"
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
-msgstr "Audio-Samplerate in Hertz Standard ist 48000 Hz."
+msgstr "Audio-Samplerate in Hertz. Standard ist 48000 Hz."
 
 #: modules/demux/rawaud.c:46 modules/stream_out/transcode/transcode.c:99
 msgid "Audio channels"
@@ -14287,7 +14286,7 @@ msgstr "Audiokanäle"
 
 #: modules/demux/rawaud.c:47
 msgid "Audio channels in input stream. Numeric value >0. Default is 2."
-msgstr "Audio-Kanäle im Eingangstrom. Nummerischer Wert >0. Standard ist 2."
+msgstr "Audio-Kanäle im Eingangsstrom. Numerischer Wert > 0. Standard ist 2."
 
 #: modules/demux/rawaud.c:49
 msgid "FOURCC code of raw input format"
@@ -14319,12 +14318,12 @@ msgstr "Raw-Audiodemuxer"
 msgid ""
 "The demuxer will advance timestamps if the input can't keep up with the rate."
 msgstr ""
-"Der Demuxer wird Timestamps verzögern, wenn der Input nicht mit der "
-"Datenrate mithalten kann."
+"Der Demuxer wird den Abstand der Zeitstempel vergrößern, wenn der Input "
+"nicht mit der Datenrate mithalten kann."
 
 #: modules/demux/rawdv.c:49
 msgid "DV (Digital Video) demuxer"
-msgstr "DV (Digital Video)-Mixer"
+msgstr "DV-(Digital Video)-Demuxer"
 
 #: modules/demux/rawvid.c:45
 msgid ""
@@ -14344,7 +14343,7 @@ msgstr "Dies gibt die Höhe des Raw-Videostreams an (in Pixeln)."
 
 #: modules/demux/rawvid.c:56
 msgid "Force chroma (Use carefully)"
-msgstr "Farbsättigung erzwingen (Vorsichtig benutzen)"
+msgstr "Farbsättigung erzwingen (vorsichtig benutzen)"
 
 #: modules/demux/rawvid.c:57
 msgid "Force chroma. This is a four character string."
@@ -14400,7 +14399,7 @@ msgstr ""
 
 #: modules/demux/subtitle.c:62
 msgid "Override the default track description."
-msgstr "Überschreibt die Standard-Titel Beschreibung"
+msgstr "Überschreibt die Standardtitel-Beschreibung"
 
 #: modules/demux/subtitle.c:74 modules/demux/subtitle_asa.c:58
 msgid "Text subtitles parser"
@@ -14428,14 +14427,14 @@ msgid ""
 "based subtitle formats without a fixed value."
 msgstr ""
 "Überschreibt die Einstellungen der Frames pro Sekunde. Dies wird nur mit "
-"Bildbasierten Untertiteln, ohne einen festen Wert funktionieren."
+"bildbasierten Untertiteln, ohne einen festen Wert, funktionieren."
 
 #: modules/demux/subtitle_asa.c:54
 msgid ""
 "Force the subtiles format. Use \"auto\", the set of supported values varies."
 msgstr ""
-"Erzinge das Untertitel Format. Benutzen sie \"auto\", die Menge der "
-"Unterstützten Werte variiert."
+"Erzwinge das Untertitel-Format. Benutzen sie \"auto\" für die Anzahl der "
+"unterstützten Variationen."
 
 #: modules/demux/subtitle_asa.c:57
 msgid "Subtitles (asa demuxer)"
@@ -14448,7 +14447,7 @@ msgstr "Extra-PMT"
 #: modules/demux/ts.c:112
 msgid "Allows a user to specify an extra pmt (pmt_pid=pid:stream_type[,...])."
 msgstr ""
-"Erlaubt einem Benutzer eine extra-PMT (pmt_pid=pid:stream_type[,...]) "
+"Erlaubt es einem Benutzer eine extra-PMT (pmt_pid=pid:stream_type[,...]) "
 "festzulegen."
 
 #: modules/demux/ts.c:114
@@ -14462,7 +14461,7 @@ msgid ""
 "'#duplicate{..., select=\"es=<pid>\"}'."
 msgstr ""
 "Setzt die interne ID von jedem Elementarstream auf den gleichen Wert wie die "
-"PID im TS Stream den VLC verwendet, anstelle von 1, 2, 3, usw. Wichtig für "
+"von VLC verwendete PID im TS-Stream, anstelle von 1, 2, 3, usw. Wichtig für "
 "'#duplicate{..., select=\"es=<pid>\"}'."
 
 #: modules/demux/ts.c:120
@@ -14472,7 +14471,8 @@ msgstr "Schnelles UDP-Streaming"
 #: modules/demux/ts.c:122
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
 msgstr ""
-"Sendet TS an bestimmten ip:port über UDP (Sie müssen wissen, was Sie tun)."
+"Sendet über UDP einen TS-Stream an einen bestimmten IP-Port (Sie müssen "
+"wissen, was Sie tun)."
 
 #: modules/demux/ts.c:124
 msgid "MTU for out mode"
@@ -14553,15 +14553,15 @@ msgstr ""
 
 #: modules/demux/ts.c:153
 msgid "Dump buffer size"
-msgstr "Dump-Puffergröße"
+msgstr "Dump-Buffergröße"
 
 #: modules/demux/ts.c:155
 msgid ""
 "Tweak the buffer size for reading and writing an integer number of packets."
 "Specify the size of the buffer here and not the number of packets."
 msgstr ""
-"Gibt die Puffergröße zum Lesen und Schreiben einer ganzzahligen Paketmenge "
-"an. Geben Sie hier die Größe des Puffers an, nicht die Anzahl der Pakete."
+"Gibt die Buffergröße zum Lesen und Schreiben einer ganzzahligen Paketmenge "
+"an. Geben Sie hier die Größe des Buffers an, nicht die Anzahl der Pakete."
 
 #: modules/demux/ts.c:158
 msgid "Separate sub-streams"
@@ -14572,7 +14572,7 @@ msgid ""
 "Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
-"Separate Teletext/DVBS-Seiten zu unabhängigen ES. Es kann nützlich sein "
+"Separate Teletext/DVBS-Seiten zu unabhängigen ES. Es kann nützlich sein, "
 "diese Option zu deaktiveren, wenn ein Stream-Output verwendet wird."
 
 #: modules/demux/ts.c:164
@@ -14614,7 +14614,7 @@ msgstr "Gehörgeschädigte"
 
 #: modules/demux/ts.c:3857 modules/demux/ts.c:3899
 msgid "visual impaired commentary"
-msgstr "Sehbehinderten Kommertar"
+msgstr "Sehbehinderten-Kommentar"
 
 #: modules/demux/tta.c:45
 msgid "TTA demuxer"
@@ -14675,7 +14675,7 @@ msgstr "Framebuffer-Gerät"
 #: modules/gui/fbosd.c:103 modules/video_output/fb.c:58
 msgid "Framebuffer device to use for rendering (usually /dev/fb0)."
 msgstr ""
-"Das Framepuffer-Gerät, das zum Rendern benutzt werden soll (üblicherweise /"
+"Das Framebuffer-Gerät, das zum Rendern benutzt werden soll (üblicherweise /"
 "dev/fb0)."
 
 #: modules/gui/fbosd.c:105
@@ -14690,11 +14690,11 @@ msgstr ""
 
 #: modules/gui/fbosd.c:111
 msgid "Filename of image file to use on the overlay framebuffer."
-msgstr "Dateiname des Bildes das im Overlay Framebuffer benutzt wird."
+msgstr "Dateiname des Bildes, das im Overlay-Framebuffer benutzt wird."
 
 #: modules/gui/fbosd.c:113
 msgid "Transparency of the image"
-msgstr "Transparenz des Bilds"
+msgstr "Transparenz des Bildes"
 
 #: modules/gui/fbosd.c:114
 msgid ""
@@ -14711,7 +14711,7 @@ msgstr "Text"
 
 #: modules/gui/fbosd.c:119
 msgid "Text to display on the overlay framebuffer."
-msgstr "Text der auf dem Overlay Framebuffer angezeigt wird."
+msgstr "Text, der auf dem Overlay-Framebuffer angezeigt wird."
 
 #: modules/gui/fbosd.c:121 modules/video_filter/audiobargraph_v.c:51
 #: modules/video_filter/erase.c:57 modules/video_filter/logo.c:58
@@ -14721,7 +14721,7 @@ msgstr "X-Koordinate"
 
 #: modules/gui/fbosd.c:122
 msgid "X coordinate of the rendered image"
-msgstr "X-Koordinate des gerenderten Bilds"
+msgstr "X-Koordinate des gerenderten Bildes"
 
 #: modules/gui/fbosd.c:124 modules/video_filter/audiobargraph_v.c:53
 #: modules/video_filter/erase.c:59 modules/video_filter/logo.c:61
@@ -14731,7 +14731,7 @@ msgstr "Y-Koordinate"
 
 #: modules/gui/fbosd.c:125
 msgid "Y coordinate of the rendered image"
-msgstr "Y-Koordinate des gerenderten Bilds"
+msgstr "Y-Koordinate des gerenderten Bildes"
 
 #: modules/gui/fbosd.c:129
 msgid ""
@@ -14776,14 +14776,14 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
-"Farbe des Textes der in das Video gezeichnet wird. Dies muss ein "
+"Farbe des Textes, der in das Video gezeichnet wird. Dies muss ein "
 "hexadezimaler Wert sein (wie HTML-Farben). Die ersten beiden Zeichen stehen "
 "für rot, dann Grün, dann Blau. #000000 = Schwarz, #FF0000 = Rot, #00FF00 = "
 "Grün, #FFFF00 = Gelb (Rot + Grün), #FFFFFF = Weiß"
 
 #: modules/gui/fbosd.c:147
 msgid "Clear overlay framebuffer"
-msgstr "Overlay Framebuffer leeren"
+msgstr "Overlay-Framebuffer leeren"
 
 #: modules/gui/fbosd.c:148
 msgid ""
@@ -14791,7 +14791,7 @@ msgid ""
 "transparent. All previously rendered images and text will be cleared from "
 "the cache."
 msgstr ""
-"Das angezeigte Overlay Bild wird entfernt indem das Overlay komplett "
+"Das angezeigte Overlay-Bild wird entfernt, indem das Overlay komplett "
 "transparent gemacht wird. Alle vorher gerenderten Bilder und Texte werden "
 "aus dem Cache entfernt."
 
@@ -14801,7 +14801,7 @@ msgstr "Text oder Bild rendern"
 
 #: modules/gui/fbosd.c:153
 msgid "Render the image or text in current overlay buffer."
-msgstr "Rendere das Bild oder den Text in den aktuellen Overlay Buffer."
+msgstr "Rendere das Bild oder den Text in den aktuellen Overlay-Buffer."
 
 #: modules/gui/fbosd.c:156
 msgid "Display on overlay framebuffer"
@@ -14811,7 +14811,7 @@ msgstr "Auf Overlay-Framebuffer anzeigen"
 msgid ""
 "All rendered images and text will be displayed on the overlay framebuffer."
 msgstr ""
-"Alle gerenderten Bilder und Texte werden auf dem Overlay Framebuffer "
+"Alle gerenderten Bilder und Texte werden auf dem Overlay-Framebuffer "
 "angezeigt."
 
 #: modules/gui/fbosd.c:203 modules/gui/macosx/simple_prefs.m:283
@@ -15093,7 +15093,7 @@ msgstr "Kräuselung"
 #: modules/video_filter/psychedelic.c:55
 #: modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
-msgstr "Psychedelic"
+msgstr "Psychedelisch"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
 #: modules/video_filter/gradient.c:82 modules/gui/qt4/ui/video_effects.h:1148
@@ -15169,7 +15169,7 @@ msgstr "Kopfhörervirtualisierung"
 #: modules/gui/macosx/extended.m:93
 msgid "Imitates the effect of surround sound when using headphones."
 msgstr ""
-"Immitiert den Effekt von Surround Sound, wenn Sie einen Kopfhörer benutzen."
+"Immitiert den Effekt von Surround-Sound, wenn Sie einen Kopfhörer benutzen."
 
 #: modules/gui/macosx/extended.m:95
 msgid "Maximum level"
@@ -15519,14 +15519,14 @@ msgstr ""
 
 #: modules/gui/macosx/macosx.m:62
 msgid "Stretch video to fill window"
-msgstr "Video strecken um das Fenster auszufüllen"
+msgstr "Video strecken, um das Fenster auszufüllen"
 
 #: modules/gui/macosx/macosx.m:63
 msgid ""
 "Stretch the video to fill the entire window when resizing the video instead "
 "of keeping the aspect ratio and displaying black borders."
 msgstr ""
-"Streckt das Video um das gesamte Fenster auszufüllen, anstatt das "
+"Streckt das Video, um das gesamte Fenster auszufüllen, anstatt das "
 "Seitenverhältnis beizubehalten und schwarze Ränder hinzuzufügen."
 
 #: modules/gui/macosx/macosx.m:67
@@ -15611,7 +15611,7 @@ msgid ""
 "By default, VLC can be controlled using the media keys on modern Apple "
 "keyboards."
 msgstr ""
-"Standardmäßig kann VLC über die Medientasten auf modernen Apple Tastaturen "
+"Standardmäßig kann VLC über die Medientasten auf modernen Apple-Tastaturen "
 "gesteuert werden."
 
 #: modules/gui/macosx/macosx.m:98
@@ -15713,7 +15713,7 @@ msgstr "DVD"
 
 #: modules/gui/macosx/open.m:201
 msgid "IP Address"
-msgstr "IP Adresse"
+msgstr "IP-Adresse"
 
 #: modules/gui/macosx/open.m:204
 msgid ""
@@ -15722,7 +15722,7 @@ msgid ""
 "press the button below."
 msgstr ""
 "Um einen typischen Netzwerkstream zu öffnen (HTTP, RTSP, MMS, FTP, usw.), "
-"geben Sie die URL in das obige Feld ein. Wenn Sie einen RTP oder UDP Stream "
+"geben Sie die URL in das obige Feld ein. Wenn Sie einen RTP- oder UDP-Stream "
 "öffnen möchten, klicken Sie auf den unteren Button."
 
 #: modules/gui/macosx/open.m:205
@@ -15743,7 +15743,7 @@ msgstr ""
 
 #: modules/gui/macosx/open.m:208
 msgid "Open RTP/UDP Stream"
-msgstr "RTP/UDP Stream öffnen"
+msgstr "RTP/UDP-Stream öffnen"
 
 #: modules/gui/macosx/open.m:210
 msgid "Protocol"
@@ -15917,7 +15917,7 @@ msgstr "Streamen/Speichern:"
 
 #: modules/gui/macosx/output.m:140
 msgid "Streaming and Transcoding Options"
-msgstr "Streaming- und Transcodierungsoptionen"
+msgstr "Streaming- und Transkodierungsoptionen"
 
 #: modules/gui/macosx/output.m:141
 msgid "Display the stream locally"
@@ -15938,7 +15938,7 @@ msgstr "Verkapselungsmethode"
 
 #: modules/gui/macosx/output.m:159 modules/gui/qt4/ui/sout.h:335
 msgid "Transcoding options"
-msgstr "Umcodierungsoptionen"
+msgstr "Umkodierungsoptionen"
 
 #: modules/gui/macosx/output.m:163 modules/gui/macosx/output.m:173
 #: modules/gui/macosx/wizard.m:384
@@ -16159,11 +16159,11 @@ msgstr "Senderate"
 
 #: modules/gui/macosx/playlistinfo.m:116
 msgid "Played buffers"
-msgstr "Gespielte Puffer"
+msgstr "Gespielte Buffer"
 
 #: modules/gui/macosx/playlistinfo.m:117
 msgid "Lost buffers"
-msgstr "Verlorene Puffer"
+msgstr "Verlorene Buffer"
 
 #: modules/gui/macosx/playlistinfo.m:396
 msgid "Error while saving meta"
@@ -16203,7 +16203,7 @@ msgid ""
 "Beware this will reset the VLC media player preferences.\n"
 "Are you sure you want to continue?"
 msgstr ""
-"Achtung. Dies wird die VLC media player-Einstellungen zurücksetzen.\n"
+"Achtung. Dies wird die VLC media player Einstellungen zurücksetzen.\n"
 "Sind Sie sicher, dass Sie fortfahren möchten?"
 
 #: modules/gui/macosx/prefs_widgets.m:1224
@@ -16352,7 +16352,7 @@ msgstr "Albumcover Downloadrichtlinie"
 
 #: modules/gui/macosx/simple_prefs.m:267
 msgid "Add controls to the video window"
-msgstr "Zum Videofenster Steuerelemente hinzufügen"
+msgstr "Steuerelemente zum Videofenster hinzufügen"
 
 #: modules/gui/macosx/simple_prefs.m:268
 msgid "Show Fullscreen Controller"
@@ -16609,7 +16609,7 @@ msgstr "Theora ist ein freier Allzweckcodec (benutzbar mit MPEG TS und OGG)"
 #: modules/gui/macosx/wizard.m:161 modules/gui/macosx/wizard.m:212
 msgid "Dummy codec (do not transcode, useable with all encapsulation formats)"
 msgstr ""
-"Dummycodec (nicht transcodieren, benutzbar mit allen Verkapselungsformaten)"
+"Dummycodec (nicht transkodieren, benutzbar mit allen Verkapselungsformaten)"
 
 #: modules/gui/macosx/wizard.m:180
 msgid ""
@@ -16706,7 +16706,7 @@ msgid ""
 msgstr ""
 "Benutzen Sie dies, um zu mehreren Computern über Microsofts MMS-Protokoll zu "
 "streamen. Dieses Protokoll wird von vielen Microsoftprogrammen benutzt. "
-"Beachten Sie das nur ein kleiner Teil des Protokolls unterstützt wird (MMS "
+"Beachten Sie, dass nur ein kleiner Teil des Protokolls unterstützt wird (MMS "
 "verkapselt in HTTP)."
 
 #: modules/gui/macosx/wizard.m:273 modules/gui/macosx/wizard.m:283
@@ -16715,7 +16715,7 @@ msgstr "Geben Sie die Adresse des Computers ein, zu dem gestreamt werden soll."
 
 #: modules/gui/macosx/wizard.m:274 modules/gui/macosx/wizard.m:372
 msgid "Use this to stream to a single computer."
-msgstr "Benutzen Sie dies um zu einem einzelnen Computer zu streamen."
+msgstr "Benutzen Sie dies, um zu einem einzelnen Computer zu streamen."
 
 #: modules/gui/macosx/wizard.m:276 modules/gui/macosx/wizard.m:286
 msgid ""
@@ -16765,13 +16765,13 @@ msgstr "Zurück"
 #: modules/gui/macosx/wizard.m:322 modules/gui/macosx/wizard.m:325
 #: modules/gui/macosx/wizard.m:1273
 msgid "Streaming/Transcoding Wizard"
-msgstr "Streaming/Transcoding-Assistent"
+msgstr "Streaming/Transkoding-Assistent"
 
 #: modules/gui/macosx/wizard.m:326
 msgid "This wizard allows to configure simple streaming or transcoding setups."
 msgstr ""
 "Dieser Assistent erlaubt die Konfiguration von einfachem Streaming oder "
-"Transcodieren. "
+"Transkodieren. "
 
 #: modules/gui/macosx/wizard.m:328 modules/gui/macosx/wizard.m:329
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:404
@@ -16786,7 +16786,7 @@ msgid ""
 "access to more features."
 msgstr ""
 "Dieser Assistent gewährt Ihnen nur auf einen kleinen Teil von VLCs "
-"Streaming- und Transcodierungsmöglichkeiten Zugriff. Die Öffnen und "
+"Streaming- und Transkodierungsmöglichkeiten Zugriff. Die Öffnen und "
 "\"Speichern/Streamen\"-Dialoge erlauben den Zugriff auf deutlich mehr "
 "Funktionen."
 
@@ -16797,7 +16797,7 @@ msgstr "Über das Netzwerk streamen"
 
 #: modules/gui/macosx/wizard.m:337 modules/gui/macosx/wizard.m:1685
 msgid "Transcode/Save to file"
-msgstr "Transcodieren/Als Datei speichern"
+msgstr "Transkodieren/als Datei speichern"
 
 #: modules/gui/macosx/wizard.m:340
 msgid "Choose input"
@@ -16867,7 +16867,7 @@ msgstr "UDP-Multicast"
 #: modules/gui/macosx/wizard.m:376
 #: modules/stream_out/transcode/transcode.c:154
 msgid "Transcode"
-msgstr "Transcodieren"
+msgstr "Transkodieren"
 
 #: modules/gui/macosx/wizard.m:377
 msgid ""
@@ -16880,25 +16880,25 @@ msgstr ""
 
 #: modules/gui/macosx/wizard.m:382 modules/gui/macosx/wizard.m:441
 msgid "Transcode audio"
-msgstr "Audio transcodieren"
+msgstr "Audio transkodieren"
 
 #: modules/gui/macosx/wizard.m:383 modules/gui/macosx/wizard.m:443
 msgid "Transcode video"
-msgstr "Video transcodieren"
+msgstr "Video transkodieren"
 
 #: modules/gui/macosx/wizard.m:386 modules/gui/macosx/wizard.m:1821
 msgid ""
 "Enabling this allows to transcode the audio track if one is present in the "
 "stream."
 msgstr ""
-"Dies erlaubt das Transcodieren der Audiospur, sofern eine vorhanden ist."
+"Dies erlaubt das Transkodieren der Audiospur, sofern eine vorhanden ist."
 
 #: modules/gui/macosx/wizard.m:388 modules/gui/macosx/wizard.m:1838
 msgid ""
 "Enabling this allows to transcode the video track if one is present in the "
 "stream."
 msgstr ""
-"Dies erlaubt das Transcodieren der Videospur, sofern eine vorhanden ist."
+"Dies erlaubt das Transkodieren der Videospur, sofern eine vorhanden ist."
 
 #: modules/gui/macosx/wizard.m:392
 msgid "Encapsulation format"
@@ -16939,16 +16939,16 @@ msgstr "Lokale Wiedergabe"
 
 #: modules/gui/macosx/wizard.m:407 modules/gui/macosx/wizard.m:416
 msgid "Add Subtitles to transcoded video"
-msgstr "Untertitel dem transcodierten Video hinzufügen"
+msgstr "Untertitel dem transkodierten Video hinzufügen"
 
 #: modules/gui/macosx/wizard.m:410
 msgid "Additional transcode options"
-msgstr "Zusätzliche Transcodierungsoptionen"
+msgstr "Zusätzliche Transkodierungsoptionen"
 
 #: modules/gui/macosx/wizard.m:411
 msgid "In this page, a few additional transcoding parameters can be set."
 msgstr ""
-"Auf dieser Seite können zusätzliche Transcodierungsparameter festgelegt "
+"Auf dieser Seite können zusätzliche Transkodierungsparameter festgelegt "
 "werden."
 
 #: modules/gui/macosx/wizard.m:413 modules/gui/macosx/wizard.m:1095
@@ -16970,7 +16970,7 @@ msgid ""
 "transcoding."
 msgstr ""
 "Diese Seite listet alle Einstellungen auf. Klicken Sie auf \"Fertig\", um "
-"mit dem Streamen oder Transcodieren zu beginnen."
+"mit dem Streamen oder Transkodieren zu beginnen."
 
 #: modules/gui/macosx/wizard.m:426
 msgid "Summary"
@@ -17112,7 +17112,7 @@ msgstr ""
 "währenddessen neu codiert werden. Alles was VLC lesen kann, kann gespeichert "
 "werden.\n"
 "Bitte beachten Sie, dass VLC nicht dafür ausgelegt ist, von einer Datei in "
-"eine andere zu transcodieren. Sie sollten die Transcodierungsfeatures "
+"eine andere zu transkodieren. Sie sollten die Transkodierungsfeatures "
 "beispielsweise zum Speichern von Netzwerkstreams benutzen."
 
 #: modules/gui/macosx/wizard.m:1816
@@ -17150,8 +17150,8 @@ msgid ""
 msgstr ""
 "Beim Streamen über UDP können die Streams über das SAP/SDP-"
 "Bekanntgabeprotokoll angekündigt werden. In diesem Fall müssen die Clients "
-"nicht die Multicast-Adresse eingeben. Der Stream wird in ihrer "
-"Wiedergabeliste erscheinen, wenn sie das zusätzliche SAP-Interface "
+"nicht die Multicast-Adresse eingeben. Der Stream wird in Ihrer "
+"Wiedergabeliste erscheinen, wenn Sie das zusätzliche SAP-Interface "
 "aktivieren.\n"
 "Wenn Sie Ihrem Stream einen Namen geben möchten, geben Sie ihn hier ein, "
 "sonst wird ein Standardname benutzt."
@@ -17165,10 +17165,10 @@ msgid ""
 "streaming."
 msgstr ""
 "Wenn diese Option aktiviert ist, wird der Stream sowohl wiedergegeben als "
-"auch transcodiert/gestreamt.\n"
+"auch transkodiert/gestreamt.\n"
 "\n"
 "Beachten Sie, dass dies den Prozessor deutlich mehr belastet, als einfaches "
-"Transcodieren oder Streamen."
+"Transkodieren oder Streamen."
 
 #: modules/gui/macosx_dialog_provider/dialogProvider.m:85
 msgid "Hide no user action dialogs"
@@ -17179,8 +17179,8 @@ msgid ""
 "Don't display dialogs that don't require user action (Critical and error "
 "panel)."
 msgstr ""
-"Dialoge die keine Nutzerhandlung benötigen ausblenden (Kritische- und Fehler-"
-"Panel"
+"Dialoge, die keine Nutzerhandlung benötigen, ausblenden (Kritische- und "
+"Fehler-Panel)"
 
 #: modules/gui/hildon/maemo.c:63
 msgid "Maemo hildon interface"
@@ -17439,15 +17439,15 @@ msgstr "[Boxen]"
 
 #: modules/gui/ncurses.c:1651
 msgid "     <up>,<down>     Navigate through the box line by line"
-msgstr "   <hoch>,<runter>   Durch die Box Zeile pro Zeile bewegen"
+msgstr "   <hoch>,<runter>   Zeile für Zeile durch die Box bewegen"
 
 #: modules/gui/ncurses.c:1652
 msgid "     <pgup>,<pgdown> Navigate through the box page by page"
-msgstr "   <shoch>,<srunter> Durch die Box Seite pro Seite bewegen"
+msgstr "   <shoch>,<srunter> Seite für Seite durch die Box bewegen"
 
 #: modules/gui/ncurses.c:1657
 msgid "[Player]"
-msgstr "[Steuerung]"
+msgstr "[Player]"
 
 #: modules/gui/ncurses.c:1660
 #, c-format
@@ -17575,7 +17575,7 @@ msgstr "A->B Schleife"
 
 #: modules/gui/qt4/components/controller.hpp:107
 msgid "Frame By Frame"
-msgstr "Bild nach Bild"
+msgstr "Frame für Frame"
 
 #: modules/gui/qt4/components/controller.hpp:107
 msgid "Trickplay Reverse"
@@ -17613,11 +17613,11 @@ msgstr "Nächstes Medium in der Wiedergabeliste"
 
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Toggle the video in fullscreen"
-msgstr "Video im Vollbildmodus wechseln"
+msgstr "Vollbildmodus umschalten"
 
 #: modules/gui/qt4/components/controller.hpp:114
 msgid "Toggle the video out fullscreen"
-msgstr "Video im Vollbildmodus wechseln"
+msgstr "Vollbildmodus umschalten"
 
 #: modules/gui/qt4/components/controller.hpp:115
 msgid "Show extended settings"
@@ -17637,7 +17637,7 @@ msgstr "Von Punkt A nach Punkt B kontinuierlich wiederholen."
 
 #: modules/gui/qt4/components/controller.hpp:117
 msgid "Frame by frame"
-msgstr "Bild nach Bild"
+msgstr "Frame für Frame"
 
 #: modules/gui/qt4/components/controller.hpp:118
 msgid "Reverse"
@@ -17746,12 +17746,12 @@ msgid ""
 "Information about what your media or stream is made of.\n"
 "Muxer, Audio and Video Codecs, Subtitles are shown."
 msgstr ""
-"Informationen über den Aufbau Ihres Mediums oder Streams.\n"
-"Muxer, Audio- und Videocodecs, Untertitel werden angezeigt."
+"Informationen über den Aufbau des Mediums oder des Streams.\n"
+"Muxers, Audio- und Videocodecs, Untertitel werden angezeigt."
 
 #: modules/gui/qt4/components/info_panels.cpp:483
 msgid "Current media / stream statistics"
-msgstr "Aktuelle Medien / Stream Statistiken"
+msgstr "Aktuelle Medien / Stream-Statistiken"
 
 #: modules/gui/qt4/components/info_panels.cpp:509
 msgid "Input/Read"
@@ -17767,7 +17767,7 @@ msgstr "Mediengröße"
 
 #: modules/gui/qt4/components/info_panels.cpp:516
 msgid "Demuxed data size"
-msgstr "Demuxte-Daten Größe"
+msgstr "Größe der demuxten Daten "
 
 #: modules/gui/qt4/components/info_panels.cpp:517
 msgid "Content bitrate"
@@ -17775,7 +17775,7 @@ msgstr "Daten-Bitrate"
 
 #: modules/gui/qt4/components/info_panels.cpp:519
 msgid "Discarded (corrupted)"
-msgstr "Beschädigt (Fehlerhaft)"
+msgstr "Verworfen (Fehlerhaft)"
 
 #: modules/gui/qt4/components/info_panels.cpp:521
 msgid "Dropped (discontinued)"
@@ -17825,7 +17825,7 @@ msgstr "Gespielt"
 #: modules/gui/qt4/components/info_panels.cpp:540
 #: modules/gui/qt4/components/info_panels.cpp:541
 msgid "buffers"
-msgstr "Puffer"
+msgstr "Buffer"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:293
 msgid "Current visualization"
@@ -17849,11 +17849,11 @@ msgstr "Coverart herunterladen"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:520
 msgid "Click to toggle between elapsed and remaining time"
-msgstr "Klicken um zwischen abgelaufener und verbleibender Zeit umzuschalten"
+msgstr "Klicken, um zwischen abgelaufener und verbleibender Zeit umzuschalten"
 
 #: modules/gui/qt4/components/interface_widgets.cpp:522
 msgid "Double click to jump to a chosen time position"
-msgstr "Doppelklick um zur gewählten Zeit-Position zu springen"
+msgstr "Doppelklicken, um zur gewählten Zeit-Position zu springen"
 
 #: modules/gui/qt4/components/open_panels.cpp:53
 msgid "Select a device or a VIDEO_TS directory"
@@ -17944,7 +17944,7 @@ msgstr "Erweiterte Optionen"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:54
 msgid "Media Browser"
-msgstr "Medien Browser"
+msgstr "Medien-Browser"
 
 #: modules/gui/qt4/components/playlist/playlist.cpp:80
 msgid "Double click to get media information"
@@ -18229,7 +18229,7 @@ msgstr "Pfad"
 msgid ""
 "This module outputs the transcoded stream to a network  via the mms protocol."
 msgstr ""
-"Dieses Modul gibt den Transkodierten Stream in einem Netzwerk über das mms "
+"Dieses Modul gibt den transkodierten Stream in einem Netzwerk über das MMS-"
 "Protokoll aus."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:255
@@ -18254,11 +18254,11 @@ msgstr "Basis-Port"
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:399
 msgid "This module outputs the transcoded stream to an Icecast server."
 msgstr ""
-"Dieses Modul überträgt den Transkodierten Stream zu einen Icecast Server."
+"Dieses Modul überträgt den transkodierten Stream zu einen Icecast-Server."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:420
 msgid "Mount Point"
-msgstr "Mount Point"
+msgstr "Mount-Point"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:421
 msgid "Login:pass"
@@ -18392,7 +18392,7 @@ msgstr ""
 "anfordern, insbesondere um Medien-Informationen zu bekommen oder um "
 "festzustellen, ob Updates verfügbar sind.</p>\n"
 "<p><i>VLC media player</i> sendet oder sammelt <b>KEINE</b> Informationen "
-"über Ihre Benutzung, auch nicht anonym.</p>\n"
+"über Ihre Nutzung, auch nicht anonym.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: modules/gui/qt4/ui/open_capture.h:103 modules/gui/qt4/ui/sout.h:347
@@ -18433,7 +18433,7 @@ msgid ""
 "\n"
 msgstr ""
 "Der VLC media player ist ein freier Medienplayer, Encodierer und Streamer, "
-"der Dateien, von DVDs und CDs, Netzwerkstreams, Aufnahmekarten und vielem "
+"der Dateien von DVDs und CDs, Netzwerkstreams, Aufnahmekarten und vielem "
 "mehr lesen kann.\n"
 "VLC benutzt seine internen Codecs und funktioniert auf jeder populären "
 "Plattform.\n"
@@ -18655,8 +18655,8 @@ msgstr "URL hier eingeben..."
 #: modules/gui/qt4/dialogs/openurl.cpp:66
 msgid "Please enter the URL or path to the media you want to play"
 msgstr ""
-"Bitte geben sie die URL oder den Pfad zu dem Medium das sie abspielen "
-"möchten ein"
+"Bitte geben Sie die URL oder den Pfad zu dem Medium, das Sie abspielen "
+"möchten, ein"
 
 #: modules/gui/qt4/dialogs/openurl.cpp:70
 msgid ""
@@ -18664,8 +18664,8 @@ msgid ""
 "or the path to a file on your computer,\n"
 "it will be automatically selected."
 msgstr ""
-"Wenn ihre Zwischenablage eine gültige URL\n"
-"oder den Pfad zu einer Datei auf ihrem Computer enthält,\n"
+"Wenn Ihre Zwischenablage eine gültige URL\n"
+"oder den Pfad zu einer Datei auf Ihrem Computer enthält,\n"
 "wird diese automatisch ausgewählt."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:58
@@ -18694,7 +18694,7 @@ msgstr "Mehr Informationen..."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:218
 msgid "Reload extensions"
-msgstr "Erweiterungen neuladen"
+msgstr "Erweiterungen neu laden"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:492
 msgid "Version"
@@ -18702,7 +18702,7 @@ msgstr "Version"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:512
 msgid "Website"
-msgstr "Webseite"
+msgstr "Web-Seite"
 
 #: modules/gui/qt4/dialogs/podcast_configuration.cpp:35
 msgid "Deletes the selected item"
@@ -18761,10 +18761,10 @@ msgid ""
 "You should start by checking that source matches what you want your input to "
 "be and then press the \"Next\" button to continue.\n"
 msgstr ""
-"Dieser Dialog erlaubt es ihnen ihre Medien zu streamen oder für den lokalen "
-"Gebrauch, in ihrem privaten Netzwerk oder dem Internet zu konvertieren.\n"
-"Sie sollten damit beginnen zu überprüfen ob die Quelle ihr gewünschter Input "
-"ist und dann auf die \"Weiter\" Schaltfläche klicken um fortzufahren.\n"
+"Dieser Dialog erlaubt es Ihnen, Ihre Medien zu streamen oder für den lokalen "
+"Gebrauch in Ihrem privaten Netzwerk oder dem Internet zu konvertieren.\n"
+"Sie sollten damit beginnen, zu überprüfen ob die Quelle Ihr gewünschter "
+"Input ist und dann auf die \"Weiter\" Schaltfläche klicken um fortzufahren.\n"
 
 #: modules/gui/qt4/dialogs/sout.cpp:56
 msgid ""
@@ -18783,7 +18783,7 @@ msgstr "Werkzeugleisteneditor"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:57
 msgid "Toolbar Elements"
-msgstr "Toolbar Elemente"
+msgstr "Toolbar-Elemente"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:62
 msgid "Next widget style:"
@@ -18827,11 +18827,11 @@ msgstr "Zeile 2:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:106
 msgid "Advanced Widget toolbar:"
-msgstr "Erweiterte Widget Werkzeugleiste:"
+msgstr "Erweiterte Widget-Werkzeugleiste:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:117
 msgid "Time Toolbar"
-msgstr "Zeit Werkzeugleiste"
+msgstr "Zeit-Werkzeugleiste"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:129
 msgid "Fullscreen Controller"
@@ -18855,7 +18855,7 @@ msgstr "Profilname"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:218
 msgid "Please enter the new profile name."
-msgstr "Bitte geben sie den neuen Profilnamen ein."
+msgstr "Bitte geben Sie den neuen Profilnamen ein."
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:298
 msgid "Spacer"
@@ -18871,7 +18871,7 @@ msgstr "Splitter"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:339
 msgid "Time Slider"
-msgstr "Zeit Schieberegler"
+msgstr "Zeit-Schieberegler"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:352
 msgid "Small Volume"
@@ -18879,7 +18879,7 @@ msgstr "Niedrige Lautstärke"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:386
 msgid "DVD menus"
-msgstr "DVD Menüs"
+msgstr "DVD-Menüs"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:414
 msgid "Advanced Buttons"
@@ -19081,7 +19081,7 @@ msgstr "Spur-Synchronisierung"
 
 #: modules/gui/qt4/menus.cpp:382
 msgid "Program Guide"
-msgstr "Programm Guide"
+msgstr "Programm-Guide"
 
 #: modules/gui/qt4/menus.cpp:389
 msgid "Plu&gins and extensions"
@@ -19362,8 +19362,9 @@ msgid ""
 "Show a notification popup with the artist and track name when the current "
 "playlist item changes, when VLC is minimized or hidden."
 msgstr ""
-"Ein Benachrichtigungs-Popup mit dem Interpreten und Titelnamen anzeigen wenn "
-"das wiedergegebene Objekt wechselt, wenn VLC minimiert oder ausgeblendet ist."
+"Ein Benachrichtigungs-Popup mit dem Interpreten und Titelnamen anzeigen, "
+"wenn das wiedergegebene Objekt wechselt während VLC minimiert oder "
+"ausgeblendet ist."
 
 #: modules/gui/qt4/qt4.cpp:99
 msgid "Advanced options"
@@ -19375,7 +19376,7 @@ msgstr "Alle erweiterten Optionen in den Dialogen anzeigen."
 
 #: modules/gui/qt4/qt4.cpp:103
 msgid "Windows opacity between 0.1 and 1"
-msgstr "Fensterundurchsichtigkeit zwischen 0,1 und 1"
+msgstr "Fensterdeckkraft zwischen 0,1 und 1"
 
 #: modules/gui/qt4/qt4.cpp:104
 msgid ""
@@ -19383,9 +19384,9 @@ msgid ""
 "extended panel. This option only works with Windows and X11 with composite "
 "extensions."
 msgstr ""
-"Legt die Undurchsichtigkeit des Fensters zwischen 0,1 und 1 für "
-"Hauptinterface, Wiedergabeliste und Erweiterte Optionen fest. Dies "
-"funktioniert nur unter Windows und X11 mit Composite-Erweiterungen."
+"Legt die Deckkraft des Fensters zwischen 0,1 und 1 für Hauptinterface, "
+"Wiedergabeliste und Erweiterte Optionen fest. Dies funktioniert nur unter "
+"Windows und X11 mit Composite-Erweiterungen."
 
 #: modules/gui/qt4/qt4.cpp:109
 msgid "Fullscreen controller opacity between 0.1 and 1"
@@ -19431,7 +19432,7 @@ msgid ""
 "option can distort the audio, since it uses software amplification."
 msgstr ""
 "Erlaubt der Lautstärke einen Bereich von 0 bis 400% anstatt von 0 bis 200%. "
-"Dies kann den Klang verzerren, da es eine software-basierte Verstärkung ist."
+"Dies kann den Klang verzerren, da es eine Software-basierte Verstärkung ist."
 
 #: modules/gui/qt4/qt4.cpp:130
 msgid "Automatically save the volume on exit"
@@ -19447,7 +19448,7 @@ msgstr "Die zuletzt gespielten Objekte im Menü speichern"
 
 #: modules/gui/qt4/qt4.cpp:136
 msgid "List of words separated by | to filter"
-msgstr "Liste von Wörtern getrennt von | zum Filtern"
+msgstr "Liste von Wörtern, getrennt durch | zum Filtern"
 
 #: modules/gui/qt4/qt4.cpp:137
 msgid "Regular expression used to filter the recent items played in the player"
@@ -19502,7 +19503,7 @@ msgstr "Definiert den Vollbild-Bildschirm"
 #: modules/gui/qt4/qt4.cpp:157
 msgid "Screennumber of fullscreen, instead ofsame screen where interface is"
 msgstr ""
-"Bildschirmnummer für das Vollbild, anstatt dem gleichen Bildschrim auf dem "
+"Bildschirmnummer für das Vollbild, anstatt dem gleichen Bildschirm auf dem "
 "das Programm ist"
 
 #: modules/gui/qt4/qt4.cpp:160
@@ -19966,7 +19967,7 @@ msgid ""
 "VLC.\n"
 "Visit http://www.last.fm/join/ to get an account."
 msgstr ""
-"Bitte geben sie einen Benutzernamen an oder deaktivieren Sie das "
+"Bitte geben Sie einen Benutzernamen an oder deaktivieren Sie das "
 "Audioscrobbler-Plugin und starten Sie VLC neu.\n"
 "Besuchen Sie http://www.last.fm/join/ um ein Konto zu erstellen."
 
@@ -20136,7 +20137,7 @@ msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overridden."
 msgstr ""
-"Die ist die relative Standardgröße der Schriften, die auf das Video gelegt "
+"Dies ist die relative Standardgröße der Schriften, die auf das Video gelegt "
 "werden. Wenn eine absolute Schriftgröße angegeben wird, wird die relative "
 "Größe überschrieben."
 
@@ -20205,7 +20206,7 @@ msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
 msgstr ""
-"Bitte warten Sie, während Ihr Fontcache erneuert wird.\n"
+"Bitte warten Sie, während der Fontcache erneuert wird.\n"
 "Dies sollte weniger als ein paar Minuten dauern."
 
 #: modules/misc/gnutls.c:79
@@ -20298,8 +20299,8 @@ msgid ""
 "Select the syslog facility where logs will be forwarded. Available choices "
 "are \"user\" (default), \"daemon\", and \"local0\" through \"local7\"."
 msgstr ""
-"Legen Sie den Syslog-Service fest an den die Logs weitergeleitet werden. Sie "
-"können zwischen \"Nutzer\" (Standard), \"Daemon\" und \"Lokal0\" bis "
+"Legen Sie den Syslog-Service fest, an den die Logs weitergeleitet werden. "
+"Sie können zwischen \"Nutzer\" (Standard), \"Daemon\" und \"Lokal0\" bis "
 "\"Lokal7\" wählen."
 
 #: modules/misc/logger.c:158
@@ -20356,7 +20357,7 @@ msgstr "Verzeichnis-Index"
 
 #: modules/misc/lua/vlc.c:70
 msgid "Allow to build directory index"
-msgstr "Erlaubt es ein Verzeichnis-Index zu erstellen"
+msgstr "Erlaubt es, ein Verzeichnis-Index zu erstellen"
 
 #: modules/misc/lua/vlc.c:92
 msgid "Lua Interface Module"
@@ -20371,9 +20372,8 @@ msgid "Lua HTTP"
 msgstr "Lua-HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Lua-Cover"
+msgstr "Lua-RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -20505,7 +20505,7 @@ msgid ""
 "$N Name, $O Audio language, $P Position, $R Rate, $S Sample rate, $T Time "
 "elapsed, $U Publisher, $V Volume"
 msgstr ""
-"Format des Strings der an Telepathy gesendet wird. Standardmäßig \"Künstler "
+"Format des Strings, der an Telepathy gesendet wird. Standardmäßig \"Künstler "
 "- Titel\" ($a - $t). Sie können die folgenden Variablen benutzen: $a "
 "Künstler, $b Album, $c Copyright, $d Beschreibung, $e Encoder, $g Genre, $l "
 "Sprache, $n Nummer, $p Now Playing, $r Rating, $s Untertitelsprache, $t "
@@ -20594,7 +20594,7 @@ msgid ""
 "This is the relative default size of the fonts that will be rendered on the "
 "video. If absolute font size is set, relative size will be overriden."
 msgstr ""
-"Die ist die relative Standardgröße der Schrift, die auf das Video gelegt "
+"Dies ist die relative Standardgröße der Schrift, die auf das Video gelegt "
 "wird. Wenn eine absolute Schriftgröße angegeben wird, wird diese Einstellung "
 "ignoriert."
 
@@ -20604,7 +20604,7 @@ msgstr "Textrenderer für den Mac"
 
 #: modules/misc/quartztext.c:108
 msgid "CoreText font renderer"
-msgstr "Kerntext-Schriftrenderer"
+msgstr "CoreText-Schriftrenderer"
 
 #: modules/misc/rtsp.c:61
 msgid "RTSP host address"
@@ -20642,7 +20642,7 @@ msgstr "MUX für RAW RTSP-Transport"
 
 #: modules/misc/rtsp.c:74
 msgid "Sets the timeout option in the RTSP session string"
-msgstr "Setzt die Timout Option im RTSP Session String"
+msgstr "Setzt die Timeout-Option im RTSP-Session-String"
 
 #: modules/misc/rtsp.c:76
 msgid ""
@@ -20651,9 +20651,9 @@ msgid ""
 "some IPTV STBs (such as those made by HansunTech) which get confused by it. "
 "The default is 5."
 msgstr ""
-"Definiert welche Timeout-Option zum RTSP Session ID String hinzugefügt wird. "
+"Definiert, welche Timeout-Option zum RTSP-Session-ID Text hinzugefügt wird. "
 "Wenn diese auf eine negative Nummer gesetzt wird, wird die Timeout-Option "
-"komplett entfernt. Dies wird bei einigen IPTV STBs benötigt die davon "
+"komplett entfernt. Dies wird bei einigen IPTV-STBs benötigt, die davon "
 "verwirrt werden (z.B. von HansunTech). Standardwert ist 5."
 
 #: modules/misc/rtsp.c:82
@@ -20818,8 +20818,8 @@ msgid ""
 "inside the client decoder."
 msgstr ""
 "Die DTS (Decodierungszeitmarken) und PTS (Präsentationszeitmarken) der Daten "
-"des Streams verglichen mit den SCRs verzögern. Dies erlaubt etwas Puffern im "
-"Client-Decoder."
+"des Streams verglichen mit den SCRs verzögern. Dies erlaubt es, im Client-"
+"Decoder etwas zu Buffern."
 
 #: modules/mux/mpeg/ps.c:55
 msgid "PES maximum size"
@@ -20828,7 +20828,7 @@ msgstr "Maximale PES-Größe"
 #: modules/mux/mpeg/ps.c:56
 msgid "Set the maximum allowed PES size when producing the MPEG PS streams."
 msgstr ""
-"Die maximal erlaubte PES-Größe festlegen, wenn der MPEG PS Stream erzeugt "
+"Legt die maximal erlaubte PES-Größe fest, wenn der MPEG-PS-Stream erzeugt "
 "wird."
 
 #: modules/mux/mpeg/ps.c:65
@@ -20844,7 +20844,7 @@ msgid ""
 "Assign a fixed PID to the video stream. The PCR PID will automatically be "
 "the video."
 msgstr ""
-"Dem Videostream eine feste PID zuweisen. Die PCR PID wird automatisch das "
+"Dem Videostream eine feste PID zuweisen. Die PCR-PID wird automatisch das "
 "Video sein."
 
 #: modules/mux/mpeg/ts.c:101
@@ -20975,10 +20975,10 @@ msgid ""
 "the biggest frames in the stream."
 msgstr ""
 "Wenn aktiviert und Shaping angegeben ist, wird der TS-Muxer die Grenzen am "
-"Ende von I-Bildern setzen. In diesem Fall wird die vom Benutzer angegebene "
-"Shaping-Dauer benutzt, wenn kein Referenzbild verfügbar ist. Dies erhöht die "
-"Effizienz des Shaping-Algorithmuses, da I-Frames üblicherweise die größen "
-"Frames eines Streams sind."
+"Ende von I-Frames setzen. In diesem Fall wird die vom Benutzer angegebene "
+"Shaping-Dauer benutzt, wenn kein Referenz-Frame verfügbar ist. Dies erhöht "
+"die Effizienz des Shaping-Algorithmuses, da I-Frames üblicherweise die "
+"größten Frames eines Streams sind."
 
 #: modules/mux/mpeg/ts.c:147
 msgid "PCR interval (ms)"
@@ -20989,7 +20989,7 @@ msgid ""
 "Set at which interval PCRs (Program Clock Reference) will be sent (in "
 "milliseconds). This value should be below 100ms. (default is 70ms)."
 msgstr ""
-"Legt fest, an welchen Intervallen PCRs (Programm-Clock-Referenzen) gesendet "
+"Legt fest, in welchen Intervallen PCRs (Programm-Clock-Referenzen) gesendet "
 "werden (in Millisekunden). Dieser Wert sollte unter 100ms sein "
 "(standardmäßig 70ms)."
 
@@ -21012,8 +21012,8 @@ msgid ""
 "inside the client decoder."
 msgstr ""
 "Die DTS (Decodierungszeitmarken) und PTS (Präsentationszeitmarken) der Daten "
-"des Streams verglichen mit den PCRs verzögern. Dies erlaubt etwas Puffern im "
-"Client-Decoder."
+"des Streams verglichen mit den PCRs verzögern. Dies erlaubt es, im Client-"
+"Decoder, etwas zu Buffern."
 
 #: modules/mux/mpeg/ts.c:164
 msgid "Crypt audio"
@@ -21191,7 +21191,7 @@ msgid ""
 "However, you can specify a specific address."
 msgstr ""
 "Das SAP-Modul wählt normalerweise selbständig die richtige Adresse zum "
-"warten auf Verbindungen aus. Sie können trotzdem eine bestimmte Adresse "
+"Warten auf Verbindungen aus. Sie können trotzdem eine bestimmte Adresse "
 "angeben."
 
 #: modules/services_discovery/sap.c:83
@@ -21378,15 +21378,15 @@ msgstr ""
 
 #: modules/stream_out/bridge.c:46
 msgid "Destination bridge-in name"
-msgstr "Name des Bridge-In Ziels"
+msgstr "Name des Bridge-In-Ziels"
 
 #: modules/stream_out/bridge.c:48
 msgid ""
 "Name of the destination bridge-in. If you do not need more than one bridge-"
 "in at a time, you can discard this option."
 msgstr ""
-"Name des Ziel-Bridge-In. Wenn Sie nicht mehr als ein Bridge-In zur gleichen "
-"Zeit benötigen,dann können Sie diese Option verwerfen."
+"Name des Bridge-In-Ziels. Wenn Sie nicht mehr als ein Bridge-In zur gleichen "
+"Zeit benötigen, dann können Sie diese Option verwerfen."
 
 #: modules/stream_out/bridge.c:52
 msgid ""
@@ -21419,12 +21419,12 @@ msgid ""
 "Name of this bridge-in instance. If you do not need more than one bridge-in "
 "at a time, you can discard this option."
 msgstr ""
-"Name der Bridge-In Instanz. Wenn Sie nicht mehr als ein Bridge-In zur "
-"gleichen Zeit benötigen,dann können Sie diese Option verwerfen."
+"Name der Bridge-In-Instanz. Wenn Sie nicht mehr als ein Bridge-In zur "
+"gleichen Zeit benötigen, dann können Sie diese Option verwerfen."
 
 #: modules/stream_out/bridge.c:65
 msgid "Fallback to placeholder stream when out of data"
-msgstr "Fallback auf Platzhalter Stream wenn ohne Daten."
+msgstr "Fallback auf Platzhalter-Stream wenn keine Daten vorhanden sind."
 
 #: modules/stream_out/bridge.c:67
 msgid ""
@@ -21433,15 +21433,15 @@ msgid ""
 "configure a place holder stream when the real source breaks. Source and "
 "placeholder streams should have the same format. "
 msgstr ""
-"Wenn auf wahr gesetzt, die Bridge verwirft alle Eingangs-Elementar-Streams "
-"es sei denn es werden keine Daten von einem anderen Bridge-In empfangen. "
-"Dies kann genutzt werden um einen Platzhalterstream zu konfigurieren, wenn "
-"der der Quell-Stream abbricht. Quell- und Platzhalter-Stream müssen das "
-"selbe Format haben."
+"Falls auf wahr (true) gesetzt, verwirft die Bridge alle Eingangs-Elementar-"
+"Streams, es sei denn, es werden keine Daten von einem anderen Bridge-In "
+"empfangen. Hiermit kann ein Platzhalterstream konfiguriert werden, der "
+"verwendet wird, wenn der Quell-Stream abbricht. Quell- und Platzhalter-"
+"Stream müssen dasselbe Format haben."
 
 #: modules/stream_out/bridge.c:72
 msgid "Placeholder delay"
-msgstr "Platzhalter Verzögerung"
+msgstr "Platzhalter-Verzögerung"
 
 #: modules/stream_out/bridge.c:74
 msgid "Delay (in ms) before the placeholder kicks in."
@@ -21459,7 +21459,7 @@ msgid ""
 "frames in the streams."
 msgstr ""
 "Wenn aktiviert, wird das Umschalten von Platzhalter- und Normal-Streams nur "
-"an I-Frames erfolgen. Dies wird Artifakte in den Streams beim Umschalten auf "
+"an I-Frames erfolgen. Dies wird Artefakte in den Streams beim Umschalten auf "
 "Kosten einer etwas längeren Verzögerung entfernen. Dies ist von der Frequenz "
 "der I-Frames in den Streams abhängig."
 
@@ -21477,11 +21477,11 @@ msgstr "Bridge-Ausgang"
 
 #: modules/stream_out/bridge.c:108
 msgid "Bridge in"
-msgstr "Bridge-Eingang"
+msgstr "Bridge-In"
 
 #: modules/stream_out/description.c:54
 msgid "Description stream output"
-msgstr "Description-Streamausgabe"
+msgstr "Beschreibung der Streamausgabe"
 
 #: modules/stream_out/display.c:42
 msgid "Enable/disable audio rendering."
@@ -21517,7 +21517,7 @@ msgstr "Audioausgabezugriffsmethode"
 
 #: modules/stream_out/es.c:47
 msgid "This is the output access method that will be used for audio."
-msgstr "Dies ist die für Audio genutzte Ausgabezugriffsmethode"
+msgstr "Dies ist die für Audioausgabe genutzte Zugriffsmethode"
 
 #: modules/stream_out/es.c:48
 msgid "Video output access method"
@@ -21525,7 +21525,7 @@ msgstr "Videoausgabezugriffsmethode"
 
 #: modules/stream_out/es.c:50
 msgid "This is the output access method that will be used for video."
-msgstr "Dies ist die für Video genutzte Ausgabezugriffsmethode"
+msgstr "Dies ist die für Videoausgabe genutzte Zugriffsmethode"
 
 #: modules/stream_out/es.c:52 modules/stream_out/standard.c:48
 msgid "Output muxer"
@@ -21623,7 +21623,7 @@ msgid ""
 "Alphamask or Bluescreen video filter."
 msgstr ""
 "Die Benutzung einer bestimmten Farbsättigung erzwingen. Benutzen Sie YUVA, "
-"wenn Sie vorhaben, die Alphamask oder Bluescreen-Videofilter zu benutzen."
+"wenn Sie vorhaben, die Alphamask- oder Bluescreen-Videofilter zu benutzen."
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
 #: modules/gui/qt4/ui/video_effects.h:1176
@@ -21632,7 +21632,7 @@ msgstr "Transparenz"
 
 #: modules/stream_out/mosaic_bridge.c:130
 msgid "Transparency of the mosaic picture."
-msgstr "Transparenz des mosaic-Bildes."
+msgstr "Transparenz des Mosaik-Bildes."
 
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:104
 #: modules/video_filter/rss.c:143
@@ -21694,11 +21694,11 @@ msgstr "Streamausgabe für Remote Audio Output Protocol"
 
 #: modules/stream_out/record.c:50
 msgid "Destination prefix"
-msgstr "Zielprefix"
+msgstr "Zielpräfix"
 
 #: modules/stream_out/record.c:52
 msgid "Prefix of the destination file automatically generated"
-msgstr "Prefix für die automatisch generierte Zieldatei"
+msgstr "Präfix für die automatisch generierte Zieldatei"
 
 #: modules/stream_out/record.c:57
 msgid "Record stream output"
@@ -21843,7 +21843,7 @@ msgid ""
 "This sends and receives RTCP packet multiplexed over the same port as RTP "
 "packets."
 msgstr ""
-"Dies sendet und empfängt RTCP-Pakete im Multiplex-Verfahren über den selben "
+"Dies sendet und empfängt RTCP-Pakete im Multiplex-Verfahren über denselben "
 "Port wie RTP-Pakete."
 
 #: modules/stream_out/rtp.c:135
@@ -21887,63 +21887,63 @@ msgstr "RTP-Streamausgabe"
 
 #: modules/stream_out/smem.c:60
 msgid "Video prerender callback"
-msgstr "Video-Prerender Callback"
+msgstr "Video-Prerender-Callback"
 
 #: modules/stream_out/smem.c:61
 msgid ""
 "Address of the video prerender callback functionthis function will set the "
 "buffer where render will be done"
 msgstr ""
-"Adresse der Video-Prerender Callback Funktion. Diese Funktion setzt den "
+"Adresse der Video-Prerender Callback-Funktion. Diese Funktion setzt den "
 "Buffer für die Bearbeitung durch den Renderer."
 
 #: modules/stream_out/smem.c:64
 msgid "Audio prerender callback"
-msgstr "Audio-Prerender Callback"
+msgstr "Audio-Prerender-Callback"
 
 #: modules/stream_out/smem.c:65
 msgid ""
 "Address of the audio prerender callback function.this function will set the "
 "buffer where render will be done"
 msgstr ""
-"Adresse der Audio-Prerender Callback Funktion. Diese Funktion setzt den "
+"Adresse der Audio-Prerender Callback-Funktion. Diese Funktion setzt den "
 "Buffer für die Bearbeitung durch den Renderer."
 
 #: modules/stream_out/smem.c:68
 msgid "Video postrender callback"
-msgstr "Video-Postrender Callback"
+msgstr "Video-Postrender-Callback"
 
 #: modules/stream_out/smem.c:69
 msgid ""
 "Address of the video postrender callback function.this function will be "
 "called when the render is into the buffer"
 msgstr ""
-"Adresse der Video-Postrender Callback Funktion. Diese Funktion wird "
+"Adresse der Video-Postrender Callback-Funktion. Diese Funktion wird "
 "aufgerufen, wenn der Renderer innerhalb des Buffers ist."
 
 #: modules/stream_out/smem.c:72
 msgid "Audio postrender callback"
-msgstr "Audio-Postrender Callback"
+msgstr "Audio-Postrender-Callback"
 
 #: modules/stream_out/smem.c:73
 msgid ""
 "Address of the audio postrender callback function.this function will be "
 "called when the render is into the buffer"
 msgstr ""
-"Adresse der Audio-Postrender Callback Funktion. Diese Funktion wird "
+"Adresse der Audio-Postrender Callback-Funktion. Diese Funktion wird "
 "aufgerufen, wenn der Renderer innerhalb des Buffers ist."
 
 #: modules/stream_out/smem.c:76
 msgid "Video Callback data"
-msgstr "Video-Callback Daten"
+msgstr "Video-Callback-Daten"
 
 #: modules/stream_out/smem.c:77
 msgid "Data for the video callback function."
-msgstr "Daten für die Video-Callback Funktion."
+msgstr "Daten für die Video-Callback-Funktion."
 
 #: modules/stream_out/smem.c:79
 msgid "Audio callback data"
-msgstr "Audio-Callback Daten"
+msgstr "Audio-Callback-Daten"
 
 #: modules/stream_out/smem.c:80
 msgid "Data for the audio callback function."
@@ -21958,8 +21958,9 @@ msgid ""
 "Time Synchronisation option for output. If true, stream will render as "
 "usual, else it will be rendered as fast as possible."
 msgstr ""
-"Option zur Zeit-Synchronisation der Ausgabe. Wenn wahr, wird der Stream wie "
-"üblich gerendert, andererseits wird so schnell wie möglich gerendert."
+"Option zur Zeit-Synchronisation der Ausgabe. Wenn wahr (true), wird der "
+"Stream wie üblich gerendert, andererseits wird so schnell wie möglich "
+"gerendert."
 
 #: modules/stream_out/smem.c:95
 msgid "Smem"
@@ -21967,7 +21968,7 @@ msgstr "Smem"
 
 #: modules/stream_out/smem.c:96
 msgid "Stream output to memory buffer"
-msgstr "Streamausgabe zu Speicherbuffer"
+msgstr "Streamausgabe in Speicherbuffer"
 
 #: modules/stream_out/standard.c:47
 msgid "Output method to use for the stream."
@@ -21990,15 +21991,15 @@ msgstr ""
 
 #: modules/stream_out/standard.c:54
 msgid "address to bind to (helper setting for dst)"
-msgstr "Adresse zum anbinden (Hilfsteinstellung für dst)"
+msgstr "Adresse zum Anbinden (Hilfseinstellung für dst)"
 
 #: modules/stream_out/standard.c:56
 msgid ""
 "address:port to bind vlc to listening incoming streams helper setting for "
 "dst,dst=bind+'/'+path. dst-parameter overrides this"
 msgstr ""
-"Adresse:Port um den VLC anzubinden um nach eingehenden Streams zu lauschen "
-"(Hilfseinstellung für dst, dst=bind+'/'+path. dst-parameter überschreibt "
+"Adresse:Port um VLC nach eingehenden Streams lauschen zu lassen "
+"(Hilfseinstellung für dst, dst=bind+'/'+path. dst-Parameter überschreibt "
 "dies)"
 
 #: modules/stream_out/standard.c:58
@@ -22010,8 +22011,8 @@ msgid ""
 "Filename for stream helper setting for dst, dst=bind+'/'+path, dst-parameter "
 "overrides this"
 msgstr ""
-"Dateiname für Stream (Hilfseinstellung für dst, dst=bind+'/'+path, dst-"
-"parameter überschreibt dies)"
+"Dateiname für den Stream (Hilfseinstellung für dst, dst=bind+'/'+path, dst-"
+"Parameter überschreibt dies)"
 
 #: modules/stream_out/standard.c:67
 msgid "Session groupname"
@@ -22022,8 +22023,8 @@ msgid ""
 "This allows you to specify a group for the session, that will be announced "
 "if you choose to use SAP."
 msgstr ""
-"Dies erlaubt es Ihnen, eine Gruppe für die Sitzung festzulegen, die bekannt "
-"gegeben werden wird, wenn Sie SAP benutzen."
+"Dies erlaubt es Ihnen, eine Gruppe für die Sitzung festzulegen, die "
+"benachrichtigt und bekannt gegeben werden wird, wenn Sie SAP benutzen."
 
 #: modules/stream_out/standard.c:101
 msgid "Standard stream output"
@@ -22119,7 +22120,7 @@ msgstr "Videobitrate"
 
 #: modules/stream_out/transcode/transcode.c:53
 msgid "Target bitrate of the transcoded video stream."
-msgstr "Ziel-Bitrate für den transcodierten Videostream."
+msgstr "Ziel-Bitrate für den transkodierten Videostream."
 
 #: modules/stream_out/transcode/transcode.c:54
 msgid "Video scaling"
@@ -22128,7 +22129,7 @@ msgstr "Videoskalierung"
 #: modules/stream_out/transcode/transcode.c:56
 msgid "Scale factor to apply to the video while transcoding (eg: 0.25)"
 msgstr ""
-"Auf das Video beim Transcodieren anzuwendender Skalierungsfaktor (z.B. 0.25)"
+"Auf das Video beim Transkodieren anzuwendender Skalierungsfaktor (z.B. 0.25)"
 
 #: modules/stream_out/transcode/transcode.c:57
 msgid "Video frame-rate"
@@ -22195,13 +22196,13 @@ msgstr "Audiodatenrate"
 
 #: modules/stream_out/transcode/transcode.c:92
 msgid "Target bitrate of the transcoded audio stream."
-msgstr "Ziel-Bitrate des transcodierten Audiostreams."
+msgstr "Ziel-Bitrate des transkodierten Audiostreams."
 
 #: modules/stream_out/transcode/transcode.c:95
 msgid ""
 "Sample rate of the transcoded audio stream (11250, 22500, 44100 or 48000)."
 msgstr ""
-"Samplerate des transcodierten Audiostreams (11250, 22500, 44100 oder 48000)."
+"Samplerate des transkodierten Audiostreams (11250, 22500, 44100 oder 48000)."
 
 #: modules/stream_out/transcode/transcode.c:96
 msgid "Audio Language"
@@ -22213,7 +22214,7 @@ msgstr "Dies ist die Sprache des Audio-Streams"
 
 #: modules/stream_out/transcode/transcode.c:101
 msgid "Number of audio channels in the transcoded streams."
-msgstr "Anzahl der Audiokanäle des transcodierten Streams."
+msgstr "Anzahl der Audiokanäle des transkodierten Streams."
 
 #: modules/stream_out/transcode/transcode.c:102
 msgid "Audio filter"
@@ -22255,7 +22256,7 @@ msgid ""
 "subpicture modules"
 msgstr ""
 "Dies erlaubt es Ihnen, Einblendungen (auch als \"Unterbilder\" bekannt) dem "
-"transcodierten Video-Stream hinzuzufügen. Diese von den Filtern erzeugten "
+"transkodierten Video-Stream hinzuzufügen. Diese von den Filtern erzeugten "
 "Unterbilder werden direkt im Video eingeblendet. Sie können eine durch "
 "Kommata getrennte Liste von Unterbild-Modulen angeben."
 
@@ -22268,7 +22269,8 @@ msgstr "OSD-Menü"
 msgid ""
 "Stream the On Screen Display menu (using the osdmenu subpicture module)."
 msgstr ""
-"Das On Screen Display-Menü streamen (erfordert das osdmenu-subpicture-Modul)."
+"Das On-Screen-Display-Menü streamen (erfordert das OSD-Menü-Untertitel-"
+"Modul)."
 
 #: modules/stream_out/transcode/transcode.c:126
 msgid "Number of threads"
@@ -22276,7 +22278,7 @@ msgstr "Anzahl der Threads"
 
 #: modules/stream_out/transcode/transcode.c:128
 msgid "Number of threads used for the transcoding."
-msgstr "Die Anzahl von Threads, die für das Transcodieren verwendet werden."
+msgstr "Die Anzahl von Threads, die für das Transkodieren verwendet werden."
 
 #: modules/stream_out/transcode/transcode.c:129
 msgid "High priority"
@@ -22306,12 +22308,12 @@ msgid ""
 "The transcoder will drop frames if your CPU can't keep up with the encoding "
 "rate."
 msgstr ""
-"Der Transcoder wird Frames fallenlassen, wenn Ihre CPU nicht mit der "
+"Der Transcoder wird Frames fallen lassen, wenn Ihre CPU nicht mit der "
 "Encodierungsrate mithalten kann."
 
 #: modules/stream_out/transcode/transcode.c:155
 msgid "Transcode stream output"
-msgstr "Streamausgabe transcodieren"
+msgstr "Streamausgabe transkodieren"
 
 #: modules/stream_out/transcode/transcode.c:211
 msgid "Overlays/Subtitles"
@@ -22442,10 +22444,10 @@ msgid ""
 "You can also have a look at pictures and some movies showing such a device "
 "in live action."
 msgstr ""
-"Dieses Modul erlaubt es ein sogenanntes AtmoLight Gerät, das an ihrem "
+"Dieses Modul erlaubt es, ein sogenanntes AtmoLight Gerät, das an ihrem "
 "Computer angeschlossen ist, zu steuern.\n"
-"AtmoLight ist die hausgemachte Version von dem was Philips AmbiLight nennt.\n"
-"Wenn sie weitere Informationen benötigen besuchen sie uns auf\n"
+"AtmoLight ist die hausgemachte Version dessen was Philips AmbiLight nennt.\n"
+"Wenn sie weitere Informationen benötigen, besuchen sie uns auf\n"
 "\n"
 "http://www.vdr-wiki.de/wiki/index.php/Atmo-plugin\n"
 "http://www.vdr-wiki.de/wiki/index.php/AtmoWin\n"
@@ -22499,7 +22501,7 @@ msgstr "Anzahl der AtmoLight-Kanäle"
 #: modules/video_filter/atmo/atmo.cpp:163
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
 msgstr ""
-"Wie viele AtmoLight Kanäle können mit diesem DMX-Gerät emuliert werden?"
+"Wie viele AtmoLight-Kanäle können mit diesem DMX-Gerät emuliert werden?"
 
 #: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
@@ -22698,7 +22700,7 @@ msgstr "Software-Weißanpassung verwenden"
 msgid ""
 "Should the buildin driver do a white adjust or your LED stripes? recommend."
 msgstr ""
-"Soll der eingebaute Treiber einen Weißabgleich ihrer LED Streifen machen? "
+"Soll der eingebaute Treiber einen Weißabgleich der LED-Streifen durchführen? "
 "(Empfohlen)."
 
 #: modules/video_filter/atmo/atmo.cpp:245
@@ -22707,7 +22709,7 @@ msgstr "Weiß Rot"
 
 #: modules/video_filter/atmo/atmo.cpp:246
 msgid "Red value of a pure white on your LED stripes."
-msgstr "Rotwert von Reinweiß bei ihren LED Streifen."
+msgstr "Rotwert von Reinweiß bei den LED-Streifen."
 
 #: modules/video_filter/atmo/atmo.cpp:248
 msgid "White Green"
@@ -22715,7 +22717,7 @@ msgstr "Weiß Grün"
 
 #: modules/video_filter/atmo/atmo.cpp:249
 msgid "Green value of a pure white on your LED stripes."
-msgstr "Grünwert von Reinweiß bei ihren LED Streifen."
+msgstr "Grünwert von Reinweiß bei den LED-Streifen."
 
 #: modules/video_filter/atmo/atmo.cpp:251
 msgid "White Blue"
@@ -22723,7 +22725,7 @@ msgstr "Weiß Blau"
 
 #: modules/video_filter/atmo/atmo.cpp:252
 msgid "Blue value of a pure white on your LED stripes."
-msgstr "Blauwert von Reinweiß bei ihren LED Streifen."
+msgstr "Blauwert von Reinweiß bei den LED-Streifen."
 
 #: modules/video_filter/atmo/atmo.cpp:255
 msgid "Serial Port/Device"
@@ -22734,7 +22736,7 @@ msgid ""
 "Name of the serial port where the AtmoLight controller is attached to.\n"
 "On Windows usually something like COM1 or COM2. On Linux /dev/ttyS01 f.e."
 msgstr ""
-"Name des seriellen Ports an den die AtmoLight-Steuerung angeschlossen ist.\n"
+"Name des seriellen Ports, an den die AtmoLight-Steuerung angeschlossen ist.\n"
 "Unter Windows normalerweise etwas wie COM1 oder COM2. Unter Linux z.B. /dev/"
 "ttyS01."
 
@@ -22747,12 +22749,12 @@ msgid ""
 "Increasing this value will result in color more depending on the border of "
 "the frame."
 msgstr ""
-"Das erhöhen dieses Wertes wird in Farben resultieren die mehr vom Rand des "
+"Das Erhöhen dieses Wertes wird in Farben resultieren die mehr vom Rand des "
 "Bildes abhängen."
 
 #: modules/video_filter/atmo/atmo.cpp:265
 msgid "Overall brightness of your LED stripes"
-msgstr "Gesamtheligkeit ihrer LED Streifen"
+msgstr "Gesamtheligkeit der LED-Streifen"
 
 #: modules/video_filter/atmo/atmo.cpp:266
 msgid "Darkness Limit"
@@ -22768,16 +22770,16 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:270
 msgid "Hue windowing"
-msgstr "Farbton Windowing"
+msgstr "Farbton-Windowing"
 
 #: modules/video_filter/atmo/atmo.cpp:271
 #: modules/video_filter/atmo/atmo.cpp:273
 msgid "Used for statistics."
-msgstr "Für Statistiken verwendet."
+msgstr "Für Statistiken verwenden."
 
 #: modules/video_filter/atmo/atmo.cpp:272
 msgid "Sat windowing"
-msgstr "Sättigungs Windowing"
+msgstr "Sättigungs-Windowing"
 
 #: modules/video_filter/atmo/atmo.cpp:275
 #: modules/gui/qt4/ui/video_effects.h:1159
@@ -22797,15 +22799,15 @@ msgstr "Filterschwelle"
 #: modules/video_filter/atmo/atmo.cpp:279
 msgid "How much a color has to be changed for an immediate color change."
 msgstr ""
-"Anteil der Farbe, die geändert werden muss für einen sofortigen Farbwechsel."
+"Anteil der Farbe, der für einen sofortigen Farbwechsel geändert werden muss."
 
 #: modules/video_filter/atmo/atmo.cpp:281
 msgid "Filter Smoothness (in %)"
-msgstr "Filter Weichheit (in %)"
+msgstr "Filter-Gleichmäßigkeit (in %)"
 
 #: modules/video_filter/atmo/atmo.cpp:282
 msgid "Filter Smoothness"
-msgstr "Filter Weichheit (in %)"
+msgstr "Filter-Gleichmäßigkeit (in %)"
 
 #: modules/video_filter/atmo/atmo.cpp:284
 msgid "Output Color filter mode"
@@ -22815,7 +22817,7 @@ msgstr "Ausgabefarbe Filtermodus"
 msgid ""
 "defines the how the output color should be calculated based on previous color"
 msgstr ""
-"Definiert das wie zur Berechnung der Ausgabe-Farbe basierend auf der "
+"Definiert das Wie der Berechnung der Ausgabe-Farbe basierend auf der "
 "vorherigen Farbe"
 
 #: modules/video_filter/atmo/atmo.cpp:294
@@ -22832,7 +22834,7 @@ msgstr "Prozent"
 
 #: modules/video_filter/atmo/atmo.cpp:299
 msgid "Frame delay (ms)"
-msgstr "Bild-Verzögerung (ms)"
+msgstr "Frame-Verzögerung (ms)"
 
 #: modules/video_filter/atmo/atmo.cpp:300
 msgid ""
@@ -22874,23 +22876,23 @@ msgstr "deaktiviert"
 
 #: modules/video_filter/atmo/atmo.cpp:323
 msgid "Zone 4:summary"
-msgstr "Zone 4:Summe"
+msgstr "Zone 4: Summe"
 
 #: modules/video_filter/atmo/atmo.cpp:324
 msgid "Zone 3:left"
-msgstr "Zone 3:Links"
+msgstr "Zone 3: Links"
 
 #: modules/video_filter/atmo/atmo.cpp:325
 msgid "Zone 1:right"
-msgstr "Zone 1:Rechts"
+msgstr "Zone 1: Rechts"
 
 #: modules/video_filter/atmo/atmo.cpp:326
 msgid "Zone 0:top"
-msgstr "Zone 0:Oben"
+msgstr "Zone 0: Oben"
 
 #: modules/video_filter/atmo/atmo.cpp:327
 msgid "Zone 2:bottom"
-msgstr "Zone 2:Unten"
+msgstr "Zone 2: Unten"
 
 #: modules/video_filter/atmo/atmo.cpp:329
 msgid "Channel / Zone Assignment"
@@ -22909,8 +22911,8 @@ msgstr ""
 "die Zonennummer und unterteilen Sie die Werte mit , oder ; und nutzen Sie -1 "
 "wenn Sie einige Kanäle nicht nutzen. Für das klassische AtmoLight setzt die "
 "Sequenz 4,3,1,0,2 die Standard-Kanal/Zonen Zugehörigkeit. Haben Sie nur zwei "
-"Zonen oben und eine Zone links und rechts und keine gemeinsamme Zone für das "
-"klasische AtmoLight ist es -1,3,2,1,0"
+"Zonen oben und eine Zone links und rechts und keine gemeinsame Zone für das "
+"klassische AtmoLight ist es -1,3,2,1,0"
 
 #: modules/video_filter/atmo/atmo.cpp:340
 msgid "Zone 0: Top gradient"
@@ -22948,7 +22950,7 @@ msgid ""
 "Now preferred option to assign gradient bitmaps, put them as zone_0.bmp, "
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
-"Die jetzt bevorzugte Option zur Zuordnung der Farbverlausbilder, fügen Sie "
+"Die jetzt bevorzugte Option zur Zuordnung der Farbverlaufsbilder. Fügen Sie "
 "zone_0.bmp, zone_1.bmp etc. in einen Ordner ein und wählen Sie diesen "
 "Ordnernamen hier."
 
@@ -22992,7 +22994,7 @@ msgstr "DMX-Otionen"
 
 #: modules/video_filter/atmo/atmo.cpp:433
 msgid "MoMoLight options"
-msgstr "MoMoLight Optionen"
+msgstr "MoMoLight-Optionen"
 
 #: modules/video_filter/atmo/atmo.cpp:440
 msgid "fnordlicht options"
@@ -23004,7 +23006,7 @@ msgstr "Zonen-Layout für das eingebaute Atmo"
 
 #: modules/video_filter/atmo/atmo.cpp:498
 msgid "Settings for the built-in Live Video Processor only"
-msgstr "Einstellungen nur für den eingebauten Live Video Processor"
+msgstr "Einstellungen nur für den eingebauten Live-Video-Processor"
 
 #: modules/video_filter/atmo/atmo.cpp:535
 msgid "Change channel assignment (fixes wrong wiring)"
@@ -23012,7 +23014,7 @@ msgstr "Kanalzuordnung ändern (gleicht falsche Verkabelung aus)"
 
 #: modules/video_filter/atmo/atmo.cpp:568
 msgid "Adjust the white light to your LED stripes"
-msgstr "Stimmen sie das Weiße Licht an ihren LED Streifen ab"
+msgstr "Stimmen Sie das weiße Licht an den LED-Streifen ab"
 
 #: modules/video_filter/atmo/atmo.cpp:590
 msgid "Change gradients"
@@ -23119,7 +23121,7 @@ msgid ""
 msgstr ""
 "Die Ballgeschwindigkeit als "
 "Verschiebungswert                                 für eine Anzahl von Pixeln "
-"pro Bild setzen."
+"pro Frame setzen."
 
 #: modules/video_filter/ball.c:119
 msgid "Ball size"
@@ -23142,11 +23144,11 @@ msgstr "Gradienten-Schwelle für die Rand-Berechnung setzen."
 
 #: modules/video_filter/ball.c:126
 msgid "Augmented reality ball game"
-msgstr "Augmented Reality Ball Spiel"
+msgstr "Augmented-Reality-Ball-Spiel"
 
 #: modules/video_filter/ball.c:135
 msgid "Ball video filter"
-msgstr "Ball Videofilter"
+msgstr "Ball-Videofilter"
 
 #: modules/video_filter/ball.c:136
 msgid "Ball"
@@ -23158,11 +23160,11 @@ msgstr "Videobilder mischen"
 
 #: modules/video_filter/blendbench.c:51
 msgid "Number of time to blend"
-msgstr "Zeit zum überblenden"
+msgstr "Zeit zum Überblenden"
 
 #: modules/video_filter/blendbench.c:52
 msgid "The number of time the blend will be performed"
-msgstr "Die Überblendzeit welche ausgeführt wird"
+msgstr "Die Überblendzeit, welche ausgeführt wird"
 
 #: modules/video_filter/blendbench.c:54
 msgid "Alpha of the blended image"
@@ -23178,7 +23180,7 @@ msgstr "Bild auf welches überblendet werden soll"
 
 #: modules/video_filter/blendbench.c:58
 msgid "The image which will be used to blend onto"
-msgstr "Das Bild welches zum überblenden benutzt werden soll"
+msgstr "Das Bild das zum Überblenden benutzt werden soll"
 
 #: modules/video_filter/blendbench.c:60
 msgid "Chroma for the base image"
@@ -23190,11 +23192,11 @@ msgstr "Farbsättigung die in das Basisbild geladen wird"
 
 #: modules/video_filter/blendbench.c:63
 msgid "Image which will be blended"
-msgstr "Bild welches überblendet wird"
+msgstr "Bild das überblendet wird"
 
 #: modules/video_filter/blendbench.c:64
 msgid "The image blended onto the base image"
-msgstr "Das Bild welches in das Basisbild gemischt wird"
+msgstr "Das Bild das in das Basisbild gemischt wird"
 
 #: modules/video_filter/blendbench.c:66
 msgid "Chroma for the blend image"
@@ -23202,11 +23204,11 @@ msgstr "Farbsättigung des Überblendbildes"
 
 #: modules/video_filter/blendbench.c:67
 msgid "Chroma which the blend image will be loadedin"
-msgstr "Farbsättigung welches in das überblendete Bild geladen wird"
+msgstr "Farbsättigung das in das überblendete Bild geladen wird"
 
 #: modules/video_filter/blendbench.c:73
 msgid "Blending benchmark filter"
-msgstr "Überblenden Benchmark Filter"
+msgstr "Überblend-Benchmark-Filter"
 
 #: modules/video_filter/blendbench.c:74
 msgid "Blendbench"
@@ -23231,10 +23233,10 @@ msgid ""
 "weather forecasts). You can choose the \"key\" color for blending (blue by "
 "default)."
 msgstr ""
-"Dieser Effekt, auch bekannt als \"Grünbild\" oder \"Farbsättigung-Schlüssel"
-"\" welches die \"Blauen Teile\" des Vordergrundbildes des Mosaiks in den "
-"Hintergrund einblendet (wie den Moderator bei der Wettervorhersage). Sie "
-"können eine \"Schlüssel\" für das Überblenden wählen (standardmäßig blau)."
+"Dieser Effekt, auch bekannt als \"Grünbild\" oder \"Farbsättigungs-Schlüssel"
+"\" welches die \"blauen Teile\" des Vordergrundbildes des Mosaiks in den "
+"Hintergrund einblendet (wie bei der Wettervorhersage). Sie können eine "
+"\"Schlüssel\" -Farbe für das Überblenden wählen (standardmäßig blau)."
 
 #: modules/video_filter/bluescreen.c:42
 msgid "Bluescreen U value"
@@ -23317,7 +23319,7 @@ msgid ""
 "Set the canvas' picture aspect ratio. If omitted, the canvas is assumed to "
 "have the same SAR as the input."
 msgstr ""
-"Setzt das Seitenverhältnis des Canvas-Bildes. Wird er weggelassen wird "
+"Setzt das Seitenverhältnis des Canvas-Bildes. Wird er weggelassen, wird "
 "angenommen, dass der SAR-Wert gleich dem Eingang ist."
 
 #: modules/video_filter/canvas.c:93
@@ -23329,13 +23331,13 @@ msgid ""
 "If enabled, video will be padded to fit in canvas after scaling. Otherwise, "
 "video will be cropped to fix in canvas after scaling."
 msgstr ""
-"Wenn aktiviert wird das Video ausgedehnt um nach dem Skalieren in das Canvas "
-"zu passen. Ansonsten wird das Video abgeschnitten um nach dem Skalieren in "
-"das Canvas zu passen."
+"Wenn aktiviert, wird das Video ausgedehnt, um nach dem Skalieren in das "
+"Canvas zu passen. Ansonsten wird das Video abgeschnitten, um nach dem "
+"Skalieren in das Canvas zu passen."
 
 #: modules/video_filter/canvas.c:97
 msgid "Automatically resize and pad a video"
-msgstr "Automatische Größenänderung und ein Video füllen"
+msgstr "Automatische Größenänderung und Video einfügen"
 
 #: modules/video_filter/canvas.c:105
 msgid "Canvas"
@@ -23347,7 +23349,7 @@ msgstr "Canvas-Videofilter"
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
-msgstr "Video Filtering unter Benutzung einer Kette von Videofilter Modulen"
+msgstr "Video-Filterung unter Benutzung einer Kette von Videofilter-Modulen"
 
 #: modules/video_filter/clone.c:39 modules/gui/qt4/ui/video_effects.h:1173
 msgid "Number of clones"
@@ -23367,7 +23369,7 @@ msgid ""
 "separated list of modules."
 msgstr ""
 "Sie können bestimmte Videoausgabemodule für die Klon-Videos angeben. "
-"Benutzen Sie Kommata um die Module zu trennen."
+"Benutzen Sie Kommata, um die Module zu trennen."
 
 #: modules/video_filter/clone.c:47
 msgid "Duplicate your video to multiple windows and/or video output modules"
@@ -23475,8 +23477,9 @@ msgid ""
 "trigger recrop."
 msgstr ""
 "Die Anzahl der aufeinanderfolgenden Bilder mit dem gleichen erkannten "
-"Verhältnis (unterschiedlich zu des vorher erkannten Erkenntnisses) um sicher "
-"zustellen, dass sich das Verhältnis geändert hat und den Recomp zu starten."
+"Verhältnis (unterschiedlich zum vorher erkannten Verhältnis) um sicher zu "
+"stellen, dass sich das Verhältnis geändert hat und das erneute Zuschneiden "
+"zu starten."
 
 #: modules/video_filter/crop.c:91
 msgid "Number of lines for change"
@@ -23487,12 +23490,13 @@ msgid ""
 "The minimum difference in the number of detected black lines to consider "
 "that ratio changed and trigger recrop."
 msgstr ""
-"Der minimale Unterschied an erkannten schwarzen Linien um sicher zustellen "
-"das sich das Verhältnis geändert hat und der Recomp gestarten werden kann."
+"Der minimale Unterschied an erkannten schwarzen Linien, um sicher zu "
+"stellen, dass sich das Verhältnis geändert hat und das erneute Zuschneiden "
+"gestarten werden kann."
 
 #: modules/video_filter/crop.c:94
 msgid "Number of non black pixels "
-msgstr "Anzahl der nicht schwarzen Pixel"
+msgstr "Anzahl der nicht-schwarzen Pixel"
 
 #: modules/video_filter/crop.c:95
 msgid ""
@@ -23511,7 +23515,7 @@ msgid ""
 "allows to skip logos in black borders and crop them anyway."
 msgstr ""
 "Prozentsatz der zu berücksichtigenden Linie während nach schwarzen Linien "
-"gesucht wird. Dies ermöglicht es Logos mit schwarzem Rand zu entfernen."
+"gesucht wird. Dies ermöglicht es, Logos mit schwarzem Rand zu entfernen."
 
 #: modules/video_filter/crop.c:101
 msgid "Luminance threshold "
@@ -23523,7 +23527,7 @@ msgstr "Maximale Helligkeit um einen Pixel als schwarz aufzufassen (0-255)"
 
 #: modules/video_filter/crop.c:106
 msgid "Crop video filter"
-msgstr "Videofreistellungsfilter"
+msgstr "Videofilter zuschneiden"
 
 #: modules/video_filter/crop.c:379 modules/video_filter/crop.c:470
 msgid "Cropping failed"
@@ -23572,7 +23576,7 @@ msgstr "Anzahl der Pixel um von oben aufzufüllen"
 #: modules/video_filter/croppadd.c:61
 msgid "Number of pixels to padd to the top of the image after cropping."
 msgstr ""
-"Anzahl der Pixel, die nach dem beschneiden oben am Bild aufgefüllt werden "
+"Anzahl der Pixel, die nach dem Beschneiden oben am Bild aufgefüllt werden "
 "sollen."
 
 #: modules/video_filter/croppadd.c:62
@@ -23582,7 +23586,7 @@ msgstr "Anzahl der Pixel um von unten aufzufüllen"
 #: modules/video_filter/croppadd.c:64
 msgid "Number of pixels to padd to the bottom of the image after cropping."
 msgstr ""
-"Anzahl der Pixel, die nach dem beschneiden unten am Bild aufgefüllt werden "
+"Anzahl der Pixel, die nach dem Beschneiden unten am Bild aufgefüllt werden "
 "sollen."
 
 #: modules/video_filter/croppadd.c:65
@@ -23592,7 +23596,7 @@ msgstr "Anzahl der Pixel um von links aufzufüllen"
 #: modules/video_filter/croppadd.c:67
 msgid "Number of pixels to padd to the left of the image after cropping."
 msgstr ""
-"Anzahl der Pixel, die nach dem beschneiden links am Bild aufgefüllt werden "
+"Anzahl der Pixel, die nach dem Beschneiden links am Bild aufgefüllt werden "
 "sollen."
 
 #: modules/video_filter/croppadd.c:68
@@ -23602,7 +23606,7 @@ msgstr "Anzahl der Pixel um von rechts aufzufüllen"
 #: modules/video_filter/croppadd.c:70
 msgid "Number of pixels to padd to the right of the image after cropping."
 msgstr ""
-"Anzahl der Pixel, die nach dem beschneiden rechts am Bild aufgefüllt werden "
+"Anzahl der Pixel, die nach dem Beschneiden rechts am Bild aufgefüllt werden "
 "sollen."
 
 #: modules/video_filter/croppadd.c:78
@@ -23700,14 +23704,14 @@ msgstr "RGB-Komponenten-Extrahierungs-Videofilter"
 
 #: modules/video_filter/gaussianblur.c:47
 msgid "Gaussian's std deviation"
-msgstr "Gausssche Standardabweichung"
+msgstr "Gauss'sche Standardabweichung"
 
 #: modules/video_filter/gaussianblur.c:49
 msgid ""
 "Gaussian's standard deviation. The bluring will take into account pixels up "
 "to 3*sigma away in any direction."
 msgstr ""
-"Gaußsche Standardabweichung. Das Weichzeichnen wird Pixel mit einer "
+"Gauss'sche Standardabweichung. Das Weichzeichnen wird Pixel mit einer "
 "Entfernung von bis zu 3*sigma in jeder Richtung berücksichtigen."
 
 #: modules/video_filter/gaussianblur.c:52
@@ -23716,11 +23720,11 @@ msgstr "Verzerrungseffekt hinzufügen"
 
 #: modules/video_filter/gaussianblur.c:57
 msgid "Gaussian blur video filter"
-msgstr "Gaußsches Weichzeichnen-Videofilter"
+msgstr "Gauss'sches Weichzeichnen-Videofilter"
 
 #: modules/video_filter/gaussianblur.c:58
 msgid "Gaussian Blur"
-msgstr "Gaußsches Weichzeichnen"
+msgstr "Gauss'sches Weichzeichnen"
 
 #: modules/video_filter/gradient.c:62
 msgid "Distort mode"
@@ -23813,7 +23817,7 @@ msgstr ""
 
 #: modules/video_filter/logo.c:55
 msgid "Logo individual image time in ms"
-msgstr "Zeit von jedem Bild des Logos in ms"
+msgstr "Zeit für jedes Bild des Logos in ms"
 
 #: modules/video_filter/logo.c:56
 msgid "Individual image display time of 0 - 60000 ms."
@@ -23930,8 +23934,8 @@ msgid ""
 "Number of milliseconds between string updates. This is mainly useful when "
 "using meta data or time format string sequences."
 msgstr ""
-"Millisekunden zwischen String Aktualisierungen. Dies ist vorallem nützlich "
-"wenn Metadaten oder Zeitformat Stringsequenzen benutzt werden."
+"Millisekunden zwischen String-Aktualisierungen. Dies ist vorallem nützlich "
+"wenn Metadaten oder Zeitformat-Stringsequenzen benutzt werden."
 
 #: modules/video_filter/marq.c:129
 msgid "Marquee position"
@@ -23965,7 +23969,7 @@ msgstr "Verschiedenes"
 
 #: modules/video_filter/mirror.c:62
 msgid "Mirror orientation"
-msgstr "Spiegel Ausrichtung"
+msgstr "Spiegel-Ausrichtung"
 
 #: modules/video_filter/mirror.c:63
 msgid ""
@@ -23973,7 +23977,7 @@ msgid ""
 "horizontal"
 msgstr ""
 "Definiert die Ausrichtung der Spiegelung.     Vertikal oder horizontal "
-"möglich"
+"möglich."
 
 #: modules/video_filter/mirror.c:69
 msgid "Direction"
@@ -24053,7 +24057,7 @@ msgstr "Höhe des Rands zwischen den Miniaturen (in Pixeln)."
 
 #: modules/video_filter/mosaic.c:112
 msgid "Mosaic alignment"
-msgstr "Mosaic-Ausrichtung"
+msgstr "Mosaik-Ausrichtung"
 
 #: modules/video_filter/mosaic.c:114
 msgid ""
@@ -24076,7 +24080,7 @@ msgid ""
 "number of rows and columns. fixed: use the user-defined number of rows and "
 "columns. offsets: use the user-defined offsets for each image."
 msgstr ""
-"Positionierungsmethode für das Mosaik. auto: automatische die beste Anzahl "
+"Positionierungsmethode für das Mosaik. auto: automatisch die beste Anzahl "
 "von Zeilen und Spalten wählen. fixed: die benutzerdefinierte Anzahl von "
 "Zeilen und Spalten benutzen. offsets: die benutzerdefinierten Abstände für "
 "jedes Bild benutzen."
@@ -24218,7 +24222,7 @@ msgstr "Haar-Kaskade-Dateiname"
 
 #: modules/video_filter/opencv_example.c:78
 msgid "Name of XML file containing Haar cascade description"
-msgstr "Name der XML Datei die die Haar Kaskaden Beschreibung einhält"
+msgstr "Name der XML-Datei, die die Haar-Kaskaden-Beschreibung enthält"
 
 #: modules/video_filter/opencv_wrapper.c:66
 msgid "Use input chroma unaltered"
@@ -24302,11 +24306,11 @@ msgstr "Wrapper-Filter Detailgenauigkeit"
 
 #: modules/video_filter/opencv_wrapper.c:99
 msgid "Determines wrapper filter verbosity level"
-msgstr "Bestimmt das Verbose Level des Wrapper Filters"
+msgstr "Bestimmt das Verbose-Level des Wrapper-Filters"
 
 #: modules/video_filter/opencv_wrapper.c:102
 msgid "OpenCV internal filter name"
-msgstr "Interner OpenCV-Filter Name"
+msgstr "Interner OpenCV-Filter-Name"
 
 #: modules/video_filter/opencv_wrapper.c:103
 msgid "Name of internal OpenCV plugin filter to use"
@@ -24378,9 +24382,9 @@ msgid ""
 "intensive. The range is 0 - 1000 ms."
 msgstr ""
 "Der Standard ist, das OSD-Menübild alle 200 ms zu aktualisieren. Reduzieren "
-"Sie diese Aktualisierungszeit bei Umgebungen die häufiger Übertragungsfehler "
-"aufweisen. Seien Sie vorsichtig mit diese Option, da das codieren der OSD-"
-"Menübilder sehr rechenintensiv ist. Werte von 0 - 1000 ms."
+"Sie diese Aktualisierungszeit bei Umgebungen, die häufiger "
+"Übertragungsfehler aufweisen. Seien Sie vorsichtig mit dieser Option, da das "
+"Codieren der OSD-Menübilder sehr rechenintensiv ist. Werte von 0 - 1000 ms."
 
 #: modules/video_filter/osdmenu.c:76 modules/video_filter/remoteosd.c:102
 msgid "Alpha transparency value (default 255)"
@@ -24393,15 +24397,15 @@ msgid ""
 "transparency. The default is being not transparent (value 255) the minimum "
 "is fully transparent (value 0)."
 msgstr ""
-"Die Durchsichtigkeit des OSD-Menüs kann mit einem Wert zwischen 0 und 255 "
-"eingestellt werden. Ein niedrigerer Wert bedeutet stärkere Durchsichtigkeit, "
-"ein höherer schwächere Durchsichtigkeit. Standardmäßig ist das Menü nicht "
-"transparent (bei einem Wert von 255). Das Minimum ist vollständig "
-"durchsichtig (bei einem Wert von 0)."
+"Die Transparenz des OSD-Menüs kann mit einem Wert zwischen 0 und 255 "
+"eingestellt werden. Ein niedrigerer Wert bedeutet stärkere Transparenz, ein "
+"höherer schwächere Transparenz. Standardmäßig ist das Menü nicht transparent "
+"(bei einem Wert von 255). Das Minimum ist vollständig durchsichtig (bei "
+"einem Wert von 0)."
 
 #: modules/video_filter/osdmenu.c:117
 msgid "On Screen Display menu"
-msgstr "On Screen Display-Menü"
+msgstr "On-Screen-Display-Menü"
 
 #: modules/video_filter/panoramix.c:58
 msgid ""
@@ -24431,7 +24435,7 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:78
 msgid "Panoramix: wall with overlap video filter"
-msgstr "Panoramix: Mauer mit Überlappungs Videofilter"
+msgstr "Panoramix: Mauer mit Überlappungs-Videofilter"
 
 #: modules/video_filter/panoramix.c:79 modules/gui/qt4/ui/video_effects.h:1169
 msgid "Panoramix"
@@ -24443,7 +24447,7 @@ msgstr "Länge des überlappenden Bereichs (in %)"
 
 #: modules/video_filter/panoramix.c:90
 msgid "Select in percent the length of the blended zone"
-msgstr "Die Länge in Prozent für die Überlendzone auswählen"
+msgstr "Die Länge in Prozent für die Überblendzone auswählen"
 
 #: modules/video_filter/panoramix.c:93
 msgid "height of the overlapping area (in %)"
@@ -24546,7 +24550,7 @@ msgstr "Black-Crush für Rot"
 #: modules/video_filter/panoramix.c:129
 msgid "Select the Black Crush of blended zone (Red or Y component)"
 msgstr ""
-"Wählen sie den Black-Crush der überblendeten Zone (Rot oder Y Komponente)"
+"Wählen Sie den Black-Crush der überblendeten Zone (Rot oder Y Komponente)"
 
 #: modules/video_filter/panoramix.c:130
 msgid "Black Crush for Green"
@@ -24555,7 +24559,7 @@ msgstr "Black-Crush für Grün"
 #: modules/video_filter/panoramix.c:131
 msgid "Select the Black Crush of blended zone (Green or U component)"
 msgstr ""
-"Wählen sie den Black-Crush der überblendeten Zone (Grün oder U Komponente)"
+"Wählen Sie den Black-Crush der überblendeten Zone (Grün oder U Komponente)"
 
 #: modules/video_filter/panoramix.c:132
 msgid "Black Crush for Blue"
@@ -24573,7 +24577,7 @@ msgstr "White-Crush für Rot"
 #: modules/video_filter/panoramix.c:136
 msgid "Select the White Crush of blended zone (Red or Y component)"
 msgstr ""
-"Wählen sie den White-Crush der überblendeten Zone (Rot oder Y Komponente)"
+"Wählen Sie den White-Crush der überblendeten Zone (Rot oder Y Komponente)"
 
 #: modules/video_filter/panoramix.c:137
 msgid "White Crush for Green"
@@ -24582,7 +24586,7 @@ msgstr "White-Crush für Grün"
 #: modules/video_filter/panoramix.c:138
 msgid "Select the White Crush of blended zone (Green or U component)"
 msgstr ""
-"Wählen sie den White-Crush der überblendeten Zone (Grün oder U Komponente)"
+"Wählen Sie den White-Crush der überblendeten Zone (Grün oder U Komponente)"
 
 #: modules/video_filter/panoramix.c:139
 msgid "White Crush for Blue"
@@ -24591,7 +24595,7 @@ msgstr "White-Crush für Blau"
 #: modules/video_filter/panoramix.c:140
 msgid "Select the White Crush of blended zone (Blue or V component)"
 msgstr ""
-"Wählen sie den White-Crush der überblendeten Zone (Blau oder V Komponente)"
+"Wählen Sie den White-Crush der überblendeten Zone (Blau oder V Komponente)"
 
 #: modules/video_filter/panoramix.c:142
 msgid "Black Level for Red"
@@ -24609,7 +24613,7 @@ msgstr "Schwarzwert für Grün"
 #: modules/video_filter/panoramix.c:145
 msgid "Select the Black Level of blended zone (Green or U component)"
 msgstr ""
-"Wählen sie den Schwarzwert der überblendeten Zone (Grün oder U Komponente)"
+"Wählen Sie den Schwarzwert der überblendeten Zone (Grün oder U Komponente)"
 
 #: modules/video_filter/panoramix.c:146
 msgid "Black Level for Blue"
@@ -24618,7 +24622,7 @@ msgstr "Schwarzwert für Blau"
 #: modules/video_filter/panoramix.c:147
 msgid "Select the Black Level of blended zone (Blue or V component)"
 msgstr ""
-"Wählen sie den Schwarzwert der überblendeten Zone (Blau oder V Komponente)"
+"Wählen Sie den Schwarzwert der überblendeten Zone (Blau oder V Komponente)"
 
 #: modules/video_filter/panoramix.c:149
 msgid "White Level for Red"
@@ -24626,7 +24630,7 @@ msgstr "Weißwert für Rot"
 
 #: modules/video_filter/panoramix.c:150
 msgid "Select the White Level of blended zone (Red or Y component)"
-msgstr "Wählen sie den Weißwert der überblendeten Zone (Rot oder Y Komponente)"
+msgstr "Wählen Sie den Weißwert der überblendeten Zone (Rot oder Y Komponente)"
 
 #: modules/video_filter/panoramix.c:151
 msgid "White Level for Green"
@@ -24635,7 +24639,7 @@ msgstr "Weißwert für Grün"
 #: modules/video_filter/panoramix.c:152
 msgid "Select the White Level of blended zone (Green or U component)"
 msgstr ""
-"Wählen sie den Weißwert der überblendeten Zone (Grün oder U Komponente)"
+"Wählen Sie den Weißwert der überblendeten Zone (Grün oder U Komponente)"
 
 #: modules/video_filter/panoramix.c:153
 msgid "White Level for Blue"
@@ -24644,7 +24648,7 @@ msgstr "Weißwert für Blau"
 #: modules/video_filter/panoramix.c:154
 msgid "Select the White Level of blended zone (Blue or V component)"
 msgstr ""
-"Wählen sie den Weißwert der überblendeten Zone (Blau oder V Komponente)"
+"Wählen Sie den Weißwert der überblendeten Zone (Blau oder V Komponente)"
 
 #: modules/video_filter/postproc.c:60
 msgid "Post processing quality"
@@ -24779,10 +24783,10 @@ msgid ""
 "is fully transparent (value 0)."
 msgstr ""
 "Die Transparenz des OSD-VNC kann mit einem Wert zwischen 0 und 255 "
-"eingestellt werden. Ein niedriger Wert bedeutet stärkere Durchsichtigkeit, "
-"ein höherer schwächere Durchsichtigkeit. Standardmäßig nicht transparent "
-"(bei einem Wert von 255). Das Minimum ist vollständig durchsichtig (bei "
-"einem Wert von 0)."
+"eingestellt werden. Ein niedriger Wert bedeutet stärkere Transparenz, ein "
+"höherer schwächere Transparenz. Standardmäßig nicht transparent (bei einem "
+"Wert von 255). Das Minimum ist vollständig durchsichtig (bei einem Wert von "
+"0)."
 
 #: modules/video_filter/remoteosd.c:119
 msgid "Remote-OSD over VNC"
@@ -24893,7 +24897,7 @@ msgstr ""
 
 #: modules/video_filter/rss.c:170
 msgid "Display a RSS or ATOM Feed on your video"
-msgstr "RSS oder ATOM Feed in einem Video anzeigen"
+msgstr "RSS- oder ATOM-Feed in einem Video anzeigen"
 
 #: modules/video_filter/rss.c:185
 msgid "Don't show"
@@ -24977,7 +24981,7 @@ msgstr ""
 
 #: modules/video_filter/scene.c:79
 msgid "Directory path prefix"
-msgstr "Verzeichnispfad-Prefix"
+msgstr "Verzeichnispfad-Präfix"
 
 #: modules/video_filter/scene.c:80
 msgid ""
@@ -24989,14 +24993,14 @@ msgstr ""
 
 #: modules/video_filter/scene.c:84
 msgid "Always write to the same file"
-msgstr "Immer in die selbe Datei schreiben"
+msgstr "Immer in dieselbe Datei schreiben"
 
 #: modules/video_filter/scene.c:85
 msgid ""
 "Always write to the same file instead of creating one file per image. In "
 "this case, the number is not appended to the filename."
 msgstr ""
-"Immer in die selbe Datei schreiben, anstatt für jedes Bild eine Datei zu "
+"Immer in dieselbe Datei schreiben, anstatt für jedes Bild eine Datei zu "
 "erstellen. In diesem Fall wird keine Zahl an den Dateinamen angehängt."
 
 #: modules/video_filter/scene.c:89
@@ -25081,7 +25085,7 @@ msgstr "Lanczos"
 
 #: modules/video_filter/swscale.c:66
 msgid "Bicubic spline"
-msgstr "Bicubic Spline"
+msgstr "Bicubische Spline"
 
 #: modules/video_filter/swscale.c:70
 msgid "Swscale"
@@ -25169,15 +25173,15 @@ msgstr "YUVP-Konvertierer"
 
 #: modules/video_output/aa.c:57
 msgid "ASCII Art"
-msgstr "ASCII Art"
+msgstr "ASCII-Art"
 
 #: modules/video_output/aa.c:60
 msgid "ASCII-art video output"
-msgstr "ASCII Art-Videoausgabe"
+msgstr "ASCII-Art-Videoausgabe"
 
 #: modules/video_output/caca.c:51
 msgid "Color ASCII art video output"
-msgstr "Farbige ASCII Art-Videoausgabe"
+msgstr "Farbige ASCII-Art-Videoausgabe"
 
 #: modules/video_output/directfb.c:49
 msgid "DirectFB video output http://www.directfb.org/"
@@ -25185,7 +25189,7 @@ msgstr "DirectFB-Videoausgabe http://www.directfb.org/"
 
 #: modules/video_output/drawable.c:41 modules/video_output/xcb/window.c:71
 msgid "Drawable"
-msgstr "Ausziehbar "
+msgstr "Ausziehbar"
 
 #: modules/video_output/drawable.c:42 modules/video_output/xcb/window.c:72
 msgid "Embedded window video"
@@ -25225,9 +25229,9 @@ msgid ""
 "in hardware then you must disable this option. It then does double buffering "
 "in software."
 msgstr ""
-"Wenn ihr Framebuffer Hardwarebeschleunigung unterstützt oder Double "
-"Buffering in Hardware anwendet müssen sie diese Option deaktivieren. Sie "
-"wendet Double Buffering in Software an."
+"Wenn der Framebuffer die Hardwarebeschleunigung unterstützt oder Double-"
+"Buffering in der Hardware anwendet, müssen Sie diese Option deaktivieren. Es "
+"wird Double-Buffering in der Software angewendet."
 
 #: modules/video_output/fb.c:76
 msgid "Image format (default RGB)"
@@ -25238,9 +25242,9 @@ msgid ""
 "Chroma fourcc used by the framebuffer. Default is RGB since the fb device "
 "has no way to report its chroma."
 msgstr ""
-"Farbsätting FourCC der durch den Framebuffer genutzt wird. Standard ist RGB, "
-"da das FB-Gerät keine Möglichkeit hat einen Bericht über die Farbsättigung "
-"zu übergeben."
+"Farbsätting FourCC, der durch den Framebuffer genutzt wird. Standard ist "
+"RGB, da das FB-Gerät keine Möglichkeit hat, einen Bericht über die "
+"Farbsättigung zu übergeben."
 
 #: modules/video_output/fb.c:95
 msgid "GNU/Linux framebuffer video output"
@@ -25260,7 +25264,7 @@ msgstr "HD1000-Videoausgabe"
 
 #: modules/video_output/macosx.m:69
 msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
-msgstr "Mac OS X-OpenGL-Videoausgabe (benötigt ein ausziehbares nsobjekt)"
+msgstr "Mac OS X-OpenGL-Videoausgabe (benötigt ein ausziehbares NS-Objekt)"
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "Enable desktop mode "
@@ -25272,7 +25276,7 @@ msgstr "Der Desktop-Modus erlaubt es Video auf dem Desktop darzustellen."
 
 #: modules/video_output/msw/direct3d.c:61
 msgid "Recommended video output for Windows Vista and later versions"
-msgstr "Empfohlende Video-Ausgabe für Windows Vista oder spätere Versionen"
+msgstr "Empfohlene Video-Ausgabe für Windows Vista oder spätere Versionen"
 
 #: modules/video_output/msw/direct3d.c:65
 msgid "Direct3D video output"
@@ -25292,7 +25296,7 @@ msgstr ""
 
 #: modules/video_output/msw/directx.c:73
 msgid "Use video buffers in system memory"
-msgstr "Videopuffer im Systemspeicher benutzen"
+msgstr "Video-Buffer im Systemspeicher benutzen"
 
 #: modules/video_output/msw/directx.c:75
 msgid ""
@@ -25301,22 +25305,22 @@ msgid ""
 "hardware acceleration (like rescaling or YUV->RGB conversions). This option "
 "doesn't have any effect when using overlays."
 msgstr ""
-"Videopuffer im Systemspeicher erzeugen, anstatt den Videospeicher zu "
-"benutzen. Dies wird nicht empfohlen, da die Benutzung des Videospeicher "
-"normalerweise mehr von der Hardwarebeschleunigung profitiert (wie erneute "
-"Skalierungen oder YUV->RGB Konvertierungen). Diese Option hat keinen Effekt, "
-"wenn Overlay benutzt wird."
+"Video-Buffer im Systemspeicher erzeugen, anstatt den Videospeicher zu "
+"benutzen. Dies wird nicht empfohlen, da durch die Benutzung des "
+"Videospeichers normalerweise mehr von der Hardwarebeschleunigung (wie "
+"erneute Skalierungen oder YUV->RGB Konvertierungen) profitiert wird. Diese "
+"Option hat keinen Effekt, wenn Overlay benutzt wird."
 
 #: modules/video_output/msw/directx.c:80
 msgid "Use triple buffering for overlays"
-msgstr "Dreifache Pufferung für Overlays benutzen"
+msgstr "Dreifache Bufferung für Overlays benutzen"
 
 #: modules/video_output/msw/directx.c:82
 msgid ""
 "Try to use triple buffering when using YUV overlays. That results in much "
 "better video quality (no flickering)."
 msgstr ""
-"Dreifache Pufferung bei YUV-Overlays verwenden. Dies sorgt für eine deutlich "
+"Dreifache Bufferung bei YUV-Overlays verwenden. Dies sorgt für eine deutlich "
 "bessere Bildqualität (kein Flackern)."
 
 #: modules/video_output/msw/directx.c:85
@@ -25338,7 +25342,7 @@ msgid ""
 "Recommended video output for Windows XP. Incompatible with Vista's Aero "
 "interface"
 msgstr ""
-"Empfohlende Video-Ausgabe für Windows XP. Nicht kompatibel mit der Aero-"
+"Empfohlene Video-Ausgabe für Windows XP. Nicht kompatibel mit der Aero-"
 "Schnittstelle von Vista."
 
 #: modules/video_output/msw/directx.c:104
@@ -25368,7 +25372,7 @@ msgstr "OMAP Framebuffer-Gerät"
 #: modules/video_output/omapfb.c:80
 msgid "OMAP Framebuffer device to use for rendering (usually /dev/fb0)."
 msgstr ""
-"Das OAMP Framepuffer-DGerät, das zum Rendern benutzt werden soll "
+"Das OAMP Framebuffer-Gerät, das zum Rendern benutzt werden soll "
 "(üblicherweise /dev/fb0)."
 
 #: modules/video_output/omapfb.c:84
@@ -25381,11 +25385,11 @@ msgstr ""
 
 #: modules/video_output/omapfb.c:86
 msgid "Embed the overlay"
-msgstr "Overlay Integrieren"
+msgstr "Overlay integrieren"
 
 #: modules/video_output/omapfb.c:88
 msgid "Embed the framebuffer overlay into a X11 window"
-msgstr "Bette das Framebufferoverlay in ein X11 Fenster ein"
+msgstr "Bette das Framebufferoverlay in ein X11-Fenster ein"
 
 #: modules/video_output/omapfb.c:91
 msgid "OMAP framebuffer"
@@ -25412,7 +25416,7 @@ msgid ""
 "Force the SDL renderer to use a specific chroma format instead of trying to "
 "improve performances by using the most efficient one."
 msgstr ""
-"Den SDL-Renderer zwingen ein bestimmtes Farbsättigungsformat zu benutzen, "
+"Den SDL-Renderer zwingen, ein bestimmtes Farbsättigungsformat zu benutzen, "
 "anstatt ihn das effizienteste wählen zu lassen."
 
 #: modules/video_output/sdl.c:66
@@ -25491,7 +25495,7 @@ msgid ""
 "VLC can embed its video output in an existing X11 window. This is the X "
 "identifier of that window (0 means none)."
 msgstr ""
-"VLC kann die Videoausgabe in ein existierendes X11 Fenster integrieren. Dies "
+"VLC kann die Videoausgabe in ein existierendes X11-Fenster integrieren. Dies "
 "ist der X-Identifier dieses Fensters (0 bedeutet keins)."
 
 #: modules/video_output/xcb/window.c:57
@@ -25500,7 +25504,7 @@ msgstr "X-Fenster"
 
 #: modules/video_output/xcb/window.c:58
 msgid "X11 video window (XCB)"
-msgstr "X11 Videofenster (XCB)"
+msgstr "X11-Videofenster (XCB)"
 
 #. xgettext: This is a plain ASCII spelling of "VLC media player"
 #. for the ICCCM window name. This must be pure ASCII.
@@ -25550,7 +25554,7 @@ msgid ""
 "XVideo hardware adaptor to use. By default, VLC will use the first "
 "functional adaptor."
 msgstr ""
-"Benutzter XVideo-Hardware-Adapter. Standardmäßig wird VLC den erten "
+"Benutzter XVideo-Hardware-Adapter. Standardmäßig wird VLC den ersten "
 "funktionierenden Adapter benutzen."
 
 #: modules/video_output/xcb/xvideo.c:58
@@ -25578,7 +25582,7 @@ msgstr ""
 "benötigte Auflösung: %ux%u Pixel. Die maximal unterstützte Auflösung ist  "
 "%<PRIu32>x%<PRIu32>.\n"
 "Die Videoausgabebeschleunigung wird deaktiviert. Allerdings kann das Video-"
-"Rendering mit übermäßig großer Auflösung hohe Leistungsreduzierung "
+"Rendering mit übermäßig großer Auflösung hohe Leistungseinbußen/-verluste "
 "verursachen."
 
 #: modules/video_output/yuv.c:41
@@ -25587,7 +25591,7 @@ msgstr "Gerät, FIFO oder Dateiname"
 
 #: modules/video_output/yuv.c:42
 msgid "device, fifo or filename to write yuv frames too."
-msgstr "Gerät, FIFO oder Dateiname zum Schreiben von YUV Frames."
+msgstr "Gerät, FIFO oder Dateiname zum Schreiben von YUV-Frames."
 
 #: modules/video_output/yuv.c:48
 msgid "YUV4MPEG2 header (default disabled)"
@@ -25656,11 +25660,11 @@ msgstr "Datei die für die Konfiguration der ProjektM-Module benutzt wird."
 
 #: modules/visualization/projectm.cpp:51
 msgid "projectM preset path"
-msgstr "Path zu den ProjektM Voreinstellungen"
+msgstr "Path zu den ProjektM-Voreinstellungen"
 
 #: modules/visualization/projectm.cpp:52
 msgid "Path to the projectM preset directory"
-msgstr "Path zu dem ProjektM Voreinstellungsverzeichnis"
+msgstr "Zum ProjektM-Voreinstellungsverzeichniss"
 
 #: modules/visualization/projectm.cpp:54
 msgid "Title font"
@@ -25704,7 +25708,7 @@ msgid ""
 "Current effects include: dummy, scope, spectrum, spectrometer and vuMeter."
 msgstr ""
 "Eine Liste von visuellen Effekten, getrennt durch Kommata.\n"
-"Derzeitige Effekte beinhaltet: Dummy, scope, Spektrum und VUMeter."
+"Derzeit vorhandene Effekte: Dummy, scope, Spektrum und VUMeter."
 
 #: modules/visualization/visual/visual.c:50
 msgid "The width of the effects video window, in pixels."
@@ -25721,7 +25725,7 @@ msgstr "Mehr Bänder : 80 / 20"
 #: modules/visualization/visual/visual.c:58
 msgid "More bands for the spectrum analyzer : 80 if enabled else 20."
 msgstr ""
-"Mehr Bänder für den Spektrum Analyzer : 80 wenn aktiviert, ansonsten 20."
+"Mehr Bänder für den Spektrum-Analyser : 80 wenn aktiviert, ansonsten 20."
 
 #: modules/visualization/visual/visual.c:60
 msgid "More bands for the spectrometer : 80 if enabled else 20."
@@ -25749,7 +25753,7 @@ msgstr "Spitzenwerte aktivieren"
 
 #: modules/visualization/visual/visual.c:72
 msgid "Draw \"peaks\" in the spectrum analyzer."
-msgstr "Zeichne \"Spitzenwerte\" in den Spektrumanalysierer."
+msgstr "Zeichne \"Spitzenwerte\" in den Spektrum-Analyser."
 
 #: modules/visualization/visual/visual.c:74
 msgid "Enable original graphic spectrum"
@@ -25757,7 +25761,7 @@ msgstr "Original-Grafikspektrum aktivieren"
 
 #: modules/visualization/visual/visual.c:76
 msgid "Enable the \"flat\" spectrum analyzer in the spectrometer."
-msgstr "Aktiviert den  \"ebenen\"-Spektrumanalysierer im Spektrometer."
+msgstr "Aktiviert den  \"ebenen\"-Spektrum-Analyser im Spektrometer."
 
 #: modules/visualization/visual/visual.c:78
 msgid "Enable bands"
@@ -26055,7 +26059,7 @@ msgstr "WAV"
 
 #: modules/gui/qt4/ui/profiles.h:465
 msgid "Webm"
-msgstr ""
+msgstr "Webm"
 
 #: modules/gui/qt4/ui/profiles.h:466
 msgid "ASF/WMV"
@@ -26110,8 +26114,9 @@ msgid ""
 "You just need to fill one of the three following parameters, VLC will "
 "autodetect the other using the original aspect ratio"
 msgstr ""
-"Sie müssen nur eine der folgenden drei Parameter ausfüllen, VLC wird die "
-"anderen aufgrund des original Seitenverhältnisses herausfinden"
+"Sie müssen nur einen der folgenden drei Parameter ausfüllen, VLC wird die "
+"anderen aufgrund des originalen/ursprünglichen Seitenverhältnisses "
+"herausfinden"
 
 #: modules/gui/qt4/ui/profiles.h:487 modules/gui/qt4/ui/profiles.h:490
 msgid "00000; "
@@ -26154,8 +26159,8 @@ msgid ""
 "Add destinations following the streaming methods you need. Be sure to check "
 "with transcoding that the format is compatible with the method used."
 msgstr ""
-"Fügen sie Ziele im Anschluss an die Streaming Methoden die sie benötigen an. "
-"Stellen sie sicher, dass das Format mit der gewählten Methode kompatibel ist."
+"Fügen Sie die Ziele, die Sie benötigen, gemäß der Streaming-Methoden an. "
+"Stellen Sie sicher, dass das Format mit der gewählten Methode kompatibel ist."
 
 #: modules/gui/qt4/ui/sout.h:333
 msgid "Display locally"
@@ -26255,7 +26260,7 @@ msgstr "H.264 Einsprungfilter (Blockieraufhebung) überspringen"
 
 #: modules/gui/qt4/ui/sprefs_input.h:311
 msgid "Video quality post-processing level"
-msgstr "Stärke des Videoqualitäts-Nachbearbeitungsfilter"
+msgstr "Stärke des Videoqualitäts-Nachbearbeitungsfilters"
 
 #: modules/gui/qt4/ui/sprefs_input.h:312
 msgid "Use GPU acceleration (experimental)"
@@ -26369,7 +26374,7 @@ msgstr "Videoausgabe im Interface integrieren"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:399
 msgid "Systray popup when minimized"
-msgstr "Systray Popup wenn minimiert"
+msgstr "Systray-Popup wenn minimiert"
 
 #: modules/gui/qt4/ui/sprefs_interface.h:400
 msgid "Show controls in full screen mode"
@@ -26572,7 +26577,7 @@ msgstr "Ähnlichkeit"
 
 #: modules/gui/qt4/ui/video_effects.h:1140
 msgid "Color fun"
-msgstr "Farbspass"
+msgstr "Farbspaß"
 
 #: modules/gui/qt4/ui/video_effects.h:1142
 msgid "Water effect"
@@ -26689,11 +26694,11 @@ msgstr "Name:"
 
 #: modules/gui/qt4/ui/vlm.h:291
 msgid "Input:"
-msgstr "Input:"
+msgstr "Eingang:"
 
 #: modules/gui/qt4/ui/vlm.h:292
 msgid "Select Input"
-msgstr "Input wählen"
+msgstr "Eingang wählen"
 
 #: modules/gui/qt4/ui/vlm.h:293
 msgid "Output:"
