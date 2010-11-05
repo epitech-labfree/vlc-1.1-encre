@@ -4,11 +4,17 @@ Changes between 1.1.4.1 and 1.1.5:
 Security:
  * Fix a Windows crash on accessing Network Shared files/drives, VideoLAN-SA-1006
 
+Access:
+ * Support for RTP access for H264 streams by specifying the demux in the MRL
+
+Services Discovery:
+ * Integration in the playlist, of a list of web shows, provided by channels.com
+
 Demuxers:
+ * Game Music Emu (GME) plugin rewritten, using the proper C API
  * DVDnav and DVDread fixes for encoding and misc issues
  * Playback of live http .Webm streams
  * Taglib thread-safety fix
- * Game Music Emu (GME) plugin rewritten, using the proper C API
 
 Decoders:
  * Fix decoding of H264 using DxVA2 using Intel IGP, thanks to the donation from
