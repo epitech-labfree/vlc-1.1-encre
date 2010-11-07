@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-11-03 21:59+0000\n"
-"PO-Revision-Date: 2010-08-31 23:14+0900\n"
+"POT-Creation-Date: 2010-11-05 19:22+0000\n"
+"PO-Revision-Date: 2010-11-06 13:49+0900\n"
 "Last-Translator: Fumio Nakayama <fumio.n6a@gmail.com>\n"
 "Language-Team: VideoLAN's Translators <translators@videolan.org>\n"
 "Language: \n"
@@ -356,6 +356,7 @@ msgstr "ビデオオンデマンドのVLCの実装"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
+#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "プレイリスト"
@@ -907,6 +908,7 @@ msgstr "文字列"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
+#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "メディアライブラリー"
 
@@ -13425,10 +13427,6 @@ msgstr "Diracビデオ デマルチプレクサ"
 msgid "FLAC demuxer"
 msgstr "FLACデマルチプレクサ"
 
-#: modules/demux/gme.cpp:55
-msgid "GME demuxer (Game_Music_Emu)"
-msgstr "GMEデマルチプレクサ(ゲーム音楽エミュレーター)"
-
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
 msgstr "クローズドキャプション1"
@@ -17674,6 +17672,25 @@ msgstr "逆順"
 msgid "Remove this podcast subscription"
 msgstr "このPodcastの視聴申込を削除"
 
+#: modules/gui/qt4/components/playlist/selector.cpp:267
+msgid "My Computer"
+msgstr ""
+
+#: modules/gui/qt4/components/playlist/selector.cpp:269
+#, fuzzy
+msgid "Devices"
+msgstr "デバイス"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:271
+#, fuzzy
+msgid "Local Network"
+msgstr "ネットワーク"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:273
+#, fuzzy
+msgid "Internet"
+msgstr "Interlingue"
+
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
 msgstr "Podcastの申込"
@@ -20046,9 +20063,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Luaアート"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -26270,6 +26286,9 @@ msgstr "ループ"
 #: modules/gui/qt4/ui/vlm.h:303
 msgid "Media Manager List"
 msgstr "メディアマネージャーリスト"
+
+#~ msgid "GME demuxer (Game_Music_Emu)"
+#~ msgstr "GMEデマルチプレクサ(ゲーム音楽エミュレーター)"
 
 #, fuzzy
 #~ msgid ""
