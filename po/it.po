@@ -11,15 +11,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: it\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-11-03 21:59+0000\n"
-"PO-Revision-Date: 2010-06-19 11:49+0200\n"
+"POT-Creation-Date: 2010-11-05 19:22+0000\n"
+"PO-Revision-Date: 2010-11-07 12:53+0100\n"
 "Last-Translator: Vincenzo Reale <smart2128@baslug.org>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.1\n"
+"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: include/vlc_common.h:923
@@ -366,6 +366,7 @@ msgstr "Implementazione VLC di Video On Demand"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
+#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "Scaletta"
@@ -917,6 +918,7 @@ msgstr "stringa"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
+#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "Raccolta multimediale"
 
@@ -2540,7 +2542,7 @@ msgstr "Interfaccia di uscita multicast"
 
 #: src/libvlc-module.c:680
 msgid "Default multicast interface. This overrides the routing table."
-msgstr ""
+msgstr "Interfaccia multicast predefinita. Ignora la tabella di routing."
 
 #: src/libvlc-module.c:682
 msgid "IPv4 multicast output interface address"
@@ -2675,7 +2677,7 @@ msgstr "Posizionamento veloce"
 
 #: src/libvlc-module.c:753
 msgid "Favor speed over precision while seeking"
-msgstr ""
+msgstr "Preferisci la velocità alla precisione durante il posizionamento"
 
 #: src/libvlc-module.c:755
 msgid "Playback speed"
@@ -2683,7 +2685,7 @@ msgstr "Velocità di riproduzione"
 
 #: src/libvlc-module.c:757
 msgid "This defines the playback speed (nominal speed is 1.0)."
-msgstr ""
+msgstr "Definisce la velocità di riproduzione (la velocità nominale è 1.0)."
 
 #: src/libvlc-module.c:759
 msgid "Input list"
@@ -3450,7 +3452,7 @@ msgstr ""
 
 #: src/libvlc-module.c:1121
 msgid "(Experimental) Don't do caching at the access level."
-msgstr ""
+msgstr "(Sperimentael) Non utilizzare la cache a livello di accesso."
 
 #: src/libvlc-module.c:1123
 msgid ""
@@ -3732,6 +3734,8 @@ msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
+"La raccolta multimediale è salvata automaticamente e ricaricata ogni volta "
+"che avvii VLC."
 
 #: src/libvlc-module.c:1266
 msgid "Display playlist tree"
@@ -3742,6 +3746,8 @@ msgid ""
 "The playlist can use a tree to categorize some items, like the contents of a "
 "directory."
 msgstr ""
+"La scaletta può utilizzare una struttura ad albero per categorizzare alcuni "
+"elementi, come il contenuto di una cartella."
 
 #: src/libvlc-module.c:1277
 msgid "These settings are the global VLC key bindings, known as \"hotkeys\"."
@@ -4432,11 +4438,11 @@ msgstr "Normale/Ripeti/Cicla"
 
 #: src/libvlc-module.c:1463
 msgid "Toggle Normal/Repeat/Loop playlist modes"
-msgstr ""
+msgstr "Attiva la modalità normale/ripetuta/ciclica della scaletta"
 
 #: src/libvlc-module.c:1466
 msgid "Toggle random playlist playback"
-msgstr ""
+msgstr "Attiva la riproduzione casuale della scaletta"
 
 #: src/libvlc-module.c:1471 src/libvlc-module.c:1472
 msgid "Un-Zoom"
@@ -4486,7 +4492,7 @@ msgstr "uscita video QT Embedded"
 
 #: src/libvlc-module.c:1498 src/libvlc-module.c:1499
 msgid "Display OSD menu on top of video output"
-msgstr ""
+msgstr "Mostra il menu OSD nella parte alta dell'uscita video"
 
 #: src/libvlc-module.c:1500
 #, fuzzy
@@ -4808,6 +4814,8 @@ msgid ""
 "It was not possible to securely verify the downloaded file \"%s\". Thus, it "
 "was deleted."
 msgstr ""
+"Non è stato possibile verificare con sicurezza il file \"%s\" scaricato. "
+"Perciò, è stato eliminato."
 
 #: src/misc/update.c:710 src/misc/update.c:722
 msgid "File corrupted"
@@ -5596,7 +5604,7 @@ msgstr ""
 
 #: modules/access/avio.h:34
 msgid "Avio"
-msgstr ""
+msgstr "Avio"
 
 #: modules/access/avio.h:35
 msgid "FFmpeg access"
@@ -6404,7 +6412,7 @@ msgstr "File del certificato"
 
 #: modules/access/dvb/access.c:179
 msgid "HTTP interface x509 PEM certificate file (enables SSL)"
-msgstr ""
+msgstr "File di certificato x509 PEM per l'interfaccia HTTP (abilita SSL)"
 
 #: modules/access/dvb/access.c:182 modules/access_output/http.c:77
 #: modules/control/http/http.c:60
@@ -6413,7 +6421,7 @@ msgstr "File chiave privata"
 
 #: modules/access/dvb/access.c:183
 msgid "HTTP interface x509 PEM private key file"
-msgstr ""
+msgstr "File della chiave privata x509 PEM per l'interfaccia HTTP"
 
 #: modules/access/dvb/access.c:185 modules/access_output/http.c:81
 #: modules/control/http/http.c:62
@@ -6432,6 +6440,7 @@ msgstr "File CLR"
 #: modules/access/dvb/access.c:190
 msgid "HTTP interface Certificates Revocation List file"
 msgstr ""
+"File dell'elenco di revoca dei certificati (CRL) per l'interfaccia HTTP"
 
 #: modules/access/dvb/access.c:194
 msgid "DVB input with v4l2 support"
@@ -6805,7 +6814,7 @@ msgstr "Password proxy HTTP"
 
 #: modules/access/http.c:79
 msgid "If your HTTP proxy requires a password, set it here."
-msgstr ""
+msgstr "Se il proxy HTTP richiede una password, impostala qui."
 
 #: modules/access/http.c:83
 msgid ""
@@ -6862,7 +6871,7 @@ msgstr "Limita il numero di redirezioni da seguire."
 
 #: modules/access/http.c:107
 msgid "Use Internet Explorer entered HTTP proxy server"
-msgstr ""
+msgstr "Usa il server proxy HTTP configurato in Internet Explorer"
 
 #: modules/access/http.c:108
 msgid ""
@@ -6928,7 +6937,7 @@ msgstr "Imposta il codificatore del flusso elementare"
 
 #: modules/access/imem.c:78
 msgid "Language of the elementary stream as described by ISO639"
-msgstr ""
+msgstr "Lingua del flusso elementare come previsto da ISO639"
 
 #: modules/access/imem.c:82
 msgid "Sample rate of an audio elementary stream"
@@ -7069,6 +7078,7 @@ msgstr "Utilizza memoria condivisa"
 #: modules/access/mmap.c:43
 msgid "Try to use memory mapping to read files and block devices."
 msgstr ""
+"Usa la mappatura della memoria per leggere file e dispositivi a blocchi."
 
 #: modules/access/mmap.c:53
 msgid "MMap"
@@ -7377,6 +7387,7 @@ msgstr "Filtri"
 #: modules/access/rtp/rtp.c:46
 msgid "How long to wait for late RTP packets (and delay the performance)."
 msgstr ""
+"Quanto attendere i pacchetti RTP in ritardo (e ritardare l'esecuzione)."
 
 #: modules/access/rtp/rtp.c:48
 msgid "RTCP (local) port"
@@ -7400,7 +7411,7 @@ msgstr ""
 
 #: modules/access/rtp/rtp.c:58 modules/stream_out/rtp.c:147
 msgid "SRTP salt (hexadecimal)"
-msgstr ""
+msgstr "Salto SRTP (esadecimale)"
 
 #: modules/access/rtp/rtp.c:60 modules/stream_out/rtp.c:149
 msgid "Secure RTP requires a (non-secret) master salt value."
@@ -7558,7 +7569,7 @@ msgstr "Schermo"
 
 #: modules/access/screen/xcb.c:40
 msgid "How many times the screen content should be refreshed per second."
-msgstr ""
+msgstr "Quante volte al secondo aggiornare il contenuto dello schermo."
 
 #: modules/access/screen/xcb.c:42
 msgid "Region left column"
@@ -7901,7 +7912,7 @@ msgstr "Ripristina controlli v4l2"
 
 #: modules/access/v4l2.c:113
 msgid "Reset controls to defaults provided by the v4l2 driver."
-msgstr ""
+msgstr "Reimposta i controlli ai valori predefiniti forniti dal driver V4l2."
 
 #: modules/access/v4l2.c:116
 msgid "Brightness of the video input (if supported by the v4l2 driver)."
@@ -8116,7 +8127,7 @@ msgstr "Modalità audio"
 
 #: modules/access/v4l2.c:208
 msgid "Tuner audio mono/stereo and track selection."
-msgstr ""
+msgstr "Sintonizzatore audio mono/stereo e selezione della traccia."
 
 #: modules/access/v4l2.c:211
 msgid ""
@@ -8449,6 +8460,8 @@ msgid ""
 "Path to the x509 PEM private key file that will be used for HTTPS. Leave "
 "empty if you don't have one."
 msgstr ""
+"Percorso del file della chiave privata x509 PEM che sarà utilizzata per "
+"HTTPS. Non modificare se non ne possiedi una."
 
 #: modules/access_output/http.c:82
 msgid ""
@@ -8483,6 +8496,8 @@ msgid ""
 "If enabled, VLC will connect to a remote destination instead of waiting for "
 "an incoming connection."
 msgstr ""
+"Se abilitata, VLC si connetterà a una destinazione remoto invece che "
+"attendere connessioni in entrata."
 
 #: modules/access_output/rtmp.c:55
 msgid "RTMP stream output"
@@ -8681,7 +8696,7 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:67
 msgid "Time between two alarm messages in ms (default 2000)"
-msgstr ""
+msgstr "Tempo tra due messaggi di allarme in ms (predefinito 2000)"
 
 #: modules/audio_filter/audiobargraph_a.c:68
 msgid ""
@@ -8705,7 +8720,7 @@ msgstr "Parte audio della funzione BarGraph"
 
 #: modules/audio_filter/audiobargraph_a.c:85
 msgid "audiobargraph_a"
-msgstr ""
+msgstr "audiobargraph_a"
 
 #: modules/audio_filter/channel_mixer/dolby.c:49
 msgid "Simple decoder for Dolby Surround encoded streams"
@@ -9209,7 +9224,7 @@ msgstr "Dimensioni stanza"
 
 #: modules/audio_filter/spatializer/spatializer.cpp:55
 msgid "Defines the virtual surface of the room emulated by the filter."
-msgstr ""
+msgstr "Definisce la superficie virtuale della stanza simulata dal filtro."
 
 #: modules/audio_filter/spatializer/spatializer.cpp:58
 msgid "Room width"
@@ -9290,8 +9305,10 @@ msgid "No Audio Device"
 msgstr "Nessun dispositivo audio"
 
 #: modules/audio_output/alsa.c:352
+#, fuzzy
 msgid "No audio device name was given. You might want to enter \"default\"."
 msgstr ""
+"Non è stato fornito alcun nome per il dispositivo audio. Dovresti inserire"
 
 #: modules/audio_output/alsa.c:459 modules/audio_output/alsa.c:498
 #: modules/audio_output/alsa.c:510 modules/audio_output/auhal.c:269
@@ -9435,7 +9452,7 @@ msgstr ""
 
 #: modules/audio_output/jack.c:76
 msgid "Connect to clients matching"
-msgstr ""
+msgstr "Connetti ai client corrispondenti"
 
 #: modules/audio_output/jack.c:78
 msgid ""
@@ -9695,8 +9712,9 @@ msgstr ""
 "produrre immagini distorte."
 
 #: modules/codec/avcodec/avcodec.h:102
+#, fuzzy
 msgid "Allow speed tricks"
-msgstr ""
+msgstr "Consenti "
 
 #: modules/codec/avcodec/avcodec.h:104
 msgid ""
@@ -9778,7 +9796,7 @@ msgstr "Decodifica hardware"
 
 #: modules/codec/avcodec/avcodec.h:139
 msgid "This allows hardware decoding when available."
-msgstr ""
+msgstr "Consente la decodifica hardware se disponibile."
 
 #: modules/codec/avcodec/avcodec.h:146
 msgid "Ratio of key frames"
@@ -10209,11 +10227,11 @@ msgstr "Forza le opzioni per file di sottotitoli separati."
 
 #: modules/codec/dirac.c:116
 msgid "Width of motion compensation blocks"
-msgstr ""
+msgstr "Larghezza dei blocchi di compensazione del movimento"
 
 #: modules/codec/dirac.c:120
 msgid "Height of motion compensation blocks"
-msgstr ""
+msgstr "Altezza dei blocchi di compensazione del movimento"
 
 #: modules/codec/dirac.c:125
 msgid "Block overlap (%)"
@@ -10546,7 +10564,7 @@ msgstr ""
 
 #: modules/codec/invmem.c:68
 msgid "Data for the locking and unlocking functions"
-msgstr ""
+msgstr "Dati per le funzioni di blocco e sblocco"
 
 #: modules/codec/invmem.c:70 modules/video_output/snapshot.c:61
 #: modules/video_output/vmem.c:51
@@ -11041,9 +11059,8 @@ msgstr "Incapsulazione sottotitoli DVD"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "Baltico (Windows-1257)"
+msgstr "Predefinito (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -11511,7 +11528,7 @@ msgstr ""
 
 #: modules/codec/x264.c:96
 msgid "Keep some B-frames as references"
-msgstr ""
+msgstr "Mantieni alcuni fotogrammi B come riferimento"
 
 #: modules/codec/x264.c:98
 msgid ""
@@ -11624,20 +11641,23 @@ msgid "Force rectangular slices and is overridden by other slicing optinos"
 msgstr ""
 
 #: modules/codec/x264.c:155
+#, fuzzy
 msgid "Limit the size of each slice in bytes"
-msgstr ""
+msgstr "Limita la dimensione di ogni in byte"
 
 #: modules/codec/x264.c:156
 msgid "Sets a maximum slice size in bytes, Includes NAL overhead in size"
 msgstr ""
 
 #: modules/codec/x264.c:158
+#, fuzzy
 msgid "Limit the size of each slice in macroblocks"
-msgstr ""
+msgstr "Limita la dimensione di ogni in macroblocchi"
 
 #: modules/codec/x264.c:159
+#, fuzzy
 msgid "Sets a maximum number of macroblocks per slice"
-msgstr ""
+msgstr "Imposta un numero massimo di macroblocchi per "
 
 #: modules/codec/x264.c:162
 msgid "Set QP"
@@ -12209,7 +12229,7 @@ msgstr "Pagina del televideo"
 #: modules/codec/zvbi.c:59
 msgid "Open the indicated Teletext page.Default page is index 100"
 msgstr ""
-"Apri la pagina di Televideo indicata. La pagina predefinita è 100 (indice)"
+"Apri la pagina di televideo indicata. La pagina predefinita è 100 (indice)"
 
 #: modules/codec/zvbi.c:62
 msgid "Text is always opaque"
@@ -12236,7 +12256,7 @@ msgstr ""
 
 #: modules/codec/zvbi.c:72
 msgid "Teletext text subtitles"
-msgstr "Sottotitoli del Televideo"
+msgstr "Sottotitoli del televideo"
 
 #: modules/codec/zvbi.c:73
 msgid "Output teletext subtitles as text instead of as RGBA"
@@ -12244,11 +12264,11 @@ msgstr ""
 
 #: modules/codec/zvbi.c:82
 msgid "VBI and Teletext decoder"
-msgstr "Decodificatore VBI e Televideo"
+msgstr "Decodificatore VBI e televideo"
 
 #: modules/codec/zvbi.c:83
 msgid "VBI & Teletext"
-msgstr "VBI e Televideo"
+msgstr "VBI e televideo"
 
 #: modules/codec/zvbi.c:686
 msgid "Subpage"
@@ -13359,10 +13379,6 @@ msgstr "Decodificatore video Dirac"
 msgid "FLAC demuxer"
 msgstr "Demuxer FLAC"
 
-#: modules/demux/gme.cpp:55
-msgid "GME demuxer (Game_Music_Emu)"
-msgstr ""
-
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
 msgstr "Sottotitoli chiusi"
@@ -13458,6 +13474,8 @@ msgid ""
 "Sets the username for the connection, if no username or password are set in "
 "the url."
 msgstr ""
+"Imposta il nome utente per la connessione, se non è stato inserito un nome "
+"utente o una password nell'URL."
 
 #: modules/demux/live555.cpp:93
 msgid "RTSP password"
@@ -13558,7 +13576,7 @@ msgstr "Capitoli ordinati"
 
 #: modules/demux/mkv/mkv.cpp:54
 msgid "Play ordered chapters as specified in the segment."
-msgstr ""
+msgstr "Riproduci i capitoli nell'ordine specificato nel segmento."
 
 #: modules/demux/mkv/mkv.cpp:57
 msgid "Chapter codecs"
@@ -13882,9 +13900,9 @@ msgid "Podcast Size"
 msgstr "Dimensione del podcast"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Byte inviati"
+msgstr "%s byte"
 
 #: modules/demux/playlist/shoutcast.c:409
 msgid "Shoutcast"
@@ -14232,7 +14250,7 @@ msgstr "Televideo: pianificazione programmi"
 
 #: modules/demux/ts.c:199
 msgid "Teletext subtitles: hearing impaired"
-msgstr "Sottotitoli Televideo: non udenti"
+msgstr "Sottotitoli televideo: non udenti"
 
 #: modules/demux/ts.c:3557
 msgid "DVB subtitles: hearing impaired"
@@ -17096,7 +17114,7 @@ msgstr "Capitolo/Titolo successivo"
 
 #: modules/gui/qt4/components/controller.cpp:486
 msgid "Teletext Activation"
-msgstr "Attivazione Televideo"
+msgstr "Attivazione televideo"
 
 #: modules/gui/qt4/components/controller.cpp:502
 msgid "Toggle Transparency "
@@ -17531,6 +17549,22 @@ msgstr "Decrescente"
 #: modules/gui/qt4/components/playlist/selector.cpp:248
 msgid "Remove this podcast subscription"
 msgstr "Rimuovi l'iscrizione al podcast"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:267
+msgid "My Computer"
+msgstr "Computer"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:269
+msgid "Devices"
+msgstr "Dispositivi"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:271
+msgid "Local Network"
+msgstr "Rete locale"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:273
+msgid "Internet"
+msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -18277,14 +18311,12 @@ msgid "&Reset Preferences"
 msgstr "&Ripristina preferenze"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Carica configurazione"
+msgstr "Impossibile salvare la configurazione"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Il file non può essere verificato"
+msgstr "Il file delle preferenze non può essere salvato"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -19887,9 +19919,8 @@ msgid "Lua HTTP"
 msgstr "HTTP Lua"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Lua Art"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -26059,18 +26090,6 @@ msgstr "Elenco gestore multimediale"
 #~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 #~ msgstr ""
 #~ "Contenitori (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-
-#~ msgid "My Computer"
-#~ msgstr "Computer"
-
-#~ msgid "Devices"
-#~ msgstr "Dispositivi"
-
-#~ msgid "Local Network"
-#~ msgstr "Rete locale"
-
-#~ msgid "Internet"
-#~ msgstr "Internet"
 
 #~ msgid "SessionManager"
 #~ msgstr "Gestore delle sessioni"
