@@ -6,10 +6,10 @@
 # Gonçalo Cordeiro <gzcordeiro@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: vlc 1.1.3-git\n"
+"Project-Id-Version: vlc 1.1.5-git\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-11-03 21:59+0000\n"
-"PO-Revision-Date: 2010-08-26 11:45+0200\n"
+"POT-Creation-Date: 2010-11-05 19:22+0000\n"
+"PO-Revision-Date: 2010-11-07 11:45+0200\n"
 "Last-Translator: Gonçalo Cordeiro <gzcordeiro@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
@@ -17,7 +17,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: WordForge 0.7 RC1\n"
+"X-Generator: WordForge 0.7-1\n"
+"X-Language: gl_ES\n"
 
 #: include/vlc_common.h:923
 msgid ""
@@ -365,6 +366,7 @@ msgstr "Implementación do VLC de vídeo baixo petición"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
+#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "Lista de reprodución"
@@ -923,6 +925,7 @@ msgstr "cadea"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
+#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "Biblioteca multimedia"
 
@@ -13767,10 +13770,6 @@ msgstr "Demultiplexor de vídeo Dirac"
 msgid "FLAC demuxer"
 msgstr "Demultiplexor FLAC"
 
-#: modules/demux/gme.cpp:55
-msgid "GME demuxer (Game_Music_Emu)"
-msgstr "Demultiplexor GME (Game_Music_Emu)"
-
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
 msgstr "Subtítulos para xordos"
@@ -18047,6 +18046,23 @@ msgstr "Descendente"
 msgid "Remove this podcast subscription"
 msgstr "Eliminar esta subscrición a podcast"
 
+#: modules/gui/qt4/components/playlist/selector.cpp:267
+msgid "My Computer"
+msgstr "O meu computador"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:269
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:271
+msgid "Local Network"
+msgstr "Rede local"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:273
+#, fuzzy
+msgid "Internet"
+msgstr "Interlingue"
+
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
 msgstr "Subscribirse a un podcast"
@@ -18793,14 +18809,12 @@ msgid "&Reset Preferences"
 msgstr "&Restabelecer as preferencias"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Configuración de interface Lua"
+msgstr "Non se puido gardar a configuración"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Non se puido verificar o ficheiro"
+msgstr "Non se puido gardar o ficheiro de preferencias"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -26784,6 +26798,9 @@ msgstr "Bucle"
 msgid "Media Manager List"
 msgstr "Lista de xestor multimedia"
 
+#~ msgid "GME demuxer (Game_Music_Emu)"
+#~ msgstr "Demultiplexor GME (Game_Music_Emu)"
+
 #~ msgid ""
 #~ "Address of the locking callback function. This function must fill in "
 #~ "valid plane memory address information for use by the video renderer."
@@ -26791,15 +26808,6 @@ msgstr "Lista de xestor multimedia"
 #~ "Enderezo da función de modo de emerxencia de bloqueo. Esta función debe "
 #~ "encaixar nunha información válida de enderezo de memoria plana para ser "
 #~ "usada polo renderizador de vídeo."
-
-#~ msgid "My Computer"
-#~ msgstr "O meu computador"
-
-#~ msgid "Devices"
-#~ msgstr "Dispositivos"
-
-#~ msgid "Local Network"
-#~ msgstr "Rede local"
 
 #~ msgid "SessionManager"
 #~ msgstr "Xestor de sesión"
