@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-11-03 21:59+0000\n"
-"PO-Revision-Date: 2010-08-19 11:14+0300\n"
+"POT-Creation-Date: 2010-11-05 19:22+0000\n"
+"PO-Revision-Date: 2010-11-07 19:50+0200\n"
 "Last-Translator: Oleksandr Natalenko <pfactum@gmail.com>\n"
 "Language-Team: Ukrainian <kde-i18n-doc@kde.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.1\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -357,6 +357,7 @@ msgstr "VLC-реалізація відео-за-вимогою"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
+#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "Список відтворення"
@@ -902,6 +903,7 @@ msgstr "рядок"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
+#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "Медіабібліотека"
 
@@ -13497,10 +13499,6 @@ msgstr "Демультиплексор відео Dirac"
 msgid "FLAC demuxer"
 msgstr "Демультиплексор FLAC"
 
-#: modules/demux/gme.cpp:55
-msgid "GME demuxer (Game_Music_Emu)"
-msgstr "Демультиплексор GME (Game_Music_Emu)"
-
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
 msgstr "Закриті заголовки"
@@ -17744,6 +17742,22 @@ msgstr "Спаданням"
 msgid "Remove this podcast subscription"
 msgstr "Видалити цю підписку на подкаст"
 
+#: modules/gui/qt4/components/playlist/selector.cpp:267
+msgid "My Computer"
+msgstr "Мій комп’ютер"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:269
+msgid "Devices"
+msgstr "Пристрої"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:271
+msgid "Local Network"
+msgstr "Локальна мережа"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:273
+msgid "Internet"
+msgstr "Інтернет"
+
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
 msgstr "Підписатися на подкаст"
@@ -18485,14 +18499,12 @@ msgid "&Reset Preferences"
 msgstr "Скинути налаштування"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Конфігурація інтерфейсу Lua"
+msgstr "Неможливо зберегти конфігурацію"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Файл не може бути перевірений"
+msgstr "Файл налаштувань неможливо зберегти"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -20108,9 +20120,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Мистецтво Lua"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -26339,6 +26350,9 @@ msgstr "Цикл"
 msgid "Media Manager List"
 msgstr "Список медіаменеджеру"
 
+#~ msgid "GME demuxer (Game_Music_Emu)"
+#~ msgstr "Демультиплексор GME (Game_Music_Emu)"
+
 #~ msgid ""
 #~ "Address of the locking callback function. This function must fill in "
 #~ "valid plane memory address information for use by the video renderer."
@@ -26350,18 +26364,6 @@ msgstr "Список медіаменеджеру"
 #~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 #~ msgstr ""
 #~ "Контейнери (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-
-#~ msgid "My Computer"
-#~ msgstr "Мій комп’ютер"
-
-#~ msgid "Devices"
-#~ msgstr "Пристрої"
-
-#~ msgid "Local Network"
-#~ msgstr "Локальна мережа"
-
-#~ msgid "Internet"
-#~ msgstr "Інтернет"
 
 #~ msgid "SessionManager"
 #~ msgstr "Менеджер сесії"
