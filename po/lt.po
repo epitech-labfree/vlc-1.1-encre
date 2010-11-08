@@ -1,6 +1,7 @@
 # translation of vlc-lt-trunk.po to Lietuvių
 # Lithuanian translation for vlc
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# Copyright (C) 2006-2010 the VideoLAN team
+# Copyright (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
 # This file is distributed under the same license as the vlc package.
 #
 # Mindaugas Baranauskas <embar@users.berlios.de>, 2009, 2010.
@@ -8,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc-lt-trunk\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-11-03 21:59+0000\n"
-"PO-Revision-Date: 2010-06-19 18:53+0300\n"
+"POT-Creation-Date: 2010-11-05 19:22+0000\n"
+"PO-Revision-Date: 2010-11-07 18:53+0200\n"
 "Last-Translator: Mindaugas Baranauskas <embar@users.berlios.de>\n"
 "Language-Team: Lithuanian <embar@users.berlios.de>\n"
 "Language: lt\n"
@@ -358,6 +359,7 @@ msgstr "Vaizdo pagal pareikalavimą (angl. Video On Demand) VLC grotuve"
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
+#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "Grojaraštis"
@@ -906,8 +908,9 @@ msgstr "žodis"
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
+#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
-msgstr "Fonoteka"
+msgstr "Mediateka"
 
 #: src/input/control.c:217
 #, c-format
@@ -3700,7 +3703,7 @@ msgid ""
 "The media library is automatically saved and reloaded each time you start "
 "VLC."
 msgstr ""
-"Fonoteka automatiškai įrašoma ir atkuriama kas kart paleidus VLC grotuvą."
+"Mediateka automatiškai įrašoma ir atkuriama kas kart paleidus VLC grotuvą."
 
 #: src/libvlc-module.c:1266
 msgid "Display playlist tree"
@@ -6831,34 +6834,29 @@ msgid "Please enter a valid login name and a password for realm %s."
 msgstr "Prašome įvesti tinkamą realm %s vartotojo vardą ir slaptažodį."
 
 #: modules/access/imem.c:51
-#, fuzzy
 msgid ""
 "Caching value for imem streams. This value should be set in milliseconds."
-msgstr ""
-"Suklastotų srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
+msgstr "Imem srautų podėlio vertė. Ši vertė turi būti nurodyta milisekundėmis."
 
 #: modules/access/imem.c:56
-#, fuzzy
 msgid "Set the ID of the elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Nurodyti elementariųjų srautų ID"
 
 #: modules/access/imem.c:58
 msgid "Group"
 msgstr "Grupė"
 
 #: modules/access/imem.c:60
-#, fuzzy
 msgid "Set the group of the elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Nurodyti elementariųjų srautų grupę"
 
 #: modules/access/imem.c:62
 msgid "Category"
 msgstr "Kategorija"
 
 #: modules/access/imem.c:64
-#, fuzzy
 msgid "Set the category of the elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Nurodyti elementariųjų srautų kategoriją"
 
 #: modules/access/imem.c:69
 msgid "Unknown"
@@ -6869,27 +6867,24 @@ msgid "Data"
 msgstr "Duomenys"
 
 #: modules/access/imem.c:74
-#, fuzzy
 msgid "Set the codec of the elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Nurodyti elementariųjų srautų kodavimo priemonę"
 
 #: modules/access/imem.c:78
 msgid "Language of the elementary stream as described by ISO639"
-msgstr ""
+msgstr "Eelementariųjų srautų kalba pagal ISO639"
 
 #: modules/access/imem.c:82
-#, fuzzy
 msgid "Sample rate of an audio elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Elementariųjų srautų garso elementų dažnis"
 
 #: modules/access/imem.c:84
 msgid "Channels count"
 msgstr "Kanalų skaičius"
 
 #: modules/access/imem.c:86
-#, fuzzy
 msgid "Channels count of an audio elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Garso elementariųjų srautų kanalų skaičius"
 
 #: modules/access/imem.c:88 modules/access/pvr.c:74 modules/access/v4l.c:102
 #: modules/access/v4l2.c:95 modules/codec/invmem.c:53
@@ -6899,9 +6894,8 @@ msgid "Width"
 msgstr "Plotis"
 
 #: modules/access/imem.c:89
-#, fuzzy
 msgid "Width of video or subtitle elementary streams"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Vaizdo arba subtitrų elementariųjų srautų plotis"
 
 #: modules/access/imem.c:91 modules/access/pvr.c:78 modules/access/v4l.c:105
 #: modules/access/v4l2.c:98 modules/codec/invmem.c:56
@@ -6911,9 +6905,8 @@ msgid "Height"
 msgstr "Aukštis"
 
 #: modules/access/imem.c:92
-#, fuzzy
 msgid "Height of video or subtitle elementary streams"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Vaizdo arba subtitrų elementariųjų srautų aukštis"
 
 #: modules/access/imem.c:94
 msgid "Display aspect ratio"
@@ -6925,9 +6918,8 @@ msgid "Display aspect ratio of a video elementary stream"
 msgstr "Siųsti visus elementariuosius srautus"
 
 #: modules/access/imem.c:100
-#, fuzzy
 msgid "Frame rate of a video elementary stream"
-msgstr "Siųsti visus elementariuosius srautus"
+msgstr "Vaizdo elementariųjų srautų kadrų dažnis"
 
 #: modules/access/imem.c:102
 msgid "Callback cookie string"
@@ -8545,9 +8537,8 @@ msgid "ARM NEON video chroma conversions"
 msgstr "ARM NEON vaizdo spalvų konvertavimas"
 
 #: modules/audio_filter/audiobargraph_a.c:42
-#, fuzzy
 msgid "TCP address to use (default localhost)"
-msgstr "Naudotinas bitų dažnis (-1 – numatytasis)."
+msgstr "Naudotinas TCP adresas (numatytasis localhost)."
 
 #: modules/audio_filter/audiobargraph_a.c:43
 msgid ""
@@ -8556,9 +8547,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:46
-#, fuzzy
 msgid "TCP port to use (default 12345)"
-msgstr "Naudotinas bitų dažnis (-1 – numatytasis)."
+msgstr "Naudotinas TCP prievadas (numatytasis 12345)."
 
 #: modules/audio_filter/audiobargraph_a.c:47
 msgid ""
@@ -13108,10 +13098,6 @@ msgstr "Dirac vaizdo išpynimo metodas"
 msgid "FLAC demuxer"
 msgstr "FLAC išpynimo metodas"
 
-#: modules/demux/gme.cpp:55
-msgid "GME demuxer (Game_Music_Emu)"
-msgstr "GME išpynimo metodas (Game_Music_Emu)"
-
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
 msgstr ""
@@ -13616,9 +13602,8 @@ msgid "Podcast Author"
 msgstr "Prenumeruojamos laidos autorius"
 
 #: modules/demux/playlist/podcast.c:309
-#, fuzzy
 msgid "Podcast Subcategory"
-msgstr "Prenumeruojamos laidos santrauka"
+msgstr "Prenumeruojamos laidos subkategorija"
 
 #: modules/demux/playlist/podcast.c:310
 msgid "Podcast Duration"
@@ -17197,6 +17182,22 @@ msgstr "Mažėjančiai"
 msgid "Remove this podcast subscription"
 msgstr ""
 
+#: modules/gui/qt4/components/playlist/selector.cpp:267
+msgid "My Computer"
+msgstr "Kompiuteris"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:269
+msgid "Devices"
+msgstr "Įrenginiai"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:271
+msgid "Local Network"
+msgstr "Vietinis tinklas"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:273
+msgid "Internet"
+msgstr "Internetas"
+
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
 msgstr "Prenumeruoti laidas"
@@ -17935,14 +17936,12 @@ msgid "&Reset Preferences"
 msgstr "&Numatytosios VLC parinktys"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Lua sąsajos konfigūracija"
+msgstr "Nepavyksta įrašyti konfigūracijos"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Rinkmena negali būti patikrinta"
+msgstr "Nepavyksta įrašyti parinkčių rinkmenos"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -19529,13 +19528,12 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Lua Art"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
-msgstr ""
+msgstr "Lua Telnet"
 
 #: modules/misc/lua/vlc.c:125
 msgid "Lua Meta Fetcher"
@@ -21973,9 +21971,8 @@ msgid "MoMoLight options"
 msgstr "MoMoLight parinktys"
 
 #: modules/video_filter/atmo/atmo.cpp:440
-#, fuzzy
 msgid "fnordlicht options"
-msgstr "MoMoLight parinktys"
+msgstr "fnordlicht parinktys"
 
 #: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
@@ -21998,9 +21995,8 @@ msgid "Change gradients"
 msgstr ""
 
 #: modules/video_filter/audiobargraph_v.c:48
-#, fuzzy
 msgid "Value of the audio channels levels"
-msgstr "Garso kanalų skaičius "
+msgstr "Garso kanalų lygių reikšmė"
 
 #: modules/video_filter/audiobargraph_v.c:49
 msgid ""
@@ -25536,16 +25532,13 @@ msgstr "Kartojimas"
 msgid "Media Manager List"
 msgstr "Multimedijos tvarkytuvės sąrašas"
 
+#~ msgid "GME demuxer (Game_Music_Emu)"
+#~ msgstr "GME išpynimo metodas (Game_Music_Emu)"
+
 #~ msgid ""
 #~ "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
 #~ msgstr ""
 #~ "Talpykla (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
-
-#~ msgid "Devices"
-#~ msgstr "Įrenginiai"
-
-#~ msgid "Local Network"
-#~ msgstr "Vietinis tinklas"
 
 #, fuzzy
 #~ msgid "SessionManager"
@@ -26253,9 +26246,3 @@ msgstr "Multimedijos tvarkytuvės sąrašas"
 
 #~ msgid "Number of stars to draw with random effect."
 #~ msgstr "Žvaigždučių skaičius piešimui atsitiktiniu efektu."
-
-#~ msgid "My Computer"
-#~ msgstr "Kompiuteris"
-
-#~ msgid "Internet"
-#~ msgstr "Internetas"
