@@ -3,7 +3,7 @@
 # $Id$
 #
 # Translation updated by
-#  Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net> - August 2010
+#  Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net> - November 2010
 # Previous Translators
 #  Samuel Hocevar <sam@zoy.org>
 #  Jean-Pierre Kuypers <Kuypers@sri.ucl.ac.be>
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2010-11-11 20:27+0100\n"
-"PO-Revision-Date: 2010-08-26 01:02+0100\n"
+"PO-Revision-Date: 2010-11-08 15:24+0100\n"
 "Last-Translator: Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} "
 "net>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -458,11 +458,11 @@ msgstr "Voici les paramètres pour les modules d'encodage."
 
 #: include/vlc_config_cat.h:214
 msgid "Dialog providers settings"
-msgstr "Paramètres des modules de dialogues"
+msgstr "Paramètres des fournisseurs de dialogues"
 
 #: include/vlc_config_cat.h:216
 msgid "Dialog providers can be configured here."
-msgstr "Les modules de dialogue peuvent être configurés ici"
+msgstr "Les fournisseurs de dialogue peuvent être configurés ici"
 
 #: include/vlc_config_cat.h:218
 msgid "Subtitle demuxer settings"
@@ -656,7 +656,7 @@ msgstr "Ajouter un dossier…"
 
 #: include/vlc_intf_strings.h:95
 msgid "Save Playlist to &File..."
-msgstr "Enregistrer la liste de lecture…"
+msgstr "&Enregistrer la liste de lecture…"
 
 #: include/vlc_intf_strings.h:96
 msgid "Open Play&list..."
@@ -1483,7 +1483,7 @@ msgstr ""
 "Interfaces supplémentaires à utiliser. Elles seront lancées en tâche de fond "
 "en plus de l'interface par défaut. Utilisez une liste de modules séparés par "
 "des virgules (les valeurs courantes sont « rc » (commande à distance), "
-"« http », « gestures »)."
+"« http », « gestures », …)."
 
 #: src/libvlc-module.c:193
 msgid "You can select control interfaces for VLC."
@@ -1809,8 +1809,8 @@ msgid ""
 "This allows to play audio at lower or higher speed without affecting the "
 "audio pitch"
 msgstr ""
-"Ceci permet de jouer l'audio à une vitesse supérieure ou inférience sans "
-"affecter la tonie (« pitch »)"
+"Ceci permet de jouer l'audio à une vitesse supérieure ou inférieure en "
+"préservant le ton"
 
 #: src/libvlc-module.c:362 modules/access/dshow/dshow.cpp:82
 #: modules/access/dshow/dshow.cpp:84 modules/codec/avcodec/avcodec.c:74
@@ -4183,11 +4183,11 @@ msgstr ""
 #: modules/gui/macosx/intf.m:743 modules/gui/macosx/intf.m:752
 #: modules/gui/qt4/menus.cpp:575
 msgid "Mute"
-msgstr "Muet"
+msgstr "Couper le son"
 
 #: src/libvlc-module.c:1374
 msgid "Select the key to mute audio."
-msgstr "Sélectionnez la combinaison de touches à utiliser pour couper l'audio."
+msgstr "Sélectionnez la combinaison de touches à utiliser pour couper le son."
 
 #: src/libvlc-module.c:1375
 msgid "Subtitle delay up"
@@ -4534,7 +4534,7 @@ msgstr "Rogner un pixel en haut de la vidéo."
 
 #: src/libvlc-module.c:1476 src/libvlc-module.c:1477
 msgid "Uncrop one pixel from the top of the video"
-msgstr "Ne plus rogner un pixel en haut de la vidéo."
+msgstr "Enlève un pixel de rognage en haut de la vidéo."
 
 #: src/libvlc-module.c:1479 src/libvlc-module.c:1480
 msgid "Crop one pixel from the left of the video"
@@ -4542,7 +4542,7 @@ msgstr "Rogner un pixel à gauche de la vidéo."
 
 #: src/libvlc-module.c:1481 src/libvlc-module.c:1482
 msgid "Uncrop one pixel from the left of the video"
-msgstr "Ne plus rogner un pixel à gauche de la vidéo."
+msgstr "Enlève un pixel de rognage à gauche de la vidéo."
 
 #: src/libvlc-module.c:1484 src/libvlc-module.c:1485
 msgid "Crop one pixel from the bottom of the video"
@@ -4550,7 +4550,7 @@ msgstr "Rogner un pixels en bas de la vidéo."
 
 #: src/libvlc-module.c:1486 src/libvlc-module.c:1487
 msgid "Uncrop one pixel from the bottom of the video"
-msgstr "Ne plus rogner un pixel en bas de la vidéo."
+msgstr "Enlève un pixel de rognage en bas de la vidéo."
 
 #: src/libvlc-module.c:1489 src/libvlc-module.c:1490
 msgid "Crop one pixel from the right of the video"
@@ -4558,7 +4558,7 @@ msgstr "Rogner un pixel à droite de la vidéo."
 
 #: src/libvlc-module.c:1491 src/libvlc-module.c:1492
 msgid "Uncrop one pixel from the right of the video"
-msgstr "Ne plus rogner un pixel à droite de la vidéo."
+msgstr "Enlève un pixel de rognage à droite de la vidéo."
 
 #: src/libvlc-module.c:1494
 msgid "Toggle wallpaper mode in video output"
@@ -5012,7 +5012,7 @@ msgstr "Bulgare"
 
 #: src/text/iso-639_def.h:58
 msgid "Burmese"
-msgstr "Birman"
+msgstr "Burmese"
 
 #: src/text/iso-639_def.h:59
 msgid "Catalan"
@@ -5144,7 +5144,7 @@ msgstr "Hindî"
 
 #: src/text/iso-639_def.h:91
 msgid "Hiri Motu"
-msgstr "Hiri motu"
+msgstr "Hiri Motu"
 
 #: src/text/iso-639_def.h:92
 msgid "Hungarian"
@@ -5272,7 +5272,7 @@ msgstr "Malayâlam"
 
 #: src/text/iso-639_def.h:123
 msgid "Maori"
-msgstr "Maori (NZ)"
+msgstr "Maori"
 
 #: src/text/iso-639_def.h:124
 msgid "Marathi"
@@ -5284,7 +5284,7 @@ msgstr "Malais"
 
 #: src/text/iso-639_def.h:126
 msgid "Malagasy"
-msgstr "Malgace"
+msgstr "Malgache"
 
 #: src/text/iso-639_def.h:127
 msgid "Maltese"
@@ -5308,11 +5308,11 @@ msgstr "Navajo"
 
 #: src/text/iso-639_def.h:132
 msgid "Ndebele, South"
-msgstr "Nrebele"
+msgstr "Ndebele, Sud"
 
 #: src/text/iso-639_def.h:133
 msgid "Ndebele, North"
-msgstr "Sindebele"
+msgstr "Ndebele, Nord"
 
 #: src/text/iso-639_def.h:134
 msgid "Ndonga"
@@ -5328,15 +5328,15 @@ msgstr "Norvégien"
 
 #: src/text/iso-639_def.h:137
 msgid "Norwegian Nynorsk"
-msgstr "Néo-norvégien"
+msgstr "Norvégien/Nynorsk"
 
 #: src/text/iso-639_def.h:138
 msgid "Norwegian Bokmaal"
-msgstr "Norvégien classique"
+msgstr "Norvégien/Bokmål"
 
 #: src/text/iso-639_def.h:139
 msgid "Chichewa; Nyanja"
-msgstr "Chichewa"
+msgstr "Chichewa; Nyanja"
 
 #: src/text/iso-639_def.h:140
 msgid "Occitan (post 1500); Provencal"
@@ -5428,7 +5428,7 @@ msgstr "Slovaque"
 
 #: src/text/iso-639_def.h:163
 msgid "Slovenian"
-msgstr "Slovénien"
+msgstr "Slovène"
 
 #: src/text/iso-639_def.h:164
 msgid "Northern Sami"
@@ -5436,7 +5436,7 @@ msgstr "Same du Nord"
 
 #: src/text/iso-639_def.h:165
 msgid "Samoan"
-msgstr "Somoan"
+msgstr "Samoan"
 
 #: src/text/iso-639_def.h:166
 msgid "Shona"
@@ -5468,7 +5468,7 @@ msgstr "Swati"
 
 #: src/text/iso-639_def.h:173
 msgid "Sundanese"
-msgstr "Sumdanais"
+msgstr "Soudanais"
 
 #: src/text/iso-639_def.h:174
 msgid "Swahili"
@@ -5516,7 +5516,7 @@ msgstr "Tigrinya"
 
 #: src/text/iso-639_def.h:185
 msgid "Tonga (Tonga Islands)"
-msgstr "Tumbuka"
+msgstr "Tongien (Îles Tonga)"
 
 #: src/text/iso-639_def.h:186
 msgid "Tswana"
@@ -5536,7 +5536,7 @@ msgstr "Turkmène"
 
 #: src/text/iso-639_def.h:190
 msgid "Twi"
-msgstr "Akan"
+msgstr "Twi"
 
 #: src/text/iso-639_def.h:191
 msgid "Uighur"
@@ -5673,7 +5673,7 @@ msgstr "ALSA"
 
 #: modules/access/alsa.c:90
 msgid "Alsa audio capture input"
-msgstr "Entrée audio « ALSA »"
+msgstr "Entrée capture audio « Alsa »"
 
 #: modules/access/attachment.c:44
 msgid "Attachment"
@@ -5689,7 +5689,7 @@ msgstr "Avio"
 
 #: modules/access/avio.h:35
 msgid "FFmpeg access"
-msgstr "Entrée FFmpeg"
+msgstr "Accès FFmpeg"
 
 #: modules/access/bd/bd.c:54
 msgid "Caching value for BDs. This value should be set in milliseconds."
@@ -6660,7 +6660,7 @@ msgstr "Débit d'images"
 
 #: modules/access/fake.c:50
 msgid "Number of frames per second (eg. 24, 25, 29.97, 30)."
-msgstr "Nombre d'images par seconde (i.e. 24, 25, 29,997, 30)."
+msgstr "Nombre d'images par seconde (i.e. 24; 25; 29,997; 30)."
 
 #: modules/access/fake.c:51 modules/access/imem.c:54
 #: modules/gui/qt4/components/playlist/sorting.h:49
@@ -6695,7 +6695,7 @@ msgstr "Factice"
 
 #: modules/access/fake.c:64
 msgid "Fake video input"
-msgstr "Entrée vidéo bidon"
+msgstr "Entrée vidéo factice"
 
 #: modules/access/file.c:170 modules/access/file.c:303
 #: modules/access/mmap.c:228 modules/access/mtp.c:216 modules/access/mtp.c:304
@@ -6896,7 +6896,7 @@ msgstr "Taille du cache pour les flux HTTP, en millisecondes."
 
 #: modules/access/http.c:86
 msgid "HTTP user agent"
-msgstr "Agent Utilisateur HTTP"
+msgstr "Agent utilisateur HTTP"
 
 #: modules/access/http.c:87
 msgid "User agent that will be used for the connection."
@@ -7783,7 +7783,7 @@ msgid ""
 "Name of the video device to use. If you don't specify anything, no video "
 "device will be used."
 msgstr ""
-"Nom du périphérique vidéo à utiliser. Si vous n'entrez rien, aucun "
+"Nom du périphérique vidéo à utiliser. Si vous ne spécifiez rien, aucun "
 "périphérique vidéo ne sera utilisé."
 
 #: modules/access/v4l.c:87
@@ -7798,7 +7798,7 @@ msgstr ""
 msgid ""
 "Channel of the card to use (Usually, 0 = tuner, 1 = composite, 2 = svideo)."
 msgstr ""
-"Canal de la carte à utiliser (Habituellement, 0 pour le tuner, 1 pour "
+"Canal de la carte à utiliser (habituellement, 0 pour le tuner, 1 pour "
 "l'entrée composite et 2 pour l'entrée S-Video)."
 
 #: modules/access/v4l.c:99
@@ -7856,7 +7856,7 @@ msgstr "Contraste"
 
 #: modules/access/v4l.c:119
 msgid "Contrast of the video input."
-msgstr "Contraste de la vidéo"
+msgstr "Contraste de l'image"
 
 #: modules/access/v4l.c:120 modules/access/v4l2.c:309
 msgid "Tuner"
@@ -7872,7 +7872,7 @@ msgstr "MJPEG"
 
 #: modules/access/v4l.c:124
 msgid "Set this option if the capture device outputs MJPEG"
-msgstr "Activez cette option si le périphérique envoie du MJPEG"
+msgstr "Activez cette option si le périphérique fournis du MJPEG"
 
 #: modules/access/v4l.c:125
 msgid "Decimation"
@@ -8967,7 +8967,7 @@ msgstr "Durée en ms du délai moyen. Bien noter que c'est « moyen » !"
 
 #: modules/audio_filter/chorus_flanger.c:85
 msgid "Sweep Depth"
-msgstr ""
+msgstr "Profondeur du balayage"
 
 #: modules/audio_filter/chorus_flanger.c:86
 msgid ""
@@ -8977,7 +8977,7 @@ msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:88
 msgid "Sweep Rate"
-msgstr ""
+msgstr "Vitesse du balayage"
 
 #: modules/audio_filter/chorus_flanger.c:89
 msgid "Rate of change of sweep depth in milliseconds shift per second of play"
@@ -10586,7 +10586,7 @@ msgstr "Module de désentrelacement"
 
 #: modules/codec/fake.c:75
 msgid "Deinterlace module to use."
-msgstr "Module de désentrelacement à utiliser"
+msgstr "Module de désentrelacement"
 
 #: modules/codec/fake.c:76 modules/video_output/omapfb.c:82
 #: modules/video_output/yuv.c:44
@@ -11167,7 +11167,7 @@ msgstr "Empaqueteur de sous-titres DVD"
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
 msgid "Default (Windows-1252)"
-msgstr "Par défaut (Windows-1252)"
+msgstr "Défaut (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -13519,7 +13519,7 @@ msgstr ""
 "correctement.\n"
 "Souhaitez-vous essayer de le réparer ?\n"
 "\n"
-"Cette opération peut être longue."
+"Cette opération peut prendre du temps."
 
 #: modules/demux/avi/avi.c:656
 msgid "Repair"
@@ -14056,47 +14056,47 @@ msgstr "Informations Podcast"
 
 #: modules/demux/playlist/podcast.c:256
 msgid "Podcast Link"
-msgstr "Lien du Podcast"
+msgstr "Lien podcast"
 
 #: modules/demux/playlist/podcast.c:257
 msgid "Podcast Copyright"
-msgstr "Droit d'auteurs Podcast"
+msgstr "Notice Droit d'auteur podcast"
 
 #: modules/demux/playlist/podcast.c:258
 msgid "Podcast Category"
-msgstr "Catégorie du Podcast"
+msgstr "Catégorie podcast"
 
 #: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
 msgid "Podcast Keywords"
-msgstr "Mot-clefs du Podcast"
+msgstr "mots-clés podcast"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
 msgid "Podcast Subtitle"
-msgstr "Sous-titre du Podcast"
+msgstr "Sous-titres  podcast"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
-msgstr "Résumé du Podcast"
+msgstr "Résumé Podcast"
 
 #: modules/demux/playlist/podcast.c:307
 msgid "Podcast Publication Date"
-msgstr "Date de publication du Podcast"
+msgstr "Date de publication du podcast"
 
 #: modules/demux/playlist/podcast.c:308
 msgid "Podcast Author"
-msgstr "Auteur du Podcast"
+msgstr "Auteur podcast"
 
 #: modules/demux/playlist/podcast.c:309
 msgid "Podcast Subcategory"
-msgstr "Sous-catégorie du Podcast"
+msgstr "Catégorie podcast"
 
 #: modules/demux/playlist/podcast.c:310
 msgid "Podcast Duration"
-msgstr "Durée du Podcast"
+msgstr "Durée podcast"
 
 #: modules/demux/playlist/podcast.c:314
 msgid "Podcast Type"
-msgstr "Type de Podcast"
+msgstr "Type de podcast"
 
 #: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
@@ -15852,7 +15852,7 @@ msgstr "Durée"
 
 #: modules/gui/macosx/playlist.m:465
 msgid "Save Playlist..."
-msgstr "Enregistrer la liste de lecture…"
+msgstr "&Enregistrer la liste de lecture…"
 
 #: modules/gui/macosx/playlist.m:467 modules/gui/qt4/dialogs/bookmarks.cpp:45
 #: modules/gui/qt4/ui/podcast_configuration.h:105
@@ -17493,12 +17493,12 @@ msgstr "Basculer les modes de liste de lecture Normal/Répéter/Boucler"
 #: modules/gui/qt4/components/controller_widget.cpp:133
 msgctxt "Tooltip|Unmute"
 msgid "Unmute"
-msgstr "Son actif"
+msgstr "Rétablir le son"
 
 #: modules/gui/qt4/components/controller_widget.cpp:142
 msgctxt "Tooltip|Mute"
 msgid "Mute"
-msgstr "Muet"
+msgstr "Couper le son"
 
 #: modules/gui/qt4/components/controller_widget.cpp:229
 msgid "Pause the playback"
@@ -17606,11 +17606,11 @@ msgstr "Sortie / Écrit / Envoyé"
 
 #: modules/gui/qt4/components/info_panels.cpp:512
 msgid "Media data size"
-msgstr "Taille des donnée"
+msgstr "Taille des données"
 
 #: modules/gui/qt4/components/info_panels.cpp:516
 msgid "Demuxed data size"
-msgstr "Taille des donnée démultiplexées"
+msgstr "Taille des données démultiplexées"
 
 #: modules/gui/qt4/components/info_panels.cpp:517
 msgid "Content bitrate"
@@ -17826,22 +17826,19 @@ msgstr "Ceci va supprimer l'abonnement à ce podcast"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:267
 msgid "My Computer"
-msgstr ""
+msgstr "Poste de travail"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:269
-#, fuzzy
 msgid "Devices"
-msgstr "Périphérique"
+msgstr "Périphériques"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:271
-#, fuzzy
 msgid "Local Network"
-msgstr "Réseau"
+msgstr "Réseau local"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:273
-#, fuzzy
 msgid "Internet"
-msgstr "Interlingue"
+msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -17965,7 +17962,8 @@ msgstr ""
 #: modules/gui/qt4/components/simple_preferences.cpp:527
 msgid "This is VLC's skinnable interface. You can download other skins at"
 msgstr ""
-"Ceci est l'interface à thèmes de VLC. Vous pouvez en télécharger d'autres sur"
+"Ceci est l'interface à thèmes de VLC. Vous pouvez télécharger d'autres "
+"thèmes sur le site "
 
 #: modules/gui/qt4/components/simple_preferences.cpp:529
 msgid "VLC skins website"
@@ -18229,7 +18227,7 @@ msgstr "Vie privée / Réseau"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:69
 msgid "Privacy and Network Warning"
-msgstr "Information vie privée / Réseau"
+msgstr "Vie privée / Réseau"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
 msgid ""
@@ -18321,7 +18319,7 @@ msgstr "Copyright ©"
 msgid " by the VideoLAN Team.\n"
 msgstr ""
 " par l'équipe VideoLAN.\n"
-"Traductions © 2008-2010 Éric Lassauge (dédié à la mémoire de Mehdi†).\n"
+"Traductions © 2008-2010 Éric Lassauge.\n"
 
 #: modules/gui/qt4/dialogs/help.cpp:146
 msgid ""
@@ -18596,7 +18594,7 @@ msgstr "Impossible d'enregistrer la configuration"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
 msgid "Preferences file could not be saved"
-msgstr "Le fichier de préférences ne peut pas être enregistré"
+msgstr "Impossible d'enregistrer le fichier des préférences"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -19343,7 +19341,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:153
 msgid "Show a controller in fullscreen mode"
-msgstr "Afficher un contrôleur en mode plein écran"
+msgstr "Affiche un contrôleur en mode plein écran"
 
 #: modules/gui/qt4/qt4.cpp:154
 msgid "Embed the file browser in open dialog"
@@ -20213,12 +20211,11 @@ msgstr "Interfaces utilisant des scripts lua"
 
 #: modules/misc/lua/vlc.c:108
 msgid "Lua HTTP"
-msgstr "Lua HTTP"
+msgstr "Interface Lua HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Art Lua"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -20995,11 +20992,11 @@ msgstr "Mes Images"
 
 #: modules/services_discovery/mtp.c:45
 msgid "MTP devices"
-msgstr "Gadgets MTP"
+msgstr "Périphériques MTP"
 
 #: modules/services_discovery/mtp.c:191
 msgid "MTP Device"
-msgstr "Gadget MTP"
+msgstr "Périphérique MTP"
 
 #: modules/services_discovery/podcast.c:58
 #: modules/gui/qt4/ui/podcast_configuration.h:102
@@ -21879,11 +21876,11 @@ msgstr "Échelle de quantisation fixe à utiliser."
 
 #: modules/stream_out/switcher.c:111
 msgid "Mute audio"
-msgstr "Muter l'audio"
+msgstr "Couper le son"
 
 #: modules/stream_out/switcher.c:113
 msgid "Mute audio when command is not 0."
-msgstr "Muter l'audio lorsque la commande n'est pas 0"
+msgstr "Couper le son lorsque la commande n'est pas 0"
 
 #: modules/stream_out/switcher.c:116
 msgid "MPEG2 video switcher stream output"
@@ -21938,7 +21935,8 @@ msgstr "Désentrelacer la vidéo avant l'encodage."
 
 #: modules/stream_out/transcode/transcode.c:65
 msgid "Specify the deinterlace module to use."
-msgstr "Module de désentrelacement à utiliser."
+msgstr ""
+"Module de désentrelacement à utiliser (ffmpeg-deinterlace ou deinterlace)."
 
 #: modules/stream_out/transcode/transcode.c:72
 msgid "Maximum video width"
@@ -22282,7 +22280,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
-msgstr ""
+msgstr "Adresse DMX pour chaque canal"
 
 #: modules/video_filter/atmo/atmo.cpp:166
 msgid ""
@@ -22300,7 +22298,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:173
 msgid "Count of fnordlicht's"
-msgstr "Nombre de leds pour fnordlicht"
+msgstr "Nombre de leds « fnordlicht »"
 
 #: modules/video_filter/atmo/atmo.cpp:174
 msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
@@ -24413,7 +24411,7 @@ msgstr "Port VNC"
 
 #: modules/video_filter/remoteosd.c:80
 msgid "VNC portnumber."
-msgstr "Numéro de port VNC."
+msgstr "Port VNC"
 
 #: modules/video_filter/remoteosd.c:82
 msgid "VNC Password"
@@ -24925,7 +24923,7 @@ msgid ""
 "X11 hardware display to use.\n"
 "By default, VLC will use the value of the DISPLAY environment variable."
 msgstr ""
-"Affichage X11 que vous désirez utiliser.\n"
+"Display X11 à utiliser.\n"
 "Par défaut VLC utilisera la valeur de la variable d'environnement DISPLAY."
 
 #: modules/video_output/hd1000v.cpp:58
@@ -25051,7 +25049,7 @@ msgid ""
 "N8xx hardware)."
 msgstr ""
 "Forcer l'utilisation d'un chroma spécifique pour la sortie vidéo. Le défaut "
-"est Y0420 (spécifique au matériel N770/N8xxx)."
+"est Y420 (spécifique au matériel N770/N8xx)."
 
 #: modules/video_output/omapfb.c:86
 msgid "Embed the overlay"
@@ -25063,7 +25061,7 @@ msgstr "Intégrer le framebuffer dans une fenêtre X11"
 
 #: modules/video_output/omapfb.c:91
 msgid "OMAP framebuffer"
-msgstr "framebuffer OMAP"
+msgstr "Framebuffer OMAP"
 
 #: modules/video_output/omapfb.c:100
 msgid "OMAP framebuffer video output"
@@ -25071,7 +25069,7 @@ msgstr "Sortie vidéo « framebuffer OMAP »"
 
 #: modules/video_output/opengl.c:57
 msgid "OpenGL Provider"
-msgstr "Module « OpenGL »"
+msgstr "Module OpenGL"
 
 #: modules/video_output/opengl.c:58
 msgid "Allows you to modify what OpenGL provider should be used"
@@ -25129,7 +25127,7 @@ msgstr "Module de capture"
 
 #: modules/video_output/svgalib.c:61
 msgid "SVGAlib video output"
-msgstr "Sortie vidéo « SVGAlib »"
+msgstr "Sortie vidéo SVGAlib"
 
 #: modules/video_output/vmem.c:48
 msgid "Pitch"
@@ -26108,7 +26106,7 @@ msgstr "Activer le mode papier peint "
 
 #: modules/gui/qt4/ui/sprefs_video.h:322
 msgid "Deinterlacing"
-msgstr "Désentrelacement"
+msgstr "Mode de désentrelacement"
 
 #: modules/gui/qt4/ui/sprefs_video.h:323
 msgid "Force Aspect Ratio"
@@ -26194,7 +26192,7 @@ msgstr "Synchroniser gauche et droite"
 
 #: modules/gui/qt4/ui/video_effects.h:1123
 msgid "Magnification/Zoom"
-msgstr "Aggrandissement/Zoom"
+msgstr "Agrandissement/Zoom"
 
 #: modules/gui/qt4/ui/video_effects.h:1124
 msgid "Puzzle game"
@@ -26394,8 +26392,8 @@ msgstr "Boucles"
 msgid "Media Manager List"
 msgstr "Liste du gestionnaire de médias"
 
-#~ msgid "GME demuxer (Game_Music_Emu)"
-#~ msgstr "Démultiplexeur GME (Game Music Emu)"
+msgid "GME demuxer (Game_Music_Emu)"
+msgstr "Démultiplexeur GME (Game Music Emu)"
 
 #~ msgid "Webm"
 #~ msgstr "Webm"
