@@ -27,8 +27,12 @@ Skins:
 Video Output:
  * fix a bug that could lead to 100% CPU usage on XCB
 
+Interfaces:
+ * fix for Qt bug where VLC didn't exit properly on some Windows XP configuration
+ * fixes on luatelnet and luarc
+
 Miscellaneous crashes and fixes in various plugins (telnet, live555, theora and
- TS-mux)
+ TS-mux, Qt)
 
 libLVC:
  * add libvlc_media_new_fd() to play directly file descriptors (not Win32/Win64)
