@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vlc 1.0.4-rc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
-"POT-Creation-Date: 2010-11-03 21:59+0000\n"
+"POT-Creation-Date: 2010-11-11 20:27+0100\n"
 "PO-Revision-Date: 2010-08-08 19:28+0200\n"
 "Last-Translator: Ajith Manjula (uthmax) <uthmax.sms@gmail.com>\n"
 "Language-Team: Sinhala <uthmax.sms@gmail.com>\n"
@@ -84,7 +84,7 @@ msgstr "කෙටි යතුරු සිටුවම්"
 #: modules/gui/qt4/components/simple_preferences.cpp:83
 #: modules/services_discovery/mediadirs.c:77 modules/stream_out/es.c:93
 #: modules/stream_out/transcode/transcode.c:192
-#: modules/gui/qt4/ui/profiles.h:494
+#: modules/gui/qt4/ui/profiles.h:487
 msgid "Audio"
 msgstr "ශ්‍රව්‍ය"
 
@@ -140,7 +140,7 @@ msgstr "ප්‍රකීර්ණ ශ්‍රව්‍ය සිටුවම�
 #: modules/gui/qt4/components/simple_preferences.cpp:85
 #: modules/misc/dummy/dummy.c:106 modules/services_discovery/mediadirs.c:70
 #: modules/stream_out/es.c:101 modules/stream_out/transcode/transcode.c:161
-#: modules/gui/qt4/ui/profiles.h:476 modules/gui/qt4/ui/sprefs_video.h:321
+#: modules/gui/qt4/ui/profiles.h:469 modules/gui/qt4/ui/sprefs_video.h:321
 msgid "Video"
 msgstr "වීඩියෝ"
 
@@ -326,6 +326,7 @@ msgstr "VLC හි ඉල්ලුම අනුව වීඩියෝ (VOD) ක�
 #: modules/demux/playlist/playlist.c:70 modules/gui/macosx/embeddedwindow.m:75
 #: modules/gui/macosx/intf.m:609 modules/gui/qt4/components/controller.hpp:106
 #: modules/gui/qt4/components/playlist/playlist.cpp:126
+#: modules/gui/qt4/components/playlist/selector.cpp:259
 #: modules/gui/qt4/dialogs/playlist.cpp:41
 msgid "Playlist"
 msgstr "ධාවන ලැයිස්තුව"
@@ -865,6 +866,7 @@ msgstr ""
 
 #: src/control/media_list.c:254 src/playlist/engine.c:144
 #: src/playlist/loadsave.c:162
+#: modules/gui/qt4/components/playlist/selector.cpp:263
 msgid "Media Library"
 msgstr "මාධ්‍ය පුස්තකාලය"
 
@@ -960,8 +962,8 @@ msgid "Original ID"
 msgstr "මුල් හැඳුනුම"
 
 #: src/input/es_out.c:2895 src/input/es_out.c:2898 modules/access/imem.c:72
-#: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:477
-#: modules/gui/qt4/ui/profiles.h:496
+#: modules/gui/macosx/wizard.m:385 modules/gui/qt4/ui/profiles.h:470
+#: modules/gui/qt4/ui/profiles.h:489
 msgid "Codec"
 msgstr "කොඩෙක්"
 
@@ -977,7 +979,7 @@ msgid "Description"
 msgstr "විස්තරය"
 
 #: src/input/es_out.c:2914 src/input/es_out.c:2917
-#: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:499
+#: modules/gui/macosx/output.m:176 modules/gui/qt4/ui/profiles.h:492
 msgid "Channels"
 msgstr "නාලිකා"
 
@@ -997,7 +999,7 @@ msgstr "නියැදියකට බිටු ගණන"
 #: src/input/es_out.c:2937 modules/access/pvr.c:96
 #: modules/access_output/shout.c:91 modules/demux/playlist/shoutcast.c:412
 #: modules/gui/qt4/components/open_panels.cpp:921
-#: modules/gui/qt4/ui/profiles.h:478 modules/gui/qt4/ui/profiles.h:497
+#: modules/gui/qt4/ui/profiles.h:471 modules/gui/qt4/ui/profiles.h:490
 msgid "Bitrate"
 msgstr "බිටු අනුපාතය"
 
@@ -1019,7 +1021,7 @@ msgstr ""
 msgid "%.2f dB"
 msgstr "%.2f dB"
 
-#: src/input/es_out.c:2961 modules/gui/qt4/ui/profiles.h:483
+#: src/input/es_out.c:2961 modules/gui/qt4/ui/profiles.h:476
 msgid "Resolution"
 msgstr "විභේදනය"
 
@@ -4210,8 +4212,8 @@ msgstr "උප අනුරූ"
 
 #: src/libvlc-module.c:1776 modules/codec/subtitles/subsdec.c:206
 #: modules/demux/kate_categories.c:41 modules/demux/kate_categories.c:54
-#: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:502
-#: modules/gui/qt4/ui/profiles.h:504
+#: modules/demux/subtitle.c:73 modules/gui/qt4/ui/profiles.h:495
+#: modules/gui/qt4/ui/profiles.h:497
 msgid "Subtitles"
 msgstr "උපසිරැසි"
 
@@ -6528,7 +6530,7 @@ msgstr ""
 #: modules/access/imem.c:88 modules/access/pvr.c:74 modules/access/v4l.c:102
 #: modules/access/v4l2.c:95 modules/codec/invmem.c:53
 #: modules/demux/rawvid.c:48 modules/video_filter/mosaic.c:95
-#: modules/video_output/vmem.c:42 modules/gui/qt4/ui/profiles.h:486
+#: modules/video_output/vmem.c:42 modules/gui/qt4/ui/profiles.h:479
 msgid "Width"
 msgstr "පළල"
 
@@ -6539,7 +6541,7 @@ msgstr ""
 #: modules/access/imem.c:91 modules/access/pvr.c:78 modules/access/v4l.c:105
 #: modules/access/v4l2.c:98 modules/codec/invmem.c:56
 #: modules/demux/rawvid.c:52 modules/video_filter/mosaic.c:93
-#: modules/video_output/vmem.c:45 modules/gui/qt4/ui/profiles.h:489
+#: modules/video_output/vmem.c:45 modules/gui/qt4/ui/profiles.h:482
 msgid "Height"
 msgstr "උස"
 
@@ -7319,7 +7321,7 @@ msgstr "සුසරකය"
 msgid "Tuner to use, if there are several ones."
 msgstr "බොහෝ ගණනක් ඇති විට, භාවිතයට ගන්නා සුසරකය."
 
-#: modules/access/v4l.c:122 modules/gui/qt4/ui/profiles.h:473
+#: modules/access/v4l.c:122 modules/gui/qt4/ui/profiles.h:466
 msgid "MJPEG"
 msgstr "MJPEG"
 
@@ -12588,10 +12590,6 @@ msgstr "ඩිරැක් වීඩියෝ ඩිමක්සර්"
 msgid "FLAC demuxer"
 msgstr "FLAC ඩිමක්සර්"
 
-#: modules/demux/gme.cpp:55
-msgid "GME demuxer (Game_Music_Emu)"
-msgstr "GME ඩිමක්සර් (Game_Music_Emu)"
-
 #: modules/demux/kate_categories.c:40
 msgid "Closed captions"
 msgstr ""
@@ -14712,7 +14710,7 @@ msgstr ""
 msgid "Bitrate (kb/s)"
 msgstr "බිටු අනුපාතය (kb/s)"
 
-#: modules/gui/macosx/output.m:166 modules/gui/qt4/ui/profiles.h:485
+#: modules/gui/macosx/output.m:166 modules/gui/qt4/ui/profiles.h:478
 msgid "Scale"
 msgstr "පරිමාණය"
 
@@ -16616,6 +16614,23 @@ msgstr "අවරෝහණ"
 msgid "Remove this podcast subscription"
 msgstr "මෙම පොඩ්කාස්ට් දායකත්වය ඉවත් කරන්න"
 
+#: modules/gui/qt4/components/playlist/selector.cpp:267
+msgid "My Computer"
+msgstr "පරිගණකය"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:269
+msgid "Devices"
+msgstr "ආම්පන්න"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:271
+msgid "Local Network"
+msgstr "ප්‍රාදේශීය ජාලය"
+
+#: modules/gui/qt4/components/playlist/selector.cpp:273
+#, fuzzy
+msgid "Internet"
+msgstr "Interlingue"
+
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
 msgstr "පොඩ්කාස්ට් සඳහා දායකත්වය ලබාගන්න"
@@ -17447,7 +17462,7 @@ msgstr "වර්තමාන පැතිකඩ මකා දමන්න"
 msgid "Cl&ose"
 msgstr "වසන්න"
 
-#: modules/gui/qt4/dialogs/toolbar.cpp:217 modules/gui/qt4/ui/profiles.h:461
+#: modules/gui/qt4/dialogs/toolbar.cpp:217 modules/gui/qt4/ui/profiles.h:455
 msgid "Profile Name"
 msgstr "පැතිකඩ නාමය"
 
@@ -23858,7 +23873,7 @@ msgid "Spectrum analyser"
 msgstr "වර්ණාවලි විශ්ලේෂකය "
 
 #: modules/gui/qt4/ui/equalizer.h:126 modules/gui/qt4/ui/open_disk.h:290
-#: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:460
+#: modules/gui/qt4/ui/open_net.h:91 modules/gui/qt4/ui/profiles.h:454
 #: modules/gui/qt4/ui/sprefs_audio.h:403 modules/gui/qt4/ui/sprefs_input.h:305
 #: modules/gui/qt4/ui/sprefs_interface.h:372
 #: modules/gui/qt4/ui/sprefs_subtitles.h:200
@@ -24069,71 +24084,67 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">http://www.yourtube.com/watch?v=gg64x</span></p></body></html>"
 
-#: modules/gui/qt4/ui/profiles.h:462
+#: modules/gui/qt4/ui/profiles.h:456
 msgid "MPEG-TS"
 msgstr "MPEG-TS"
 
-#: modules/gui/qt4/ui/profiles.h:463
+#: modules/gui/qt4/ui/profiles.h:457
 msgid "MPEG-PS"
 msgstr "MPEG-PS"
 
-#: modules/gui/qt4/ui/profiles.h:464
+#: modules/gui/qt4/ui/profiles.h:458
 msgid "WAV"
 msgstr "WAV"
 
-#: modules/gui/qt4/ui/profiles.h:465
-msgid "Webm"
-msgstr "Webm"
-
-#: modules/gui/qt4/ui/profiles.h:466
+#: modules/gui/qt4/ui/profiles.h:459
 msgid "ASF/WMV"
 msgstr "ASF/WMV"
 
-#: modules/gui/qt4/ui/profiles.h:467
+#: modules/gui/qt4/ui/profiles.h:460
 msgid "Ogg/Ogm"
 msgstr "Ogg/Ogm"
 
-#: modules/gui/qt4/ui/profiles.h:468
+#: modules/gui/qt4/ui/profiles.h:461
 msgid "RAW"
 msgstr "RAW"
 
-#: modules/gui/qt4/ui/profiles.h:469
+#: modules/gui/qt4/ui/profiles.h:462
 msgid "MPEG 1"
 msgstr "MPEG 1"
 
-#: modules/gui/qt4/ui/profiles.h:470
+#: modules/gui/qt4/ui/profiles.h:463
 msgid "FLV"
 msgstr "FLV"
 
-#: modules/gui/qt4/ui/profiles.h:471
+#: modules/gui/qt4/ui/profiles.h:464
 msgid "AVI"
 msgstr "AVI"
 
-#: modules/gui/qt4/ui/profiles.h:472
+#: modules/gui/qt4/ui/profiles.h:465
 msgid "MP4/MOV"
 msgstr "MP4/MOV"
 
-#: modules/gui/qt4/ui/profiles.h:474
+#: modules/gui/qt4/ui/profiles.h:467
 msgid "MKV"
 msgstr "MKV"
 
-#: modules/gui/qt4/ui/profiles.h:475
+#: modules/gui/qt4/ui/profiles.h:468
 msgid "Encapsulation"
 msgstr "සංක්ෂිප්තය"
 
-#: modules/gui/qt4/ui/profiles.h:479 modules/gui/qt4/ui/profiles.h:498
+#: modules/gui/qt4/ui/profiles.h:472 modules/gui/qt4/ui/profiles.h:491
 msgid " kb/s"
 msgstr " kb/s"
 
-#: modules/gui/qt4/ui/profiles.h:480
+#: modules/gui/qt4/ui/profiles.h:473
 msgid "Frame Rate"
 msgstr "රාමු අනුපාතය"
 
-#: modules/gui/qt4/ui/profiles.h:482
+#: modules/gui/qt4/ui/profiles.h:475
 msgid " fps"
 msgstr " fps"
 
-#: modules/gui/qt4/ui/profiles.h:484
+#: modules/gui/qt4/ui/profiles.h:477
 msgid ""
 "You just need to fill one of the three following parameters, VLC will "
 "autodetect the other using the original aspect ratio"
@@ -24141,31 +24152,31 @@ msgstr ""
 "ඔබ විසින් පහතින් දැක්වෙන පරාමිතීන්ගෙන් අවම වශයෙන් එකක් හෝ පිරවිය යුතුයි, VLC විසින් සම්මත දර්ශන "
 "අනුපාතයට අනුව ස්වයංක්‍රීයව අනෙකුත් පරාමිතීන් සම්පූර්ණ කර ගනු ඇත."
 
-#: modules/gui/qt4/ui/profiles.h:487 modules/gui/qt4/ui/profiles.h:490
+#: modules/gui/qt4/ui/profiles.h:480 modules/gui/qt4/ui/profiles.h:483
 msgid "00000; "
 msgstr "00000; "
 
-#: modules/gui/qt4/ui/profiles.h:492
+#: modules/gui/qt4/ui/profiles.h:485
 msgid "Keep original video track"
 msgstr "ප්‍රකෘති වීඩියෝ පථය තබාගන්න"
 
-#: modules/gui/qt4/ui/profiles.h:493
+#: modules/gui/qt4/ui/profiles.h:486
 msgid "Video codec"
 msgstr "වීඩි‍යෝ කොඩෙක"
 
-#: modules/gui/qt4/ui/profiles.h:495
+#: modules/gui/qt4/ui/profiles.h:488
 msgid "Keep original audio track"
 msgstr "ප්‍රකෘති ශ්‍රව්‍ය පථය තබාගන්න"
 
-#: modules/gui/qt4/ui/profiles.h:500
+#: modules/gui/qt4/ui/profiles.h:493
 msgid "Sample Rate"
 msgstr "සාම්පල අනුපාතය"
 
-#: modules/gui/qt4/ui/profiles.h:501
+#: modules/gui/qt4/ui/profiles.h:494
 msgid "Audio codec"
 msgstr "ශ්‍රව්‍ය කොඩෙක"
 
-#: modules/gui/qt4/ui/profiles.h:503
+#: modules/gui/qt4/ui/profiles.h:496
 msgid "Overlay subtitles on the video"
 msgstr "උපසිරැසි වීඩියෝව මතින් ගලා යාමට සලස්වන්න"
 
@@ -24750,14 +24761,11 @@ msgstr "ලූපනය කරන්න"
 msgid "Media Manager List"
 msgstr "මාධ්‍ය කළමණාකරණ ලැයිස්තුව"
 
-#~ msgid "My Computer"
-#~ msgstr "පරිගණකය"
+#~ msgid "GME demuxer (Game_Music_Emu)"
+#~ msgstr "GME ඩිමක්සර් (Game_Music_Emu)"
 
-#~ msgid "Devices"
-#~ msgstr "ආම්පන්න"
-
-#~ msgid "Local Network"
-#~ msgstr "ප්‍රාදේශීය ජාලය"
+#~ msgid "Webm"
+#~ msgstr "Webm"
 
 #, fuzzy
 #~ msgid "SDL video driver name"
