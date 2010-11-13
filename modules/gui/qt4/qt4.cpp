@@ -365,8 +365,14 @@ static void Close( vlc_object_t *p_this )
     if( !p_sys->b_isDialogProvider )
         var_Destroy (pl_Get(p_this), "qt4-iface");
 
+    /* And quit */
+    msg_Dbg( p_intf, "Please die, die, die..." );
+    QApplication::closeAllWindows();
+
+//    QApplication::quit();
     QVLCApp::triggerQuit();
 
+    msg_Dbg( p_intf, "Please die, die, die 2..." );
     vlc_join (p_sys->thread, NULL);
 #ifdef Q_WS_X11
     free (x11_display);
@@ -469,9 +475,7 @@ static void *Thread( void *obj )
     /* Launch */
     app.exec();
 
-    /* And quit */
-    QApplication::closeAllWindows();
-
+    msg_Dbg( p_intf, "Exec finished()" );
     if (p_mi != NULL)
     {
 #warning BUG!
