@@ -359,13 +359,10 @@ static void Close( vlc_object_t *p_this )
         var_Destroy (pl_Get(p_this), "qt4-iface");
 
     /* And quit */
-    msg_Dbg( p_intf, "Please die, die, die..." );
-    QApplication::closeAllWindows();
-
-//    QApplication::quit();
+    msg_Dbg( p_this, "requesting exit..." );
     QVLCApp::triggerQuit();
 
-    msg_Dbg( p_intf, "Please die, die, die 2..." );
+    msg_Dbg( p_this, "waiting for UI thread..." );
     vlc_join (p_sys->thread, NULL);
 #ifdef Q_WS_X11
     free (x11_display);
