@@ -1473,6 +1473,7 @@ libcddb: libcddb-$(CDDB_VERSION).tar.bz2
 ifdef HAVE_WIN32
 	(cd $@; patch -p0 < ../Patches/libcddb-win32.patch )
 endif
+	patch -p0 < Patches/libcddb-getenv-crash.patch
 	(cd $@; autoreconf -fisv)
 
 ifdef HAVE_WIN32
