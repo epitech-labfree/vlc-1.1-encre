@@ -1,8 +1,31 @@
 Changes between 1.1.5 and 1.1.6-git:
 ---------------------------------
 
+Audio output:
+ * multiple fixes and improvements on PulseAudio output
+   WE STRONGLY advise PACKAGERS to update libpulse to 0.9.22
+   Especially, if you care about phonon-VLC backend for KDE
+
+Subtitles and renderer:
+ * Do not auto-detect .txt files for subtitles
+ * Mark more freetype options as safe
+
 Visualisation:
  * Fix projectm visualisation for linux in all locales
+ * Fix projectm visualisation support for Windows
+
+Interfaces:
+ * Qt4: fix for media keys processing
+ * Qt4: various fixes and portability improvements
+
+Miscellaneous fixes:
+ * KDE device solid actions
+ * XDG screensaver
+ * Transcode integer overflow
+ * HTTP Icy metadata reading
+
+Trnslations:
+ * Update translations for Chinese, Nippon, Slovak
 
 
 Changes between 1.1.4.1 and 1.1.5:
