@@ -194,14 +194,19 @@ bool MainInterface::winEvent ( MSG * msg, long * result )
                 case APPCOMMAND_MEDIA_PAUSE:
                     THEMIM->pause();
                     break;
+                case APPCOMMAND_MEDIA_CHANNEL_DOWN:
                 case APPCOMMAND_MEDIA_PREVIOUSTRACK:
                     THEMIM->prev();
                     break;
+                case APPCOMMAND_MEDIA_CHANNEL_UP:
                 case APPCOMMAND_MEDIA_NEXTTRACK:
                     THEMIM->next();
                     break;
                 case APPCOMMAND_MEDIA_STOP:
                     THEMIM->stop();
+                    break;
+                case APPCOMMAND_MEDIA_RECORD:
+                    THEAM->record();
                     break;
                 case APPCOMMAND_VOLUME_DOWN:
                     THEAM->AudioDown();
