@@ -3743,17 +3743,25 @@ then
 fi
 
 dnl
-dnl  Pulseaudio module
+dnl  PulseAudio module
 dnl
-AS_IF([test "${no_x}" = "yes"], [
-  AS_IF([test "${enable_pulse}" = "yes"], [
-    AC_MSG_ERROR([Xlib is required for VLC PulseAudio support
-(see http://www.pulseaudio.org/ticket/799 for further reference).])
-  ])
-], [
-  PKG_ENABLE_MODULES_VLC([PULSE], [], [libpulse >= 0.9.11], [Pulseaudio support], [auto])
-  VLC_ADD_LIBS([pulse], [${X_LIBS} ${X_PRE_LIBS} -lX11])
+PKG_CHECK_MODULES( PULSE, [libpulse >= 0.9.22], [
+    VLC_ADD_CFLAGS([pulse],[${PULSE_CFLAGS}])
+    VLC_ADD_LIBS([pulse],[${PULSE_LIBS}])
+    VLC_ADD_PLUGIN([pulse])
+  ], [
+    AS_IF([test "${no_x}" = "yes"], [
+        AS_IF([test "${enable_pulse}" = "yes"], [
+            AC_MSG_ERROR([Xlib is required for VLC PulseAudio support
+            (see http://www.pulseaudio.org/ticket/799 for further reference).])
+        ])
+    ], [
+       PKG_ENABLE_MODULES_VLC([PULSE], [], [libpulse >= 0.9.11], [Pulseaudio support], [auto])
+       VLC_ADD_LIBS([pulse], [${X_LIBS} ${X_PRE_LIBS} -lX11])
+       AC_MSG_WARN(It is STRONGLY advised to update to pulse 0.9.22)
+    ])
 ])
+
 
 dnl
 dnl  Portaudio module

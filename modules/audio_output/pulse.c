@@ -34,10 +34,13 @@
 #include <vlc_cpu.h>
 
 #include <pulse/pulseaudio.h>
-#ifdef X_DISPLAY_MISSING
-# error Xlib required due to PulseAudio bug 799!
+
+#if !PA_CHECK_VERSION(0,9,22)
+    #ifdef X_DISPLAY_MISSING
+    # error Xlib required due to PulseAudio bug 799!
+    #endif
+    #include <vlc_xlib.h>
 #endif
-#include <vlc_xlib.h>
 
 #include <assert.h>
 
@@ -121,8 +124,10 @@ static int Open ( vlc_object_t *p_this )
     struct pa_channel_map map;
     char * p_client_name;
 
+#if !PA_CHECK_VERSION(0,9,22)
     if( !vlc_xlib_init( p_this ) )
         return VLC_EGENERIC;
+#endif
 
     /* Allocate structures */
     p_aout->output.p_sys = p_sys = calloc( 1, sizeof( aout_sys_t ) );
