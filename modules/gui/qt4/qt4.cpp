@@ -454,7 +454,10 @@ static void *Thread( void *obj )
     vlc_sem_post (&ready);
 
     /* Last settings */
-    app.setQuitOnLastWindowClosed( true );
+    if( p_intf->p_sys->b_isDialogProvider )
+        app.setQuitOnLastWindowClosed( false );
+    else
+        app.setQuitOnLastWindowClosed( true );
 
     /* Retrieve last known path used in file browsing */
     p_intf->p_sys->filepath =
