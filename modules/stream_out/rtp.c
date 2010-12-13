@@ -504,6 +504,7 @@ static int Open( vlc_object_t *p_this )
             msg_Err( p_stream, "unsupported muxer type for RTP (only TS/PS)" );
             free( psz );
             vlc_mutex_destroy( &p_sys->lock_sdp );
+            vlc_mutex_destroy( &p_sys->lock_ts );
             vlc_mutex_destroy( &p_sys->lock_es );
             free( p_sys->psz_destination );
             free( p_sys );
@@ -519,6 +520,7 @@ static int Open( vlc_object_t *p_this )
             msg_Err( p_stream, "cannot create muxer" );
             sout_AccessOutDelete( p_sys->p_grab );
             vlc_mutex_destroy( &p_sys->lock_sdp );
+            vlc_mutex_destroy( &p_sys->lock_ts );
             vlc_mutex_destroy( &p_sys->lock_es );
             free( p_sys->psz_destination );
             free( p_sys );
@@ -531,6 +533,7 @@ static int Open( vlc_object_t *p_this )
             sout_MuxDelete( p_sys->p_mux );
             sout_AccessOutDelete( p_sys->p_grab );
             vlc_mutex_destroy( &p_sys->lock_sdp );
+            vlc_mutex_destroy( &p_sys->lock_ts );
             vlc_mutex_destroy( &p_sys->lock_es );
             free( p_sys->psz_destination );
             free( p_sys );
