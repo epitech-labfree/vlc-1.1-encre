@@ -1,4 +1,4 @@
-Changes between 1.1.5 and 1.1.6-git:
+Changes between 1.1.5 and 1.1.6:
 ---------------------------------
 
 Audio output:
@@ -11,7 +11,10 @@ Access:
 
 Decoders:
  * Support for MPC SV7 and SV8 on Windows and Mac OS X (Unix was already working)
-  * enabled FluidSynth MIDI playback plugin on Mac OS X
+ * Enabled FluidSynth MIDI playback plugin on Mac OS X
+
+Demuxers:
+ * Fix Buffer overflow in Real demuxer CVE-2010-3907 / VideoLAN-SA-1007
 
 Subtitles and renderer:
  * Do not auto-detect .txt files for subtitles
