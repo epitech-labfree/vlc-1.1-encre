@@ -94,12 +94,12 @@ vlc_module_begin ()
                  false )
     add_integer( "projectm-height", 640, NULL, HEIGHT_TEXT, HEIGHT_LONGTEXT,
                  false )
-    add_integer( "projectm-meshx", 32, MESHX_TEXT, MESHX_LONGTEXT,
+    add_integer( "projectm-meshx", 32, NULL, MESHX_TEXT, MESHX_LONGTEXT,
                  false )
-    add_integer( "projectm-meshy", 24, MESHY_TEXT, MESHY_LONGTEXT,
+    add_integer( "projectm-meshy", 24, NULL, MESHY_TEXT, MESHY_LONGTEXT,
                  false )
-    add_integer( "projectm-texture-size", 1024, TEXTURE_TEXT, TEXTURE_LONGTEXT,
-                 false )
+    add_integer( "projectm-texture-size", 1024, NULL, TEXTURE_TEXT,
+                 TEXTURE_LONGTEXT, false )
     add_shortcut( "projectm" )
     set_callbacks( Open, Close )
 vlc_module_end ()
