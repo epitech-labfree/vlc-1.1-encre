@@ -507,7 +507,7 @@ VLC-release.app: vlc
              $(top_builddir)/tmp/modules/gui/macosx; \
 	done
 	$(AM_V_GEN)cd $(top_builddir)/tmp/extras/package/macosx && \
-	xcodebuild install -target vlc SYMROOT=../../../build DSTROOT=../../../build $(silentstd) && \
+	xcodebuild -target vlc SYMROOT=../../../build DSTROOT=../../../build $(silentstd) && \
 	cd ../../../../ && \
 	cp -R $(top_builddir)/tmp/build/Default/VLC.bundle $(top_builddir)/VLC-release.app; \
 	rm -Rf $(top_builddir)/tmp
