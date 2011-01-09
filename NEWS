@@ -12,17 +12,20 @@ Access:
 Decoders:
  * Support for MPC SV7 and SV8 on Windows and Mac OS X (Unix was already working)
  * Enabled FluidSynth MIDI playback plugin on Mac OS X
+ * Faster VP8 decoding with recent codecs
 
 Demuxers:
  * Fix Buffer overflow in Real demuxer CVE-2010-3907 / VideoLAN-SA-1007
+ * Fix some asf/wmv seeking issue, when seek didn't go to a keyframe
 
 Subtitles and renderer:
  * Do not auto-detect .txt files for subtitles
  * Mark more freetype options as safe
 
 Visualization:
- * Fix projectm visualization for Linux in all locales
- * Fix projectm visualization support for Windows
+ * Fix projectM visualization for Linux in all locales
+ * Fix projectM visualization support for Windows
+ * Various projectM improvements
 
 Interfaces:
  * Qt4: fixes for media keys processing and MCE remotes
