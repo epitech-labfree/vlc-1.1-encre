@@ -83,8 +83,8 @@ vlc_module_begin ()
     add_file( "projectm-config", "/usr/share/projectM/config.inp", NULL,
               CONFIG_TEXT, CONFIG_LONGTEXT, true )
 #else
-    add_file( "projectm-preset-path", "/usr/share/projectM/presets", NULL,
-              PRESET_PATH_TXT, PRESET_PATH_LONGTXT, true )
+    add_directory( "projectm-preset-path", "/usr/share/projectM/presets", NULL,
+                   PRESET_PATH_TXT, PRESET_PATH_LONGTXT, true )
     add_file( "projectm-title-font", "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSans.ttf", NULL,
               TITLE_FONT_TXT, TITLE_FONT_LONGTXT, true )
     add_file( "projectm-menu-font", "/usr/share/fonts/truetype/ttf-dejavu/DejaVuSansMono.ttf", NULL,
