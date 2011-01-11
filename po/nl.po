@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: VLC Media Player\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-10 20:52+0000\n"
-"PO-Revision-Date: 2010-11-04 11:55+0100\n"
+"PO-Revision-Date: 2011-01-11 19:30+0100\n"
 "Last-Translator: Thomas De Rocker <thomasderocker.at.h0tmail.d0t.c0m>\n"
 "Language-Team: Dutch\n"
 "Language: \n"
@@ -227,8 +227,7 @@ msgstr "Videocodecs"
 #: include/vlc_config_cat.h:112
 msgid "Settings for the video, images or video+audio decoders and encoders."
 msgstr ""
-"Instellingen voor de video, afbeeldingen of video+audio decodeerders en "
-"codeerders."
+"Instellingen voor de video, afbeeldingen of video+audio decoders en encoders."
 
 #: include/vlc_config_cat.h:114
 msgid "Audio codecs"
@@ -236,7 +235,7 @@ msgstr "Audiocodecs"
 
 #: include/vlc_config_cat.h:115
 msgid "Settings for the audio-only decoders and encoders."
-msgstr "Instellingen voor audiodecoders en -codeerders"
+msgstr "Instellingen voor audiodecoders en -encoders"
 
 #: include/vlc_config_cat.h:117
 msgid "Subtitles codecs"
@@ -1829,7 +1828,7 @@ msgid ""
 "options."
 msgstr ""
 "Met deze instellingen kunnen opties voor de video-uitvoer gewijzigd worden. "
-"Videofilters zoals deinterlacing etc. kunnen hier geactiveerd worden. "
+"Videofilters zoals deïnterlacing etc. kunnen hier geactiveerd worden. "
 "Configureer deze modules in de modulesectie \"videofilters\"."
 
 #: src/libvlc-module.c:376
@@ -2127,7 +2126,7 @@ msgstr ""
 #: modules/gui/macosx/intf.m:701 modules/gui/qt4/dialogs/convert.cpp:86
 #: modules/video_filter/deinterlace.c:133
 msgid "Deinterlace"
-msgstr "Deinterlace"
+msgstr "Deïnterlace"
 
 #: src/libvlc-module.c:485 src/video_output/video_output.c:1990
 #: modules/gui/macosx/intf.m:702 modules/gui/macosx/intf.m:703
@@ -2137,7 +2136,7 @@ msgstr "Deïnterlace-modus"
 
 #: src/libvlc-module.c:487
 msgid "Deinterlace method to use for video processing."
-msgstr "Deinterlacemethode om te gebruiken bij videoverwerking."
+msgstr "Deïnterlacemethode om te gebruiken bij videoverwerking."
 
 #: src/libvlc-module.c:493 modules/video_filter/deinterlace.c:129
 msgid "Discard"
@@ -2193,7 +2192,7 @@ msgstr ""
 
 #: src/libvlc-module.c:514
 msgid "Video output filter module"
-msgstr "Video-uitvoer filtermodule"
+msgstr "Video-uitvoerfiltermodule"
 
 #: src/libvlc-module.c:516
 msgid "This adds video output filters like clone or wall"
@@ -2209,7 +2208,7 @@ msgid ""
 "instance deinterlacing, or distort the video."
 msgstr ""
 "Voeg nabewerkingsfilters toe om de beeldkwaliteit te verhogen. Bijvoorbeeld "
-"voor deinterlacing, of het verstoren van het beeld."
+"voor deïnterlacing, of het verstoren van het beeld."
 
 #: src/libvlc-module.c:524
 msgid "Video snapshot directory (or filename)"
@@ -2792,9 +2791,10 @@ msgid ""
 "filters here and configure them in the \"subpictures filters\" modules "
 "section. You can also set many miscellaneous subpictures options."
 msgstr ""
-"Met deze instellingen kunnen opties voor de ondertitels gewijzigd worden. "
-"Videofilters zoals deinterlacing etc kunnen hier geactiveerd worden. "
-"Configureer deze modules in de module sectie \"videofilters\"."
+"Deze opties staan u toe om het gedrag van de subafbeeldingen te wijzigen. U "
+"kan bijvoorbeeld subafbeeldingfilters inschakelen (logo,...). Schakel deze "
+"filters hier in en configureer ze in de \"subpictures filters\" module "
+"sectie. U kan ook vele verschillende opties instellen."
 
 #: src/libvlc-module.c:802 linux/modules/gui/qt4/ui/sprefs_subtitles.h:213
 msgid "Force subtitle position"
@@ -10946,7 +10946,7 @@ msgstr ""
 
 #: modules/codec/kate.c:256
 msgid "Default background alpha"
-msgstr "Standaard achtergrond alpha"
+msgstr "Standaard achtergrond-alpha"
 
 #: modules/codec/kate.c:257
 msgid ""
@@ -11768,7 +11768,7 @@ msgid ""
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
 "Loop-filter AlphaC0- en beta-parameters. Bereik -6 tot 6 voor beide alpha- "
-"en beta-parameters. -6 betekend lichte filter, 6 betekend sterk."
+"en beta-parameters. -6 betekent lichte filter, 6 betekent sterk."
 
 #: modules/codec/x264.c:130
 msgid "H.264 level"
@@ -12637,7 +12637,7 @@ msgstr "Bijsnijden: %s"
 
 #: modules/control/hotkeys.c:579
 msgid "Zooming reset"
-msgstr "Zoomherinitialisatie"
+msgstr "Zoom reset"
 
 #: modules/control/hotkeys.c:587
 msgid "Scaled to screen"
@@ -12649,11 +12649,11 @@ msgstr "Originele grootte"
 
 #: modules/control/hotkeys.c:618
 msgid "Deinterlace off"
-msgstr "Deinterlace uit"
+msgstr "Deïnterlace uit"
 
 #: modules/control/hotkeys.c:638
 msgid "Deinterlace on"
-msgstr "Deinterlace aan"
+msgstr "Deïnterlace aan"
 
 #: modules/control/hotkeys.c:671
 #, c-format
@@ -12699,7 +12699,7 @@ msgstr "Snelheid: %.2fx"
 
 #: modules/control/http/http.c:41 modules/misc/lua/vlc.c:61
 msgid "Host address"
-msgstr "Server adres"
+msgstr "Host-adres"
 
 #: modules/control/http/http.c:43 modules/misc/lua/vlc.c:63
 msgid ""
@@ -12730,7 +12730,7 @@ msgstr ""
 
 #: modules/control/http/http.c:53
 msgid "Export album art as /art"
-msgstr "Exporteer album kunst als /art"
+msgstr "Albumillustraties exporteren als /art"
 
 #: modules/control/http/http.c:55
 msgid ""
@@ -13523,15 +13523,15 @@ msgstr "Ffmpeg mux"
 
 #: modules/demux/avformat/avformat.h:36
 msgid "Force use of ffmpeg muxer."
-msgstr "Forceer gebruik van ffmpeg muxer."
+msgstr "Gebruik van ffmpeg muxer forceren."
 
 #: modules/demux/avi/avi.c:50
 msgid "Force interleaved method"
-msgstr "Forceer de interleave methode"
+msgstr "Interleave-methode forceren"
 
 #: modules/demux/avi/avi.c:51
 msgid "Force interleaved method."
-msgstr "Forceer de interleave methode."
+msgstr "Interleave-methode forceren."
 
 #: modules/demux/avi/avi.c:53
 msgid "Force index creation"
@@ -14813,7 +14813,7 @@ msgstr "Bewerken"
 #: modules/gui/macosx/bookmarks.m:91 modules/gui/qt4/dialogs/bookmarks.cpp:50
 #: modules/video_filter/extract.c:75
 msgid "Extract"
-msgstr "Uitlezen"
+msgstr "Extract"
 
 #: modules/gui/macosx/bookmarks.m:92 linux/modules/gui/qt4/ui/open_file.h:224
 msgid "Remove"
@@ -15038,13 +15038,13 @@ msgstr "Rimpelingen"
 #: modules/video_filter/psychedelic.c:55
 #: linux/modules/gui/qt4/ui/video_effects.h:1143
 msgid "Psychedelic"
-msgstr "Psychadelisch"
+msgstr "Psychedelisch"
 
 #: modules/gui/macosx/extended.m:73 modules/video_filter/gradient.c:76
 #: modules/video_filter/gradient.c:82
 #: linux/modules/gui/qt4/ui/video_effects.h:1148
 msgid "Gradient"
-msgstr "Verloop"
+msgstr "Gradiënt"
 
 #: modules/gui/macosx/extended.m:74
 msgid "General editing filters"
@@ -16802,7 +16802,7 @@ msgstr "Doel"
 
 #: modules/gui/macosx/wizard.m:367 modules/gui/macosx/wizard.m:439
 msgid "Streaming method"
-msgstr "Stream methode"
+msgstr "Streammethode"
 
 #: modules/gui/macosx/wizard.m:368
 msgid "Address of the computer to stream to."
@@ -17284,7 +17284,7 @@ msgstr "     s           Stop"
 
 #: modules/gui/ncurses.c:1607
 msgid "     <space>     Pause/Play"
-msgstr "     <spatie>    Pause/Afspelen"
+msgstr "     <spatie>    Pauze/Afspelen"
 
 #: modules/gui/ncurses.c:1608
 msgid "     f           Toggle Fullscreen"
@@ -17934,7 +17934,7 @@ msgstr "Verwijder dit podcast-abonnement"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:267
 msgid "My Computer"
-msgstr "Mijn computer"
+msgstr "Deze computer"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:269
 msgid "Devices"
@@ -19159,7 +19159,7 @@ msgstr "&Deïnterlace"
 
 #: modules/gui/qt4/menus.cpp:633
 msgid "&Deinterlace mode"
-msgstr "&Deïnterlace methode"
+msgstr "&Deïnterlace-methode"
 
 #: modules/gui/qt4/menus.cpp:634
 msgid "&Post processing"
@@ -19595,11 +19595,11 @@ msgstr "Map metagegevens"
 
 #: modules/meta_engine/folder.c:69
 msgid "Album art filename"
-msgstr "Albumillustratie bestandsnaam"
+msgstr "Bestandsnaam albumillustratie"
 
 #: modules/meta_engine/folder.c:69
 msgid "Filename to look for album art in current directory"
-msgstr "Bestandsnaam om voor album kunst in de huidige map te zoeken"
+msgstr "Bestandsnaam om naar albumillustratie in de huidige map te zoeken"
 
 #: modules/meta_engine/id3genres.h:28
 msgid "Blues"
@@ -21575,7 +21575,7 @@ msgid ""
 "Alphamask or Bluescreen video filter."
 msgstr ""
 "Forceert gebruik van een specifieke chroma. Gebruik YUVA als u van plan bent "
-"om de Alphamasker of Blauwscherm video filter te gaan gebruiken."
+"om de Alphamasker of Blauwscherm videofilter te gaan gebruiken."
 
 #: modules/stream_out/mosaic_bridge.c:128 modules/video_filter/mosaic.c:88
 #: linux/modules/gui/qt4/ui/video_effects.h:1176
@@ -22200,10 +22200,10 @@ msgid ""
 "overlayed directly onto the video. You can specify a colon-separated list of "
 "subpicture modules"
 msgstr ""
-"Dit staat u toe om overlays (ook bekend als \"ondertitels\") toe te voegen "
-"aan de getranscodeerde videostream. De ondertitels geproduceerd door de "
-"filters zullen direct op de video geplaatst worden. U moet een lijst van "
-"door dubbelepunten gescheiden ondertitelmodules opgeven."
+"Dit staat u toe om overlays (ook bekend als \"subafbeeldingen\") toe te "
+"voegen aan de getranscodeerde videostream. De subafbeeldingen geproduceerd "
+"door de filters zullen direct op de video geplaatst worden. U moet een lijst "
+"van door dubbelepunten gescheiden subafbeeldingsmodules opgeven."
 
 #: modules/stream_out/transcode/transcode.c:122
 #: modules/video_filter/osdmenu.c:118
@@ -22348,12 +22348,12 @@ msgstr "Zet de gamma van de afbeelding, tussen 0.01 en 10. Standaard is 1."
 
 #: modules/video_filter/adjust.c:80
 msgid "Image properties filter"
-msgstr "Beeldeigenschappen-filter"
+msgstr "Beeldeigenschappen"
 
 #: modules/video_filter/adjust.c:81
 #: linux/modules/gui/qt4/ui/video_effects.h:1104
 msgid "Image adjust"
-msgstr "Beeld bijstellen"
+msgstr "Beeldeigenschappen"
 
 #: modules/video_filter/alphamask.c:39
 msgid "Use an image's alpha channel as a transparency mask."
@@ -22369,11 +22369,11 @@ msgstr "Alpha-menging-transparantiemasker. Gebruikt een png-alphakanaal."
 
 #: modules/video_filter/alphamask.c:62
 msgid "Alpha mask video filter"
-msgstr "Alpha masker videofilter"
+msgstr "Alpha-masker"
 
 #: modules/video_filter/alphamask.c:63
 msgid "Alpha mask"
-msgstr "Alpha masker"
+msgstr "Alpha-masker"
 
 #: modules/video_filter/atmo/atmo.cpp:124
 msgid ""
@@ -22521,7 +22521,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:204
 msgid "Color when paused"
-msgstr "Kleur bij pause"
+msgstr "Kleur bij pauze"
 
 #: modules/video_filter/atmo/atmo.cpp:205
 msgid ""
@@ -22533,27 +22533,27 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:208
 msgid "Pause-Red"
-msgstr "Pause-Rood"
+msgstr "Pauze-Rood"
 
 #: modules/video_filter/atmo/atmo.cpp:209
 msgid "Red component of the pause color"
-msgstr "Rood-component van de pause kleur"
+msgstr "Rood-component van de pauzekleur"
 
 #: modules/video_filter/atmo/atmo.cpp:210
 msgid "Pause-Green"
-msgstr "Pause-Groen"
+msgstr "Pauze-Groen"
 
 #: modules/video_filter/atmo/atmo.cpp:211
 msgid "Green component of the pause color"
-msgstr "Groen-component van de pause kleur"
+msgstr "Groen-component van de pauzekleur"
 
 #: modules/video_filter/atmo/atmo.cpp:212
 msgid "Pause-Blue"
-msgstr "Pause-Blauw"
+msgstr "Pauze-Blauw"
 
 #: modules/video_filter/atmo/atmo.cpp:213
 msgid "Blue component of the pause color"
-msgstr "Blauw-component van de pause-kleur"
+msgstr "Blauw-component van de pauzekleur"
 
 #: modules/video_filter/atmo/atmo.cpp:214
 msgid "Pause-Fadesteps"
@@ -22620,7 +22620,7 @@ msgstr "Aantal zones onder het scherm"
 
 #: modules/video_filter/atmo/atmo.cpp:233
 msgid "Zones on left / right side"
-msgstr "Zones aan de linker- / rechterzijde"
+msgstr "Zones aan de linker-/rechterzijde"
 
 #: modules/video_filter/atmo/atmo.cpp:234
 msgid "left and right side having allways the same number of zones"
@@ -22640,7 +22640,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:242
 msgid "Use Software White adjust"
-msgstr "Gebruik softwarematige witbalans"
+msgstr "Softwarematige witbalans gebruiken"
 
 #: modules/video_filter/atmo/atmo.cpp:243
 msgid ""
@@ -22758,7 +22758,7 @@ msgstr "Filtergladheid"
 
 #: modules/video_filter/atmo/atmo.cpp:284
 msgid "Output Color filter mode"
-msgstr "uitvoer kleurfiltermodus"
+msgstr "Uitvoer-kleurfiltermodus"
 
 #: modules/video_filter/atmo/atmo.cpp:285
 msgid ""
@@ -22863,23 +22863,23 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:340
 msgid "Zone 0: Top gradient"
-msgstr "Zone 0: Boven gradiënt"
+msgstr "Zone 0: Gradiënt boven"
 
 #: modules/video_filter/atmo/atmo.cpp:341
 msgid "Zone 1: Right gradient"
-msgstr "Zone 1:Rechts gradiënt"
+msgstr "Zone 1: Gradiënt rechts"
 
 #: modules/video_filter/atmo/atmo.cpp:342
 msgid "Zone 2: Bottom gradient"
-msgstr "Zone 2:Beneden gradiënt"
+msgstr "Zone 2: Gradiënt beneden"
 
 #: modules/video_filter/atmo/atmo.cpp:343
 msgid "Zone 3: Left gradient"
-msgstr "Zone 3:Links gradiënt"
+msgstr "Zone 3: Gradiënt links"
 
 #: modules/video_filter/atmo/atmo.cpp:344
 msgid "Zone 4: Summary gradient"
-msgstr "Zone 4:Samenvatting gradiënt"
+msgstr "Zone 4: Samenvatting gradiënt"
 
 #: modules/video_filter/atmo/atmo.cpp:345
 msgid ""
@@ -22890,7 +22890,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:348
 msgid "Gradient bitmap searchpath"
-msgstr "Gradiënt bitmap zoekpad"
+msgstr "Zoekpad gradiëntbitmap"
 
 #: modules/video_filter/atmo/atmo.cpp:349
 msgid ""
@@ -22898,7 +22898,7 @@ msgid ""
 "zone_1.bmp etc. into one folder and set the foldername here"
 msgstr ""
 "Voorkeursoptie om gradiëntbitmaps toe te wijzen; steek ze als zone_0.bmp, "
-"zone_1.bmp, enz. in een map en stel de mapnaam hier in"
+"zone_1.bmp,... in een map en stel de mapnaam hier in"
 
 #: modules/video_filter/atmo/atmo.cpp:354
 msgid "Filename of AtmoWin*.exe"
@@ -22914,7 +22914,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:366
 msgid "AtmoLight Filter"
-msgstr "AtmoLight filter"
+msgstr "AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:368
 #: linux/modules/gui/qt4/ui/video_effects.h:1153
@@ -22928,7 +22928,7 @@ msgstr "Kies Apparaattype en Verbinding"
 
 #: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
-msgstr "Verlicht de ruimte met deze kleur tijdens pause"
+msgstr "Verlicht de ruimte met deze kleur tijdens pauze"
 
 #: modules/video_filter/atmo/atmo.cpp:416
 msgid "Illuminate the room with this color on shutdown"
@@ -23094,7 +23094,7 @@ msgstr "Augmented reality balspel"
 
 #: modules/video_filter/ball.c:135
 msgid "Ball video filter"
-msgstr "Balvideofilter"
+msgstr "Bal"
 
 #: modules/video_filter/ball.c:136
 msgid "Ball"
@@ -23154,7 +23154,7 @@ msgstr "Chroma waarin het gemengde beeld zal geladen worden"
 
 #: modules/video_filter/blendbench.c:73
 msgid "Blending benchmark filter"
-msgstr "Mengende benchmark-filter"
+msgstr "Mengbank"
 
 #: modules/video_filter/blendbench.c:74
 msgid "Blendbench"
@@ -23234,7 +23234,7 @@ msgstr ""
 
 #: modules/video_filter/bluescreen.c:77
 msgid "Bluescreen video filter"
-msgstr "Blauwscherm videofilter"
+msgstr "Blauwscherm"
 
 #: modules/video_filter/bluescreen.c:78
 msgid "Bluescreen"
@@ -23291,7 +23291,7 @@ msgstr "Canvas"
 
 #: modules/video_filter/canvas.c:106
 msgid "Canvas video filter"
-msgstr "Canvas videofilter"
+msgstr "Canvas"
 
 #: modules/video_filter/chain.c:43
 msgid "Video filtering using a chain of video filter modules"
@@ -23325,7 +23325,7 @@ msgstr ""
 
 #: modules/video_filter/clone.c:55
 msgid "Clone video filter"
-msgstr "Kloon videofilter"
+msgstr "Kloon"
 
 #: modules/video_filter/clone.c:57
 #: linux/modules/gui/qt4/ui/video_effects.h:1172
@@ -23350,7 +23350,7 @@ msgstr "Selecteer een kleur in de video"
 
 #: modules/video_filter/colorthres.c:69
 msgid "Color threshold filter"
-msgstr "Kleurdrempelfilter"
+msgstr "Kleurdrempel"
 
 #: modules/video_filter/colorthres.c:70
 #: linux/modules/gui/qt4/ui/video_effects.h:1135
@@ -23473,7 +23473,7 @@ msgstr "Maximale belichting om een pixels als zwart te beschouwen (0-255)."
 
 #: modules/video_filter/crop.c:106
 msgid "Crop video filter"
-msgstr "Bijsnijden-videofilter"
+msgstr "Bijsnijden"
 
 #: modules/video_filter/crop.c:379 modules/video_filter/crop.c:470
 msgid "Cropping failed"
@@ -23550,14 +23550,15 @@ msgid "Number of pixels to padd to the right of the image after cropping."
 msgstr ""
 "Aantal pixels om te vullen aan de rechterkant van de afbeelding na snijden."
 
+# Cropadd en videoschaling worden in hetzelfde menu gebruikt. Om het een beetje overzichtelijk te houden, werd 2 keer cropadd gebruikt.
 #: modules/video_filter/croppadd.c:78
 msgid "Cropadd"
-msgstr "Bijsnijding toevoegen"
+msgstr "Cropadd"
 
 #: modules/video_filter/croppadd.c:79 modules/video_filter/scale.c:47
 #: modules/video_filter/swscale.c:69 modules/video_filter/swscale_omap.c:51
 msgid "Video scaling filter"
-msgstr "Video schalingsfilter"
+msgstr "Cropadd"
 
 #: modules/video_filter/croppadd.c:96
 msgid "Padd"
@@ -23577,7 +23578,7 @@ msgstr "Deïnterlace-methode om te gebruiken voor streamen."
 
 #: modules/video_filter/deinterlace.c:132
 msgid "Deinterlacing video filter"
-msgstr "Deïnterlace videofilter"
+msgstr "Deïnterlace"
 
 #: modules/video_filter/dynamicoverlay/dynamicoverlay.c:60
 msgid "Input FIFO"
@@ -23627,7 +23628,7 @@ msgstr ""
 
 #: modules/video_filter/erase.c:67
 msgid "Erase video filter"
-msgstr "Wissen-videofilter"
+msgstr "Wissen"
 
 #: modules/video_filter/erase.c:68
 msgid "Erase"
@@ -23644,7 +23645,7 @@ msgstr ""
 
 #: modules/video_filter/extract.c:74
 msgid "Extract RGB component video filter"
-msgstr "Extraheer RGB component videofilter"
+msgstr "RGB-component extract"
 
 #: modules/video_filter/gaussianblur.c:47
 msgid "Gaussian's std deviation"
@@ -23664,7 +23665,7 @@ msgstr "Een vervagingseffect toevoegen"
 
 #: modules/video_filter/gaussianblur.c:57
 msgid "Gaussian blur video filter"
-msgstr "Gaussiaan vervagingsvideofilter"
+msgstr "Gaussiaans vervagen"
 
 #: modules/video_filter/gaussianblur.c:58
 msgid "Gaussian Blur"
@@ -23714,7 +23715,7 @@ msgstr "Hough-transformatie"
 
 #: modules/video_filter/gradient.c:81
 msgid "Gradient video filter"
-msgstr "Gradiënt-videofilter"
+msgstr "Gradiënt"
 
 #: modules/video_filter/grain.c:49
 msgid "add grain to image"
@@ -23722,7 +23723,7 @@ msgstr "Korrel-effect aan afbeelding toevoegen"
 
 #: modules/video_filter/grain.c:54
 msgid "Grain video filter"
-msgstr "Korrel-videofilter"
+msgstr "Korrel"
 
 #: modules/video_filter/grain.c:55
 msgid "Grain"
@@ -23730,7 +23731,7 @@ msgstr "Korrel"
 
 #: modules/video_filter/invert.c:50
 msgid "Invert video filter"
-msgstr "Inversie-videofilter"
+msgstr "Inversie"
 
 #: modules/video_filter/invert.c:51
 msgid "Color inversion"
@@ -23822,7 +23823,7 @@ msgstr "Logo videofilter"
 
 #: modules/video_filter/magnify.c:47
 msgid "Magnify/Zoom interactive video filter"
-msgstr "Vergroot/Zoom interactieve video filer"
+msgstr "Vergroten/Zoom"
 
 #: modules/video_filter/magnify.c:48
 msgid "Magnify"
@@ -23942,11 +23943,11 @@ msgstr "Rechts naar links/Beneden naar boven"
 
 #: modules/video_filter/mirror.c:78
 msgid "Mirror video filter"
-msgstr "Spiegel videofilter"
+msgstr "Spiegelen"
 
 #: modules/video_filter/mirror.c:79
 msgid "Mirror video"
-msgstr "Spiegel video"
+msgstr "Spiegelen"
 
 #: modules/video_filter/mirror.c:80
 msgid "Splits video in two same parts, like in a mirror"
@@ -24137,19 +24138,19 @@ msgstr "Bewegingsvervaging"
 
 #: modules/video_filter/motionblur.c:59
 msgid "Motion blur filter"
-msgstr "Bewegingsvervagingfilter"
+msgstr "Bewegingsvervaging"
 
 #: modules/video_filter/motiondetect.c:48
 msgid "Motion detect video filter"
-msgstr "Bewegingsdetectie videofilter"
+msgstr "Bewegingsdetectie"
 
 #: modules/video_filter/motiondetect.c:49
 msgid "Motion Detect"
-msgstr "Bewegingdetectie"
+msgstr "Bewegingsdetectie"
 
 #: modules/video_filter/noise.c:51
 msgid "Noise video filter"
-msgstr "Ruis videofilter"
+msgstr "Ruis"
 
 #: modules/video_filter/opencv_example.c:67
 msgid "OpenCV face detection example filter"
@@ -24379,7 +24380,7 @@ msgstr ""
 
 #: modules/video_filter/panoramix.c:78
 msgid "Panoramix: wall with overlap video filter"
-msgstr "Panoramix: muur met overlap videofilter"
+msgstr "Panoramix"
 
 #: modules/video_filter/panoramix.c:79
 #: linux/modules/gui/qt4/ui/video_effects.h:1169
@@ -24611,7 +24612,7 @@ msgstr "FFmper nabewerkingfilterketens"
 
 #: modules/video_filter/postproc.c:75
 msgid "Video post processing filter"
-msgstr "Video nabewerkingsfilter"
+msgstr "Nabewerking"
 
 #: modules/video_filter/postproc.c:76
 msgid "Postproc"
@@ -24627,7 +24628,7 @@ msgstr "Hoogste"
 
 #: modules/video_filter/psychedelic.c:54
 msgid "Psychedelic video filter"
-msgstr "Psychedelisch videofilter"
+msgstr "Psychedelisch"
 
 #: modules/video_filter/puzzle.c:43 modules/video_filter/puzzle.c:44
 msgid "Number of puzzle rows"
@@ -24650,7 +24651,7 @@ msgstr ""
 
 #: modules/video_filter/puzzle.c:56
 msgid "Puzzle interactive game video filter"
-msgstr "Interactief puzzelspel videofilter"
+msgstr "Puzzel"
 
 #: modules/video_filter/puzzle.c:57
 msgid "Puzzle"
@@ -24736,7 +24737,7 @@ msgstr "Externe OSD"
 
 #: modules/video_filter/ripple.c:52
 msgid "Ripple video filter"
-msgstr "Rimpel-videofilter"
+msgstr "Rimpel"
 
 #: modules/video_filter/rotate.c:57
 msgid "Angle in degrees"
@@ -24748,7 +24749,7 @@ msgstr "Hoek in graden (0 tot 359)"
 
 #: modules/video_filter/rotate.c:66
 msgid "Rotate video filter"
-msgstr "Rotatie-videofilter"
+msgstr "Roteren"
 
 #: modules/video_filter/rotate.c:67
 #: linux/modules/gui/qt4/ui/video_effects.h:1128
@@ -24968,7 +24969,7 @@ msgstr "Demp contrast tussen contouren"
 
 #: modules/video_filter/sharpen.c:66
 msgid "Sharpen video filter"
-msgstr "Verscherpen videofilter"
+msgstr "Verscherpen"
 
 #: modules/video_filter/sharpen.c:67
 #: linux/modules/gui/qt4/ui/video_effects.h:1102
@@ -25065,7 +25066,7 @@ msgstr "Roteer of spiegel de video"
 
 #: modules/video_filter/transform.c:77
 msgid "Video transformation filter"
-msgstr "Videotransformatiefilter"
+msgstr "Videotransformatie"
 
 #: modules/video_filter/wall.c:44
 msgid "Number of horizontal windows in which to split the video."
@@ -25090,7 +25091,7 @@ msgstr ""
 
 #: modules/video_filter/wall.c:65
 msgid "Wall video filter"
-msgstr "Videomuurfilter"
+msgstr "Videomuur"
 
 #: modules/video_filter/wall.c:66
 msgid "Image wall"
@@ -25098,7 +25099,7 @@ msgstr "Videomuur"
 
 #: modules/video_filter/wave.c:53
 msgid "Wave video filter"
-msgstr "Golf videofilter"
+msgstr "Golven"
 
 #: modules/video_filter/yuvp.c:47
 msgid "YUVP converter"
@@ -25620,34 +25621,28 @@ msgid "The height of the video window, in pixels."
 msgstr "De hoogte van het videovenster, in pixels."
 
 #: modules/visualization/projectm.cpp:67
-#, fuzzy
 msgid "Mesh width"
-msgstr "Videobreedte"
+msgstr "Maasbreedte"
 
 #: modules/visualization/projectm.cpp:68
-#, fuzzy
 msgid "The width of the mesh, in pixels."
-msgstr "Totale breedte van de mozaïek, in pixels."
+msgstr "Breedte van de mazen, in pixels."
 
 #: modules/visualization/projectm.cpp:70
-#, fuzzy
 msgid "Mesh height"
-msgstr "Piekhoogte"
+msgstr "Maashoogte"
 
 #: modules/visualization/projectm.cpp:71
-#, fuzzy
 msgid "The height of the mesh, in pixels."
-msgstr "Totale hoogte van de mozaïek, in pixels."
+msgstr "Hoogte van de mazen, in pixels"
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Muisbewegingen"
+msgstr "Textuurgrootte"
 
 #: modules/visualization/projectm.cpp:74
-#, fuzzy
 msgid "The size of the texture, in pixels."
-msgstr "De breedte van het videovenster, in pixels."
+msgstr "Grootte van de textuur, in pixels"
 
 #: modules/visualization/projectm.cpp:77
 msgid "projectM"
