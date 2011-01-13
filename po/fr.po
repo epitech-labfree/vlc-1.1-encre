@@ -3,7 +3,7 @@
 # $Id$
 #
 # Translation updated by
-#  Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net> - November 2010
+#  Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} net> - January 2011
 # Previous Translators
 #  Samuel Hocevar <sam@zoy.org>
 #  Jean-Pierre Kuypers <Kuypers@sri.ucl.ac.be>
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-10 20:52+0000\n"
-"PO-Revision-Date: 2010-11-08 15:24+0100\n"
+"PO-Revision-Date: 2011-01-13 18:35+0100\n"
 "Last-Translator: Éric Lassauge <lassauge {AT} users {dot} sourceforge {dot} "
 "net>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -1650,7 +1650,7 @@ msgid ""
 "should not change this option manually."
 msgstr ""
 "Le volume courant est enregistré dans cette variable quand vous sélectionnez "
-"« muet ». Vous ne devriez pas modifier cette valeur manuellement."
+"« couper le son ». Vous ne devriez pas modifier cette valeur manuellement."
 
 #: src/libvlc-module.c:278
 msgid "Audio output volume step"
@@ -4789,17 +4789,17 @@ msgstr "Programme principal"
 #: src/misc/update.c:487
 #, c-format
 msgid "%.1f GiB"
-msgstr "%.lf Go"
+msgstr "%.lf Gio"
 
 #: src/misc/update.c:489
 #, c-format
 msgid "%.1f MiB"
-msgstr "%.lf Mo"
+msgstr "%.lf Mio"
 
 #: src/misc/update.c:491
 #, c-format
 msgid "%.1f KiB"
-msgstr "%.lf Go"
+msgstr "%.lf Kio"
 
 #: src/misc/update.c:493
 #, c-format
@@ -8139,7 +8139,7 @@ msgstr "Volume de l'entrée audio (si supporté par le driver v4l2)."
 
 #: modules/access/v4l2.c:177
 msgid "Mute audio input (if supported by the v4l2 driver)."
-msgstr "Rendre muette l'entrée audio (si supporté par le driver v4l2)."
+msgstr "Couper l'entrée audio (si supporté par le driver v4l2)."
 
 #: modules/access/v4l2.c:178 modules/meta_engine/id3genres.h:69
 msgid "Bass"
@@ -13285,7 +13285,7 @@ msgstr "+-[Entrée]"
 #: modules/control/rc.c:1870 modules/gui/ncurses.c:1975
 #, c-format
 msgid "| input bytes read : %8.0f KiB"
-msgstr "| octets lus en entrée : %8.0f ko"
+msgstr "| octets lus en entrée : %8.0f Kio"
 
 #: modules/control/rc.c:1872 modules/gui/ncurses.c:1978
 #, c-format
@@ -13295,7 +13295,7 @@ msgstr "| débit en entrée      : %6.0f kb/s"
 #: modules/control/rc.c:1874 modules/gui/ncurses.c:1980
 #, c-format
 msgid "| demux bytes read : %8.0f KiB"
-msgstr "| octets lus en demux  : %8.0f ko"
+msgstr "| octets lus en demux  : %8.0f Kio"
 
 #: modules/control/rc.c:1876 modules/gui/ncurses.c:1983
 #, c-format
@@ -13362,7 +13362,7 @@ msgstr "| paquets envoyés      : %5i"
 #: modules/control/rc.c:1904 modules/gui/ncurses.c:2034
 #, c-format
 msgid "| bytes sent       : %8.0f KiB"
-msgstr "| octets envoyés       : %8.0f ko"
+msgstr "| octets envoyés       : %8.0f Kio"
 
 #: modules/control/rc.c:1906
 #, c-format
@@ -17043,7 +17043,7 @@ msgid ""
 "Don't display dialogs that don't require user action (Critical and error "
 "panel)."
 msgstr ""
-"Ne pas afficher les dialogues qui ne nécessitent pas une action (paneaux "
+"Ne pas afficher les dialogues qui ne nécessitent pas une action (panneaux "
 "d'erreurs)."
 
 #: modules/gui/hildon/maemo.c:63
@@ -17072,7 +17072,7 @@ msgstr ""
 
 #: modules/gui/ncurses.c:110
 msgid "Ncurses interface"
-msgstr "Interface ncurses"
+msgstr "Interface « ncurses »"
 
 #: modules/gui/ncurses.c:1486
 msgid "[Repeat] "
@@ -17089,22 +17089,22 @@ msgstr "[Boucler]"
 #: modules/gui/ncurses.c:1499
 #, c-format
 msgid " Source   : %s"
-msgstr " Source   : %s"
+msgstr " Source  : %s"
 
 #: modules/gui/ncurses.c:1506
 #, c-format
 msgid " State    : Playing %s"
-msgstr " Statut   : ♫ Lecture ♫ %s"
+msgstr " État      :  Lecture  %s"
 
 #: modules/gui/ncurses.c:1510
 #, c-format
 msgid " State    : Opening/Connecting %s"
-msgstr " Statut   : Ouverture/Connection %s"
+msgstr " État      : Ouverture/Connexion %s"
 
 #: modules/gui/ncurses.c:1514
 #, c-format
 msgid " State    : Paused %s"
-msgstr " Statut   : Pause %s"
+msgstr " État      : Pause %s"
 
 #: modules/gui/ncurses.c:1528
 #, c-format
@@ -17114,12 +17114,12 @@ msgstr " Position : %s/%s (%.2f%%)"
 #: modules/gui/ncurses.c:1532
 #, c-format
 msgid " Volume   : %i%%"
-msgstr " Volume   : %i%%"
+msgstr " Volume  : %i%%"
 
 #: modules/gui/ncurses.c:1539
 #, c-format
 msgid " Title    : %d/%d"
-msgstr " Titre    : %d/%d"
+msgstr " Titre      : %d/%d"
 
 #: modules/gui/ncurses.c:1547
 #, c-format
@@ -17129,7 +17129,7 @@ msgstr " Chapitre : %d/%d"
 #: modules/gui/ncurses.c:1557
 #, c-format
 msgid " Source: <no current item> %s"
-msgstr " Source: <Stoppé> %s"
+msgstr " Source    : <pas d'élément> %s"
 
 #: modules/gui/ncurses.c:1559
 msgid " [ h for help ]"
@@ -17145,15 +17145,15 @@ msgstr "[Affichage]"
 
 #: modules/gui/ncurses.c:1588
 msgid "     h,H         Show/Hide help box"
-msgstr "     h,H         Afficher/Cacher l'aide"
+msgstr "     h,H       Afficher/Cacher l'aide"
 
 #: modules/gui/ncurses.c:1589
 msgid "     i           Show/Hide info box"
-msgstr "     i           Afficher/Cacher les informations"
+msgstr "     i            Afficher/Cacher les informations"
 
 #: modules/gui/ncurses.c:1590
 msgid "     m           Show/Hide metadata box"
-msgstr "     m           Afficher/Cacher les méta informations"
+msgstr "     m          Afficher/Cacher les méta informations"
 
 #: modules/gui/ncurses.c:1591
 msgid "     L           Show/Hide messages box"
@@ -17181,7 +17181,7 @@ msgstr "     c           Basculer l'affichage des couleurs"
 
 #: modules/gui/ncurses.c:1597
 msgid "     Esc         Close Add/Search entry"
-msgstr "     Echap       Fermer le dialogue Ajouter/Chercher"
+msgstr "     [Echap]       Fermer le dialogue Ajouter/Chercher"
 
 #: modules/gui/ncurses.c:1602
 msgid "[Global]"
@@ -17205,7 +17205,7 @@ msgstr "     f           Basculer le mode plein écran"
 
 #: modules/gui/ncurses.c:1609
 msgid "     n, p        Next/Previous playlist item"
-msgstr "     n, p        Suivant/Précédent"
+msgstr "     n, p       Suivant/Précédent"
 
 #: modules/gui/ncurses.c:1610
 msgid "     [, ]        Next/Previous title"
@@ -17213,17 +17213,17 @@ msgstr "     [, ]        Titre Suivant/Précédent"
 
 #: modules/gui/ncurses.c:1611
 msgid "     <, >        Next/Previous chapter"
-msgstr "     <, >        Chapitre Suivant/Précédent"
+msgstr "     <, >      Chapitre Suivant/Précédent"
 
 #: modules/gui/ncurses.c:1612
 #, c-format
 msgid "     <right>     Seek +1%%"
-msgstr "     →           Sauter +1%%"
+msgstr "     [droite]    Sauter +1%%"
 
 #: modules/gui/ncurses.c:1613
 #, c-format
 msgid "     <left>      Seek -1%%"
-msgstr "     ←           Sauter -1%%"
+msgstr "     [gauche]  Sauter -1%%"
 
 #: modules/gui/ncurses.c:1614
 msgid "     a           Volume Up"
@@ -17243,7 +17243,7 @@ msgstr "     r           Basculer le mode aléatoire"
 
 #: modules/gui/ncurses.c:1624
 msgid "     l           Toggle Loop Playlist"
-msgstr "     l           Basculer le mode boucler"
+msgstr "     l            Basculer le mode boucler"
 
 #: modules/gui/ncurses.c:1625
 msgid "     R           Toggle Repeat item"
@@ -17263,7 +17263,7 @@ msgstr "     g           Aller à l'élément courant"
 
 #: modules/gui/ncurses.c:1629
 msgid "     /           Look for an item"
-msgstr "     /           Rechercher"
+msgstr "     /            Rechercher"
 
 #: modules/gui/ncurses.c:1630
 msgid "     A           Add an entry"
@@ -17275,7 +17275,7 @@ msgstr "     D,[Suppr]         Effacer"
 
 #: modules/gui/ncurses.c:1632
 msgid "     <backspace> Delete an entry"
-msgstr "     [<-]           Effacer"
+msgstr "     [<-]                  Effacer"
 
 #: modules/gui/ncurses.c:1633
 msgid "     e           Eject (if stopped)"
@@ -17288,12 +17288,14 @@ msgstr "[Navigateur de fichiers]"
 #: modules/gui/ncurses.c:1641
 msgid "     <enter>     Add the selected file to the playlist"
 msgstr ""
-"     [Entrée]           Ajouter le fichier sélectionné à la liste de lecture"
+"     [Entrée]                Ajouter le fichier sélectionné à la liste de "
+"lecture"
 
 #: modules/gui/ncurses.c:1642
 msgid "     <space>     Add the selected directory to the playlist"
 msgstr ""
-"     [Espace]           Ajouter le dossier sélectionné à la liste de lecture"
+"     [Espace]               Ajouter le dossier sélectionné à la liste de "
+"lecture"
 
 #: modules/gui/ncurses.c:1643
 msgid "     .           Show/Hide hidden files"
@@ -17305,11 +17307,11 @@ msgstr "[Boites]"
 
 #: modules/gui/ncurses.c:1651
 msgid "     <up>,<down>     Navigate through the box line by line"
-msgstr "     ↑,↓         Naviguer ligne par ligne"
+msgstr "     [haut], [bas]         Naviguer ligne par ligne"
 
 #: modules/gui/ncurses.c:1652
 msgid "     <pgup>,<pgdown> Navigate through the box page by page"
-msgstr "     [P.Prec],[P.Suiv] Naviguer page par page"
+msgstr "     [P.Prec],[P.Suiv]   Naviguer page par page"
 
 #: modules/gui/ncurses.c:1657
 msgid "[Player]"
@@ -17318,7 +17320,7 @@ msgstr "[Lecteur]"
 #: modules/gui/ncurses.c:1660
 #, c-format
 msgid "     <up>,<down>     Seek +/-5%%"
-msgstr "     ↑,↓         Sauter +/-5%%"
+msgstr "     [haut], [bas]         Sauter +/-5%%"
 
 #: modules/gui/ncurses.c:1665
 msgid "[Miscellaneous]"
@@ -17326,7 +17328,7 @@ msgstr "[Divers]"
 
 #: modules/gui/ncurses.c:1668
 msgid "     Ctrl-l          Refresh the screen"
-msgstr "     Ctrl+l      Rafraîchir l'écran"
+msgstr "     Ctrl+l                     Rafraîchir l'écran"
 
 #: modules/gui/ncurses.c:1689
 msgid " Information "
@@ -18309,7 +18311,7 @@ msgstr ""
 "Le lecteur multimédia VLC est un lecteur, un encodeur et un diffuseur "
 "multimédia libre et gratuit, qui peut lire des fichiers, des disques, des "
 "flux réseaux, des cartes d'acquisition et encore plus !\n"
-"VLC utilise ses propres codecs et fonctionne sur presque toutes les "
+"VLC utilise ses propres codecs et fonctionne sur quasiment toutes les "
 "plateformes.\n"
 "\n"
 
@@ -18341,7 +18343,7 @@ msgstr "Copyright ©"
 msgid " by the VideoLAN Team.\n"
 msgstr ""
 " par l'équipe VideoLAN.\n"
-"Traductions © 2008-2010 Éric Lassauge.\n"
+"Traductions © 2008-2011 Éric Lassauge - Une pensée pour Mehdi (†).\n"
 
 #: modules/gui/qt4/dialogs/help.cpp:146
 msgid ""
@@ -21904,7 +21906,7 @@ msgstr "Couper le son"
 
 #: modules/stream_out/switcher.c:113
 msgid "Mute audio when command is not 0."
-msgstr "Couper le son lorsque la commande n'est pas 0"
+msgstr "Couper le son lorsque la commande n'est pas 0."
 
 #: modules/stream_out/switcher.c:116
 msgid "MPEG2 video switcher stream output"
@@ -25387,34 +25389,28 @@ msgid "The height of the video window, in pixels."
 msgstr "Hauteur de la fenêtre vidéo, en pixels."
 
 #: modules/visualization/projectm.cpp:67
-#, fuzzy
 msgid "Mesh width"
-msgstr "Largeur de la vidéo"
+msgstr "Largeur maillage"
 
 #: modules/visualization/projectm.cpp:68
-#, fuzzy
 msgid "The width of the mesh, in pixels."
-msgstr "Largeur totale de la mosaïque en pixels."
+msgstr "Largeur du maillage, en pixels."
 
 #: modules/visualization/projectm.cpp:70
-#, fuzzy
 msgid "Mesh height"
-msgstr "Hauteur du pic"
+msgstr "Hauteur du maillage"
 
 #: modules/visualization/projectm.cpp:71
-#, fuzzy
 msgid "The height of the mesh, in pixels."
-msgstr "Hauteur totale de la mosaïque en pixels."
+msgstr "Hauteur du maillage, en pixels."
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Mouvements"
+msgstr "Taille de la texture"
 
 #: modules/visualization/projectm.cpp:74
-#, fuzzy
 msgid "The size of the texture, in pixels."
-msgstr "Largeur de la fenêtre vidéo, en pixels."
+msgstr "La taille de la texture, en pixels."
 
 #: modules/visualization/projectm.cpp:77
 msgid "projectM"
