@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vlc 1.1.0\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-10 20:52+0000\n"
-"PO-Revision-Date: 2010-05-06 18:51+0200\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2011-01-13 23:50+0200\n"
+"Last-Translator: Ivo Ivanov <bestran@mail.bg>\n"
 "Language-Team: Bulgarian <bestran@mail.bg>\n"
 "Language: bg\n"
 "MIME-Version: 1.0\n"
@@ -520,7 +520,7 @@ msgstr "Съобщения"
 
 #: include/vlc_intf_strings.h:58
 msgid "Jump to Specific &Time"
-msgstr "Отиване до определено време"
+msgstr "Отиване до зададено време"
 
 #: include/vlc_intf_strings.h:59 modules/gui/qt4/menus.cpp:661
 msgid "&Bookmarks"
@@ -652,7 +652,7 @@ msgstr "Търсене"
 
 #: include/vlc_intf_strings.h:99
 msgid "Search Filter"
-msgstr "Въведете текст"
+msgstr "Текст за търсене"
 
 #: include/vlc_intf_strings.h:101
 msgid "&Services Discovery"
@@ -1726,7 +1726,7 @@ msgid ""
 "This allows to play audio at lower or higher speed without affecting the "
 "audio pitch"
 msgstr ""
-"Позволява да се възпроизвежда аудиото с по-ниска или по-висока скорост без "
+"Позволява аудиото да се възпроизвежда с по-ниска или по-висока скорост без "
 "да се изменя неговата тоналност."
 
 #: src/libvlc-module.c:362 modules/access/dshow/dshow.cpp:82
@@ -1808,25 +1808,24 @@ msgstr ""
 
 #: src/libvlc-module.c:396
 msgid "Video X coordinate"
-msgstr "Координата Х на видеото"
+msgstr "Хоризонтална позиция на видеото"
 
 #: src/libvlc-module.c:398
 msgid ""
 "You can enforce the position of the top left corner of the video window (X "
 "coordinate)."
 msgstr ""
-"Задаване позицията в горния ляв ъгъл на видео прозореца (Х - координата)."
+"Задаване позицията в горния ляв ъгъл на видео прозореца (хоризонтално)."
 
 #: src/libvlc-module.c:401
 msgid "Video Y coordinate"
-msgstr "Координата Y на видеото"
+msgstr "Вертикална позиция на видеото"
 
 #: src/libvlc-module.c:403
 msgid ""
 "You can enforce the position of the top left corner of the video window (Y "
 "coordinate)."
-msgstr ""
-"Задаване позицията в горния ляв ъгъл на видео прозореца (Y - координата)."
+msgstr "Задаване позицията в горния ляв ъгъл на видео прозореца (вертикално)."
 
 #: src/libvlc-module.c:406
 msgid "Video title"
@@ -1992,7 +1991,7 @@ msgstr "Възпроизвеждане на десктоп"
 msgid ""
 "The wallpaper mode allows you to display the video as the desktop background."
 msgstr ""
-"Режима възпроизвеждане на десктоп позволява видеото да се показва , като фон "
+"Режима възпроизвеждане на десктоп позволява видеото да се показва, като фон "
 "на десктоп."
 
 #: src/libvlc-module.c:457
@@ -2165,8 +2164,8 @@ msgstr "Използване на поредни числа вместо вре�
 #: src/libvlc-module.c:542
 msgid "Use sequential numbers instead of timestamps for snapshot numbering"
 msgstr ""
-"Използване на поредни числа, вместо времето на снимане за име на файла със "
-"снимката"
+"Използване на поредни числа, вместо времето на снимане за имена на файловете "
+"със снимките"
 
 #: src/libvlc-module.c:544
 msgid "Video snapshot width"
@@ -2220,10 +2219,10 @@ msgid ""
 "(1.25, 1.3333, etc.) expressing pixel squareness."
 msgstr ""
 "Задаване пропорцията на източника. Например някои DVD-та твърдят, че са "
-"16:9, докато те всъщност са 4:3. Това може да се използва като подсказка към "
-"VLC, когато филма няма информация за пропорцията. Възможните формати са x:y "
-"(4:3, 16:9, и др.) изразяващи пропорцията на всички изображения или стойност "
-"с плаваща запетая."
+"16:9, докато те всъщност са 4:3. Това може да се използва, като подсказка "
+"към VLC, когато филма няма информация за пропорцията. Възможните формати са "
+"x:y (4:3, 16:9, и др.) изразяващи пропорцията на всички изображения или "
+"стойност с плаваща запетая."
 
 #: src/libvlc-module.c:571
 msgid "Video Auto Scaling"
@@ -3029,7 +3028,7 @@ msgid ""
 "VLC owns plugins whenever a choice is available."
 msgstr ""
 "Определяне дали VLC да използва кодеците инсталирани в системата или "
-"собствените вградени кодеци на VLC, когато има възможност за избор."
+"собствените вградени кодеци в VLC. Когато има възможност за избор."
 
 #: src/libvlc-module.c:954
 msgid ""
@@ -3376,8 +3375,8 @@ msgid ""
 msgstr ""
 "Работата на VLC в приоритет real-time ще позволи много по-точно планиране и "
 "по-добра производителност, особено когато има изпълнение на поток. Това може "
-"да заключи цялата ваша машина или да я направи много бавна. Трябва да "
-"активирате това само ако знаете какво правите."
+"да блокира вашата машина или да я направи много бавна. Трябва да активирате "
+"това само ако знаете какво правите."
 
 #: src/libvlc-module.c:1115
 msgid "Adjust VLC priority"
@@ -3779,11 +3778,11 @@ msgstr ""
 
 #: src/libvlc-module.c:1296 modules/gui/qt4/menus.cpp:808
 msgid "Faster (fine)"
-msgstr "Малко по-бързо"
+msgstr "По-бързо (плавно)"
 
 #: src/libvlc-module.c:1298 modules/gui/qt4/menus.cpp:816
 msgid "Slower (fine)"
-msgstr "Малко по-бавно"
+msgstr "По-бавно (плавно)"
 
 #: src/libvlc-module.c:1300 modules/control/hotkeys.c:696
 #: modules/gui/macosx/about.m:193 modules/gui/macosx/controls.m:1032
@@ -4798,9 +4797,8 @@ msgid "Undefined"
 msgstr "Неопределено"
 
 #: src/text/iso-639_def.h:38
-#, fuzzy
 msgid "Afar"
-msgstr "Аларма"
+msgstr ""
 
 #: src/text/iso-639_def.h:39
 msgid "Abkhazian"
@@ -4815,9 +4813,8 @@ msgid "Albanian"
 msgstr ""
 
 #: src/text/iso-639_def.h:42
-#, fuzzy
 msgid "Amharic"
-msgstr "Автоматично"
+msgstr ""
 
 #: src/text/iso-639_def.h:43
 msgid "Arabic"
@@ -4828,9 +4825,8 @@ msgid "Armenian"
 msgstr ""
 
 #: src/text/iso-639_def.h:45
-#, fuzzy
 msgid "Assamese"
-msgstr "Съобщения..."
+msgstr ""
 
 #: src/text/iso-639_def.h:46
 msgid "Avestan"
@@ -4845,28 +4841,24 @@ msgid "Azerbaijani"
 msgstr ""
 
 #: src/text/iso-639_def.h:49
-#, fuzzy
 msgid "Bashkir"
-msgstr "Основни"
+msgstr ""
 
 #: src/text/iso-639_def.h:50
-#, fuzzy
 msgid "Basque"
-msgstr "Показване на текст на екрана"
+msgstr ""
 
 #: src/text/iso-639_def.h:51
-#, fuzzy
 msgid "Belarusian"
-msgstr "Версия"
+msgstr ""
 
 #: src/text/iso-639_def.h:52
 msgid "Bengali"
 msgstr ""
 
 #: src/text/iso-639_def.h:53
-#, fuzzy
 msgid "Bihari"
-msgstr "Автоматично"
+msgstr ""
 
 #: src/text/iso-639_def.h:54
 msgid "Bislama"
@@ -4877,18 +4869,16 @@ msgid "Bosnian"
 msgstr ""
 
 #: src/text/iso-639_def.h:56
-#, fuzzy
 msgid "Breton"
-msgstr "Посока"
+msgstr ""
 
 #: src/text/iso-639_def.h:57
 msgid "Bulgarian"
 msgstr ""
 
 #: src/text/iso-639_def.h:58
-#, fuzzy
 msgid "Burmese"
-msgstr "B Кадри"
+msgstr ""
 
 #: src/text/iso-639_def.h:59
 msgid "Catalan"
@@ -4899,98 +4889,84 @@ msgid "Chamorro"
 msgstr ""
 
 #: src/text/iso-639_def.h:61
-#, fuzzy
 msgid "Chechen"
-msgstr "Техно"
+msgstr ""
 
 #: src/text/iso-639_def.h:62
-#, fuzzy
 msgid "Chinese"
-msgstr "Канали"
+msgstr ""
 
 #: src/text/iso-639_def.h:63
 msgid "Church Slavic"
 msgstr ""
 
 #: src/text/iso-639_def.h:64
-#, fuzzy
 msgid "Chuvash"
-msgstr "Платно"
+msgstr ""
 
 #: src/text/iso-639_def.h:65
-#, fuzzy
 msgid "Cornish"
-msgstr "Авторски права"
+msgstr ""
 
 #: src/text/iso-639_def.h:66
 msgid "Corsican"
 msgstr ""
 
 #: src/text/iso-639_def.h:67
-#, fuzzy
 msgid "Czech"
-msgstr "Кодек"
+msgstr ""
 
 #: src/text/iso-639_def.h:68
-#, fuzzy
 msgid "Danish"
-msgstr "Край"
+msgstr ""
 
 #: src/text/iso-639_def.h:69
-#, fuzzy
 msgid "Dutch"
-msgstr "Размер на буфера"
+msgstr ""
 
 #: src/text/iso-639_def.h:70
 msgid "Dzongkha"
 msgstr ""
 
 #: src/text/iso-639_def.h:71
-#, fuzzy
 msgid "English"
-msgstr "Край"
+msgstr ""
 
 #: src/text/iso-639_def.h:72
-#, fuzzy
 msgid "Esperanto"
-msgstr "Пропорция"
+msgstr ""
 
 #: src/text/iso-639_def.h:73
 msgid "Estonian"
 msgstr ""
 
 #: src/text/iso-639_def.h:74
-#, fuzzy
 msgid "Faroese"
-msgstr "По-бързо"
+msgstr ""
 
 #: src/text/iso-639_def.h:75
 msgid "Fijian"
 msgstr ""
 
 #: src/text/iso-639_def.h:76
-#, fuzzy
 msgid "Finnish"
-msgstr "Край"
+msgstr ""
 
 #: src/text/iso-639_def.h:77
-#, fuzzy
 msgid "French"
-msgstr "Честота"
+msgstr ""
 
 #: src/text/iso-639_def.h:78
-#, fuzzy
 msgid "Frisian"
-msgstr "Версия"
+msgstr ""
 
 #: src/text/iso-639_def.h:79
 msgid "Georgian"
 msgstr ""
 
 #: src/text/iso-639_def.h:80
-#, fuzzy
 msgid "German"
-msgstr "Общи"
+msgstr ""
 
 #: src/text/iso-639_def.h:81
 msgid "Gaelic (Scots)"
@@ -5001,14 +4977,12 @@ msgid "Irish"
 msgstr ""
 
 #: src/text/iso-639_def.h:83
-#, fuzzy
 msgid "Gallegan"
-msgstr "Общо усилване"
+msgstr ""
 
 #: src/text/iso-639_def.h:84
-#, fuzzy
 msgid "Manx"
-msgstr "Кестеняв"
+msgstr ""
 
 #: src/text/iso-639_def.h:85
 msgid "Greek, Modern ()"
@@ -5019,18 +4993,16 @@ msgid "Guarani"
 msgstr ""
 
 #: src/text/iso-639_def.h:87
-#, fuzzy
 msgid "Gujarati"
-msgstr "Времетраене"
+msgstr ""
 
 #: src/text/iso-639_def.h:88
 msgid "Hebrew"
 msgstr ""
 
 #: src/text/iso-639_def.h:89
-#, fuzzy
 msgid "Herero"
-msgstr "Стерео"
+msgstr ""
 
 #: src/text/iso-639_def.h:90
 msgid "Hindi"
@@ -5049,19 +5021,16 @@ msgid "Icelandic"
 msgstr ""
 
 #: src/text/iso-639_def.h:94
-#, fuzzy
 msgid "Inuktitut"
-msgstr "Входен битрейт"
+msgstr ""
 
 #: src/text/iso-639_def.h:95
-#, fuzzy
 msgid "Interlingue"
-msgstr "Интернет"
+msgstr ""
 
 #: src/text/iso-639_def.h:96
-#, fuzzy
 msgid "Interlingua"
-msgstr "Тип на деинтерлейс"
+msgstr ""
 
 #: src/text/iso-639_def.h:97
 msgid "Indonesian"
@@ -5076,14 +5045,12 @@ msgid "Italian"
 msgstr ""
 
 #: src/text/iso-639_def.h:100
-#, fuzzy
 msgid "Javanese"
-msgstr "Вълни"
+msgstr ""
 
 #: src/text/iso-639_def.h:101
-#, fuzzy
 msgid "Japanese"
-msgstr "Вълни"
+msgstr ""
 
 #: src/text/iso-639_def.h:102
 msgid "Kalaallisut (Greenlandic)"
@@ -5138,14 +5105,12 @@ msgid "Lao"
 msgstr ""
 
 #: src/text/iso-639_def.h:115
-#, fuzzy
 msgid "Latin"
-msgstr "Място за запис"
+msgstr ""
 
 #: src/text/iso-639_def.h:116
-#, fuzzy
 msgid "Latvian"
-msgstr "Място за запис"
+msgstr ""
 
 #: src/text/iso-639_def.h:117
 msgid "Lingala"
@@ -5160,60 +5125,52 @@ msgid "Letzeburgesch"
 msgstr ""
 
 #: src/text/iso-639_def.h:120
-#, fuzzy
 msgid "Macedonian"
-msgstr "Медия"
+msgstr ""
 
 #: src/text/iso-639_def.h:121
 msgid "Marshall"
 msgstr ""
 
 #: src/text/iso-639_def.h:122
-#, fuzzy
 msgid "Malayalam"
-msgstr "Възпроизвеждане"
+msgstr ""
 
 #: src/text/iso-639_def.h:123
 msgid "Maori"
 msgstr ""
 
 #: src/text/iso-639_def.h:124
-#, fuzzy
 msgid "Marathi"
-msgstr "Ръчна пропорция"
+msgstr ""
 
 #: src/text/iso-639_def.h:125
-#, fuzzy
 msgid "Malay"
-msgstr "Възпроизвеждане"
+msgstr ""
 
 #: src/text/iso-639_def.h:126
-#, fuzzy
 msgid "Malagasy"
-msgstr "Възпроизвеждане"
+msgstr ""
 
 #: src/text/iso-639_def.h:127
 msgid "Maltese"
 msgstr ""
 
 #: src/text/iso-639_def.h:128
-#, fuzzy
 msgid "Moldavian"
-msgstr "Място за запис"
+msgstr ""
 
 #: src/text/iso-639_def.h:129
-#, fuzzy
 msgid "Mongolian"
-msgstr "Моно"
+msgstr ""
 
 #: src/text/iso-639_def.h:130
 msgid "Nauru"
 msgstr ""
 
 #: src/text/iso-639_def.h:131
-#, fuzzy
 msgid "Navajo"
-msgstr "Навигация"
+msgstr ""
 
 #: src/text/iso-639_def.h:132
 msgid "Ndebele, South"
@@ -5224,14 +5181,12 @@ msgid "Ndebele, North"
 msgstr ""
 
 #: src/text/iso-639_def.h:134
-#, fuzzy
 msgid "Ndonga"
-msgstr "Няма"
+msgstr ""
 
 #: src/text/iso-639_def.h:135
-#, fuzzy
 msgid "Nepali"
-msgstr "Поправяне"
+msgstr ""
 
 #: src/text/iso-639_def.h:136
 msgid "Norwegian"
@@ -5258,52 +5213,44 @@ msgid "Oriya"
 msgstr ""
 
 #: src/text/iso-639_def.h:142
-#, fuzzy
 msgid "Oromo"
-msgstr "От"
+msgstr ""
 
 #: src/text/iso-639_def.h:144
 msgid "Ossetian; Ossetic"
 msgstr ""
 
 #: src/text/iso-639_def.h:145
-#, fuzzy
 msgid "Panjabi"
-msgstr "Панорамикс"
+msgstr ""
 
 #: src/text/iso-639_def.h:146
-#, fuzzy
 msgid "Persian"
-msgstr "Версия"
+msgstr ""
 
 #: src/text/iso-639_def.h:147
-#, fuzzy
 msgid "Pali"
-msgstr "Плейлист"
+msgstr ""
 
 #: src/text/iso-639_def.h:148
-#, fuzzy
 msgid "Polish"
-msgstr "Издател"
+msgstr ""
 
 #: src/text/iso-639_def.h:149
-#, fuzzy
 msgid "Portuguese"
-msgstr "Шаблон"
+msgstr ""
 
 #: src/text/iso-639_def.h:150
-#, fuzzy
 msgid "Pushto"
-msgstr "Потребителски избор"
+msgstr ""
 
 #: src/text/iso-639_def.h:151
 msgid "Quechua"
 msgstr ""
 
 #: src/text/iso-639_def.h:152
-#, fuzzy
 msgid "Original audio"
-msgstr "Оригинален размер"
+msgstr ""
 
 #: src/text/iso-639_def.h:153
 msgid "Raeto-Romance"
@@ -5314,14 +5261,12 @@ msgid "Romanian"
 msgstr ""
 
 #: src/text/iso-639_def.h:155
-#, fuzzy
 msgid "Rundi"
-msgstr "Време на възпроизвеждане"
+msgstr ""
 
 #: src/text/iso-639_def.h:156
-#, fuzzy
 msgid "Russian"
-msgstr "Руски (KOI8-R)"
+msgstr ""
 
 #: src/text/iso-639_def.h:157
 msgid "Sango"
@@ -5336,14 +5281,12 @@ msgid "Serbian"
 msgstr ""
 
 #: src/text/iso-639_def.h:160
-#, fuzzy
 msgid "Croatian"
-msgstr "Продължаване"
+msgstr ""
 
 #: src/text/iso-639_def.h:161
-#, fuzzy
 msgid "Sinhalese"
-msgstr "Сигнали"
+msgstr ""
 
 #: src/text/iso-639_def.h:162
 msgid "Slovak"
@@ -5366,33 +5309,28 @@ msgid "Shona"
 msgstr ""
 
 #: src/text/iso-639_def.h:167
-#, fuzzy
 msgid "Sindhi"
-msgstr "Изпращане"
+msgstr ""
 
 #: src/text/iso-639_def.h:168
-#, fuzzy
 msgid "Somali"
-msgstr "Малък"
+msgstr ""
 
 #: src/text/iso-639_def.h:169
 msgid "Sotho, Southern"
 msgstr ""
 
 #: src/text/iso-639_def.h:170
-#, fuzzy
 msgid "Spanish"
-msgstr "Край"
+msgstr ""
 
 #: src/text/iso-639_def.h:171
-#, fuzzy
 msgid "Sardinian"
-msgstr "Украински (KOI8-U)"
+msgstr ""
 
 #: src/text/iso-639_def.h:172
-#, fuzzy
 msgid "Swati"
-msgstr "Статистика"
+msgstr ""
 
 #: src/text/iso-639_def.h:173
 msgid "Sundanese"
@@ -5407,39 +5345,32 @@ msgid "Swedish"
 msgstr ""
 
 #: src/text/iso-639_def.h:176
-#, fuzzy
 msgid "Tahitian"
-msgstr "Продължаване"
+msgstr ""
 
 #: src/text/iso-639_def.h:177
-#, fuzzy
 msgid "Tamil"
-msgstr "Тъмно зелен"
+msgstr ""
 
 #: src/text/iso-639_def.h:178
-#, fuzzy
 msgid "Tatar"
-msgstr "Данни"
+msgstr ""
 
 #: src/text/iso-639_def.h:179
-#, fuzzy
 msgid "Telugu"
-msgstr "Тъмно зелен"
+msgstr ""
 
 #: src/text/iso-639_def.h:180
-#, fuzzy
 msgid "Tajik"
-msgstr "Пътечка"
+msgstr ""
 
 #: src/text/iso-639_def.h:181
-#, fuzzy
 msgid "Tagalog"
-msgstr "Диалогов прозорец"
+msgstr ""
 
 #: src/text/iso-639_def.h:182
-#, fuzzy
 msgid "Thai"
-msgstr "Благодарности"
+msgstr ""
 
 #: src/text/iso-639_def.h:183
 msgid "Tibetan"
@@ -5458,14 +5389,12 @@ msgid "Tswana"
 msgstr ""
 
 #: src/text/iso-639_def.h:187
-#, fuzzy
 msgid "Tsonga"
-msgstr "Няма"
+msgstr ""
 
 #: src/text/iso-639_def.h:188
-#, fuzzy
 msgid "Turkish"
-msgstr "Пътечки"
+msgstr ""
 
 #: src/text/iso-639_def.h:189
 msgid "Turkmen"
@@ -5480,9 +5409,8 @@ msgid "Uighur"
 msgstr ""
 
 #: src/text/iso-639_def.h:192
-#, fuzzy
 msgid "Ukrainian"
-msgstr "Украински (KOI8-U)"
+msgstr ""
 
 #: src/text/iso-639_def.h:193
 msgid "Urdu"
@@ -5493,42 +5421,36 @@ msgid "Uzbek"
 msgstr ""
 
 #: src/text/iso-639_def.h:195
-#, fuzzy
 msgid "Vietnamese"
-msgstr "Име на файла:"
+msgstr ""
 
 #: src/text/iso-639_def.h:196
-#, fuzzy
 msgid "Volapuk"
-msgstr "Сила на звука"
+msgstr ""
 
 #: src/text/iso-639_def.h:197
-#, fuzzy
 msgid "Welsh"
-msgstr "Вълни"
+msgstr ""
 
 #: src/text/iso-639_def.h:198
-#, fuzzy
 msgid "Wolof"
-msgstr "Цвят"
+msgstr ""
 
 #: src/text/iso-639_def.h:199
 msgid "Xhosa"
 msgstr ""
 
 #: src/text/iso-639_def.h:200
-#, fuzzy
 msgid "Yiddish"
-msgstr "Край"
+msgstr ""
 
 #: src/text/iso-639_def.h:201
 msgid "Yoruba"
 msgstr ""
 
 #: src/text/iso-639_def.h:202
-#, fuzzy
 msgid "Zhuang"
-msgstr "Промяна"
+msgstr ""
 
 #: src/text/iso-639_def.h:203
 msgid "Zulu"
@@ -5632,9 +5554,8 @@ msgid "Avio"
 msgstr ""
 
 #: modules/access/avio.h:38
-#, fuzzy
 msgid "FFmpeg access"
-msgstr "Мултиплексор FFmpeg"
+msgstr ""
 
 #: modules/access/bd/bd.c:54
 msgid "Caching value for BDs. This value should be set in milliseconds."
@@ -6761,9 +6682,8 @@ msgid "Directory"
 msgstr "Директория"
 
 #: modules/access/fs.c:79
-#, fuzzy
 msgid "Directory input"
-msgstr "Източник DirectShow"
+msgstr "Въвеждана директория"
 
 #: modules/access/ftp.c:60
 msgid ""
@@ -7024,9 +6944,8 @@ msgid "Display aspect ratio"
 msgstr "Пропорция на показване"
 
 #: modules/access/imem.c:96
-#, fuzzy
 msgid "Display aspect ratio of a video elementary stream"
-msgstr "Честота на кадри на елементарния видео поток"
+msgstr "Показване на пропорцията на елементарния видео поток"
 
 #: modules/access/imem.c:100
 msgid "Frame rate of a video elementary stream"
@@ -7065,9 +6984,8 @@ msgid "Address of the release callback function"
 msgstr "Адрес на функцията за изпращане на обратна връзка"
 
 #: modules/access/imem.c:118
-#, fuzzy
 msgid "Size"
-msgstr "Размери"
+msgstr "Размер"
 
 #: modules/access/imem.c:120
 msgid "Size of stream in bytes"
@@ -8705,9 +8623,8 @@ msgid "ARM NEON video chroma conversions"
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:42
-#, fuzzy
 msgid "TCP address to use (default localhost)"
-msgstr "TCP порт, който да се използва (по подразбиране 12345)"
+msgstr "TCP адрес, който да се използва (по подразбиране localhost)"
 
 #: modules/audio_filter/audiobargraph_a.c:43
 msgid ""
@@ -8728,12 +8645,16 @@ msgstr ""
 #: modules/audio_filter/audiobargraph_a.c:50
 msgid "Defines if BarGraph information should be sent (default 1)"
 msgstr ""
+"Определяне дали да се изпрати информация за графичната лента (по "
+"подразбиране 1)"
 
 #: modules/audio_filter/audiobargraph_a.c:51
 msgid ""
 "Defines if BarGraph information should be sent. 1 if the information should "
 "be sent, 0 otherwise (default 1)."
 msgstr ""
+"Определяне дали да се изпрати информация за графичната лента. 1 ако "
+"информацията трябва да се изпрати, 0 в други случаи (по подразбиране 1)."
 
 #: modules/audio_filter/audiobargraph_a.c:53
 msgid "Sends the barGraph information every n audio packets (default 4)"
@@ -8744,6 +8665,8 @@ msgid ""
 "Defines how often the barGraph information should be sent. Sends the "
 "barGraph information every n audio packets (default 4)."
 msgstr ""
+"Определяне колко често информацията за графичната лента да се изпраща. "
+"Изпращане на информация на всеки n аудио пакета (по подразбиране 4)."
 
 #: modules/audio_filter/audiobargraph_a.c:56
 msgid "Defines if silence alarm information should be sent (default 1)"
@@ -8756,9 +8679,9 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:59
-#, fuzzy
 msgid "Time window to use in ms (default 5000)"
-msgstr "TCP порт, който да се използва (по подразбиране 12345)"
+msgstr ""
+"Процорец с времето, който да се използва в мсек. (по подразбиране 5000)"
 
 #: modules/audio_filter/audiobargraph_a.c:60
 msgid ""
@@ -8796,11 +8719,12 @@ msgid ""
 "Defines if the TCP connection should be reset. This is to be used when using "
 "with audiobargraph_v (default 1)."
 msgstr ""
+"Определяне дали да се нулира TCP връзката. Това се избира, когато се "
+"използва audiobargraph_v (по подразбиране 1)."
 
 #: modules/audio_filter/audiobargraph_a.c:84
-#, fuzzy
 msgid "Audio part of the BarGraph function"
-msgstr "Адрес на функцията за получаване на обратна връзка"
+msgstr "Аудио част на функцията за графичната лента"
 
 #: modules/audio_filter/audiobargraph_a.c:85
 msgid "audiobargraph_a"
@@ -10417,7 +10341,7 @@ msgstr "Координата X при декодиране"
 
 #: modules/codec/dvbsub.c:84
 msgid "X coordinate of the rendered subtitle"
-msgstr "X координата на извежданите субтитри"
+msgstr "Хоризонтална позиция на извежданите субтитри"
 
 #: modules/codec/dvbsub.c:86
 msgid "Decoding Y coordinate"
@@ -10425,7 +10349,7 @@ msgstr "Координата Y при декодиране"
 
 #: modules/codec/dvbsub.c:87
 msgid "Y coordinate of the rendered subtitle"
-msgstr "Y координата на извежданите субтитри"
+msgstr "Вертикална позиция на извежданите субтитри"
 
 #: modules/codec/dvbsub.c:89
 msgid "Subpicture position"
@@ -12318,9 +12242,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/x264.c:385 modules/codec/x264.c:386
-#, fuzzy
 msgid "HRD-timing information"
-msgstr "показване на инфо за версията"
+msgstr "Информация за тайминга на HRD"
 
 #: modules/codec/x264.c:388
 msgid ""
@@ -12485,11 +12408,11 @@ msgstr "Интерфейс за глобални клавишни комбина
 
 #: modules/control/hotkeys.c:92
 msgid "Volume Control"
-msgstr "Управление силата на звука"
+msgstr "Регулиране силата на звука"
 
 #: modules/control/hotkeys.c:92
 msgid "Position Control"
-msgstr "Управление на позицията"
+msgstr "Позиция на възпроизвеждане"
 
 #: modules/control/hotkeys.c:92 modules/gui/macosx/intf.m:2463
 msgid "Ignore"
@@ -12513,7 +12436,7 @@ msgid ""
 "MouseWheel x-axis can control volume, position or mousewheel event can be "
 "ignored"
 msgstr ""
-"С колелото на мишката може да се управлява силата на звука, позицията на "
+"С колелото на мишката може да се регулира силата на звука, позицията на "
 "възпроизвеждане или действията могат да се игнорират"
 
 #: modules/control/hotkeys.c:374
@@ -14015,67 +13938,57 @@ msgid "Podcast Info"
 msgstr "Инфо на Podcast"
 
 #: modules/demux/playlist/podcast.c:256
-#, fuzzy
 msgid "Podcast Link"
-msgstr "Инфо на Podcast"
+msgstr "Линк на Podcast"
 
 #: modules/demux/playlist/podcast.c:257
-#, fuzzy
 msgid "Podcast Copyright"
-msgstr "Авторски права"
+msgstr "Авторски права на Podcast"
 
 #: modules/demux/playlist/podcast.c:258
-#, fuzzy
 msgid "Podcast Category"
-msgstr "Зареждане на Podcast"
+msgstr "Категория на Podcast"
 
 #: modules/demux/playlist/podcast.c:259 modules/demux/playlist/podcast.c:311
-#, fuzzy
 msgid "Podcast Keywords"
-msgstr "Зареждане на Podcast"
+msgstr "Ключови думи на Podcast"
 
 #: modules/demux/playlist/podcast.c:260 modules/demux/playlist/podcast.c:312
-#, fuzzy
 msgid "Podcast Subtitle"
-msgstr "Размер на Podcast"
+msgstr "Субтитри на Podcast"
 
 #: modules/demux/playlist/podcast.c:266 modules/demux/playlist/podcast.c:313
 msgid "Podcast Summary"
 msgstr "Сводка на Podcast"
 
 #: modules/demux/playlist/podcast.c:307
-#, fuzzy
 msgid "Podcast Publication Date"
-msgstr "Тип на модулацията"
+msgstr "Дата на излизане на Podcast"
 
 #: modules/demux/playlist/podcast.c:308
-#, fuzzy
 msgid "Podcast Author"
-msgstr "Инфо на Podcast"
+msgstr "Автор на Podcast"
 
 #: modules/demux/playlist/podcast.c:309
-#, fuzzy
 msgid "Podcast Subcategory"
-msgstr "Сводка на Podcast"
+msgstr "Поддиректория на Podcast"
 
 #: modules/demux/playlist/podcast.c:310
-#, fuzzy
 msgid "Podcast Duration"
-msgstr "Наситеност"
+msgstr "Времетраене на Podcast"
 
 #: modules/demux/playlist/podcast.c:314
-#, fuzzy
 msgid "Podcast Type"
-msgstr "Зареждане на Podcast"
+msgstr "Тип на Podcast"
 
 #: modules/demux/playlist/podcast.c:328
 msgid "Podcast Size"
 msgstr "Размер на Podcast"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Изпратени байтове"
+msgstr "%s байтове"
 
 #: modules/demux/playlist/shoutcast.c:409
 msgid "Shoutcast"
@@ -14553,21 +14466,21 @@ msgstr "Текст, който да се показва на overlay фрейм�
 #: modules/video_filter/erase.c:57 modules/video_filter/logo.c:58
 #: modules/video_filter/osdmenu.c:51
 msgid "X coordinate"
-msgstr "Координата X"
+msgstr "Хоризонтална позиция"
 
 #: modules/gui/fbosd.c:122
 msgid "X coordinate of the rendered image"
-msgstr "Координата X на извежданото изоброжение"
+msgstr "Хоризонтална позиция на извежданото изображение"
 
 #: modules/gui/fbosd.c:124 modules/video_filter/audiobargraph_v.c:53
 #: modules/video_filter/erase.c:59 modules/video_filter/logo.c:61
 #: modules/video_filter/osdmenu.c:54
 msgid "Y coordinate"
-msgstr "Координата Y"
+msgstr "Вертикална позиция"
 
 #: modules/gui/fbosd.c:125
 msgid "Y coordinate of the rendered image"
-msgstr "Координата Y на извежданото изоброжение"
+msgstr "Вертикална позиция на извежданото изоброжение"
 
 #: modules/gui/fbosd.c:129
 msgid ""
@@ -16107,7 +16020,7 @@ msgstr "Ефект Dolby Surround за слушалки"
 
 #: modules/gui/macosx/simple_prefs.m:232
 msgid "Preferred Audio language"
-msgstr "Предпочитан език за аудито"
+msgstr "Предпочитан език за аудиото"
 
 #: modules/gui/macosx/simple_prefs.m:233
 msgid "Enable Last.fm submissions"
@@ -17472,13 +17385,11 @@ msgid "Change the loop and repeat modes"
 msgstr ""
 
 #: modules/gui/qt4/components/controller_widget.cpp:133
-#, fuzzy
 msgctxt "Tooltip|Unmute"
 msgid "Unmute"
 msgstr "Включване на звука"
 
 #: modules/gui/qt4/components/controller_widget.cpp:142
-#, fuzzy
 msgctxt "Tooltip|Mute"
 msgid "Mute"
 msgstr "Изключване на звука"
@@ -18050,10 +17961,10 @@ msgstr "Запис на файла..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
 #: modules/gui/qt4/dialogs/convert.cpp:113
-#, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
-msgstr "Контейнери (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+msgstr ""
+"Контейнери (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:151
 msgid "This module outputs the transcoded stream to a network via HTTP."
@@ -18201,14 +18112,12 @@ msgid "v4l2 controls"
 msgstr "Регулатори за v4l2"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:61
-#, fuzzy
 msgid "Privacy and Network Policies"
-msgstr "Управление / Мрежа"
+msgstr "Лични и мрежови настройки"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:69
-#, fuzzy
 msgid "Privacy and Network Warning"
-msgstr "Управление / Мрежа"
+msgstr "Лични и мрежови предупреждения"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
 msgid ""
@@ -18231,9 +18140,8 @@ msgid "Allow fetching media information from Internet"
 msgstr ""
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:95
-#, fuzzy
 msgid "Check for updates"
-msgstr "Проверка за обновления..."
+msgstr "Проверка за обновления"
 
 #: modules/gui/qt4/dialogs/gototime.cpp:42
 msgid "Go to Time"
@@ -18564,14 +18472,12 @@ msgid "&Reset Preferences"
 msgstr "Стандартни настройки"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Настройка на интерфейса Lua"
+msgstr "Конфигурацията не може да се запише"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Файла не може да бъде изпълнен"
+msgstr "Файлът с настройките не може да се запише"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -18627,7 +18533,7 @@ msgstr "Голям бутон"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:65
 msgid "Native Slider"
-msgstr "Стандартен"
+msgstr "Плъзгач за звука"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:76
 msgid "Main Toolbar"
@@ -18643,7 +18549,7 @@ msgstr "Под видеото"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:84
 msgid "Above the Video"
-msgstr "Върху видеото"
+msgstr "Над видеото"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:89
 msgid "Line 1:"
@@ -19325,7 +19231,7 @@ msgstr ""
 
 #: modules/gui/qt4/qt4.cpp:157
 msgid "Define which screen fullscreen goes"
-msgstr "Определяне на кой екран видеото ще стане на цял екран"
+msgstr "Определяне на кой екран видеото да бъде на цял екран"
 
 #: modules/gui/qt4/qt4.cpp:158
 msgid "Screennumber of fullscreen, instead ofsame screen where interface is"
@@ -19348,7 +19254,6 @@ msgid "Qt interface"
 msgstr "Интерфейс Qt"
 
 #: modules/gui/qt4/util/customwidgets.cpp:131
-#, fuzzy
 msgctxt "Tooltip|Clear"
 msgid "Clear"
 msgstr "Изчистване"
@@ -20022,6 +19927,8 @@ msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
 msgstr ""
+"Моля, изчакайте докато вашия кеш с шрифта се създаде.\n"
+"Това ще отнеме малко време."
 
 #: modules/misc/gnutls.c:79
 msgid "Expiration time for resumed TLS sessions"
@@ -20158,9 +20065,8 @@ msgstr ""
 "модула за интерфейса\"] = { опция> = <стойност, ...}, ...'."
 
 #: modules/misc/lua/vlc.c:69
-#, fuzzy
 msgid "Directory index"
-msgstr "Въвеждане от директория"
+msgstr "Индекс на директория"
 
 #: modules/misc/lua/vlc.c:70
 msgid "Allow to build directory index"
@@ -20955,14 +20861,12 @@ msgid "My Pictures"
 msgstr "Моите изображения"
 
 #: modules/services_discovery/mtp.c:45
-#, fuzzy
 msgid "MTP devices"
-msgstr "DVD устройство"
+msgstr "MTP устройства"
 
 #: modules/services_discovery/mtp.c:191
-#, fuzzy
 msgid "MTP Device"
-msgstr "Устройство"
+msgstr "MTP устройство"
 
 #: modules/services_discovery/podcast.c:58
 #: linux/modules/gui/qt4/ui/podcast_configuration.h:102
@@ -21421,20 +21325,22 @@ msgstr "Прозрачност на изображението в мозайка
 #: modules/stream_out/mosaic_bridge.c:132 modules/video_filter/marq.c:104
 #: modules/video_filter/rss.c:143
 msgid "X offset"
-msgstr "Изместване по X"
+msgstr "Хоризонтално изместване"
 
 #: modules/stream_out/mosaic_bridge.c:134
 msgid "X coordinate of the upper left corner in the mosaic if non negative."
-msgstr "X координата в горния ляв ъгъл на мозайката, ако не е отрицателна."
+msgstr ""
+"Хоризонтална позиция в горния ляв ъгъл на мозайката, ако не е отрицателна."
 
 #: modules/stream_out/mosaic_bridge.c:136 modules/video_filter/marq.c:106
 #: modules/video_filter/rss.c:145
 msgid "Y offset"
-msgstr "Изместване по Y"
+msgstr "Вертикално изместване"
 
 #: modules/stream_out/mosaic_bridge.c:138
 msgid "Y coordinate of the upper left corner in the mosaic if non negative."
-msgstr "Y координата в горния ляв ъгъл на мозайката, ако не е отрицателна."
+msgstr ""
+"Вертикална позиция в горния ляв ъгъл на мозайката, ако не е отрицателна."
 
 #: modules/stream_out/mosaic_bridge.c:143
 msgid "Mosaic bridge"
@@ -22273,9 +22179,8 @@ msgid "Depending on your MoMoLight hardware choose 3 or 4 channels"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:173
-#, fuzzy
 msgid "Count of fnordlicht's"
-msgstr "Брой канали"
+msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:174
 msgid "Depending on the amount your fnordlicht hardware choose 1 to 4 channels"
@@ -22319,7 +22224,7 @@ msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:200
 msgid "Mark analyzed pixels"
-msgstr ""
+msgstr "Маркиране на анализираните пиксели"
 
 #: modules/video_filter/atmo/atmo.cpp:201
 msgid "makes the sample grid visible on screen as white pixels"
@@ -22733,9 +22638,8 @@ msgid "MoMoLight options"
 msgstr "MoMoLight опции"
 
 #: modules/video_filter/atmo/atmo.cpp:440
-#, fuzzy
 msgid "fnordlicht options"
-msgstr "MoMoLight опции"
+msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
@@ -22766,14 +22670,16 @@ msgid ""
 "Value of the audio level of each channels between 0 and 1Each level should "
 "be separated with ':'."
 msgstr ""
+"Стойност на нивото на аудиото на всеки канал, между 0 и 1. Всяко ниво трябва "
+"да бъде разделено с ':'."
 
 #: modules/video_filter/audiobargraph_v.c:52
 msgid "X coordinate of the bargraph."
-msgstr "Х координата на графичната лента."
+msgstr "Хоризонтална позиция на графичната лента."
 
 #: modules/video_filter/audiobargraph_v.c:54
 msgid "Y coordinate of the bargraph."
-msgstr "Y координата на графичната лента."
+msgstr "Вертикална позиция на графичната лента."
 
 #: modules/video_filter/audiobargraph_v.c:55
 msgid "Transparency of the bargraph"
@@ -22814,6 +22720,8 @@ msgstr ""
 msgid ""
 "Width in pixel of each bar in the BarGraph to be displayed (default : 10)."
 msgstr ""
+"Широчина на всяка лента, която се показва в графичната лента, в пиксели (по "
+"подразбиране : 10)."
 
 #: modules/video_filter/audiobargraph_v.c:88
 #: modules/video_filter/audiobargraph_v.c:106
@@ -22837,9 +22745,8 @@ msgid "Edge visible"
 msgstr "Видим контур"
 
 #: modules/video_filter/ball.c:113
-#, fuzzy
 msgid "Set edge visibility."
-msgstr "Видим контур"
+msgstr "Настройка видимоста на контур"
 
 #: modules/video_filter/ball.c:115
 msgid "Ball speed"
@@ -23396,11 +23303,11 @@ msgstr ""
 
 #: modules/video_filter/erase.c:58
 msgid "X coordinate of the mask."
-msgstr "Х координата на маската"
+msgstr "Хоризонтална позиция на маската"
 
 #: modules/video_filter/erase.c:60
 msgid "Y coordinate of the mask."
-msgstr "Y координата на маската"
+msgstr "Вертикална позиция на маската"
 
 #: modules/video_filter/erase.c:62
 msgid "Remove zones of the video using a picture as mask"
@@ -23551,14 +23458,14 @@ msgstr "Продължителност на показване на отделн
 #: modules/video_filter/logo.c:59
 msgid "X coordinate of the logo. You can move the logo by left-clicking it."
 msgstr ""
-"X координата на логото. Можете да преместите логото, като щракнете с левия "
-"бутон на него."
+"Хоризонтална позиция на логото. Можете да преместите логото, като щракнете с "
+"левия бутон на него."
 
 #: modules/video_filter/logo.c:62
 msgid "Y coordinate of the logo. You can move the logo by left-clicking it."
 msgstr ""
-"Y координата на логото. Можете да преместите логото, като щракнете с левия "
-"бутон на него."
+"Вертикална позиция на логото. Можете да преместите логото, като щракнете с "
+"левия бутон на него."
 
 #: modules/video_filter/logo.c:64
 msgid "Opacity of the logo"
@@ -23630,11 +23537,11 @@ msgstr ""
 
 #: modules/video_filter/marq.c:105 modules/video_filter/rss.c:144
 msgid "X offset, from the left screen edge."
-msgstr "Изместване по X, от левия край на екрана."
+msgstr "Хоризонтално изместване, от левия край на екрана."
 
 #: modules/video_filter/marq.c:107 modules/video_filter/rss.c:146
 msgid "Y offset, down from the top."
-msgstr "Изместване по Y, отгоре-надолу."
+msgstr "Вертикално изместване, отгоре-надолу."
 
 #: modules/video_filter/marq.c:108
 msgid "Timeout"
@@ -23673,7 +23580,7 @@ msgstr "Позиция на текста върху видеото."
 
 #: modules/video_filter/marq.c:142
 msgid "Display text above the video"
-msgstr "Показване на текста върху видеото"
+msgstr "Показване на текст върху видеото"
 
 #: modules/video_filter/marq.c:149
 msgid "Marquee"
@@ -23745,19 +23652,19 @@ msgstr "Обща широчина на мозайката, в пиксели."
 
 #: modules/video_filter/mosaic.c:98
 msgid "Top left corner X coordinate"
-msgstr "Координата Х в горния ляв ъгъл"
+msgstr "Хоризонтална позиця в горния ляв ъгъл"
 
 #: modules/video_filter/mosaic.c:100
 msgid "X Coordinate of the top-left corner of the mosaic."
-msgstr "X Координата в горния ляв ъгъл на мозайката."
+msgstr "Хоризонтална позиция в горния ляв ъгъл на мозайката."
 
 #: modules/video_filter/mosaic.c:101
 msgid "Top left corner Y coordinate"
-msgstr "Координата Y в горния ляв ъгъл"
+msgstr "Вертикална позиция в горния ляв ъгъл"
 
 #: modules/video_filter/mosaic.c:103
 msgid "Y Coordinate of the top-left corner of the mosaic."
-msgstr "Y Координата в горния ляв ъгъл на мозайката."
+msgstr "Вертикална позиция в горния ляв ъгъл на мозайката."
 
 #: modules/video_filter/mosaic.c:105
 msgid "Border width"
@@ -24961,11 +24868,8 @@ msgid "HD1000 video output"
 msgstr "Извеждане на видеото HD1000"
 
 #: modules/video_output/macosx.m:69
-#, fuzzy
 msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
 msgstr ""
-"Минимален интерфейс Mac OS X при извеждане на видеото (отваряне на прозорец "
-"без рамки)"
 
 #: modules/video_output/msw/direct3d.c:57
 msgid "Enable desktop mode "
@@ -25211,10 +25115,9 @@ msgstr ""
 #. For Latin script languages, you may need to strip accents.
 #. For other scripts, you will need to transliterate into Latin.
 #: modules/video_output/xcb/window.c:291
-#, fuzzy
 msgctxt "ASCII"
 msgid "VLC media player"
-msgstr "VLC media player"
+msgstr ""
 
 #. xgettext: This is a plain ASCII spelling of "VLC"
 #. for the ICCCM window name. This must be pure ASCII.
@@ -25378,34 +25281,28 @@ msgid "The height of the video window, in pixels."
 msgstr "Височина на видео прозореца, в пиксели."
 
 #: modules/visualization/projectm.cpp:67
-#, fuzzy
 msgid "Mesh width"
-msgstr "Широчина на видеото"
+msgstr "Широчина на мрежата"
 
 #: modules/visualization/projectm.cpp:68
-#, fuzzy
 msgid "The width of the mesh, in pixels."
-msgstr "Обща широчина на мозайката, в пиксели."
+msgstr "Широчина на мрежата, в пиксели."
 
 #: modules/visualization/projectm.cpp:70
-#, fuzzy
 msgid "Mesh height"
-msgstr "Височина на пиковете"
+msgstr "Височина на мрежата"
 
 #: modules/visualization/projectm.cpp:71
-#, fuzzy
 msgid "The height of the mesh, in pixels."
-msgstr "Обща височина на мозайката, в пиксели."
+msgstr "Височина на мрежата, в пиксели."
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Жестове"
+msgstr "Размер на текстурата"
 
 #: modules/visualization/projectm.cpp:74
-#, fuzzy
 msgid "The size of the texture, in pixels."
-msgstr "Широчина на видео прозореца, в пиксели."
+msgstr "Размер на текстурата, в пиксели."
 
 #: modules/visualization/projectm.cpp:77
 msgid "projectM"
@@ -25679,7 +25576,7 @@ msgstr "Избор на файл"
 
 #: linux/modules/gui/qt4/ui/open_file.h:222
 msgid "You can select local files with the following list and buttons."
-msgstr "Избор на локални файлове, които са добавени в списъка с бутоните."
+msgstr "Избор на локални файлове, които да се добавят в списъка с бутоните."
 
 #: linux/modules/gui/qt4/ui/open_file.h:223
 msgid "Add..."
@@ -25744,14 +25641,12 @@ msgid ""
 msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:462
-#, fuzzy
 msgid "MPEG-TS"
-msgstr "Демултиплекскор MPEG-PS"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:463
-#, fuzzy
 msgid "MPEG-PS"
-msgstr "Демултиплекскор MPEG-PS"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:464
 msgid "WAV"
@@ -25766,18 +25661,16 @@ msgid "ASF/WMV"
 msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:467
-#, fuzzy
 msgid "Ogg/Ogm"
-msgstr "Мултиплексор Ogg/OGM"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:468
 msgid "RAW"
 msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:469
-#, fuzzy
 msgid "MPEG 1"
-msgstr " Формат MPEG 1"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:470
 msgid "FLV"
@@ -25788,9 +25681,8 @@ msgid "AVI"
 msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:472
-#, fuzzy
 msgid "MP4/MOV"
-msgstr "Мултиплексор MP4/MOV"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/profiles.h:474
 msgid "MKV"
@@ -25913,9 +25805,8 @@ msgid "Output module:"
 msgstr "Модул за извеждане:"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:415
-#, fuzzy
 msgid "Dolby Surround:"
-msgstr "Откриване на Dolby Surround"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:416
 msgid "Normalize volume to:"
@@ -25935,7 +25826,7 @@ msgstr "Запазване тоналността на звука при про�
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:422
 msgid "Preferred audio language:"
-msgstr "Предпочитан език за аудито:"
+msgstr "Предпочитан език за аудиото:"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:423
 msgid "Password:"
@@ -26004,9 +25895,8 @@ msgid "RTP over RTSP (TCP)"
 msgstr "Използване на RTP над RTSP (TCP)"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:324
-#, fuzzy
 msgid "Live555 stream transport"
-msgstr "Извеждане на потока във файл"
+msgstr ""
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:373
 msgid "Instances"
@@ -26030,7 +25920,7 @@ msgstr "Активиране на съобщение при обновление
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:380
 msgid "Every "
-msgstr "Всеки"
+msgstr "Всеки "
 
 #: linux/modules/gui/qt4/ui/sprefs_interface.h:381
 msgid "Save recently played items"
