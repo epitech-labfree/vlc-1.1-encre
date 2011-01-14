@@ -1,16 +1,16 @@
 # Swedish translation for VLC.
-# Copyright (C) 2002-2010 VideoLAN <videolan@videolan.org>
+# Copyright (C) 2002-2011 VideoLAN <videolan@videolan.org>
 # This file is distributed under the same license as the VLC package.
 # Joel Arvidsson <dogai@privat.utfors.se>, 2002.
 # Niklas 'Nille' Åkerström <nille.kungen@gmail.com> 2009.
-# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vlc\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-10 20:52+0000\n"
-"PO-Revision-Date: 2010-05-23 17:11+0100\n"
+"PO-Revision-Date: 2011-01-14 01:04+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -1464,7 +1464,6 @@ msgid "Extra interface modules"
 msgstr "Extra gränssnittsmoduler"
 
 #: src/libvlc-module.c:186
-#, fuzzy
 msgid ""
 "You can select \"additional interfaces\" for VLC. They will be launched in "
 "the background in addition to the default interface. Use a colon separated "
@@ -1472,7 +1471,7 @@ msgid ""
 "\", \"gestures\" ...)"
 msgstr ""
 "Du kan välja \"ytterligare gränssnitt\" för VLC. De kommer att startas i "
-"bakgrunden i tillägg till standardgränssnittet. Använd en kommaseparerad "
+"bakgrunden i tillägg till standardgränssnittet. Använd en kolonseparerad "
 "lista för gränssnittmoduler. (vanliga värden är \"rc\" (fjärrkontroll), "
 "\"http\", \"gestures\" ...)"
 
@@ -2286,9 +2285,8 @@ msgid "Let the video scale to fit a given window or fullscreen."
 msgstr ""
 
 #: src/libvlc-module.c:575
-#, fuzzy
 msgid "Video scaling factor"
-msgstr "Videoskalningsfilter"
+msgstr "Videoskalningsfaktor"
 
 #: src/libvlc-module.c:577
 msgid ""
@@ -2501,14 +2499,13 @@ msgid "Hop limit (TTL)"
 msgstr "Hoppgräns (TTL)"
 
 #: src/libvlc-module.c:674 modules/stream_out/rtp.c:124
-#, fuzzy
 msgid ""
 "This is the hop limit (also known as \"Time-To-Live\" or TTL) of the "
 "multicast packets sent by the stream output (-1 = use operating system built-"
 "in default)."
 msgstr ""
 "Detta är hoppgränsen (även kallad \"Time-To-Live\" eller TTL) för "
-"multicastpaket som skickas av strömutdata (0 = använd operativsystemets "
+"multicastpaket som skickas av strömutdata (-1 = använd operativsystemets "
 "inbyggda standardvärde)."
 
 #: src/libvlc-module.c:678
@@ -2526,11 +2523,12 @@ msgid "IPv4 multicast output interface address"
 msgstr "SAP multicastaddress"
 
 #: src/libvlc-module.c:684
-#, fuzzy
 msgid ""
 "IPv4 address for the default multicast interface. This overrides the routing "
 "table."
-msgstr "Standardgränssnitt för multicast. Det här åsidosätter routingtabellen."
+msgstr ""
+"IPv4-adress för standard-multicast-gränssnittet. Det här åsidosätter "
+"routingtabellen."
 
 # Går det att översätta?
 #: src/libvlc-module.c:687
@@ -2580,27 +2578,27 @@ msgid "Audio language"
 msgstr "Ljudspråk"
 
 #: src/libvlc-module.c:718
-#, fuzzy
 msgid ""
 "Language of the audio track you want to use (comma separated, two or three "
 "letter country code, you may use 'none' to avoid a fallback to another "
 "language)."
 msgstr ""
 "Språket för det ljudspår som du vill använda (kommaseparerad landskod "
-"bestående av två eller tre bokstäver)."
+"bestående av två eller tre bokstäver). Du kan använda \"none\" för att "
+"undvika att falla tillbaka på ett annat språk)."
 
 #: src/libvlc-module.c:721
 msgid "Subtitle language"
 msgstr "Undertextspråk"
 
 #: src/libvlc-module.c:723
-#, fuzzy
 msgid ""
 "Language of the subtitle track you want to use (comma separated, two or "
 "three letters country code, you may use 'any' as a fallback)."
 msgstr ""
-"Språk för det undertextspår som du vill använda (kommaseparerad landskod "
-"bestående av två eller tre bokstäver)."
+"Språket för det undertextspår som du vill använda (kommaseparerad landskod "
+"bestående av två eller tre bokstäver). Du kan använda \"any\" för att falla "
+"tillbaka)."
 
 #: src/libvlc-module.c:727
 msgid "Audio track ID"
@@ -3252,56 +3250,48 @@ msgstr ""
 "Om din processor har stöd för SSE2-instruktioner kan VLC dra nytta av dem."
 
 #: src/libvlc-module.c:1055
-#, fuzzy
 msgid "Enable CPU SSE3 support"
-msgstr "Aktivera stöd för SSE"
+msgstr "Aktivera processorstöd för SSE3"
 
 #: src/libvlc-module.c:1057
-#, fuzzy
 msgid ""
 "If your processor supports the SSE3 instructions set, VLC can take advantage "
 "of them."
 msgstr ""
-"Om din processor har stöd för SSE-instruktioner kan VLC dra nytta av dem."
+"Om din processor har stöd för SSE3-instruktioner kan VLC dra nytta av dem."
 
 #: src/libvlc-module.c:1060
-#, fuzzy
 msgid "Enable CPU SSSE3 support"
-msgstr "Aktivera stöd för SSE"
+msgstr "Aktivera processorstöd för SSSE3"
 
 #: src/libvlc-module.c:1062
-#, fuzzy
 msgid ""
 "If your processor supports the SSSE3 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
-"Om din processor har stöd för SSE-instruktioner kan VLC dra nytta av dem."
+"Om din processor har stöd för SSSE3-instruktioner kan VLC dra nytta av dem."
 
 #: src/libvlc-module.c:1065
-#, fuzzy
 msgid "Enable CPU SSE4.1 support"
-msgstr "Aktivera stöd för SSE"
+msgstr "Aktivera processorstöd för SSE4.1"
 
 #: src/libvlc-module.c:1067
-#, fuzzy
 msgid ""
 "If your processor supports the SSE4.1 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
-"Om din processor har stöd för SSE-instruktioner kan VLC dra nytta av dem."
+"Om din processor har stöd för SSE4.1-instruktioner kan VLC dra nytta av dem."
 
 #: src/libvlc-module.c:1070
-#, fuzzy
 msgid "Enable CPU SSE4.2 support"
-msgstr "Aktivera stöd för SSE2"
+msgstr "Aktivera processorstöd för SSE4.2"
 
 #: src/libvlc-module.c:1072
-#, fuzzy
 msgid ""
 "If your processor supports the SSE4.2 instructions set, VLC can take "
 "advantage of them."
 msgstr ""
-"Om din processor har stöd för SSE2-instruktioner kan VLC dra nytta av dem."
+"Om din processor har stöd för SSE4.2-instruktioner kan VLC dra nytta av dem."
 
 #: src/libvlc-module.c:1075
 msgid "Enable CPU AltiVec support"
@@ -3440,14 +3430,12 @@ msgstr ""
 "VLC."
 
 #: src/libvlc-module.c:1143
-#, fuzzy
 msgid "Locally collect statistics"
-msgstr "Samla in statistik"
+msgstr "Samla in statistik lokalt"
 
 #: src/libvlc-module.c:1145
-#, fuzzy
 msgid "Collect miscellaneous local statistics about the playing media."
-msgstr "Samla in diverse statistik."
+msgstr "Samla in diverse lokal statistik om uppspelande media."
 
 #: src/libvlc-module.c:1147
 msgid "Run as daemon process"
@@ -4932,9 +4920,8 @@ msgid "English"
 msgstr "Engelska"
 
 #: src/text/iso-639_def.h:72
-#, fuzzy
 msgid "Esperanto"
-msgstr "Esperanto (Latin-3)"
+msgstr "Esperanto"
 
 #: src/text/iso-639_def.h:73
 msgid "Estonian"
@@ -5025,7 +5012,6 @@ msgid "Inuktitut"
 msgstr "Inuktitut"
 
 #: src/text/iso-639_def.h:95
-#, fuzzy
 msgid "Interlingue"
 msgstr "Interlingua"
 
@@ -5250,9 +5236,8 @@ msgid "Quechua"
 msgstr "Quechua"
 
 #: src/text/iso-639_def.h:152
-#, fuzzy
 msgid "Original audio"
-msgstr "Ursprunglig storlek"
+msgstr "Ursprungligt ljud"
 
 #: src/text/iso-639_def.h:153
 msgid "Raeto-Romance"
@@ -5267,9 +5252,8 @@ msgid "Rundi"
 msgstr "Rundi"
 
 #: src/text/iso-639_def.h:156
-#, fuzzy
 msgid "Russian"
-msgstr "Ryska (KOI8-R)"
+msgstr "Ryska"
 
 #: src/text/iso-639_def.h:157
 msgid "Sango"
@@ -5277,7 +5261,7 @@ msgstr "Sango"
 
 #: src/text/iso-639_def.h:158
 msgid "Sanskrit"
-msgstr ""
+msgstr "Sanskrit"
 
 #: src/text/iso-639_def.h:159
 msgid "Serbian"
@@ -5412,9 +5396,8 @@ msgid "Uighur"
 msgstr "Uighur"
 
 #: src/text/iso-639_def.h:192
-#, fuzzy
 msgid "Ukrainian"
-msgstr "Ukrainska (KOI8-U)"
+msgstr "Ukrainska"
 
 #: src/text/iso-639_def.h:193
 msgid "Urdu"
@@ -5425,9 +5408,8 @@ msgid "Uzbek"
 msgstr "Uzbekistanska"
 
 #: src/text/iso-639_def.h:195
-#, fuzzy
 msgid "Vietnamese"
-msgstr "Vietnamesiska (VISCII)"
+msgstr "Vietnamesiska"
 
 #: src/text/iso-639_def.h:196
 msgid "Volapuk"
@@ -5501,12 +5483,12 @@ msgid "Samplerate"
 msgstr "Samplingsfrekvens"
 
 #: modules/access/alsa.c:73 modules/access/oss.c:68
-#, fuzzy
 msgid ""
 "Samplerate of the captured audio stream, in Hz (eg: 11025, 22050, 44100, "
 "48000)"
 msgstr ""
-"Samplingsfrekvens för fångad ljudström, i Hz (t.ex. 11025, 22050, 44100)"
+"Samplingsfrekvens för fångad ljudström, i Hz (t.ex. 11025, 22050, 44100, "
+"48000)"
 
 #: modules/access/alsa.c:75 modules/access/bd/bd.c:52
 #: modules/access/bda/bda.c:46 modules/access/cdda.c:61
@@ -5526,11 +5508,10 @@ msgid "Caching value in ms"
 msgstr "Mellanlagringsvärde i ms"
 
 #: modules/access/alsa.c:77
-#, fuzzy
 msgid ""
 "Caching value for Alsa captures. This value should be set in milliseconds."
 msgstr ""
-"Mellanlagringsvärde för V4L-fångst. Detta värde ska vara i millisekunder."
+"Mellanlagringsvärde för Alsa-fångst. Detta värde ska vara i millisekunder."
 
 #: modules/access/alsa.c:81
 msgid ""
@@ -5558,7 +5539,7 @@ msgstr ""
 
 #: modules/access/avio.h:37
 msgid "Avio"
-msgstr ""
+msgstr "Avio"
 
 #: modules/access/avio.h:38
 #, fuzzy
@@ -6271,7 +6252,6 @@ msgstr "Konfigurera"
 
 #: modules/access/dshow/dshow.cpp:464 modules/access/dshow/dshow.cpp:538
 #: modules/access/dshow/dshow.cpp:986 modules/access/dshow/dshow.cpp:1039
-#, fuzzy
 msgid "Capture failed"
 msgstr "Fångst misslyckades"
 
@@ -6431,9 +6411,8 @@ msgid "%.1f MHz (%d services)"
 msgstr "%.1f MHz (%d tjänster)"
 
 #: modules/access/dvb/scan.c:327
-#, fuzzy
 msgid "Scanning DVB"
-msgstr "Söker av DVB-T"
+msgstr "Söker av DVB"
 
 #: modules/access/dvdnav.c:68 modules/access/dvdread.c:70
 msgid "DVD angle"
@@ -6509,11 +6488,10 @@ msgid ""
 msgstr ""
 
 #: modules/access/eyetv.m:63
-#, fuzzy
 msgid ""
 "Caching value for EyeTV captures. This value should be set in milliseconds."
 msgstr ""
-"Mellanlagringsvärde för V4L-fångst. Detta värde ska vara i millisekunder."
+"Mellanlagringsvärde för EyeTV-fångst. Detta värde ska vara i millisekunder."
 
 #: modules/access/eyetv.m:68
 msgid "EyeTV input"
@@ -6630,7 +6608,6 @@ msgid "expand"
 msgstr "fäll ut"
 
 #: modules/access/fs.c:52
-#, fuzzy
 msgid "Ignored extensions"
 msgstr "Ignorerade filändelser"
 
@@ -6814,9 +6791,8 @@ msgid "Forward Cookies across http redirections."
 msgstr ""
 
 #: modules/access/http.c:104
-#, fuzzy
 msgid "Max number of redirection"
-msgstr "Maximalt antal anslutningar"
+msgstr "Maximalt antal omdirigeringar"
 
 #: modules/access/http.c:105
 msgid "Limit the number of redirection to follow."
@@ -6871,9 +6847,8 @@ msgid "Set the group of the elementary stream"
 msgstr "Strömma alla elementära strömmar"
 
 #: modules/access/imem.c:62
-#, fuzzy
 msgid "Category"
-msgstr "CDDB Kategori"
+msgstr "Kategori"
 
 #: modules/access/imem.c:64
 #, fuzzy
@@ -6885,9 +6860,8 @@ msgid "Unknown"
 msgstr "Okänd"
 
 #: modules/access/imem.c:69
-#, fuzzy
 msgid "Data"
-msgstr "Datum"
+msgstr "Data"
 
 #: modules/access/imem.c:74
 #, fuzzy
@@ -6904,9 +6878,8 @@ msgid "Sample rate of an audio elementary stream"
 msgstr "Strömma alla elementära strömmar"
 
 #: modules/access/imem.c:84
-#, fuzzy
 msgid "Channels count"
-msgstr "Kanaler"
+msgstr "Kanalantal"
 
 #: modules/access/imem.c:86
 #, fuzzy
@@ -7000,9 +6973,8 @@ msgid "Size of stream in bytes"
 msgstr "Antal strömmar"
 
 #: modules/access/imem.c:123 modules/access/imem.c:124
-#, fuzzy
 msgid "Memory input"
-msgstr "Ingen inmatning"
+msgstr "Minnesinmatning"
 
 #: modules/access/jack.c:62
 msgid ""
@@ -7116,11 +7088,10 @@ msgid "MTP"
 msgstr "MTP"
 
 #: modules/access/oss.c:72
-#, fuzzy
 msgid ""
 "Caching value for OSS captures. This value should be set in milliseconds."
 msgstr ""
-"Mellanlagringsvärde för V4L-fångst. Detta värde ska vara i millisekunder."
+"Mellanlagringsvärde för OSS-fångst. Detta värde ska vara i millisekunder."
 
 #: modules/access/oss.c:80
 msgid "OSS"
@@ -7304,11 +7275,10 @@ msgstr ""
 "Kontrollera dina anslutningar och drivrutiner."
 
 #: modules/access/rtmp/access.c:45
-#, fuzzy
 msgid ""
 "Caching value for RTMP streams. This value should be set in milliseconds."
 msgstr ""
-"Mellanlagringsvärde för RTSP-strömmar. Detta värde ska ställas in i "
+"Mellanlagringsvärde för RTMP-strömmar. Detta värde ska ställas in i "
 "millisekunder."
 
 #: modules/access/rtmp/access.c:48
@@ -7350,9 +7320,8 @@ msgid "How long to wait for late RTP packets (and delay the performance)."
 msgstr ""
 
 #: modules/access/rtp/rtp.c:48
-#, fuzzy
 msgid "RTCP (local) port"
-msgstr "TCP-transport"
+msgstr "RTCP-port (lokal)"
 
 #: modules/access/rtp/rtp.c:50
 msgid ""
@@ -7592,9 +7561,8 @@ msgid "SFTP port"
 msgstr "SFTP-port"
 
 #: modules/access/sftp.c:59
-#, fuzzy
 msgid "SFTP port number to use on the server"
-msgstr "Enhetsnummer att använda på adapter"
+msgstr "SFTP-portnumret att använda på servern"
 
 #: modules/access/sftp.c:60
 msgid "Read size"
@@ -7613,9 +7581,10 @@ msgid "SFTP authentication"
 msgstr "SFTP-autentisering"
 
 #: modules/access/sftp.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Please enter a valid login and password for the sftp connexion to %s"
-msgstr "Ange ett giltigt inloggningsnamn och ett lösenord för domänen %s."
+msgstr ""
+"Ange ett giltigt inloggningsnamn och lösenord för sftp-anslutningen till %s"
 
 #: modules/access/smb.c:63
 msgid ""
@@ -7850,14 +7819,16 @@ msgid "IO Method (READ, MMAP, USERPTR)."
 msgstr "IO-metod (READ, MMAP, USERPTR)."
 
 #: modules/access/v4l2.c:97
-#, fuzzy
 msgid "Force width (-1 for autodetect, 0 for driver default)."
-msgstr "Tvinga bredd (-1 för automatisk identifiering)."
+msgstr ""
+"Tvinga bredd (-1 för automatisk identifiering, 0 för drivrutinens "
+"standardvärde)."
 
 #: modules/access/v4l2.c:100
-#, fuzzy
 msgid "Force height (-1 for autodetect, 0 for driver default)."
-msgstr "Tvinga höjd (-1 för automatisk identifiering)."
+msgstr ""
+"Tvinga höjd (-1 för automatisk identifiering, 0 för drivrutinens "
+"standardvärde)."
 
 #: modules/access/v4l2.c:102
 msgid "Framerate to capture, if applicable (0 for autodetect)."
@@ -8593,9 +8564,8 @@ msgid "ARM NEON video chroma conversions"
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:42
-#, fuzzy
 msgid "TCP address to use (default localhost)"
-msgstr "Bitfrekvens att använda (-1 för standard)."
+msgstr "TCP-adress att använda (standard är localhost)"
 
 #: modules/audio_filter/audiobargraph_a.c:43
 msgid ""
@@ -8604,9 +8574,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:46
-#, fuzzy
 msgid "TCP port to use (default 12345)"
-msgstr "Bitfrekvens att använda (-1 för standard)."
+msgstr "TCP-port att använda (standard är 12345)"
 
 #: modules/audio_filter/audiobargraph_a.c:47
 msgid ""
@@ -8645,9 +8614,8 @@ msgid ""
 msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:59
-#, fuzzy
 msgid "Time window to use in ms (default 5000)"
-msgstr "Bitfrekvens att använda (-1 för standard)."
+msgstr "Tidsfönster att använda i ms (standard är 5000)"
 
 #: modules/audio_filter/audiobargraph_a.c:60
 msgid ""
@@ -8801,9 +8769,8 @@ msgid "Audio filter for trivial channel mixing"
 msgstr ""
 
 #: modules/audio_filter/chorus_flanger.c:77
-#, fuzzy
 msgid "Sound Delay"
-msgstr "Surroundfördröjning (ms)"
+msgstr "Ljudfördröjning"
 
 #: modules/audio_filter/chorus_flanger.c:78 modules/gui/macosx/open.m:310
 #: modules/stream_out/bridge.c:51 modules/stream_out/display.c:45
@@ -9376,9 +9343,10 @@ msgid "Output file"
 msgstr "Utmatningsfil"
 
 #: modules/audio_output/file.c:108
-#, fuzzy
 msgid "File to which the audio samples will be written to. (\"-\" for stdout"
-msgstr "Fil till vilken ljudsamplingarna kommer att skrivas till."
+msgstr ""
+"Fil till vilken ljudsamplingarna kommer att skrivas till. (\"-\" för "
+"standard ut"
 
 #: modules/audio_output/file.c:111
 msgid "File audio output"
@@ -10180,9 +10148,8 @@ msgid "Inter picture DWT filter"
 msgstr "Filter för underbilder"
 
 #: modules/codec/dirac.c:164
-#, fuzzy
 msgid "Number of DWT iterations"
-msgstr "Antal rader"
+msgstr "Antal DWT-iterationer"
 
 #: modules/codec/dirac.c:165
 msgid "Also known as DWT levels"
@@ -10384,7 +10351,7 @@ msgstr "Kodare för Flac-ljud"
 
 #: modules/codec/fluidsynth.c:49
 msgid "Sound fonts (required)"
-msgstr ""
+msgstr "Ljudfonter (krävs)"
 
 #: modules/codec/fluidsynth.c:51
 msgid "A sound fonts file is required for software synthesis."
@@ -10396,7 +10363,7 @@ msgstr ""
 
 #: modules/codec/fluidsynth.c:59
 msgid "FluidSynth"
-msgstr ""
+msgstr "FluidSynth"
 
 #: modules/codec/fluidsynth.c:93 modules/codec/fluidsynth.c:118
 msgid "MIDI synthesis not set up"
@@ -10765,14 +10732,12 @@ msgid "MPEG audio layer I/II/III packetizer"
 msgstr "Ljudpaketerare för MPEG Layer I/II/III"
 
 #: modules/codec/omxil/omxil.c:90
-#, fuzzy
 msgid "Audio/Video decoder (using OpenMAX IL)"
-msgstr "Videoavkodare med openmash"
+msgstr "Video-/ljudavkodare (använder OpenMAX IL)"
 
 #: modules/codec/omxil/omxil.c:103
-#, fuzzy
 msgid "Video encoder (using OpenMAX IL)"
-msgstr "Videoavkodare med openmash"
+msgstr "Videokodare (använder OpenMAX IL)"
 
 #: modules/codec/png.c:58
 msgid "PNG video decoder"
@@ -10867,9 +10832,8 @@ msgid ""
 msgstr ""
 
 #: modules/codec/speex.c:83
-#, fuzzy
 msgid "Discontinuous Transmission"
-msgstr "Kontinuerlig ström"
+msgstr "Kontinuerlig överföring"
 
 #: modules/codec/speex.c:85
 #, fuzzy
@@ -10905,9 +10869,8 @@ msgid "Speex audio encoder"
 msgstr "Kodare för Speex-ljud"
 
 #: modules/codec/spudec/spudec.c:45
-#, fuzzy
 msgid "Disable DVD subtitle transparency"
-msgstr "Växla undertextspår"
+msgstr "Inaktivera transparens för DVD-undertexter"
 
 #: modules/codec/spudec/spudec.c:46
 msgid "Removes all transparency effects used in DVD subtitles."
@@ -10930,9 +10893,8 @@ msgstr "Paketerare för dvd-undertexter"
 #. the GetACP translation. "Windows-1252" applies to Western European
 #. languages using the Latin alphabet.
 #: modules/codec/subtitles/subsdec.c:101
-#, fuzzy
 msgid "Default (Windows-1252)"
-msgstr "Baltisk (Windows-1257)"
+msgstr "Standard (Windows-1252)"
 
 #: modules/codec/subtitles/subsdec.c:102
 msgid "Universal (UTF-8)"
@@ -12280,9 +12242,9 @@ msgid "Subtitle delay %i ms"
 msgstr "Undertextfördröjning %i ms"
 
 #: modules/control/hotkeys.c:794 modules/control/hotkeys.c:804
-#, fuzzy, c-format
+#, c-format
 msgid "Subtitle position %i px"
-msgstr "Position för underbild"
+msgstr "Undertextposition %i bildpunkter"
 
 #: modules/control/hotkeys.c:814 modules/control/hotkeys.c:824
 #, c-format
@@ -12337,9 +12299,8 @@ msgid ""
 msgstr ""
 
 #: modules/control/http/http.c:53
-#, fuzzy
 msgid "Export album art as /art"
-msgstr "Exportera albumomslag som /art."
+msgstr "Exportera albumomslag som /art"
 
 #: modules/control/http/http.c:55
 msgid ""
@@ -12378,9 +12339,8 @@ msgid "HTTP SSL"
 msgstr "HTTP SSL"
 
 #: modules/control/lirc.c:46
-#, fuzzy
 msgid "Change the lirc configuration file"
-msgstr "Byt konfigurationsfil för lirc."
+msgstr "Ändra konfigurationsfilen för lirc"
 
 #: modules/control/lirc.c:48
 msgid ""
@@ -12701,9 +12661,8 @@ msgid "| normal . . . . . . . . . .  normal playing of stream"
 msgstr "| normal . . . . . . . . . .  normal uppspelning av ström"
 
 #: modules/control/rc.c:827
-#, fuzzy
 msgid "| frame. . . . . . . . . .  play frame by frame"
-msgstr "| faster . . . . . . . . . .  snabbare uppspelning av ström"
+msgstr "| frame. . . . . . . . . .  spela bildruta för bildruta"
 
 #: modules/control/rc.c:828
 msgid "| f [on|off] . . . . . . . . . . . . toggle fullscreen"
@@ -12719,7 +12678,7 @@ msgstr "| stats  . . . . . . . .  visa statistisk information"
 
 #: modules/control/rc.c:831
 msgid "| get_time . . seconds elapsed since stream's beginning"
-msgstr ""
+msgstr "| get_time . . sekunder förflutna sedan strömmens början"
 
 #: modules/control/rc.c:832
 msgid "| is_playing . . . .  1 if a stream plays, 0 otherwise"
@@ -12783,7 +12742,7 @@ msgstr "| strack [X] . . . . . . . . . ange/hämta undertextspår"
 
 #: modules/control/rc.c:848
 msgid "| key [hotkey name] . . . . . .  simulate hotkey press"
-msgstr ""
+msgstr "| key [snabbtangent]. . . . . .  simulera genvägstryckning"
 
 #: modules/control/rc.c:849
 msgid "| menu . . [on|off|up|down|left|right|select] use menu"
@@ -12956,7 +12915,7 @@ msgstr "| byte skickat     : %8.0f kB"
 #: modules/control/rc.c:1872 modules/gui/ncurses.c:1978
 #, c-format
 msgid "| input bitrate    :   %6.0f kb/s"
-msgstr ""
+msgstr "| bitfrekvens för indata    :   %6.0f kb/s"
 
 #: modules/control/rc.c:1874 modules/gui/ncurses.c:1980
 #, fuzzy, c-format
@@ -12985,17 +12944,17 @@ msgstr "+-[Videoavkodning]"
 #: modules/control/rc.c:1885 modules/gui/ncurses.c:1996
 #, c-format
 msgid "| video decoded    :    %5i"
-msgstr ""
+msgstr "| video avkodad    :    %5i"
 
 #: modules/control/rc.c:1887 modules/gui/ncurses.c:1999
 #, c-format
 msgid "| frames displayed :    %5i"
-msgstr ""
+msgstr "| bildrutor visade :    %5i"
 
 #: modules/control/rc.c:1889 modules/gui/ncurses.c:2002
 #, c-format
 msgid "| frames lost      :    %5i"
-msgstr ""
+msgstr "| bildrutor tappade      :    %5i"
 
 #: modules/control/rc.c:1893 modules/gui/ncurses.c:2012
 msgid "+-[Audio Decoding]"
@@ -13004,17 +12963,17 @@ msgstr "+-[Ljudavkodning]"
 #: modules/control/rc.c:1894 modules/gui/ncurses.c:2015
 #, c-format
 msgid "| audio decoded    :    %5i"
-msgstr ""
+msgstr "| ljud avkodat    :    %5i"
 
 #: modules/control/rc.c:1896 modules/gui/ncurses.c:2018
 #, c-format
 msgid "| buffers played   :    %5i"
-msgstr ""
+msgstr "| buffertar spelade   :    %5i"
 
 #: modules/control/rc.c:1898 modules/gui/ncurses.c:2021
 #, c-format
 msgid "| buffers lost     :    %5i"
-msgstr ""
+msgstr "| buffertar tappade     :    %5i"
 
 #: modules/control/rc.c:1902 modules/gui/ncurses.c:2029
 msgid "+-[Streaming]"
@@ -13026,14 +12985,14 @@ msgid "| packets sent     :    %5i"
 msgstr "| paket  skickade  :    %5i"
 
 #: modules/control/rc.c:1904 modules/gui/ncurses.c:2034
-#, fuzzy, c-format
+#, c-format
 msgid "| bytes sent       : %8.0f KiB"
-msgstr "| byte skickat     : %8.0f kB"
+msgstr "| byte skickat     : %8.0f KiB"
 
 #: modules/control/rc.c:1906
 #, c-format
 msgid "| sending bitrate  :   %6.0f kb/s"
-msgstr ""
+msgstr "| bitfrekvens sändning  :   %6.0f kb/s"
 
 #: modules/control/signals.c:37
 msgid "Signals"
@@ -13763,9 +13722,9 @@ msgid "Podcast Size"
 msgstr "Storlek för poddsänding"
 
 #: modules/demux/playlist/podcast.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "%s bytes"
-msgstr "Skickade byte"
+msgstr "%s byte"
 
 #: modules/demux/playlist/shoutcast.c:409
 msgid "Shoutcast"
@@ -13803,13 +13762,12 @@ msgid "PVA demuxer"
 msgstr "Demuxer för PVA"
 
 #: modules/demux/rawaud.c:43
-#, fuzzy
 msgid "Audio samplerate (Hz)"
-msgstr "Samplingsfrekvens för ljud"
+msgstr "Samplingsfrekvens för ljud (Hz)"
 
 #: modules/demux/rawaud.c:44
 msgid "Audio sample rate in Hertz. Default is 48000 Hz."
-msgstr ""
+msgstr "Ljudsamplingsfrekvens i hertz. Standard är 48000 Hz."
 
 #: modules/demux/rawaud.c:46 modules/stream_out/transcode/transcode.c:99
 msgid "Audio channels"
@@ -14626,7 +14584,7 @@ msgstr "Gör suddig"
 
 #: modules/gui/macosx/extended.m:77
 msgid "Adds motion blurring to the image"
-msgstr ""
+msgstr "Lägger till rörelseoskärpa till bilden"
 
 #: modules/gui/macosx/extended.m:79
 msgid "Creates several copies of the Video output window"
@@ -15641,7 +15599,7 @@ msgstr "Förlorade buffertar"
 
 #: modules/gui/macosx/playlistinfo.m:396
 msgid "Error while saving meta"
-msgstr ""
+msgstr "Fel vid sparning av meta"
 
 #: modules/gui/macosx/playlistinfo.m:397
 msgid "VLC was unable to save the meta data."
@@ -15798,6 +15756,8 @@ msgid ""
 "Use the complete preferences to configure custom caching values for each "
 "access module."
 msgstr ""
+"Använd de fullständiga inställningarna för att konfigurera anpassade "
+"mellanlagringsvärden för varje åtkomstmodul."
 
 #: modules/gui/macosx/simple_prefs.m:256
 msgid "HTTP Proxy"
@@ -16599,7 +16559,7 @@ msgstr ""
 
 #: modules/gui/macosx_dialog_provider/dialogProvider.m:85
 msgid "Hide no user action dialogs"
-msgstr ""
+msgstr "Dölj inga användaråtgärdsdialoger"
 
 #: modules/gui/macosx_dialog_provider/dialogProvider.m:86
 msgid ""
@@ -16985,9 +16945,8 @@ msgstr ""
 "Om spellistan är tom, öppna ett media"
 
 #: modules/gui/qt4/components/controller.hpp:106
-#, fuzzy
 msgid "De-Fullscreen"
-msgstr "Helskärm"
+msgstr "Ingen helskärm"
 
 #: modules/gui/qt4/components/controller.hpp:106
 msgid "Extended panel"
@@ -17180,9 +17139,8 @@ msgstr ""
 "Muxer, kodekar för ljud och video, samt undertexter visas."
 
 #: modules/gui/qt4/components/info_panels.cpp:483
-#, fuzzy
 msgid "Current media / stream statistics"
-msgstr "Samla in diverse statistik."
+msgstr "Statistik för aktuellt media / ström"
 
 #: modules/gui/qt4/components/info_panels.cpp:509
 #, fuzzy
@@ -17194,9 +17152,8 @@ msgid "Output/Written/Sent"
 msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:512
-#, fuzzy
 msgid "Media data size"
-msgstr "Meditativ"
+msgstr "Datastorlek för media"
 
 #: modules/gui/qt4/components/info_panels.cpp:516
 msgid "Demuxed data size"
@@ -17217,9 +17174,8 @@ msgstr ""
 
 #: modules/gui/qt4/components/info_panels.cpp:524
 #: modules/gui/qt4/components/info_panels.cpp:537
-#, fuzzy
 msgid "Decoded"
-msgstr "Avkodare"
+msgstr "Avkodat"
 
 #: modules/gui/qt4/components/info_panels.cpp:525
 #: modules/gui/qt4/components/info_panels.cpp:538
@@ -17227,9 +17183,8 @@ msgid "blocks"
 msgstr "block"
 
 #: modules/gui/qt4/components/info_panels.cpp:526
-#, fuzzy
 msgid "Displayed"
-msgstr "Visning"
+msgstr "Visat"
 
 #: modules/gui/qt4/components/info_panels.cpp:527
 #: modules/gui/qt4/components/info_panels.cpp:529
@@ -17238,15 +17193,13 @@ msgstr "bildrutor"
 
 #: modules/gui/qt4/components/info_panels.cpp:528
 #: modules/gui/qt4/components/info_panels.cpp:541
-#, fuzzy
 msgid "Lost"
-msgstr "Lägsta"
+msgstr "Förlorat"
 
 #: modules/gui/qt4/components/info_panels.cpp:531
 #: modules/gui/qt4/components/info_panels.cpp:532
-#, fuzzy
 msgid "Sent"
-msgstr "Ställ in"
+msgstr "Skickat"
 
 #: modules/gui/qt4/components/info_panels.cpp:531
 msgid "packets"
@@ -17377,7 +17330,6 @@ msgstr ""
 
 #. xgettext: frames per second
 #: modules/gui/qt4/components/open_panels.cpp:1044
-#, fuzzy
 msgid " f/s"
 msgstr " bilder/s"
 
@@ -17427,31 +17379,27 @@ msgstr ""
 
 #: modules/gui/qt4/components/playlist/selector.cpp:267
 msgid "My Computer"
-msgstr ""
+msgstr "Min dator"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:269
 msgid "Devices"
 msgstr "Enheter"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:271
-#, fuzzy
 msgid "Local Network"
-msgstr "Nätverk"
+msgstr "Lokalt nätverk"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:273
-#, fuzzy
 msgid "Internet"
-msgstr "Interlingue"
+msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
-#, fuzzy
 msgid "Subscribe to a podcast"
-msgstr "Helskärm %d"
+msgstr "Prenumerera på en poddsändning"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:451
-#, fuzzy
 msgid "Subscribe"
-msgstr "Helskärm %d"
+msgstr "Prenumerera"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:452
 msgid "Enter URL of the podcast to subscribe to:"
@@ -17668,10 +17616,10 @@ msgstr "Spara fil..."
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:139
 #: modules/gui/qt4/dialogs/convert.cpp:113
-#, fuzzy
 msgid ""
 "Containers (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
-msgstr "Behållare (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv)"
+msgstr ""
+"Behållare (*.ps *.ts *.mpg *.ogg *.asf *.mp4 *.mov *.wav *.raw *.flv *.webm)"
 
 #: modules/gui/qt4/components/sout/sout_widgets.cpp:151
 msgid "This module outputs the transcoded stream to a network via HTTP."
@@ -17830,7 +17778,6 @@ msgid "Privacy and Network Warning"
 msgstr "Varning angående integritet och nätverk"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:72
-#, fuzzy
 msgid ""
 "<p><i>VideoLAN</i> prefers when applications request authorization before "
 "accessing Internet.</p>\n"
@@ -17839,15 +17786,13 @@ msgid ""
 "<p><i>VLC media player</i> <b>doesn't</b> send or collect any information, "
 "even anonymously, about your usage.</p>\n"
 msgstr ""
-"<p><i>VideoLAN-teamet</i> tycker inte om när ett program går ut på nätet "
-"utan behörighet.</p>\n"
-" <p><i>Mediaspelaren VLC</i> kan hämta begränsad information från Internet "
-"för att kunna visa skivomslag eller för att leta efter uppdateringar.</p>\n"
-"<p><i>Mediaspelaren VLC</i> skickar <b>INTE</b> eller samlar <b>INTE</b> in "
-"<b>NÅGON</b> information, inte ens anonymt, om användningen av programmet.</"
-"p>\n"
-"<p>Välj därför från följande alternativ hur du vill att åtkomst till webben "
-"ska genomföras.</p>\n"
+"<p><i>VideoLAN</i> föredrar när program begär auktorisering innan de överför "
+"data på Internet.</p>\n"
+" <p><i>Mediaspelaren VLC</i> kan hämta information från Internet för att "
+"kunna hämta <b>information om media</b> eller för att leta efter "
+"<b>uppdateringar</b>.</p>\n"
+"<p><i>Mediaspelaren VLC</i> skickar <b>inte</b> eller samlar <b>inte</b> in "
+"någon information, inte ens anonymt, om användningen av programmet.</p>\n"
 
 #: modules/gui/qt4/dialogs/firstrun.cpp:83
 #: linux/modules/gui/qt4/ui/open_capture.h:103
@@ -18127,18 +18072,16 @@ msgid "Plugins and extensions"
 msgstr "Insticksmoduler och tillägg"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:64
-#, fuzzy
 msgid "Extensions"
-msgstr "Utökade inställningar"
+msgstr "Tillägg"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:101
 msgid "Capability"
 msgstr "Förmåga"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:101
-#, fuzzy
 msgid "Score"
-msgstr "Skärm"
+msgstr "Betyg"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:114
 msgid "&Search:"
@@ -18149,9 +18092,8 @@ msgid "More information..."
 msgstr "Mer information..."
 
 #: modules/gui/qt4/dialogs/plugins.cpp:218
-#, fuzzy
 msgid "Reload extensions"
-msgstr "Ignorerade filändelser"
+msgstr "Läs om tillägg"
 
 #: modules/gui/qt4/dialogs/plugins.cpp:492
 msgid "Version"
@@ -18194,14 +18136,12 @@ msgid "&Reset Preferences"
 msgstr "Åte&rställ inställningar"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:300
-#, fuzzy
 msgid "Cannot save Configuration"
-msgstr "Läs in konfiguration"
+msgstr "Kan inte spara konfigurationen"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:301
-#, fuzzy
 msgid "Preferences file could not be saved"
-msgstr "Filen kunde inte verifieras"
+msgstr "Inställningsfilen kunde inte sparas"
 
 #: modules/gui/qt4/dialogs/preferences.cpp:318
 msgid "Are you sure you want to reset your VLC media player preferences?"
@@ -18272,14 +18212,12 @@ msgid "Above the Video"
 msgstr "Ovanför videon"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:89
-#, fuzzy
 msgid "Line 1:"
-msgstr "Linjär"
+msgstr "Rad 1:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:97
-#, fuzzy
 msgid "Line 2:"
-msgstr "Linjär"
+msgstr "Rad 2:"
 
 #: modules/gui/qt4/dialogs/toolbar.cpp:106
 #, fuzzy
@@ -18400,14 +18338,12 @@ msgid "Open VLM configuration..."
 msgstr "Öppna VLM-konfiguration..."
 
 #: modules/gui/qt4/dialogs/vlm.cpp:536
-#, fuzzy
 msgid "Broadcast: "
-msgstr "Broadcast"
+msgstr "Broadcast: "
 
 #: modules/gui/qt4/dialogs/vlm.cpp:606
-#, fuzzy
 msgid "Schedule: "
-msgstr "Konfigurera schema"
+msgstr "Schema: "
 
 #: modules/gui/qt4/dialogs/vlm.cpp:630
 msgid "VOD: "
@@ -18582,9 +18518,8 @@ msgid "&Advanced Controls"
 msgstr "&Avancerade kontroller"
 
 #: modules/gui/qt4/menus.cpp:482
-#, fuzzy
 msgid "Docked Playlist"
-msgstr "Docka spellista"
+msgstr "Dockad spellista"
 
 #: modules/gui/qt4/menus.cpp:493
 msgid "Visualizations selector"
@@ -18627,14 +18562,12 @@ msgid "Always &On Top"
 msgstr "Alltid &överst"
 
 #: modules/gui/qt4/menus.cpp:620
-#, fuzzy
 msgid "DirectX Wallpaper"
-msgstr "Skrivbordsbakgrund"
+msgstr "DirectX-bakgrund"
 
 #: modules/gui/qt4/menus.cpp:622
-#, fuzzy
 msgid "Direct3D Desktop mode"
-msgstr "Avkodare för DirectMedia Objekt"
+msgstr "Direct3D-skrivbordsläge"
 
 #: modules/gui/qt4/menus.cpp:624
 msgid "Sna&pshot"
@@ -18661,9 +18594,8 @@ msgid "&Deinterlace"
 msgstr "Av&fläta"
 
 #: modules/gui/qt4/menus.cpp:633
-#, fuzzy
 msgid "&Deinterlace mode"
-msgstr "Avflätningsläge"
+msgstr "Av&flätningsläge"
 
 #: modules/gui/qt4/menus.cpp:634
 msgid "&Post processing"
@@ -18837,9 +18769,8 @@ msgid "Show all the advanced options in the dialogs."
 msgstr "Visa alla avancerade alternativ i dialogrutorna."
 
 #: modules/gui/qt4/qt4.cpp:104
-#, fuzzy
 msgid "Windows opacity between 0.1 and 1"
-msgstr "Fönsteropacitet mellan 0.1 och 1."
+msgstr "Fönsteropacitet mellan 0.1 och 1"
 
 #: modules/gui/qt4/qt4.cpp:105
 msgid ""
@@ -18961,9 +18892,8 @@ msgid "Automatically load the extensions module on startup"
 msgstr "Spara automatiskt volyminställningen vid avslut"
 
 #: modules/gui/qt4/qt4.cpp:165
-#, fuzzy
 msgid "Start in minimal view (without menus)"
-msgstr "Minimalt utseende utan menyer"
+msgstr "Starta i minimal vy (utan menyer)."
 
 #: modules/gui/qt4/qt4.cpp:170
 msgid "Qt interface"
@@ -19629,6 +19559,8 @@ msgid ""
 "Please wait while your font cache is rebuilt.\n"
 "This should take less than a few minutes."
 msgstr ""
+"Vänta under tiden din typsnittscache byggs om.\n"
+"Detta bör ta mindre än några minuter."
 
 #: modules/misc/gnutls.c:79
 msgid "Expiration time for resumed TLS sessions"
@@ -19676,9 +19608,8 @@ msgid "OSSO screen unblanking"
 msgstr ""
 
 #: modules/misc/inhibit/xdg.c:36
-#, fuzzy
 msgid "XDG-screensaver"
-msgstr "Inaktivera skärmsläckare"
+msgstr "XDG-skärmsläckare"
 
 #: modules/misc/inhibit/xdg.c:37
 msgid "XDG screen saver inhibition"
@@ -19697,22 +19628,28 @@ msgid ""
 "Specify the log format. Available choices are \"text\" (default) and \"html"
 "\"."
 msgstr ""
+"Ange loggformatet. Tillgängliga val är \"text\" (standard) och \"html\"."
 
 #: modules/misc/logger.c:125
 msgid ""
 "Specify the log format. Available choices are \"text\" (default), \"html\", "
 "and \"syslog\" (special mode to send to syslog instead of file."
 msgstr ""
+"Ange loggformatet. Tillgängliga val är \"text\" (standard), \"html\" och "
+"\"syslog\" (speciellt läge för att skicka till syslog istället för till en "
+"fil."
 
 #: modules/misc/logger.c:129
 msgid "Syslog facility"
-msgstr ""
+msgstr "Syslog-facilitet"
 
 #: modules/misc/logger.c:130
 msgid ""
 "Select the syslog facility where logs will be forwarded. Available choices "
 "are \"user\" (default), \"daemon\", and \"local0\" through \"local7\"."
 msgstr ""
+"Välj den syslog-facilitet dit loggarna ska vidarebefordras. Tillgängliga val "
+"är \"user\" (standard), \"daemon\" och \"local0\" till \"local7\"."
 
 #: modules/misc/logger.c:158
 msgid "Verbosity"
@@ -19759,9 +19696,8 @@ msgid ""
 msgstr ""
 
 #: modules/misc/lua/vlc.c:69
-#, fuzzy
 msgid "Directory index"
-msgstr "DirectShow-inmatning"
+msgstr "Katalogindex"
 
 #: modules/misc/lua/vlc.c:70
 msgid "Allow to build directory index"
@@ -19862,6 +19798,8 @@ msgid ""
 "This is the host to which Growl notifications will be sent. By default, "
 "notifications are sent locally."
 msgstr ""
+"Detta är värden till vilken Growl-notifieringar ska skickas. Som standard "
+"skickas notifieringarna lokalt."
 
 #: modules/misc/notify/growl_udp.c:74
 msgid "Growl password on the Growl server."
@@ -20252,7 +20190,7 @@ msgstr "SPU-PID"
 
 #: modules/mux/mpeg/ts.c:104
 msgid "Assign a fixed PID to the SPU."
-msgstr ""
+msgstr "Tilldela en fast PID till SPU."
 
 #: modules/mux/mpeg/ts.c:105
 msgid "PMT PID"
@@ -20260,7 +20198,7 @@ msgstr "PMT-PID"
 
 #: modules/mux/mpeg/ts.c:106
 msgid "Assign a fixed PID to the PMT"
-msgstr ""
+msgstr "Tilldela en fast PID till PMT"
 
 #: modules/mux/mpeg/ts.c:107
 msgid "TS ID"
@@ -20292,7 +20230,7 @@ msgstr ""
 
 #: modules/mux/mpeg/ts.c:116
 msgid "Mux PMT (requires --sout-ts-es-id-pid)"
-msgstr ""
+msgstr "Mux PMT (kräver --sout-ts-es-id-pid)"
 
 #: modules/mux/mpeg/ts.c:117
 msgid ""
@@ -20355,9 +20293,8 @@ msgid ""
 msgstr ""
 
 #: modules/mux/mpeg/ts.c:147
-#, fuzzy
 msgid "PCR interval (ms)"
-msgstr "PCR-fördröjning (ms)"
+msgstr "PCR-intervall (ms)"
 
 #: modules/mux/mpeg/ts.c:148
 msgid ""
@@ -20523,14 +20460,12 @@ msgid "My Pictures"
 msgstr "Mina bilder"
 
 #: modules/services_discovery/mtp.c:45
-#, fuzzy
 msgid "MTP devices"
-msgstr "Dvd-enhet"
+msgstr "MTP-enheter"
 
 #: modules/services_discovery/mtp.c:191
-#, fuzzy
 msgid "MTP Device"
-msgstr "Enhet"
+msgstr "MTP-enhet"
 
 #: modules/services_discovery/podcast.c:58
 #: linux/modules/gui/qt4/ui/podcast_configuration.h:102
@@ -20619,9 +20554,8 @@ msgid ""
 msgstr ""
 
 #: modules/services_discovery/sap.c:121
-#, fuzzy
 msgid "Network streams (SAP)"
-msgstr "_Öppna nätverk..."
+msgstr "Nätverksströmmar (SAP)"
 
 #: modules/services_discovery/sap.c:149
 #, fuzzy
@@ -20686,16 +20620,14 @@ msgstr ""
 #: modules/services_discovery/xcb_apps.c:47
 #: modules/services_discovery/xcb_apps.c:84
 #: modules/services_discovery/xcb_apps.c:149
-#, fuzzy
 msgid "Screen capture"
-msgstr "Skärmfångstinmatning"
+msgstr "Skärmfångst"
 
 #: modules/services_discovery/xcb_apps.c:150
 msgid "Your window manager does not provide a list of applications."
-msgstr ""
+msgstr "Din fönsterhanterare tillhandahåller inte en lista över program."
 
 #: modules/services_discovery/xcb_apps.c:273
-#, fuzzy
 msgid "Applications"
 msgstr "Program"
 
@@ -21001,9 +20933,8 @@ msgid "Mosaic bridge stream output"
 msgstr ""
 
 #: modules/stream_out/raop.c:148
-#, fuzzy
 msgid "Hostname or IP address of target device"
-msgstr "Värdnamn eller IP-adress för VNC."
+msgstr "Värdnamn eller IP-adress för målenheten"
 
 #: modules/stream_out/raop.c:151
 msgid ""
@@ -21032,9 +20963,8 @@ msgid "Remote Audio Output Protocol stream output"
 msgstr ""
 
 #: modules/stream_out/record.c:50
-#, fuzzy
 msgid "Destination prefix"
-msgstr "Mål"
+msgstr "Målprefix"
 
 #: modules/stream_out/record.c:52
 msgid "Prefix of the destination file automatically generated"
@@ -21596,6 +21526,8 @@ msgid ""
 "The transcoder will drop frames if your CPU can't keep up with the encoding "
 "rate."
 msgstr ""
+"Omkodaren kommer att kasta bildrutor om din processor inte klarar av "
+"kodningsfrekvensen."
 
 #: modules/stream_out/transcode/transcode.c:155
 msgid "Transcode stream output"
@@ -21766,7 +21698,7 @@ msgstr "MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:159
 msgid "fnordlicht"
-msgstr ""
+msgstr "fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:162
 msgid "Count of AtmoLight channels"
@@ -21774,11 +21706,11 @@ msgstr "Antal AtmoLight-kanaler"
 
 #: modules/video_filter/atmo/atmo.cpp:163
 msgid "How many AtmoLight channels, should be emulated with that DMX device"
-msgstr ""
+msgstr "Hur många AtmoLight-kanaler som ska emuleras med denna DMX-enhet"
 
 #: modules/video_filter/atmo/atmo.cpp:165
 msgid "DMX address for each channel"
-msgstr ""
+msgstr "DMX-adress för varje kanal"
 
 #: modules/video_filter/atmo/atmo.cpp:166
 msgid ""
@@ -22111,29 +22043,24 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:305
-#, fuzzy
 msgid "Channel 0: summary"
-msgstr "Kanalnummer"
+msgstr "Kanal 0: sammandrag"
 
 #: modules/video_filter/atmo/atmo.cpp:306
-#, fuzzy
 msgid "Channel 1: left"
-msgstr "Kanalnamn"
+msgstr "Kanal 1: vänster"
 
 #: modules/video_filter/atmo/atmo.cpp:307
-#, fuzzy
 msgid "Channel 2: right"
-msgstr "Kanal"
+msgstr "Kanal 2: höger"
 
 #: modules/video_filter/atmo/atmo.cpp:308
-#, fuzzy
 msgid "Channel 3: top"
-msgstr "Kanal"
+msgstr "Kanal 3: övre"
 
 #: modules/video_filter/atmo/atmo.cpp:309
-#, fuzzy
 msgid "Channel 4: bottom"
-msgstr "Kanalnamn"
+msgstr "Kanal 4: nedre"
 
 #: modules/video_filter/atmo/atmo.cpp:311
 msgid "Maps the hardware channel X to logical zone Y to fix wrong wiring :-)"
@@ -22222,9 +22149,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:354
-#, fuzzy
 msgid "Filename of AtmoWin*.exe"
-msgstr "Filnamn för AtmoWinA.exe"
+msgstr "Filnamn för AtmoWin*.exe"
 
 #: modules/video_filter/atmo/atmo.cpp:355
 msgid ""
@@ -22244,7 +22170,7 @@ msgstr "AtmoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:375
 msgid "Choose Devicetype and Connection"
-msgstr ""
+msgstr "Välj enhetstyp och anslutning"
 
 #: modules/video_filter/atmo/atmo.cpp:400
 msgid "Illuminate the room with this color on pause"
@@ -22255,19 +22181,16 @@ msgid "Illuminate the room with this color on shutdown"
 msgstr ""
 
 #: modules/video_filter/atmo/atmo.cpp:427
-#, fuzzy
 msgid "DMX options"
-msgstr "Hjälpinställningar"
+msgstr "Alternativ för DMX"
 
 #: modules/video_filter/atmo/atmo.cpp:433
-#, fuzzy
 msgid "MoMoLight options"
-msgstr "Konfigurationsalternativ"
+msgstr "Alternativ för MoMoLight"
 
 #: modules/video_filter/atmo/atmo.cpp:440
-#, fuzzy
 msgid "fnordlicht options"
-msgstr "Konfigurationsalternativ"
+msgstr "Alternativ för fnordlicht"
 
 #: modules/video_filter/atmo/atmo.cpp:482
 msgid "Zone Layout for the build-in Atmo"
@@ -22339,9 +22262,8 @@ msgstr ""
 "exempelvis 6=överkant-höger)."
 
 #: modules/video_filter/audiobargraph_v.c:63
-#, fuzzy
 msgid "Alarm"
-msgstr "Alsa"
+msgstr "Alarm"
 
 #: modules/video_filter/audiobargraph_v.c:64
 msgid "Signals a silence and displays and alert (0=no alarm, 1=alarm)."
@@ -22573,9 +22495,8 @@ msgid "Bluescreen"
 msgstr "Blåskärm"
 
 #: modules/video_filter/canvas.c:83
-#, fuzzy
 msgid "Output width"
-msgstr "Bredd för utmatningsvideo."
+msgstr "Utmatningsbredd"
 
 #: modules/video_filter/canvas.c:85
 #, fuzzy
@@ -22583,9 +22504,8 @@ msgid "Output (canvas) image width"
 msgstr "Bredd för utmatningsvideo."
 
 #: modules/video_filter/canvas.c:86
-#, fuzzy
 msgid "Output height"
-msgstr "Höjd för utmatningsvideo."
+msgstr "Utmatningshöjd"
 
 #: modules/video_filter/canvas.c:88
 #, fuzzy
@@ -23105,9 +23025,8 @@ msgid "Y coordinate of the logo. You can move the logo by left-clicking it."
 msgstr ""
 
 #: modules/video_filter/logo.c:64
-#, fuzzy
 msgid "Opacity of the logo"
-msgstr "Logotypens genomskinlighet"
+msgstr "Opacitet för logotypen"
 
 #: modules/video_filter/logo.c:65
 msgid ""
@@ -23128,9 +23047,8 @@ msgstr ""
 "exempelvis 6=överkant-höger)."
 
 #: modules/video_filter/logo.c:73
-#, fuzzy
 msgid "Use a local picture as logo on the video"
-msgstr "Lägg undertexter över videon (overlay)"
+msgstr "Använd en lokal bild som logotyp på videon"
 
 #: modules/video_filter/logo.c:92
 msgid "Logo sub filter"
@@ -23209,9 +23127,8 @@ msgstr ""
 "kan också kombinera olika värden)."
 
 #: modules/video_filter/marq.c:142
-#, fuzzy
 msgid "Display text above the video"
-msgstr "Visa behandlad video"
+msgstr "Visa text ovanför videon"
 
 #: modules/video_filter/marq.c:149
 msgid "Marquee"
@@ -24416,9 +24333,8 @@ msgid ""
 msgstr ""
 
 #: modules/video_output/fb.c:76
-#, fuzzy
 msgid "Image format (default RGB)"
-msgstr "Bildformat"
+msgstr "Bildformat (standard RGB)"
 
 #: modules/video_output/fb.c:77
 msgid ""
@@ -24447,18 +24363,16 @@ msgid "Mac OS X OpenGL video output (requires drawable-nsobject)"
 msgstr "Minimal Mac OS X OpenGL-videoutmatning (öppnar ett ramlöst fönster)"
 
 #: modules/video_output/msw/direct3d.c:57
-#, fuzzy
 msgid "Enable desktop mode "
-msgstr "Aktivera superbasläge"
+msgstr "Aktivera skrivbordsläge"
 
 #: modules/video_output/msw/direct3d.c:59
-#, fuzzy
 msgid "The desktop mode allows you to display the video on the desktop."
-msgstr "Låter dig ange \"description\" metadata för en inmatning."
+msgstr "Skrivbordsläget låter dig visa videon på skrivbordet."
 
 #: modules/video_output/msw/direct3d.c:61
 msgid "Recommended video output for Windows Vista and later versions"
-msgstr ""
+msgstr "Rekommenderad videoutmatning för Windows Vista och senare versioner"
 
 #: modules/video_output/msw/direct3d.c:65
 #, fuzzy
@@ -24812,14 +24726,12 @@ msgid "Goom effect"
 msgstr "Goom-effekt"
 
 #: modules/visualization/projectm.cpp:48
-#, fuzzy
 msgid "projectM configuration file"
-msgstr "VLM-konfigurationsfil"
+msgstr "Konfigurationsfil för projectM"
 
 #: modules/visualization/projectm.cpp:49
-#, fuzzy
 msgid "File that will be used to configure the projectM module."
-msgstr "Användarnamn att använda för anslutningen."
+msgstr "Fil som ska användas för att konfigurera projectM-modulen."
 
 #: modules/visualization/projectm.cpp:52
 msgid "projectM preset path"
@@ -24830,19 +24742,16 @@ msgid "Path to the projectM preset directory"
 msgstr ""
 
 #: modules/visualization/projectm.cpp:55
-#, fuzzy
 msgid "Title font"
-msgstr "Titel"
+msgstr "Titeltypsnitt"
 
 #: modules/visualization/projectm.cpp:56
-#, fuzzy
 msgid "Font used for the titles"
-msgstr "Hastighet för undertexter:"
+msgstr "Typsnitt att använda för titlarna"
 
 #: modules/visualization/projectm.cpp:58
-#, fuzzy
 msgid "Font menu"
-msgstr "Typsnittsstorlek"
+msgstr "Typsnittsmeny"
 
 #: modules/visualization/projectm.cpp:59
 #, fuzzy
@@ -24880,9 +24789,8 @@ msgid "The height of the mesh, in pixels."
 msgstr "Höjden på videoeffektfönstret, i bildpunkter."
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Gester"
+msgstr "Texturstorlek"
 
 #: modules/visualization/projectm.cpp:74
 #, fuzzy
@@ -25197,7 +25105,6 @@ msgid "Enter the URL of the network stream here."
 msgstr "Ange URL:en för nätverksströmmen här, med eller utan protokollet."
 
 #: linux/modules/gui/qt4/ui/open_net.h:97
-#, fuzzy
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -25234,7 +25141,7 @@ msgstr ""
 "#838383;\">http://www.exempel.se/ström.avi</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
-"#838383;\">rtp://@1234</span></p>\n"
+"#838383;\">rtp://@:1234</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" color:"
 "#838383;\">mms://mms.exempel.se/ström.asx</span></p>\n"
@@ -25386,7 +25293,7 @@ msgstr "Genererad sträng för strömutmatning"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:406
 msgid "Keep audio level between sessions"
-msgstr ""
+msgstr "Behåll ljudnivån mellan sessioner"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:407
 msgid "Always reset audio start level to:"
@@ -25412,7 +25319,7 @@ msgstr "Dolby Surround:"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:416
 msgid "Normalize volume to:"
-msgstr ""
+msgstr "Normalisera volymen till:"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:417
 #, fuzzy
@@ -25441,9 +25348,8 @@ msgid "Username:"
 msgstr "Användarnamn:"
 
 #: linux/modules/gui/qt4/ui/sprefs_audio.h:425
-#, fuzzy
 msgid "Submit played tracks stats to Last.fm"
-msgstr "Inrapportering av spelade låtar till Last.fm"
+msgstr "Skicka in statistik för spelade låtar till Last.fm"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:306
 msgid "Optical drive"
@@ -25470,21 +25376,19 @@ msgstr "Videoskalningsfilter"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:312
 msgid "Use GPU acceleration (experimental)"
-msgstr ""
+msgstr "Använd GPU-acceleration (experimentell)"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:313
-#, fuzzy
 msgid "Use system codecs if available (better quality, but dangerous)"
-msgstr "Använd systemkodekar om tillgängliga (bättre kvalitet)"
+msgstr "Använd systemkodekar om tillgängliga (bättre kvalitet men farligt)"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:315
 msgid "Damaged or incomplete AVI file"
 msgstr "Skadad eller ofullständig AVI-fil"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:319
-#, fuzzy
 msgid "Default port (server mode)"
-msgstr "Standardserverport"
+msgstr "Standardport (serverläge)"
 
 #: linux/modules/gui/qt4/ui/sprefs_input.h:320
 msgid "HTTP proxy URL"
@@ -25659,9 +25563,8 @@ msgid "Enable wallpaper mode"
 msgstr "Aktivera skrivbordsbakgrund"
 
 #: linux/modules/gui/qt4/ui/sprefs_video.h:322
-#, fuzzy
 msgid "Deinterlacing"
-msgstr "Avflätningsläge"
+msgstr "Avflätning"
 
 #: linux/modules/gui/qt4/ui/sprefs_video.h:323
 msgid "Force Aspect Ratio"
