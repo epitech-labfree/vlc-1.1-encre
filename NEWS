@@ -13,6 +13,8 @@ Decoders:
  * Support for MPC SV7 and SV8 on Windows and Mac OS X (Unix was already working)
  * Enabled FluidSynth MIDI playback plugin on Mac OS X
  * Faster VP8 decoding with recent codecs
+ * Fix Heap corruption in subtitle decoders, potentially exploitable,
+   discovered by Harry Sintonen
 
 Demuxers:
  * Fix Buffer overflow in Real demuxer CVE-2010-3907 / VideoLAN-SA-1007
@@ -38,7 +40,9 @@ Miscellaneous fixes:
  * HTTP Icy metadata reading
 
 Translations:
- * Update translations for Chinese, Nippon, Slovak
+ * Update translations for Chinese, Nippon, Slovak, Estonian, Spanish, Galician,
+   Swedish, Bulgarian, French, Bengalese, German, Slovak, Japanese, Dutch, Polish,
+   Indonesian, Sinhala and Irish
 
 
 Changes between 1.1.4.1 and 1.1.5:
