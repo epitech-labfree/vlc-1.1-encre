@@ -10,10 +10,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: vlc 1.1.5\n"
+"Project-Id-Version: vlc 1.1.6\n"
 "Report-Msgid-Bugs-To: vlc-devel@videolan.org\n"
 "POT-Creation-Date: 2011-01-10 20:52+0000\n"
-"PO-Revision-Date: 2010-10-18 21:20+0300\n"
+"PO-Revision-Date: 2011-01-15 23:25+0200\n"
 "Last-Translator: mihkel <turakas gmail com>\n"
 "Language-Team: Estonian\n"
 "Language: \n"
@@ -8567,13 +8567,15 @@ msgstr ""
 
 #: modules/audio_filter/audiobargraph_a.c:50
 msgid "Defines if BarGraph information should be sent (default 1)"
-msgstr ""
+msgstr "Määrab, kas BarGraph informatsiooni tuleks saata (vaikimisi 1)"
 
 #: modules/audio_filter/audiobargraph_a.c:51
 msgid ""
 "Defines if BarGraph information should be sent. 1 if the information should "
 "be sent, 0 otherwise (default 1)."
 msgstr ""
+"Määrab, kas BarGraph informatsiooni tuleks saata. 1, kui infot tuleks saata, "
+"0 kui mitte (vaikimisi 1)."
 
 #: modules/audio_filter/audiobargraph_a.c:53
 msgid "Sends the barGraph information every n audio packets (default 4)"
@@ -8584,6 +8586,8 @@ msgid ""
 "Defines how often the barGraph information should be sent. Sends the "
 "barGraph information every n audio packets (default 4)."
 msgstr ""
+"Määrab, kui tihti tuleks barGraph informatsiooni saata. Saadab barGraph "
+"informatsiooni iga n audio paketi taganat (vaikimisi 4)."
 
 #: modules/audio_filter/audiobargraph_a.c:56
 msgid "Defines if silence alarm information should be sent (default 1)"
@@ -8811,7 +8815,7 @@ msgstr "Tagasiside tundlikkus"
 
 #: modules/audio_filter/chorus_flanger.c:92
 msgid "Gain on Feedback loop"
-msgstr ""
+msgstr "Tundlikkus tagasiside kordusel"
 
 #: modules/audio_filter/chorus_flanger.c:94
 msgid "Wet mix"
@@ -8841,6 +8845,10 @@ msgid ""
 "without disturbing anyone. If you disable the dynamic range compression the "
 "playback will be more adapted to a movie theater or a listening room."
 msgstr ""
+"Dünaamilise tiheduse vahemik muudab valjud helid pehmemaks ja pehmed helid "
+"valjemaks, niiet võid kerge vaevaga kuulata voogu mürarikkas keskkonnas ilma "
+"teisi segamata. Kui keelad dünaamilise tiheduse vahemiku, siis kohandatakse "
+"taasesitus pigem kino või kuulamisruumi jaoks."
 
 #: modules/audio_filter/converter/a52tofloat32.c:89
 msgid "Enable internal upmixing"
@@ -8906,7 +8914,7 @@ msgstr ""
 
 #: modules/audio_filter/equalizer.c:67
 msgid "Two pass"
-msgstr "Kahekäiguline"
+msgstr "Kahe läbimiga"
 
 #: modules/audio_filter/equalizer.c:68
 msgid "Filter the audio twice. This provides a more intense effect."
@@ -9264,6 +9272,8 @@ msgid ""
 "You should configure your speaker layout with the \"Audio Midi Setup\" "
 "utility in /Applications/Utilities. Stereo mode is being used now."
 msgstr ""
+"Kõlarite asetuse peaksid seadistama \"Audio Midi Setup\" utiliidiga /"
+"Applications/Utilities. Praegu kasutatakse stereo režiimi."
 
 #: modules/audio_output/auhal.c:1039
 #, c-format
@@ -9559,6 +9569,10 @@ msgid ""
 "can produce a lot of errors.\n"
 "Valid values range from 0 to 4 (0 disables all errors resilience)."
 msgstr ""
+"FFmpeg suudab tagada vea elastsuse.\n"
+"Kuigi vigase enkoodri puhul (näiteks ISO MPEG-4 enkooder M$-lt) võib see "
+"palju vigu luua.\n"
+"Kehtivad väärtused on vahemikus 0 ja 4 (0 keelab kõikide vigade elastsuse)."
 
 #: modules/codec/avcodec/avcodec.h:83
 msgid "Workaround bugs"
@@ -9577,6 +9591,16 @@ msgid ""
 "This must be the sum of the values. For example, to fix \"ac vlc\" and "
 "\"ump4\", enter 40."
 msgstr ""
+"Ürita mõned vead parandada:\n"
+"1  automaattuvastus\n"
+"2  vana msmpeg4\n"
+"4  üle rea xvid\n"
+"8  ump4\n"
+"16 polsterduseta\n"
+"32 ac vlc\n"
+"64 Qpel värviformaat.\n"
+"Siin peab olema nende väärtuste summa. Näiteks, et parandada \"ac vlc\"\n"
+"ja \"ump4\", sisesta 40."
 
 #: modules/codec/avcodec/avcodec.h:96 modules/codec/avcodec/avcodec.h:199
 #: modules/demux/rawdv.c:40 modules/stream_out/transcode/transcode.c:139
@@ -9598,7 +9622,7 @@ msgstr "Kiirustrikkide lubamine"
 #: modules/codec/avcodec/avcodec.h:104
 msgid ""
 "Allow non specification compliant speedup tricks. Faster but error-prone."
-msgstr ""
+msgstr "Luba spetsifikatsiooniväliseid kiirustrikke. Kiirem, aga vigadealtim."
 
 #: modules/codec/avcodec/avcodec.h:106
 msgid "Skip frame (default=0)"
@@ -9825,7 +9849,7 @@ msgstr "Trellise kvantimine"
 
 #: modules/codec/avcodec/avcodec.h:215
 msgid "Enable trellis quantization (rate distortion for block coefficients)."
-msgstr ""
+msgstr "Luba trellise kvantimine (bloki koefitsentide kiiruse moonutus)."
 
 #: modules/codec/avcodec/avcodec.h:218
 msgid "Fixed quantizer scale"
@@ -9877,6 +9901,8 @@ msgid ""
 "Raise the quantizer for macroblocks with a high temporal complexity "
 "(default: 0.0)."
 msgstr ""
+"Makroblokkide kvantija tõstmine ajutiselt kõrgema keerukusega (vaikimisi: "
+"0:0)."
 
 #: modules/codec/avcodec/avcodec.h:238
 msgid "Border masking"
@@ -9887,7 +9913,7 @@ msgid ""
 "Raise the quantizer for macroblocks at the border of the frame (default: "
 "0.0)."
 msgstr ""
-"Tõsta makroblokkide kvantimise väärtust kaadri serval (vaikimisi: 0.0)."
+"Makroblokkide kvantimise väärtuse tõstmine kaadri serval (vaikimisi: 0.0)."
 
 #: modules/codec/avcodec/avcodec.h:242
 msgid "Luminance elimination"
@@ -9898,6 +9924,8 @@ msgid ""
 "Eliminates luminance blocks when the PSNR isn't much changed (default: 0.0). "
 "The H264 specification recommends -4."
 msgstr ""
+"Eemaldab heledad blokid, kui PSNR-i ei ole palju muudetud (vaikimisi:\n"
+"0.0). H264 spetsifikatsioon soovitab -4."
 
 #: modules/codec/avcodec/avcodec.h:247
 msgid "Chrominance elimination"
@@ -11413,6 +11441,12 @@ msgid ""
 " - strict: Strictly hierarchical pyramid\n"
 " - normal: Non-strict (not Blu-ray compatible)\n"
 msgstr ""
+"Lubab kasutada B-kaadreid viitena ennustamaks teisi kaadreid. Hoiab\n"
+"järjestikused keskmised 2+ kaadrit viitena ja korrladab vastavalt kaadri "
+"ümber.\n"
+" - none: Keelatud\n"
+" - strict: Rangelt hierarhiline püramiid\n"
+" - normal: Mitte-range (pole Blu-Ray'ga ühilduv)\n"
 
 #: modules/codec/x264.c:106
 msgid ""
@@ -11420,6 +11454,9 @@ msgid ""
 "the middle of 2+ consecutive B-frames as a reference, and reorders frame "
 "appropriately."
 msgstr ""
+"Lubab kasutada B-kaadreid viitena ennustamaks teisi kaadreid. Hoiab\n"
+"järjestikused keskmised 2+ kaadrit viitena ja korrladab vastavalt kaadri "
+"ümber."
 
 #: modules/codec/x264.c:111
 msgid "CABAC"
@@ -11435,7 +11472,7 @@ msgstr ""
 
 #: modules/codec/x264.c:116
 msgid "Number of reference frames"
-msgstr "Etalonkaadrite arv"
+msgstr "Viitekaadrite arv"
 
 #: modules/codec/x264.c:117
 msgid ""
@@ -11443,6 +11480,9 @@ msgid ""
 "but seems to make little difference in live-action source material. Some "
 "decoders are unable to deal with large frameref values. Range 1 to 16."
 msgstr ""
+"Ennustamiseks kasutatud eelmiste kaadrite arv. See on efektiivne Anime "
+"puhul, aga efekt puudub tõsielukaadrite puhul. Mõned dekoodrid ei suuda "
+"hakkama saada suurte framedef väärtustega. Vahemikus 1 kuni 16."
 
 #: modules/codec/x264.c:122
 msgid "Skip loop filter"
@@ -11461,6 +11501,9 @@ msgid ""
 "Loop filter AlphaC0 and Beta parameters. Range -6 to 6 for both alpha and "
 "beta parameters. -6 means light filter, 6 means strong."
 msgstr ""
+"AlphaC0 ja Beta parameetrite korduste filter. Vahemik -6 kuni 6 mõlema nii "
+"alpha kui ka beta parameetritel. -6 tähendab kerget filtrit, 6 seevastu "
+"tugevat."
 
 #: modules/codec/x264.c:130
 msgid "H.264 level"
@@ -11852,7 +11895,7 @@ msgstr ""
 
 #: modules/codec/x264.c:291
 msgid "Subpixel motion estimation and partition decision quality"
-msgstr ""
+msgstr "Alampiksli liikumise hinnang ja partitsiooni otsuse kvaliteet"
 
 #: modules/codec/x264.c:293
 msgid ""
@@ -12145,6 +12188,7 @@ msgstr "Tekst on alati läbipaistmatu"
 #: modules/codec/zvbi.c:63
 msgid "Setting vbi-opaque to false makes the boxed text transparent."
 msgstr ""
+"Seaded vbi-opaque väärtuse vääraks, muutub tekst kasti see läbipaistvaks."
 
 #: modules/codec/zvbi.c:66
 msgid "Teletext alignment"
@@ -12156,6 +12200,9 @@ msgid ""
 "2=right, 4=top, 8=bottom, you can also use combinations of these values, eg. "
 "6 = top-right)."
 msgstr ""
+"Võid jõuga määrata teleteksti asukoha videol (0=keskel, 1=vasakul, "
+"2=paremal, 4=üleval, 8=all - võid kasutada ka nende väärtuste "
+"kombinatsioone, nt. 6 = üleval-paremal)."
 
 #: modules/codec/zvbi.c:72
 msgid "Teletext text subtitles"
@@ -12457,22 +12504,24 @@ msgstr ""
 
 #: modules/control/netsync.c:57
 msgid "Network master clock"
-msgstr ""
+msgstr "Võrgu esmane kell"
 
 #: modules/control/netsync.c:58
 msgid ""
 "When set then this vlc instance shall dictate its clock for "
 "synchronisationover clients listening on the masters network ip address"
 msgstr ""
+"Kui määratud, siis vlc instants sünkroniseerib kella, kuulates esmase võrgu "
+"ip aadressi"
 
 #: modules/control/netsync.c:62
 msgid "Master server ip address"
-msgstr "Primaarse serveri ip aadress"
+msgstr "Esmase serveri ip aadress"
 
 #: modules/control/netsync.c:63
 msgid ""
 "The IP address of the network master clock to use for clock synchronisation."
-msgstr ""
+msgstr "Sünkroniseerimiseks kasutatav esmase võrgu kella IP aadress."
 
 #: modules/control/netsync.c:66
 msgid "UDP timeout (in ms)"
@@ -12575,7 +12624,7 @@ msgstr "Liba TTY"
 
 #: modules/control/rc.c:165
 msgid "Force the rc module to use stdin as if it was a TTY."
-msgstr ""
+msgstr "Jõuga sunni rc moodulit kasutama stdin-i kui ta oleks TTY."
 
 #: modules/control/rc.c:167
 msgid "UNIX socket command input"
@@ -13165,6 +13214,8 @@ msgid ""
 "Recreate a index for the AVI file. Use this if your AVI file is damaged or "
 "incomplete (not seekable)."
 msgstr ""
+"Loo uuesti AVI faili indeks. KAsuta seda, kui su AVI fail on vigane või "
+"poolik (ei ole keritav)."
 
 #: modules/demux/avi/avi.c:63
 msgid "Ask for action"
@@ -13368,7 +13419,7 @@ msgstr "Kliendi port"
 
 #: modules/demux/live555.cpp:122
 msgid "Port to use for the RTP source of the session"
-msgstr ""
+msgstr "Kasutatav RTP allika port selleks seansiks"
 
 #: modules/demux/live555.cpp:124 modules/demux/live555.cpp:125
 msgid "Force multicast RTP via RTSP"
@@ -13436,7 +13487,7 @@ msgstr "Korrastatud peatükid"
 
 #: modules/demux/mkv/mkv.cpp:54
 msgid "Play ordered chapters as specified in the segment."
-msgstr ""
+msgstr "Esita järjestikused peatükid, nagu segmendis määratud."
 
 #: modules/demux/mkv/mkv.cpp:57
 msgid "Chapter codecs"
@@ -13444,7 +13495,7 @@ msgstr "Peatüki koodekid"
 
 #: modules/demux/mkv/mkv.cpp:58
 msgid "Use chapter codecs found in the segment."
-msgstr ""
+msgstr "Kasuta segmendis leitud peatüki koodekeid."
 
 #: modules/demux/mkv/mkv.cpp:61
 msgid "Preload Directory"
@@ -13628,6 +13679,8 @@ msgstr "Shoutcasti täiskasvanute sisu kuvamine"
 #: modules/demux/playlist/playlist.c:49
 msgid "Show NC17 rated video streams when using shoutcast video playlists."
 msgstr ""
+"Shoutcast video esitusloendeid kasutades, kuva NC17-ne hinnanguga video "
+"voogusid."
 
 #: modules/demux/playlist/playlist.c:52
 msgid "Skip ads"
@@ -13638,6 +13691,8 @@ msgid ""
 "Use playlist options usually used to prevent ads skipping to detect ads and "
 "prevent adding them to the playlist."
 msgstr ""
+"Kasuta esitusloendi valikuid, mida tavaliselt kasutatakse reklaamide "
+"vahelejätmiseks, et tuvastada reklaame ja hoida neid esitusloendist eemal."
 
 #: modules/demux/playlist/playlist.c:72
 msgid "M3U playlist import"
@@ -13783,6 +13838,9 @@ msgid ""
 "duration. However sometimes this might not be usable. Disable this option to "
 "calculate from the bitrate instead."
 msgstr ""
+"Tavaliselt kasutatakse asukoha ja pikkuse arvutamiseks MPEG ajatempleid. "
+"Kuigi mõnikord ei ole see võimalik. Keela see valik, et toestada arvutused "
+"hoopis bitikiiruse kaudu."
 
 #: modules/demux/ps.c:56 modules/demux/ps.c:69
 msgid "MPEG-PS demuxer"
@@ -13814,11 +13872,11 @@ msgstr "Sisendvoo audiokanalid. Numbriline väärtus > 0. Vaikimisi on 2."
 
 #: modules/demux/rawaud.c:49
 msgid "FOURCC code of raw input format"
-msgstr ""
+msgstr "Toorsisendi vormingu FOURCC kood"
 
 #: modules/demux/rawaud.c:51
 msgid "FOURCC code of the raw input format. This is a four character string."
-msgstr ""
+msgstr "Toorsisendi vormingu FOURCC kood. See on neljakohaline string."
 
 #: modules/demux/rawaud.c:53
 msgid "Forces the audio language"
@@ -13829,6 +13887,8 @@ msgid ""
 "Forces the audio language for the output mux. Three letter ISO639 code. "
 "Default is 'eng'. "
 msgstr ""
+"Määrab jõuga väljundi muksi audio keele. Kolmekohaline ISO639 kood. "
+"Vaikimisi on 'eng'."
 
 #: modules/demux/rawaud.c:64
 msgid "Raw audio demuxer"
@@ -13848,6 +13908,8 @@ msgid ""
 "This is the desired frame rate when playing raw video streams.  In the form "
 "30000/1001 or 29.97"
 msgstr ""
+"See on soovitud kaadrikiirus videovoogude taasesitamisel. Vormingus "
+"30000/1001 või 29.97."
 
 #: modules/demux/rawvid.c:49
 msgid "This specifies the width in pixels of the raw video stream."
@@ -13894,6 +13956,8 @@ msgid ""
 "Override the normal frames per second settings. This will only work with "
 "MicroDVD and SubRIP (SRT) subtitles."
 msgstr ""
+"Tühista tavalised kaadreid-sekundis seaded. See töötab ainult MicriDVD ja "
+"SubRIP (SRT) subtiitritega."
 
 #: modules/demux/subtitle.c:56
 msgid ""
@@ -13938,11 +14002,15 @@ msgid ""
 "Override the normal frames per second settings. This will only affect frame-"
 "based subtitle formats without a fixed value."
 msgstr ""
+"Tühista tavalised kaadreid-sekundis seaded. See mõjutab ainult "
+"kaadripõhiseid subtiitrite vorminguid ilma fikseeritud väärtuseta."
 
 #: modules/demux/subtitle_asa.c:54
 msgid ""
 "Force the subtiles format. Use \"auto\", the set of supported values varies."
 msgstr ""
+"Määra jõuga subtiitrite vorming. Kasuta \"auto\", toetatud väärtused "
+"varieeruvad."
 
 #: modules/demux/subtitle_asa.c:57
 msgid "Subtitles (asa demuxer)"
@@ -13954,7 +14022,7 @@ msgstr "Lisa-PMT"
 
 #: modules/demux/ts.c:112
 msgid "Allows a user to specify an extra pmt (pmt_pid=pid:stream_type[,...])."
-msgstr ""
+msgstr "Lubab kasutajal määrata lisa pmt (pmt_pid=pid:voo_tüüp[,...])."
 
 #: modules/demux/ts.c:114
 msgid "Set id of ES to PID"
@@ -13966,6 +14034,9 @@ msgid ""
 "value as the PID in the TS stream, instead of 1, 2, 3, etc. Useful to do "
 "'#duplicate{..., select=\"es=<pid>\"}'."
 msgstr ""
+"Määra iga VLC poolt käsitletava elementaarvoo sisemise ID väärtus samakskui "
+"PID TS voos, mitte 1, 2, 3, jne. Kasulik, et teha '#duplicate{..., select="
+"\"es=<pid>\"}'"
 
 #: modules/demux/ts.c:120
 msgid "Fast udp streaming"
@@ -13973,15 +14044,15 @@ msgstr "Kiire udp voogedastus"
 
 #: modules/demux/ts.c:122
 msgid "Sends TS to specific ip:port by udp (you must know what you are doing)."
-msgstr ""
+msgstr "Saadab TS-i udp poolt määratud ip:pordile (sa pead teadma, mida teed)."
 
 #: modules/demux/ts.c:124
 msgid "MTU for out mode"
-msgstr ""
+msgstr "MTU väljundirežiimile"
 
 #: modules/demux/ts.c:125
 msgid "MTU for out mode."
-msgstr ""
+msgstr "MTU väljundirežiimile."
 
 #: modules/demux/ts.c:127
 msgid "CSA ck"
@@ -13989,7 +14060,7 @@ msgstr "CSA ck"
 
 #: modules/demux/ts.c:128
 msgid "Control word for the CSA encryption algorithm"
-msgstr ""
+msgstr "CSA krüpteerimise algoritmi kontrollsõna"
 
 #: modules/demux/ts.c:130 modules/mux/mpeg/ts.c:173
 msgid "Second CSA Key"
@@ -14000,6 +14071,8 @@ msgid ""
 "The even CSA encryption key. This must be a 16 char string (8 hexadecimal "
 "bytes)."
 msgstr ""
+"Paaris CSA krüpteerimise võti. See peab olema 16-kohaline string (8 "
+"kuueteistkümnendik baiti)."
 
 #: modules/demux/ts.c:134
 msgid "Silent mode"
@@ -14007,7 +14080,7 @@ msgstr "Vaikne režiim"
 
 #: modules/demux/ts.c:135
 msgid "Do not complain on encrypted PES."
-msgstr ""
+msgstr "Ära kurda PES krüpteerimisel."
 
 #: modules/demux/ts.c:137
 msgid "CAPMT System ID"
@@ -14015,17 +14088,19 @@ msgstr "CAPMT süsteemi ID"
 
 #: modules/demux/ts.c:138
 msgid "Only forward descriptors from this SysID to the CAM."
-msgstr ""
+msgstr "Edasta ainult selle SysID kirjendused CAM-le."
 
 #: modules/demux/ts.c:140
 msgid "Packet size in bytes to decrypt"
-msgstr ""
+msgstr "Lahtikrüptimise paketi suurus baitides"
 
 #: modules/demux/ts.c:141
 msgid ""
 "Specify the size of the TS packet to decrypt. The decryption routines "
 "subtract the TS-header from the value before decrypting. "
 msgstr ""
+"Määra lahtikrüptimise TS paketi suurus. Lahtikrüptimise käsud lahtutavad TS-"
+"päise väärtusest enne lahtikrüptimist."
 
 #: modules/demux/ts.c:145
 msgid "Filename of dump"
@@ -14033,7 +14108,7 @@ msgstr "Tõmmise failinimi"
 
 #: modules/demux/ts.c:146
 msgid "Specify a filename where to dump the TS in."
-msgstr ""
+msgstr "Määra failinimi, kuhu TS salvestada."
 
 #: modules/demux/ts.c:148
 msgid "Append"
@@ -14044,16 +14119,20 @@ msgid ""
 "If the file exists and this option is selected, the existing file will not "
 "be overwritten."
 msgstr ""
+"Kui fail on juba olemas ja see valik on valitud, siis olemasolevat faili ei "
+"kirjutata üle."
 
 #: modules/demux/ts.c:153
 msgid "Dump buffer size"
-msgstr ""
+msgstr "Salvestamise puhvri suurus"
 
 #: modules/demux/ts.c:155
 msgid ""
 "Tweak the buffer size for reading and writing an integer number of packets."
 "Specify the size of the buffer here and not the number of packets."
 msgstr ""
+"Kohanda puhvri suurus täisrv pakettide lugemiseks ja kirjutamiseks. Määra "
+"siin puhvri suurus ja mitte pakettide arv."
 
 #: modules/demux/ts.c:158
 msgid "Separate sub-streams"
@@ -14064,6 +14143,8 @@ msgid ""
 "Separate teletex/dvbs pages into independent ES. It can be useful to turn "
 "off this option when using stream output."
 msgstr ""
+"Eralda teletex/dvbs lehed iseseisvateks ES-ks. On kaulik see valik välja "
+"lülitada, kui kasutadvoo väljundit."
 
 #: modules/demux/ts.c:164
 msgid "MPEG Transport Stream demuxer"
@@ -14104,7 +14185,7 @@ msgstr "kuulmispuudega"
 
 #: modules/demux/ts.c:3857 modules/demux/ts.c:3899
 msgid "visual impaired commentary"
-msgstr ""
+msgstr "kommentaar nägemispuudele"
 
 #: modules/demux/tta.c:45
 msgid "TTA demuxer"
@@ -14176,7 +14257,7 @@ msgstr "Videopildi külgede suhe (4:3, 16:9). Vaikimisi on piksel ruut."
 
 #: modules/gui/fbosd.c:111
 msgid "Filename of image file to use on the overlay framebuffer."
-msgstr ""
+msgstr "Ülekattega kaadripuhvril kasutatav pildifaili nimi."
 
 #: modules/gui/fbosd.c:113
 msgid "Transparency of the image"
@@ -14187,6 +14268,9 @@ msgid ""
 "Transparency value of the new image used in blending. By default it set to "
 "fully opaque (255). (from 0 for full transparency to 255 for full opacity)"
 msgstr ""
+"Sulandamisel kasutatava uue pildi läbipaistvuse väärtus. Vaikimisi on "
+"täiesti läbipaistmatu (255). (0 kuni 255 ehk täiesti läbipaistvast "
+"läbipaistmatuni)"
 
 #: modules/gui/fbosd.c:118 modules/misc/logger.c:113
 #: modules/video_filter/marq.c:87
@@ -14224,6 +14308,9 @@ msgid ""
 "2=right, 4=top, 8=bottom, you can also use combinations of these values, e."
 "g. 6=top-right)."
 msgstr ""
+"Sa võid jõuga määrata pildi asukoha ülekattel (0=keskel, 1=vasakul, "
+"2=paremal, 4=üleval, 8=all, võid kasutada ka nende väärtuste kombinatsioone, "
+"nt. 6=üleval-paremal)."
 
 #: modules/gui/fbosd.c:133 modules/misc/freetype.c:105
 #: modules/misc/win32text.c:65 modules/video_filter/marq.c:116
@@ -14236,6 +14323,8 @@ msgid ""
 "Opacity (inverse of transparency) of overlayed text. 0 = transparent, 255 = "
 "totally opaque. "
 msgstr ""
+"Ülekaetud teksti läbipaistmatus (läbipaistvuse vastand). 0 = läbipaistev, "
+"255 = täiesti läbipaistmatu."
 
 #: modules/gui/fbosd.c:137 modules/video_filter/marq.c:119
 #: modules/video_filter/rss.c:151
@@ -14256,6 +14345,10 @@ msgid ""
 "then blue. #000000 = black, #FF0000 = red, #00FF00 = green, #FFFF00 = yellow "
 "(red + green), #FFFFFF = white"
 msgstr ""
+"Videole renderdatava teksti värv. See peab olema 16-süsteemis (nagu HTML "
+"värvid). Kaks esimest märki on punase jaoks, siis roheline, siis sinine. "
+"#000000 = must, #FF0000 = punane, #00FF00 = roheline, #FFFF00 = kollane "
+"(punane + roheline), #FFFFFF = valge"
 
 #: modules/gui/fbosd.c:147
 msgid "Clear overlay framebuffer"
@@ -14267,6 +14360,8 @@ msgid ""
 "transparent. All previously rendered images and text will be cleared from "
 "the cache."
 msgstr ""
+"Kuvatud ülekatte pildid puhastatakse, tehes ülekatte täiesti läbipaistvaks. "
+"Kõik eelnevalt renderdatud pildid ja tekst tühjendatakse puhvrist."
 
 #: modules/gui/fbosd.c:152
 msgid "Render text or image"
@@ -14411,6 +14506,8 @@ msgid ""
 "Input has changed, unable to save bookmark. Suspending playback with \"Pause"
 "\" while editing bookmarks to ensure to keep the same input."
 msgstr ""
+"Sisendit muudeti, järjehoidja salvestamine nurjus. Peatan esitamise \"Paus\"-"
+"ga kuniks muudan järjehoidjaid, et hoida sma sisendit."
 
 #: modules/gui/macosx/bookmarks.m:271 modules/gui/macosx/wizard.m:1062
 msgid "Invalid selection"
@@ -14640,7 +14737,7 @@ msgstr "Helivaljuse normaliseerimine"
 
 #: modules/gui/macosx/extended.m:90
 msgid "Prevents the audio output from going over a predefined value."
-msgstr ""
+msgstr "Hoiab ära audio väärtuse minemist üle eelmääratud väärtuse."
 
 #: modules/gui/macosx/extended.m:92
 msgid "Headphone virtualization"
@@ -14686,6 +14783,11 @@ msgid ""
 "To choose the order in which the filter are applied, a filter option string "
 "can be set in the Preferences, Video / Filters section."
 msgstr ""
+"See paneel lubab lennult valida erinevaid video effekte.\n"
+"Neid filtreid saab eraldi seadistada Eelistusete alt, Video/Filtrite "
+"alamsektsioonist.\n"
+"Valimaks järjekorda, kuidas filtreid rakendatakse, võid määrata filtri "
+"valikute stringi Eelistused, Video / Filtirid sektsioonist."
 
 #: modules/gui/macosx/fspanel.m:409
 msgid "(no item is being played)"
@@ -14993,6 +15095,8 @@ msgid ""
 "Stretch the video to fill the entire window when resizing the video instead "
 "of keeping the aspect ratio and displaying black borders."
 msgstr ""
+"Venita video suuruse muutmisel akent, selle asemel et hoida kuvasuhet ja "
+"kuvada musti kaste."
 
 #: modules/gui/macosx/macosx.m:67
 msgid "Black screens in fullscreen"
@@ -15037,6 +15141,8 @@ msgid ""
 "By default, VLC keeps a list of the last 10 items. This feature can be "
 "disabled here."
 msgstr ""
+"Vaikimisi hoiab VLC meeles viimaset 10 kirjet. Selle saab siin välja "
+"lülitada."
 
 #: modules/gui/macosx/macosx.m:87
 msgid "Keep current Equalizer settings"
@@ -15047,6 +15153,8 @@ msgid ""
 "By default, VLC keeps the last equalizer settings before termination. This "
 "feature can be disabled here."
 msgstr ""
+"Vaikimisi hoiab VLC meeles ekvalaiseri viiamsed seaded enne välja "
+"lülitamist. Selle saab siin välja lülitada."
 
 #: modules/gui/macosx/macosx.m:91 modules/gui/macosx/simple_prefs.m:271
 msgid "Control playback with the Apple Remote"
@@ -15054,7 +15162,7 @@ msgstr "Juhi taasesitust Apple Remote-ga"
 
 #: modules/gui/macosx/macosx.m:92
 msgid "By default, VLC can be remotely controlled with the Apple Remote."
-msgstr ""
+msgstr "Vaikimisi saab VLC-d juhtida Apple Remote-ga."
 
 #: modules/gui/macosx/macosx.m:94 modules/gui/macosx/simple_prefs.m:272
 msgid "Control playback with media keys"
@@ -15177,6 +15285,9 @@ msgid ""
 "enter the URL in the field above. If you want to open a RTP or UDP stream, "
 "press the button below."
 msgstr ""
+"Avamaks tavalist võrgu voodu (HTTP, RTSP, RTMP, MMS, FTP, jne.), lihtsalt "
+"sisesta URL kasti. Kui soovid avada RTP või UDP voogu, klõpsa all olevat "
+"nuppu."
 
 #: modules/gui/macosx/open.m:205
 msgid ""
@@ -15187,6 +15298,10 @@ msgid ""
 "To open a stream using a different protocol, just press Cancel to close this "
 "sheet."
 msgstr ""
+"Kui soovid avada multiedastusvoogu, sisesta vastav IP aadress. Unicast "
+"režiimis kasutab VLC sinu masinaIP-d automaatselt.\n"
+"\n"
+"Avamaks erineva protokolliga voogu, klõpsa Loobu, et see aken sulgeda."
 
 #: modules/gui/macosx/open.m:208
 msgid "Open RTP/UDP Stream"
@@ -15220,7 +15335,7 @@ msgstr "Ekraanihõive sisend"
 
 #: modules/gui/macosx/open.m:226
 msgid "This facility allows you to process your screen's output."
-msgstr ""
+msgstr "See rakendus lubab sul töödelda sinu ekraani väljundit."
 
 #: modules/gui/macosx/open.m:227
 msgid "Frames per Second:"
@@ -15770,6 +15885,8 @@ msgid ""
 "Use the complete preferences to configure custom caching values for each "
 "access module."
 msgstr ""
+"Kasuta täielikke eelistusi seadistamaks iga pääsumooduli kohandatud "
+"puhverdamise väärtusi."
 
 #: modules/gui/macosx/simple_prefs.m:256
 msgid "HTTP Proxy"
@@ -15938,7 +16055,7 @@ msgstr "Liidese seadeid ei salvestatud"
 #: modules/gui/macosx/simple_prefs.m:1053
 #, c-format
 msgid "An error occured while saving your settings via SimplePrefs (%i)."
-msgstr ""
+msgstr "Tekkis tõrge sinu seadistuste salvestamisel SimplePref-ga (%i)."
 
 #: modules/gui/macosx/simple_prefs.m:888
 msgid "Audio Settings not saved"
@@ -16120,6 +16237,9 @@ msgid ""
 "generally the best thing to do. Other computers can then access the stream "
 "at http://yourip:8080 by default."
 msgstr ""
+"Sisesta kohalikud aadressid, mida soovid kuulata. Ära sisesta midagi, kui "
+"soovid kuulata kõiki võrguliideseid. Tavaliselt on nii parem. Teised arvutid "
+"pääsevad voole ligi aadressilt http://sinuIP:8080."
 
 #: modules/gui/macosx/wizard.m:261
 msgid ""
@@ -16127,6 +16247,9 @@ msgid ""
 "efficient, as the server needs to send the stream several times, but "
 "generally the most compatible"
 msgstr ""
+"Kasuta seda, etvoogedastada paljudesse arvutitesse. See meetod ei ole kõige "
+"efektiivsem, kuna seerver peab saatma voogu mitmel korral, aga on üldiselt "
+"kõige ühilduvam"
 
 #: modules/gui/macosx/wizard.m:264
 msgid ""
@@ -16135,6 +16258,9 @@ msgid ""
 "generally the best thing to do. Other computers can then access the stream "
 "at mms://yourip:8080 by default."
 msgstr ""
+"Sisesta kohalikud aadressid, mida soovid kuulata. Ära sisesta midagi, kui "
+"soovid kuulata kõiki võrguliideseid. Tavaliselt on nii parem. Teised arvutid "
+"pääsevad voole ligi aadressilt http://sinuIP:8080."
 
 #: modules/gui/macosx/wizard.m:268
 msgid ""
@@ -16143,6 +16269,10 @@ msgid ""
 "Note that only a small part of the MMS protocol is supported (MMS "
 "encapsulated in HTTP)."
 msgstr ""
+"Kasuta seda, et voogedastada Microsoft MMS protokolliga paljudesse "
+"arvutitesse. Seda protokolli kasutatakse kui transpordi meetodit paljudes "
+"Microsofti tarkvarades. Pea meeles, et ainult väike osa MMS protokollist on "
+"toetatud (MMS HTTP sees)."
 
 #: modules/gui/macosx/wizard.m:273 modules/gui/macosx/wizard.m:283
 msgid "Enter the address of the computer to stream to."
@@ -16158,6 +16288,9 @@ msgid ""
 "address between 224.0.0.0 and 239.255.255.255. For a private use, enter an "
 "address beginning with 239.255."
 msgstr ""
+"Sisesta multiedastuse aadress, kuhu voog saata, siia kasti. See peab olema "
+"IP aadress vahemikus 224.0.0.0 ja 239.255.255.255. Isiklikuks kasutamiseks "
+"sisesta aadress, mis algab 239.255."
 
 #: modules/gui/macosx/wizard.m:279
 msgid ""
@@ -16165,12 +16298,16 @@ msgid ""
 "network. This is the most efficient method to stream to several computers, "
 "but it won't work over the Internet."
 msgstr ""
+"Kasuta seda, et edastada voog dünaamilisele arvutite grupile "
+"multiedastusvõrgus. See on kõige efektiivsem viis voogedaastada mitmesse "
+"arvutisse, aga ta ei tööta üle Interneti."
 
 #: modules/gui/macosx/wizard.m:284
 msgid ""
 "Use this to stream to a single computer. RTP headers will be added to the "
 "stream"
 msgstr ""
+"Kasuta seda, et saata voog ainult ühte arvutisse. Voole lisatakse RTP päised"
 
 #: modules/gui/macosx/wizard.m:289
 msgid ""
@@ -16178,6 +16315,9 @@ msgid ""
 "network. This is the most efficient method to stream to several computers, "
 "but it won't work over Internet. RTP headers will be added to the stream"
 msgstr ""
+"Kasuta seda, et edastada voog dünaamilisele arvutite grupile "
+"multiedastusvõrgus. See on kõige efektiivsem viis voogedaastada mitmesse "
+"arvutisse, aga ta ei tööta üle Interneti. Voole lisatakse RTP päised."
 
 #: modules/gui/macosx/wizard.m:319
 msgid "Back"
@@ -16191,6 +16331,8 @@ msgstr "Voogedastuse/ümberkodeerimise nõustaja"
 #: modules/gui/macosx/wizard.m:326
 msgid "This wizard allows to configure simple streaming or transcoding setups."
 msgstr ""
+"See nõustaja lubab sul seadistada lihtsaid voodedastuse või transkodeerimise "
+"seadistusi."
 
 #: modules/gui/macosx/wizard.m:328 modules/gui/macosx/wizard.m:329
 #: modules/gui/macosx/wizard.m:402 modules/gui/macosx/wizard.m:404
@@ -16204,6 +16346,9 @@ msgid ""
 "transcoding capabilities. The Open and 'Saving/Streaming' dialogs will give "
 "access to more features."
 msgstr ""
+"See nõustaja annab sulle ainult väikese valiku VLC voogedastuse ja "
+"transkodeerimise võimalustest. Avamine ja 'Salvestamine/Voogedastamine' "
+"annab sulle rohkem valikuid."
 
 #: modules/gui/macosx/wizard.m:335 modules/gui/macosx/wizard.m:493
 #: modules/gui/macosx/wizard.m:1677
@@ -16233,7 +16378,7 @@ msgstr "Olemasolev esitusloendi kirje"
 
 #: modules/gui/macosx/wizard.m:353 modules/gui/macosx/wizard.m:433
 msgid "Partial Extract"
-msgstr ""
+msgstr "Osaline ekstrakt"
 
 #: modules/gui/macosx/wizard.m:355
 msgid ""
@@ -16241,6 +16386,9 @@ msgid ""
 "control the incoming stream (for example, a file or a disc, but not an UDP "
 "network stream.) The starting and ending times can be given in seconds."
 msgstr ""
+"Seda saab kasutada, et lugeda ainult osa voost. Peab olema võimalik juhtida "
+"sissetulevat voogu. (näiteks, fail või ketas, aga mitte UDP voog.) Alguse ja "
+"lõpu ajad antakse sekundites."
 
 #: modules/gui/macosx/wizard.m:359
 msgid "From"
@@ -16285,6 +16433,8 @@ msgid ""
 "This page allows to change the compression format of the audio or video "
 "tracks. To change only the container format, proceed to next page."
 msgstr ""
+"See leht lubab sul muuta audio ja video radade pakkimise vormingut. Muutmaks "
+"ainult konteinerit, liigu järgmisele lehele."
 
 #: modules/gui/macosx/wizard.m:382 modules/gui/macosx/wizard.m:441
 msgid "Transcode audio"
@@ -16299,12 +16449,16 @@ msgid ""
 "Enabling this allows to transcode the audio track if one is present in the "
 "stream."
 msgstr ""
+"Selle võimaldamine lubab sul audio radasi ümber kodeerida, kui ta on voo "
+"sees olemas."
 
 #: modules/gui/macosx/wizard.m:388 modules/gui/macosx/wizard.m:1838
 msgid ""
 "Enabling this allows to transcode the video track if one is present in the "
 "stream."
 msgstr ""
+"Selle võimaldamine lubab sul video radasi ümber kodeerida, kui ta on voo "
+"sees olemas."
 
 #: modules/gui/macosx/wizard.m:392
 msgid "Encapsulation format"
@@ -16315,6 +16469,8 @@ msgid ""
 "This page allows to select how the stream will be encapsulated. Depending on "
 "previously chosen settings all formats won't be available."
 msgstr ""
+"See leht lubab sul valida, kuidas voog kapseldatakse. Sõltuvalt eelnevalt "
+"tehtud valikutest ei pruugi kõik vormingud saadaval olla."
 
 #: modules/gui/macosx/wizard.m:398
 msgid "Additional streaming options"
@@ -17342,9 +17498,8 @@ msgid "Local Network"
 msgstr "Kohalik võrk"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:273
-#, fuzzy
 msgid "Internet"
-msgstr "Interlingue"
+msgstr "Internet"
 
 #: modules/gui/qt4/components/playlist/selector.cpp:295
 msgid "Subscribe to a podcast"
@@ -19671,9 +19826,8 @@ msgid "Lua HTTP"
 msgstr "Lua HTTP"
 
 #: modules/misc/lua/vlc.c:112
-#, fuzzy
 msgid "Lua RC"
-msgstr "Lua kunst"
+msgstr "Lua RC"
 
 #: modules/misc/lua/vlc.c:114
 msgid "Lua Telnet"
@@ -22763,7 +22917,7 @@ msgstr ""
 
 #: modules/video_filter/gradient.c:73
 msgid "Apply color gradient or edge detection effects"
-msgstr ""
+msgstr "Rakenda värvi gradiendi või ääre tuvastamise efektid"
 
 #: modules/video_filter/gradient.c:76
 msgid "Edge"
@@ -23523,7 +23677,7 @@ msgstr "Musta nivoo punase jaoks"
 
 #: modules/video_filter/panoramix.c:143
 msgid "Select the Black Level of blended zone (Red or Y component)"
-msgstr "Vali segatud tsooni must nivoo (punane või Y komponent)"
+msgstr "Vali segatud tsooni musta nivoo (punane või Y komponent)"
 
 #: modules/video_filter/panoramix.c:144
 msgid "Black Level for Green"
@@ -23539,7 +23693,7 @@ msgstr "Musta nivoo sinise jaoks"
 
 #: modules/video_filter/panoramix.c:147
 msgid "Select the Black Level of blended zone (Blue or V component)"
-msgstr "Vali segatud tsooni must nivoo (sinine või V komponent)"
+msgstr "Vali segatud tsooni musta nivoo (sinine või V komponent)"
 
 #: modules/video_filter/panoramix.c:149
 msgid "White Level for Red"
@@ -24579,34 +24733,28 @@ msgid "The height of the video window, in pixels."
 msgstr "Video akna kõrgus pikslites."
 
 #: modules/visualization/projectm.cpp:67
-#, fuzzy
 msgid "Mesh width"
-msgstr "Video laius"
+msgstr "Võrgu laius"
 
 #: modules/visualization/projectm.cpp:68
-#, fuzzy
 msgid "The width of the mesh, in pixels."
-msgstr "Mosaiigi kogulaius pikslites."
+msgstr "Võrgu laius pikslites."
 
 #: modules/visualization/projectm.cpp:70
-#, fuzzy
 msgid "Mesh height"
-msgstr "Tipu kõrgus"
+msgstr "Võrgu kõrgus"
 
 #: modules/visualization/projectm.cpp:71
-#, fuzzy
 msgid "The height of the mesh, in pixels."
-msgstr "Mosaiigi kogukõrgus pikslites."
+msgstr "Võrgu kõrgus pikslites."
 
 #: modules/visualization/projectm.cpp:73
-#, fuzzy
 msgid "Texture size"
-msgstr "Viipekäsud"
+msgstr "Tekstuuri suurus"
 
 #: modules/visualization/projectm.cpp:74
-#, fuzzy
 msgid "The size of the texture, in pixels."
-msgstr "Video akna laius pikslites."
+msgstr "Tekstuuri suurus pikslites."
 
 #: modules/visualization/projectm.cpp:77
 msgid "projectM"
